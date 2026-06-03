@@ -1,0 +1,143 @@
+{
+  "beat": "israel_middle_east",
+  "display_name": "Israel / Middle East",
+  "description": "Coverage of Israel, the Palestinian territories, and the broader Middle East region. Primary beat at launch.",
+  "_rss_notes": [
+    "Reuters deprecated their public RSS in 2020. We proxy via Google News search RSS (site:reuters.com).",
+    "i24 News uses a JavaScript SPA with no direct RSS endpoint. We proxy via Google News search RSS.",
+    "Al Jazeera's all.xml feed returns 301→403 (active bot blocking). Proxied via Google News RSS.",
+    "Euronews feed is general (all topics). topic_filter restricts it to Israel/Gaza/ME coverage.",
+    "Haaretz is paywalled; trafilatura will get summaries only. Kept for headline/framing signal.",
+    "Jerusalem Post: old URL (rssfeedsFrontPage.aspx) redirected to HTML. Fixed to rssfeedsisraelnews.aspx.",
+    "Arutz Sheva, Israel Hayom, Ynet: direct RSS blocked or unavailable. Proxied via Google News RSS.",
+    "domain_map is used by the GDELT ingest path to match article domains to outlet metadata."
+  ],
+  "sources": [
+    {
+      "outlet": "Al Jazeera English",
+      "domain": "aljazeera.com",
+      "rss": "https://news.google.com/rss/search?q=site:aljazeera.com+Israel+Gaza+Palestine&hl=en-US&gl=US&ceid=US:en",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "Middle East Eye",
+      "domain": "middleeasteye.net",
+      "rss": "https://www.middleeasteye.net/rss",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC"
+    },
+    {
+      "outlet": "Haaretz (English)",
+      "domain": "haaretz.com",
+      "rss": "https://www.haaretz.com/srv/haaretz-all-headlines-rss.xml",
+      "rss_fallback": "https://news.google.com/rss/search?q=site:haaretz.com&hl=en-US&gl=US&ceid=US:en",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "_note": "Paywalled — trafilatura retrieves summaries only. Kept for framing/headline signal."
+    },
+    {
+      "outlet": "The Guardian",
+      "domain": "theguardian.com",
+      "rss": "https://www.theguardian.com/world/middleeast/rss",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "BBC News",
+      "domain": "bbc.com",
+      "rss": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media"
+    },
+    {
+      "outlet": "Reuters",
+      "domain": "reuters.com",
+      "rss": "https://news.google.com/rss/search?q=site:reuters.com+Israel+Gaza+Middle+East&hl=en-US&gl=US&ceid=US:en",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "_note": "Reuters deprecated public RSS in 2020. Proxied via Google News search RSS."
+    },
+    {
+      "outlet": "Euronews",
+      "domain": "euronews.com",
+      "rss": "https://www.euronews.com/rss?format=mrss&level=theme&name=news",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "topic_filter": ["Israel", "Gaza", "Palestine", "Hamas", "Hezbollah", "Iran", "West Bank", "IDF", "Netanyahu", "Middle East", "Lebanon", "Syria", "Arab", "Palestinian"],
+      "_note": "General news feed — topic_filter restricts to Middle East coverage."
+    },
+    {
+      "outlet": "Ynet News",
+      "domain": "ynetnews.com",
+      "rss": "https://news.google.com/rss/search?q=site:ynetnews.com&hl=en-US&gl=US&ceid=US:en",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "_note": "English portal of Yediot Ahronot, Israel's largest-circulation paper. Direct RSS unavailable; Google News proxy."
+    },
+    {
+      "outlet": "The Times of Israel",
+      "domain": "timesofisrael.com",
+      "rss": "https://www.timesofisrael.com/feed/",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC"
+    },
+    {
+      "outlet": "Jerusalem Post",
+      "domain": "jpost.com",
+      "rss": "https://www.jpost.com/rss/rssfeedsisraelnews.aspx",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC"
+    },
+    {
+      "outlet": "i24 News (Israel)",
+      "domain": "i24news.tv",
+      "rss": "https://news.google.com/rss/search?q=site:i24news.tv&hl=en-US&gl=US&ceid=US:en",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "_note": "i24 uses a JS SPA with no direct RSS. Proxied via Google News search RSS."
+    },
+    {
+      "outlet": "Arutz Sheva (Israel National News)",
+      "domain": "israelnationalnews.com",
+      "rss": "https://news.google.com/rss/search?q=site:israelnationalnews.com&hl=en-US&gl=US&ceid=US:en",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "_note": "Nationalist/settler-movement perspective. Direct RSS returns blank HTML; Google News proxy."
+    },
+    {
+      "outlet": "Israel Hayom",
+      "domain": "israelhayom.com",
+      "rss": "https://news.google.com/rss/search?q=site:israelhayom.com&hl=en-US&gl=US&ceid=US:en",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "_note": "Pro-Netanyahu, Adelson-founded. Cloudflare bot challenge on direct fetch; Google News proxy."
+    }
+  ],
+  "gdelt": {
+    "enabled": true,
+    "keywords": ["Israel", "Gaza", "Palestine", "Hamas", "Netanyahu", "West Bank", "IDF", "Hezbollah", "Israeli"],
+    "timespan": "24h",
+    "max_records": 250,
+    "language": "English",
+    "source_country": "US"
+  },
+  "domain_map": {
+    "aljazeera.com":           {"outlet": "Al Jazeera English",              "bias_rating": "left",         "bias_rating_source": "AllSides"},
+    "middleeasteye.net":       {"outlet": "Middle East Eye",                  "bias_rating": "left",         "bias_rating_source": "MBFC"},
+    "haaretz.com":             {"outlet": "Haaretz (English)",                "bias_rating": "center-left",  "bias_rating_source": "AllSides"},
+    "theguardian.com":         {"outlet": "The Guardian",                     "bias_rating": "center-left",  "bias_rating_source": "AllSides"},
+    "bbc.com":                 {"outlet": "BBC News",                         "bias_rating": "center-left",  "bias_rating_source": "Ad Fontes Media"},
+    "bbc.co.uk":               {"outlet": "BBC News",                         "bias_rating": "center-left",  "bias_rating_source": "Ad Fontes Media"},
+    "reuters.com":             {"outlet": "Reuters",                          "bias_rating": "center",       "bias_rating_source": "AllSides"},
+    "euronews.com":            {"outlet": "Euronews",                         "bias_rating": "center",       "bias_rating_source": "MBFC"},
+    "ynetnews.com":            {"outlet": "Ynet News",                        "bias_rating": "center-right", "bias_rating_source": "MBFC"},
+    "timesofisrael.com":       {"outlet": "The Times of Israel",              "bias_rating": "center-right", "bias_rating_source": "MBFC"},
+    "jpost.com":               {"outlet": "Jerusalem Post",                   "bias_rating": "center-right", "bias_rating_source": "MBFC"},
+    "i24news.tv":              {"outlet": "i24 News (Israel)",                 "bias_rating": "center-right", "bias_rating_source": "MBFC"},
+    "israelnationalnews.com":  {"outlet": "Arutz Sheva (Israel National News)","bias_rating": "right",        "bias_rating_source": "MBFC"},
+    "israelhayom.com":         {"outlet": "Israel Hayom",                     "bias_rating": "right",        "bias_rating_source": "MBFC"}
+  },
+  "language_filter": ["en"],
+  "notes": "Updated 2026-06-01: added Ynet, Arutz Sheva, Israel Hayom; added domain_map for GDELT ingest; GDELT config updated for gdeltdoc library."
+}

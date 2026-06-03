@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/*
+ * Light mode locked — see 00_MASTER_DOCUMENT.md §12 (UI Design Decisions)
+ * for rationale and dark-mode alternatives for future consideration.
+ */
+:root {
+  color-scheme: light;
+  --background: #ffffff;
+  --foreground: #171717;
+  /* Typography floor: descriptive text never goes below this lightness.
+     Ensures WCAG AA contrast (4.5:1) on white even for secondary copy. */
+  --text-secondary: #4b5563;   /* Tailwind gray-600 */
+  --text-tertiary: #6b7280;    /* Tailwind gray-500 — minimum for body copy */
+  --text-meta: #9ca3af;        /* Tailwind gray-400 — dates, labels only */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}

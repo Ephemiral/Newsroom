@@ -1,0 +1,112 @@
+{
+  "Al Jazeera English": {
+    "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+    "notes": "Launched 2006; editorially independent per its charter, but state-funded; widely read international news outlet.",
+    "last_reviewed": "2026-06-02"
+  },
+  "Middle East Eye": {
+    "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+    "notes": "UK-based online outlet focused on the Middle East and North Africa; known for critical coverage of Israel and Gulf states.",
+    "last_reviewed": "2026-06-02"
+  },
+  "Haaretz": {
+    "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+    "notes": "Founded 1919; Israel's oldest daily newspaper; English and Hebrew editions; known for liberal-critical coverage of government.",
+    "last_reviewed": "2026-06-02"
+  },
+  "Haaretz (English)": {
+    "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+    "notes": "English-language edition of Haaretz, Israel's oldest daily newspaper. Known for liberal and critical coverage of Israeli government policy.",
+    "last_reviewed": "2026-06-02"
+  },
+  "The Guardian": {
+    "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+    "notes": "Founded 1821; UK-based; one of the most widely read English-language news websites globally; center-left editorial stance.",
+    "last_reviewed": "2026-06-02"
+  },
+  "BBC News": {
+    "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+    "notes": "Founded 1922; world's largest public broadcaster; editorially independent from government by charter, though funding is subject to periodic government review. Bias rating: center-left per Ad Fontes Media (AllSides rates it center; Ad Fontes methodology is quantitative and journalist-scored).",
+    "last_reviewed": "2026-06-02"
+  },
+  "Reuters": {
+    "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+    "notes": "Founded 1851; one of the world's largest international wire services.",
+    "last_reviewed": "2026-06-02"
+  },
+  "Reuters (via GV Wire)": {
+    "ownership": "Reuters content syndicated by GV Wire, a local California news outlet. Reuters is owned by Thomson Reuters Corporation.",
+    "notes": "Wire service republication.",
+    "last_reviewed": "2026-06-02"
+  },
+  "Euronews": {
+    "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+    "notes": "Pan-European news broadcaster founded 1993; multilingual.",
+    "last_reviewed": "2026-06-02"
+  },
+  "Ynet News": {
+    "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+    "notes": "Online news arm of Yedioth Ahronoth, Israel's highest-circulation newspaper. Center to center-right; one of the most visited news sites in Israel.",
+    "last_reviewed": "2026-06-02"
+  },
+  "The Times of Israel": {
+    "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+    "notes": "English-language Israeli newspaper founded 2012; center to center-right editorial stance.",
+    "last_reviewed": "2026-06-02"
+  },
+  "Times of Israel": {
+    "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+    "notes": "English-language Israeli newspaper founded 2012; center to center-right editorial stance.",
+    "last_reviewed": "2026-06-02"
+  },
+  "Jerusalem Post": {
+    "ownership": "Owned by Riesling Investment & Technology Ltd, controlled by Israeli investor Eli Azur. Previously owned by Miriam Adelson.",
+    "notes": "Founded 1932 (as the Palestine Post); English-language Israeli daily; center-right editorial stance; large English-speaking diaspora readership.",
+    "last_reviewed": "2026-06-02"
+  },
+  "i24 News (Israel)": {
+    "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+    "notes": "Multilingual international news channel launched in 2013 from Tel Aviv; broadcasts in English, French, and Arabic; center-right Israeli perspective.",
+    "last_reviewed": "2026-06-02"
+  },
+  "i24 News": {
+    "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+    "notes": "Multilingual international news channel launched in 2013 from Tel Aviv; broadcasts in English, French, and Arabic.",
+    "last_reviewed": "2026-06-02"
+  },
+  "Arutz Sheva (Israel National News)": {
+    "ownership": "Operated by a non-profit association registered in the United States. Closely associated with the national-religious settler movement in the West Bank.",
+    "notes": "Founded 1988 as a pirate radio station; now a digital outlet. Strongly right-wing Zionist editorial stance; primary outlet for the Israeli settler community.",
+    "last_reviewed": "2026-06-02"
+  },
+  "Arutz Sheva": {
+    "ownership": "Operated by a non-profit association registered in the United States. Closely associated with the national-religious settler movement in the West Bank.",
+    "notes": "Founded 1988; strongly right-wing Zionist editorial stance; primary outlet for the Israeli settler community.",
+    "last_reviewed": "2026-06-02"
+  },
+  "Israel Hayom": {
+    "ownership": "Founded by Sheldon Adelson in 2007; now owned by the Miriam and Sheldon G. Adelson Family Foundation following his death in 2021. Distributed free of charge.",
+    "notes": "Israel's highest-circulation daily newspaper. Strongly pro-Netanyahu editorial stance; its free distribution model was controversial, with competitors alleging it distorted the market.",
+    "last_reviewed": "2026-06-02"
+  },
+  "Bloomberg": {
+    "ownership": "Privately owned by Michael Bloomberg and Bloomberg LP partners.",
+    "notes": "Founded 1990; financial and general news with global reach; subscription-based.",
+    "last_reviewed": "2026-06-02"
+  },
+  "Truthout": {
+    "ownership": "Independent non-profit; funded by reader donations. No corporate or government ownership.",
+    "notes": "Founded 2001; progressive news and opinion outlet.",
+    "last_reviewed": "2026-06-02"
+  },
+  "The Jewish News (Detroit) / JNS": {
+    "ownership": "Jewish News is an independent Jewish community newspaper based in Michigan. JNS (Jewish News Syndicate) is a non-profit wire service for Jewish and pro-Israel media.",
+    "notes": "JNS founded 2014; explicitly pro-Israel editorial perspective.",
+    "last_reviewed": "2026-06-02"
+  },
+  "Democracy Now!": {
+    "ownership": "Non-profit, listener/viewer-supported. No corporate or government ownership.",
+    "notes": "Founded 1996 by Amy Goodman; independent progressive daily news program.",
+    "last_reviewed": "2026-06-02"
+  }
+}

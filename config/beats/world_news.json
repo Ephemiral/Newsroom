@@ -1,0 +1,63 @@
+{
+  "beat": "world_news",
+  "display_name": "General World News",
+  "description": "Broader world news coverage. Secondary beat; proves the pipeline generalises beyond the primary beat.",
+  "sources": [
+    {
+      "outlet": "Reuters",
+      "rss": "https://feeds.reuters.com/reuters/worldNews",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "BBC News",
+      "rss": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "AP News",
+      "rss": "https://rsshub.app/apnews/topics/world-news",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "Al Jazeera English",
+      "rss": "https://www.aljazeera.com/xml/rss/all.xml",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "The Guardian",
+      "rss": "https://www.theguardian.com/world/rss",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "Fox News (World)",
+      "rss": "https://moxie.foxnews.com/google-publisher/world.xml",
+      "bias_rating": "right",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "Deutsche Welle (DW)",
+      "rss": "https://rss.dw.com/xml/rss-en-world",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC"
+    },
+    {
+      "outlet": "France 24",
+      "rss": "https://www.france24.com/en/rss",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC"
+    }
+  ],
+  "gdelt": {
+    "enabled": true,
+    "query": "",
+    "themes": [],
+    "max_records": 50
+  },
+  "language_filter": ["en"],
+  "notes": "Stub config created at M0. Source list and GDELT query to be expanded at M1. GDELT query intentionally left broad for world news."
+}

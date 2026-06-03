@@ -1,0 +1,568 @@
+{
+  "schema_version": "0.2",
+  "event": {
+    "cluster_id": "evt_2026_06_01_065",
+    "beat": "israel_middle_east",
+    "title": "France Bars Israeli Officials and Offensive Weapons from Eurosatory 2026 Defence Exhibition",
+    "summary": "France banned Israeli government representatives from attending the Eurosatory defence exhibition in Paris in June 2026, and restricted Israeli companies to displaying only air defence products while prohibiting offensive weapons systems. Israel's Defence Ministry condemned the move as 'disgraceful.'",
+    "date": "2026-06-01",
+    "generated_at": "2026-06-01T21:08:17.799781+00:00"
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/france-bars-israeli-officials-major-defence-exhibition",
+      "author": "Tamara Turki",
+      "published_at": "2026-06-01T16:39:54+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN3d3dk1TZTE4RXB6YzN4ZFhEZXNxd0pvNXdheGtDUE15LXB2NWp2MFN3SDN1dDBBYThibnNjQS13YkM1UE5za1Q4Y2pUM1hTU0ZLRVBud3RYRHB6bmtQU1hyM09XUFAxeFlWNEc0NzRLd1BqNkpHU0JCbFIzeHA4SThxOEM5NnFFSFNLaE9jU2lHZ2ZvTnF6eUF2WlRtTXhfTFVvYkpvRmhURjlV?oc=5",
+      "author": null,
+      "published_at": "2026-06-01T14:59:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVzZmcmlKbllxaXAwWEFkbmw4TktBV05HanpBTkFWeVh3MVhZcUtMZS04RVRNZV9VQUNrRWtWMFRqQWEyYlh2VmZ6amRiVnNBVldrcVJWUGVvWDlGazdhTG83Y21KQ1FhQzI0ckpyVks4OGNHYzFVOGo0Q0U5ZWpQS1JlUEwtdE5fN2R2UlZraWVqMkFMT2ZWYjhtVDA0MGF1VUdNNWJRVzRuQkJqTWNnOGh3eE9zekcxVnM3UDVwaEd5MkZfaFVNS1MyTWZvdXdX?oc=5",
+      "author": null,
+      "published_at": "2026-06-01T17:14:57+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/france-bars-israel-from-leading-defense-expo-sparking-outcry-from-jerusalem/",
+      "author": null,
+      "published_at": "2026-06-01T16:00:39+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "France banned Israeli government representatives from attending the Eurosatory defence exhibition in Paris in June 2026.",
+      "classification": "agreed",
+      "claim_group": "eurosatory_ban",
+      "rationale": "All four outlets report this ban, including left-leaning Middle East Eye, center Reuters, and center-right i24 News and Times of Israel, confirming cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "France 'has banned Israeli government representatives from attending' — attributed to Israel's defence ministry",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Israel 'barred from attending a defense exhibition in France' — presented as a headline fact",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "France 'banned Israeli officials from a weapons show' — attributed to Israel's statement",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "France 'has barred Israel from participating in this month's Eurosatory defense exhibition,' preventing a national pavilion and government representatives",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The Eurosatory ban prevents Israel's Defence Ministry from establishing a national pavilion at the exhibition.",
+      "classification": "single_source",
+      "claim_group": "eurosatory_ban",
+      "rationale": "Only the Times of Israel specifies the prohibition on a national pavilion as a distinct consequence of the ban.",
+      "framing_variants": [
+        {
+          "characterization": "The bar prevents the ministry 'from establishing a national pavilion'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Israeli weapons manufacturers were prohibited from displaying offensive weapons systems at Eurosatory 2026 but were permitted to showcase air defence products.",
+      "classification": "agreed",
+      "claim_group": "eurosatory_ban",
+      "rationale": "Both left-leaning Middle East Eye and center-right Times of Israel report the same dual restriction — no offensive systems, air defence permitted — providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Israeli firms 'prohibited from displaying offensive weapons systems' and 'will only be allowed to showcase air defence products'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "French authorities 'will only permit Israeli companies to display air defense systems while prohibiting the exhibition of offensive weapon systems'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The Israeli Defence Ministry condemned France's Eurosatory ban as a 'disgraceful decision.'",
+      "classification": "single_source",
+      "claim_group": "eurosatory_ban",
+      "rationale": "Only the Times of Israel quotes the Israeli Defence Ministry's specific characterization of the ban as 'disgraceful.'",
+      "framing_variants": [
+        {
+          "characterization": "The ministry 'condemned the move as a disgraceful decision'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Eurosatory is one of the world's leading defence exhibitions.",
+      "classification": "single_source",
+      "claim_group": "eurosatory_ban",
+      "rationale": "Only the Times of Israel provides this descriptive characterization of Eurosatory's global standing.",
+      "framing_variants": [
+        {
+          "characterization": "Described as 'one of the world's leading defense expos'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "French authorities barred Israeli National Security Minister Itamar Ben Gvir from entering France approximately one week before the Eurosatory ban.",
+      "classification": "single_source",
+      "claim_group": "france_israel_diplomatic_tensions",
+      "rationale": "Only Middle East Eye reports the specific detail of Ben Gvir being barred from France and its temporal relationship to the Eurosatory ban.",
+      "framing_variants": [
+        {
+          "characterization": "The Eurosatory ban 'comes a week after French authorities barred Israeli National Security Minister Itamar Ben Gvir from entering the country'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The Ben Gvir entry ban followed the release of footage showing detained flotilla activists blindfolded with their hands bound while Ben Gvir looked on.",
+      "classification": "single_source",
+      "claim_group": "france_israel_diplomatic_tensions",
+      "rationale": "Only Middle East Eye reports the footage of detained flotilla activists as the stated context for the Ben Gvir entry ban.",
+      "framing_variants": [
+        {
+          "characterization": "The ban on Ben Gvir followed 'release of footage showing detained flotilla activists blindfolded, with their hands bound, as he looked on'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "France initially banned Israeli defence firms from exhibiting at the 2024 Eurosatory before reversing that decision.",
+      "classification": "single_source",
+      "claim_group": "historical_context",
+      "rationale": "Only the Times of Israel references the 2024 Eurosatory ban and its subsequent reversal as historical background.",
+      "framing_variants": [
+        {
+          "characterization": "French authorities 'initially banned Israeli defense firms from exhibiting at the 2024 Eurosatory before later reversing the decision'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Organizers erected black partition walls around Israeli company exhibits displaying offensive weapons systems at the 2025 Paris Air Show.",
+      "classification": "single_source",
+      "claim_group": "historical_context",
+      "rationale": "Only the Times of Israel references this action at the 2025 Paris Air Show as relevant historical background.",
+      "framing_variants": [
+        {
+          "characterization": "'Organizers erected black partition walls around Israeli company exhibits displaying offensive weapons systems at the 2025 Paris Air Show'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "In April 2026, Israel's Defence Ministry halted all defence procurement from France.",
+      "classification": "single_source",
+      "claim_group": "france_israel_diplomatic_tensions",
+      "rationale": "Only the Times of Israel reports Israel's April halt of defence procurement from France.",
+      "framing_variants": [
+        {
+          "characterization": "'In April, the Defense Ministry halted all defense procurement from France'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Israel's Defence Ministry stated that the halt in defence procurement from France was in response to French measures that 'harmed Israel's security.'",
+      "classification": "single_source",
+      "claim_group": "france_israel_diplomatic_tensions",
+      "rationale": "Only the Times of Israel provides Israel's stated justification for halting procurement from France.",
+      "framing_variants": [
+        {
+          "characterization": "The halt was described as being 'in response to French measures that it said harmed Israel's security'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "France prohibited Israeli aircraft from using French airspace during the US-led war on Iran.",
+      "classification": "single_source",
+      "claim_group": "france_israel_diplomatic_tensions",
+      "rationale": "Only the Times of Israel reports France's prohibition on Israeli aircraft using French airspace during the Iran conflict.",
+      "framing_variants": [
+        {
+          "characterization": "Listed as one of the French measures: 'prohibiting Israeli aircraft from using French airspace during the US-led war on Iran'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "The United States claimed that France refused it the use of its airspace for military purposes during the war on Iran.",
+      "classification": "single_source",
+      "claim_group": "france_israel_diplomatic_tensions",
+      "rationale": "Only the Times of Israel references the US claim about France denying airspace access during the Iran war.",
+      "framing_variants": [
+        {
+          "characterization": "'The US also claimed that France refused it the use of its airspace for military purposes during the war'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "France was excluded from mediating direct talks between Israel and Lebanon in Washington.",
+      "classification": "single_source",
+      "claim_group": "france_israel_diplomatic_tensions",
+      "rationale": "Only the Times of Israel references France's exclusion from Israel-Lebanon mediation talks in Washington.",
+      "framing_variants": [
+        {
+          "characterization": "Cited as relevant context: 'its exclusion from mediating direct talks between Israel and Lebanon in Washington'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "French President Emmanuel Macron offered in March 2026 for France to host direct talks between Israel and Lebanon, telling President Isaac Herzog that 'France is working to promote this goal.'",
+      "classification": "single_source",
+      "claim_group": "france_israel_diplomatic_tensions",
+      "rationale": "Only the Times of Israel reports Macron's offer to host Israel-Lebanon talks and his communication with President Herzog.",
+      "framing_variants": [
+        {
+          "characterization": "'French President Emmanuel Macron offering in March for his country to host direct talks between Israel and Lebanon,' telling Herzog 'France is working to promote this goal'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Macron stated that 'nothing justifies the major escalation underway in south Lebanon.'",
+      "classification": "single_source",
+      "claim_group": "france_israel_diplomatic_tensions",
+      "rationale": "Only the Times of Israel quotes Macron's statement on Lebanon escalation.",
+      "framing_variants": [
+        {
+          "characterization": "'On Sunday, Macron said that nothing justifies the major escalation underway in south Lebanon'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "France requested an emergency UN Security Council meeting after Israeli forces seized the medieval Beaufort castle in Lebanon.",
+      "classification": "single_source",
+      "claim_group": "france_israel_diplomatic_tensions",
+      "rationale": "Only the Times of Israel reports France's UN Security Council emergency meeting request in connection with the Beaufort castle seizure.",
+      "framing_variants": [
+        {
+          "characterization": "Cited as context: 'France's request for an emergency meeting of the United Nations Security Council after Israeli forces seized the medieval Beaufort castle in Lebanon'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Macron criticized Israel's defence establishment during the Iran war, openly condemned the scale of the US-Israeli campaign against Iran, and urged both a diplomatic solution and a halt to fighting in Lebanon against Hezbollah.",
+      "classification": "single_source",
+      "claim_group": "france_israel_diplomatic_tensions",
+      "rationale": "Only the Times of Israel reports this cluster of Macron positions regarding the Iran war and Lebanon conflict.",
+      "framing_variants": [
+        {
+          "characterization": "Macron 'criticized Israel's defense establishment during the Iran war,' 'openly condemning the scale of the US-Israeli campaign,' 'urging a diplomatic solution' and 'a halt to fighting in Lebanon against the Iran-backed Hezbollah terror group'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Eurosatory is a major biennial land and airland defence and security exhibition held in Paris, described as one of the world's leading defence expos.",
+      "sources": [
+        "src_004"
+      ]
+    },
+    {
+      "point": "France had previously banned Israeli defence firms from exhibiting at the 2024 Eurosatory but reversed that decision; at the 2025 Paris Air Show, organizers erected black partition walls around Israeli exhibits displaying offensive weapons.",
+      "sources": [
+        "src_004"
+      ]
+    },
+    {
+      "point": "Israel's Defence Ministry halted all defence procurement from France in April 2026, citing French measures it said harmed Israel's security, including denial of airspace during the US-led war on Iran.",
+      "sources": [
+        "src_004"
+      ]
+    },
+    {
+      "point": "France-Israel relations had been strained by a series of disputes including France's exclusion from Israel-Lebanon mediation talks, Macron's criticism of Israeli military operations in Lebanon and the Iran campaign, and a French request for an emergency UN Security Council meeting over Israeli seizure of Beaufort castle in Lebanon.",
+      "sources": [
+        "src_004"
+      ]
+    },
+    {
+      "point": "Ben Gvir had previously been barred from entering France following the release of footage showing him present while detained flotilla activists were blindfolded with their hands bound.",
+      "sources": [
+        "src_001"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-06-02T19:33:34.952232+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "France banned Israeli government representatives from attending the Eurosatory defence exhibition in Paris in June 2026. Israeli weapons manufacturers were prohibited from displaying offensive weapons systems at the event but were permitted to showcase air defence products.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Eurosatory is one of the world's leading defence exhibitions. The ban prevented Israel's Defence Ministry from establishing a national pavilion at the exhibition, according to Israeli reporting.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "France had previously banned Israeli defence firms from the 2024 Eurosatory exhibition before reversing that decision. At the 2025 Paris Air Show, organizers erected black partition walls around Israeli company exhibits displaying offensive weapons systems.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Israeli outlet Times of Israel reported that the Israeli Defence Ministry condemned France's decision as 'disgraceful.' This reaction was covered exclusively by center-right Israeli media.",
+        "supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "According to left-leaning Middle East Eye, French authorities had barred Israeli National Security Minister Itamar Ben Gvir from entering France approximately one week before the Eurosatory ban. The outlet reported that the entry ban followed the release of footage showing detained flotilla activists blindfolded with their hands bound while Ben Gvir looked on.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Israeli media reported that in April 2026, Israel's Defence Ministry halted all defence procurement from France. The ministry stated the halt was in response to French measures that 'harmed Israel's security,' according to center-right Israeli outlets.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "During the US-led war on Iran earlier in 2026, France prohibited Israeli aircraft from using French airspace, according to Israeli reporting. The United States claimed that France refused it the use of its airspace for military purposes during the same conflict. These restrictions were covered only by center-right Israeli sources.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Israeli outlets reported that French President Emmanuel Macron had offered in March 2026 for France to host direct talks between Israel and Lebanon, telling President Isaac Herzog that 'France is working to promote this goal.' However, France was subsequently excluded from mediating direct talks between Israel and Lebanon held in Washington.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "According to Israeli reporting, Macron stated that 'nothing justifies the major escalation underway in south Lebanon.' France requested an emergency UN Security Council meeting after Israeli forces seized the medieval Beaufort castle in Lebanon. These Israeli military operations were directed against Hezbollah, an Iranian-backed militant group designated as a terrorist organization by the US and EU, operating along Israel's northern border.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Center-right Israeli sources reported that during the Iran war, Macron criticized Israel's defence establishment, openly condemned the scale of the US-Israeli campaign against Iran, and urged both a diplomatic solution and a halt to fighting in Lebanon against Hezbollah.",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

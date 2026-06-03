@@ -1,0 +1,1144 @@
+{
+  "schema_version": "0.2",
+  "event": {
+    "cluster_id": "evt_2026_05_31_001",
+    "beat": "israel_middle_east",
+    "title": "Netanyahu Directs Israeli Military to Expand Control of Gaza to 70 Percent",
+    "summary": "On May 28–29, 2026, Israeli Prime Minister Benjamin Netanyahu publicly announced that he had directed the Israeli military to expand its territorial control of the Gaza Strip from approximately 60 percent to 70 percent, exceeding the boundaries set under the U.S.-brokered October 2025 ceasefire agreement.",
+    "date": "2026-05-28",
+    "generated_at": "2026-05-31T14:10:02.116164+00:00"
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/5/28/israels-netanyahu-directs-army-to-seize-70-percent-of-gaza-strip",
+      "author": "Al Jazeera Staff",
+      "published_at": "2026-05-28T19:03:50Z",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/5/29/just-what-are-israels-long-term-plans-for",
+      "author": "Simon Speakman Cordall",
+      "published_at": "2026-05-29T15:01:31Z",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": "Simon Speakman Cordall is an Al Jazeera English correspondent who covers stories across the Middle East and Central Asia, with reporting experience in conflict zones and investigations into human rights issues.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Truthout",
+      "url": "https://truthout.org/articles/netanyahu-says-israeli-military-to-take-over-70-percent-of-gaza/",
+      "author": "Shireen Akram-Boshar",
+      "published_at": "2026-05-29T18:29:01Z",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Independent non-profit; funded by reader donations. No corporate or government ownership.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Reuters (via GV Wire)",
+      "url": "https://gvwire.com/2026/05/28/netanyahu-directs-israeli-forces-to-expand-gaza-control-to-70-percent/",
+      "author": "Reuters",
+      "published_at": "2026-05-28T18:02:28Z",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Reuters content syndicated by GV Wire, a local California news outlet. Reuters is owned by Thomson Reuters Corporation.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "The Jewish News (Detroit) / JNS",
+      "url": "https://www.thejewishnews.com/news/netanyahu-israel-controls-60-of-gaza-aims-to-expand-hold-to-70/article_0d3fb626-5c6a-4faf-8c80-0a3ed5d55f4c.html",
+      "author": "JNS",
+      "published_at": "2026-05-29T13:02:00Z",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Jewish News is an independent Jewish community newspaper based in Michigan. JNS (Jewish News Syndicate) is a non-profit wire service for Jewish and pro-Israel media.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "Euronews",
+      "url": "https://www.euronews.com/2026/05/29/netanyahu-vows-to-increase-israels-control-of-the-gaza-strip-to-70",
+      "author": null,
+      "published_at": "2026-05-29T00:00:00Z",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-29/netanyahu-says-israel-will-expand-control-over-gaza-strip-to-70",
+      "author": null,
+      "published_at": "2026-05-29T00:00:00Z",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Privately owned by Michael Bloomberg and Bloomberg LP partners.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_008",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/netanyahu-says-he-told-idf-to-seize-70-of-gaza-strip-well-beyond-terms-of-truce/",
+      "author": null,
+      "published_at": "2026-05-29T00:00:00Z",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_009",
+      "outlet": "Haaretz",
+      "url": "https://www.haaretz.com/israel-news/israel-security/2026-05-29/ty-article/netanyahu-i-ordered-israeli-forces-to-expand-gaza-control-to-70-percent/0000019e-713a-d84e-a3be-f53b25440000",
+      "author": null,
+      "published_at": "2026-05-29T00:00:00Z",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_010",
+      "outlet": "Democracy Now!",
+      "url": "https://www.democracynow.org/2026/5/29/headlines/netanyahu_orders_israels_army_to_seize_70_of_gaza_strip",
+      "author": "Democracy Now! Staff",
+      "published_at": "2026-05-29T00:00:00Z",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Non-profit, listener/viewer-supported. No corporate or government ownership.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Netanyahu publicly stated that Israel currently controls approximately 60 percent of the Gaza Strip.",
+      "classification": "agreed",
+      "rationale": "Sources spanning left, center, center-left, and center-right all report Netanyahu's own stated figure of approximately 60 percent control, making this one of the most broadly agreed facts in the cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Netanyahu said 'At this point, we are fully in control of 60 percent of the territory of the Gaza Strip'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Netanyahu declared 'We are currently squeezing Hamas; we now control 60 percent of the territory of the Strip'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Netanyahu has repeatedly said in public remarks that the military controls more than 60% of Gaza",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Israel controls 60% of the Gaza Strip according to Netanyahu",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Netanyahu stated 'we are fully in control of 60% of the territory of the Gaza Strip'",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_007",
+        "src_008",
+        "src_009"
+      ],
+      "contested_by": [],
+      "claim_group": "territorial_control"
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Netanyahu directed the Israeli military to expand territorial control of Gaza to 70 percent.",
+      "classification": "agreed",
+      "rationale": "Every source in the cluster — across left, center, center-left, and center-right outlets — reports Netanyahu's directive to reach 70 percent control, making this the most universally agreed claim.",
+      "framing_variants": [
+        {
+          "characterization": "Netanyahu 'instructed the Israeli army to expand its control' to 70 percent",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Netanyahu 'directed the Israeli military to take over 70 percent of the Gaza strip'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Netanyahu 'directed Israeli military to seize 70% of Gaza'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "First time Netanyahu publicly set a new territorial objective for Israeli forces in Gaza",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Netanyahu 'ordered Israel's army to seize 70% of Gaza Strip' — using more forceful language",
+          "source_id": "src_010"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_007",
+        "src_008",
+        "src_009",
+        "src_010"
+      ],
+      "contested_by": [],
+      "claim_group": "territorial_control"
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Netanyahu made these remarks at a conference, with audience members calling for 100 percent Israeli control of Gaza, to which Netanyahu responded by saying to proceed step by step, starting with 70 percent.",
+      "classification": "agreed",
+      "rationale": "Multiple sources from different bias ratings (left and center) corroborate the audience exchange and Netanyahu's 'step by step' response.",
+      "framing_variants": [
+        {
+          "characterization": "An audience member shouted Israel should take the entire enclave; Netanyahu responded 'we are going in order' and 'First 70 percent'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Someone in the crowd yelled '100!'; Netanyahu said 'Let's go step by step. First of all, 70.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Audience members shouted for 100% control; Netanyahu replied 'First 70%. We'll start with that.'",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_008"
+      ],
+      "contested_by": [],
+      "claim_group": "territorial_control"
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Netanyahu made the remarks at a conference hosted by a pre-military academy, identified variously as the Jordan Valley Conference and as being located in an Israeli settlement in the occupied West Bank.",
+      "classification": "agreed",
+      "rationale": "Two sources from different bias ratings identify the location of the conference, though they describe it differently — one as the Jordan Valley Conference and one as a pre-military academy in an illegal settlement.",
+      "framing_variants": [
+        {
+          "characterization": "Conference hosted by a 'pre-military' academy in an illegal settlement in the occupied West Bank",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Netanyahu speaking at the Jordan Valley Conference",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": [],
+      "claim_group": "background_context"
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The remarks were recorded by Channel 12 and aired on Thursday.",
+      "classification": "single_source",
+      "rationale": "Only Al Jazeera English specifies that the footage was recorded and aired by Channel 12; no other source identifies the media outlet responsible for broadcasting the remarks.",
+      "framing_variants": [
+        {
+          "characterization": "Footage recorded by Channel 12 and aired on Thursday",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": [],
+      "claim_group": "background_context"
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "A U.S.-brokered ceasefire/truce agreement was reached in October 2025 regarding Gaza.",
+      "classification": "agreed",
+      "rationale": "All sources that provide context agree that a U.S.-brokered ceasefire was reached in October 2025, though outlets from left to center-right differ on whether to call it a genuine 'ceasefire' or place the word in quotation marks.",
+      "framing_variants": [
+        {
+          "characterization": "United States-brokered 'ceasefire' in October 2025 — scare quotes used",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Donald Trump's 20-point peace plan was signed on October 9, 2025",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "An October U.S.-brokered truce that has failed to halt Israeli attacks or secure Hamas' disarmament",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The ceasefire brokered by the United States on October 10, 2025",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_008",
+        "src_009"
+      ],
+      "contested_by": [],
+      "claim_group": "ceasefire_details"
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Under the October 2025 ceasefire terms, Israel was allocated control of approximately 53 percent of Gaza, east of a demarcation boundary called the Yellow Line.",
+      "classification": "agreed",
+      "rationale": "Sources from left to center-right consistently report 53 percent as the original ceasefire allocation, with Hamas controlling the remainder, giving this claim ideological breadth.",
+      "framing_variants": [
+        {
+          "characterization": "Peace plan provided for Israel to maintain control of 58 percent — slight discrepancy noted",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Yellow line divided Gaza in half, with Israel controlling 53 percent of the territory",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "That line put Israel in control of some 53% of Gaza, with Hamas ruling the rest",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Israeli forces were given control of 53% of Gaza's territory, east of the truce-established Yellow Line",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_008"
+      ],
+      "contested_by": [],
+      "claim_group": "ceasefire_details"
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Israel's current de facto territorial control of Gaza has expanded beyond the ceasefire's original 53 percent allocation, reaching an estimated 60–64 percent.",
+      "classification": "agreed",
+      "rationale": "Sources across the political spectrum agree that Israeli control has expanded well beyond ceasefire terms, with most settling on approximately 64 percent as the current figure based on military maps or analyst estimates.",
+      "framing_variants": [
+        {
+          "characterization": "Israeli army control expanded from 53 percent to 64 percent; Palestinians cannot access about two-thirds of Gaza",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "New orange line claims 64 percent; Forensic Architecture found 58 percent by December",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Israel effectively controls an estimated 64% of the tiny coastal Strip",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Netanyahu's directive to 70% goes beyond the October 2025 ceasefire terms",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_009"
+      ],
+      "contested_by": [],
+      "claim_group": "territorial_control"
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Netanyahu's directive to expand to 70 percent control goes beyond the boundaries established by the October 2025 ceasefire.",
+      "classification": "agreed",
+      "rationale": "Both center and left-leaning outlets frame the 70 percent directive as exceeding the ceasefire's agreed terms, and no source disputes this characterization.",
+      "framing_variants": [
+        {
+          "characterization": "Netanyahu's directive to reach 70% control goes beyond the October 2025 ceasefire terms",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Expansion order going beyond the October 2025 ceasefire boundaries",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Israel has expanded and entrenched its presence in Gaza since the October ceasefire announcement",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_006",
+        "src_009",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": [],
+      "claim_group": "ceasefire_details"
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Israel has unilaterally moved concrete blocks marking the Yellow Line deeper into Gaza territory, expanding the militarily controlled area since the ceasefire.",
+      "classification": "agreed",
+      "rationale": "Both a left-leaning outlet (citing Reuters) and the center outlet Reuters itself report Israel's unilateral repositioning of Yellow Line markers, giving this claim cross-ideological support.",
+      "framing_variants": [
+        {
+          "characterization": "Reuters noted in January that Israel had moved some of these blocks deeper into Gaza, destroying more areas and forcing residents to flee further west",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reuters has reported that Israel has unilaterally moved the concrete blocks marking the Yellow Line deeper into Hamas-controlled territory",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": [],
+      "claim_group": "territorial_control"
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Satellite data gathered in March showed Israel established at least 32 military outposts in Gaza and constructed ground barrier infrastructure along what was intended as a temporary line.",
+      "classification": "single_source",
+      "rationale": "Only Al Jazeera's analysis article (art_002) cites this specific satellite-derived figure of 32 military outposts; no other source in the cluster references it.",
+      "framing_variants": [
+        {
+          "characterization": "Satellite data shows Israel established at least 32 military outposts and a ground barrier along what was supposed to be a temporary line",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": [],
+      "claim_group": "territorial_control"
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Military maps issued in late March or April by Israel showed a new restricted area (referred to variously as a new 'orange line' boundary) claiming control of approximately 64 percent of Gaza.",
+      "classification": "agreed",
+      "rationale": "Multiple outlets from different bias ratings report the issuance of new Israeli military maps showing approximately 64 percent territorial control.",
+      "framing_variants": [
+        {
+          "characterization": "In mid-March, army sent maps to aid organisations showing control expanded to about 11 percent beyond the Yellow Line, meaning 64 percent total",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "At the end of April, Israel issued new military maps with a new 'orange line' claiming control of 64 percent of Gaza",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Maps issued by the military in March showed an even bigger restricted area that analysts say cordons off around 64% of Gaza's territory",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": [],
+      "claim_group": "territorial_control"
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Israel described the expanded military boundary as a security zone for the coordination of aid distribution.",
+      "classification": "single_source",
+      "rationale": "Only Truthout reports Israel's characterization of the new boundary as a 'security zone' for aid coordination; no other source includes this Israeli justification.",
+      "framing_variants": [
+        {
+          "characterization": "Israel claimed the orange line marked a 'security zone' for the coordination of aid distribution, while Gaza residents reported being targeted and forced to flee",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": [],
+      "claim_group": "territorial_control"
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Netanyahu describes the territory Israel has seized in Gaza, Syria, and Lebanon as 'buffer zones' intended to prevent future militant attacks.",
+      "classification": "agreed",
+      "rationale": "Both Reuters (center) and The Jewish News/JNS (center-right) report Netanyahu's 'buffer zone' framing, giving it cross-ideological corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Netanyahu describes territory seized in Gaza, Syria and Lebanon as 'buffer zones' that can stave off potential militant attacks",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Netanyahu's stated mission is to ensure Gaza will never again pose a threat to Israel",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": [],
+      "claim_group": "territorial_control"
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Palestinians view Israel's expanding buffer zone as part of a strategy to permanently displace them from Gaza.",
+      "classification": "contested",
+      "rationale": "Left-leaning outlets frame the territorial expansion as ethnic cleansing or permanent displacement; the center Reuters reports this as the Palestinian perspective while also presenting Israel's 'buffer zone' security rationale without endorsing either; center-right outlets present the Israeli security rationale without acknowledging the displacement framing.",
+      "framing_variants": [
+        {
+          "characterization": "Observers characterize 'voluntary emigration' as ethnic cleansing; Israel has expanded and entrenched its presence in Gaza",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Gaza residents reported being targeted and forced to flee as the line continued to move",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Palestinians view Israel's widening Gaza buffer zone as a part of a strategy to permanently displace them — presented as a Palestinian view alongside Israel's stated security rationale",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Buffer zones framed as a necessary security measure following October 7 attack, with no displacement framing",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": [
+        "src_004",
+        "src_005"
+      ],
+      "claim_group": "displacement_policy"
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Due to Israeli military occupation, approximately two-thirds of Gaza is inaccessible to its residents.",
+      "classification": "agreed",
+      "rationale": "Multiple left-leaning sources as well as the center-left Haaretz (implicitly through its territorial framing) agree that Palestinians cannot access roughly two-thirds of Gaza.",
+      "framing_variants": [
+        {
+          "characterization": "Palestinians cannot access about two-thirds of Gaza",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Choking off access to about two-thirds of the enclave for its inhabitants by April 2026",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The 2.1 million surviving residents of Gaza are confined to less than half of the territory",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": [],
+      "claim_group": "humanitarian_situation"
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Israeli strikes have killed more than 900 people in Gaza since the October 2025 ceasefire began.",
+      "classification": "agreed",
+      "rationale": "Sources from left and center bias ratings all cite a figure of approximately 900+ Palestinian deaths since the October ceasefire, with minor variation in the exact number (910–922).",
+      "framing_variants": [
+        {
+          "characterization": "Israel killed at least 922 people in near-daily strikes on Gaza during the ceasefire period",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Israel has killed over 910 Palestinians in Gaza since the so-called ceasefire began in October",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Israeli strikes have killed more than 900 people since the truce, health officials say",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": [],
+      "claim_group": "military_operations"
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Israel reports four soldiers were killed by militants since the ceasefire began.",
+      "classification": "single_source",
+      "rationale": "Only Reuters reports the Israeli military's figure of four soldiers killed since the truce; no other source in the cluster references Israeli military casualties in this period.",
+      "framing_variants": [
+        {
+          "characterization": "Israel says four soldiers were killed by militants during the same period — juxtaposed with 900+ Palestinian deaths",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": [],
+      "claim_group": "military_operations"
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "On Wednesday night (May 28, 2026), an Israeli strike targeted two senior Hamas commanders in northern Gaza, killing at least 10 people including several children and wounding approximately 18–20 others.",
+      "classification": "agreed",
+      "rationale": "Sources from left, center, and center-right all report the Wednesday strike targeting Hamas commanders, with consistent casualty figures from Gaza health officials.",
+      "framing_variants": [
+        {
+          "characterization": "Israeli air raid killed at least 10 people including four children and wounded 20 others, according to health authorities",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Strike killed at least 10 people, including five children, and wounded 18 others; occurred during Eid al-Adha celebrations",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The IDF targeted two senior Hamas commanders in northern Gaza",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": [],
+      "claim_group": "military_operations"
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "The Wednesday strike occurred while Palestinians were observing the Muslim holiday Eid al-Adha.",
+      "classification": "single_source",
+      "rationale": "Only Reuters provides the detail that the strike took place during Eid al-Adha celebrations, with eyewitness accounts of people celebrating in tent encampments.",
+      "framing_variants": [
+        {
+          "characterization": "Strike came as Palestinians were marking Eid al-Adha, which many in Gaza celebrated by gathering in tent encampments and bombed-out buildings",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": [],
+      "claim_group": "military_operations"
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "On Tuesday (May 27, 2026), Israel killed Hamas's armed wing chief, following the killing of his predecessor approximately ten days earlier.",
+      "classification": "agreed",
+      "rationale": "Both Al Jazeera and Reuters report the killing of a Hamas armed wing leader this week, providing cross-ideological corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Statement by Defense Minister Katz was made marking the killing of Hamas leader Mohammed Odeh on Wednesday",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "On Tuesday, Israel killed Hamas' armed wing chief, ten days after killing his predecessor",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": [],
+      "claim_group": "military_operations"
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Israeli Defence Minister Israel Katz announced in a statement that a plan for voluntary emigration from Gaza would be implemented.",
+      "classification": "agreed",
+      "rationale": "Sources from left and center bias ratings all report Katz's statement about voluntary emigration, and the center outlet Reuters corroborates senior ministers' statements on encouraging voluntary migration.",
+      "framing_variants": [
+        {
+          "characterization": "Katz wrote 'The plan for voluntary emigration from Gaza will also be implemented, all at the proper time and in the proper manner'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Israel's security cabinet established a 'voluntary emigration bureau' for Gaza last year; Katz's statement reaffirms implementation",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Senior ministers, including defense chief Israel Katz, say they want to encourage 'voluntary migration' from Gaza",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": [],
+      "claim_group": "displacement_policy"
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Left-leaning and some centrist observers characterize Israel's 'voluntary emigration' policy as ethnic cleansing; Israeli officials and center-right sources present it as voluntary.",
+      "classification": "contested",
+      "rationale": "Left-leaning outlets explicitly label the policy ethnic cleansing, while center and center-right outlets report it using the Israeli framing of 'voluntary migration' without the ethnic cleansing characterization, reflecting genuine ideological tension over the same policy.",
+      "framing_variants": [
+        {
+          "characterization": "Observers typically acknowledge that this means the ethnic cleansing of the enclave",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Israel's security cabinet established a 'voluntary emigration bureau' — framed as facilitation of ethnic cleansing",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Senior ministers say they want to encourage 'voluntary migration' — neutral reporting of Israeli framing",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Hamas and Hezbollah described as Iranian-backed terrorist organizations; Israeli actions framed as security measures",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": [
+        "src_004",
+        "src_005"
+      ],
+      "claim_group": "displacement_policy"
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "The total death toll in Gaza since the war began in October 2023 exceeds 72,000 Palestinians.",
+      "classification": "agreed",
+      "rationale": "Both Al Jazeera articles cite figures above 72,000 Palestinian deaths since the war began, with minor variation in the exact count (72,775 vs. 72,819).",
+      "framing_variants": [
+        {
+          "characterization": "War has killed more than 72,775 Palestinians",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Israeli forces have killed at least 72,819 men, women and children in Gaza since October 2023",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": [],
+      "claim_group": "humanitarian_situation"
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "The conflict started with Hamas-led attacks on southern Israel on October 7, 2023.",
+      "classification": "agreed",
+      "rationale": "Both left and center outlets acknowledge October 7, 2023, Hamas attacks as the triggering event for Israel's military campaign, consistent with broad factual consensus.",
+      "framing_variants": [
+        {
+          "characterization": "The war that Israel launched following the October 7, 2023, attacks on southern Israel by Hamas and other armed Palestinian groups",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Two-year military assault that followed the 2023 Hamas attack on southern Israel",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": [],
+      "claim_group": "background_context"
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "Nickolay Mladenov, high representative overseeing the U.S.-founded Board of Peace for Gaza, warned the UN Security Council that the deteriorating status quo in Gaza risks becoming permanent.",
+      "classification": "single_source",
+      "rationale": "Only Al Jazeera English reports Mladenov's UN Security Council address and his warning about the permanent deterioration of Gaza's status quo.",
+      "framing_variants": [
+        {
+          "characterization": "Mladenov urged the Security Council to press Hamas to disarm and push Israel to uphold its commitment under the October ceasefire",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": [],
+      "claim_group": "international_response"
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "EU Commissioner for Humanitarian Aid Hadja Lahbib stated that Gaza's humanitarian space is shrinking and that expanding Israeli military control is hampering aid workers and cutting access to clean water.",
+      "classification": "agreed",
+      "rationale": "Both Truthout and Euronews — from left and center bias ratings respectively — report Lahbib's statement about shrinking humanitarian space in Gaza.",
+      "framing_variants": [
+        {
+          "characterization": "'Gaza's humanitarian space is further shrinking,' Hadja Lahbib wrote on X",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "As Israeli military control expands, shifting lines hamper aid workers and cut essential services including clean water for those in need",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": [],
+      "claim_group": "international_response"
+    },
+    {
+      "claim_id": "clm_028",
+      "text": "Humanitarian conditions in Gaza are severe, with overcrowded displacement, scarce clean water, poor waste collection increasing disease risks, and frequent air strikes in residential areas.",
+      "classification": "agreed",
+      "rationale": "Sources from left and center outlets all describe dire humanitarian conditions in Gaza, with OCHA and EU officials cited as sources.",
+      "framing_variants": [
+        {
+          "characterization": "Displaced families in overcrowded tents; clean water is scarce; poor waste collection increasing health risks including rats and insects",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "By 2025, Israel had caused a confirmed famine in the enclave and decimated nearly all infrastructure needed to support life",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Essential services including clean water access are being cut for people in Gaza",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_006"
+      ],
+      "contested_by": [],
+      "claim_group": "humanitarian_situation"
+    },
+    {
+      "claim_id": "clm_029",
+      "text": "Israel and Hamas remain deadlocked in negotiations over a U.S. plan that would involve Israeli troop withdrawal and Hamas disarmament.",
+      "classification": "single_source",
+      "rationale": "Only Reuters reports the current deadlock in negotiations over the U.S. plan; other sources reference the plan's existence but do not characterize its current negotiating status.",
+      "framing_variants": [
+        {
+          "characterization": "Israel and Hamas remain deadlocked in talks to advance a U.S. plan that would see Israeli troops withdraw and Hamas disarm",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": [],
+      "claim_group": "international_response"
+    },
+    {
+      "claim_id": "clm_030",
+      "text": "The International Court of Justice reaffirmed in a 2024 advisory opinion that annexation of territory by force violates international law.",
+      "classification": "single_source",
+      "rationale": "Only Al Jazeera's analysis article cites the 2024 ICJ advisory opinion in the context of Israel's territorial expansion in Gaza.",
+      "framing_variants": [
+        {
+          "characterization": "The ICJ reaffirmed in a 2024 advisory opinion that annexation constitutes a violation of the bedrock prohibition of the acquisition of territory by force",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": [],
+      "claim_group": "international_response"
+    },
+    {
+      "claim_id": "clm_031",
+      "text": "Conflict monitors warn that Israeli bombardment of Gaza has accelerated since a U.S.-Israel war on Iran began in February 2026.",
+      "classification": "single_source",
+      "rationale": "Only Al Jazeera English links the acceleration of Gaza bombardment to a claimed U.S.-Israel war on Iran starting in February 2026; no other source in the cluster references this conflict or its purported effect on Gaza.",
+      "framing_variants": [
+        {
+          "characterization": "Conflict monitors warn that since the US-Israel war on Iran started in February, Israeli bombardment of Gaza has accelerated",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": [],
+      "claim_group": "background_context"
+    },
+    {
+      "claim_id": "clm_032",
+      "text": "Israel has occupied large swaths of southern Lebanon and Israeli forces crossed the Litani River during operations against Hezbollah.",
+      "classification": "agreed",
+      "rationale": "Both Al Jazeera and The Jewish News/JNS — from left and center-right — report Israeli military presence beyond the Litani River in Lebanon, though they frame Israel's actions differently.",
+      "framing_variants": [
+        {
+          "characterization": "Israel has occupied large swaths of the south of Lebanon",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Israeli forces had crossed the Litani River during operations against Hezbollah in Southern Lebanon",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": [],
+      "claim_group": "background_context"
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.1",
+    "generated_at": "2026-06-01T10:17:32.755436+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "On May 28, 2026, Israeli Prime Minister Benjamin Netanyahu publicly announced that he had directed the Israeli military to expand its territorial control of the Gaza Strip from approximately 60 percent to 70 percent. Netanyahu made these remarks at a conference hosted by a pre-military academy in an Israeli settlement in the occupied West Bank, where audience members called for 100 percent Israeli control of Gaza. Netanyahu responded by saying Israel should proceed step by step, starting with 70 percent control.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_007",
+            "src_008",
+            "src_009",
+            "src_010"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The current conflict in Gaza began with Hamas-led attacks on southern Israel on October 7, 2023. In October 2025, a U.S.-brokered ceasefire agreement was reached. Under the terms of that ceasefire, Israel was allocated control of approximately 53 percent of Gaza, east of a demarcation boundary called the Yellow Line, with Hamas controlling the remainder.",
+        "supports": {
+          "claim_ids": [
+            "clm_025",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_008",
+            "src_009"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Israel has also been engaged in separate military operations against Hezbollah — an Iranian-backed militant group designated as a terrorist organization by the U.S. and EU — along its northern borders. Israeli forces have occupied large areas of southern Lebanon and crossed the Litani River during these operations. Netanyahu has described the territory Israel has seized in Gaza, Syria, and Lebanon as \"buffer zones\" intended to prevent future militant attacks.",
+        "supports": {
+          "claim_ids": [
+            "clm_032",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Since the October 2025 ceasefire, Israel's de facto territorial control of Gaza has expanded well beyond the agreement's original 53 percent allocation. Israel unilaterally moved the concrete blocks marking the Yellow Line deeper into Gaza territory, expanding the militarily controlled area. Military maps issued by Israel in late March or early April showed a new restricted area claiming control of approximately 64 percent of Gaza. Netanyahu's directive to expand to 70 percent control goes beyond the boundaries established by the October 2025 ceasefire.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_010",
+            "clm_012",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_009"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Since the October 2025 ceasefire began, Israeli strikes have killed more than 900 people in Gaza, according to Gaza Health Ministry figures. The Gaza Health Ministry operates under Hamas administration. On Tuesday, May 27, 2026, Israel killed Hamas's armed wing chief, following the killing of his predecessor approximately ten days earlier. On Wednesday night, May 28, an Israeli strike targeted two senior Hamas commanders in northern Gaza, killing at least 10 people including several children and wounding approximately 18 to 20 others, according to Gaza health officials.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_021",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The total death toll in Gaza since the war began in October 2023 now exceeds 72,000 Palestinians, according to the Gaza Health Ministry.",
+        "supports": {
+          "claim_ids": [
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Israeli Defence Minister Israel Katz announced in a statement that a plan for voluntary emigration from Gaza would be implemented. This policy announcement followed Netanyahu's directive to expand territorial control.",
+        "supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Due to Israeli military occupation, approximately two-thirds of Gaza is now inaccessible to its residents. Humanitarian conditions in Gaza are severe, with overcrowded displacement camps, scarce clean water, poor waste collection increasing disease risks, and frequent air strikes in residential areas. EU Commissioner for Humanitarian Aid Hadja Lahbib stated that Gaza's humanitarian space is shrinking and that expanding Israeli military control is hampering aid workers and cutting access to clean water.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_028",
+            "clm_027"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Sources across the political spectrum agree on the core facts of Netanyahu's directive and Israel's expanding territorial control. However, two major points of interpretation divide outlets along ideological lines: the purpose of Israel's territorial expansion and the nature of the emigration policy.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Left-leaning outlets frame Israel's expanding buffer zone as part of a strategy to permanently displace Palestinians from Gaza. Center outlets such as Reuters report this displacement concern as the Palestinian perspective while also presenting Israel's security rationale for buffer zones, without endorsing either framing. Center-right outlets present the Israeli government's position that the buffer zones are intended to prevent future militant attacks, without acknowledging the displacement interpretation.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Similarly, left-leaning outlets explicitly characterize Israel's \"voluntary emigration\" policy as ethnic cleansing. Center and center-right outlets report the policy using the Israeli government's framing of \"voluntary migration\" or \"voluntary emigration,\" without applying the ethnic cleansing label. This reflects a genuine ideological division over how to characterize the same announced policy.",
+        "supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}

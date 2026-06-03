@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Golden dataset — full article text is local dev only, never commit if repo is public
+data/golden/
+
+# Ingested articles (live data)
+data/ingested/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Node / Next.js
+web/node_modules/
+web/.next/
+web/out/
+
+# OS
+.DS_Store
+Thumbs.db

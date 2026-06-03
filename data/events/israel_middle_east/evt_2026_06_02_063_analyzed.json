@@ -1,0 +1,175 @@
+{
+  "schema_version": "0.2",
+  "event": {
+    "cluster_id": "evt_2026_06_02_063",
+    "beat": "israel_middle_east",
+    "title": "Israel Kills Hamas Military Wing Chief in Gaza Strike",
+    "summary": "Israel conducted a strike in Gaza that killed the head of Hamas's military wing. Hamas confirmed the death, and Israeli Prime Minister Netanyahu made a public statement about the operation.",
+    "date": "2026-05-26",
+    "generated_at": "2026-06-02T08:10:23.628004+00:00"
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRkF4TDZsS1NienRYTXdNT3dGUzJxODBES3lCVkFCN29VZjRQdmFqNDlOLXdaV0dzMFJFTVphaFlPVlVJNUJ6Vmx3UzU1OVhnenpfTHhNSktPMEd5c01qVmdfbUdjMk5uLXgycHNZWkQ2RC1WXzBVTFlSM1daMXBLSzlGWk9ZeE01ckExdVJQeUhBOGhrdFJrSmpybWd6NC1ZaWNxcUVhRdIBrAFBVV95cUxOSnVTRWtzZDJJUTRTa1hFQm8xMnZCdlA1ZkVnZGp4RHZ5YVkwZ1ZiTEU3M0ptVzdnaTZnU3QtRlNhWmFWYllSeUNvdERiZ1lmYjMtcFUyeENGTGFOcVVEbjRoYmVRZU5rYlZ4VEExLURBVzAzN0tQdzJHMTlWNDNsTndTdTdmRzBYc0VfUEtVTXFaMU9YMTMtQVJaZV9TeWZPLWF0bDBVeERLOVRI?oc=5",
+      "author": null,
+      "published_at": "2026-05-27T17:15:57+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Israel Hayom",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNM2Z1ckJxRVZWRFFiOVRXVzh4YUVGSGE2Z08weTc5TmVGU095d3RFVy1VMllVRTQwNlNobkpXdzZiWV9xa19oR3NSdXhuS3BuM2thRGJzWnVGMGxIMjM5ZFI0M2t5WGRvdHZLV21iUDRQOW13ZnMyRUVtLVJ0N2hTTUNoWld6R0lS?oc=5",
+      "author": null,
+      "published_at": "2026-05-27T06:40:21+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Israel Hayom",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX0FVRjJwTkVuclQ1ZEJyYjhvdVZ1X1Y3T0lkOEpucjJxcjZVZno0YVlySG9kbjZJaS1lSUowNng5ZmxNQW9QSUh1NWM3NlNnSWdOS0NoNFpxcnhtVzdPYWdiZ2phbHJHeHRSbW5XYy03ZGVHYWFYZHVPbnladmRWaGt6RVh0YmVVUkVLVlFiOXVXUGFpMzM4ZTVBekZVdw?oc=5",
+      "author": null,
+      "published_at": "2026-05-26T21:05:01+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeHE3WFlZaVA2MGJBdjNxQ1JReFktZ1duVkxOUnlkQUFFMGtrUFFNdkJINmsydlFJZ1VoMmYyN08tWHR6LUI3OEUzZFVKNVJJbGYzT3NQbWhoLWE1cS1Mb1lRR0dSU0dvLUNWbGZvOF91NmxFUWVKdmpHVXVCNllKUTk3SDhCMlgyQXQ0Tk9QRW5TY2FOS0tZZWkzQUZRUDcwV09sd09vMTRsUQ?oc=5",
+      "author": null,
+      "published_at": "2026-05-26T19:58:48+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWVg3NlZCMW1Tek0zbmlVTDNzWDB3ajNCNGRjR1Eycm5DVktCeUx4VHlsemlhZTBCMFhObmdNRGMwSGRnWVVfbzVuVXVvRkUtaXozcWFWLTRWT0xVSEswZ0JOVnEyS1dqX09vdnRDazhnVTdINVJlWmNmRkpNcHNTN0QtaXJjUEdaOVQzYlNPTHp4SFVpVUx6M0ZVZm1ia3hnOFFTZ2tFcG1rUldHYWN4XzJlVWs2c3I5NzZHc0ZxYUg0ZTY1R2NGMg?oc=5",
+      "author": null,
+      "published_at": "2026-05-26T20:06:50+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Israel conducted a strike in Gaza that killed the head of Hamas's military wing.",
+      "classification": "agreed",
+      "claim_group": "military_operations",
+      "rationale": "This claim is confirmed by sources spanning the political spectrum, including left-leaning Al Jazeera (which cites Hamas's own confirmation), centrist Reuters, center-right i24 News, and right-leaning Israel Hayom, satisfying the cross-spectrum agreement threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Hamas itself confirms that Israel killed its military wing chief in a Gaza strike, lending adversarial credibility to the report.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Israel Hayom frames the killing as an 'elimination' carried out by the IDF, emphasizing it as a completed military achievement.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "i24 News reports that Israel targeted a 'new' Hamas military chief, highlighting that this was a recently appointed commander.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reuters frames the event through Netanyahu's public statement, attributing the claim of the attack to the Israeli Prime Minister.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Israeli Prime Minister Netanyahu made a public statement about the strike targeting Hamas's new military wing chief.",
+      "classification": "single_source",
+      "claim_group": "military_operations",
+      "rationale": "Only Reuters explicitly attributes a formal statement to Netanyahu in connection with this strike; no other source in the cluster reports his statement independently.",
+      "framing_variants": [
+        {
+          "characterization": "Reuters attributes the announcement of the attack to Netanyahu directly, framing the news through his public claim.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "The Hamas commander killed was described by multiple outlets as a 'new' military wing chief, suggesting a prior commander had recently been killed or replaced.",
+      "sources": [
+        "src_004",
+        "src_005",
+        "src_003"
+      ]
+    },
+    {
+      "point": "Hamas's confirmation of the death of its own commander is notable, as adversarial acknowledgment lends additional credibility to the Israeli military's claim.",
+      "sources": [
+        "src_001"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.1",
+    "generated_at": "2026-06-02T08:10:27.917261+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Israel conducted a military strike in Gaza that killed the head of Hamas's military wing. The operation was confirmed by sources across the political spectrum, including Hamas itself, which acknowledged the death of its military commander.",
+        "supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "According to one outlet, Israeli Prime Minister Netanyahu made a public statement about the strike targeting Hamas's new military wing chief. This statement was reported only by Reuters and was not independently confirmed by other sources in this analysis.",
+        "supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      }
+    ]
+  }
+}
