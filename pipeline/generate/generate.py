@@ -267,6 +267,11 @@ Write the reader-facing report as a JSON object following the format and rules i
     raw = response.content[0].text
     parsed = _parse_response(raw, response.stop_reason)
 
+    # Model occasionally returns a bare JSON array of paragraphs instead of
+    # the {"paragraphs": [...]} envelope.
+    if isinstance(parsed, list):
+        parsed = {"paragraphs": parsed}
+
     # Wrap in the full report envelope
     report = {
         "schema_version": "0.2",

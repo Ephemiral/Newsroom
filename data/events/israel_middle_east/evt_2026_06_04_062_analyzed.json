@@ -936,11 +936,11 @@
   "background": [],
   "report": {
     "schema_version": "0.2",
-    "generated_at": "2026-06-04T07:50:06.100736+00:00",
+    "generated_at": "2026-06-28T09:08:05.510662+00:00",
     "paragraphs": [
       {
         "paragraph_id": "p1",
-        "text": "US and Iranian negotiators reached a tentative framework agreement — a memorandum of understanding — to extend their ceasefire by 60 days, according to reports from multiple outlets across the political spectrum. The framework would launch negotiations on the future of Iran's nuclear programme during the extension window. However, the agreement required final approval from both President Donald Trump and Iran's leadership before taking effect.",
+        "text": "US and Iranian negotiators reached a tentative framework agreement — a memorandum of understanding — to extend their ceasefire by 60 days, according to multiple outlets across the political spectrum. The proposed framework would launch negotiations on the future of Iran's nuclear programme during the extension window. However, the agreement required final approval from both President Trump and Iran's leadership before taking effect.",
         "supports": {
           "claim_ids": [
             "clm_001",
@@ -965,63 +965,50 @@
       },
       {
         "paragraph_id": "p2",
-        "text": "Trump met with senior advisers for approximately two hours in the White House Situation Room on Friday but emerged without making a final decision on the Iran deal. Treasury Secretary Scott Bessent declined to confirm a deal had been reached, saying it would be 'the president's decision.'",
+        "text": "Reported framework terms included unrestricted passage through the Strait of Hormuz, Iran removing mines within 30 days, a proportional lifting of the US naval blockade, and US sanctions waivers to allow Iran to sell oil. Trump met with senior advisers for approximately two hours in the White House Situation Room on Friday but emerged without making a final decision on the Iran deal.",
         "supports": {
           "claim_ids": [
-            "clm_003",
-            "clm_013"
+            "clm_005",
+            "clm_003"
           ],
           "source_ids": [
+            "src_002",
+            "src_008",
+            "src_023",
             "src_014",
             "src_021",
-            "src_013",
-            "src_002",
-            "src_020"
+            "src_013"
           ]
         },
         "kind": "agreed"
       },
       {
         "paragraph_id": "p3",
-        "text": "Reported framework terms included unrestricted passage through the Strait of Hormuz, Iran removing mines within 30 days, a proportional lifting of the US naval blockade, and US sanctions waivers to allow Iran to sell oil. US Vice President JD Vance said negotiations were making good progress and that both sides were very close to a deal, but acknowledged several sticking points remained, including the question of enrichment.",
+        "text": "The initial US-Iran ceasefire came into effect on 8 April 2026. Both Iran and the US have accused each other of violating that ceasefire, with sporadic exchanges of fire reported, particularly along Iran's southern coast. Iran's IRGC said it targeted a US base in the region on Thursday, claiming it acted in response to fresh US strikes on southern Iran overnight. The US conducted strikes on targets in southern Iran, including a 'ground control site' near Bandar Abbas airport.",
         "supports": {
           "claim_ids": [
-            "clm_005",
-            "clm_007"
+            "clm_025",
+            "clm_019",
+            "clm_020",
+            "clm_022"
           ],
           "source_ids": [
             "src_002",
+            "src_022",
             "src_008",
-            "src_023",
-            "src_014"
+            "src_021"
           ]
         },
         "kind": "agreed"
       },
       {
         "paragraph_id": "p4",
-        "text": "The initial US-Iran ceasefire came into effect on 8 April 2026, ending direct hostilities that had included Trump's bombing of three Iranian nuclear facilities at Fordow, Natanz and Isfahan. Trump insisted at the time that the bombing had obliterated Iran's uranium stockpile, but Iran is still believed to possess approximately 970 pounds of highly enriched uranium.",
-        "supports": {
-          "claim_ids": [
-            "clm_025",
-            "clm_018"
-          ],
-          "source_ids": [
-            "src_002",
-            "src_022",
-            "src_016"
-          ]
-        },
-        "kind": "background"
-      },
-      {
-        "paragraph_id": "p5",
-        "text": "The US has long demanded that Iran stop producing and dispose of its existing stockpile of highly enriched uranium, which could theoretically be used to create nuclear weapons. Iran insists its nuclear programme is entirely peaceful and denies seeking to develop nuclear weapons. Iranian officials, including parliament's National Security Commission chair Ebrahim Azizi, denied reports about possible transfer of Iran's enriched uranium to a third country and stated the Islamic Republic has no intention of handing over these materials.",
+        "text": "The US has long demanded that Iran stop producing and dispose of its existing stockpile of highly enriched uranium, which could theoretically be used to create nuclear weapons. Iran insists its nuclear programme is entirely peaceful and denies seeking to develop nuclear weapons. US Vice President JD Vance said negotiations were making good progress and that both sides were very close to a deal, but acknowledged several sticking points remained, including the question of enrichment.",
         "supports": {
           "claim_ids": [
             "clm_014",
             "clm_015",
-            "clm_016"
+            "clm_007"
           ],
           "source_ids": [
             "src_002",
@@ -1034,20 +1021,35 @@
         "kind": "background"
       },
       {
+        "paragraph_id": "p5",
+        "text": "Trump and other officials have warned that 'option B' — a return to combat operations — remains on the table if negotiations fail. US Defence Secretary Pete Hegseth stated the US is 'more than capable' of resuming war with Iran, speaking at a major defence summit in Asia.",
+        "supports": {
+          "claim_ids": [
+            "clm_026",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_022",
+            "src_021"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
         "paragraph_id": "p6",
-        "text": "The US and Iran issued contradictory accounts of the reported framework agreement's status and terms. Iran's semi-official Tasnim news agency and Iranian Foreign Ministry stated that no final agreement or understanding had been reached between Iran and the US. Iranian parliament speaker and chief negotiator Mohammad-Bagher Ghalibaf stated Iran had 'no trust in guarantees or words — only actions are the measure' and warned Iran was ready for another round of fighting if talks failed.",
+        "text": "The US and Iran issued contradictory accounts of the reported framework agreement's status and terms. Trump publicly claimed he could approve a peace deal that would include Iran opening the Strait of Hormuz without tolls and eliminating Iran's nuclear programme. Iranian sources disputed Trump's characterization, stating the agreement did not include provisions for opening the Strait of Hormuz without fees or for destruction of Iran's nuclear material.",
         "supports": {
           "claim_ids": [
             "clm_008",
-            "clm_006",
-            "clm_017"
+            "clm_009",
+            "clm_010"
           ],
           "source_ids": [
             "src_002",
             "src_018",
             "src_022",
             "src_014",
-            "src_008",
             "src_021"
           ]
         },
@@ -1055,19 +1057,20 @@
       },
       {
         "paragraph_id": "p7",
-        "text": "Trump publicly claimed he could approve a peace deal that would include Iran opening the Strait of Hormuz without tolls and eliminating Iran's nuclear programme. Iranian sources disputed Trump's characterization of the deal terms, stating the agreement did not include provisions for opening the Strait of Hormuz without fees or for destruction of Iran's nuclear material.",
+        "text": "Iran's semi-official Tasnim news agency and Iranian Foreign Ministry stated that no final agreement or understanding had been reached between Iran and the US. Iranian parliament speaker and chief negotiator Mohammad-Bagher Ghalibaf stated Iran had 'no trust in guarantees or words — only actions are the measure' and warned Iran was ready for another round of fighting if talks failed.",
         "supports": {
           "claim_ids": [
-            "clm_009",
-            "clm_010"
+            "clm_006",
+            "clm_017"
           ],
           "source_ids": [
+            "src_002",
             "src_014",
-            "src_021",
-            "src_002"
+            "src_008",
+            "src_021"
           ]
         },
-        "kind": "contested"
+        "kind": "agreed"
       },
       {
         "paragraph_id": "p8",
@@ -1082,22 +1085,18 @@
             "src_022"
           ]
         },
-        "kind": "contested"
+        "kind": "framing"
       },
       {
         "paragraph_id": "p9",
-        "text": "Both Iran and the US have accused each other of violating the ceasefire, with sporadic exchanges of fire reported, particularly along Iran's southern coast. Iran's IRGC said it targeted a US base in the region on Thursday, claiming it acted in response to fresh US strikes on southern Iran overnight. The US conducted strikes on targets in southern Iran, including a 'ground control site' near Bandar Abbas airport.",
+        "text": "Iranian officials, including parliament's National Security Commission chair Ebrahim Azizi, denied reports about possible transfer of Iran's enriched uranium to a third country and stated the Islamic Republic has no intention of handing over these materials.",
         "supports": {
           "claim_ids": [
-            "clm_019",
-            "clm_020",
-            "clm_022"
+            "clm_016"
           ],
           "source_ids": [
-            "src_002",
-            "src_022",
-            "src_008",
-            "src_021"
+            "src_014",
+            "src_008"
           ]
         },
         "kind": "agreed"
@@ -1116,23 +1115,7 @@
             "src_022"
           ]
         },
-        "kind": "contested"
-      },
-      {
-        "paragraph_id": "p11",
-        "text": "Trump and other officials have warned that 'option B' — a return to combat operations — remains on the table if negotiations fail. US Defence Secretary Pete Hegseth stated the US is 'more than capable' of resuming war with Iran, speaking at a major defence summit in Asia.",
-        "supports": {
-          "claim_ids": [
-            "clm_026",
-            "clm_024"
-          ],
-          "source_ids": [
-            "src_002",
-            "src_022",
-            "src_021"
-          ]
-        },
-        "kind": "agreed"
+        "kind": "framing"
       }
     ]
   }
