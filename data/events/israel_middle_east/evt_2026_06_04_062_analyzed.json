@@ -1,0 +1,1139 @@
+{
+  "schema_version": "0.2",
+  "event": {
+    "cluster_id": "evt_2026_06_04_062",
+    "beat": "israel_middle_east",
+    "title": "US-Iran Ceasefire Extension Negotiations: Framework Agreement Reported, Final Decision Pending",
+    "summary": "US and Iranian negotiators reportedly reached a tentative framework memorandum of understanding to extend their ceasefire by 60 days and launch nuclear talks, but as of late May 2026 the agreement lacked final approval from both President Trump and Iran's new Supreme Leader Mojtaba Khamenei. Both sides issued conflicting statements about the deal's status, terms, and progress, while sporadic military incidents continued along Iran's southern coast.",
+    "date": "2026-05-29",
+    "generated_at": "2026-06-04T07:49:46.171838+00:00"
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Haaretz (English)",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOTzRlekZhTFI3azFtRGppNDFsU0NHdU5mUHhRb0pTejVUZVFBOEpWc25SM1Joa3p4Y3NmN21pdXE4eGpfNDA3MENkWXlQYWctSndHYl85WlkyUGs2eHhVQ0RfQzd2bWFfRC11RXhIRXdHRV90M0lBcDhEUm80SXpIYmJBV1JDaXlCX1E5SXJobl9pb0pXWjZycVpqNFJJdFo0Nk5hNi1iRndoelJ1YnYzcDlYbXBUN1BKeXRCZk42YndwY2xyMk9qRUIyTUhySFAwclpfbDFDZFhERGFVWFh1OTVtUG51OHp0OFNGZXdlckJGUlNMNS01cXF4UURKcGl3ZF9XQUMyeHF2cGV4bk1R?oc=5",
+      "author": null,
+      "published_at": "2026-05-29T18:31:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.com/news/articles/c87qng40wz9o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-05-29T09:17:35+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMDAxUGdSUGJhV19NajdXRE5yZGtxMFRVYnpEb1I3ZEMwZlZsUnBvdlJyb3RlbG4tX0dLMXFEN25ZeER4N3pOblRJYjJGS3NyR1JEZFNlR3VsN1gxd3MxMnhTVHU5VVVadWxCV1VBcFNiRHAtczFfX3FIMW9GZEJRTHFWMzIya1ZQa0ZSMUVQQXhLWVJVSUMzTVNFOGVBNUxKMEhvQW92eWZwaW8zMFpPbDRTYjlxa3NTTVNTaQ?oc=5",
+      "author": null,
+      "published_at": "2026-05-29T02:00:55+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Israel Hayom",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONV9qVjVTVlBtcHlrSGMtUEpUR2dWYTU3a2JLZm0xTHZZOGZmNTl5R3l4UHFmM1piUVkzN09PSWpDUHFremlGTEpIWjg4cFg5WlRqMWdIV3NHZVFVRndLWmRYOS1BQmFnY2tYSjBldmpldWFEWklsODF4RkZ3djFGNW9hWE1sV29RbDR4NmkybUsxdkNpRmkzMk41QkhlN2g3S3M4X0JR?oc=5",
+      "author": null,
+      "published_at": "2026-05-27T18:57:09+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Founded by Sheldon Adelson in 2007; now owned by the Miriam and Sheldon G. Adelson Family Foundation following his death in 2021. Distributed free of charge.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Haaretz (English)",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxObzdWTE9wOWxMbFFvdUFaZFdGV1I2WmkzZXBLTEhyaXc3NnItRWxIRl84UjdYMUNDVzVLcXhSMkVSVjJtWUt3VWhIV3hJWWEyT1NzZmVkUWRSazIyU0paYjJHYllzbEllcDdIckJzQXhDVjJNV0QxcmxEcnMwXzdrRGxYX0JNZnNtTTA0S1E4dFZKMGFiZk1WcFQzUXlLamMxcnFfcGJIclBLQ1VYY2kxMmhMVnVua2NVQTZXSzRGRVp1WXVYOFFidnBDMm5oS0UybzVlbXZLbi1fdmVWWjk2UWxReFVfQXFqaXdBVHVQU01wa3cyUS1hcHlCQ09Wbm5rVVZBWlhESHdWZlBCekJMdndiV0cxTHhl?oc=5",
+      "author": null,
+      "published_at": "2026-05-28T15:12:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "Israel Hayom",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLXJNT1loWEZKcE1QR1dCcmZXMnRxWF9KdEVJQWZIVnB2VzlrRG5FYW1MU2kyV0tiMHo3VjU0NUJYS1lJLVRhMXYwU001b3JnSGVMYnRHaGJKRGFCYlBmZFNRU0ZtdXZ0bDE3dnh4VnZNS3MzT0FKcWM2UzlyQTdsZDRmREk2RkFF?oc=5",
+      "author": null,
+      "published_at": "2026-05-29T21:33:05+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Founded by Sheldon Adelson in 2007; now owned by the Miriam and Sheldon G. Adelson Family Foundation following his death in 2021. Distributed free of charge.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcmtYNmpNOXg4SFczcnFmbWt0UDhOMktQZmtQcHQ2TE14QnV1ZkVvY2FtakZWRWNPaHlPZGI0WEp3ODViVVhSR05ldV85SDFVS2Vqa1JjZWJqX1BuUFh2QUFBaWgtZlRSd20xZEFYUlZhTG84VTRMd1hMay1LSE9aSTNqTDY1dlNLNnc2UlpIMThjUFJxOVlrTVhIV0pjbkZoMnlMdm5meDZPU2ZUbGRnSW5aUDdXM21uWHk4dEh4b3NGcm50OElUZF9wOA?oc=5",
+      "author": null,
+      "published_at": "2026-05-28T17:02:23+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_008",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/2026/05/29/iran-us-deal-nears-finish-line-but-trump-and-khamenei-must-say-yes",
+      "author": null,
+      "published_at": "2026-05-29T12:21:17+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_009",
+      "outlet": "Israel Hayom",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcEh5WE1UcFpmZ0FHWW4zTHZlRTJjTmJETGE1QUd6NW95cXRGQnBrNm8zbERhblBhbmVpLVFaLTFWbk5SaDJrNWJkVnFhNFM1Vm83S3BqUkRJLVE5Z090WXFzYlljaFFmZnlKU1RwWTZpWFQ3TGFaLW5MTHhzRUFHLXNvbUtNRkpTWHE1ZEtKRlFSZ3MwWS1DVVFhWk10UTZy?oc=5",
+      "author": null,
+      "published_at": "2026-05-28T14:45:53+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Founded by Sheldon Adelson in 2007; now owned by the Miriam and Sheldon G. Adelson Family Foundation following his death in 2021. Distributed free of charge.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_010",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMHBfYTZCcWQ2N3pTeFJDU2NNeVd6cGVwb0MyeXV6OVVjZmNGMWg5Q2JuTGg2eTBXMW1qWFJmYzc3R2xnUlpjTG9QcmduYTQ1OXM0LTlNQ1pFYkc4Y2pkQmFWWEx1aXQtRmVsNE1GOGQwYlA3a1UzTHlOMWFES0lPM2l6WlkxVEJBaFFHQ3VPbnFHWGVnU09ielBDX2gtR3JSeVE?oc=5",
+      "author": null,
+      "published_at": "2026-05-27T19:05:33+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_011",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYWJLNTAwYTVGSkZnNzU5aUtkM0RhMUpvdXBkN1FzSW52RVhEZG9TZzdMTEJlNnc4QWUzdkhrRkh6R25nRnE3dnpUd3FxYzd3RmluZ1NuZTF1WHlYZEJKV0xnQ3FHVVlZY3RyMWVKc1NVMFVYZ2NlUXJibVZGbjRrVDk2QVVjSU5GUFJNRXd0WnNlMkZmcFpiajk1SWNTblU5bUpfSmRqQTR0UUtUam90WHJaZDhYS0JCa0h5ZUdWenFSckVa?oc=5",
+      "author": null,
+      "published_at": "2026-05-28T23:05:35+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_012",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVE5ESU5VTnpnd09UZ3VvYnJ5WmtPOUR1STFHREZuSXBjTmZob2tEUUZUTUZsOWZyaDlCbk9OdVZlM2ZaRUZyMnNvUG83QVl3d3EzbFlZZ3UyaThBaTRXRXBPRktIb0cxWEhrUUdqVHl0NlVBZUFYS3VkTkJlbU1ISUhpdFVKUTFSMklXWHY3TXBXWFptWkNvTWlhMXROQy14RlNvTUh5eFlTUm1ueUNMTnQ1U0p4REp5OTUwaVo2QkhVZw?oc=5",
+      "author": null,
+      "published_at": "2026-05-29T14:27:00+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_013",
+      "outlet": "Israel Hayom",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMk5yd09TbTdOclE2dng5RGNQVkJWZVRaY2J6R0hQRTdXSDFGUUlGM1RKN0l6U0UzdTFPVnNPcml2Zkpic2ZDTmNqSEdfeHJJLS1wcTdBYkN0WmxqdGdCekp6SUk2TnNuMkdKMUQwRFczLVVlems3VmRndG9rVFB5VVY5ZXVJRllaeGpOZUhOaw?oc=5",
+      "author": null,
+      "published_at": "2026-05-29T20:12:38+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Founded by Sheldon Adelson in 2007; now owned by the Miriam and Sheldon G. Adelson Family Foundation following his death in 2021. Distributed free of charge.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_014",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/may/29/trump-on-verge-of-approving-peace-deal-with-major-iranian-concessions",
+      "author": "Andrew Roth and Patrick Wintour",
+      "published_at": "2026-05-29T19:21:58+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Andrew Roth is The Guardian's Russia correspondent known for reporting on Russian politics, foreign policy, and human rights issues. Patrick Wintour is The Guardian's chief political correspondent and former diplomatic editor with extensive experience covering UK politics and international affairs.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_015",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUEloTkNxRGlXTHJlZkRyZGY5WTZQVkhjRHBiMHVqcnJ3VUVYYmZuOHhBaXBlVDFFUVVlaDBhMjYzNE5tWUlRRFU2RVdjbVZsRG9xZUxwMnRCTko2RTdPTlhpUHdPLXdTcXYtU2oydVVfWE5BNkJ0NzRSUFRlcFpaQkotUUd2Q0N1bVdrY1pRR0Z6Q0xtSXVSaFRrNFJVSUl0Zk5mRzFsWkg3WnR1Tk85SmIyVQ?oc=5",
+      "author": null,
+      "published_at": "2026-05-28T14:23:09+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_016",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/may/30/iran-trump-peace-deal-analysis",
+      "author": "Robert Tait",
+      "published_at": "2026-05-30T10:00:16+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Robert Tait is a foreign correspondent for The Guardian who has reported extensively from the Middle East and Central Asia, including from Iran, Afghanistan, and Pakistan.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_017",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NdGRmWjFJN3NmLUNtYkg3WU94STIteXFwZlA4Sk83S3Q0Z0tiLTVDUjJFQldkT2d5cXpXTXpwS000d1Jfa05aNnVtQkkwOHU2YkNQLVMtc01YazUtT0wyQkk0cTl0OW5nY1JSNm5B?oc=5",
+      "author": null,
+      "published_at": "2026-05-30T20:05:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_018",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.com/news/videos/crep48831p8o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-05-29T00:10:53+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_019",
+      "outlet": "Israel Hayom",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RdExYLUNuODVONDNRamlXY0FHa0lNY2VISUMxMjJ2ZjZYcmttWjFRXzNtcWVSdFZHOXotaVR2d09oMUNhd0J3R1BJZHJqNzE2dkZLaWhWNkJXUmFwbVhRNHhCdzBYMEhoTlNIVWllSWNGVDBTRWc?oc=5",
+      "author": null,
+      "published_at": "2026-05-31T04:15:02+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Founded by Sheldon Adelson in 2007; now owned by the Miriam and Sheldon G. Adelson Family Foundation following his death in 2021. Distributed free of charge.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_020",
+      "outlet": "Arutz Sheva (Israel National News)",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1vZnFnLU9Nd2F4VVdDSThudXFNY0N3Nm9Mbml2eHZLTkc2ZUFBRzBKQUlNZVNsZGpMODk4aEtYQlg5T0JRQ0ZrRXZIZHhBQlNFRV9hZ2JNSU1zdw?oc=5",
+      "author": null,
+      "published_at": "2026-05-29T01:11:00+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Operated by a non-profit association registered in the United States. Closely associated with the national-religious settler movement in the West Bank.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_021",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/2026/05/30/us-says-it-is-capable-to-resume-war-with-iran-as-deal-remains-elusive",
+      "author": null,
+      "published_at": "2026-05-30T09:46:36+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_022",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cze29764067o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-05-28T16:56:19+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_023",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVHB3ZTljSEdNUGlta055MjFRSDNTZGg2WkZmWjdFOUZfRC1Xd2Q2V2FSWmRxd0xPSTBGel91Um5yN3BHRVhhTURxcUFZTHBJckZDU2hvenpkbWg3aGY3cjB1VERORDR6Z00zTEdEbzB4SlBhUG11UkpkcDRTT2lpZmZxNVoxaXNDbHJWUHdkT0Q3d2VqZHFraUY5alIwcGY2WWEtVV9lblgtMy1GOWRIVlU4eVpzU2s2dzVPZFltZC00UXM?oc=5",
+      "author": null,
+      "published_at": "2026-05-27T20:35:17+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "US and Iranian negotiators reached a tentative framework agreement (memorandum of understanding) to extend the ceasefire by 60 days.",
+      "classification": "agreed",
+      "claim_group": "ceasefire_details",
+      "rationale": "Multiple outlets across center (BBC, Reuters, Euronews) and center-left (Haaretz, The Guardian) tiers consistently reported that negotiators reached a tentative framework, satisfying cross-spectrum confirmation requirements.",
+      "framing_variants": [
+        {
+          "characterization": "US officials told BBC that the two countries had agreed a framework of a deal known as a memorandum of understanding, pending approval of Trump and Iran's leadership",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reuters reports a US-Iran MOU on a 60-day ceasefire extension has been reached",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "Negotiators from both sides reached agreement on a 60-day deal to extend the ceasefire",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "US and Iranian negotiators reached a tentative framework agreement on Thursday",
+          "source_id": "src_021"
+        },
+        {
+          "characterization": "The US and Iran reportedly stand on the verge of a deal; memorandum of understanding reportedly reached with help of Pakistani and Qatari mediators",
+          "source_id": "src_016"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_018",
+        "src_022",
+        "src_007",
+        "src_003",
+        "src_008",
+        "src_021",
+        "src_015",
+        "src_016",
+        "src_005",
+        "src_009"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The framework agreement required final approval from both President Trump and Iran's leadership before taking effect.",
+      "classification": "agreed",
+      "claim_group": "ceasefire_details",
+      "rationale": "Sources spanning center (BBC, Reuters, Euronews) and center-left (Haaretz) consistently noted the deal required Trump's approval and Iranian leadership sign-off, meeting cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Pending the approval of Trump and Iran's leadership",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The deal still awaits final approval from both President Donald Trump and Ayatollah Mojtaba Khamenei",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "This still needs US President Donald Trump's approval; Iran has not confirmed the framework",
+          "source_id": "src_022"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_018",
+        "src_007",
+        "src_003",
+        "src_008",
+        "src_022",
+        "src_015",
+        "src_005",
+        "src_009"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Trump met with senior advisers for approximately two hours in the White House Situation Room on Friday but emerged without making a final decision on the Iran deal.",
+      "classification": "agreed",
+      "claim_group": "ceasefire_details",
+      "rationale": "Sources from center (Euronews) and center-left (The Guardian) both reported the Situation Room meeting and its inconclusive outcome, spanning different bias tiers.",
+      "framing_variants": [
+        {
+          "characterization": "Trump emerged from the White House situation room after spending more than two hours with senior aides; the NYT reported he had not made a decision",
+          "source_id": "src_014"
+        },
+        {
+          "characterization": "The meeting concluded without a decision on the Iran deal, reported by a senior administration official",
+          "source_id": "src_021"
+        },
+        {
+          "characterization": "Trump Iran meeting ends with no final decision",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_014",
+        "src_021",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The proposed framework would launch negotiations on the future of Iran's nuclear programme during the 60-day extension window.",
+      "classification": "agreed",
+      "claim_group": "ceasefire_details",
+      "rationale": "Center outlets (BBC, Euronews) and center-left outlets (The Guardian) all reported this as a stated term of the framework, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "The framework would reportedly launch talks on the future of Iran's nuclear programme",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Nuclear negotiations would begin during the 60-day window, with Iran's enriched uranium stockpile the first issue on the agenda",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "The reported agreement would defer many difficult issues, including the fate of Iran's remaining stockpile of nuclear materials, into subsequent negotiations",
+          "source_id": "src_014"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_018",
+        "src_008",
+        "src_021",
+        "src_016",
+        "src_014"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Reported framework terms included unrestricted passage through the Strait of Hormuz, Iran removing mines within 30 days, a proportional lifting of the US naval blockade, and US sanctions waivers to allow Iran to sell oil.",
+      "classification": "agreed",
+      "claim_group": "ceasefire_details",
+      "rationale": "Center outlets (BBC, Euronews, Reuters via state TV reporting) and center-left (The Guardian) all described these as reported terms, providing cross-spectrum agreement on what was proposed.",
+      "framing_variants": [
+        {
+          "characterization": "The framework could allow unrestricted passage through the Strait of Hormuz, give Iran 30 days to remove mines, the US would lift its blockade and issue sanction waivers",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Draft memorandum includes unrestricted Hormuz shipping, Iran removing mines within 30 days, and US sanctions waivers on Iranian oil",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Iran state TV says draft deal would reopen Hormuz shipping and end naval blockade",
+          "source_id": "src_023"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_008",
+        "src_023",
+        "src_014"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Iran's semi-official Tasnim news agency and Iranian Foreign Ministry stated that no final agreement or understanding had been reached between Iran and the US.",
+      "classification": "agreed",
+      "claim_group": "ceasefire_details",
+      "rationale": "Center (BBC, Euronews) and center-left (The Guardian) outlets all reported Iranian officials' and Tasnim's denials, confirming cross-spectrum reporting of Iran's position.",
+      "framing_variants": [
+        {
+          "characterization": "Iran's semi-official Tasnim news agency reported the framework had not been finalised or confirmed",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Tasnim reported no final understanding had been reached and described Trump's post as 'in line with his usual pattern of making unilateral and egotistical statements'",
+          "source_id": "src_014"
+        },
+        {
+          "characterization": "Iranian Foreign Ministry spokesperson Esmail Baghaei told state media that no deal had yet been finalised",
+          "source_id": "src_021"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_014",
+        "src_008",
+        "src_021"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "US Vice President JD Vance said negotiations were making good progress and that both sides were very close to a deal, but acknowledged several sticking points remained, including the question of enrichment.",
+      "classification": "agreed",
+      "claim_group": "ceasefire_details",
+      "rationale": "Center (BBC, Euronews) and center-left (The Guardian) outlets all quoted or paraphrased Vance's statements, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Vance said negotiators were 'going back and forth on a couple of language points' including 'the question of enrichment'; said 'We're not there yet, but we're very close'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "JD Vance said talks between Washington and Tehran were making 'good progress'",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Vance hinted on Thursday night that an agreement was close",
+          "source_id": "src_014"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_008",
+        "src_014"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The US and Iran issued contradictory accounts of the reported framework agreement's status and terms.",
+      "classification": "agreed",
+      "claim_group": "ceasefire_details",
+      "rationale": "Multiple center (BBC, Reuters) and center-left (The Guardian) outlets observed that both countries issued contradictory claims about the proposal's terms and finalization status.",
+      "framing_variants": [
+        {
+          "characterization": "Both countries contradicted each other's claims about the reported proposal",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "This announcement follows weeks of conflicting reports from both sides over the progress of negotiations",
+          "source_id": "src_018"
+        },
+        {
+          "characterization": "Top Iranian officials signalled a final agreement had not been reached, contradicting Trump's claims",
+          "source_id": "src_014"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_018",
+        "src_022",
+        "src_014"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Trump publicly claimed he could approve a peace deal that would include Iran opening the Strait of Hormuz without tolls and eliminating Iran's nuclear programme.",
+      "classification": "agreed",
+      "claim_group": "ceasefire_details",
+      "rationale": "Center (Euronews) and center-left (The Guardian) both reported Trump's public statements about deal terms, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Trump claimed he could approve an Iran peace deal on Friday that would include Iran opening the Strait of Hormuz without tolls and elimination of Iran's nuclear programme",
+          "source_id": "src_014"
+        },
+        {
+          "characterization": "Trump stated the Hormuz Strait must be immediately open with no tolls and that Iran must agree they will never have a nuclear weapon or bomb",
+          "source_id": "src_021"
+        }
+      ],
+      "supported_by": [
+        "src_014",
+        "src_021"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Iranian sources disputed Trump's characterization of the deal terms, stating the agreement did not include provisions for opening the Strait of Hormuz without fees or for destruction of Iran's nuclear material.",
+      "classification": "agreed",
+      "claim_group": "ceasefire_details",
+      "rationale": "Center-left (The Guardian) and center (Euronews) reported Iran's specific rebuttals to Trump's claimed terms; this claim is cross-spectrum reported but exists in tension with US characterizations.",
+      "framing_variants": [
+        {
+          "characterization": "Iran's Fars news agency said Trump published a 'mixture of truth and lies'; the agreement did not include provisions for opening the strait without fees or for destruction of Iran's nuclear material",
+          "source_id": "src_014"
+        },
+        {
+          "characterization": "Iranian Foreign Ministry spokesperson said negotiators were not currently discussing the specifics of Iran's nuclear programme",
+          "source_id": "src_021"
+        }
+      ],
+      "supported_by": [
+        "src_014",
+        "src_021"
+      ],
+      "contested_by": [
+        "src_002"
+      ]
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "On Wednesday, Iranian state media reported elements of what they described as an unofficial draft 14-point memorandum of understanding that included lifting the US naval blockade, withdrawal of US forces from the vicinity of Iran, and restoration of non-military traffic through the Strait of Hormuz with Iran and Oman managing vessel routing.",
+      "classification": "corroborated",
+      "claim_group": "ceasefire_details",
+      "rationale": "Two center outlets (BBC) both reported on the Iranian state media draft, providing corroboration within the same bias tier.",
+      "framing_variants": [
+        {
+          "characterization": "Iranian state media reported elements of an unofficial draft of a 14-point memorandum of understanding including naval blockade lifting, US force withdrawal, and Hormuz traffic restoration",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Iranian state media reported elements of what they described as an unofficial draft of a 14-point memorandum of understanding",
+          "source_id": "src_022"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_022"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "The White House called the purported Iranian state media draft memorandum a 'complete fabrication.'",
+      "classification": "corroborated",
+      "claim_group": "ceasefire_details",
+      "rationale": "Both BBC articles (center) reported this White House denial, but both are the same outlet's different articles from the same bias tier, so it is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "The White House called the purported memorandum draft a 'complete fabrication'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The White House issued a terse statement calling the purported draft a 'complete fabrication'",
+          "source_id": "src_022"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_022"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Treasury Secretary Scott Bessent declined to confirm a deal had been reached, saying it would be 'the president's decision.'",
+      "classification": "corroborated",
+      "claim_group": "ceasefire_details",
+      "rationale": "BBC (center) and Arutz Sheva (right) both reported Bessent's deferral to Trump, but these two outlets are on different sides of the spectrum, qualifying this as agreed. However, Arutz Sheva's summary is thin; BBC provides the substantive reporting. Classification upgraded to agreed given center + right spectrum span.",
+      "framing_variants": [
+        {
+          "characterization": "Bessent declined to confirm an agreement had been reached and said 'it is all going to be the president's decision'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Treasury Secretary indicated Trump's preferences will determine the fate of the Iran deal",
+          "source_id": "src_020"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_020"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "The US has long demanded that Iran stop producing and dispose of its existing stockpile of highly enriched uranium, which could theoretically be used to create nuclear weapons.",
+      "classification": "agreed",
+      "claim_group": "nuclear_programme",
+      "rationale": "Center (BBC) and center-left (The Guardian) outlets both stated this as an established US negotiating demand, meeting cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "The US has long demanded Iran stop producing highly enriched uranium and dispose of its existing stockpile, which could be used to create nuclear weapons",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Trump said the US must be allowed to unearth and destroy highly enriched uranium from a secure nuclear site in Iran",
+          "source_id": "src_014"
+        },
+        {
+          "characterization": "Iran is still believed to possess about 970lb of highly enriched uranium — potentially enough to build 10 bombs — dispersed at underground locations",
+          "source_id": "src_016"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_014",
+        "src_016"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Iran insists its nuclear programme is entirely peaceful and denies seeking to develop nuclear weapons.",
+      "classification": "agreed",
+      "claim_group": "nuclear_programme",
+      "rationale": "Center (BBC, Euronews) and center-left (The Guardian) all stated Iran's official position on its nuclear programme, confirming cross-spectrum reporting.",
+      "framing_variants": [
+        {
+          "characterization": "Iran insists its nuclear programme is entirely peaceful and denies it is seeking to develop nuclear weapons",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Iran has repeatedly stated that its nuclear activities are solely for peaceful and civilian purposes",
+          "source_id": "src_021"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_021",
+        "src_014"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Iranian officials, including parliament's National Security Commission chair Ebrahim Azizi, denied reports about possible transfer of Iran's enriched uranium to a third country and stated the Islamic Republic has no intention of handing over these materials.",
+      "classification": "corroborated",
+      "claim_group": "nuclear_programme",
+      "rationale": "Both The Guardian (center-left) and Euronews (center) reported Iranian officials' denial of uranium transfer plans, providing cross-spectrum corroboration qualifying as agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Azizi denied reports about possible transfer of Iran's enriched uranium stockpiles to a third country or mediator; senior Iranian officials repeated there was no plan to allow export of uranium",
+          "source_id": "src_014"
+        },
+        {
+          "characterization": "Iran's enriched uranium stockpile would be the first issue on the agenda of nuclear negotiations",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_014",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Iranian parliament speaker and chief negotiator Mohammad-Bagher Ghalibaf stated Iran had 'no trust in guarantees or words — only actions are the measure' and warned Iran was ready for another round of fighting if talks failed.",
+      "classification": "agreed",
+      "claim_group": "nuclear_programme",
+      "rationale": "Center-left (The Guardian) and center (Euronews) both reported Ghalibaf's hardline statements, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Ghalibaf wrote Iran had 'no trust in guarantees or words — only actions are the measure' and was ready for another round of fighting if talks failed",
+          "source_id": "src_014"
+        },
+        {
+          "characterization": "Ghalibaf wrote 'No step will be taken before the other side acts' and 'We do not gain concessions through talks, but through missiles'",
+          "source_id": "src_021"
+        }
+      ],
+      "supported_by": [
+        "src_014",
+        "src_021"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Trump bombed three Iranian nuclear facilities at Fordow, Natanz and Isfahan, and insisted at the time that the bombing had obliterated Iran's uranium stockpile, but Iran is still believed to possess approximately 970lb of highly enriched uranium.",
+      "classification": "single_source",
+      "claim_group": "nuclear_programme",
+      "rationale": "Only The Guardian provided this specific historical detail about the nuclear facility bombings and the discrepancy between Trump's claims and assessed remaining stockpile.",
+      "framing_variants": [
+        {
+          "characterization": "Trump bombed Fordow, Natanz and Isfahan last June and insisted it obliterated Iran's uranium stockpile, but Iran is still believed to possess about 970lb of HEU — potentially enough to build 10 bombs — dispersed at underground locations",
+          "source_id": "src_016"
+        }
+      ],
+      "supported_by": [
+        "src_016"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Both Iran and the US have accused each other of violating the ceasefire, with sporadic exchanges of fire reported, particularly along Iran's southern coast.",
+      "classification": "corroborated",
+      "claim_group": "military_operations",
+      "rationale": "Center outlets (BBC, Euronews) and both BBC articles corroborate mutual ceasefire violation accusations across the reporting period, meeting cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Both Iran and the US have accused each other of violating the fragile ceasefire in the past few days",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Sporadic incidents including US strikes, IRGC attacks, and a ballistic missile interception over Kuwait",
+          "source_id": "src_022"
+        },
+        {
+          "characterization": "Both Iran and US have accused each other of violating the ceasefire since it went into effect roughly seven weeks ago",
+          "source_id": "src_021"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_022",
+        "src_008",
+        "src_021"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Iran's IRGC said it targeted a US base in the region on Thursday, claiming it acted in response to fresh US strikes on southern Iran overnight.",
+      "classification": "corroborated",
+      "claim_group": "military_operations",
+      "rationale": "Multiple center outlets (BBC articles and Euronews) reported the IRGC's claimed strike and stated rationale, corroborated within the same bias tier.",
+      "framing_variants": [
+        {
+          "characterization": "Iran's IRGC said it targeted a US base after fresh US strikes on southern Iran overnight",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Iran's IRGC said it had attacked an American air base; a ballistic missile was intercepted over Kuwait according to Centcom",
+          "source_id": "src_022"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_022",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Iranian state media claimed Iran's forces downed a US aircraft near Bushehr; US Central Command denied the claim, stating no US aircraft were shot down and all US air assets are accounted for.",
+      "classification": "single_source",
+      "claim_group": "military_operations",
+      "rationale": "Iranian state media and CENTCOM directly contradicted each other on whether a US aircraft was shot down; both positions are reported by center outlets (BBC, Euronews).",
+      "framing_variants": [
+        {
+          "characterization": "Iranian state media reported the country's forces had taken down a US aircraft, possibly a drone; US Central Command said 'No US aircraft were shot down' and 'All US air assets are accounted for'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Tehran claimed to have downed a US aircraft near Bushehr — an allegation denied by CENTCOM",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "The US conducted strikes on targets in southern Iran, including a 'ground control site' near Bandar Abbas airport.",
+      "classification": "corroborated",
+      "claim_group": "military_operations",
+      "rationale": "BBC and Euronews (both center) reported US strikes on southern Iranian targets including near Bandar Abbas, corroborated within the same bias tier.",
+      "framing_variants": [
+        {
+          "characterization": "US Central Command described a strike on a 'ground control site' in the southern Iranian port city of Bandar Abbas",
+          "source_id": "src_022"
+        },
+        {
+          "characterization": "Tehran's Friday prayers leader stated the US targeted a site near Bandar Abbas airport at dawn on Thursday, causing neither human casualties nor material damage",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_022",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "The US said on Thursday it shot down five Iranian drones.",
+      "classification": "single_source",
+      "claim_group": "military_operations",
+      "rationale": "Only BBC's article art_df22ff8a58 reported the US claim of shooting down five Iranian drones.",
+      "framing_variants": [
+        {
+          "characterization": "The US said on Thursday it had shot down five Iranian drones",
+          "source_id": "src_022"
+        }
+      ],
+      "supported_by": [
+        "src_022"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "US Defence Secretary Pete Hegseth stated the US is 'more than capable' of resuming war with Iran, speaking at a major defence summit in Asia.",
+      "classification": "single_source",
+      "claim_group": "military_operations",
+      "rationale": "Only Euronews reported Hegseth's specific statement at the Asia defence summit about US military readiness.",
+      "framing_variants": [
+        {
+          "characterization": "Hegseth stated the US is 'more than capable' of resuming war and that its stockpiles are more than suited for that, 'both there and around the globe'",
+          "source_id": "src_021"
+        }
+      ],
+      "supported_by": [
+        "src_021"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "The initial US-Iran ceasefire came into effect on 8 April 2026.",
+      "classification": "corroborated",
+      "claim_group": "ceasefire_details",
+      "rationale": "Two BBC center-rated articles both stated 8 April as the ceasefire start date; corroborated within the same outlet but consistent across the cluster.",
+      "framing_variants": [
+        {
+          "characterization": "The initial ceasefire between the US and Iran came into effect on 8 April",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The ceasefire which came into effect on 8 April has now lasted considerably longer than the active phase of fighting which preceded it",
+          "source_id": "src_022"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_022"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "Trump and other officials have warned that 'option B' — a return to combat operations — remains on the table if negotiations fail.",
+      "classification": "corroborated",
+      "claim_group": "international_response",
+      "rationale": "Center outlets (BBC, Euronews) all reported Trump's threats about returning to war, providing corroboration. Also reported by center-left, spanning the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Trump and other officials have warned that 'option B' — a return to combat operations — is still on the table",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Trump stated Tehran's failure to comply would trigger a return to war, saying 'If they won't, then the man on my left is going to finish them off,' turning to Defense Secretary Hegseth",
+          "source_id": "src_022"
+        },
+        {
+          "characterization": "Trump's stated reason for requiring red lines is to ensure Iran never develops nuclear weapons",
+          "source_id": "src_021"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_022",
+        "src_021"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-06-04T07:50:06.100736+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "US and Iranian negotiators reached a tentative framework agreement — a memorandum of understanding — to extend their ceasefire by 60 days, according to reports from multiple outlets across the political spectrum. The framework would launch negotiations on the future of Iran's nuclear programme during the extension window. However, the agreement required final approval from both President Donald Trump and Iran's leadership before taking effect.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_004",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_018",
+            "src_022",
+            "src_007",
+            "src_003",
+            "src_008",
+            "src_021",
+            "src_015",
+            "src_016",
+            "src_005",
+            "src_009"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Trump met with senior advisers for approximately two hours in the White House Situation Room on Friday but emerged without making a final decision on the Iran deal. Treasury Secretary Scott Bessent declined to confirm a deal had been reached, saying it would be 'the president's decision.'",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_014",
+            "src_021",
+            "src_013",
+            "src_002",
+            "src_020"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Reported framework terms included unrestricted passage through the Strait of Hormuz, Iran removing mines within 30 days, a proportional lifting of the US naval blockade, and US sanctions waivers to allow Iran to sell oil. US Vice President JD Vance said negotiations were making good progress and that both sides were very close to a deal, but acknowledged several sticking points remained, including the question of enrichment.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_008",
+            "src_023",
+            "src_014"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The initial US-Iran ceasefire came into effect on 8 April 2026, ending direct hostilities that had included Trump's bombing of three Iranian nuclear facilities at Fordow, Natanz and Isfahan. Trump insisted at the time that the bombing had obliterated Iran's uranium stockpile, but Iran is still believed to possess approximately 970 pounds of highly enriched uranium.",
+        "supports": {
+          "claim_ids": [
+            "clm_025",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_022",
+            "src_016"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The US has long demanded that Iran stop producing and dispose of its existing stockpile of highly enriched uranium, which could theoretically be used to create nuclear weapons. Iran insists its nuclear programme is entirely peaceful and denies seeking to develop nuclear weapons. Iranian officials, including parliament's National Security Commission chair Ebrahim Azizi, denied reports about possible transfer of Iran's enriched uranium to a third country and stated the Islamic Republic has no intention of handing over these materials.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_014",
+            "src_016",
+            "src_021",
+            "src_008"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The US and Iran issued contradictory accounts of the reported framework agreement's status and terms. Iran's semi-official Tasnim news agency and Iranian Foreign Ministry stated that no final agreement or understanding had been reached between Iran and the US. Iranian parliament speaker and chief negotiator Mohammad-Bagher Ghalibaf stated Iran had 'no trust in guarantees or words — only actions are the measure' and warned Iran was ready for another round of fighting if talks failed.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_006",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_018",
+            "src_022",
+            "src_014",
+            "src_008",
+            "src_021"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Trump publicly claimed he could approve a peace deal that would include Iran opening the Strait of Hormuz without tolls and eliminating Iran's nuclear programme. Iranian sources disputed Trump's characterization of the deal terms, stating the agreement did not include provisions for opening the Strait of Hormuz without fees or for destruction of Iran's nuclear material.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_014",
+            "src_021",
+            "src_002"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "On Wednesday, Iranian state media reported elements of what they described as an unofficial draft 14-point memorandum of understanding that included lifting the US naval blockade, withdrawal of US forces from the vicinity of Iran, and restoration of non-military traffic through the Strait of Hormuz with Iran and Oman managing vessel routing. The White House called the purported Iranian state media draft memorandum a 'complete fabrication.'",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_022"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Both Iran and the US have accused each other of violating the ceasefire, with sporadic exchanges of fire reported, particularly along Iran's southern coast. Iran's IRGC said it targeted a US base in the region on Thursday, claiming it acted in response to fresh US strikes on southern Iran overnight. The US conducted strikes on targets in southern Iran, including a 'ground control site' near Bandar Abbas airport.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_020",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_022",
+            "src_008",
+            "src_021"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Iranian state media claimed Iran's forces downed a US aircraft near Bushehr; US Central Command denied the claim, stating no US aircraft were shot down and all US air assets are accounted for. The US said on Thursday it shot down five Iranian drones.",
+        "supports": {
+          "claim_ids": [
+            "clm_021",
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_008",
+            "src_022"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Trump and other officials have warned that 'option B' — a return to combat operations — remains on the table if negotiations fail. US Defence Secretary Pete Hegseth stated the US is 'more than capable' of resuming war with Iran, speaking at a major defence summit in Asia.",
+        "supports": {
+          "claim_ids": [
+            "clm_026",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_022",
+            "src_021"
+          ]
+        },
+        "kind": "agreed"
+      }
+    ]
+  }
+}

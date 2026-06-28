@@ -150,7 +150,17 @@ def _build_claims_block(claims: list[dict]) -> str:
         cls = c.get("classification", "single_source")
         groups.setdefault(cls, []).append(c)
 
+    # Emit a prominent header when no claim has contested_by populated
+    has_any_contested_by = any(c.get("contested_by") for c in claims)
     lines = []
+    if not has_any_contested_by:
+        lines.append(
+            "⚠ CONTESTED_BY STATUS: No claim in this event has a non-empty contested_by list. "
+            "This means NO outlets reported genuinely opposing facts. "
+            "You MUST NOT write any paragraphs with kind=contested. "
+            "Use framing or one_sided instead where perspectives differ.\n"
+        )
+
     for cls, label in [
         ("agreed", "AGREED (cross-spectrum consensus)"),
         ("corroborated", "CORROBORATED (same-side confirmation only)"),
@@ -184,14 +194,35 @@ def _build_sources_block(sources: list[dict]) -> str:
     return "\n".join(lines)
 
 
-def _parse_response(text: str) -> dict:
-    """Extract JSON from model response, handling markdown code fences."""
-    # Strip markdown fences if present
+def _parse_response(text: str, stop_reason: str = "end_turn") -> dict:
+    """Extract JSON from model response, handling markdown fences and minor malformation."""
+    if text.startswith("```"):
+        parts = text.split("```")
+        text = parts[1] if len(parts) > 1 else text
+        if text.startswith("json"):
+            text = text[4:]
     text = text.strip()
-    fence = re.match(r"^```(?:json)?\s*\n(.*?)\n```\s*$", text, re.DOTALL)
-    if fence:
-        text = fence.group(1).strip()
-    return json.loads(text)
+
+    # Repair truncated output
+    if stop_reason == "max_tokens":
+        last_brace = text.rfind("}")
+        if last_brace != -1:
+            text = text[:last_brace + 1]
+            text += "]" * (text.count("[") - text.count("]"))
+            text += "}" * (text.count("{") - text.count("}"))
+
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        pass
+
+    try:
+        from json_repair import repair_json
+        return json.loads(repair_json(text))
+    except (ImportError, Exception):
+        pass
+
+    raise ValueError(f"Could not parse generate response. First 600 chars:\n{text[:600]}")
 
 
 def generate_report(event_data: dict, client) -> dict:
@@ -234,7 +265,7 @@ Write the reader-facing report as a JSON object following the format and rules i
     )
 
     raw = response.content[0].text
-    parsed = _parse_response(raw)
+    parsed = _parse_response(raw, response.stop_reason)
 
     # Wrap in the full report envelope
     report = {
@@ -242,6 +273,9 @@ Write the reader-facing report as a JSON object following the format and rules i
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "paragraphs": parsed.get("paragraphs", []),
     }
+
+    # B-11: enforce paragraph kind consistency before returning
+    _enforce_paragraph_kinds(report, event_data)
 
     return report
 
@@ -323,3 +357,49 @@ def validate_report(report: dict, event_data: dict) -> list[str]:
                 warnings.append(f"  [ERROR] {pid}: unknown source_id '{sid}'")
 
     return warnings
+
+
+def _enforce_paragraph_kinds(report: dict, event_data: dict) -> list[str]:
+    """
+    B-11 enforcement: reclassify `contested` paragraphs that have no outlet-level
+    disagreement evidence. Mirrors B-09 in reconcile.py one layer up.
+
+    Two cases both result in reclassification to `framing`:
+    1. claim_ids is empty — model ignored the citation rule, so there is no evidence
+       to evaluate. Treat absence of evidence as no contested support.
+    2. claim_ids is populated but none of the cited claims have contested_by non-empty —
+       the model labelled a paragraph contested because the topic sounds disputed, not
+       because outlets actually reported opposing facts.
+
+    Mutates report in place. Returns list of corrections applied.
+    """
+    import sys
+    claim_has_contested = {
+        c["claim_id"]: bool(c.get("contested_by"))
+        for c in event_data["claims"]
+    }
+    corrections = []
+
+    for para in report.get("paragraphs", []):
+        if para.get("kind") != "contested":
+            continue
+        cited = para.get("supports", {}).get("claim_ids", [])
+        if not cited:
+            para["kind"] = "framing"
+            corrections.append(
+                f"B-11 {para['paragraph_id']}: contested → framing "
+                f"(claim_ids empty; no outlet-level dispute evidence)"
+            )
+        elif not any(claim_has_contested.get(cid, False) for cid in cited):
+            para["kind"] = "framing"
+            corrections.append(
+                f"B-11 {para['paragraph_id']}: contested → framing "
+                f"(cited claims {cited} have no contested_by — topic dispute, not outlet dispute)"
+            )
+
+    if corrections:
+        print(f"\n✔  Kind enforcement corrections applied ({len(corrections)}):", file=sys.stderr)
+        for c in corrections:
+            print(f"   • {c}", file=sys.stderr)
+
+    return corrections

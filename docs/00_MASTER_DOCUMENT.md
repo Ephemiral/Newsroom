@@ -389,6 +389,34 @@ A `contested` claim with no `contested_by` is a contradiction in terms — it me
 
 ---
 
+### B-10 — Generate stage: `claim_ids` not populated in report paragraphs
+
+**Problem:** The generate stage returns paragraphs with empty `claim_ids: []`. The model ignores the prompt rule requiring every paragraph to cite at least one `claim_id`. This has two downstream effects: (1) the B-08/B-11 validation cannot check kind consistency because there are no claims to evaluate; (2) the receipt UI cannot show which specific claims back a paragraph.
+
+**Root cause:** The system prompt states the rule, but the model consistently drops citation IDs in the JSON output. The rule was not reinforced strongly enough in the prompt.
+
+**Fix implemented (2026-06-04) in `pipeline/generate/generate.py`:**
+- Added a `⚠ CONTESTED_BY STATUS` header in `_build_claims_block()` that explicitly states when no claims have `contested_by` populated, with a bolded instruction not to write any `contested` paragraphs.
+- The B-11 enforcement pass (see below) treats empty `claim_ids` as "no evidence" and reclassifies accordingly.
+
+**Remaining gap:** `claim_ids` are still often empty — the prompt fix reduces but may not eliminate this. A future improvement would be to add a second-pass prompt that fills in missing citation IDs after the initial generation.
+
+---
+
+### B-11 — Generate stage: `contested` paragraph kind based on topic, not outlet disagreement
+
+**Problem:** The generate model labels report paragraphs as `kind=contested` because the *subject matter* sounds politically contested (e.g., ceasefire negotiations involve two parties with opposing interests), not because any outlet actually reported a different version of the facts. In `evt_2026_06_04_062` (US-Iran ceasefire), zero claims had `contested_by` populated, yet 4 of 11 paragraphs were labelled `contested`. This misleads the reader into thinking outlets disagreed when they all reported the same facts.
+
+**Root cause:** The model conflates "this topic involves a dispute between actors" with "outlets reported conflicting facts." These are fundamentally different signals. The former is narrative context; the latter is what `contested` is supposed to surface.
+
+**Fix implemented (2026-06-04) in `pipeline/generate/generate.py`:**
+- Added `_enforce_paragraph_kinds()` — a post-generation guard that reclassifies `contested` paragraphs as `framing` when: (a) `claim_ids` is empty (no evidence at all), or (b) no cited claim has `contested_by` non-empty. Mirrors B-09 in `reconcile.py`, one layer up.
+- Added `⚠ CONTESTED_BY STATUS` warning in `_build_claims_block()` to make the absence of outlet-level disagreement explicit in the prompt context.
+
+**Note:** B-09 fixes this at the claim classification layer. B-11 fixes it at the report paragraph layer. Both guards are needed because the generate model creates paragraph labels independently of claim labels.
+
+---
+
 ## 14. Future Considerations (Notes for Review)
 
 These are not backlog items — no action required now. They are questions worth revisiting once the core product is more mature.
