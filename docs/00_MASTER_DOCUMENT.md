@@ -417,6 +417,21 @@ A `contested` claim with no `contested_by` is a contradiction in terms — it me
 
 ---
 
+### B-12 — Cluster step chains unrelated articles into mega-clusters
+
+**Problem:** `auto_cluster()` (`pipeline/cluster/group.py`) uses connected-components grouping over a pairwise cosine-similarity threshold (0.70). This is transitive: if article A is similar enough to B, and B to C, then A/B/C land in one cluster even when A and C are unrelated. Observed on 2026-06-28 (session 13): a fresh discover run produced a 24-article cluster (`evt_2026_06_28_169`) that chained together a UN Gaza genocide-inquiry story, a World Cup human-interest piece, and a journalist's-death story — three distinct events sharing Gaza-related vocabulary, not one. This pollutes the candidate pool: real diverse multi-outlet stories exist but get buried inside oversized grab-bag clusters, while genuinely well-clustered candidates with good outlet/lean diversity are rare in any given discover run.
+
+**Root cause:** Single-linkage/connected-components clustering has no mechanism to cap transitive chaining or enforce intra-cluster cohesion (e.g. average/minimum pairwise similarity across the whole cluster, not just adjacent pairs).
+
+**Fix not yet implemented.** Options to evaluate:
+- Switch to a clustering method with a cohesion check (e.g. average-linkage with a minimum mean pairwise similarity, or a hard cap on cluster size that triggers a sub-clustering pass).
+- Post-cluster validation step that flags clusters above a size threshold for manual review or automatic splitting before they reach the candidate pool.
+- Raise the similarity threshold and/or tighten the time window as a cheaper first pass, with the cohesion fix as the real solution.
+
+**Priority:** Medium — doesn't block M9 (the one-event-at-a-time picking process still works, just inefficient), but it materially shrinks the effective pool of usable candidates per discover run and is worth fixing before scaling batch size or automating candidate selection.
+
+---
+
 ## 14. Future Considerations (Notes for Review)
 
 These are not backlog items — no action required now. They are questions worth revisiting once the core product is more mature.
