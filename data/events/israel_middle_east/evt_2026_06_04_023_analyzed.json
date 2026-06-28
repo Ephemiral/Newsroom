@@ -1,0 +1,1024 @@
+{
+  "schema_version": "0.2",
+  "event": {
+    "cluster_id": "evt_2026_06_04_023",
+    "beat": "israel_middle_east",
+    "title": "Israeli Knesset Advances Dissolution Bill and Attorney General Reform Bills",
+    "summary": "In late May–early June 2026, the Israeli Knesset advanced a coalition-backed bill to dissolve the parliament—potentially triggering early elections—while also passing first readings of two bills that would curtail the power of the attorney general and make it harder to indict senior officials, amid a coalition crisis driven by a dispute over haredi military draft legislation.",
+    "date": "2026-06-01",
+    "generated_at": "2026-06-28T09:41:33.570429+00:00"
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-898054",
+      "author": "BY AVI SOLOMON AND ARIELLA ROITMAN",
+      "published_at": "2026-06-02T05:08:12+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Owned by Riesling Investment & Technology Ltd, controlled by Israeli investor Eli Azur. Previously owned by Miriam Adelson.",
+      "author_background": "I don't have reliable specific information about journalists named Avi Solomon and Ariella Roitman at the Jerusalem Post to provide an accurate background note.\n\nnull",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM0ZJc3l4MHFfdnVBd1EtdV9vdGFTMWVRYnpKRV9pYU9DeTcwaTkzMlVsQ2tNbkhyaXpOQ0twN21XMkF4Sm1ab3YzZ3lvSTBKclBTeTJvQ0U4VTF5Nll2QlVob1Jaa044RUJGOXdWUndHUUltU2FMOFoyZ3N0OUhWRURDbWFDeG1RaUVqY19MSVhnSDE0SFZkWjVDQlFlTWVvN254WktyMTN3Nm5SNDJVb0x3?oc=5",
+      "author": null,
+      "published_at": "2026-06-01T09:05:30+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Haaretz (English)",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNaE9oWmZDN2FBYlc5QWVRWDlsbnZFZnl5MG9pV1QzdkkxWTdiY2QyX3VyRk9SRVM4X2xZN0h0YXpKZDBUZ1Z0RllUNW54Z2ZWSVdnX1pSVENXUElxWTliZWR6N2RNd3JHY3pPSlotTG04Zk5BbXRVWk9IaGZQTmluTlpqVzZDaWhlMnRTMTd3MmFSWmFNQ1Jud1pLUHRBWEZaaHJwVmp2Y09kVUl3RHo4OHJRNDdWM2x4dnpCNi14amp4MW5ZUWZ4VkRQM3NfZkNBSkU4TUlBYXV2eGhKNTFvRzgtbU84TWM5U2hPb1NHUFZ0UjI1eFA3OWxUbk5LN29qdHY1bmhTV1IyWGFZbDVqY0NpN2VVUXVyVGc?oc=5",
+      "author": null,
+      "published_at": "2026-06-01T22:21:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/legislation-to-split-and-weaken-role-of-attorney-general-passes-first-knesset-reading/",
+      "author": null,
+      "published_at": "2026-06-02T02:47:15+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-898048",
+      "author": "BY KESHET NEEV",
+      "published_at": "2026-06-02T01:28:16+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Owned by Riesling Investment & Technology Ltd, controlled by Israeli investor Eli Azur. Previously owned by Miriam Adelson.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-897969",
+      "author": "BY KESHET NEEV",
+      "published_at": "2026-06-01T11:39:52+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Owned by Riesling Investment & Technology Ltd, controlled by Israeli investor Eli Azur. Previously owned by Miriam Adelson.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uM2pZcTBuakRkQjRHb2Zzd1A5RklhZFJJV1pLVkpjdTlTUFNCRERTZ2RhNWNmTC1HT2w4TjR3TzdJM1dyVC0ySHl5RWRVTmlFRmxDZWNB?oc=5",
+      "author": null,
+      "published_at": "2026-06-01T22:53:49+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_008",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/mks-advance-bill-to-dissolve-knesset-and-potentially-move-up-elections-to-september/",
+      "author": null,
+      "published_at": "2026-06-02T00:31:08+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "The coalition's bill to dissolve the Knesset passed its first reading in the plenum with a vote of 106 to 0.",
+      "classification": "corroborated",
+      "claim_group": "dissolution_bill",
+      "rationale": "Both Times of Israel articles report the same 106-0 vote, but all sources are center-right outlets, so this is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Reports the vote as 106 to zero with no lawmakers voting against",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports lawmakers voted 106-0 in favor of the first reading",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "A bill to dissolve the Knesset passed a first procedural hurdle, paving the way for potential early elections.",
+      "classification": "agreed",
+      "claim_group": "dissolution_bill",
+      "rationale": "Sources from center-left (Haaretz) and center-right (Jerusalem Post, Times of Israel, Ynet, i24) all confirm the dissolution bill passed its first reading, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Frames it as 'paving way for early elections'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Frames it as Israel edging closer to snap elections",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "Describes it as 'potentially paving the way for early elections'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Straightforward report of the coalition's bill passing first reading",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_008",
+        "src_003",
+        "src_007",
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The Knesset House Committee approved the dissolution bill for its first reading on Monday morning with eight lawmakers in favor.",
+      "classification": "corroborated",
+      "claim_group": "dissolution_bill",
+      "rationale": "Multiple center-right outlets confirm the House Committee approved the dissolution bill on Monday morning; the eight-in-favor detail comes from one source.",
+      "framing_variants": [
+        {
+          "characterization": "Approved by House Committee with eight lawmakers in favor",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Approved for its first reading in the Knesset House Committee on Monday morning",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "The Knesset House Committee approved the dissolution bill for its first reading on Monday morning",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_006",
+        "src_008",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The dissolution bill's preliminary reading passed on May 20 with 110 lawmakers in favor and none against.",
+      "classification": "corroborated",
+      "claim_group": "dissolution_bill",
+      "rationale": "Two Jerusalem Post articles report the same preliminary reading vote, but both are the same center-right outlet.",
+      "framing_variants": [
+        {
+          "characterization": "Passed preliminary reading on May 20 with 110 in favor and none against",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Reports the preliminary reading vote as part of the chronology of the dissolution bill",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_006",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The dissolution bill must pass a total of three more readings in the plenum to come into effect.",
+      "classification": "corroborated",
+      "claim_group": "dissolution_bill",
+      "rationale": "Multiple center-right sources confirm the bill requires additional plenum readings; all sources are from the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Must pass a total of three more readings in the plenum",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Must pass three readings in the plenum to pass into law",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Must still pass a total of two more readings in the plenum to come into effect",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_006",
+        "src_008",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "No election date was set by the House Committee during its Monday deliberations.",
+      "classification": "corroborated",
+      "claim_group": "dissolution_bill",
+      "rationale": "Two Jerusalem Post articles both confirm no election date was set, but they are from the same center-right outlet.",
+      "framing_variants": [
+        {
+          "characterization": "No election date was set by the House Committee",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "No election date was set by the House Committee earlier in the day amid disagreements among lawmakers",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_006",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The House Committee determined a range of possible election dates spanning from September 8 to October 20.",
+      "classification": "corroborated",
+      "claim_group": "dissolution_bill",
+      "rationale": "Two Times of Israel/Jerusalem Post articles confirm the same date range, both center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "The panel determined a range of possible dates from September 8 to October 20",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Coalition whip Ofir Katz stated the range of dates will be between September 8 and October 20",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_006",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The coalition submitted its own dissolution bill as a way for the prime minister to control the pace and timing of elections.",
+      "classification": "corroborated",
+      "claim_group": "dissolution_bill",
+      "rationale": "Two Jerusalem Post articles offer the same interpretive framing of the coalition's motive, but both are center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "The coalition's submission viewed as a way for the PM to control the pace and timing of elections",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Coalition fast-tracking legislation ahead of potential Knesset dissolution",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Elections were required to be held by October 27 regardless of the dissolution legislation.",
+      "classification": "single_source",
+      "claim_group": "dissolution_bill",
+      "rationale": "Only one source explicitly states that October 27 was already a pre-existing election deadline regardless of the dissolution bill.",
+      "framing_variants": [
+        {
+          "characterization": "Elections were anyway required to be held by October 27 regardless of this legislation",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Typically, 90 days must pass after a dissolution bill is approved before elections can be held, though this is not stipulated in Basic Law: The Knesset.",
+      "classification": "corroborated",
+      "claim_group": "dissolution_bill",
+      "rationale": "Both Jerusalem Post articles report the 90-day convention and the clarification that it is not enshrined in Basic Law, but both are center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "90 days must pass after dissolution bill approved; elections could be moved to early September or mid-October",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "90-day limitation is not stipulated in Basic Law: The Knesset, per Dean Livne",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Acting director general of the Central Elections Committee Dean Livne requested that the Knesset provide an election date no fewer than 83 days in advance.",
+      "classification": "corroborated",
+      "claim_group": "dissolution_bill",
+      "rationale": "Two Jerusalem Post articles report Livne's 83-day request, both from the same center-right outlet.",
+      "framing_variants": [
+        {
+          "characterization": "Livne requested the Knesset provide a date no fewer than 83 days in advance",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Dean Livne stated the committee requires a minimum preparation period and requested 83 days' notice",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "September 15 falls between Rosh Hashanah and Yom Kippur, and if chosen as an election date would delay results publication by one day and reduce ballot-counting time by 25 hours.",
+      "classification": "corroborated",
+      "claim_group": "dissolution_bill",
+      "rationale": "Both Jerusalem Post articles report the same logistical complications of a September 15 election date, both center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Most complex date although still feasible; results delayed one day, counting time reduced 25 hours",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Publication of election results would be delayed by one day and ballot-counting reduced by 25 hours",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Haredi party lawmakers from Shas and UTJ told the House Committee panel they wanted to move up the election date to September, before the High Holy Days.",
+      "classification": "corroborated",
+      "claim_group": "coalition_crisis",
+      "rationale": "Two Jerusalem Post articles report the same haredi party position at the panel, both center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Shas and UTJ lawmakers told panel they wanted September election date, before High Holy Days",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Haredi parties pushed for September election date reportedly to improve haredi voter turnout",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Reports suggest haredi parties pushed for a September election date to boost haredi voter turnout.",
+      "classification": "corroborated",
+      "claim_group": "coalition_crisis",
+      "rationale": "Two Jerusalem Post articles attribute this motivation to unspecified reports; both center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Numerous reports stated this would lead to better turnout among haredi voters",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports stated haredi parties pushed for this to lead to better turnout among haredi voters",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Netanyahu reportedly opposed moving up the election date and sought to hold elections in late October.",
+      "classification": "corroborated",
+      "claim_group": "coalition_crisis",
+      "rationale": "Multiple center-right outlets report Netanyahu's preference for late October elections; all are from the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Netanyahu reportedly opposed the move and seeks late October elections",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Netanyahu reportedly has opposed moving up the election date and seeks elections in late October",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Netanyahu reportedly urged ultra-Orthodox parties not to force early elections in September, warning it would endanger the right-wing bloc's chances",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Netanyahu's stated reason for preferring late October elections was to allow the coalition more time to advance legislation and potentially achieve military goals.",
+      "classification": "corroborated",
+      "claim_group": "coalition_crisis",
+      "rationale": "Two Jerusalem Post articles report the same stated rationale, both center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Allowing the coalition more time to advance legislation and potentially achieve military goals",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Allowing more time to advance legislation during the Knesset's final session and potentially achieve military goals",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Coalition tensions began in mid-May after Netanyahu told haredi parties that the haredi draft legislation lacked sufficient coalition support to pass.",
+      "classification": "corroborated",
+      "claim_group": "coalition_crisis",
+      "rationale": "Multiple center-right outlets report the same triggering event for the coalition crisis.",
+      "framing_variants": [
+        {
+          "characterization": "Coalition tensions began in mid-May after Netanyahu told haredi parties the draft legislation lacked enough support",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Coalition tensions began in mid-May after Netanyahu told haredi parties the draft legislation did not have enough support within the coalition",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Netanyahu told Haredi MKs the coalition currently doesn't have the votes to pass the draft exemption legislation",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "United Torah Judaism announced it would seek to dissolve the Knesset and trigger early elections, citing the coalition's failure to pass a law enshrining the exemption of haredi yeshiva students from military service.",
+      "classification": "corroborated",
+      "claim_group": "coalition_crisis",
+      "rationale": "Multiple center-right outlets report UTJ's announcement and its stated reason; all from the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "UTJ announced it would seek Knesset dissolution, citing failure to pass haredi draft exemption law",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Haredi parties pushed for dissolution after Netanyahu's statement about insufficient coalition support for the draft bill",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_008",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Rabbi Dov Lando, spiritual leader of Degel Hatorah, wrote to the faction's Knesset members stating they no longer have trust in Netanyahu.",
+      "classification": "corroborated",
+      "claim_group": "coalition_crisis",
+      "rationale": "Two Jerusalem Post articles report Lando's letter and quote, both center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Lando wrote 'We no longer have trust in Netanyahu' to the faction's MKs",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Degel Hatorah's spiritual leader wrote that 'we no longer have trust in Netanyahu'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Rabbi Dov Lando instructed United Torah Judaism lawmakers to stop cooperating with the coalition's efforts to advance the haredi draft bill.",
+      "classification": "corroborated",
+      "claim_group": "coalition_crisis",
+      "rationale": "Two Jerusalem Post articles report the same directive from Lando, both center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Lando instructed UTJ lawmakers on Sunday evening to stop cooperating with coalition efforts",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Degel Hatorah's spiritual leader instructed UTJ lawmakers last week to stop cooperating with coalition efforts",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "The coalition attempted to bring back the haredi draft bill for discussion on the same day as the preliminary vote on Knesset dissolution, which was seen as Netanyahu's final effort to persuade haredi parties not to vote for dissolution.",
+      "classification": "corroborated",
+      "claim_group": "coalition_crisis",
+      "rationale": "Two Jerusalem Post articles report the same tactical maneuver and its interpretation, both center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Seen as Netanyahu's final effort to persuade haredi parties not to vote for dissolving the Knesset",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Seen as Netanyahu's final effort to persuade haredi parties not to vote in favor of dissolving the Knesset",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Multiple coalition lawmakers spoke against the haredi draft bill, vowed not to vote for it, and warned it would not solve the IDF's manpower crisis and could severely harm Israel's security.",
+      "classification": "corroborated",
+      "claim_group": "coalition_crisis",
+      "rationale": "Two Jerusalem Post articles report the same coalition member positions and warnings, both center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Multiple coalition lawmakers spoke against it, vowing not to vote for it, warning it would not solve IDF manpower crisis",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Coalition lawmakers warned the draft bill would not solve IDF manpower crisis and could severely harm Israel's security",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "The IDF has repeatedly warned of an urgent manpower shortage, particularly after more than two years of war.",
+      "classification": "corroborated",
+      "claim_group": "coalition_crisis",
+      "rationale": "Two Jerusalem Post articles report the same IDF warnings, both center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "IDF repeatedly warned of urgent manpower shortage particularly after more than two years of war",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "IDF has repeatedly warned of urgent manpower shortage, particularly after more than two years of war",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "The haredi draft exemption legislation is widely seen as legally dubious and laden with loopholes, and generated intense resistance even among Netanyahu's coalition members.",
+      "classification": "single_source",
+      "claim_group": "coalition_crisis",
+      "rationale": "Only one source characterizes the legislation this way explicitly.",
+      "framing_variants": [
+        {
+          "characterization": "Widely seen as legally dubious and laden with loopholes; generated intense resistance even among coalition members",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "The haredi draft exemption bill was briefly taken off the table in March with the outbreak of the US-Israeli war with Iran.",
+      "classification": "single_source",
+      "claim_group": "coalition_crisis",
+      "rationale": "Only one source mentions the bill being taken off the table in March in connection with a US-Israeli war with Iran.",
+      "framing_variants": [
+        {
+          "characterization": "Draft exemption bill briefly taken off the table in March with the outbreak of the US-Israeli war with Iran",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "Opposition party leaders vowed they would not form a coalition with haredi parties after the elections under any circumstances.",
+      "classification": "corroborated",
+      "claim_group": "opposition_response",
+      "rationale": "Two Jerusalem Post articles report the same opposition vow, both center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Opposition party leaders vowed under no circumstances to form a coalition with haredi parties after elections",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Opposition party leaders vowed under no circumstances to form a coalition with haredi parties",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "Opposition leader Yair Lapid described the current government as one of the worst in Israeli history and criticized Netanyahu for failing to win in Lebanon, Gaza, and Iran, overseeing unprecedented increases in violent crime, and overseeing a decline in Israel's international standing.",
+      "classification": "single_source",
+      "claim_group": "opposition_response",
+      "rationale": "Only one source reports Lapid's specific characterizations and criticisms of Netanyahu.",
+      "framing_variants": [
+        {
+          "characterization": "Lapid described it as one of the worst governments in Israeli history; criticized Netanyahu for failures in Lebanon, Gaza, Iran, crime, and Israel's international standing",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_028",
+      "text": "Lapid called for Yashar chairman Gadi Eisenkot to join a united 'Together' slate with him and former Prime Minister Naftali Bennett, endorsing Bennett as 'the right man to lead.'",
+      "classification": "single_source",
+      "claim_group": "opposition_response",
+      "rationale": "Only one source reports Lapid's call for Eisenkot to join the Together slate and his endorsement of Bennett.",
+      "framing_variants": [
+        {
+          "characterization": "Lapid reiterated his call for Eisenkot to join the united Together slate with him and Bennett, saying Bennett 'is the right man to lead'",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_029",
+      "text": "Eisenkot proposed that opposition leaders agree to recommend the head of the largest allied party as prime minister after the election, a move that generated pushback from within the opposition bloc.",
+      "classification": "single_source",
+      "claim_group": "opposition_response",
+      "rationale": "Only one source reports Eisenkot's proposal and the resulting pushback.",
+      "framing_variants": [
+        {
+          "characterization": "Eisenkot proposed opposition leaders agree to recommend the head of the largest allied party as PM; generated pushback",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_030",
+      "text": "Avigdor Liberman declined to back Bennett as prime minister, presented himself as the best candidate, and said a decision would be postponed until after the elections.",
+      "classification": "single_source",
+      "claim_group": "opposition_response",
+      "rationale": "Only one source reports Liberman's stated position on the prime ministerial candidacy question.",
+      "framing_variants": [
+        {
+          "characterization": "Liberman declined to back Bennett, presented himself as the best candidate, and deferred a decision until after elections",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_031",
+      "text": "Lawmakers voted 65-47 to advance a pair of bills that would curtail the power of the attorney general and make it harder to indict high-ranking government officials.",
+      "classification": "corroborated",
+      "claim_group": "attorney_general_bills",
+      "rationale": "Both a Jerusalem Post (center-right) and Times of Israel (center-right) article confirm the 65-47 vote on attorney general bills; while both are center-right, the Times of Israel provides additional context framing this as curtailing attorney general power.",
+      "framing_variants": [
+        {
+          "characterization": "65 voted in favor, 47 opposed; bill to split the role of attorney general",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Voted 65-47 to advance a pair of controversial bills curtailing attorney general power and making it harder to indict senior officials",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_032",
+      "text": "The attorney general reform bill passed its first plenum reading and will return to the Knesset's Constitution, Law and Justice Committee for further deliberations.",
+      "classification": "corroborated",
+      "claim_group": "attorney_general_bills",
+      "rationale": "Two center-right outlets confirm the bill's first reading passage and next legislative step.",
+      "framing_variants": [
+        {
+          "characterization": "Will return for discussion in the Knesset's Constitution, Law and Justice Committee",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "After passing first plenum readings, bills will return to the Knesset Constitution, Law and Justice Committee for further deliberations",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_033",
+      "text": "One attorney general reform bill would split the attorney general's current role into multiple separate positions.",
+      "classification": "contested",
+      "claim_group": "attorney_general_bills",
+      "rationale": "Jerusalem Post describes the role being split into two (attorney general and state prosecutor), while Times of Israel describes it being split into three positions (attorney general, prosecutor general, and government representative to the courts), representing incompatible descriptions of the same bill.",
+      "framing_variants": [
+        {
+          "characterization": "Role divided between an attorney general and a state prosecutor (two positions)",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Role split into three separate positions: attorney general, prosecutor general, and government representative to the courts",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": [
+        "src_004"
+      ]
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-06-28T09:42:13.400060+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "The Israeli Knesset advanced a coalition-backed bill to dissolve the parliament in early June 2026, paving the way for potential early elections. The dissolution bill passed a first procedural hurdle with support from outlets across the political spectrum, marking a significant step toward ending the current parliamentary term.",
+        "supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_008",
+            "src_003",
+            "src_007",
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The coalition crisis that precipitated the dissolution effort began in mid-May after Prime Minister Benjamin Netanyahu told haredi parties that legislation to exempt ultra-Orthodox yeshiva students from military service lacked sufficient coalition support to pass. In response, United Torah Judaism announced it would seek to dissolve the Knesset and trigger early elections, citing the coalition's failure to advance the haredi draft exemption. Rabbi Dov Lando, spiritual leader of Degel Hatorah, wrote to his faction's Knesset members stating they no longer had trust in Netanyahu and instructed them to stop cooperating with the coalition's efforts on the draft bill.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_018",
+            "clm_019",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_006",
+            "src_008"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The dispute over haredi military service occurred against the backdrop of what the Israel Defense Forces has described as an urgent manpower shortage, particularly after more than two years of war. Multiple coalition lawmakers spoke against the haredi draft bill when the coalition attempted to bring it back for discussion, vowing not to vote for it and warning it would not solve the IDF's manpower crisis and could severely harm Israel's security.",
+        "supports": {
+          "claim_ids": [
+            "clm_023",
+            "clm_022",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Center-right Israeli outlets reported that the dissolution bill's first reading in the plenum passed with a vote of 106 to 0, following approval by the Knesset House Committee on Monday morning with eight lawmakers in favor. The bill's preliminary reading had passed on May 20 with 110 lawmakers in favor and none against. The legislation must pass three more readings in the plenum to come into effect.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_006",
+            "src_008"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "According to center-right Israeli sources, the coalition submitted its own dissolution bill as a way for the prime minister to control the pace and timing of elections. The House Committee determined a range of possible election dates spanning from September 8 to October 20, though no specific date was set during Monday's deliberations. Typically, 90 days must pass after a dissolution bill is approved before elections can be held, though this convention is not stipulated in Basic Law: The Knesset.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_007",
+            "clm_006",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_006",
+            "src_008"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Center-right outlets reported that haredi party lawmakers from Shas and United Torah Judaism told the House Committee panel they wanted to move up the election date to September, before the High Holy Days. According to these reports, haredi parties pushed for a September date to boost ultra-Orthodox voter turnout. Netanyahu reportedly opposed moving up the election date and sought to hold elections in late October, stating this would allow the coalition more time to advance legislation and potentially achieve military goals.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014",
+            "clm_015",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_006",
+            "src_008"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Acting director general of the Central Elections Committee Dean Livne requested that the Knesset provide an election date no fewer than 83 days in advance. If September 15 were chosen as an election date, it would fall between Rosh Hashanah and Yom Kippur, delaying results publication by one day and reducing ballot-counting time by 25 hours, according to center-right Israeli sources.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Opposition party leaders vowed they would not form a coalition with haredi parties after the elections under any circumstances, center-right outlets reported. The Times of Israel reported that opposition leader Yair Lapid described the current government as one of the worst in Israeli history, criticizing Netanyahu for failing to win in Lebanon, Gaza, and Iran, overseeing unprecedented increases in violent crime, and presiding over a decline in Israel's international standing.",
+        "supports": {
+          "claim_ids": [
+            "clm_026",
+            "clm_027"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_006",
+            "src_008"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "According to a single Times of Israel report, Lapid called for Yashar chairman Gadi Eisenkot to join a united 'Together' slate with him and former Prime Minister Naftali Bennett, endorsing Bennett as 'the right man to lead.' The same outlet reported that Eisenkot proposed opposition leaders agree to recommend the head of the largest allied party as prime minister after the election, a move that generated pushback from within the opposition bloc. Avigdor Liberman declined to back Bennett as prime minister, presented himself as the best candidate, and said a decision would be postponed until after the elections.",
+        "supports": {
+          "claim_ids": [
+            "clm_028",
+            "clm_029",
+            "clm_030"
+          ],
+          "source_ids": [
+            "src_008"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Alongside the dissolution bill, lawmakers voted 65-47 to advance a pair of bills that would curtail the power of the attorney general and make it harder to indict high-ranking government officials. The attorney general reform legislation passed its first plenum reading and will return to the Knesset's Constitution, Law and Justice Committee for further deliberations.",
+        "supports": {
+          "claim_ids": [
+            "clm_031",
+            "clm_032"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Israeli outlets differed in their descriptions of how the attorney general reform bill would restructure the office. The Jerusalem Post reported the role would be split into two separate positions: an attorney general and a state prosecutor. The Times of Israel, by contrast, described the bill as splitting the role into three positions: an attorney general, a prosecutor general, and a government representative to the courts.",
+        "supports": {
+          "claim_ids": [
+            "clm_033"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}

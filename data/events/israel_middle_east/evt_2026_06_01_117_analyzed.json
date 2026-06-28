@@ -1,0 +1,1046 @@
+{
+  "schema_version": "0.2",
+  "event": {
+    "cluster_id": "evt_2026_06_01_117",
+    "beat": "israel_middle_east",
+    "title": "Israel Intensifies Strikes on Lebanon, Hits Beirut Amid Ceasefire Violations Dispute",
+    "summary": "In late May 2026, Israel launched intensified strikes across southern Lebanon and Beirut, issuing large-scale evacuation orders and expanding ground operations, while both Israel and Hezbollah accused each other of violating a ceasefire that had come into force on 17 April 2026.",
+    "date": "2026-05-28",
+    "generated_at": "2026-06-28T09:37:44.929326+00:00"
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cj3pgrpmlklo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-05-28T11:31:59+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMlh6R0NWTG45YWNoRzJhWjFHc0FfanR1VjlINHJ6VjhzeXcxcVRSNUZnVThCeU5sdzhyZzJKUURKUFdfdmJYay1jMUpRZW5TSXJ1T1hpWE43dnE4bXh4VjZ1UkZEVVZua3VBX2Z3Ync4dFNJQVprdVVqbUM0RFg0T0RvS3Q5V1RYLS1KRjZHcmlKNmRKcGNtNzVCcmM0dF9lcXE4OG9rUWI3M0VOc202Um1VRHF0cUo0Y0hj?oc=5",
+      "author": null,
+      "published_at": "2026-05-28T13:10:09+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSGRYWHBPTG1TV1h2SWhBeXZoUVBIdWRmbnVZM09hTnN6enVlNS1xamcxblJiaFZIdmhBM2trZ20xaDlHYnl3MWU0cWtrT2JkTTQtN01NLWV5TUJSQS05YkFwTXpJbXQ0LUlENU9IY25xSnVTQWVsOXFmYjloVnBJbE1zX0hzOUtjcjdoZE5kd1BjbTBmak9qVUVYVUJBWWtMSUZBOHFoUnpLQmtIaWYxaDh2amgxWTlWelNBMWpBRTMtUXpZRURGT19ZMzdyQ1dwX3dtaldnblpOTDhNeW5JdjRzRWw?oc=5",
+      "author": null,
+      "published_at": "2026-05-25T10:10:34+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMHZ6T3ItVElkd1cyWVlNX3VOM05DeUY3bEJGb3QwT1R0SGFQejVzUVI4Z19DZlhwYjNDQ0FVMlBlekEzMkhNYXNDY3lySzZzNUNPUy1uWWpkMl92NGhhNXFfUEViZXZMeDhMbTAxSTZPY3NvMTJ3c2t1cjc1THJxeTU2ZEl2VUtrSTNvbWdhSV9iVEllVXh2bHhKRmhmVW5JYndlemFyblU1bk14bUMzUjBJNVd5SzhXQzZSTy1UYTVIbnhLTnc?oc=5",
+      "author": null,
+      "published_at": "2026-05-25T12:08:56+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/video/2026/05/29/lebanon-tyre-residents-clear-rubble-after-israeli-strikes",
+      "author": null,
+      "published_at": "2026-05-29T08:49:10+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.com/news/videos/c4g0kqxqz92o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-05-28T17:45:13+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbmYzaGNfS3diVERUUElLNzRjVGpQMm9BUjE2c1FsVUp1WVpORklZWXptY3o5ck1jMmhJanZ1VDBHZDdmR09EMTJ6aWliR3B2akRHak1jaU5LbXhqWVdLdTYyZjBLVXhZYjR3VGoyamlsb01zQVFlNGJNREFpRTg0T1NpX0dHbEE1VGxTeE5YbEhOSzNQVTJIVWg0cXlnNGxBMmRrUkRrUFdJTm1Kc2lyaEd2ZkhPdF82b2hlaDhWa2dXVTBi?oc=5",
+      "author": null,
+      "published_at": "2026-05-26T21:52:09+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_008",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cgqpjwdv7xeo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-05-28T17:39:16+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Israel carried out waves of strikes on southern Lebanon, including the cities of Tyre and areas to its east, targeting what it described as Hezbollah infrastructure.",
+      "classification": "corroborated",
+      "claim_group": "military_operations",
+      "rationale": "Multiple center and center-right outlets confirm Israeli strikes on southern Lebanon targeting claimed Hezbollah infrastructure, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Waves of Israeli strikes hit southern Lebanon targeting Hezbollah infrastructure according to the Israeli military",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Israeli military campaign in southern Lebanon targeting what Israel described as Hezbollah infrastructure and launch sites",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Israel intensified strikes on Lebanon, saying it hit hundreds of Hezbollah targets in the last few days",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Israel pounds Lebanon with strikes",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005",
+        "src_006",
+        "src_008",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Israel struck Beirut on Thursday at approximately 14:00 local time (11:00 GMT), describing the attack as carried out in a 'targeted manner'.",
+      "classification": "corroborated",
+      "claim_group": "military_operations",
+      "rationale": "Multiple center outlets (BBC and Reuters) corroborate the timing and IDF's characterization of the Beirut strike.",
+      "framing_variants": [
+        {
+          "characterization": "The IDF carried out a strike in Beirut at about 14:00 (11:00 GMT) in a 'targeted manner'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Israel carries out strike on Beirut suburbs, first near capital in weeks",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Israel hit Beirut for only the second time since the ceasefire; IDF said the attack was carried out in a 'targeted manner'",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "This was only the second Israeli strike on Beirut since the ceasefire came into force.",
+      "classification": "corroborated",
+      "claim_group": "military_operations",
+      "rationale": "Two center outlets report this is only the second Beirut strike since the ceasefire, but no cross-spectrum confirmation is available.",
+      "framing_variants": [
+        {
+          "characterization": "Israel hit Beirut for only the second time since the start of a ceasefire last month",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "First strike near the capital in weeks",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_008",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Israeli media, citing unnamed sources, reported the target of the Beirut strike was Ali al-Husni, head of the missile force in the Imam Hossein Division, an Iranian militia allied to Hezbollah.",
+      "classification": "single_source",
+      "claim_group": "military_operations",
+      "rationale": "Only BBC's reporting cites Israeli media sources naming the alleged target; no other outlet in the cluster confirms this identity.",
+      "framing_variants": [
+        {
+          "characterization": "According to Israeli media citing unnamed sources, the target was Ali al-Husni, head of the missile force in an Iranian militia allied to Hezbollah",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Israel had previously spared Beirut from strikes at the request of the United States.",
+      "classification": "single_source",
+      "claim_group": "international_response",
+      "rationale": "Only one BBC article reports that Israel had spared Beirut at US request; no other source in the cluster corroborates this claim.",
+      "framing_variants": [
+        {
+          "characterization": "Israel had spared Beirut at the request of the US",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Thick smoke was seen billowing over residential buildings in Dahieh, Hezbollah's stronghold in southern Beirut, following the strike.",
+      "classification": "single_source",
+      "claim_group": "military_operations",
+      "rationale": "Only one BBC article describes visible smoke over Dahieh after the Beirut strike.",
+      "framing_variants": [
+        {
+          "characterization": "Thick smoke billowed across residential buildings in Dahieh, the densely populated Shia suburb that serves as Hezbollah's stronghold",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "A three-month-old baby died following the Israeli strike on Beirut.",
+      "classification": "single_source",
+      "claim_group": "humanitarian_situation",
+      "rationale": "Only one BBC article includes a resident's account of a three-month-old baby dying after the Beirut strike.",
+      "framing_variants": [
+        {
+          "characterization": "A resident found a three-month-old baby on the ground after the strike; he took her to hospital but she did not survive",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "At least 11 people were killed in Israeli strikes on Tyre and areas to its east on Thursday, according to the Lebanese health ministry.",
+      "classification": "corroborated",
+      "claim_group": "humanitarian_situation",
+      "rationale": "Two BBC articles (center) report the same Lebanese health ministry casualty figure from the Tyre strikes, corroborating the claim across separate reports.",
+      "framing_variants": [
+        {
+          "characterization": "At least 11 people killed in the latest strikes, according to the Lebanese health ministry",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "At least 11 killed in two sets of Israeli strikes on Tyre and an area to the city's east early on Thursday, per Lebanese health ministry",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Social media videos from Tyre showed streets lit by flames, smoke-filled roads, and vehicles engulfed in fire following Israeli strikes.",
+      "classification": "corroborated",
+      "claim_group": "military_operations",
+      "rationale": "Two BBC articles describe consistent social media visual evidence from Tyre, though both are center-rated outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Social media videos show dust-covered crowds gathered around collapsed buildings in Tyre",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Social media videos showed streets lit orange by flames, smoke-filled roads, and at least one vehicle engulfed in fire",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "A massive fireball was filmed erupting near a cluster of high-rise residential buildings in Tyre.",
+      "classification": "single_source",
+      "claim_group": "military_operations",
+      "rationale": "Only one article describes the filmed fireball near residential high-rises in Tyre.",
+      "framing_variants": [
+        {
+          "characterization": "By daylight, a massive fireball was filmed erupting near a cluster of high-rise residential buildings, sending a mushroom-shaped column of smoke above the skyline",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "An Israeli drone strike killed six people, including children, who were fleeing threatened villages in southern Lebanon, according to Lebanon's National News Agency.",
+      "classification": "single_source",
+      "claim_group": "humanitarian_situation",
+      "rationale": "Only one article, citing Lebanon's state-run National News Agency, reports this drone strike on a fleeing family.",
+      "framing_variants": [
+        {
+          "characterization": "NNA reported an Israeli drone strike hit a family trying to flee threatened villages, killing six people including children",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Four people were killed in strikes on the towns of Choukine and Nabatieh on Wednesday, according to Lebanese media.",
+      "classification": "single_source",
+      "claim_group": "humanitarian_situation",
+      "rationale": "Only one article reports this specific casualty figure from Choukine and Nabatieh.",
+      "framing_variants": [
+        {
+          "characterization": "Lebanese media reported four people killed in the towns of Choukine and Nabatieh on Wednesday",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "A missile struck an apartment building in Saida at approximately 02:40, killing five people and injuring 21.",
+      "classification": "single_source",
+      "claim_group": "humanitarian_situation",
+      "rationale": "Only one article reports this specific strike on an apartment building in Saida with these casualty figures.",
+      "framing_variants": [
+        {
+          "characterization": "A missile struck an apartment building in Saida at about 02:40, appearing to hit the roof before tearing downward; five killed and 21 injured",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Damage in Tyre included destroyed or damaged homes, businesses, vehicles, heritage sites, shattered glass and debris on streets, and disruptions to electricity and medical services.",
+      "classification": "corroborated",
+      "claim_group": "humanitarian_situation",
+      "rationale": "Two center outlets describe overlapping physical damage in Tyre, though no cross-spectrum confirmation is available.",
+      "framing_variants": [
+        {
+          "characterization": "Residents returned to inspect damaged homes, businesses and vehicles; streets strewn with glass and debris; disruptions to electricity and medical services hampering rescue efforts",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Authorities and aid organisations assessed damage across homes, businesses and heritage sites in Tyre",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Rescue and recovery crews in Tyre were forced to stop work due to dangerous conditions, and Israeli military warned rescue workers to evacuate the area.",
+      "classification": "corroborated",
+      "claim_group": "humanitarian_situation",
+      "rationale": "Two BBC articles report the same claim attributed to a Hezbollah member in Tyre, but both are from the same center outlet.",
+      "framing_variants": [
+        {
+          "characterization": "A Hezbollah member told the BBC rescue crews stopped because conditions were 'too dangerous'; workers received calls from Israeli military warning them to evacuate",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "A Hezbollah member in Tyre told the BBC rescue and recovery crews had been forced to stop because conditions remain 'too dangerous'; Israeli military warned workers to evacuate",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "The IDF issued an evacuation order on Wednesday urging residents to move north of the Zahrani River, approximately 40km from the Israeli border.",
+      "classification": "corroborated",
+      "claim_group": "displacement_policy",
+      "rationale": "Two BBC articles consistently report the IDF evacuation order and its geographic scope.",
+      "framing_variants": [
+        {
+          "characterization": "The IDF urged residents to move north of the Zahrani River, about 40km from the Israeli border",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "On Wednesday, the IDF urged residents to move north of the Zahrani River, about 40km from the Israeli border",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "The IDF stated it would act 'with extreme force' in connection with the evacuation order.",
+      "classification": "corroborated",
+      "claim_group": "displacement_policy",
+      "rationale": "Both BBC articles report the IDF's 'extreme force' language, but both are from the same center outlet.",
+      "framing_variants": [
+        {
+          "characterization": "The IDF said it would act 'with extreme force'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The IDF said it would act 'with extreme force'",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Wednesday's evacuation order covered approximately 300 towns and villages, about 14% of Lebanese territory, making it the largest since the ceasefire took effect.",
+      "classification": "corroborated",
+      "claim_group": "displacement_policy",
+      "rationale": "Two BBC articles confirm the same scope figures for the evacuation order, though both are center-rated.",
+      "framing_variants": [
+        {
+          "characterization": "Wednesday's evacuation order covered about 14% of Lebanese territory and about 300 towns and villages",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Wednesday's evacuation order was the largest since the ceasefire took effect, covering about 300 towns and villages — about 14% of Lebanese territory",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Additional Israeli evacuation orders were issued overnight while people were asleep.",
+      "classification": "single_source",
+      "claim_group": "displacement_policy",
+      "rationale": "Only one article mentions the timing of overnight evacuation orders being issued while people were asleep.",
+      "framing_variants": [
+        {
+          "characterization": "More Israeli evacuation orders were issued overnight as people were asleep",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Shelters in Sidon (Saida) reached full capacity, and Tyre's authorities advised residents to travel further north to Beirut.",
+      "classification": "single_source",
+      "claim_group": "displacement_policy",
+      "rationale": "Only one article reports shelter capacity in Sidon and Tyre's local authorities' guidance to travel to Beirut.",
+      "framing_variants": [
+        {
+          "characterization": "Shelters in Sidon reached full capacity per the head of municipality; Tyre's authorities advised residents to travel north to Beirut",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Many residents displaced from southern Lebanon, including those already displaced from other areas, had nowhere obvious to go.",
+      "classification": "single_source",
+      "claim_group": "displacement_policy",
+      "rationale": "Only one article specifically notes that displaced residents had nowhere obvious to go.",
+      "framing_variants": [
+        {
+          "characterization": "Many residents, including those already displaced from other parts of southern Lebanon, have nowhere obvious to go",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Ambulance teams in Tyre were driving through neighbourhoods urging residents to leave.",
+      "classification": "single_source",
+      "claim_group": "displacement_policy",
+      "rationale": "Only one article reports ambulance teams actively urging residents to evacuate Tyre neighbourhoods.",
+      "framing_variants": [
+        {
+          "characterization": "Ambulance teams in Tyre were continuing to drive through neighbourhoods urging residents to leave",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Israel expanded its ground operations past a security zone in southern Lebanon.",
+      "classification": "corroborated",
+      "claim_group": "military_operations",
+      "rationale": "Multiple center outlets report Israeli ground operation expansion, though Hezbollah clashes in Zawtar al-Sharqiyeh (outside the buffer zone) add geographic specificity.",
+      "framing_variants": [
+        {
+          "characterization": "Israel expands ground operations past security zone",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "Netanyahu announced an expansion of the ground operation",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Netanyahu announced an expansion of a ground operation following Hezbollah drone attacks on troops and civilians",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_007",
+        "src_001",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Israeli Prime Minister Benjamin Netanyahu announced the expansion of ground operations citing Hezbollah drone attacks on Israeli troops in southern Lebanon and on civilians in northern Israel.",
+      "classification": "corroborated",
+      "claim_group": "military_operations",
+      "rationale": "Multiple center outlets attribute the expansion announcement to Netanyahu and cite the drone attack justification, though all sources are center-rated.",
+      "framing_variants": [
+        {
+          "characterization": "Netanyahu announced expansion of ground operation following Hezbollah drone attacks on troops and civilians",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Netanyahu announced an expansion of a ground operation following Hezbollah drone attacks on troops occupying part of southern Lebanon and on civilians in northern Israel",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Netanyahu stated that Israel will escalate strikes against Hezbollah in Lebanon",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_008",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "Israeli officials urged intensified strikes on Lebanon, including on Beirut buildings, citing a drone threat as justification.",
+      "classification": "single_source",
+      "claim_group": "military_operations",
+      "rationale": "Only the i24 News article reports Israeli officials urging attacks on Beirut buildings with the drone threat as the stated reason.",
+      "framing_variants": [
+        {
+          "characterization": "Israeli officials urged intensified strikes including attacks on Beirut buildings, citing a drone threat as justification",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "Hezbollah reported its fighters clashed with Israeli forces 'at point-blank range' in Zawtar al-Sharqiyeh on Wednesday, a town approximately 30km from the border that lies outside the Israeli-declared buffer zone.",
+      "classification": "single_source",
+      "claim_group": "military_operations",
+      "rationale": "Only one article reports Hezbollah's claim of close-range clashes in Zawtar al-Sharqiyeh, which is noted as being outside the declared buffer zone.",
+      "framing_variants": [
+        {
+          "characterization": "Hezbollah said its fighters clashed with Israeli forces 'at point-blank range' in Zawtar al-Sharqiyeh, about 30km from the border and outside the Israeli-declared buffer zone",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "Hezbollah continued firing rockets and drones in response to Israeli strikes.",
+      "classification": "corroborated",
+      "claim_group": "military_operations",
+      "rationale": "Multiple center outlets report Hezbollah continued projectile attacks, though all are center-rated.",
+      "framing_variants": [
+        {
+          "characterization": "Hezbollah continued firing rockets and drones in response to Israeli strikes",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Hezbollah drone attacks on troops and civilians referenced as trigger for Netanyahu's announcement",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Hezbollah drone attacks on troops occupying southern Lebanon and on civilians in northern Israel",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_001",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_028",
+      "text": "Verified videos show Israeli strikes on densely populated neighbourhoods in southern Lebanon.",
+      "classification": "corroborated",
+      "claim_group": "military_operations",
+      "rationale": "Two BBC articles refer to verified video evidence of strikes in densely populated areas, but both are from the same center outlet.",
+      "framing_variants": [
+        {
+          "characterization": "Verified videos show strikes on densely populated neighbourhoods in southern Lebanon and the destruction caused",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Social media videos from Tyre showed streets lit by flames and smoke",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_006",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_029",
+      "text": "Israel says it has hit hundreds of Hezbollah targets in the last few days.",
+      "classification": "single_source",
+      "claim_group": "military_operations",
+      "rationale": "Only one article reports Israel's specific claim of hitting hundreds of Hezbollah targets in recent days.",
+      "framing_variants": [
+        {
+          "characterization": "Israel claims it has hit hundreds of Hezbollah targets in the last few days",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_030",
+      "text": "A ceasefire between Israel and Hezbollah came into force on 17 April 2026 and has been extended twice since.",
+      "classification": "corroborated",
+      "claim_group": "ceasefire_details",
+      "rationale": "Two BBC articles confirm the ceasefire date and that it has been extended twice, though both are center-rated.",
+      "framing_variants": [
+        {
+          "characterization": "A ceasefire came into force on 17 April and has been extended twice since",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The ceasefire has been extended twice since it came into force last month",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_031",
+      "text": "Israeli officials characterize Hezbollah's attacks as violations of the ceasefire; Lebanese officials characterize Israeli strikes as violations of the ceasefire.",
+      "classification": "single_source",
+      "claim_group": "ceasefire_details",
+      "rationale": "Both BBC articles present mutually contradictory characterizations from each side regarding who is violating the ceasefire, making this a genuinely contested claim.",
+      "framing_variants": [
+        {
+          "characterization": "Israeli officials say Hezbollah attacks violate the ceasefire; Lebanese officials say the Israeli strikes themselves are violations",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Israeli officials say Hezbollah's attacks violate the ceasefire deal; Lebanese officials point to Israeli strikes as violations",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_032",
+      "text": "Israel says it reserves the right to continue fighting the threat from Hezbollah.",
+      "classification": "corroborated",
+      "claim_group": "ceasefire_details",
+      "rationale": "Two BBC articles report Israel's stated position on its right to continue operations, though both are center-rated.",
+      "framing_variants": [
+        {
+          "characterization": "Israel says it reserves the right to continue to fight the threat from Hezbollah",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Israel says it reserves the right to continue to fight the threat from Hezbollah",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_033",
+      "text": "Iran insists that any deal must also cover Lebanon.",
+      "classification": "corroborated",
+      "claim_group": "international_response",
+      "rationale": "Two BBC articles report Iran's stated condition that any deal must include Lebanon, though both are from the same center outlet.",
+      "framing_variants": [
+        {
+          "characterization": "Iran insists that any deal must also cover Lebanon",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Iran insists that any deal must also cover Lebanon",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_034",
+      "text": "The ICRC head of delegation in Lebanon, Agnes Dhur, warned that the situation in the south was 'nearing a perilous tipping point' and that ongoing hostilities create conditions untenable for civilians.",
+      "classification": "single_source",
+      "claim_group": "international_response",
+      "rationale": "Only one article reports the ICRC delegation head's specific warning about the humanitarian situation.",
+      "framing_variants": [
+        {
+          "characterization": "The ICRC head of delegation warned the situation was 'nearing a perilous tipping point' and that hostilities create conditions untenable for civilians",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_035",
+      "text": "Humanitarian agencies warned that continued violence could deepen the crisis along Lebanon's southern coast and trigger further waves of displacement.",
+      "classification": "single_source",
+      "claim_group": "international_response",
+      "rationale": "Only one article attributes this warning specifically to humanitarian agencies regarding the southern coast.",
+      "framing_variants": [
+        {
+          "characterization": "Humanitarian agencies warned that continued violence could deepen the crisis along Lebanon's southern coast and trigger further waves of displacement",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-06-28T09:38:25.863950+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "On 28 May 2026, Israel launched intensified strikes across southern Lebanon and the capital Beirut, marking a significant escalation in hostilities that have persisted despite a ceasefire agreement that came into force on 17 April 2026 and has been extended twice since. Israeli forces carried out waves of strikes on southern Lebanon, including the cities of Tyre and areas to its east, targeting what the Israeli military described as Hezbollah infrastructure. The strike on Beirut, conducted at approximately 14:00 local time, was characterized by the Israel Defense Forces as carried out in a 'targeted manner' and represented only the second Israeli strike on the Lebanese capital since the ceasefire took effect.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_030"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_005",
+            "src_006",
+            "src_007",
+            "src_008"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "At least 11 people were killed in Israeli strikes on Tyre and areas to its east on Thursday, according to the Lebanese health ministry. Social media videos from Tyre showed streets lit by flames, smoke-filled roads, and vehicles engulfed in fire following the strikes. Damage in Tyre included destroyed or damaged homes, businesses, vehicles, heritage sites, shattered glass and debris on streets, and disruptions to electricity and medical services. Rescue and recovery crews in Tyre were forced to stop work due to dangerous conditions, and the Israeli military warned rescue workers to evacuate the area.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009",
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_005",
+            "src_008"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "On Wednesday, the IDF issued an evacuation order urging residents to move north of the Zahrani River, approximately 40 kilometers from the Israeli border, stating it would act 'with extreme force' in the area. The evacuation order covered approximately 300 towns and villages — about 14% of Lebanese territory — making it the largest such order since the ceasefire took effect. Israel expanded its ground operations past a security zone in southern Lebanon, with Prime Minister Benjamin Netanyahu announcing the expansion and citing Hezbollah drone attacks on Israeli troops in southern Lebanon and on civilians in northern Israel as justification.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_017",
+            "clm_018",
+            "clm_023",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_007",
+            "src_008"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Hezbollah continued firing rockets and drones in response to Israeli strikes, and verified videos showed Israeli strikes on densely populated neighborhoods in southern Lebanon. Israel has stated it reserves the right to continue fighting the threat from Hezbollah, while Iran has insisted that any deal must also cover Lebanon.",
+        "supports": {
+          "claim_ids": [
+            "clm_027",
+            "clm_028",
+            "clm_032",
+            "clm_033"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_005",
+            "src_006",
+            "src_008"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The April 2026 ceasefire followed months of conflict between Israel and Hezbollah, an Iranian-backed militant group designated as a terrorist organization by the United States and European Union. Hezbollah operates along Israel's northern border and maintains a stronghold in southern Beirut. The current escalation represents a breakdown in the fragile truce that was intended to halt hostilities between the two sides.",
+        "supports": {
+          "claim_ids": [
+            "clm_030"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_008"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The strike on Beirut targeted Dahieh, Hezbollah's stronghold in southern Beirut, where thick smoke was seen billowing over residential buildings. Israeli media, citing unnamed sources, reported the target was Ali al-Husni, head of the missile force in the Imam Hossein Division, an Iranian militia allied to Hezbollah. A resident reported that a three-month-old baby died following the strike. The decision to strike Beirut came after Israel had previously spared the capital from strikes at the request of the United States, according to one center outlet.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_008"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "In Tyre, a massive fireball was filmed erupting near a cluster of high-rise residential buildings. The Israeli military stated it has hit hundreds of Hezbollah targets in the last few days. In a separate incident, an Israeli drone strike killed six people, including children, who were fleeing threatened villages in southern Lebanon, according to Lebanon's National News Agency.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_029",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_006",
+            "src_008"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Four people were killed in strikes on the towns of Choukine and Nabatieh on Wednesday, according to Lebanese media. A missile struck an apartment building in Saida at approximately 02:40, killing five people and injuring 21. The casualties added to a mounting toll from the renewed Israeli military operations across southern Lebanon.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_008"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Additional Israeli evacuation orders were issued overnight while people were asleep. Shelters in Sidon (Saida) reached full capacity, and Tyre's authorities advised residents to travel further north to Beirut. Many residents displaced from southern Lebanon, including those already displaced from other areas, had nowhere obvious to go. Ambulance teams in Tyre were driving through neighborhoods urging residents to leave.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_020",
+            "clm_021",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_008"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Hezbollah reported its fighters clashed with Israeli forces 'at point-blank range' in Zawtar al-Sharqiyeh on Wednesday, a town approximately 30 kilometers from the border that lies outside the Israeli-declared buffer zone. The clash indicated the geographic expansion of ground operations beyond the areas Israel had initially designated as security zones.",
+        "supports": {
+          "claim_ids": [
+            "clm_026"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Israeli officials urged intensified strikes on Lebanon, including on Beirut buildings, citing drone threats as justification. This call for escalation came from center-right Israeli outlets as the military expanded operations beyond previously declared boundaries.",
+        "supports": {
+          "claim_ids": [
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Israeli officials characterized Hezbollah's attacks as violations of the ceasefire, while Lebanese officials characterized Israeli strikes as violations of the ceasefire. Both sides accused the other of breaking the agreement that came into force on 17 April, reflecting fundamentally different interpretations of permissible actions under the truce terms.",
+        "supports": {
+          "claim_ids": [
+            "clm_031"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_008"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Agnes Dhur, head of the International Committee of the Red Cross delegation in Lebanon, warned that the situation in the south was 'nearing a perilous tipping point' and that ongoing hostilities create conditions untenable for civilians. Humanitarian agencies warned that continued violence could deepen the crisis along Lebanon's southern coast and trigger further waves of displacement.",
+        "supports": {
+          "claim_ids": [
+            "clm_034",
+            "clm_035"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

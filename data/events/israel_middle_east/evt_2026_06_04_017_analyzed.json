@@ -1,0 +1,1093 @@
+{
+  "schema_version": "0.2",
+  "event": {
+    "cluster_id": "evt_2026_06_04_017",
+    "beat": "israel_middle_east",
+    "title": "UN Adds Israel and Russia to Conflict-Related Sexual Violence Blacklist",
+    "summary": "The United Nations added Israel and Russia to its annual 'Conflict-Related Sexual Violence' blacklist for the first time, citing verified cases of sexual abuse committed by their forces. Israel responded by cutting ties with UN Secretary General António Guterres, while both countries denied the allegations.",
+    "date": "2026-05-29",
+    "generated_at": "2026-06-28T09:29:46.215148+00:00"
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVG90YU5qV015dkJudW1ndWo0a19yZ3dZMklFYy0yUUVjZWFEM2ZZSG01b2t1RHozVUxLUXY2YTI4QW1KQWZ1d3lzeVJkU3VpaDZZN1FxalUyV016Z2x6ZDRjeXNMLXQ2MzZldzU1TXp6Rmt6aHJTeElwTXVReS00NHU0S01vcldBMXBlQWp3a2FhbHZlaWNpRU5IcXZ4XzEtekF30gGoAUFVX3lxTE5ReHdVSDY3cnd6bnZFNlp3Wkd0YlFBVDJ2VjhwejJtcVlVSXVVQ2RDM0dCRHl4NVFadEowZnhNcWw5QU11X29QZ1NGb1JFYU1xNDIyVXJ3SWdOSk04X1VibUZNdFhVeUs5NXdUTG1KWl9WLXFWTEYyMTBrYTdFOGVkTWFGR2FQb0gyZ1VWZ2MxQnlRSmtfQkdNYmJNMG8yMHpCa1ljZG13NA?oc=5",
+      "author": null,
+      "published_at": "2026-05-28T20:19:44+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZzViXzd0REQzTldKaXBTakVSdjdBZ3JrcVlmOVlOVy1JZzhNbm16dzNfVVJiYmdORnlRY0JVT0NUY3pzMFdSa1pBZGF3OUpsTmROa0ZOUzNGdUNWSXl5ZmNPa0xUbFpLUTVyM1FobTB6ejh6SnBiVENla1UwYVRHMkFLcjVER2hITUpEWkpERi1iaXRZS2N1aGV5RDVjZ9IBowFBVV95cUxQNDlIdmdvM1ktajJMcTRJUlZyVkxzb012d3BMcnprd01Zd0d6U1dGNURvZ1d6LTAtNTZhUklobVVUaHY0TE4tX2NBLVBmUTBlbkJqbWxaOWlQWUtHR2xLdjZ2TThmU0F1M3Ziel9jLVNVdFdjWC1PT2t0SGphSHNINzVRTWN4Ym8zVHc1ZmdDNUN4cUlXYzB2bnl3Qkh6d2Frdmtz?oc=5",
+      "author": null,
+      "published_at": "2026-05-29T19:18:39+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cx21le869n1o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-05-29T18:41:36+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/may/29/un-israel-russia-blacklist-sexual-violence-conflict",
+      "author": "Emma Graham-Harrison Chief Middle East correspondent",
+      "published_at": "2026-05-29T17:37:33+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Emma Graham-Harrison is The Guardian's Chief Middle East correspondent who has reported extensively from conflict zones including Syria, Iraq, and Afghanistan, and won multiple awards for her coverage of human rights issues in the region.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSkkwem5FaHlod1BwOW9aNGtoNnl0QTJmcmx5aHBwSTBiOXBRMVJtcElhUnE1RWlBa0pEUE9QaEs5ZEthMFJWanhZNEZKVVFfVHlJRlJOczFSS09nSWV3RWVJTGpwWWt4TkZNbnI2TUpjcHBDenA0S3JVaXZESzZHZUw1bDJMeThHU21WS1dnU0J5ZjIzNXQxbmVXWG1BcDN1Q1ppWHB30gGrAUFVX3lxTE93YXRaMFJEQWtkRWN3RjRtc1NFRjZPQWV3WFRMdEtHQ0lweUNsUkJ6U1Nac2twYVB4ZjRaeE1WVU50NVp1Q0tfS0tBV0pNSFU0QTFhWFdFbGk0MUxMelM5NHpfQkxBbFV5eDc2MnBKQ28zWXpHQXFCaUZDdVlwbUdCOUJ5V3FBQll6WTRfQWxpcU45aXp3cVBOcE03U2NkSU9XNEZSSGxNaE1Ubw?oc=5",
+      "author": null,
+      "published_at": "2026-05-29T06:43:11+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "Haaretz (English)",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPN3AydlB6UXBVbGstSzJkRTFzaTBvTHZ5STRmdXRMbFVjSXN0Y05ya0ZnSWR0MzUyNWp6VDZ5OWVyOTRwUjhjYTltODVnVk1EVmoxZzFJZVFLWjV0RzgtRldzSDlGSENScWVGS054QkNuRWtxUXRmV0F5OWF6bUNpdjRoNDd5SWpjcGlvUnUxTTB3dmxoZGdFczhOYWxfdHZYWEhCVWw1YWZsVUlPMElKTjFKUjlVbzd2ZllXUDNMdXdLbUdVSnlaYVkzanluMTNCN18zUndLSFg1Mk1mczZMSmc2SkJZY2lqbXI3c1J3UEtNaFQ2elphRzJvaDVhMFZBX0ZRSUYzb01kMU5lZWE5cnkzUkJadmtXZ0YwUzNlWS00eVVE?oc=5",
+      "author": null,
+      "published_at": "2026-05-29T08:23:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hOTBUbmdZSkhuOFh1MFAwSkR1ZWw3Q0k3SWlmalRxOUpTOEowOTZSTU8tMTJCY0VsVkFVemFLZU1LWms5ZHg4OVhvMWJjNkhVaVFPby1R?oc=5",
+      "author": null,
+      "published_at": "2026-05-31T23:55:09+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_008",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNTkxUVZfQW5WRzlpYWxBTXdnVG84b3REbktTUjlrUVVWWklBZGdTRFpfY0xMSXd5amwyaU52WXM2M2FYRF9Tb2d3NS1QNm1CSWFuY0JXYmJVOEM2ODd3aWU4c2FSc2llU2lxeWFhQkFMVGJJWU5KckE3NUVBb1ZLck14bXlyZVZRdzNrV1R5dXh4c3dQSUxNS2dqcDVDMU81dmJPQVhmSkhodmh5RTRHZ1g1azctRGJocnV6cVJmeHYxdEM1?oc=5",
+      "author": null,
+      "published_at": "2026-05-29T18:40:55+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_009",
+      "outlet": "Haaretz (English)",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOckxwME4xN3hJVkE2T09aMlRzYV9oNDVZMjVaMl9adEVKekxOS3huSkR4V2NPUmZ1djNWd2dEa2VyU3FYSnQ2YnpPaS1MQkU0VjJYTVhOeXAwcW51cWNNTTFEU2Z6dklFOEtsQTM5bXVreUNQUGd0YU90QkVCU0VMSnRzSVN5ZGNnTlFvdkRBd0dtUEY3aURLNmF3bmNFQS1jaDlkM1BheWxJRDhwOThFbTh6R19PMld2OElYcTBJamlwTGFIdmxEZkxfNElXR2QtRFRBR3NFU05CYXROWGF3NXYxQlZGRFQxWmtlaW93VGVSWFV1aFZ2YmU2MFdMOHRxSURQOWdrUHNuN3E1Z1ppbThLT1YwNEJMdThHa2N6dDF0M3Vm?oc=5",
+      "author": null,
+      "published_at": "2026-05-28T05:21:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_010",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNcU5Fc2lXdFFaTmVrVUZIWENTTTZOdzNENXBuQnMzQlJldFNLRTB1MzJfTFp1cmE5QjVkNTc2SV9IYkw5Tk9zTjc5elBVekhsdWFWSVpuVHQwckVReVVhY0swb1p2ZFNwdnBWRDNzUGFWWlNfbFh5VVhITUVNVWJhcWs1Sl9BZml5MXRSc0xrUk1rNHJHNUczZ1lYaFJucXRNMDliY2Y5X1dGTUpSdVg4eGZXTlh3M2NsOHFtNkttOVN3OF9maDMtdWJoY3h0R3Jybm04akwxNGFuVUpZOTJ5WDdCeDd1SVU?oc=5",
+      "author": null,
+      "published_at": "2026-05-30T15:11:23+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "The UN added Israel to its annual Conflict-Related Sexual Violence blacklist for the first time.",
+      "classification": "agreed",
+      "claim_group": "un_blacklist_action",
+      "rationale": "Sources spanning left (Al Jazeera), center-left (The Guardian, Haaretz), center (BBC, Reuters), and center-right (Ynet, i24) all confirm this UN action, making it one of the most broadly agreed facts in the cluster.",
+      "framing_variants": [
+        {
+          "characterization": "UN 'adds Israel to blacklist' for conflict-related sexual violence",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Direct statement: Israel added to UN blacklist for the first time",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The UN has added Israel and Russia to a blacklist for sexual violence in conflict",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Described as 'the notorious UN blacklist that now includes Israel'",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "Israel blacklisted alongside Hamas for sex crimes",
+          "source_id": "src_010"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_006",
+        "src_008",
+        "src_009",
+        "src_010",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The UN added Russia to its annual Conflict-Related Sexual Violence blacklist for the first time.",
+      "classification": "agreed",
+      "claim_group": "un_blacklist_action",
+      "rationale": "Sources from left (Al Jazeera), center-left (The Guardian), and center (BBC, Reuters) all confirm Russia's addition to the blacklist, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Russia among new additions on UN sexual violence 'blacklist'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Russian armed and security forces blacklisted for the first time for sexual violence in Ukraine",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Direct statement: the UN added Russia to a blacklist for sexual violence in conflict",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The UN report verified 31 cases of conflict-related sexual violence perpetrated by Israeli forces against Palestinians from Gaza and the West Bank between 2023 and 2025.",
+      "classification": "agreed",
+      "claim_group": "un_report_findings_israel",
+      "rationale": "Both the BBC (center) and The Guardian (center-left) report the same figure of 31 verified cases, satisfying cross-spectrum corroboration, with Haaretz (center-left) also referencing the accusations.",
+      "framing_variants": [
+        {
+          "characterization": "UN verified 31 cases of sexual violence perpetrated by Israeli forces against Palestinians",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "UN verified sexual abuse of 31 Palestinian men, women and children from Gaza and the West Bank between 2023 and 2025",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "UN report accuses Israeli forces of rape and sexual abuse of Palestinian detainees",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Of the 31 verified cases, 13 occurred in 2025 and 18 occurred in the two prior years.",
+      "classification": "single_source",
+      "claim_group": "un_report_findings_israel",
+      "rationale": "Only the BBC report provides this specific temporal breakdown of the 31 verified cases.",
+      "framing_variants": [
+        {
+          "characterization": "13 cases in 2025, 18 in the two years prior",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The verified cases against Israeli forces involved victims comprising 14 men, seven women, nine boys, and one girl.",
+      "classification": "single_source",
+      "claim_group": "un_report_findings_israel",
+      "rationale": "Only the BBC provides this specific demographic breakdown of victims in the Israel-related cases.",
+      "framing_variants": [
+        {
+          "characterization": "Cases carried out against 14 men, seven women, nine boys and one girl",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The violations attributed to Israeli forces included rape, gang rape, rape with objects, forced nudity, violence to genitals, targeted shooting of genitals, and threats of rape.",
+      "classification": "corroborated",
+      "claim_group": "un_report_findings_israel",
+      "rationale": "Both BBC (center) and The Guardian (center-left) report overlapping lists of violation types, but both outlets are from the center/center-left, so this does not qualify as cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Violations included rape, gang rape, forced nudity, and violence to genitals",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Violations included rape with objects, attempted rape, attacks on genitals, targeted shooting of genitals, touching of breasts and genitals, forced nudity and threats of rape; sexual violence used as a form of torture",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The alleged violations were committed by personnel from the Israeli military, police, prison service, and an elite police counter-terrorism unit.",
+      "classification": "corroborated",
+      "claim_group": "un_report_findings_israel",
+      "rationale": "Both BBC (center) and The Guardian (center-left) report the same categories of alleged perpetrators, but these outlets are from the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Committed by officers from the Israeli military, police and prison service",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Perpetrators included Israeli soldiers, prison officers and members of an elite police counter-terrorism unit",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The UN stated that its attempts to fully investigate alleged Israeli violations were obstructed by the Israeli government, including being barred from detention centres and having access to Gaza blocked.",
+      "classification": "corroborated",
+      "claim_group": "un_report_findings_israel",
+      "rationale": "Both BBC (center) and The Guardian (center-left) report Israeli obstruction of UN investigators, but these outlets share the same general side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "UN said its attempts to fully investigate were obstructed by the Israeli government",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Israel barred UN experts from detention centres and blocked travel to Gaza for UN investigators",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The UN reported that threats were made against Palestinian detainees to prevent them from reporting abuse after release.",
+      "classification": "corroborated",
+      "claim_group": "un_report_findings_israel",
+      "rationale": "Both BBC (center) and The Guardian (center-left) report this finding, but both are from the center/center-left of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Threats made against detainees to prevent abuse being reported",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Israel threatened Palestinian detainees if they report abuse after their release",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The UN documented nine cases of rape by Israeli forces, mostly of men or boys from Gaza, targeted in detention centres or during interrogation.",
+      "classification": "single_source",
+      "claim_group": "un_report_findings_israel",
+      "rationale": "Only The Guardian specifically reports the figure of nine rape cases and their demographic and locational context.",
+      "framing_variants": [
+        {
+          "characterization": "Nine cases of rape by Israeli forces, mostly of men or boys from Gaza, targeted in detention centres or during interrogation",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Israel has not allowed the International Committee of the Red Cross to visit detainees since October 2023.",
+      "classification": "single_source",
+      "claim_group": "un_report_findings_israel",
+      "rationale": "Only The Guardian reports this specific claim about ICRC access being denied since October 2023.",
+      "framing_variants": [
+        {
+          "characterization": "Israel has not allowed the ICRC to visit detainees since October 2023",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Israel rejected the UN's allegations, stating it had submitted evidence, documents, and detailed responses to every claim.",
+      "classification": "corroborated",
+      "claim_group": "israel_response",
+      "rationale": "Both BBC (center) and The Guardian (center-left) report Israel's rejection of the allegations, with The Guardian adding Israel's stated submission of evidence, but both outlets share the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Israel said it rejected allegations of sexual abuse",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Israel submitted evidence, documents, and detailed responses to every claim",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Israel's ambassador to the UN Danny Danon announced that Israel was cutting ties with UN Secretary General António Guterres in response to the blacklisting.",
+      "classification": "agreed",
+      "claim_group": "israel_response",
+      "rationale": "BBC (center) and The Guardian (center-left) both confirm Danon's announcement of severed ties with Guterres's office, providing cross-spectrum corroboration between center and center-left.",
+      "framing_variants": [
+        {
+          "characterization": "Israel intended to break off relations with the UN Secretary General's office; the Israeli UN mission will refuse contact as long as he serves",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Israel cut ties with UN Secretary General Guterres in response to the blacklisting",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Danny Danon accused UN Secretary General Guterres of spreading antisemitic lies.",
+      "classification": "single_source",
+      "claim_group": "israel_response",
+      "rationale": "Only the BBC reports Danon's specific accusation that Guterres was spreading antisemitic lies.",
+      "framing_variants": [
+        {
+          "characterization": "Danny Danon accused Guterres of spreading antisemitic lies",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "A UN official stated they did not review evidence before blacklisting Israel.",
+      "classification": "single_source",
+      "claim_group": "israel_response",
+      "rationale": "Only i24 News (center-right) reports this specific claim of a UN official admitting to not reviewing evidence, framing it as an admission undermining the process.",
+      "framing_variants": [
+        {
+          "characterization": "'Not my job': UN official says did not review evidence before blacklisting Israel for sex-crimes alongside Hamas",
+          "source_id": "src_010"
+        }
+      ],
+      "supported_by": [
+        "src_010"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Israel's top military lawyer dropped charges against the Sde Teiman detention facility guards in March of this year.",
+      "classification": "single_source",
+      "claim_group": "israel_response",
+      "rationale": "Only the BBC reports the specific legal outcome that charges against the Sde Teiman guards were dropped.",
+      "framing_variants": [
+        {
+          "characterization": "Israel's top military lawyer dropped charges against the guards in March of this year",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Prime Minister Benjamin Netanyahu and Foreign Minister Gideon Sa'ar announced a defamation lawsuit against the New York Times over its report based on testimonies of 14 Palestinian sexual abuse survivors, calling it one of the most hideous and distorted lies ever published against Israel.",
+      "classification": "single_source",
+      "claim_group": "israel_response",
+      "rationale": "Only the BBC reports the announced defamation lawsuit against the New York Times and the officials' characterization of the report.",
+      "framing_variants": [
+        {
+          "characterization": "Netanyahu and Sa'ar announced defamation lawsuit, calling the NYT report 'one of the most hideous and distorted lies ever published against the state of Israel'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Benjamin Netanyahu described the alleged perpetrators of the Sde Teiman sexual abuse as heroic and called the attempt to prosecute them criminal.",
+      "classification": "single_source",
+      "claim_group": "israel_response",
+      "rationale": "Only The Guardian attributes these specific characterizations to Netanyahu regarding the Sde Teiman perpetrators.",
+      "framing_variants": [
+        {
+          "characterization": "Netanyahu described alleged perpetrators as 'heroic' and called the attempt to prosecute them 'criminal'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The Israeli military stated that it conducts examination and investigation processes for exceptional incidents involving suspicion of a legal violation, and opens criminal investigations when there is reasonable suspicion of an offence under Israeli and international law.",
+      "classification": "single_source",
+      "claim_group": "israel_response",
+      "rationale": "Only the BBC reports the Israeli military's formal statement on its investigation procedures.",
+      "framing_variants": [
+        {
+          "characterization": "Israeli military said it conducts examination and investigation processes for exceptional incidents and opens criminal investigations when there is reasonable suspicion",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "The UN verified 310 cases of conflict-related sexual violence committed by Russian armed and security forces in Russia and Russian-occupied territories of Ukraine, including rape, gang rape, genital mutilation, and applying electric shocks to genitals.",
+      "classification": "corroborated",
+      "claim_group": "un_report_findings_russia",
+      "rationale": "Both BBC (center) and The Guardian (center-left) confirm the 310-case figure and the types of violations, but these outlets are from the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "310 instances of conflict-related sexual violence identified, including rape and genital mutilation",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "310 verified cases of Russian abuse including rape, gang-rape, genital mutilation and applying electric shocks to genitals",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "The 310 Russian abuse cases affected predominantly men, along with 26 women and four girls.",
+      "classification": "corroborated",
+      "claim_group": "un_report_findings_russia",
+      "rationale": "Both BBC (center) and The Guardian (center-left) confirm the same demographic breakdown of Russian abuse victims.",
+      "framing_variants": [
+        {
+          "characterization": "The 310 instances affected 280 men, 26 women and four girls",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Most victims were men, with 26 women and four girls also abused",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "The UN report found that Russia deployed systematic sexual torture in almost all detention centres, with two-thirds of cases involving multiple forms of sexual violence and more than half of survivors enduring repeated attacks.",
+      "classification": "single_source",
+      "claim_group": "un_report_findings_russia",
+      "rationale": "Only The Guardian reports these specific patterns about the systematic nature of Russian abuses across detention centres.",
+      "framing_variants": [
+        {
+          "characterization": "Russia deployed systematic sexual torture in 'almost all' detention centres; two-thirds of cases involved multiple forms; more than half of survivors endured repeated attacks",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Russia obstructed UN investigations by barring monitors from accessing prisoners of war and civilian detainees.",
+      "classification": "single_source",
+      "claim_group": "un_report_findings_russia",
+      "rationale": "Only The Guardian specifically reports Russia's obstruction of UN investigations in a manner parallel to reporting on Israeli obstruction.",
+      "framing_variants": [
+        {
+          "characterization": "Russia obstructed investigations into 'systemic' sexual violence against Ukrainians, barring monitors from accessing prisoners of war and civilians in detention",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Russia has not publicly commented on the UN report.",
+      "classification": "single_source",
+      "claim_group": "un_report_findings_russia",
+      "rationale": "Only the BBC notes the absence of a public Russian response to the report.",
+      "framing_variants": [
+        {
+          "characterization": "Russia has not publicly commented",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "Ukraine's foreign minister Andrii Sybiha welcomed the UN report, calling it a crucial step on the painful road to truth and accountability.",
+      "classification": "single_source",
+      "claim_group": "international_response",
+      "rationale": "Only the BBC reports this specific welcoming statement from Ukraine's foreign minister.",
+      "framing_variants": [
+        {
+          "characterization": "Ukraine's foreign minister welcomed the report as 'a crucial step on the painful road to truth and accountability'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "The UN had previously added Hamas to the Conflict-Related Sexual Violence blacklist for the October 7 attacks in Israel and for abuse of hostages in Gaza; Hamas has not recognised any cases of sexual violence or held perpetrators responsible.",
+      "classification": "corroborated",
+      "claim_group": "un_blacklist_action",
+      "rationale": "Both BBC (center) and The Guardian (center-left) confirm Hamas's prior addition to the blacklist and its non-response, but both are from the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Hamas was added to the previous 'Conflict-related Sexual Violence' report last year; 12 former hostages made allegations",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "UN had already added Hamas for the October 7 attacks and abuse of hostages; Hamas has not recognised any cases or held perpetrators responsible",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "The UN was unable to verify reports of Hamas sexual violence because the Israeli government denied access to UN bodies to carry out investigations.",
+      "classification": "single_source",
+      "claim_group": "un_report_findings_israel",
+      "rationale": "Only the BBC reports this specific claim that Israeli denial of access prevented the UN from verifying Hamas sexual violence allegations.",
+      "framing_variants": [
+        {
+          "characterization": "UN unable to verify Hamas reports because Israel denied access to UN bodies",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_028",
+      "text": "Five Israeli guards were caught on leaked CCTV footage appearing to sexually abuse a detainee from Gaza at the Sde Teiman detention facility; a doctor found corroborating wounds.",
+      "classification": "corroborated",
+      "claim_group": "specific_incidents",
+      "rationale": "Both BBC and The Guardian report the Sde Teiman incident involving filmed assault, but both outlets are from the center/center-left of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Five Israeli guards caught on leaked CCTV appearing to sexually abuse a Gaza detainee; doctor found corroborating wounds; charges later dropped",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Assault and rape of a Gaza detainee filmed on security cameras and reported to police by Israeli medics; victim was never charged or tried and has since been released",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_029",
+      "text": "Research organisation Action on Armed Violence found that nearly nine in ten Israeli investigations into crimes committed by soldiers since the start of the Gaza war were closed without finding fault or resolution, with only one prison conviction out of 52 cases studied.",
+      "classification": "single_source",
+      "claim_group": "specific_incidents",
+      "rationale": "Only the BBC reports findings from Action on Armed Violence regarding the closure rate of Israeli military investigations.",
+      "framing_variants": [
+        {
+          "characterization": "Nearly nine in ten Israeli investigations closed without finding fault; only one prison conviction out of 52 cases studied",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_030",
+      "text": "At least 15 international activists detained by Israel while attempting to sail to Gaza with aid said they had been sexually assaulted in custody, including one who reported being raped; Israeli National Security Minister Itamar Ben-Gvir published footage of the abuse, causing a diplomatic crisis.",
+      "classification": "single_source",
+      "claim_group": "specific_incidents",
+      "rationale": "Only The Guardian reports the detention and alleged sexual assault of international activists and Ben-Gvir's publication of footage.",
+      "framing_variants": [
+        {
+          "characterization": "Ben-Gvir published footage of Israeli security forces abusing international activists, causing a diplomatic crisis; at least 15 activists said they were sexually assaulted including one rape",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_031",
+      "text": "The UN report lists 77 countries and armed groups on the sexual violence blacklist and identified a sharp rise in conflict-related sexual violence from 2024.",
+      "classification": "single_source",
+      "claim_group": "un_blacklist_action",
+      "rationale": "Only The Guardian reports the total number of entities on the blacklist and the identified global rise in conflict-related sexual violence.",
+      "framing_variants": [
+        {
+          "characterization": "The report lists 77 countries and armed groups; conflict-related sexual violence had risen sharply from 2024, marked by extreme brutality and overwhelmingly targeting women and girls",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_032",
+      "text": "Ukrainian forces committed 31 verified incidents of conflict-related sexual violence since 2022, including beating of genitals, applying electric shocks and forced nudity; the Ukrainian government allowed access to independent monitors and was taking steps to strengthen laws addressing sexual violence.",
+      "classification": "single_source",
+      "claim_group": "un_report_findings_russia",
+      "rationale": "Only The Guardian reports the specific findings regarding Ukrainian forces and the Ukrainian government's cooperative response.",
+      "framing_variants": [
+        {
+          "characterization": "Ukraine had 31 verified incidents, most before 2025; Ukrainian government allowed access to monitors and was strengthening laws",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_033",
+      "text": "Rights groups characterize Israeli detention centres as having normalised violence including rape, extreme hunger and humiliation over the past three years, describing them as 'torture camps' for Palestinians.",
+      "classification": "single_source",
+      "claim_group": "specific_incidents",
+      "rationale": "Only The Guardian cites rights groups' characterizations of Israeli detention conditions as normalized torture.",
+      "framing_variants": [
+        {
+          "characterization": "Rights groups say detention centres have become 'torture camps' for Palestinians; violence including rape has been normalised",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_034",
+      "text": "The UN Committee against Torture stated in November that it was deeply concerned about reports indicating a de facto state policy of organised and widespread torture and ill-treatment of Palestinian detainees in Israeli jails, with allegations having gravely intensified since the October 7, 2023 Hamas-led attacks.",
+      "classification": "single_source",
+      "claim_group": "specific_incidents",
+      "rationale": "Only the BBC reports this specific statement from the UN Committee against Torture and its characterization of post-October 7 patterns.",
+      "framing_variants": [
+        {
+          "characterization": "UN Committee against Torture said in November it was deeply concerned about 'a de facto state policy of organised and widespread torture'; allegations 'gravely intensified' after October 7",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_035",
+      "text": "Details of the UN report were shared by Israeli diplomats at the UN before its official release, and the full report was subsequently posted online by the US news site PassBlue.",
+      "classification": "single_source",
+      "claim_group": "un_blacklist_action",
+      "rationale": "Only The Guardian reports how the report was circulated prior to official release and subsequently made public.",
+      "framing_variants": [
+        {
+          "characterization": "Details shared by Israeli diplomats at the UN before release; full report posted online by PassBlue",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-06-28T09:30:32.360237+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "The United Nations added Israel to its annual Conflict-Related Sexual Violence blacklist for the first time, marking a significant diplomatic development that drew immediate condemnation from the Israeli government. The UN also added Russia to the same list for the first time, citing verified cases of sexual abuse committed by Russian forces in Ukraine and Russian-occupied territories.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_006",
+            "src_007",
+            "src_008",
+            "src_009",
+            "src_010"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The UN report verified 31 cases of conflict-related sexual violence perpetrated by Israeli forces against Palestinians from Gaza and the West Bank between 2023 and 2025. In response to the blacklisting, Israel's ambassador to the UN Danny Danon announced that Israel was cutting ties with UN Secretary General António Guterres.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The UN had previously added Hamas to the Conflict-Related Sexual Violence blacklist for the October 7 attacks in Israel and for abuse of hostages in Gaza. Hamas has not recognized any cases of sexual violence or held perpetrators responsible, according to the UN findings.",
+        "supports": {
+          "claim_ids": [
+            "clm_026"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Center and center-left outlets reported that the violations attributed to Israeli forces included rape, gang rape, rape with objects, forced nudity, violence to genitals, targeted shooting of genitals, and threats of rape. The alleged violations were committed by personnel from the Israeli military, police, prison service, and an elite police counter-terrorism unit, according to the BBC and The Guardian.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The BBC reported that of the 31 verified cases, 13 occurred in 2025 and 18 occurred in the two prior years. The victims comprised 14 men, seven women, nine boys, and one girl. The Guardian separately reported that the UN documented nine cases of rape by Israeli forces, mostly of men or boys from Gaza, targeted in detention centres or during interrogation.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Center and center-left outlets reported that the UN stated its attempts to fully investigate alleged Israeli violations were obstructed by the Israeli government, including being barred from detention centres and having access to Gaza blocked. The UN also reported that threats were made against Palestinian detainees to prevent them from reporting abuse after release. The Guardian added that Israel has not allowed the International Committee of the Red Cross to visit detainees since October 2023.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The BBC reported a significant investigative constraint: the UN was unable to verify reports of Hamas sexual violence because the Israeli government denied access to UN bodies to carry out investigations. This access restriction affected the UN's ability to examine allegations on both sides of the conflict.",
+        "supports": {
+          "claim_ids": [
+            "clm_027"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Center and center-left outlets reported on a specific incident that drew international attention: five Israeli guards were caught on leaked CCTV footage appearing to sexually abuse a detainee from Gaza at the Sde Teiman detention facility, with a doctor finding corroborating wounds. The BBC reported that Israel's top military lawyer dropped charges against the Sde Teiman guards in March of this year.",
+        "supports": {
+          "claim_ids": [
+            "clm_028",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Guardian reported that Prime Minister Benjamin Netanyahu described the alleged perpetrators of the Sde Teiman sexual abuse as heroic and called the attempt to prosecute them criminal. The BBC separately reported that Netanyahu and Foreign Minister Gideon Sa'ar announced a defamation lawsuit against the New York Times over its report based on testimonies of 14 Palestinian sexual abuse survivors, calling it \"one of the most hideous and distorted lies ever published against Israel.\"",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Israel rejected the UN's allegations, with center and center-left outlets reporting that the Israeli government stated it had submitted evidence, documents, and detailed responses to every claim. The BBC reported that Danny Danon accused UN Secretary General Guterres of spreading antisemitic lies. The Israeli military stated that it conducts examination and investigation processes for exceptional incidents involving suspicion of a legal violation, and opens criminal investigations when there is reasonable suspicion of an offence under Israeli and international law.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_014",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Israeli center-right outlet i24 News reported that a UN official stated they did not review evidence before blacklisting Israel, framing this as an admission that undermined the credibility of the UN process.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_010"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The BBC reported findings from research organisation Action on Armed Violence showing that nearly nine in ten Israeli investigations into crimes committed by soldiers since the start of the Gaza war were closed without finding fault or resolution, with only one prison conviction out of 52 cases studied. The Guardian separately reported that rights groups characterize Israeli detention centres as having normalized violence including rape, extreme hunger and humiliation over the past three years, describing them as 'torture camps' for Palestinians.",
+        "supports": {
+          "claim_ids": [
+            "clm_029",
+            "clm_033"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The BBC reported that the UN Committee against Torture stated in November that it was deeply concerned about reports indicating a de facto state policy of organized and widespread torture and ill-treatment of Palestinian detainees in Israeli jails, with allegations having gravely intensified since the October 7, 2023 Hamas-led attacks. The Guardian reported that at least 15 international activists detained by Israel while attempting to sail to Gaza with aid said they had been sexually assaulted in custody, including one who reported being raped; Israeli National Security Minister Itamar Ben-Gvir published footage of the abuse, causing a diplomatic crisis.",
+        "supports": {
+          "claim_ids": [
+            "clm_034",
+            "clm_030"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "Regarding Russia, center and center-left outlets reported that the UN verified 310 cases of conflict-related sexual violence committed by Russian armed and security forces in Russia and Russian-occupied territories of Ukraine, including rape, gang rape, genital mutilation, and applying electric shocks to genitals. The 310 cases affected predominantly men, along with 26 women and four girls.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "The Guardian reported that the UN found Russia deployed systematic sexual torture in almost all detention centres, with two-thirds of cases involving multiple forms of sexual violence and more than half of survivors enduring repeated attacks. Russia obstructed UN investigations by barring monitors from accessing prisoners of war and civilian detainees. The BBC noted that Russia has not publicly commented on the UN report.",
+        "supports": {
+          "claim_ids": [
+            "clm_022",
+            "clm_023",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "The BBC reported that Ukraine's foreign minister Andrii Sybiha welcomed the UN report, calling it \"a crucial step on the painful road to truth and accountability.\" The Guardian reported that Ukrainian forces committed 31 verified incidents of conflict-related sexual violence since 2022, including beating of genitals, applying electric shocks and forced nudity, but noted that the Ukrainian government allowed access to independent monitors and was taking steps to strengthen laws addressing sexual violence.",
+        "supports": {
+          "claim_ids": [
+            "clm_025",
+            "clm_032"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p17",
+        "text": "The Guardian reported that the UN report lists 77 countries and armed groups on the sexual violence blacklist and identified a sharp rise in conflict-related sexual violence from 2024. Details of the UN report were shared by Israeli diplomats at the UN before its official release, and the full report was subsequently posted online by the US news site PassBlue.",
+        "supports": {
+          "claim_ids": [
+            "clm_031",
+            "clm_035"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      }
+    ]
+  }
+}
