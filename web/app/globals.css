@@ -6,24 +6,56 @@
  */
 :root {
   color-scheme: light;
-  --background: #ffffff;
-  --foreground: #171717;
-  /* Typography floor: descriptive text never goes below this lightness.
-     Ensures WCAG AA contrast (4.5:1) on white even for secondary copy. */
-  --text-secondary: #4b5563;   /* Tailwind gray-600 */
-  --text-tertiary: #6b7280;    /* Tailwind gray-500 — minimum for body copy */
-  --text-meta: #9ca3af;        /* Tailwind gray-400 — dates, labels only */
+
+  /* Warm palette */
+  --bg:            #f7f4ee;
+  --bg-card:       #fffdf8;
+  --border:        #e7ddca;
+  --border-light:  #ece5d9;
+  --text-primary:  #141109;
+  --text-secondary:#5b5249;
+  --text-tertiary: #8a7d6c;
+  --text-meta:     #a3957f;
+  --accent:        #b08a4a;
+
+  /* Legacy aliases kept for components that still reference them */
+  --background: var(--bg);
+  --foreground:  var(--text-primary);
+  --text-secondary-legacy: #4b5563;
+  --text-tertiary-legacy:  #6b7280;
+  --text-meta-legacy:      #9ca3af;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--bg);
+  --color-foreground:  var(--text-primary);
+  --font-sans:  var(--font-archivo);
+  --font-serif: var(--font-spectral);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-archivo), system-ui, sans-serif;
+}
+
+/* ── Critiqal intro logo animation ─────────────────────────────────────── */
+@keyframes cr-blur-fade {
+  0%, 68% { opacity: 1; }
+  100%     { opacity: 0; }
+}
+@keyframes cr-trailing {
+  0%        { clip-path: inset(0 392px 0 0); }
+  66%, 100% { clip-path: inset(0 -12px  0 0); }
+}
+@keyframes cr-lens {
+  0%   { clip-path: circle(22px at  -40px 46px); opacity: 1; }
+  66%  { clip-path: circle(22px at  360px 46px); opacity: 1; }
+  80%  { clip-path: circle(22px at  215px 46px); opacity: 1; }
+  100% { clip-path: circle(22px at  215px 46px); opacity: 0; }
+}
+@keyframes cr-qtravel {
+  0%        { transform: translateX(-255px); }
+  66%       { transform: translateX( 145px); }
+  80%, 100% { transform: translateX(    0px); }
 }

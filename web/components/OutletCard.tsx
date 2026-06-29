@@ -11,12 +11,12 @@ const BIAS_LABEL: Record<string, string> = {
   right:          'Right',
 };
 
-const BIAS_COLORS: Record<string, string> = {
-  left:           'bg-blue-100 text-blue-800',
-  'center-left':  'bg-sky-100 text-sky-800',
-  center:         'bg-gray-100 text-gray-700',
-  'center-right': 'bg-orange-100 text-orange-800',
-  right:          'bg-red-100 text-red-800',
+const BIAS_DOT: Record<string, string> = {
+  left:           '#2f5fd0',
+  'center-left':  '#5b8def',
+  center:         '#8a8a8a',
+  'center-right': '#e08a3c',
+  right:          '#d24b3e',
 };
 
 interface OutletCardProps {
@@ -25,88 +25,110 @@ interface OutletCardProps {
 }
 
 export default function OutletCard({ outlet, sources }: OutletCardProps) {
-  const [expanded, setExpanded] = useState(false);
+  const [articlesOpen, setArticlesOpen] = useState(false);
 
-  // All articles from the same outlet share bias_rating, ownership, bias_rating_source
-  const representative = sources[0];
-  const hasArticleDetail = sources.some(s => s.author || s.author_background);
+  const rep   = sources[0];
+  const dot   = BIAS_DOT[rep.bias_rating]   ?? '#8a8a8a';
+  const label = BIAS_LABEL[rep.bias_rating]  ?? rep.bias_rating;
+  const articleLabel =
+    sources.length === 1
+      ? '1 article in this synthesis'
+      : `${sources.length} articles in this synthesis`;
 
   return (
-    <div className="border border-gray-200 rounded-lg p-4 text-sm space-y-2">
+    <div style={{
+      display: 'flex', flexDirection: 'column', gap: 12,
+      padding: '18px 18px 16px',
+      background: '#fffdf8',
+      border: '1px solid #e7ddca',
+      borderRadius: 8,
+    }}>
 
-      {/* Outlet name + bias badge */}
-      <div className="flex items-start justify-between gap-2">
-        <span className="font-semibold text-gray-900 leading-tight">{outlet}</span>
-        <span className={`flex-shrink-0 text-xs px-2 py-0.5 rounded-full font-medium ${BIAS_COLORS[representative.bias_rating] ?? 'bg-gray-100 text-gray-600'}`}>
-          {BIAS_LABEL[representative.bias_rating] ?? representative.bias_rating}
+      {/* Outlet name · bias dot · label */}
+      <div style={{ display: 'flex', alignItems: 'baseline', gap: 9 }}>
+        <span style={{
+          width: 9, height: 9, borderRadius: '50%',
+          background: dot, flexShrink: 0,
+          transform: 'translateY(1px)', display: 'inline-block',
+        }} />
+        <span style={{
+          fontFamily: 'var(--font-spectral), serif',
+          fontWeight: 600, fontSize: 17, lineHeight: 1.2,
+          color: '#1c1812', flex: 1, minWidth: 0,
+        }}>
+          {outlet}
+        </span>
+        <span style={{
+          font: '600 9.5px/1 var(--font-archivo), system-ui',
+          letterSpacing: '.07em', textTransform: 'uppercase',
+          color: dot, whiteSpace: 'nowrap',
+        }}>
+          {label}
         </span>
       </div>
 
-      {/* Bias rating source */}
-      <div className="text-xs text-gray-400">
-        Bias rating: {representative.bias_rating_source}
+      {/* Rated by */}
+      <div style={{
+        font: '400 11px/1 var(--font-archivo), system-ui',
+        letterSpacing: '.04em', color: '#a3957f',
+      }}>
+        Bias rated by {rep.bias_rating_source}
       </div>
 
       {/* Ownership */}
-      {representative.ownership && (
-        <div className="text-gray-500 text-xs border-t border-gray-100 pt-2">
-          {representative.ownership}
+      {rep.ownership && (
+        <div style={{
+          fontFamily: 'var(--font-spectral), serif',
+          fontSize: 13.5, lineHeight: 1.5, color: '#6a6052',
+        }}>
+          {rep.ownership}
         </div>
       )}
 
-      {/* Article list — collapsed by default if >1 article, always shown if only 1 */}
-      {sources.length === 1 ? (
-        <ArticleRow source={sources[0]} />
-      ) : (
-        <div className="border-t border-gray-100 pt-2">
-          <button
-            onClick={() => setExpanded(v => !v)}
-            className="text-xs text-indigo-600 hover:text-indigo-800 font-medium"
-          >
-            {expanded ? '▾ Hide articles' : `▸ ${sources.length} articles`}
-          </button>
-          {expanded && (
-            <ul className="mt-2 space-y-2">
-              {sources.map(src => (
-                <li key={src.source_id}>
-                  <ArticleRow source={src} />
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
-      )}
-    </div>
-  );
-}
-
-function ArticleRow({ source }: { source: Source }) {
-  const date = new Date(source.published_at).toLocaleDateString(undefined, {
-    day: 'numeric', month: 'short', year: 'numeric',
-  });
-
-  return (
-    <div className="text-xs text-gray-600 space-y-0.5">
-      <div className="flex items-baseline justify-between gap-2">
-        <span className="text-gray-400">{date}</span>
-        <a
-          href={source.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-indigo-500 hover:text-indigo-700 flex-shrink-0"
-          aria-label="Open article"
+      {/* Articles — collapsed by default */}
+      <div style={{ marginTop: 2, paddingTop: 12, borderTop: '1px solid #ece5d9' }}>
+        <button
+          onClick={() => setArticlesOpen(v => !v)}
+          style={{
+            display: 'inline-flex', alignItems: 'center', gap: 6,
+            background: 'none', border: 'none', cursor: 'pointer', padding: 0,
+          }}
         >
-          ↗
-        </a>
+          <span style={{
+            font: '600 9.5px/1 var(--font-archivo), system-ui',
+            letterSpacing: '.13em', textTransform: 'uppercase', color: '#b6a68f',
+          }}>
+            {articleLabel}
+          </span>
+          <span style={{ fontSize: 10, color: '#b6a68f' }}>
+            {articlesOpen ? '▲' : '▼'}
+          </span>
+        </button>
+
+        {articlesOpen && (
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 7, marginTop: 10 }}>
+            {sources.map((src, i) => (
+              <a
+                key={src.source_id}
+                href={src.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'inline-flex', alignItems: 'center', gap: 5,
+                  padding: '5px 10px',
+                  background: '#f4efe4', border: '1px solid #e2d7c2', borderRadius: 5,
+                  font: '500 11px/1 var(--font-archivo), system-ui',
+                  color: '#5b5249', textDecoration: 'none',
+                }}
+              >
+                Report {i + 1}
+                <span style={{ fontSize: 10, color: '#a3957f' }}>↗</span>
+              </a>
+            ))}
+          </div>
+        )}
       </div>
-      {source.author && (
-        <div className="text-gray-500">
-          By {source.author}
-          {source.author_background && (
-            <span className="text-gray-400"> — {source.author_background}</span>
-          )}
-        </div>
-      )}
+
     </div>
   );
 }
