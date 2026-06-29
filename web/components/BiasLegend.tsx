@@ -1,65 +1,95 @@
 import { Source, BiasRating } from '@/lib/types';
 
-const SPECTRUM: { rating: BiasRating; label: string; bg: string; text: string; dot: string }[] = [
-  { rating: 'left',         label: 'Left',         bg: 'bg-blue-100',   text: 'text-blue-800',   dot: 'bg-blue-500' },
-  { rating: 'center-left',  label: 'Center-left',  bg: 'bg-sky-100',    text: 'text-sky-800',    dot: 'bg-sky-400' },
-  { rating: 'center',       label: 'Center',       bg: 'bg-gray-100',   text: 'text-gray-700',   dot: 'bg-gray-400' },
-  { rating: 'center-right', label: 'Center-right', bg: 'bg-orange-100', text: 'text-orange-800', dot: 'bg-orange-400' },
-  { rating: 'right',        label: 'Right',        bg: 'bg-red-100',    text: 'text-red-800',    dot: 'bg-red-500' },
+const SPECTRUM: {
+  rating: BiasRating;
+  label: string;
+  dot: string;
+}[] = [
+  { rating: 'left',         label: 'Left',         dot: '#2f5fd0' },
+  { rating: 'center-left',  label: 'Center-left',  dot: '#5b8def' },
+  { rating: 'center',       label: 'Center',       dot: '#8a8a8a' },
+  { rating: 'center-right', label: 'Center-right', dot: '#e08a3c' },
+  { rating: 'right',        label: 'Right',        dot: '#d24b3e' },
 ];
 
 export default function BiasLegend({ sources }: { sources: Source[] }) {
-  // Build a map of rating → outlets in this event
-  const byRating: Partial<Record<BiasRating, string[]>> = {};
+  // Count unique outlets per rating tier
+  const byRating: Partial<Record<BiasRating, Set<string>>> = {};
   for (const src of sources) {
-    if (!byRating[src.bias_rating]) byRating[src.bias_rating] = [];
-    // Deduplicate outlets (Al Jazeera appears twice)
-    if (!byRating[src.bias_rating]!.includes(src.outlet)) {
-      byRating[src.bias_rating]!.push(src.outlet);
-    }
+    if (!byRating[src.bias_rating]) byRating[src.bias_rating] = new Set();
+    byRating[src.bias_rating]!.add(src.outlet);
   }
 
+  const ratingSource = [...new Set(sources.map(s => s.bias_rating_source))].join(', ');
+
   return (
-    <div className="mb-6 pt-4 border-t border-gray-100">
-      <div className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">
-        Sources on the political spectrum
+    <div style={{ marginTop: 32, paddingTop: 22, borderTop: '1px solid #e1d8c8', borderBottom: '1px solid #e1d8c8', paddingBottom: 22 }}>
+      <div style={{
+        font: '600 10px/1 var(--font-archivo), system-ui',
+        letterSpacing: '.16em', textTransform: 'uppercase',
+        color: '#9a8d7c', marginBottom: 16,
+      }}>
+        Who covered this
       </div>
 
-      {/* Gradient bar */}
-      <div className="h-2 rounded-full mb-4"
-        style={{ background: 'linear-gradient(to right, #3b82f6, #38bdf8, #9ca3af, #fb923c, #ef4444)' }}
-      />
+      {/* Gradient bar with dots aligned above labels */}
+      <div style={{ position: 'relative' }}>
+        {/* Bar */}
+        <div style={{
+          height: 6, borderRadius: 3,
+          background: 'linear-gradient(90deg, #3a5bd0, #7e9bd8, #cfc8bd, #e3b483, #d8703f)',
+        }} />
 
-      {/* Legend columns — left-aligned outlet names */}
-      <div className="grid grid-cols-5 gap-1">
-        {SPECTRUM.map(({ rating, label, bg, text, dot }) => {
-          const outlets = byRating[rating] ?? [];
-          return (
-            <div key={rating}>
-              <span className={`inline-block text-xs px-2 py-0.5 rounded-full font-medium mb-2 ${bg} ${text}`}>
-                {label}
-              </span>
-              <div className="space-y-1">
-                {outlets.map((outlet) => (
-                  <div key={outlet} className="flex items-start gap-1">
-                    <span className={`mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0 ${dot}`} />
-                    <span className="text-xs text-gray-600 leading-tight">{outlet}</span>
-                  </div>
-                ))}
-                {outlets.length === 0 && (
-                  <span className="text-xs text-gray-300">—</span>
+        {/* Dots — one per column, flex-aligned to match labels below */}
+        <div style={{ position: 'absolute', top: -4, left: 0, right: 0, display: 'flex' }}>
+          {SPECTRUM.map(({ rating, dot }) => {
+            const count = byRating[rating]?.size ?? 0;
+            return (
+              <div key={rating} style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
+                {count > 0 && (
+                  <span style={{
+                    width: 14, height: 14, borderRadius: '50%',
+                    background: dot, border: '2.5px solid #f7f4ee',
+                    display: 'inline-block',
+                  }} />
                 )}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Labels + counts */}
+      <div style={{ display: 'flex', marginTop: 14 }}>
+        {SPECTRUM.map(({ rating, label, dot }) => {
+          const count = byRating[rating]?.size ?? 0;
+          return (
+            <div key={rating} style={{ flex: 1, textAlign: 'center' }}>
+              <div style={{
+                font: '600 11px/1 var(--font-archivo), system-ui',
+                color: count > 0 ? dot : '#cdc3b2',
+              }}>
+                {count > 0 ? count : '—'}
+              </div>
+              <div style={{
+                font: '500 9.5px/1.3 var(--font-archivo), system-ui',
+                letterSpacing: '.06em', textTransform: 'uppercase',
+                color: '#a3957f', marginTop: 5,
+              }}>
+                {label}
               </div>
             </div>
           );
         })}
       </div>
 
-      <div className="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-400">
-        Bias ratings sourced from{' '}
-        {[...new Set(sources.map(s => s.bias_rating_source))].join(', ')}.
-        Ratings are cited, not the product&apos;s own verdict.
-      </div>
+      <p style={{
+        fontFamily: 'var(--font-spectral), serif',
+        fontStyle: 'italic', fontSize: 13, lineHeight: 1.45,
+        color: '#8a7d6c', marginTop: 14, marginBottom: 0,
+      }}>
+        Bias ratings sourced from {ratingSource}. Ratings are cited, not the product&apos;s own verdict.
+      </p>
     </div>
   );
 }
