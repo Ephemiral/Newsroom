@@ -853,19 +853,17 @@
   "background": [],
   "report": {
     "schema_version": "0.2",
-    "generated_at": "2026-06-28T09:10:36.567425+00:00",
+    "generated_at": "2026-06-29T20:50:12.368707+00:00",
     "paragraphs": [
       {
         "paragraph_id": "p1",
-        "text": "Iran struck Kuwait International Airport with drones on Wednesday, June 4, 2026, killing one person and injuring more than 60 others. The attack caused significant damage to a passenger terminal, prompting Kuwaiti civil aviation authorities to suspend flights and divert incoming aircraft to alternative airports. Surveillance footage released by Kuwait's Directorate General of Civil Aviation captured the moment the drones struck the terminal.",
+        "text": "Iran struck Kuwait International Airport with drones on Wednesday, killing one person and injuring more than 60 others. The attack caused significant damage to a passenger terminal, according to reports from outlets across the political spectrum.",
         "supports": {
           "claim_ids": [
             "clm_001",
             "clm_002",
             "clm_004",
-            "clm_005",
-            "clm_006",
-            "clm_007"
+            "clm_005"
           ],
           "source_ids": [
             "src_001",
@@ -885,27 +883,29 @@
       },
       {
         "paragraph_id": "p2",
-        "text": "The Pakistan-brokered ceasefire between the United States and Iran, which came into effect in early April, had already shown signs of strain before the airport strike. Negotiations between Washington and Tehran had stalled over the preceding weekend, with no progress reported despite continued communication. Iran's Foreign Minister Abbas Araghchi acknowledged that contacts with Washington had not been cut off and that texts had been exchanged, but said no advancement had been made in the talks.",
+        "text": "Kuwait's civil aviation authorities suspended flights and diverted incoming aircraft to alternative airports following the strike. Kuwaiti authorities released surveillance footage showing the moment the airport was struck.",
         "supports": {
           "claim_ids": [
-            "clm_025",
-            "clm_027",
-            "clm_028"
+            "clm_006",
+            "clm_007"
           ],
           "source_ids": [
-            "src_006",
-            "src_010",
-            "src_011"
+            "src_001",
+            "src_003",
+            "src_005",
+            "src_008",
+            "src_010"
           ]
         },
-        "kind": "background"
+        "kind": "one_sided"
       },
       {
         "paragraph_id": "p3",
-        "text": "Iran had indicated it would suspend peace talks with the United States in protest against Israeli military operations in Lebanon. This Iranian position reflected Tehran's relationship with Hezbollah, the Iranian-backed militant group designated as a terrorist organization by the US and EU, which operates along Israel's northern border. The Lebanese operations represent a distinct conflict from other regional hostilities.",
+        "text": "A ceasefire between the United States and Iran, brokered by Pakistan, came into effect in early April. The agreement followed escalating tensions that had developed since late February 2026.",
         "supports": {
           "claim_ids": [
-            "clm_029"
+            "clm_025",
+            "clm_026"
           ],
           "source_ids": [
             "src_006",
@@ -916,7 +916,7 @@
       },
       {
         "paragraph_id": "p4",
-        "text": "Kuwait's response to the airport strike was swift and unequivocal. The defense ministry spokesman characterized the attack as \"criminal Iranian aggression.\" Kuwait declared two Iranian diplomats persona non grata and gave them 24 hours to leave the country. The deputy foreign minister summoned Iran's chargé d'affaires to formally protest what Kuwait described as Iran's continued attacks. The foreign ministry also reported that diplomatic missions had been damaged in the strike.",
+        "text": "Kuwait's defense ministry spokesman called the airport strike \"criminal Iranian aggression.\" The foreign ministry said diplomatic missions had been damaged by the attack. Kuwait declared two Iranian diplomats persona non grata and gave them 24 hours to leave the country. Kuwait's deputy foreign minister summoned Iran's chargé d'affaires to formally protest Iran's continued attacks.",
         "supports": {
           "claim_ids": [
             "clm_008",
@@ -930,28 +930,14 @@
             "src_011"
           ]
         },
-        "kind": "agreed"
+        "kind": "one_sided"
       },
       {
         "paragraph_id": "p5",
-        "text": "Iran's Islamic Revolutionary Guard Corps denied responsibility for the airport damage, offering a starkly different account of what occurred. The IRGC claimed the terminal destruction was caused by a malfunctioning US-made Patriot missile interceptor, not by Iranian drones. This explanation presented the airport damage as the result of American defensive systems rather than Iranian offensive action.",
+        "text": "Iran and the United States offered contradictory accounts of what struck the airport terminal. Iran's Islamic Revolutionary Guard Corps denied responsibility for the airport strike, claiming the damage was caused by a malfunctioning US-made Patriot missile interceptor. US Central Command rejected Iran's explanation and characterized the airport strike as a deliberate, calculated, and unjustified attack by Iran.",
         "supports": {
           "claim_ids": [
-            "clm_012"
-          ],
-          "source_ids": [
-            "src_006",
-            "src_007",
-            "src_011"
-          ]
-        },
-        "kind": "framing"
-      },
-      {
-        "paragraph_id": "p6",
-        "text": "US Central Command rejected Iran's Patriot missile explanation entirely, characterizing the airport strike as \"a deliberate, calculated, and unjustified attack by Iran.\" The fundamental disagreement over causation — whether the damage resulted from an Iranian drone strike or a misfired American interceptor — represented a direct factual contradiction between the two governments' official accounts.",
-        "supports": {
-          "claim_ids": [
+            "clm_012",
             "clm_013",
             "clm_014"
           ],
@@ -965,8 +951,52 @@
         "kind": "framing"
       },
       {
+        "paragraph_id": "p6",
+        "text": "Iran stated it targeted a US military vessel near Iranian territorial waters in the Gulf of Oman. US Central Command denied any such attack occurred.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_006",
+            "src_011"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
         "paragraph_id": "p7",
-        "text": "Iran's foreign ministry blamed both Kuwait and Bahrain for the broader pattern of attacks, asserting that these Gulf states had allowed the United States to use their territory and infrastructure for operations against Iran. This justification framed Iran's targeting of Kuwait as a response to Kuwaiti cooperation with American military activities in the region.",
+        "text": "US Central Command struck an unladen, Botswana-flagged oil tanker sailing toward Iran's Kharg Island, firing a Hellfire missile into its engine room to disable it. The US stated the tanker crew ignored repeated warnings over a 24-hour period before the strike.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_010",
+            "src_011"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "US Central Command conducted strikes on an Iranian military ground control station on Qeshm Island in the Strait of Hormuz, describing them as in response to attempted attacks by Iran across the Middle East. The US also reported shooting down three Iranian attack drones launched toward civilian mariners transiting regional waters.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_010",
+            "src_011"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Iran's foreign ministry blamed Kuwait and Bahrain for the attacks, saying they allowed the US to use their territory and infrastructure against Iran. Iran stated its justification for targeting Kuwait was that Kuwait allowed the US to use its territory and infrastructure for operations against Iran.",
         "supports": {
           "claim_ids": [
             "clm_022",
@@ -978,11 +1008,11 @@
             "src_011"
           ]
         },
-        "kind": "framing"
+        "kind": "one_sided"
       },
       {
-        "paragraph_id": "p8",
-        "text": "Left-leaning Middle East Eye reported competing claims about whether Kuwait had actually permitted US military use of its bases. According to this outlet, Iran maintained that Kuwait served as a launchpad for US missiles against Iran, while Kuwait asserted it had not allowed the US to use its bases for military action against Iranian targets. This dispute centered on the extent of Kuwaiti military cooperation with Washington.",
+        "paragraph_id": "p10",
+        "text": "Left-leaning outlets reported differing characterizations of whether Kuwait permitted US military operations from its territory. Middle East Eye reported that Iran claims Kuwait has been used as a launchpad for US missiles against Iran, while Kuwait maintains it has not allowed the US to use its bases for military action against Iran.",
         "supports": {
           "claim_ids": [
             "clm_023"
@@ -994,45 +1024,13 @@
         "kind": "one_sided"
       },
       {
-        "paragraph_id": "p9",
-        "text": "The airport strike occurred amid a broader pattern of military actions across the Gulf region. US Central Command reported conducting strikes on an Iranian military ground control station on Qeshm Island in the Strait of Hormuz, describing the operation as a response to attempted Iranian attacks across the Middle East. American forces also shot down three Iranian attack drones that US officials said were launched toward civilian mariners transiting regional waters.",
-        "supports": {
-          "claim_ids": [
-            "clm_020",
-            "clm_021"
-          ],
-          "source_ids": [
-            "src_010",
-            "src_011"
-          ]
-        },
-        "kind": "agreed"
-      },
-      {
-        "paragraph_id": "p10",
-        "text": "In a separate maritime incident, US Central Command struck an unladen, Botswana-flagged oil tanker designated M/T Lexie as it sailed toward Iran's Kharg Island. American forces fired a Hellfire missile into the vessel's engine room to disable it. The US stated that the tanker crew had ignored repeated warnings over a 24-hour period before the strike was authorized.",
-        "supports": {
-          "claim_ids": [
-            "clm_017",
-            "clm_018"
-          ],
-          "source_ids": [
-            "src_010",
-            "src_011"
-          ]
-        },
-        "kind": "agreed"
-      },
-      {
         "paragraph_id": "p11",
-        "text": "Iran and the United States also offered contradictory accounts of other alleged military actions. Iran's IRGC claimed it had targeted a US military vessel near Iranian territorial waters in the Gulf of Oman; US Central Command denied any such attack had occurred. Similarly, the IRGC said it had targeted multiple US bases in the Gulf, including the US Fifth Fleet headquarters in Bahrain, in retaliation for American strikes on the Iranian oil tanker and Qeshm Island. US Central Command denied that the Fifth Fleet headquarters had been attacked.",
+        "text": "The Islamic Revolutionary Guard Corps said it targeted US bases in the Gulf, including the US Fifth Fleet headquarters in Bahrain, in retaliation for US strikes on the Iranian oil tanker and Qeshm Island. US Central Command denied the attack on the Fifth Fleet headquarters.",
         "supports": {
           "claim_ids": [
-            "clm_016",
             "clm_019"
           ],
           "source_ids": [
-            "src_006",
             "src_010",
             "src_011"
           ]
@@ -1041,25 +1039,44 @@
       },
       {
         "paragraph_id": "p12",
-        "text": "Center-left outlet The Guardian characterized the Kuwait airport attack as the first deadly strike in the Gulf since the Pakistan-brokered ceasefire came into effect on April 8. This framing positioned the airport incident as a significant breach of the fragile truce that had held for nearly two months.",
+        "text": "US-Iran ceasefire negotiations stalled, with a deal failing to advance over the preceding weekend. Iran's Foreign Minister Abbas Araghchi stated that contacts with Washington had not been cut off and that texts had been exchanged, but said no progress had been made in negotiations.",
         "supports": {
           "claim_ids": [
-            "clm_015"
+            "clm_027",
+            "clm_028"
           ],
           "source_ids": [
-            "src_010"
+            "src_006",
+            "src_010",
+            "src_011"
           ]
         },
         "kind": "one_sided"
       },
       {
         "paragraph_id": "p13",
-        "text": "The BBC identified the person killed in the airport strike as an Indian citizen, providing the sole reported detail about the victim's nationality among outlets covering the attack.",
+        "text": "Iran indicated it would suspend peace talks with the US in protest against Israel's bombardment of Lebanon, citing its relationship with Hezbollah — an Iranian-backed militant group designated as a terrorist organization by the US and EU.",
         "supports": {
           "claim_ids": [
-            "clm_003"
+            "clm_029"
           ],
           "source_ids": [
+            "src_006",
+            "src_010"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "Center-left outlets reported that the person killed in the airport attack was an Indian citizen, and that the Kuwait airport attack was the first deadly attack in the Gulf since the ceasefire came into effect on April 8.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_010",
             "src_011"
           ]
         },

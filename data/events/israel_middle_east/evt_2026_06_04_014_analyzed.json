@@ -855,15 +855,14 @@
   "background": [],
   "report": {
     "schema_version": "0.2",
-    "generated_at": "2026-06-28T09:05:04.569123+00:00",
+    "generated_at": "2026-06-29T20:49:02.176585+00:00",
     "paragraphs": [
       {
         "paragraph_id": "p1",
-        "text": "New York City's annual Israel Day on Fifth parade took place on Fifth Avenue on May 31, 2026, drawing tens of thousands of participants. The event has a 61-year history and commemorates the establishment of the State of Israel in 1948.",
+        "text": "New York City's annual Israel Day on Fifth parade took place on Fifth Avenue on May 31, 2026, drawing tens of thousands of participants. The Times of Israel cited more than 50,000 attendees, while i24 News and Israel Hayom described it as a record turnout.",
         "supports": {
           "claim_ids": [
-            "clm_001",
-            "clm_002"
+            "clm_001"
           ],
           "source_ids": [
             "src_002",
@@ -873,20 +872,17 @@
             "src_013",
             "src_012",
             "src_017",
-            "src_006",
-            "src_011"
+            "src_006"
           ]
         },
         "kind": "agreed"
       },
       {
         "paragraph_id": "p2",
-        "text": "Israeli Finance Minister Bezalel Smotrich participated in the parade without having been announced in advance as an attendee. Smotrich marched as part of a large Israeli parliamentary delegation led by Knesset Speaker Amir Ohana. Other far-right Israeli government ministers who participated included Heritage Minister Amichay Eliyahu, Immigration Minister Ofir Sofer, and Yitzhak Wasserlauf.",
+        "text": "Israeli Finance Minister Bezalel Smotrich participated in the parade without having been announced in advance as an attendee. His unannounced appearance drew condemnation from multiple New York officials and became a flashpoint in a Congressional primary race.",
         "supports": {
           "claim_ids": [
-            "clm_004",
-            "clm_005",
-            "clm_008"
+            "clm_004"
           ],
           "source_ids": [
             "src_004",
@@ -920,35 +916,35 @@
       },
       {
         "paragraph_id": "p4",
-        "text": "New York City Mayor Zohran Mamdani did not attend the Israel Day on Fifth parade, becoming the first mayor in the event's 61-year history not to attend. Mamdani cited opposition to the Israeli government and support of Palestinian rights as his reasons for not attending the parade.",
+        "text": "The Israel Day on Fifth parade has a 61-year history and commemorates the establishment of the State of Israel in 1948.",
         "supports": {
           "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_011",
+            "src_008"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "New York Governor Kathy Hochul attended the parade, addressed the crowd at the start of the event, and marched at the head of the parade. Senate Minority Leader Chuck Schumer also attended. However, New York City Mayor Zohran Mamdani did not attend, becoming the first mayor in the event's 61-year history not to attend. Mamdani cited opposition to the Israeli government and support of Palestinian rights as his reasons for not attending the parade.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_021",
             "clm_015",
             "clm_016"
           ],
           "source_ids": [
-            "src_002",
-            "src_004",
-            "src_008",
-            "src_011",
-            "src_012",
-            "src_015",
-            "src_014",
-            "src_016"
-          ]
-        },
-        "kind": "agreed"
-      },
-      {
-        "paragraph_id": "p5",
-        "text": "Mamdani stated on Monday that he was 'offended' by the participation of Smotrich and several other Israeli lawmakers and ministers in the parade, calling Smotrich's presence in New York 'an affront to everything New York stands for.'",
-        "supports": {
-          "claim_ids": [
-            "clm_017"
-          ],
-          "source_ids": [
-            "src_004",
             "src_005",
+            "src_008",
+            "src_012",
+            "src_004",
+            "src_002",
+            "src_011",
             "src_014",
             "src_015",
             "src_016"
@@ -958,31 +954,18 @@
       },
       {
         "paragraph_id": "p6",
-        "text": "New York Governor Kathy Hochul attended the parade, addressed the crowd at the start of the event, and marched at the head of the parade. Senate Minority Leader Chuck Schumer also attended the Israel Day parade; a Schumer spokesperson stated that the senator's condemnation of Smotrich's extremism is 'longstanding, public and unchanged.'",
+        "text": "Mamdani stated on Monday that he was 'offended' by the participation of Smotrich and several other Israeli lawmakers and ministers in the parade, calling Smotrich's presence in New York 'an affront to everything New York stands for.' Governor Hochul and Attorney General Letitia James both subsequently issued statements strongly condemning Smotrich's participation in the parade.",
         "supports": {
           "claim_ids": [
-            "clm_019",
-            "clm_021"
-          ],
-          "source_ids": [
-            "src_005",
-            "src_008",
-            "src_012",
-            "src_004"
-          ]
-        },
-        "kind": "agreed"
-      },
-      {
-        "paragraph_id": "p7",
-        "text": "Governor Hochul and Attorney General Letitia James both subsequently issued statements strongly condemning Smotrich's participation in the parade.",
-        "supports": {
-          "claim_ids": [
+            "clm_017",
             "clm_020"
           ],
           "source_ids": [
             "src_004",
             "src_005",
+            "src_014",
+            "src_015",
+            "src_016",
             "src_011",
             "src_012"
           ]
@@ -990,11 +973,107 @@
         "kind": "agreed"
       },
       {
-        "paragraph_id": "p8",
-        "text": "The Israel Day parade became a flashpoint in the New York 10th Congressional District Democratic primary race between incumbent Representative Dan Goldman and former city comptroller Brad Lander, with the two candidates taking different positions on attending the parade.",
+        "paragraph_id": "p7",
+        "text": "Smotrich marched as part of a large Israeli parliamentary delegation led by Knesset Speaker Amir Ohana. Other far-right Israeli government ministers who participated in the parade included Heritage Minister Amichay Eliyahu, Immigration Minister Ofir Sofer, and Yitzhak Wasserlauf. Sources across the political spectrum reported that no New York elected officials marched with Smotrich or Eliyahu during the parade, and New York elected officials were reportedly unaware of their presence during the event.",
         "supports": {
           "claim_ids": [
-            "clm_025"
+            "clm_005",
+            "clm_008",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_010",
+            "src_004",
+            "src_012"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Characterizations of Smotrich's attendance varied across outlets. Former US Ambassador to Israel Dan Shapiro (who served 2011–2017) stated that Smotrich was not invited to the Israel Day Parade and that he 'crashed' the event, as reported by left-leaning outlets The Guardian and Middle East Eye. Center-right outlet the Jerusalem Post reported that David Greenfield stated Smotrich was not invited to the parade, marched in the back of the parade, and that no New York public official joined him.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_010",
+            "src_012"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Center-right outlet the Times of Israel reported that Smotrich did not appear in the Knesset's official statement or video about the delegation's participation in the parade, and the consulate's advance list of expected participants did not include Smotrich or Eliyahu. The Jerusalem Post reported that the Israeli government announced its largest-ever delegation for the parade this year, with some ministers announced in advance, including Diaspora Affairs Minister Amichai Chikli and Immigration Minister Ofir Sofer. The same outlet reported that Smotrich flew from Israel to New York early Sunday morning to join the parade.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_009",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_012"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Center outlet Euronews described the parade as featuring floats, performers, community groups, music, banners, and participants waving Israeli and American flags, with families traveling from across the region to attend.",
+        "supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_008"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Center-left outlet The Guardian reported that despite not attending, Mamdani committed extensive security to the parade, with his police commissioner Jessica Tisch marching in the event. A Schumer spokesperson stated that the senator's condemnation of Smotrich's extremism is 'longstanding, public and unchanged.'",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_008"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Center-right outlet the Times of Israel reported that the New York Jewish Agenda and Jews for Economic and Racial Justice condemned Smotrich's participation in the parade. The Jerusalem Post reported that Israelis for Peace organized a small demonstration along the parade route to oppose the Israeli government delegation's presence. Right-leaning outlet Arutz Sheva reported that Israeli Ambassador Danny Danon attended the parade and characterized it as a 'crushing response to our haters.'",
+        "supports": {
+          "claim_ids": [
+            "clm_022",
+            "clm_023",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_012",
+            "src_009"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Israel Day parade became a flashpoint in the New York 10th Congressional District Democratic primary race between incumbent Representative Dan Goldman and former city comptroller Brad Lander, with the two candidates taking different positions on attending the parade. The Times of Israel reported that Lander and Goldman are both Jewish, identify as Zionist, and are critical of the Israeli government; both represent or are seeking to represent New York's 10th Congressional District, which covers lower Manhattan and part of Brooklyn.",
+        "supports": {
+          "claim_ids": [
+            "clm_025",
+            "clm_028"
           ],
           "source_ids": [
             "src_004",
@@ -1004,64 +1083,7 @@
         "kind": "agreed"
       },
       {
-        "paragraph_id": "p9",
-        "text": "Despite not attending, Mamdani committed extensive security to the parade, with his police commissioner Jessica Tisch marching in the event.",
-        "supports": {
-          "claim_ids": [
-            "clm_018"
-          ],
-          "source_ids": [
-            "src_004"
-          ]
-        },
-        "kind": "one_sided"
-      },
-      {
-        "paragraph_id": "p10",
-        "text": "The center-left Guardian reported that former US Ambassador to Israel Dan Shapiro (who served 2011–2017) stated that Smotrich was not invited to the Israel Day Parade and that he 'crashed' the event. Center-right outlets Times of Israel and Jerusalem Post both reported that New York elected officials were reportedly unaware of Smotrich and Eliyahu's presence during the event, and that no New York elected officials marched with them during the parade.",
-        "supports": {
-          "claim_ids": [
-            "clm_014",
-            "clm_013"
-          ],
-          "source_ids": [
-            "src_004",
-            "src_010",
-            "src_005",
-            "src_012"
-          ]
-        },
-        "kind": "framing"
-      },
-      {
-        "paragraph_id": "p11",
-        "text": "The center-right Times of Israel reported that Smotrich did not appear in the Knesset's official statement or video about the delegation's participation in the parade, and the consulate's advance list of expected participants did not include Smotrich or Eliyahu.",
-        "supports": {
-          "claim_ids": [
-            "clm_007"
-          ],
-          "source_ids": [
-            "src_005"
-          ]
-        },
-        "kind": "one_sided"
-      },
-      {
-        "paragraph_id": "p12",
-        "text": "The center-right Jerusalem Post reported that the Israeli government announced its largest-ever delegation for the parade this year, with some ministers announced in advance, including Diaspora Affairs Minister Amichai Chikli and Immigration Minister Ofir Sofer. The same outlet reported that Smotrich flew from Israel to New York early Sunday morning to join the parade.",
-        "supports": {
-          "claim_ids": [
-            "clm_009",
-            "clm_006"
-          ],
-          "source_ids": [
-            "src_012"
-          ]
-        },
-        "kind": "one_sided"
-      },
-      {
-        "paragraph_id": "p13",
+        "paragraph_id": "p14",
         "text": "Goldman marched in the parade and said during a Monday primary debate that he was 'proud' to have done so, characterizing the parade as celebrating the nation and state of Israel distinct from its government. He said he was unaware Smotrich would attend and had previously called for Smotrich's removal and sanctions against him.",
         "supports": {
           "claim_ids": [
@@ -1072,45 +1094,17 @@
             "src_005"
           ]
         },
-        "kind": "framing"
+        "kind": "agreed"
       },
       {
-        "paragraph_id": "p14",
-        "text": "The center-left Guardian reported that Lander did not march in the parade and stated during the Monday debate that he and Goldman have 'profound differences,' that Israel is committing genocide in Gaza and violating international law, that the US should not send additional military aid to Israel, and that he will not march alongside Netanyahu government ministers.",
+        "paragraph_id": "p15",
+        "text": "Center-left outlet The Guardian reported that Lander did not march in the parade and stated during the Monday debate that he and Goldman have 'profound differences,' that Israel is committing genocide in Gaza and violating international law, that the US should not send additional military aid to Israel, and that he will not march alongside Netanyahu government ministers.",
         "supports": {
           "claim_ids": [
             "clm_027"
           ],
           "source_ids": [
             "src_004"
-          ]
-        },
-        "kind": "one_sided"
-      },
-      {
-        "paragraph_id": "p15",
-        "text": "The center-right Times of Israel reported that the New York Jewish Agenda and Jews for Economic and Racial Justice condemned Smotrich's participation in the parade, while the center-right Jerusalem Post reported that Israelis for Peace organized a small demonstration along the parade route to oppose the Israeli government delegation's presence.",
-        "supports": {
-          "claim_ids": [
-            "clm_022",
-            "clm_023"
-          ],
-          "source_ids": [
-            "src_005",
-            "src_012"
-          ]
-        },
-        "kind": "one_sided"
-      },
-      {
-        "paragraph_id": "p16",
-        "text": "The right-leaning Arutz Sheva reported that Israeli Ambassador Danny Danon attended the parade and characterized it as a 'crushing response to our haters.'",
-        "supports": {
-          "claim_ids": [
-            "clm_024"
-          ],
-          "source_ids": [
-            "src_009"
           ]
         },
         "kind": "one_sided"
