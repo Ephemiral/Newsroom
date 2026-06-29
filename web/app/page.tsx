@@ -1,177 +1,112 @@
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
-import { getEvent } from '@/lib/data';
-import OutletCard from '@/components/OutletCard';
-import ClaimSection from '@/components/ClaimSection';
-import BiasLegend from '@/components/BiasLegend';
-import ReportView from '@/components/ReportView';
-import CritiqalLogo from '@/components/CritiqalLogo';
+import { getEventIds, getEvent } from '@/lib/data';
+import CritiqalLogoAnimated from '@/components/CritiqalLogoAnimated';
 
-// Render on demand — new event JSON files are picked up without restarting the server
+// Render on demand so new events appear without restarting the dev server
 export const dynamic = 'force-dynamic';
 
-interface Props {
-  params: Promise<{ id: string }>;
-}
-
-export default async function EventPage({ params }: Props) {
-  const { id } = await params;
-  const event = getEvent(id);
-  if (!event) notFound();
-
-  const sourceMap = Object.fromEntries(event.sources.map((s) => [s.source_id, s]));
-  const claimsMap = Object.fromEntries(event.claims.map((c) => [c.claim_id, c]));
-  const agreed       = event.claims.filter((c) => c.classification === 'agreed');
-  const corroborated = event.claims.filter((c) => c.classification === 'corroborated');
-  const contested    = event.claims.filter((c) => c.classification === 'contested');
-  const singleSource = event.claims.filter((c) => c.classification === 'single_source');
+export default function Home() {
+  const ids = getEventIds();
+  const events = ids.map((id) => ({ id, event: getEvent(id)! }));
 
   return (
-    <div style={{ background: '#f7f4ee', minHeight: '100vh' }}>
+    <main style={{ background: '#f7f4ee', minHeight: '100vh' }}>
 
-      {/* ── Sticky top nav ──────────────────────────────────────────────── */}
-      <div style={{
-        position: 'sticky', top: 0, zIndex: 30,
-        background: 'rgba(247,244,238,.92)',
-        backdropFilter: 'blur(8px)',
-        borderBottom: '1px solid #e1d8c8',
-      }}>
-        <div style={{
-          maxWidth: 720, margin: '0 auto', padding: '0 28px',
-          height: 52, display: 'flex', alignItems: 'center',
-          justifyContent: 'space-between',
-        }}>
-          <Link
-            href="/"
-            style={{
-              display: 'inline-flex', alignItems: 'center', gap: 7,
-              font: '500 13px/1 var(--font-archivo), system-ui',
-              color: '#6a6052', textDecoration: 'none',
-            }}
-          >
-            <span style={{ fontSize: 15 }}>←</span>
-            <CritiqalLogo width={58} />
-          </Link>
+      {/* ── Masthead ─────────────────────────────────────────────────────── */}
+      <header style={{ borderBottom: '1px solid #d9cfbd', background: '#f7f4ee' }}>
+        <div style={{ maxWidth: 760, margin: '0 auto', padding: '30px 28px 22px', textAlign: 'center' }}>
           <div style={{
             font: '600 10px/1 var(--font-archivo), system-ui',
-            letterSpacing: '.16em', textTransform: 'uppercase', color: '#b08a4a',
+            letterSpacing: '.34em', textTransform: 'uppercase', color: '#b08a4a',
           }}>
-            {event.event.beat.replace(/_/g, ' ')}
+            Neutral synthesis · Multi-source
           </div>
-        </div>
-      </div>
-
-      {/* ── Article body ────────────────────────────────────────────────── */}
-      <main style={{ maxWidth: 720, margin: '0 auto', padding: '44px 28px 90px' }}>
-
-        {/* Header */}
-        <header style={{ marginBottom: 32 }}>
-          <h1 style={{
-            fontFamily: 'var(--font-spectral), serif',
-            fontWeight: 600, fontSize: 38, lineHeight: 1.12,
-            letterSpacing: '-.022em', color: '#141109',
-            margin: 0, textWrap: 'balance',
-          } as React.CSSProperties}>
-            {event.event.title}
-          </h1>
+          <div style={{
+            margin: '14px 0 12px',
+            borderTop: '1px solid #d9cfbd', borderBottom: '1px solid #d9cfbd',
+            padding: '16px 0', display: 'flex', justifyContent: 'center',
+          }}>
+            <CritiqalLogoAnimated />
+          </div>
           <p style={{
             fontFamily: 'var(--font-spectral), serif',
-            fontStyle: 'italic', fontSize: 19, lineHeight: 1.5,
-            color: '#5b5249', margin: '18px 0 0',
+            fontStyle: 'italic', fontSize: 15, lineHeight: 1.5, color: '#7a6e5c',
+            margin: 0,
           }}>
-            {event.event.summary}
+            What outlets agree on, what they contest, and who is behind each story.
           </p>
-          <div style={{
-            font: '500 11px/1 var(--font-archivo), system-ui',
-            letterSpacing: '.1em', textTransform: 'uppercase',
-            color: '#a3957f', marginTop: 16,
-          }}>
-            {new Date(event.event.date).toLocaleDateString('en-GB', {
-              day: 'numeric', month: 'long', year: 'numeric',
+        </div>
+      </header>
+
+      {/* ── Feed ─────────────────────────────────────────────────────────── */}
+      <div style={{ maxWidth: 760, margin: '0 auto', padding: '8px 28px 80px' }}>
+        {events.length === 0 ? (
+          <p style={{ color: '#a3957f', paddingTop: 32 }}>No analyzed events yet.</p>
+        ) : (
+          <div>
+            {events.map(({ id, event }) => {
+              const agreedCount = event.claims.filter(c => c.classification === 'agreed').length;
+              const contestedCount = event.claims.filter(c => c.classification === 'contested').length;
+              return (
+                <Link
+                  key={id}
+                  href={`/event/${id}`}
+                  style={{ display: 'block', padding: '30px 0', borderBottom: '1px solid #e7e0d4', textDecoration: 'none' }}
+                >
+                  <div style={{
+                    font: '600 11px/1 var(--font-archivo), system-ui',
+                    letterSpacing: '.16em', textTransform: 'uppercase',
+                    color: '#b08a4a', marginBottom: 14,
+                  }}>
+                    {event.event.beat.replace(/_/g, ' ')}
+                  </div>
+                  <h2 style={{
+                    fontFamily: 'var(--font-spectral), serif',
+                    fontWeight: 600, fontSize: 28, lineHeight: 1.2,
+                    letterSpacing: '-.018em', color: '#141109', margin: 0,
+                  }}>
+                    {event.event.title}
+                  </h2>
+                  <p style={{
+                    fontFamily: 'var(--font-spectral), serif',
+                    fontSize: 17, lineHeight: 1.6, color: '#5b5249',
+                    margin: '12px 0 0',
+                  }}>
+                    {event.event.summary}
+                  </p>
+                  <div style={{
+                    display: 'flex', alignItems: 'center', gap: 12, marginTop: 16,
+                    font: '500 12px/1 var(--font-archivo), system-ui', color: '#8a7d6c',
+                  }}>
+                    <span>
+                      {new Date(event.event.date).toLocaleDateString('en-GB', {
+                        day: 'numeric', month: 'long', year: 'numeric',
+                      })}
+                    </span>
+                    <Dot />
+                    <span>{event.sources.length} outlets</span>
+                    <Dot />
+                    <span style={{ color: '#2f7a4a', fontWeight: 600 }}>{agreedCount} agreed</span>
+                    {contestedCount > 0 && (
+                      <>
+                        <Dot />
+                        <span style={{ color: '#c2682f', fontWeight: 600 }}>{contestedCount} contested</span>
+                      </>
+                    )}
+                  </div>
+                </Link>
+              );
             })}
-            {' · '}
-            {event.sources.length} sources · {event.claims.length} claims
           </div>
-        </header>
-
-        {/* Report */}
-        {event.report && (
-          <ReportView
-            report={event.report}
-            claimsMap={claimsMap}
-            sourceMap={sourceMap}
-          />
         )}
+      </div>
 
-        {/* Claims */}
-        <section style={{ marginBottom: 48 }}>
-          <h2 style={{
-            fontFamily: 'var(--font-spectral), serif',
-            fontWeight: 600, fontSize: 22, color: '#141109', marginBottom: 16,
-          }}>
-            What the coverage shows
-          </h2>
-          <ClaimSection label="Agreed across the spectrum" description="Reported consistently by outlets spanning different sides of the political spectrum." claims={agreed} sourceMap={sourceMap} accent="green" />
-          <ClaimSection label="Corroborated" description="Reported by multiple outlets, but all from the same part of the spectrum." claims={corroborated} sourceMap={sourceMap} accent="teal" />
-          <ClaimSection label="Contested" description="Sources conflict or frame this fact in genuinely incompatible ways." claims={contested} sourceMap={sourceMap} accent="amber" />
-          <ClaimSection label="Single source" description="Only one outlet in this cluster reported this." claims={singleSource} sourceMap={sourceMap} accent="gray" />
-          <BiasLegend sources={event.sources} />
-        </section>
+    </main>
+  );
+}
 
-        {/* Background */}
-        {event.background.length > 0 && (
-          <section style={{ marginBottom: 48 }}>
-            <h2 style={{
-              fontFamily: 'var(--font-spectral), serif',
-              fontWeight: 600, fontSize: 22, color: '#141109', marginBottom: 16,
-            }}>
-              Background
-            </h2>
-            <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: 12 }}>
-              {event.background.map((b, i) => (
-                <li key={i} style={{ display: 'flex', gap: 12 }}>
-                  <span style={{ marginTop: 7, width: 6, height: 6, borderRadius: '50%', background: '#c8bfae', flexShrink: 0, display: 'inline-block' }} />
-                  <span style={{ fontFamily: 'var(--font-spectral), serif', fontSize: 16, lineHeight: 1.6, color: '#5b5249' }}>{b.point}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-
-        {/* Outlets */}
-        <section>
-          {(() => {
-            const grouped = event.sources.reduce<Record<string, typeof event.sources>>((acc, src) => {
-              (acc[src.outlet] ??= []).push(src);
-              return acc;
-            }, {});
-            const outlets = Object.entries(grouped);
-            return (
-              <>
-                <h2 style={{
-                  fontFamily: 'var(--font-spectral), serif',
-                  fontWeight: 600, fontSize: 22, color: '#141109', marginBottom: 20,
-                }}>
-                  The {outlets.length} outlet{outlets.length !== 1 ? 's' : ''} behind this story
-                </h2>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 14 }}>
-                  {outlets.map(([outlet, sources]) => (
-                    <OutletCard key={outlet} outlet={outlet} sources={sources} />
-                  ))}
-                </div>
-                <p style={{
-                  fontFamily: 'var(--font-spectral), serif',
-                  fontStyle: 'italic', fontSize: 13, lineHeight: 1.5,
-                  color: '#9a8d7c', marginTop: 18,
-                }}>
-                  Bias ratings sourced from AllSides and Media Bias/Fact Check. Ownership shown where disclosed.
-                </p>
-              </>
-            );
-          })()}
-        </section>
-
-      </main>
-    </div>
+function Dot() {
+  return (
+    <span style={{ width: 3, height: 3, borderRadius: '50%', background: '#cdc3b2', display: 'inline-block', flexShrink: 0 }} />
   );
 }
