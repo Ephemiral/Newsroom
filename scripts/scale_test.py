@@ -87,7 +87,7 @@ def run_discover(beat: str, max_per_source: int | None) -> None:
 
     print(f"Total new articles: {saved}")
 
-    articles = store.load_all()
+    articles = store.load_all(max_age_days=3)
     if not articles:
         print("ERROR: No articles found after ingest.", file=sys.stderr)
         sys.exit(1)
@@ -109,21 +109,36 @@ def run_discover(beat: str, max_per_source: int | None) -> None:
         with open(path, "w", encoding="utf-8") as f:
             json.dump(cluster, f, indent=2, ensure_ascii=False)
 
+    MIN_DISTINCT_OUTLETS = 3
+
     print(f"\nDiscovered {len(clusters)} event cluster(s):\n")
     article_map = {a.article_id: a for a in articles}
+
+    shown = 0
+    hidden = 0
     for c in sorted(clusters, key=lambda x: -x["size"]):
-        outlets = []
+        outlet_entries = []
+        distinct_outlets: set[str] = set()
         for aid in c["article_ids"]:
             art = article_map.get(aid)
             if art:
-                outlets.append(f"{art.outlet} ({art.bias_rating})")
+                outlet_entries.append(f"{art.outlet} ({art.bias_rating})")
+                distinct_outlets.add(art.outlet)
+
+        if len(distinct_outlets) < MIN_DISTINCT_OUTLETS:
+            hidden += 1
+            continue
+
         print(f"  {c['cluster_id']}  [{c['size']} articles]")
-        for o in outlets:
+        for o in outlet_entries:
             print(f"    • {o}")
         print()
+        shown += 1
 
+    print(f"(Showing {shown} clusters with ≥{MIN_DISTINCT_OUTLETS} distinct outlets. "
+          f"{hidden} single/dual-outlet clusters hidden.)")
     print("──────────────────────────────────────────────────────────────────")
-    print("Next step: pick 2–3 clusters with ≥4 articles spanning left–center–right.")
+    print("Next step: pick 2–3 clusters spanning left–center–right.")
     print("Then run:")
     print(f"  python3 scripts/scale_test.py --run-events <id1,id2,...> --beat {beat}")
 

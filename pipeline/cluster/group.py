@@ -1,11 +1,20 @@
 """
 Event-clustering logic.
 
-Strategy (MVP): threshold-based agglomerative grouping with optional time window.
+Strategy: threshold-based average-linkage grouping with optional time window.
 - Compute pairwise cosine similarity (= dot product on L2-normalised vectors).
-- Build a graph: connect any two articles whose similarity exceeds THRESHOLD
-  AND whose publication dates are within TIME_WINDOW_HOURS of each other.
-- Extract connected components — each component is an event cluster.
+- Build an edge mask: two articles are eligible to share a cluster only if their
+  similarity exceeds THRESHOLD AND their publication dates are within
+  TIME_WINDOW_HOURS of each other.
+- Greedily assign each article to the existing cluster it has the highest mean
+  similarity to (only among clusters it has at least one eligible edge into),
+  provided that mean similarity also clears THRESHOLD; otherwise it starts a
+  new cluster. Average-linkage (rather than connected-components/single-linkage)
+  avoids transitive chaining, where two genuinely unrelated articles end up in
+  the same cluster purely because each is similar to some article in between
+  (see B-12 in the master doc backlog).
+- Clusters with low mean pairwise similarity are logged as a cohesion warning
+  post-hoc — a heuristic flag for grab-bag clusters, not a hard filter.
 
 Threshold guidance:
   0.50 — original MVP value, tuned for golden dataset where "unrelated" articles
@@ -65,6 +74,61 @@ def _connected_components(adj: np.ndarray) -> list[list[int]]:
     return list(groups.values())
 
 
+def _average_linkage_cluster(
+    sim: np.ndarray,
+    adj: np.ndarray,
+    threshold: float,
+) -> list[list[int]]:
+    """
+    Average-linkage clustering over a precomputed similarity matrix.
+    An article joins an existing cluster only if its average cosine similarity
+    to ALL current cluster members meets `threshold`. Prevents the transitive
+    chaining that plain connected-components grouping is prone to (B-12).
+    """
+    n = sim.shape[0]
+    clusters: list[list[int]] = []
+
+    for i in range(n):
+        best_cluster = None
+        best_avg = -1.0
+
+        for ci, members in enumerate(clusters):
+            if not any(adj[i, m] for m in members):
+                continue
+            avg_sim = float(np.mean(sim[i, members]))
+            if avg_sim >= threshold and avg_sim > best_avg:
+                best_avg = avg_sim
+                best_cluster = ci
+
+        if best_cluster is not None:
+            clusters[best_cluster].append(i)
+        else:
+            clusters.append([i])
+
+    return clusters
+
+
+COHESION_FLOOR = 0.65
+
+
+def _check_cohesion(clusters: list[dict], sim: np.ndarray, article_ids: list[str]) -> None:
+    """Warn about clusters with low mean pairwise similarity (potential grab-bags)."""
+    id_to_idx = {aid: i for i, aid in enumerate(article_ids)}
+    for c in clusters:
+        idxs = [id_to_idx[aid] for aid in c["article_ids"] if aid in id_to_idx]
+        if len(idxs) < 2:
+            continue
+        sims = [sim[i, j] for idx_i, i in enumerate(idxs) for j in idxs[idx_i + 1:]]
+        if not sims:
+            continue
+        mean_sim = float(np.mean(sims))
+        if mean_sim < COHESION_FLOOR:
+            log.warning(
+                "Low-cohesion cluster %s: %d articles, mean_sim=%.3f — possible grab-bag",
+                c["cluster_id"], c["size"], mean_sim,
+            )
+
+
 def _parse_pub_date(date_str: str) -> Optional[datetime]:
     """Parse ISO 8601 date string to datetime. Returns None on failure."""
     if not date_str:
@@ -87,7 +151,7 @@ def auto_cluster(
     pub_dates: Optional[list[str]] = None,
 ) -> list[dict]:
     """
-    Group articles into event clusters using threshold-based connected components.
+    Group articles into event clusters using threshold-based average-linkage grouping.
 
     Args:
         embeddings: L2-normalised article embedding matrix (n × d).
@@ -124,7 +188,7 @@ def auto_cluster(
         if skipped:
             log.info("Time-window filter: removed %d cross-time edges (>%dh apart)", skipped, time_window_hours)
 
-    components = _connected_components(adj)
+    components = _average_linkage_cluster(sim, adj, threshold)
     now = datetime.now(timezone.utc).isoformat()
     clusters = []
 
@@ -152,6 +216,8 @@ def auto_cluster(
         "Auto-clustering: %d articles → %d clusters (threshold=%.2f%s)",
         n, len(clusters), threshold, tw,
     )
+
+    _check_cohesion(clusters, sim, article_ids)
     return clusters
 
 

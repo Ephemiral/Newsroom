@@ -14,6 +14,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Optional
 from urllib.parse import urlparse, urlunparse
@@ -26,6 +27,19 @@ log = logging.getLogger(__name__)
 def _normalise_url(url: str) -> str:
     p = urlparse(url.strip())
     return urlunparse((p.scheme.lower(), p.netloc.lower(), p.path, "", "", ""))
+
+
+def _parse_pub_date(date_str: str) -> Optional[datetime]:
+    """Parse ISO 8601 date string to datetime. Returns None on failure."""
+    if not date_str:
+        return None
+    try:
+        dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt
+    except Exception:
+        return None
 
 
 class ArticleStore:
@@ -84,12 +98,28 @@ class ArticleStore:
         log.info("Saved: [%s] %s", article.outlet, article.title[:80])
         return True
 
-    def load_all(self) -> list[Article]:
-        """Return all stored articles for this beat."""
+    def load_all(self, max_age_days: int | None = None) -> list[Article]:
+        """
+        Return stored articles for this beat.
+
+        Args:
+            max_age_days: if set, skip articles whose published_at is older than
+                this many days. Files stay on disk and remain in the dedup index;
+                only the returned (clustering) pool is filtered.
+        """
+        cutoff = None
+        if max_age_days is not None:
+            cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
+
         articles = []
         for path in sorted(self.beat_dir.glob("art_*.json")):
             try:
-                articles.append(Article.from_json_file(str(path)))
+                article = Article.from_json_file(str(path))
+                if cutoff is not None:
+                    pub = _parse_pub_date(getattr(article, "published_at", "") or "")
+                    if pub is None or pub < cutoff:
+                        continue
+                articles.append(article)
             except Exception as e:
                 log.warning("Could not load %s: %s", path, e)
         return articles
