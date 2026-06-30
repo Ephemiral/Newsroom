@@ -95,7 +95,9 @@ export default async function EventPage({ params }: Props) {
         </header>
 
         {/* Spectrum — who covered this */}
-        <BiasLegend sources={event.sources} />
+        <div style={{ marginBottom: 48 }}>
+          <BiasLegend sources={event.sources} />
+        </div>
 
         {/* Report */}
         {event.report && (
