@@ -1,6 +1,6 @@
 # HANDOVER — Session 13
 ## News Synthesis & Credibility Engine
-**Handover date:** 29 June 2026
+**Handover date:** 30 June 2026
 **Prepared by:** Claude Code, Session 13
 **For:** Next session (Claude Code or Cowork)
 **Owner:** G (GitHub: Ephemiral)
@@ -184,3 +184,154 @@ Check for a stale `.git/index.lock` first (`rm` it if no git process is actually
 7. **Vercel auto-deploys on push.** Always commit + push after running new events.
 8. **Commit discipline.** Don't let uncommitted work pile up across sessions — this session had to recover 972 files from a month-old uncommitted state. Commit at natural checkpoints within a session, not just at the very end.
 9. **Outlet diversity rule of thumb (no hard numeric minimum codified):** the real enforced gate is *ideological spread*, not article count. B-01 requires `supported_by` to span ≥2 bias tiers on opposite sides of center for a claim to count as `agreed`; same-outlet duplicates don't count as independent corroboration (B-07). Golden dataset baseline is 8–12 articles/event; scale-test convention favors 10–25 articles/event, skipping single-source and >50-article (likely mega-) clusters.
+
+---
+
+## ADDENDUM — Cowork Session 12 (30 June 2026)
+
+*This addendum supersedes §4 (What to do next). The two implementation tasks below were designed and spec'd in a Cowork planning session after the Claude Code session above ran. Implement these before running more event batches.*
+
+---
+
+### Priority 1 — B-15: Rolling window on `ArticleStore.load_all()`
+
+**File: `pipeline/ingest/store.py`**
+
+Add `max_age_days: int | None = None` to `load_all()`. When set, skip articles whose `published_at` is older than `max_age_days` days from now. Files stay on disk — dedup is unaffected; only the clustering pool is filtered.
+
+```python
+def load_all(self, max_age_days: int | None = None) -> list[Article]:
+    """Return stored articles for this beat, optionally filtered by age."""
+    cutoff = None
+    if max_age_days is not None:
+        cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
+
+    articles = []
+    for path in sorted(self.beat_dir.glob("art_*.json")):
+        try:
+            article = Article.from_json_file(str(path))
+            if cutoff is not None:
+                pub = _parse_pub_date(getattr(article, "published_at", "") or "")
+                if pub is None or pub < cutoff:
+                    continue
+            articles.append(article)
+        except Exception as e:
+            log.warning("Could not load %s: %s", path, e)
+    return articles
+```
+
+Add `from datetime import datetime, timezone, timedelta` if not already present. A `_parse_pub_date()` helper exists in `pipeline/cluster/group.py` — import or duplicate the two-line ISO parse locally.
+
+**File: `scripts/scale_test.py`**
+
+In `run_discover()`, update the `store.load_all()` call:
+```python
+articles = store.load_all(max_age_days=3)
+```
+
+**Do not touch** `_seen_urls` or `_load_seen_urls()` — dedup must still index all articles on disk.
+
+**Verify:** after the change, the article count printed to stdout should be significantly lower than the total file count in `data/ingested/israel_middle_east/`.
+
+---
+
+### Priority 2 — B-12: Replace connected-components with average-linkage clustering
+
+**File: `pipeline/cluster/group.py`**
+
+**Part A — Replace `_connected_components()` with average-linkage.**
+
+The n×n similarity matrix (`sim = embeddings @ embeddings.T`) is already computed in `auto_cluster()` — no extra dot-product cost. Replace the union-find grouping with:
+
+```python
+def _average_linkage_cluster(
+    sim: np.ndarray,
+    adj: np.ndarray,      # boolean: pairs that passed threshold + time-window
+    threshold: float,
+) -> list[list[int]]:
+    """
+    Average-linkage clustering over a precomputed similarity matrix.
+    An article joins an existing cluster only if its average cosine similarity
+    to ALL current cluster members meets `threshold`. Prevents transitive chaining.
+    """
+    n = sim.shape[0]
+    clusters: list[list[int]] = []
+
+    for i in range(n):
+        best_cluster = None
+        best_avg = -1.0
+
+        for ci, members in enumerate(clusters):
+            # Shortcut: skip if no direct edge at all
+            if not any(adj[i, m] for m in members):
+                continue
+            avg_sim = float(np.mean(sim[i, members]))
+            if avg_sim >= threshold and avg_sim > best_avg:
+                best_avg = avg_sim
+                best_cluster = ci
+
+        if best_cluster is not None:
+            clusters[best_cluster].append(i)
+        else:
+            clusters.append([i])
+
+    return clusters
+```
+
+In `auto_cluster()`, replace:
+```python
+components = _connected_components(adj)
+```
+with:
+```python
+components = _average_linkage_cluster(sim, adj, threshold)
+```
+
+Pass `sim` into scope — it's already computed just above as `sim = embeddings @ embeddings.T`.
+
+**Part B — Add cohesion check post-processing.**
+
+After clusters are built, add a validation pass. Log warnings only — do not discard clusters automatically.
+
+```python
+COHESION_FLOOR = 0.65
+
+def _check_cohesion(clusters: list[dict], sim: np.ndarray, article_ids: list[str]) -> None:
+    """Warn about clusters with low mean pairwise similarity (potential grab-bags)."""
+    id_to_idx = {aid: i for i, aid in enumerate(article_ids)}
+    for c in clusters:
+        idxs = [id_to_idx[aid] for aid in c["article_ids"] if aid in id_to_idx]
+        if len(idxs) < 2:
+            continue
+        sims = [sim[i, j] for idx_i, i in enumerate(idxs) for j in idxs[idx_i+1:]]
+        if not sims:
+            continue
+        mean_sim = float(np.mean(sims))
+        if mean_sim < COHESION_FLOOR:
+            log.warning(
+                "Low-cohesion cluster %s: %d articles, mean_sim=%.3f — possible grab-bag",
+                c["cluster_id"], c["size"], mean_sim,
+            )
+```
+
+Call `_check_cohesion(clusters, sim, article_ids)` at the end of `auto_cluster()` before returning.
+
+**Do not change** threshold (0.70), time window (48h), or any other pipeline stage.
+
+**Verify:** run `--discover` after both changes. The 217-article mega-cluster should break into smaller coherent clusters. Run `--run-events` on one known good event to confirm downstream stages are unaffected.
+
+---
+
+### After both tasks
+
+```bash
+# Test discover output
+python3 scripts/scale_test.py --discover --beat israel_middle_east
+
+# If output looks good, commit
+git add pipeline/ingest/store.py pipeline/cluster/group.py scripts/scale_test.py
+git commit -m "B-15: rolling window on load_all (max_age_days=3); B-12: average-linkage clustering + cohesion check"
+git push
+```
+
+Update TRACKSHEET.xlsx (Milestones: M9 status; Change Log row) before ending the session.

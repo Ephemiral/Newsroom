@@ -419,22 +419,155 @@ A `contested` claim with no `contested_by` is a contradiction in terms — it me
 
 ### B-12 — Cluster step chains unrelated articles into mega-clusters
 
-**Problem:** `auto_cluster()` (`pipeline/cluster/group.py`) uses connected-components grouping over a pairwise cosine-similarity threshold (0.70). This is transitive: if article A is similar enough to B, and B to C, then A/B/C land in one cluster even when A and C are unrelated. Observed on 2026-06-28 (session 13): a fresh discover run produced a 24-article cluster (`evt_2026_06_28_169`) that chained together a UN Gaza genocide-inquiry story, a World Cup human-interest piece, and a journalist's-death story — three distinct events sharing Gaza-related vocabulary, not one. This pollutes the candidate pool: real diverse multi-outlet stories exist but get buried inside oversized grab-bag clusters, while genuinely well-clustered candidates with good outlet/lean diversity are rare in any given discover run.
+**Problem:** `auto_cluster()` (`pipeline/cluster/group.py`) uses connected-components grouping over a pairwise cosine-similarity threshold (0.70). This is transitive: if article A is similar enough to B, and B to C, then A/B/C land in one cluster even when A and C are unrelated. Observed on 2026-06-28: a fresh discover run produced a 217-article cluster chaining together dozens of distinct Gaza-related stories purely because they shared beat vocabulary. This pollutes the candidate pool and makes manual candidate selection much harder.
 
-**Root cause:** Single-linkage/connected-components clustering has no mechanism to cap transitive chaining or enforce intra-cluster cohesion (e.g. average/minimum pairwise similarity across the whole cluster, not just adjacent pairs).
+**Root cause:** Single-linkage/connected-components has no mechanism to enforce intra-cluster cohesion. It only requires that each pair of *adjacent* articles in the chain exceeds the threshold — not that the cluster as a whole is coherent.
 
-**Fix not yet implemented.** Options to evaluate:
-- Switch to a clustering method with a cohesion check (e.g. average-linkage with a minimum mean pairwise similarity, or a hard cap on cluster size that triggers a sub-clustering pass).
-- Post-cluster validation step that flags clusters above a size threshold for manual review or automatic splitting before they reach the candidate pool.
-- Raise the similarity threshold and/or tighten the time window as a cheaper first pass, with the cohesion fix as the real solution.
+**Agreed fix — two-part implementation:**
 
-**Priority:** Medium — doesn't block M9 (the one-event-at-a-time picking process still works, just inefficient), but it materially shrinks the effective pool of usable candidates per discover run and is worth fixing before scaling batch size or automating candidate selection.
+**Part 1 — Replace connected-components with average-linkage** in `pipeline/cluster/group.py`. Rewrite `_connected_components()` so that an article can only join an existing cluster if its *average* cosine similarity to *all current cluster members* meets the threshold (not just one member). The full n×n similarity matrix is already computed by `embeddings @ embeddings.T`, so no additional dot-product cost — the change is only in how that matrix is traversed during grouping. Expected wall-clock impact: modest (a few extra seconds for n=3,000). Expected outcome: eliminates transitive chains; clusters stay topically coherent.
+
+**Part 2 — Add cohesion check post-processing** after clustering. For each produced cluster, compute the mean pairwise cosine similarity across all article pairs. Log a warning (and optionally filter from the candidate display) for any cluster whose mean falls below a floor (e.g., 0.65). This acts as a validation layer to catch any outliers that slip through Part 1.
+
+**Implementation files:**
+- `pipeline/cluster/group.py` — rewrite `_connected_components()` with average-linkage logic; add `_check_cohesion()` post-processing.
+- No schema changes. No changes to ingest, analyze, annotate, or generate stages.
+
+**Status: ✅ Implemented (2026-06-30, Claude Code session 13).** Unit-tested with a synthetic bridge-article case confirming the old algorithm chained unrelated topics together while the new one correctly keeps them separate. Pending live-data confirmation from G's next discover run.
+
+---
+
+### B-15 — Article store accumulates indefinitely, bloating clustering pool
+
+**Problem:** `ArticleStore.load_all()` in `pipeline/ingest/store.py` returns every article ever ingested — no age filter, no staleness pruning. Each `--discover` run therefore re-clusters the entire historical store alongside today's news. After multiple discover runs (June 1, 4, 28, 29…), the pool grew to thousands of articles spanning weeks. This compounds B-12: the more articles in the pool, the more bridges exist for transitive chaining to exploit.
+
+**Root cause:** `load_all()` is a simple glob over `data/ingested/<beat>/` with no date awareness.
+
+**Agreed fix:** Add `max_age_days: int | None = None` parameter to `ArticleStore.load_all()`. When set, skip any article whose `published_at` is older than `max_age_days` days from the current time. Files remain on disk (dedup integrity is preserved — `_seen_urls` still indexes everything), only the clustering pool is filtered.
+
+Call site in `scripts/scale_test.py` (`run_discover()`) passes `max_age_days=3`. This means each discover run clusters only articles published in the last 3 days — enough to capture fast-developing stories (most stories in this beat ignite and evolve within 24–72h) while keeping the pool lean and coherent.
+
+**Implementation files:**
+- `pipeline/ingest/store.py` — add `max_age_days` param to `load_all()`, filter by `article.published_at`.
+- `scripts/scale_test.py` — update `store.load_all()` call in `run_discover()` to pass `max_age_days=3`.
+
+**No schema changes. No changes to ingest, analyze, annotate, generate, or frontend.**
+
+**Status: ✅ Implemented (2026-06-30, Claude Code session 13).** `max_age_days=3` wired into `scale_test.py --discover`. Dedup index untouched. Pending live-data confirmation from G's next discover run.
+
+---
+
+### B-13 — Duplicate event clusters polluting the homepage
+
+**Problem:** Multiple discover runs can produce overlapping clusters covering the same news event (e.g. the Smotrich/NY parade appeared three times; the Kuwait airport strike appeared twice). Each cluster becomes a separate event card on the homepage. The result is a noisy feed that undermines credibility — readers see what looks like redundant coverage rather than a curated synthesis.
+
+**Root cause:** There is no deduplication step between cluster creation and the event pipeline. Each discover run creates new cluster IDs even when the underlying stories overlap substantially with clusters from prior runs.
+
+**Fix options to evaluate:**
+1. **Pre-run dedup:** Before running a cluster through the full pipeline, check for semantic similarity against existing processed event JSONs and skip if cosine similarity > threshold (e.g. 0.85) on the headline/summary.
+2. **Post-run merge:** Allow a human or automated step to mark two event IDs as "same event" and hide one from the frontend (keep the richer one).
+3. **Frontend dedup:** Add a `superseded_by` field to the event JSON; the frontend skips cards where this field is set.
+4. **Cluster-step dedup:** At discover time, check new cluster article_ids against existing cluster article_ids and discard clusters with high overlap (e.g. >50% shared articles).
+
+**Priority:** Medium — visually noisy but not functionally broken. Fix before public launch. Option 4 (cluster-step dedup) is probably cleanest.
+
+---
+
+### B-14 — Token cost analysis per article/event
+
+**Problem:** We have no visibility into API spend per event — total tokens consumed across analyze, annotate, and generate stages; cost per article; or cost at scale (e.g. 100 events/month). Without this we cannot estimate operating costs, set batch limits, or make informed decisions about model mixing (Haiku vs Sonnet).
+
+**What to measure:**
+- Tokens in/out per stage (analyze, annotate, generate) per event
+- Cost per event at current Haiku/Sonnet pricing
+- Breakdowns: cost per article ingested vs. cost per claim extracted vs. cost per paragraph generated
+- Projection: cost at 20 events/week, 50 events/week
+
+**Implementation:** Add token logging to each stage's API calls (the Anthropic client returns `usage` in every response). Aggregate into a `token_log` sub-object in the analyzed JSON or a separate `data/costs/` ledger. Build a simple summary script.
+
+**Priority:** Medium — not blocking M9, but needed before any public launch or cost projection conversation.
 
 ---
 
 ## 14. Future Considerations (Notes for Review)
 
 These are not backlog items — no action required now. They are questions worth revisiting once the core product is more mature.
+
+---
+
+### B-16 — Reconcile prompt atomizes disputes into separate corroborated claims, hiding contested findings
+
+**Problem:** The reconcile stage (`pipeline/analyze/reconcile.py`) is dramatically under-classifying claims as `contested`. Across 21 processed events, only 5 contested claims exist. This is not because the beat lacks genuine disputes — it is because the model is splitting competing accounts of the same fact into *separate* claims rather than grouping them as one `contested` claim.
+
+**Concrete example (evt_2026_06_04_066 — Kuwait airport):**
+- Iran's IRGC: damage was caused by a malfunctioning US Patriot missile interceptor
+- US Central Command: Iran deliberately struck the airport with drones
+
+The model produced two separate `corroborated` claims — one for each side's position — each corroborated by the outlets that reported that position. This is factually correct but analytically wrong: it buries the dispute. A reader seeing two separate corroborated facts has no idea they are contradictory. This should be one `contested` claim: "Iran's IRGC claimed the damage was caused by a malfunctioning US Patriot missile; US Central Command and Kuwait attributed the strike directly to an Iranian drone attack."
+
+Same pattern appears across nearly every event involving US-Iran, Israel-UN, or any two-government dispute — the adversarial positions get filed as separate corroborated claims, not as a contested pair.
+
+**Root cause:** The reconcile prompt instruction ("If two sources say contradictory things about the same fact, mark it contested") is correct in principle, but the model interprets it per-claim rather than across-claims. It evaluates each extracted claim in isolation and finds that multiple outlets *do* report each position (making it `corroborated`) — without recognizing that the two positions together constitute a dispute about a single fact.
+
+**Fix — prompt change in `pipeline/analyze/reconcile.py`:**
+
+Add an explicit instruction to the `RECONCILE_SYSTEM` prompt:
+
+> **Disputed facts:** When different sources provide contradictory accounts of the SAME underlying fact (e.g., who caused an event, whether an agreement was reached, what the official figures are, what was said in a meeting), you MUST group all accounts into a SINGLE claim classified as `contested`. Do NOT create separate `corroborated` claims for each side's position — this hides the dispute entirely. The contested claim's `text` should neutrally frame the disagreement as a dispute (e.g., "Iran and the US gave contradictory accounts of responsibility for the Kuwait airport strike"). `supported_by_articles` should list sources holding the majority/initiating account; `contested_by_articles` should list sources holding the minority/contesting account. The rationale should explain both positions in parallel language.
+
+**Expected impact:** Estimated 15–25 currently-`corroborated` claims across the existing 21 events would correctly reclassify as `contested`. The event cards on the homepage would surface the genuine disputes the product is designed to highlight. The generate stage already has B-11 guards to handle `contested` claims properly, so no downstream changes are needed.
+
+**Testing:** Re-run reconcile on evt_2026_06_04_066 (Kuwait airport) and evt_2026_06_28_040 (Strait of Hormuz) with the updated prompt. Both should produce at least 3–5 contested claims each on Iran vs. US responsibility disputes.
+
+**Priority:** High — this is a product-level correctness issue. The site currently looks like nearly everything is "agreed," which is the opposite of the product's value proposition. Fix before external validation or public launch.
+
+**Status update (2026-06-30):** Prompt fix implemented in `RECONCILE_SYSTEM` (the "ACTOR DISPUTES" block). Validated on the 3 test events specified above — and confirmed the model *is* now correctly merging actor disputes into single claims with parallel framing. But the fix is currently being neutralized downstream: `evt_066` and `evt_040` produced **0** contested claims (expected 3–5 each); `evt_062` produced only 1 (expected 2–3). Root cause identified, not yet fixed — see below.
+
+**New finding — conflict with B-02:** B-02 ("a source can't appear in both `supported_by` and `contested_by`; if it presents both perspectives, keep it in `supported_by` only") was written for a different notion of "contested" than B-16 introduces. B-02's model assumes contested = *outlets* diverge in what they report (one outlet's own reporting embodies one side). B-16's actor disputes are different: it's normal and expected for the *same* outlet to responsibly report both sides of a government-vs-government dispute in one article. When that happens, B-02 strips the outlet down to `supported_by` only — and if every outlet covering the dispute reported it that evenhandedly (the journalistically *good* outcome), `contested_by` ends up completely empty. B-09 then (correctly, by its own pre-B-16 logic) demotes the claim away from `contested`, undoing B-16's fix. Confirmed via log trace: 8 of 8 observed B-09 firings across the 3 test events were directly preceded by a B-02 strip that emptied `contested_by`.
+
+**Options under consideration (not yet decided):**
+1. Make B-02's strip evidence-preserving — only remove an overlapping source from `contested_by` if doing so leaves `contested_by` non-empty. Cheapest, code-only, no prompt/schema changes. Risk: heuristic patch, doesn't resolve the underlying conceptual conflict.
+2. Explicit actor-dispute carve-out in both B-02 and B-16 prompt text, telling the model a source may legitimately appear in both lists for an actor dispute; matching code change to skip the B-02 strip for these claims specifically.
+3. Schema-level: introduce a `dispute_type` distinction (coverage-divergence vs. actor-dispute) with different evidence-rendering semantics — actor disputes would show as "Position A (reported by: ...) vs. Position B (reported by: ...)" rather than the existing bias-colored supporting/contesting chip split. Most correct long-term, biggest lift (new schema fields + new UI card layout for this claim subtype).
+
+Leaning toward option 1 as the immediate fix, with 2/3 as later refinements if 1 proves too blunt in practice. **Not yet implemented — decision pending.**
+
+---
+
+### B-17 — Source list has no state-aligned/regional outlets; actor-dispute claims are entirely Western-mediated
+
+**Problem:** All 13 outlets configured for the `israel_middle_east` beat (`config/beats/israel_middle_east.json`) are Western or Israeli: Al Jazeera English, Middle East Eye, Haaretz, The Guardian, BBC, Reuters, Euronews, Ynet, Times of Israel, Jerusalem Post, i24, Arutz Sheva, Israel Hayom. There is no Iranian, Gulf Arab, or other regional-state-aligned outlet in the source list.
+
+**Concrete example (`evt_2026_06_04_062`, clm_005 — "was a deal reached" dispute):** the claim text names "Iran's Tasnim news agency" and named Iranian officials as the source of the Iranian position — but Tasnim itself is not one of our ingested sources. All 7 supporting articles behind this claim are BBC, Reuters, Euronews, and The Guardian. The "Iranian side" of every actor-dispute claim in the dataset is, without exception, a Western outlet's paraphrase of what Iran said — never Iran's own reporting.
+
+**Why this matters beyond B-16:** Even a perfectly working contested-claim pipeline (see B-16) can only be as good as what's in `supported_by`/`contested_by`. Right now those lists can never contain a source that reports the Iranian (or other regional-state) position as its own assertion of fact — only ones that report it as an attributed, hedged claim ("Iran says..."). This is a distinct axis of bias from the existing left/center/right spectrum tracked by `bias_rating` — it's a *geographic/state-alignment* gap baked into the beat config from the start.
+
+**Tension to resolve before fixing:** the obvious candidates (PressTV, Tasnim News, IRNA, Mehr News) are state-controlled mouthpieces, not independent press. For most news products that's disqualifying. For *this* product, transparently labeled state-controlled sourcing might be a feature rather than a bug — "this is verbatim what the Iranian government's own outlet said" is arguably more transparent than a Western outlet's third-hand summary, provided the reader is shown unambiguously what kind of source it is (e.g. an `ownership: "Iranian state-controlled"` provenance card rather than treating it as just another point on the left-right bias spectrum). Practical concerns to weigh: RSS/access reliability (sanctions-adjacent hosting), English-language availability, and whether `bias_rating` (currently a left-right scale) is even the right field to represent "state mouthpiece" — it may need its own categorical flag separate from the political spectrum.
+
+**Not yet scoped or implemented — flagged for G's decision** on whether/how to proceed, given the credibility tradeoffs above.
+
+**Priority:** Medium — doesn't block B-16's resolution (the evidence-model conflict needs fixing regardless, on the existing source list), but caps how much B-16's fix can actually achieve until addressed.
+
+---
+
+### FC-02 — Single-outlet clusters as a "Breaking / Developing" signal
+
+**Background:** During M9 scale testing (2026-06-30), discover runs frequently produced large clusters made up entirely of articles from a single outlet (e.g. 60 articles from Israel Hayom, 11 from Euronews). These are currently filtered out of the candidate pool (minimum 3 distinct outlets required to be shown). However, they represent two meaningfully different phenomena worth distinguishing and potentially surfacing:
+
+**Case 1 — Timing artifact (genuine breaking news):** One outlet breaks a story and others haven't caught up yet. If you re-run discover 6–12 hours later, the cluster would have multiple outlets. The single-outlet cluster is a lag signal, not a real editorial gap. A "Check back later" or "Developing" label would be appropriate here.
+
+**Case 2 — Lane-specific coverage:** A story resonates strongly within one ideological lane but is genuinely ignored by others. For example, a domestic Israeli political story saturating Israel Hayom, Ynet, and Arutz Sheva but absent from Al Jazeera and The Guardian. This is not a timing artifact — it's a substantive editorial divergence. The `one_sided` paragraph kind in our schema is designed to surface this *after* a story is processed, but these single-outlet clusters surface it *before* — as a raw signal that something is being covered in one lane and not others.
+
+**Why this matters for Critiqal:** The product's purpose is to surface not just what outlets agree/disagree on, but *what they choose to cover at all*. Lane-specific saturation (Case 2) is exactly the kind of signal a transparency-first news product should surface. It's a different product feature than the main synthesis pipeline — more of an editorial dashboard or alert layer.
+
+**Potential implementation directions (not yet scoped):**
+- At discover time, flag single-dominant-outlet clusters with a `signal_type: "developing"` or `"lane_specific"` field rather than discarding them.
+- Build a lightweight pre-pipeline alert surface: "X is covering [topic] heavily; no other outlets reporting yet."
+- Use outlet recurrence over time (same outlet cluster appearing across multiple discover runs) to distinguish Case 1 (disappears when others catch up) from Case 2 (persists as lane-specific).
+
+**Connection to existing features:** Case 2 maps directly to the `one_sided` paragraph kind (§5, schema v0.2). The `one_sided` kind flags paragraphs where only one ideological lane reported a fact. Single-outlet discover clusters are the same signal one step earlier in the pipeline. A future version could automatically flag discovered clusters as `one_sided_candidate` before running them through analyze/annotate/generate.
+
+**This is not a current backlog item** — no action required during M9. Revisit when scoping post-M9 product features.
 
 ---
 

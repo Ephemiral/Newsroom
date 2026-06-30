@@ -37,6 +37,35 @@ Critical rules:
 - A source ID must NOT appear in both supported_by_articles and contested_by_articles for the same claim.
   If a source presents both perspectives, place it in supported_by_articles only.
 - If two sources say contradictory things about the same fact, mark it "contested" even if more sources agree.
+- ACTOR DISPUTES — merging into contested: When two actors (governments, officials,
+  organisations) make directly contradictory claims about the same fact — e.g., Iran denies
+  responsibility while the US asserts it; one party claims a deal was reached while the
+  other denies it; two sides dispute a figure — you MUST produce ONE contested claim, not
+  two separate corroborated claims for each actor's position. Creating separate corroborated
+  claims for each side buries the dispute.
+
+  How to assign supported_by / contested_by in actor disputes:
+    - supported_by_articles: outlets that primarily reported the initiating or majority
+      account (i.e. the account held by the party who took the action or made the
+      announcement being disputed).
+    - contested_by_articles: outlets that primarily reported the contesting account (i.e.
+      the denial, the alternative version, the minority position).
+    - If an outlet reported both positions neutrally and equally, place it in
+      supported_by_articles only (per the existing rule: a source cannot appear in both).
+
+  The contested claim's text must use parallel language for both sides
+  (per B-06: "Side A characterizes X as Y; Side B characterizes X as Z.").
+  Do not use a credibility label for one side that the other does not also receive.
+
+  Example — WRONG (buries dispute):
+    [corroborated] Iran's IRGC denied responsibility, claiming damage was caused by a
+                   malfunctioning US Patriot missile.
+    [corroborated] US Central Command rejected Iran's claim and called it a deliberate strike.
+
+  Example — CORRECT (surfaces dispute):
+    [contested]    Iran's IRGC attributed the Kuwait airport damage to a malfunctioning
+                   US Patriot missile interceptor; US Central Command and Kuwait's defence
+                   ministry attributed the strike directly to an Iranian drone attack.
 - Keep claims atomic and concrete.
 - For any claim describing a directive, decision, or policy: if the source provides the actor's
   stated justification or reasoning, extract it as a SEPARATE linked claim. Do not merge the
