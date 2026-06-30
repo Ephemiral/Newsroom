@@ -69,9 +69,9 @@ function AnimatedLogo() {
 }
 
 /**
- * Shows the lens-sweep intro animation once per browser session (gated by
- * sessionStorage), then falls back to the static CritiqalLogo. Safe for SSR —
- * renders the static logo during hydration and upgrades client-side.
+ * Shows the lens-sweep intro animation on first visit (gated by localStorage),
+ * then falls back to the static CritiqalLogo. Safe for SSR — renders the static
+ * logo during hydration and upgrades client-side.
  */
 export default function CritiqalLogoAnimated() {
   // null = not yet checked (SSR / hydration), true = play, false = static
@@ -79,12 +79,12 @@ export default function CritiqalLogoAnimated() {
 
   useEffect(() => {
     try {
-      if (sessionStorage.getItem(STORAGE_KEY)) {
+      if (localStorage.getItem(STORAGE_KEY)) {
         setMode('static');
       } else {
         setMode('anim');
         const timer = setTimeout(() => {
-          try { sessionStorage.setItem(STORAGE_KEY, '1'); } catch { /* quota */ }
+          try { localStorage.setItem(STORAGE_KEY, '1'); } catch { /* quota */ }
           setMode('static');
         }, ANIM_DURATION_MS);
         return () => clearTimeout(timer);
@@ -95,5 +95,5 @@ export default function CritiqalLogoAnimated() {
   }, []);
 
   if (mode === 'anim') return <AnimatedLogo />;
-  return <CritiqalLogo width={290} />;
+  return <CritiqalLogo width={348} />;
 }

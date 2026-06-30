@@ -277,27 +277,41 @@ export default function ReportView({ report, claimsMap, sourceMap }: ReportViewP
     <section style={{ marginBottom: 48 }}>
 
       {/* Header */}
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20 }}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20, gap: 16, flexWrap: 'wrap' }}>
         <h2 style={{
-          fontFamily: 'var(--font-spectral), serif',
-          fontWeight: 600, fontSize: 22, color: '#141109', margin: 0,
+          font: '600 13px/1 var(--font-archivo), system-ui',
+          letterSpacing: '.04em', color: '#3a332a', margin: 0,
         }}>
-          Analysis
+          The report
         </h2>
         <button
           onClick={() => setTransparencyMode(v => !v)}
           style={{
-            display: 'inline-flex', alignItems: 'center', gap: 7,
-            padding: '7px 14px', borderRadius: 20,
-            border: transparencyMode ? '1px solid #b08a4a' : '1px solid #d9cfbd',
-            background: transparencyMode ? '#b08a4a' : 'transparent',
+            display: 'inline-flex', alignItems: 'center', gap: 9,
+            background: 'none', border: 'none', cursor: 'pointer', padding: 0,
             font: '600 11px/1 var(--font-archivo), system-ui',
             letterSpacing: '.06em', textTransform: 'uppercase',
-            color: transparencyMode ? '#fff' : '#6a6052',
-            cursor: 'pointer', transition: 'all .2s',
+            color: transparencyMode ? '#2f5fd0' : '#8a7d6c',
+            transition: 'color .2s',
           }}
         >
-          🔍 {transparencyMode ? 'Transparency on' : 'Show sources'}
+          {transparencyMode ? 'Sources on' : 'Show sources'}
+          <span style={{
+            position: 'relative', width: 32, height: 18, borderRadius: 9,
+            background: transparencyMode ? '#2f5fd0' : '#ddd5c7',
+            display: 'inline-block', flexShrink: 0,
+            transition: 'background .2s',
+          }}>
+            <span style={{
+              position: 'absolute', top: 2,
+              left: transparencyMode ? 16 : 2,
+              width: 14, height: 14, borderRadius: '50%',
+              background: '#fff',
+              boxShadow: '0 1px 2px rgba(0,0,0,.2)',
+              transition: 'left .2s',
+              display: 'block',
+            }} />
+          </span>
         </button>
       </div>
 
@@ -310,18 +324,20 @@ export default function ReportView({ report, claimsMap, sourceMap }: ReportViewP
         </div>
       )}
 
-      {/* Paragraphs */}
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
+      {/* Paragraphs — continuous left rail */}
+      <div style={{ borderLeft: '2px solid #e7e0d4' }}>
         {report.paragraphs.map(para => {
           const cfg = KIND[para.kind] ?? KIND.background;
           return (
-            <div key={para.paragraph_id} style={{ display: 'flex', alignItems: 'stretch' }}>
-              <div style={{
-                flexShrink: 0, width: 3, marginRight: 20,
-                background: transparencyMode ? cfg.bar : '#e7e0d4',
-                borderRadius: 2, transition: 'background .2s',
-              }} />
-              <div style={{ flex: 1, minWidth: 0 }}>
+            <div
+              key={para.paragraph_id}
+              style={{
+                marginLeft: -2,
+                borderLeft: `2px solid ${transparencyMode ? cfg.bar : '#e7e0d4'}`,
+                transition: 'border-color .2s',
+              }}
+            >
+              <div style={{ paddingLeft: 22, paddingTop: 16 }}>
                 <ParagraphCard
                   para={para}
                   claimsMap={claimsMap}

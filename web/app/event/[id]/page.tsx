@@ -94,6 +94,9 @@ export default async function EventPage({ params }: Props) {
           </div>
         </header>
 
+        {/* Spectrum — who covered this */}
+        <BiasLegend sources={event.sources} />
+
         {/* Report */}
         {event.report && (
           <ReportView
@@ -115,7 +118,6 @@ export default async function EventPage({ params }: Props) {
           <ClaimSection label="Corroborated" description="Reported by multiple outlets, but all from the same part of the spectrum." claims={corroborated} sourceMap={sourceMap} accent="teal" />
           <ClaimSection label="Contested" description="Sources conflict or frame this fact in genuinely incompatible ways." claims={contested} sourceMap={sourceMap} accent="amber" />
           <ClaimSection label="Single source" description="Only one outlet in this cluster reported this." claims={singleSource} sourceMap={sourceMap} accent="gray" />
-          <BiasLegend sources={event.sources} />
         </section>
 
         {/* Background */}
