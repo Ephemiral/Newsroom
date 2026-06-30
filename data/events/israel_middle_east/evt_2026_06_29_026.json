@@ -1,0 +1,29 @@
+{
+  "cluster_id": "evt_2026_06_29_026",
+  "beat": "israel_middle_east",
+  "article_ids": [
+    "art_04318219ff",
+    "art_0be5cac22e",
+    "art_2128103ab1",
+    "art_3b71dbc4ef",
+    "art_42c380d2a4",
+    "art_501702337c",
+    "art_54d5f43efa",
+    "art_69e023ac6c",
+    "art_7531db3633",
+    "art_9ee78023c1",
+    "art_a2e00db243",
+    "art_ac923c3dd8",
+    "art_c05de13708",
+    "art_c081d1d1db",
+    "art_dee8ab93f4",
+    "art_e0b9c7a544",
+    "art_e635c11428",
+    "art_f721dcddc5",
+    "art_fe5c029d21"
+  ],
+  "created_at": "2026-06-29T21:15:06.916709+00:00",
+  "method": "auto",
+  "threshold": 0.7,
+  "size": 19
+}

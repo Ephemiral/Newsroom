@@ -1,0 +1,678 @@
+{
+  "schema_version": "0.2",
+  "event": {
+    "cluster_id": "evt_2026_06_29_102",
+    "beat": "israel_middle_east",
+    "title": "Israel's Government Votes to Recognize the Armenian Genocide",
+    "summary": "On June 29, 2026, the Israeli government unanimously approved a resolution recognizing the Armenian Genocide, proposed by Foreign Minister Gideon Sa'ar. The decision still requires ratification by the Knesset and drew immediate condemnation from Turkey and Azerbaijan.",
+    "date": "2026-06-28",
+    "generated_at": "2026-06-30T06:57:01.124324+00:00"
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Haaretz (English)",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOOUpBam95OTY0THdwOUNnaHVNWlI5dndPR0VGaWRRZ0gxU3pKSE9QSWdIWHhQRlJyb2J1YlZnMWdEUEpzYTlZVHphY2hVVm4wazJ2UFBxbWhkbU5pampkR1djbVNqY0NQTlE2cGZxbWk4RFZUTENrWldUcGcwUWhaejExZUhnWlg2TDJXeDB6MS0xN0lYZ1ExR2pod0pvSFgxZW14Y0dLdjBfVVR0ZnA1aHBBOE93ZXpoZ041R0tfVkJ6RHh5cVF0c09HbU9WT3EwaWlBSUNfanhqMHJkTDZHVXFKcE9LRGNrRXFFNkhwdkxhWmZrVnIxY0tIa0pEMHYzZUU4YTlCOHpmcVJYcWJ2SThjNHR0dDhGdmc?oc=5",
+      "author": null,
+      "published_at": "2026-06-29T17:12:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/article-900699",
+      "author": "BY MIRIAM SELA-EITAM",
+      "published_at": "2026-06-28T12:28:20+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Owned by Riesling Investment & Technology Ltd, controlled by Israeli investor Eli Azur. Previously owned by Miriam Adelson.",
+      "author_background": "Miriam Sela-Eitam is a Jerusalem Post journalist who covers Israeli politics and society.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Arutz Sheva (Israel National News)",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40di1icUFuZGJqMVJTZkk3NFJKbVZ3SjNoc2hGeHljVVJ5RmRmSTdvOWZIeV9BN012VENoOGdGRnFId3JqeVhfZ05RNUVoMnJETV9MX1h6bFB2dw?oc=5",
+      "author": null,
+      "published_at": "2026-06-28T10:17:00+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Operated by a non-profit association registered in the United States. Closely associated with the national-religious settler movement in the West Bank.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/2026/06/28/israels-government-formally-recognises-the-armenian-genocide-committed-during-world-war-i",
+      "author": null,
+      "published_at": "2026-06-28T12:21:30+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Haaretz (English)",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQbklueHVnRzhBa0w4WnZXLWRkZUQ3YW1DQWFoX1BQMEp5cVNzR2pzQnJfOVZERm5pZUhIMEtnMXRCU0h0MzQ5b0I3UzNsWFB1ZzBuUm84SE5TZTNZWnppMWF2c0dhb0I5RHZfSnJqQldJanMzbW9BV1YzWE9PbElYOElUM2haWDVCa0xmUkJ1bkVTTTRnWnRidnpSaTBXWnF6STZUU3FwOGp1RWt0MlRmOV9vVXJBTkhFYnFfZTZoX21CbktDNU13ZzBTQW1sMGNmMFdMWGltZkxqWW0wTWY0RnhXSjI5TDNPRFExYjlkcWJSMUxXTi1pUVhEZzIzLVZ5aXJKX0x0SEIzNUVTSEp0R0hGNA?oc=5",
+      "author": null,
+      "published_at": "2026-06-29T09:39:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT0p2c0dmMDMyS0lJUXNMYzh2UHB3OUhtR29aM3MzbjRsTGxNQVpHN082N2FIMDlPU0IwZkZ3UGpMNS04R0FjRU81dEtNb1lZYnIxSk51Nl9ucTJFeXAxUWdmcjB4bDNsdzJRaWNWanhPcVNVVDhCQ3NNeWU2WHZ4R0JQYWFJYmZNTEgzdjlscUlFZVFqVVV6T05neTdjREdRcGh3TFk1ZHI2VWcxOXU1LUFSdHlObEpaT3p3MG9xMUZxX1czOFg3UWFXVzFTSE1tTUE?oc=5",
+      "author": null,
+      "published_at": "2026-06-29T05:23:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "Haaretz (English)",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQRTlBaVByVEE5ak95X0pVNEdrSXVqQWRIRVdQT1pQOVZDeG9lSThKN2lnemFUQlJBVzRoLXJmTjNmTzVCaWVvT0ItdnV0NWtJS3VkWUJ2MFZsX3lGTDU3MVFwVzNGWEVjS2J4blRFY2JFcUVNckgtclpCX0g0LWFnV25qbkZwd00yUHlmakRXUlVwbkZXODAwaW90OEZaUjlmS095VTRRTUMxSFk2c013eDE1dVhvYkVSMVFhX2NKTU1iMjZjb0UyUjVlX3liY3pSNjU1ZFRLSV9kdWViV2xpVHBFZjFKUDc1TWRhSWZsbmlKVkE2QzFQaUw4ZUxqbzFhOEhvLWNB?oc=5",
+      "author": null,
+      "published_at": "2026-06-28T09:34:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_008",
+      "outlet": "Israel Hayom",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMjVyX05aUnpQV1oyWHpjb1B6a1VYU085UE80SmFDTm1FeFdNS2huUzRwd1RxMTdCbWdRRFNKbjdvU21mSzk0eC1QRERzUlIzS1BmczAwMXl0OC1jUWtVczgzcVZYcjl2Q0MydnZHNy1tU1BHdnJxR3dvdU9ZVG85YmFlNlREZURtX0VnN0N6S2djU1E?oc=5",
+      "author": null,
+      "published_at": "2026-06-29T08:01:11+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Founded by Sheldon Adelson in 2007; now owned by the Miriam and Sheldon G. Adelson Family Foundation following his death in 2021. Distributed free of charge.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_009",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaTVwWEw3emktSGhuTTNrc0drNGFTUVRXeGxrd21vZXo0R09sZHVHdXVZZ2FvemwzcnJwRk1RQ2hMMnk4TXgwZTMtOGdBU2Q4dHJZQ19TQTJfLU0yaHFoUVBnT1N0MG56YVA4SlZYdE1xeENudERVa2dfYmFTZEdyVkwyNnlKTnZtTHN1eXpQODRUeXpHTk92QWlOdVdJNzNzUy1jS3AyYzFoTGlsWm9uNUQ0QXkzV29VTkpxMHMtcDNTX3VzRDRKcEVDOTRWUm51eVF5T2xBVVJIT3M2cFdr?oc=5",
+      "author": null,
+      "published_at": "2026-06-28T10:11:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_010",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kTkZ0ZE55SHVqN1AzSnRNdExjdU5PSmpJSEVQcFZCYVBQeDBkcjFqaE9jbUpuS3A0UlprUEFqV0xQMURoQzZ6MWk5YkhISzdZMjNwOFlR?oc=5",
+      "author": null,
+      "published_at": "2026-06-28T09:53:04+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "The Israeli government unanimously voted to formally recognize the Armenian Genocide.",
+      "classification": "agreed",
+      "claim_group": "recognition_decision",
+      "rationale": "The unanimous government vote is reported consistently by outlets across the political spectrum, from center-left Haaretz to center Euronews to right-leaning Arutz Sheva, meeting the cross-spectrum threshold for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "Formal government vote to recognize the genocide",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Unanimously recognised the mass killings of Armenians during World War I as genocide",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Israeli government unanimously approves proposal to officially recognize the Armenian Genocide",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Presented positively as 'Never too late to do the right thing'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Haaretz frames this as Netanyahu 'trolling' Trump and Turkey",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_009",
+        "src_010",
+        "src_007",
+        "src_003",
+        "src_001",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The recognition resolution was proposed by Israeli Foreign Minister Gideon Sa'ar.",
+      "classification": "agreed",
+      "claim_group": "recognition_decision",
+      "rationale": "Both the center-right Jerusalem Post and center Euronews attribute the resolution proposal to Foreign Minister Sa'ar, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Sa'ar put forth the resolution proposal late last week",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The move 'had been proposed by' Israeli Foreign Minister Gideon Sa'ar",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The government resolution still requires ratification by the Knesset plenum before taking full effect.",
+      "classification": "agreed",
+      "claim_group": "recognition_decision",
+      "rationale": "The pending Knesset vote is confirmed by both the center-right Jerusalem Post and center Euronews, as well as center-left Haaretz, spanning the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "The proposal is slated to be brought before the Knesset plenum for a vote",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The decision still requires ratification by parliament",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Pending Knesset vote",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Foreign Minister Sa'ar stated that recognizing the Armenian Genocide is both a moral and historical duty.",
+      "classification": "single_source",
+      "claim_group": "stated_rationale",
+      "rationale": "This specific quote from Sa'ar characterizing recognition as a 'moral and historical duty' appears only in the Jerusalem Post's full-text article.",
+      "framing_variants": [
+        {
+          "characterization": "Sa'ar on Thursday: 'Recognizing the genocide perpetrated against the Armenian people in the final years of the Ottoman Empire is both a moral and historical duty'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "An Israeli government official stated that the recognition is not an act of retaliation against Turkey.",
+      "classification": "single_source",
+      "claim_group": "stated_rationale",
+      "rationale": "Only Haaretz reports an Israeli official's explicit denial that the recognition constitutes retaliation against Turkey; no other source corroborates this specific claim.",
+      "framing_variants": [
+        {
+          "characterization": "'Not an act of retaliation against Turkey'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Israel had previously avoided recognizing the Armenian Genocide due to diplomatic sensitivities.",
+      "classification": "corroborated",
+      "claim_group": "historical_context",
+      "rationale": "Both the Jerusalem Post and Euronews note Israel's historical non-recognition due to diplomatic concerns, but both are center or center-right outlets, so this is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Israel long avoided recognizing it as such due to diplomatic sensitivities",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Implied by the framing of the decision as a notable shift amid deteriorating Turkey relations",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Israel-Turkey relations have deteriorated since the outbreak of the Gaza war in October 2023.",
+      "classification": "agreed",
+      "claim_group": "diplomatic_context",
+      "rationale": "Euronews (center) and Ynet News (center-right) both reference strained Israel-Turkey relations in the context of this decision, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Israel's decision comes 'amid deteriorating relations with Turkey, which have been strained since the outbreak of the Gaza war in October 2023'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Recognition risks creating new tensions with Turkey",
+          "source_id": "src_010"
+        },
+        {
+          "characterization": "Framed via Turkey's accusation that recognition is meant to deflect from Gaza",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_010",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Turkey accused Israel of using the Armenian Genocide recognition to cover up its crimes in Gaza.",
+      "classification": "single_source",
+      "claim_group": "international_reaction",
+      "rationale": "Only i24 News reports Turkey's specific accusation that Israel used the recognition to distract from Gaza; this claim does not appear in other sources.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as a direct accusation made by Turkey against Israel",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Turkey denies that the massacres, deportations, and imprisonment of Armenians amounted to genocide.",
+      "classification": "agreed",
+      "claim_group": "international_reaction",
+      "rationale": "Both the center-right Jerusalem Post and center Euronews report Turkey's denial of the genocide characterization, spanning different bias tiers.",
+      "framing_variants": [
+        {
+          "characterization": "Turkey denies that the massacres, imprisonment, and forced deportation of Armenians amounted to genocide",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Turkey has resisted calls for it to recognise the Armenia massacres as genocide",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Azerbaijan condemned Israel's recognition of the Armenian Genocide, characterizing it as an 'unacceptable distortion of history.'",
+      "classification": "single_source",
+      "claim_group": "international_reaction",
+      "rationale": "Azerbaijan's condemnation and its specific characterization of the recognition as an 'unacceptable distortion of history' is reported only by Haaretz.",
+      "framing_variants": [
+        {
+          "characterization": "Azerbaijan took an official stance against Israel's position, calling it an 'Unacceptable Distortion of History'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "An Israeli ally called on Israel to reconsider its recognition of the Armenian Genocide.",
+      "classification": "single_source",
+      "claim_group": "international_reaction",
+      "rationale": "Israel Hayom references an unnamed Israeli ally urging reconsideration; no other source identifies or corroborates this specific claim.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as an ally 'fuming' and expressing strong displeasure over the recognition",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "The Foreign Ministry characterized the Armenian Genocide as subject to an institutionalized campaign of denial and minimization, led primarily by Turkey.",
+      "classification": "agreed",
+      "claim_group": "stated_rationale",
+      "rationale": "Both the center-right Jerusalem Post and center Euronews report this characterization of Turkish denial, drawn from Israeli Foreign Ministry statements, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "The genocide has been subjected to an 'institutionalized campaign of denial and minimization,' spearheaded primarily by Turkey",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Sa'ar: 'The Armenian Genocide remains to this day the subject of an institutionalized campaign of denial and minimization, including a manipulative rewriting of history, mainly by the Turkish government'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Sa'ar stated the Armenian Genocide involved the murder of approximately 1.5 million people and the destruction of an ancient cultural and historical heritage.",
+      "classification": "single_source",
+      "claim_group": "historical_context",
+      "rationale": "Sa'ar's specific figures and cultural characterization are quoted only in the Jerusalem Post's full-text article.",
+      "framing_variants": [
+        {
+          "characterization": "Sa'ar described the genocide as involving 'the murder of 1.5 million people' and 'the destruction of an ancient cultural and historical heritage'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Estimates of Armenian deaths range from 664,000 to 1.5 million, depending on the source cited.",
+      "classification": "contested",
+      "claim_group": "historical_context",
+      "rationale": "Euronews cites the US Holocaust Memorial Museum's estimate of 664,000–1.2 million deaths, while the Jerusalem Post quotes Sa'ar's figure of 1.5 million; these figures are not contradictory in kind but reflect genuinely different numerical claims from different authoritative sources.",
+      "framing_variants": [
+        {
+          "characterization": "US Holocaust Memorial Museum estimates 664,000 to 1.2 million Armenian deaths",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Sa'ar states the genocide involved the murder of 1.5 million people",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": [
+        "src_002"
+      ]
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "As of 2026, 32 UN member states have formally recognized the Armenian Genocide, including the United States, Canada, Russia, Germany, France, and Italy.",
+      "classification": "corroborated",
+      "claim_group": "historical_context",
+      "rationale": "Both Jerusalem Post and Euronews reference international recognition of the genocide by multiple states; the specific number (32) comes from the Jerusalem Post, while Euronews names a partially overlapping list of countries.",
+      "framing_variants": [
+        {
+          "characterization": "32 UN member states including the US, Canada, Russia, and Germany have formally recognized the genocide; the Holy See and European Parliament have also recognized it",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The United States, France, Germany, and Italy are among countries to have recognized the killings as genocide",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "The Armenian mass killings occurred from spring 1915 to autumn 1916 in the Ottoman Empire.",
+      "classification": "single_source",
+      "claim_group": "historical_context",
+      "rationale": "Only Euronews provides the specific timeframe of spring 1915 to autumn 1916 for the events; other sources refer only to the 'final years of the Ottoman Empire' or 'more than 100 years ago.'",
+      "framing_variants": [
+        {
+          "characterization": "Systematic elimination and deportation of Armenian Christians from spring 1915 to autumn 1916",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "The Armenian Genocide refers to the systematic mass killing and deportation of Armenian Christians by the Ottoman Empire, primarily between 1915 and 1916. Turkey disputes the genocide characterization and has long led international resistance to its formal recognition.",
+      "sources": [
+        "src_002",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Israel had historically avoided formally recognizing the Armenian Genocide, largely due to its diplomatic relationship with Turkey. Those ties have significantly deteriorated since the outbreak of the Gaza war in October 2023.",
+      "sources": [
+        "src_002",
+        "src_004",
+        "src_010"
+      ]
+    },
+    {
+      "point": "Azerbaijan, which is closely allied with Turkey and has its own conflict history with Armenia, also condemned Israel's recognition, calling it an 'unacceptable distortion of history.'",
+      "sources": [
+        "src_005"
+      ]
+    },
+    {
+      "point": "The Israeli government's recognition is not self-executing—it still requires a confirmatory vote in the Knesset (parliament) to take full legal effect.",
+      "sources": [
+        "src_002",
+        "src_004",
+        "src_007"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-06-30T06:57:23.551470+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "On June 29, 2026, the Israeli government unanimously voted to formally recognize the Armenian Genocide, a decision proposed by Foreign Minister Gideon Sa'ar. The resolution still requires ratification by the Knesset plenum before taking full effect.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_007",
+            "src_009",
+            "src_010"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The move marks a significant shift in Israeli policy. Israel had previously avoided recognizing the Armenian Genocide due to diplomatic sensitivities, making this government vote a departure from decades of restraint on the issue.",
+        "supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The Armenian Genocide refers to the mass killings, deportations, and imprisonment of Armenians in the final years of the Ottoman Empire. As of 2026, 32 UN member states have formally recognized these events as genocide, including the United States, Canada, Russia, Germany, France, and Italy.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Estimates of Armenian deaths during the genocide vary by source. Euronews, citing the US Holocaust Memorial Museum, reported estimates ranging from 664,000 to 1.2 million deaths, while the Jerusalem Post quoted Foreign Minister Sa'ar's figure of 1.5 million.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The Israeli Foreign Ministry characterized the Armenian Genocide as subject to an institutionalized campaign of denial and minimization, led primarily by Turkey. Turkey denies that the massacres, deportations, and imprisonment of Armenians amounted to genocide.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Center-right outlet Jerusalem Post reported Foreign Minister Sa'ar's statement that recognizing the Armenian Genocide is both a moral and historical duty. According to the Jerusalem Post, Sa'ar stated the genocide involved the murder of approximately 1.5 million people and the destruction of an ancient cultural and historical heritage.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Center-left outlet Haaretz reported that an Israeli government official stated the recognition is not an act of retaliation against Turkey, explicitly denying that the decision was motivated by bilateral tensions.",
+        "supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_007"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "The decision comes as Israel-Turkey relations have deteriorated since the outbreak of the Gaza war in October 2023, providing a diplomatic backdrop to the timing of the recognition vote.",
+        "supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_006",
+            "src_010"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Center-right outlet i24 News reported that Turkey accused Israel of using the Armenian Genocide recognition to cover up its crimes in Gaza, a characterization not corroborated by other sources in this report.",
+        "supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Center-left outlet Haaretz reported that Azerbaijan condemned Israel's recognition of the Armenian Genocide, characterizing it as an 'unacceptable distortion of history.' This condemnation was not reported by other outlets.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Right-leaning outlet Israel Hayom reported that an unnamed Israeli ally called on Israel to reconsider its recognition of the Armenian Genocide, though the outlet did not identify which ally made this appeal.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_008"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

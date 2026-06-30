@@ -7,7 +7,9 @@ export const dynamic = 'force-dynamic';
 
 export default function Home() {
   const ids = getEventIds();
-  const events = ids.map((id) => ({ id, event: getEvent(id)! }));
+  const events = ids
+    .map((id) => ({ id, event: getEvent(id)! }))
+    .sort((a, b) => new Date(b.event.event.date).getTime() - new Date(a.event.event.date).getTime());
 
   return (
     <main style={{ background: '#f7f4ee', minHeight: '100vh' }}>

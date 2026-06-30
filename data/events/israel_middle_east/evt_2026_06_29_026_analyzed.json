@@ -1,0 +1,1127 @@
+{
+  "schema_version": "0.2",
+  "event": {
+    "cluster_id": "evt_2026_06_29_026",
+    "beat": "israel_middle_east",
+    "title": "US-Iran Doha Talks Dispute and Strait of Hormuz Military Escalation",
+    "summary": "Following an exchange of military strikes in the Strait of Hormuz in late June 2026, the US and Iran publicly disputed whether high-level talks were scheduled in Doha, while both sides navigated competing frameworks for the strait's management and a fragile 60-day diplomatic framework remained under pressure.",
+    "date": "2026-06-29",
+    "generated_at": "2026-06-30T06:54:46.749200+00:00"
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-expert-delegation-heading-qatar-week",
+      "author": "Bilge Kotan",
+      "published_at": "2026-06-29T19:04:07+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/trump-says-next-us-iran-meeting-to-be-held-in-doha-tuesday-amid-conflicting-reports/",
+      "author": null,
+      "published_at": "2026-06-29T13:52:49+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZWlTN0M4a0lya0J1UmV6eHppZW4wVjJFMjlVcWNZU0o5bHQ1OGhfdnZDcGJOU3ZEYlF1Ylh5aTlHcXpBeDgtdTdMeFZBQkNfdlUxUWhZOGxyS3l1R0JZMmxyaG10LXc2TEVQRjU5anpxR0RVYS1zRnpZRWZaN25lT1lCRTZ6cWlEM0U1YmhLdHRmSzB3T2VvTktjYVdvTC1VUmhGTUxqYko3N1V5R2xPQW9BdzVhaTV4VzZpRg?oc=5",
+      "author": null,
+      "published_at": "2026-06-29T12:40:27+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BbGJWUkl3ZlBnTDJUczhjTlAzcXJ2WHRVWnpndDRDQUxLVDBrN3FNLUNIQ3JFQjU4bTBPcXFhdFNxV3RGdHI3bWVvNG1MdU5ja3Y3TVpR?oc=5",
+      "author": null,
+      "published_at": "2026-06-28T21:16:35+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Arutz Sheva (Israel National News)",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rTnAxcV9BaXVFTlIyY0hvWkU1R2lYN0dfQ1NCbTNReHpZdVFWblVtZFNIRjRfamtDRWFrR3UwRmdoRElyVWQ1NFhJM3Q3VVlvbDFjbDlONkJxUQ?oc=5",
+      "author": null,
+      "published_at": "2026-06-28T22:16:00+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Operated by a non-profit association registered in the United States. Closely associated with the national-religious settler movement in the West Bank.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/no-iran-us-talks-coming-days-irans-foreign-ministry-spokesperson-says",
+      "author": "Bilge Kotan",
+      "published_at": "2026-06-29T18:28:49+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jun/29/oman-safe-reopening-strait-hormuz-iran-us-middle-east",
+      "author": "Patrick Wintour",
+      "published_at": "2026-06-29T16:20:16+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Patrick Wintour is The Guardian's Editor-in-Chief and a veteran political journalist who has covered British politics and international affairs for decades.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_008",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QbHJPR2xQaUU4LVBNZ2NhcHZuVnp6dFZTb0t2eUtJel9vOE1TNnBDWEF3em9rajlJVExnRzBoVF9vMGxlMWtBVUFseDRBYVo1YVltUHNn?oc=5",
+      "author": null,
+      "published_at": "2026-06-29T11:23:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_009",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/de-mining-strait-hormuz-be-carried-out-only-iran-deputy-foreign-minister",
+      "author": "Bilge Kotan",
+      "published_at": "2026-06-29T17:08:58+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_010",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5taTgwRld3Zjl1U3JCQllmZnJlM3k4S2pYX1ZmdDRSeV9xQUFxZ2RCS0cwdnMzV0hkTmppazlnMVhlVzZoN3JaRkZ1RGo2MWYzWVlzOElB?oc=5",
+      "author": null,
+      "published_at": "2026-06-28T17:10:40+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_011",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/2026/06/29/iran-says-delegation-to-visit-qatar-this-week-but-insists-no-negotiations-scheduled-with-t",
+      "author": null,
+      "published_at": "2026-06-29T20:20:15+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_012",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/2026/06/29/us-and-iran-agree-to-pause-attacks-and-meet-in-qatar-us-media-reports",
+      "author": null,
+      "published_at": "2026-06-29T02:24:13+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_013",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnM3Z1FiUWg0cGtGRWVxRHdUYmJ0UTFXVWhEZ0lObm1FY2FHMGRUNTN4bTR5al9ySmx0RW93QW15d09NQ1VjZFJkNDd0eFpQZlNBaS1wa1VNSkRpLWVVTjM4c0JSOHBzYXB6ak1WWXUtZ2xZVm1pbUN4V0xSQXB3TFd6c1NFckp6elV2Q3lIRXZUQnBFYXpGRkd6OVFLVHlVMkdZOTJQWjdYMTZLX0U2eNIBtgFBVV95cUxOb1p4aVRaMk04eHdua3FnTmpLd3lISjRZYkdjLWQ4cHZfVHRMYWF6LUw0M3JURXBBWDE0N1Z1djRmNDNLc2c1eWNPQ0ZPSHlYUF8zOGF4b1BhZFIxUVRDRHBxMGJBbURSa2Y4Z3dmLTE5aS0yaVE1TzF3cTQzNWpXU0JaQlpxYVRvQVZUM2ZXWUdSeTQ4MkpLVE44MjVCWUtYSkpnbmNiSzVJWXlLUDQyZU5wWERodw?oc=5",
+      "author": null,
+      "published_at": "2026-06-29T20:33:16+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_014",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/2026/06/28/iran-threatens-total-halt-to-talks-amid-intensive-us-air-activity-over-hormuz",
+      "author": null,
+      "published_at": "2026-06-28T19:17:39+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_015",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jun/29/trump-iran-peace-talks-doha",
+      "author": "Andrew Roth in Washington",
+      "published_at": "2026-06-29T18:36:24+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Andrew Roth is The Guardian's Moscow correspondent who covers Russian politics, foreign policy, and the impact of the Kremlin's actions on neighboring countries.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_016",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hormuz-under-total-iranian-control-says-araghchi",
+      "author": "Imran Mulla",
+      "published_at": "2026-06-28T08:54:52+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_017",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/france-and-oman-cooperate-partners-de-mining-hormuz-macron-says",
+      "author": "Bilge Kotan",
+      "published_at": "2026-06-29T15:56:36+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_018",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdVg5czlKNG5mTDhINWRuUjlHbWt6bl9TUUVsbGJ4WHNMXzdvcHJkY3I2V1ZDZDhDMzhJNVk5Y2tKeW9pWkgzTHVqQUFaR3hjNUd1MEpnV2JNRjFYTERQS192LWxLLWt4bzM2UDJwZFYxZEhvUVViTElFLXg5OFdpMHFob2t6Qm83MjRmRjB0TENyVU9YeFZQdzZac1hoVndyY3VjdnV4MFdQVXNMdHBnaXRDcVg4OU1XNE43VzNMVUFxTHpla1dKUnlpakphdWU5eHFXdnloclVMT0RLMFdtajBMeFprZl9nb0JxRWpic1Y1TGxZZnc?oc=5",
+      "author": null,
+      "published_at": "2026-06-29T03:37:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_019",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-resisting-us-pressure-over-hormuz-routes-analyst-says",
+      "author": "Qazi Zaid",
+      "published_at": "2026-06-28T03:23:34+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Trump publicly announced on Truth Social that Iran had requested a meeting and that talks would take place in Doha on Tuesday.",
+      "classification": "agreed",
+      "claim_group": "diplomatic_talks_dispute",
+      "rationale": "Sources spanning left (Middle East Eye via Euronews), center (Euronews), and center-right (Times of Israel) all confirm Trump made this public announcement on Truth Social, making it cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Trump announced via Truth Social: 'Iran has requested a meeting. It will take place tomorrow in Doha!'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Trump 'claimed' Iran agreed to hold talks, framed as his assertion",
+          "source_id": "src_015"
+        },
+        {
+          "characterization": "Trump stated Tehran requested a meeting in Doha",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_011",
+        "src_012",
+        "src_015",
+        "src_008",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Iran's foreign ministry spokesperson Esmaeil Baghaei stated that no negotiation meetings with the US were scheduled in the coming days and that Tehran had not yet entered the stage of negotiating a final agreement.",
+      "classification": "agreed",
+      "claim_group": "diplomatic_talks_dispute",
+      "rationale": "Left-leaning (Middle East Eye) and center (Euronews) outlets, as well as center-right (Ynet), all confirmed Iran's official denial of scheduled talks, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Iranian official flatly stated 'No talks between Iran and the US are scheduled in the coming days'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Iran's foreign ministry disputed the connection between delegations visiting Doha",
+          "source_id": "src_015"
+        },
+        {
+          "characterization": "Iran stressed the delegation visit would not constitute negotiations with Washington",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006",
+        "src_011",
+        "src_015",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Iran's deputy foreign minister Kazem Gharibabadi stated that reports by some media outlets about technical talks by working groups being held in Doha were not confirmed.",
+      "classification": "agreed",
+      "claim_group": "diplomatic_talks_dispute",
+      "rationale": "Both center (Euronews) and center-right (Times of Israel) outlets reported Gharibabadi's denial of confirmed technical talks, providing cross-spectrum agreement on the fact of his statement.",
+      "framing_variants": [
+        {
+          "characterization": "Iran denied confirmation of talks via senior negotiator Gharibabadi",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Gharibabadi said technical talks would occur only when all conditions are met and consultations continue through intermediaries",
+          "source_id": "src_012"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_011",
+        "src_012"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Whether Iran requested a meeting in Doha is disputed: Trump and White House officials characterized Iran as having requested the meeting, while Iranian officials stated no such talks were scheduled and their delegation's visit to Doha was unrelated to US officials.",
+      "classification": "corroborated",
+      "claim_group": "diplomatic_talks_dispute",
+      "rationale": "US and Iranian officials gave directly contradictory accounts of whether Iran requested the meeting and whether talks were planned, with neither side acknowledging the other's characterization as accurate.",
+      "framing_variants": [
+        {
+          "characterization": "White House confirmed high-level meetings with Witkoff and Kushner attending",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Iranian officials said delegation visit 'has no relation to US officials visiting the country'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Iran's foreign ministry directly disputed the connection between the two delegations",
+          "source_id": "src_015"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_011",
+        "src_012",
+        "src_015",
+        "src_006",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "White House spokeswoman Karoline Leavitt confirmed that Trump envoys Steve Witkoff and Jared Kushner would travel to Doha for high-level meetings, with technical talks on the sidelines.",
+      "classification": "agreed",
+      "claim_group": "diplomatic_talks_dispute",
+      "rationale": "Center (Reuters, Euronews) and center-right (Times of Israel) outlets all confirmed the White House announcement about Witkoff and Kushner traveling to Doha, giving this cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Leavitt described meetings as 'high-level' with technical talks on the sidelines",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Leavitt told Fox News the delegation would include Trump's envoy and his son-in-law Kushner",
+          "source_id": "src_015"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_011",
+        "src_015"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Iran confirmed a technical expert delegation would travel to Doha later in the week to discuss implementation of the Memorandum of Understanding signed with the United States.",
+      "classification": "agreed",
+      "claim_group": "diplomatic_talks_dispute",
+      "rationale": "Multiple left and center outlets confirmed Iran's own announcement of an expert delegation visiting Doha for MOU implementation discussions, though Iran stressed this was not a negotiation with the US.",
+      "framing_variants": [
+        {
+          "characterization": "Iran announced delegation would discuss 'implementation of clauses of the memorandum'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Iranian official stressed delegation visit had 'no relation to US officials visiting the country'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Iran stressed the visit would not constitute negotiations with Washington",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "A US-Iran framework agreement was signed on or around June 17–18, 2026, committing both sides to negotiate a final deal within 60 days covering Iran's nuclear programme, sanctions relief, and the long-term status of the Strait of Hormuz.",
+      "classification": "agreed",
+      "claim_group": "diplomatic_framework",
+      "rationale": "Sources spanning left (Middle East Eye), center-left (The Guardian), and center (Euronews) all confirmed the framework was signed in mid-June 2026 with a 60-day negotiating window, giving cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Framework signed on 17 June while Trump dined with Macron at Versailles and Pezeshkian signed in Tehran",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "Referred to as 'memorandum of understanding signed with Washington on 18 June'",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "60-day framework covering nuclear programme, sanctions relief, and Strait of Hormuz status",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_011",
+        "src_012",
+        "src_007",
+        "src_001",
+        "src_015"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "An Iranian drone struck the Panama-flagged crude tanker M/T Kiku near the Strait of Hormuz on Saturday.",
+      "classification": "agreed",
+      "claim_group": "military_operations",
+      "rationale": "Center (Euronews) and center-left (The Guardian) outlets all reported the Iranian drone strike on the M/T Kiku, providing cross-spectrum corroboration of this specific incident.",
+      "framing_variants": [
+        {
+          "characterization": "Described as 'Iranian drone attack on Saturday on the M/T Kiku, a Panama-flagged crude oil tanker heading to Fujairah in the UAE'",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "Referred to as 'the drone attack that the US attributed to Iran,' noting US attribution",
+          "source_id": "src_014"
+        },
+        {
+          "characterization": "Described as Iran targeting a cargo ship in the strait with a drone attack",
+          "source_id": "src_015"
+        }
+      ],
+      "supported_by": [
+        "src_011",
+        "src_012",
+        "src_014",
+        "src_015"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "US Central Command struck 10 Iranian military targets in or near the Strait of Hormuz in response to the tanker attack, including surveillance infrastructure, air defense sites, drone storage facilities, and minelaying capabilities.",
+      "classification": "agreed",
+      "claim_group": "military_operations",
+      "rationale": "Center (Euronews) and center-left (The Guardian) outlets confirmed US CENTCOM's retaliatory strikes on 10 Iranian targets, with consistent detail on target types across sources.",
+      "framing_variants": [
+        {
+          "characterization": "CENTCOM said it attacked 10 Iranian targets over 'continued Iranian aggression against commercial shipping'",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "Described as 'retaliatory strikes' against Iranian military infrastructure",
+          "source_id": "src_015"
+        },
+        {
+          "characterization": "Detailed target types: surveillance infrastructure, air defence sites, drone storage facilities, minelaying capabilities",
+          "source_id": "src_014"
+        }
+      ],
+      "supported_by": [
+        "src_011",
+        "src_012",
+        "src_014",
+        "src_015"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Iran retaliated by launching ballistic missiles and drones targeting US military bases, including the US Fifth Fleet headquarters at Salman Port in Bahrain and the Ali Al Salem Air Base in Kuwait.",
+      "classification": "agreed",
+      "claim_group": "military_operations",
+      "rationale": "Multiple center and center-left sources confirmed Iran's retaliatory strikes on US bases in Bahrain and Kuwait, with consistent identification of specific targets.",
+      "framing_variants": [
+        {
+          "characterization": "Iran said it retaliated, targeting the US Fifth Fleet headquarters and Ali Al Salem Air Base",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "IRGC said it launched 'a joint missile and drone operation targeting eight US military sites in Kuwait and Bahrain'",
+          "source_id": "src_015"
+        },
+        {
+          "characterization": "Described as Tehran launching ballistic missiles and drones at specific named US bases",
+          "source_id": "src_014"
+        }
+      ],
+      "supported_by": [
+        "src_011",
+        "src_012",
+        "src_014",
+        "src_015"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Both Kuwait and Bahrain denounced the Iranian attacks on their territory.",
+      "classification": "corroborated",
+      "claim_group": "military_operations",
+      "rationale": "Two Euronews articles (both center-rated) reported Kuwait and Bahrain's denunciations, but no cross-spectrum confirmation is available.",
+      "framing_variants": [
+        {
+          "characterization": "Both Kuwait and Bahrain denounced the Iranian attacks",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "Bahrain's Interior Ministry said Iranian strikes damaged a residential building near Bahrain International Airport",
+          "source_id": "src_014"
+        }
+      ],
+      "supported_by": [
+        "src_012",
+        "src_014"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Both sides agreed to stand down following the exchange of retaliatory strikes.",
+      "classification": "agreed",
+      "claim_group": "military_operations",
+      "rationale": "Center (Euronews) and center-right (Ynet, Arutz Sheva, i24) sources all reported a mutual stand-down or halt-strikes agreement, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "'Both sides have since agreed to stand down'",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Described as the US and Iran agreeing to 'pause strikes'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reported as the US and Iran agreeing 'to halt strikes'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_011",
+        "src_004",
+        "src_005",
+        "src_018"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "The IRGC announced that US strikes violated Clause 1 of the Islamabad Memorandum of Understanding and warned that further violations would result in a crushing response.",
+      "classification": "corroborated",
+      "claim_group": "military_operations",
+      "rationale": "Two center-rated Euronews articles reported the IRGC's claim of MOU violation and escalatory warning, but no cross-spectrum source independently confirmed this claim.",
+      "framing_variants": [
+        {
+          "characterization": "IRGC said violation would result in 'a total halt of all processes' and 'crushing response'",
+          "source_id": "src_014"
+        },
+        {
+          "characterization": "IRGC said vessels violating measures 'would be dealt with more firmly than before'",
+          "source_id": "src_012"
+        }
+      ],
+      "supported_by": [
+        "src_014",
+        "src_012"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Iran's Foreign Minister Abbas Araghchi stated that the Strait of Hormuz would remain under Iran's full oversight for the next 30 days and that Tehran had sole responsibility for administering the waterway under the framework deal.",
+      "classification": "agreed",
+      "claim_group": "strait_of_hormuz_control",
+      "rationale": "Left (Middle East Eye), center-left (The Guardian), and center (Euronews) sources all confirmed Araghchi's claim of sole Iranian authority over the strait, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Araghchi stated 'The Strait of Hormuz remains under the total oversight and management of Iran through the 30 coming days'",
+          "source_id": "src_016"
+        },
+        {
+          "characterization": "Araghchi stated Tehran had 'sole responsibility for administering the waterway under the framework deal'",
+          "source_id": "src_014"
+        },
+        {
+          "characterization": "Araghchi warned that any 'new or separate arrangements' would 'lead to more complicated situations'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_014",
+        "src_016",
+        "src_012",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Iran's deputy foreign minister Gharibabadi stated that mine removal from the Strait of Hormuz is to be carried out solely by Iran under the Islamabad MOU, and that Iran does not permit France or other countries to conduct demining operations.",
+      "classification": "agreed",
+      "claim_group": "strait_of_hormuz_control",
+      "rationale": "Left (Middle East Eye) and center (Euronews) sources confirmed Gharibabadi's statement that only Iran is authorized to conduct demining under the agreement, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "'We fundamentally do not permit any such thing' — Iran's warning to France on demining",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Gharibabadi 'insisted only Iran was authorised to conduct them under the agreement'",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_009",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "French President Macron announced after meeting Oman's Sultan Haitham bin Tariq that France and Oman would cooperate with partners on clearing mines from the Strait of Hormuz to secure maritime routes and guarantee free passage.",
+      "classification": "agreed",
+      "claim_group": "international_response",
+      "rationale": "Left (Middle East Eye) and center-left (The Guardian) and center (Euronews) outlets all confirmed Macron's announcement of joint France-Oman demining cooperation, giving cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Macron framed cooperation as aimed at 'guaranteeing free and unconditional passage through the Strait of Hormuz'",
+          "source_id": "src_017"
+        },
+        {
+          "characterization": "Reported as the context that prompted Iran's deputy FM to issue a sharp rebuttal",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Macron and UK PM Starmer described as having 'a naval taskforce ready to set sail to police an agreement on freedom of navigation'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_017",
+        "src_009",
+        "src_011",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Iran warned France not to complicate the situation with its provocations, with Gharibabadi saying 'The situation is sensitive and complex. We strongly advise France not to complicate it further.'",
+      "classification": "agreed",
+      "claim_group": "international_response",
+      "rationale": "Left (Middle East Eye) and center (Euronews) both reported Gharibabadi's warning to France using nearly identical quotes, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Gharibabadi 'strongly advised France not to complicate it further with its provocations'",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Iran 'pushed back' against France's plan, calling the situation 'sensitive and complex'",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_009",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "The US Navy's Joint Maritime Information Center announced a formal widened shipping route near the Omani coast on Saturday, which Iran characterized as a direct challenge to its claimed sole authority over navigation in the strait.",
+      "classification": "corroborated",
+      "claim_group": "strait_of_hormuz_control",
+      "rationale": "Two Euronews (center) articles reported the US Navy's route announcement and Iran's characterization, but no cross-spectrum source independently confirmed the framing.",
+      "framing_variants": [
+        {
+          "characterization": "Euronews editorially described the route as 'a direct challenge to Iran's assertion of sole authority over navigation'",
+          "source_id": "src_014"
+        },
+        {
+          "characterization": "Described as a 'formal widened shipping route near the Omani coast' announced on Saturday",
+          "source_id": "src_012"
+        }
+      ],
+      "supported_by": [
+        "src_014",
+        "src_012"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Iran rejected the IMO-proposed southern shipping route near the Omani coast, and an Iranian attack on a Singaporean ship transiting the southern route on Thursday led the IMO to abandon the plan.",
+      "classification": "single_source",
+      "claim_group": "strait_of_hormuz_control",
+      "rationale": "Only The Guardian reported that Iran specifically rejected the IMO southern route proposal and that the attack on a Singaporean ship caused the IMO to abandon the plan; no other source in the cluster corroborates this specific detail.",
+      "framing_variants": [
+        {
+          "characterization": "Iran's rejection of the IMO southern route and the Singaporean ship attack are presented as the sequence of events leading to the route plan's abandonment",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Oman developed a detailed plan over two months for strait management in which littoral states would receive income from commercial shipping through voluntary contributions or payments for specific navigational services, avoiding direct tolls prohibited under international law.",
+      "classification": "single_source",
+      "claim_group": "strait_of_hormuz_control",
+      "rationale": "Only The Guardian reported the specifics of Oman's legal framework for strait management, including the voluntary contribution model and international law provisions (Articles 26 and 43 of UNCLOS).",
+      "framing_variants": [
+        {
+          "characterization": "Described as 'a solution that has been worked up in considerable legal detail by Oman over the past two months' to navigate the prohibition on charging for mere passage",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Oman's foreign minister Badr al-Busaidi said discussions were underway with Iran on charging service fees for transiting the strait, while clarifying that Oman would not explicitly charge tolls.",
+      "classification": "corroborated",
+      "claim_group": "strait_of_hormuz_control",
+      "rationale": "Center-left (The Guardian) sources from two separate articles both confirmed al-Busaidi's statement about service fee discussions with Iran while distinguishing fees from tolls.",
+      "framing_variants": [
+        {
+          "characterization": "Al-Busaidi quoted as saying 'discussions are currently under way with the Iranian side concerning them'",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "Oman 'was in discussions with Iran on charging service fees for transiting the strait' but would not explicitly charge tolls",
+          "source_id": "src_015"
+        }
+      ],
+      "supported_by": [
+        "src_007",
+        "src_015"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Maritime data showed a sharp drop in vessel crossings of the Strait of Hormuz — from 29 ships on Saturday to 12 on Sunday — with no ships using the southern Omani corridor.",
+      "classification": "corroborated",
+      "claim_group": "maritime_situation",
+      "rationale": "Two sources — Times of Israel (center-right) and Euronews (center) — both reported the specific Kpler traffic figures, giving same-side corroboration but not cross-spectrum agreement as both sources are center-to-right.",
+      "framing_variants": [
+        {
+          "characterization": "Maritime data firm Kpler reported 29 vessels on Saturday falling to 12 on Sunday; AXSMarine found 44 had stopped transmitting positions",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "29 commodity vessels crossed Saturday, 12 on Sunday, compared to 70 on Wednesday",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Commercial ships virtually ceased using the southern Omani corridor after civilian ships were struck on Thursday and Saturday.",
+      "classification": "agreed",
+      "claim_group": "maritime_situation",
+      "rationale": "Center-left (The Guardian) and center (Euronews) outlets both reported the effective cessation of commercial shipping through the southern Omani corridor following the attacks.",
+      "framing_variants": [
+        {
+          "characterization": "Described as ships 'virtually ceased' using the corridor 'after civilian ships were struck on Thursday and then again on Saturday'",
+          "source_id": "src_015"
+        },
+        {
+          "characterization": "'No ships used the southern Omani corridor'",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_015",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "A UN-led operation to evacuate approximately 11,000 seafarers was suspended after a vessel was struck in the Gulf of Oman.",
+      "classification": "single_source",
+      "claim_group": "maritime_situation",
+      "rationale": "Only the Times of Israel reported the suspension of the UN-led seafarer evacuation operation, making this a single-source claim.",
+      "framing_variants": [
+        {
+          "characterization": "A UN-led operation to evacuate 11,000 seafarers was suspended after a vessel was struck in the Gulf of Oman",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "Iranian President Masoud Pezeshkian stated that Qatar would release $6 billion out of approximately $12 billion in frozen Iranian assets as part of the deal signed with the US.",
+      "classification": "agreed",
+      "claim_group": "diplomatic_framework",
+      "rationale": "Center-right (Times of Israel) and center-left (The Guardian) both reported Pezeshkian's statement about the $6 billion asset release, providing cross-spectrum corroboration of his claim.",
+      "framing_variants": [
+        {
+          "characterization": "Pezeshkian called the interim deal 'a great victory for the Iranian people'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Pezeshkian 'told state media' about the asset release, framing it as a presidential announcement",
+          "source_id": "src_015"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_015"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "US officials stated that no frozen Iranian assets had been released, and Qatar did not acknowledge any transfer of frozen assets.",
+      "classification": "agreed",
+      "claim_group": "diplomatic_framework",
+      "rationale": "Center-right (Times of Israel) and center-left (The Guardian) both confirmed the US position that no assets had been released, directly contradicting Pezeshkian's claim.",
+      "framing_variants": [
+        {
+          "characterization": "US officials said no frozen Iranian assets have been released so far; Qatar has not acknowledged any transfer",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "US officials stated 'no frozen Iranian assets had been released'",
+          "source_id": "src_015"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_015"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "Whether frozen Iranian assets have been released is disputed: Iran's president characterized a $6 billion release as underway, while US officials and Qatar stated no assets had been transferred.",
+      "classification": "corroborated",
+      "claim_group": "diplomatic_framework",
+      "rationale": "Iranian and US officials gave directly contradictory accounts of whether frozen assets had been released, with Qatar declining to confirm Iran's account.",
+      "framing_variants": [
+        {
+          "characterization": "Pezeshkian characterized the release as a fact; US officials characterized it as not having occurred",
+          "source_id": "src_015"
+        },
+        {
+          "characterization": "Iran's president called the deal a 'great victory' while the US flatly denied any asset release",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_015"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-06-30T06:55:32.342761+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Following an exchange of military strikes in the Strait of Hormuz, the United States and Iran publicly disputed whether high-level talks were scheduled in Doha. President Trump announced on Truth Social that Iran had requested a meeting and that talks would take place in Doha on Tuesday. Iran's foreign ministry spokesperson Esmaeil Baghaei stated that no negotiation meetings with the US were scheduled in the coming days and that Tehran had not yet entered the stage of negotiating a final agreement. Iran's deputy foreign minister Kazem Gharibabadi added that reports of technical talks by working groups being held in Doha were not confirmed.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_011",
+            "src_012",
+            "src_015",
+            "src_008",
+            "src_013",
+            "src_001",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "White House spokeswoman Karoline Leavitt confirmed that Trump envoys Steve Witkoff and Jared Kushner would travel to Doha for high-level meetings, with technical talks on the sidelines. Iran separately confirmed that a technical expert delegation would travel to Doha later in the week to discuss implementation of the Memorandum of Understanding signed with the United States, though Iranian officials stressed this was not a negotiation with the US.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_011",
+            "src_015",
+            "src_001",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The immediate dispute occurred against the backdrop of a framework agreement signed between the US and Iran on or around June 17–18, 2026, which committed both sides to negotiate a final deal within 60 days covering Iran's nuclear programme, sanctions relief, and the long-term status of the Strait of Hormuz. The 60-day negotiating window established by the framework remained under pressure as both sides navigated competing interpretations of their commitments.",
+        "supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_011",
+            "src_012",
+            "src_007",
+            "src_001",
+            "src_015"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The diplomatic tensions followed a rapid military escalation in late June. An Iranian drone struck the Panama-flagged crude tanker M/T Kiku near the Strait of Hormuz on Saturday. In response, US Central Command struck 10 Iranian military targets in or near the Strait of Hormuz, including surveillance infrastructure, air defense sites, drone storage facilities, and minelaying capabilities. Iran retaliated by launching ballistic missiles and drones targeting US military bases, including the US Fifth Fleet headquarters at Salman Port in Bahrain and the Ali Al Salem Air Base in Kuwait.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_011",
+            "src_012",
+            "src_014",
+            "src_015"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Both sides agreed to stand down following the exchange of retaliatory strikes. Commercial ships virtually ceased using the southern Omani corridor after civilian ships were struck on Thursday and Saturday. Maritime data showed a sharp drop in vessel crossings of the Strait of Hormuz — from 29 ships on Saturday to 12 on Sunday — with no ships using the southern Omani corridor.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_023",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_011",
+            "src_004",
+            "src_005",
+            "src_018",
+            "src_015",
+            "src_002"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Iran's Foreign Minister Abbas Araghchi stated that the Strait of Hormuz would remain under Iran's full oversight for the next 30 days and that Tehran had sole responsibility for administering the waterway under the framework deal. Iran's deputy foreign minister Gharibabadi stated that mine removal from the Strait of Hormuz is to be carried out solely by Iran under the Islamabad MOU, and that Iran does not permit France or other countries to conduct demining operations. \"The situation is sensitive and complex. We strongly advise France not to complicate it further,\" Gharibabadi said in a warning to France.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_014",
+            "src_016",
+            "src_012",
+            "src_007",
+            "src_009",
+            "src_011"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "French President Macron announced after meeting Oman's Sultan Haitham bin Tariq that France and Oman would cooperate with partners on clearing mines from the Strait of Hormuz to secure maritime routes and guarantee free passage. The announcement created a direct contradiction with Iran's stated position that only Iran is authorized to conduct demining operations under the framework agreement.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_017",
+            "src_009",
+            "src_011",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Iranian President Masoud Pezeshkian stated that Qatar would release $6 billion out of approximately $12 billion in frozen Iranian assets as part of the deal signed with the US. US officials stated that no frozen Iranian assets had been released, and Qatar did not acknowledge any transfer of frozen assets.",
+        "supports": {
+          "claim_ids": [
+            "clm_025",
+            "clm_026"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_015"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The characterization of who initiated the Doha talks differed between Washington and Tehran. Trump and White House officials characterized Iran as having requested the meeting, while Iranian officials stated no such talks were scheduled and emphasized that their delegation's visit to Doha was unrelated to US officials. Both sides' public statements acknowledged the same movements of personnel to Doha while attributing different purposes and initiatives to those movements.",
+        "supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_011",
+            "src_012",
+            "src_015",
+            "src_006",
+            "src_001"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Center-rated outlets reported that Kuwait and Bahrain denounced the Iranian attacks on their territory. The same outlets reported that the IRGC announced US strikes violated Clause 1 of the Islamabad Memorandum of Understanding and warned that further violations would result in a crushing response.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_012",
+            "src_014"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Center-rated outlets reported that the US Navy's Joint Maritime Information Center announced a formal widened shipping route near the Omani coast on Saturday, which Iran characterized as a direct challenge to its claimed sole authority over navigation in the strait. Center-left outlets reported that Oman's foreign minister Badr al-Busaidi said discussions were underway with Iran on charging service fees for transiting the strait, while clarifying that Oman would not explicitly charge tolls.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_014",
+            "src_012",
+            "src_007",
+            "src_015"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Guardian reported that Iran rejected the IMO-proposed southern shipping route near the Omani coast, and that an Iranian attack on a Singaporean ship transiting the southern route on Thursday led the IMO to abandon the plan. The Guardian also reported that Oman developed a detailed plan over two months for strait management in which littoral states would receive income from commercial shipping through voluntary contributions or payments for specific navigational services, avoiding direct tolls prohibited under international law.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_007"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Times of Israel reported that a UN-led operation to evacuate approximately 11,000 seafarers was suspended after a vessel was struck in the Gulf of Oman.",
+        "supports": {
+          "claim_ids": [
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}
