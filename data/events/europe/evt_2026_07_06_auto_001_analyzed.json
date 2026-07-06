@@ -1,0 +1,874 @@
+{
+  "schema_version": "0.4",
+  "event": {
+    "cluster_id": "evt_2026_07_06_auto_001",
+    "beat": "europe",
+    "title": "Ukraine Strikes St Petersburg Oil Terminal and Kronstadt; Russia Claims Capture of Kostiantynivka",
+    "summary": "Ukrainian drones struck an oil terminal in St Petersburg and port infrastructure across the wider region overnight on 4 July 2026, with President Zelenskyy confirming the attacks. Separately, Russia claimed its forces had captured the eastern Ukrainian city of Kostiantynivka in Donetsk, a claim Ukraine flatly denied.",
+    "date": "2026-07-04",
+    "generated_at": "2026-07-06T15:41:09.019592+00:00",
+    "image_attempted_at": "2026-07-06T15:41:54.676075+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbWZva0JYYVNSNzdGQTktVVVGdV8wVllBbXp5cUtEQ3B3Y214NWtFejhTT0RuSUxfZnhNSzVLOVBqUlpROEhaYU16TXc4SWFwbEJ4Y0tveWppSUhxVExHUHNlWS00UnNzSjgyRE9sRTBydUg0ZGFWZGdmQWdJM1ZNVElJaGhVcjdpek43eTdqbDJRMC02SEx3cw?oc=5",
+      "author": null,
+      "published_at": "2026-07-04T10:32:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Telegraph Media Group; control passed to RedBird Capital Partners (US investment firm) in 2025 after the RedBird IMI ownership dispute.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Deutsche Welle (DW)",
+      "url": "https://www.dw.com/en/ukraine-strikes-oil-terminals-near-st-petersburg-in-russia/a-77830574?maca=en-rss-en-all-1573-xml-mrss",
+      "author": null,
+      "published_at": "2026-07-04T17:48:00+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-04T18:41:25+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/04/ukrainian-drones-hit-st-petersburg-oil-terminal-and-nearby-port",
+      "author": "Nadeem Badshah",
+      "published_at": "2026-07-04T19:09:06+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Nadeem Badshah is a London-based reporter for The Guardian who covers crime, policing, and social issues in the UK.",
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Ukrainian drones struck an oil terminal in St Petersburg overnight, confirmed by both Ukrainian President Zelenskyy and St Petersburg Governor Beglov.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Sources spanning center-right (The Telegraph), center (DW), and center-left (BBC, The Guardian) all confirm the strike on the oil terminal, corroborated by both Ukrainian and Russian official statements.",
+      "framing_variants": [
+        {
+          "characterization": "The Telegraph headlines it as 'Ukraine strikes St Petersburg oil terminal,' framing it as a Ukrainian action.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "DW frames it as confirmed by the local governor as a factual event, noting the governor's 'large-scale' drone attack description.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC attributes confirmation to Zelenskyy and separately notes the BBC verified the strike independently; also reports Beglov 'admitted' the terminal was hit.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian states plainly that Ukraine 'hit its oil terminal and port infrastructure in the wider region.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "St Petersburg Governor Alexander Beglov described the attack as a 'large-scale' (also reported as 'massive') drone attack and said there were no casualties.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Three outlets across center and center-left tiers all report Beglov's no-casualty statement and his characterization of the attack's scale, using slightly different adjectives ('large-scale' vs 'massive').",
+      "framing_variants": [
+        {
+          "characterization": "DW quotes Beglov using the term 'large-scale' drone attack with no casualties.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC reports Beglov described it as a 'massive' drone attack and 'admitted' the oil terminal was hit, with no casualties.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian quotes Beglov using 'large-scale' and reports no casualties; adds that 'the aftermath of the attack had been dealt with.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Zelenskyy confirmed Ukraine carried out the attacks, describing them as 'long-range sanctions' targeting port oil infrastructure that generates revenue for Russia's war effort.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Zelenskyy's confirmation and stated rationale is reported across center (DW) and center-left (BBC, The Guardian) outlets, spanning different tiers.",
+      "framing_variants": [
+        {
+          "characterization": "DW notes Zelenskyy confirmed Ukraine carried out attacks on port oil infrastructure generating war revenue.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC attributes the confirmation to Zelenskyy's statement and includes a video he posted showing a drone strike and black smoke.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian quotes Zelenskyy calling the strikes part of Ukraine's 'long-range sanctions' against Russia.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Ukraine stated its justification for targeting Russian oil and gas facilities is that Moscow relies heavily on fossil fuel exports to finance its full-scale invasion.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both BBC (center-left) and The Guardian (center-left) report Ukraine's stated rationale; however, both are center-left outlets. Noting as corroborated rather than agreed due to same-side sourcing.",
+      "framing_variants": [
+        {
+          "characterization": "BBC states Ukraine says Russian oil and gas facilities are 'legitimate targets' as Moscow relies on fossil fuel exports to finance its invasion.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian describes the campaign as 'long-range sanctions' in Zelenskyy's framing, aimed at infrastructure generating war revenue.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Ukraine also claimed it struck Kronstadt, a major Russian Baltic Fleet naval base near St Petersburg, described as being more than 850 km from Ukraine's border; Russia did not publicly confirm this claim.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Three outlets across center and center-left tiers all report Ukraine's claim about Kronstadt and note the absence of Russian confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "DW notes Zelenskyy said Ukraine hit Kronstadt as 'an important military target' more than 850 km from Ukraine's border.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC reports Ukraine 'said it hit a key naval base of the Russian Baltic Fleet in Kronstadt' and that 'Russia has not publicly commented on the claim.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian notes there was 'no Russian confirmation of a strike on Kronstadt, a major naval base near St Petersburg that Ukraine also targeted in an attack last month.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Drones also struck the port of Vysotsk, approximately 170 km northwest of St Petersburg on the Gulf of Finland / Baltic Sea, per Leningrad region governor Alexander Drozdenko; the port handles oil, grain, coal, and liquefied natural gas.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both DW (center) and The Guardian (center-left) report Drozdenko's account of the Vysotsk port strike and its cargo types, spanning different bias tiers.",
+      "framing_variants": [
+        {
+          "characterization": "DW quotes Drozdenko as governor of the Leningrad region, describing Vysotsk as 170 km northwest of St Petersburg on the Gulf of Finland.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian similarly cites Drozdenko and places Vysotsk 'on the Baltic Sea,' listing the port's cargo types.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Russian officials reported that 72 drones were shot down over the Leningrad region during the attack.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Three outlets across center and center-left tiers all report the 72 drone shoot-down figure from Russian regional officials.",
+      "framing_variants": [
+        {
+          "characterization": "DW attributes the figure to Leningrad governor Drozdenko.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC attributes the figure to St Petersburg Governor Beglov and says it covers St Petersburg and the wider Leningrad region.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian attributes the 72 figure to Drozdenko (Leningrad region governor) and adds there was 'minor damage in several settlements.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The Russian Defence Ministry reported intercepting between 389 and more than 500 Ukrainian combat drones and missiles overnight and into the morning across Russia.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both DW and BBC report Russian Defence Ministry interception figures, though the exact figures differ slightly (389 drones in DW; 500+ drones and missiles in BBC), reflecting different reporting windows or tallies. Both are outlets that do not span contrasting political tiers.",
+      "framing_variants": [
+        {
+          "characterization": "DW reports the Russian Defence Ministry said 389 Ukrainian combat drones had been intercepted overnight across the country.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC reports the Russian defence ministry said it had shot down 'more than 500 Ukrainian drones and missiles launched overnight and in the morning.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The Ukrainian military described the St Petersburg oil terminal as one of the largest in Russia, capable of producing 12.5 million tonnes of petroleum products per year.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC reports this specific production capacity figure and 'one of the largest' description attributed to Ukraine's military.",
+      "framing_variants": [
+        {
+          "characterization": "BBC attributes the description and 12.5 million tonne annual capacity figure to Ukraine's military.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Finland imposed temporary aviation and maritime restrictions in the eastern Gulf of Finland due to the Ukrainian drone attacks.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only DW reports Finland's aviation and maritime restrictions, citing Finnish public broadcaster Yle.",
+      "framing_variants": [
+        {
+          "characterization": "DW, citing Finland's public broadcaster Yle, reports temporary aviation and maritime restrictions in the eastern Gulf of Finland.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Russia claimed its forces had taken control of the eastern Ukrainian city of Kostiantynivka in Donetsk; Ukraine denied this, insisting its forces remain in control and are conducting active defensive operations.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "territorial_control",
+      "rationale": "Russia's military told Putin its forces had taken Kostiantynivka; Zelenskyy and Ukraine's General Staff flatly denied this, calling it 'another Russian lie.' All three outlets report both sides of this direct actor dispute.",
+      "framing_variants": [
+        {
+          "characterization": "DW reports Russia said forces have taken Kostiantynivka and Putin called it a 'strategic achievement'; also reports Zelenskyy called it 'just another Russian lie' and the Ukrainian General Staff said defensive operations continue.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC reports Putin said 'Russian control had been established over the town in June' and 'provided no evidence'; quotes Ukrainian military spokesman Kovalyov saying the city 'remains under the control of the Defence Forces of Ukraine' while admitting 'cases of infiltration by small infantry groups.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian reports Russia's military told Putin its forces had taken the city; Zelenskyy called it 'just another Russian lie'; Ukraine's general staff said the city 'remained under the control of Ukrainian forces.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Putin characterised Russia's advance on Kostiantynivka as a 'strategic achievement,' calling the city a key transport and industrial centre of Donbas; General Staff Chief Gerasimov described it as part of a wider effort to secure all of Donetsk.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "territorial_control",
+      "rationale": "DW and The Guardian both report Putin's characterisation and Gerasimov's stated broader objective, though both are from center or center-left tiers.",
+      "framing_variants": [
+        {
+          "characterization": "DW quotes Putin calling Kostiantynivka a 'key transport and large industrial centre of Donbas' and Gerasimov framing the advance as part of securing all of Donetsk.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian notes Putin 'dismissed the strikes on energy facilities as not critical' and separately references Russia's longstanding goal of capturing Kostiantynivka.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Zelenskyy challenged Putin to meet him in Kostiantynivka to find diplomatic solutions if the city is truly under Russian control.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "territorial_control",
+      "rationale": "Only BBC reports Zelenskyy's Telegram challenge to Putin to meet in Kostiantynivka.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes Zelenskyy's Telegram post inviting Putin to meet him in Kostiantynivka to pursue diplomatic solutions, framing it as a pointed challenge to Putin's claim.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Kostiantynivka is described as the southernmost of four key settlements forming a defensive line central to Ukraine's effort to hold the remaining part of the Donetsk region.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "territorial_control",
+      "rationale": "Only The Guardian provides this specific strategic description of Kostiantynivka's position within Ukraine's 'fortress belt' system.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian describes Kostiantynivka as the southernmost of four key settlements forming a defensive line, framing it as central to Ukraine's hold on the heavily industrialised Donetsk region.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Russia's Defence Ministry claimed it had captured five villages in eastern Ukraine: Shyikivka, Novyi Myr, Cherneshchyna, and Druzhelyubivka in Kharkiv region, and Vasylivka in Donetsk region.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "territorial_control",
+      "rationale": "Only The Guardian reports Russia's claim to have captured these five specific villages.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian lists the five villages as claimed by Russia's defence ministry without independent verification.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Ukraine has intensified long-range drone strikes on Russian energy infrastructure in 2026, causing significant damage to refineries and contributing to fuel shortages across Russia.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "BBC (center-left) and The Guardian (center-left) both report the intensified campaign and its effects; both are same-side outlets, making this corroborated rather than agreed.",
+      "framing_variants": [
+        {
+          "characterization": "BBC says Ukraine has 'intensified its long-range drone attacks on Russia's critical energy infrastructure,' causing 'widespread fuel shortages,' and notes Ukraine claims 43% of Russia's oil refining capacity has been disabled (unverified by BBC).",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian says Ukraine has 'intensified strikes on Russian energy infrastructure this year, inflicting heavy damage on refineries and causing petrol shortages across the country's 11 time zones.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Ukraine claims nearly 43% of Russia's oil refining capacity has been disabled as a result of its drone strikes; the BBC stated it could not independently verify this figure.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC reports Ukraine's specific 43% figure and explicitly notes it could not independently verify it.",
+      "framing_variants": [
+        {
+          "characterization": "BBC attributes the 43% claim to Kyiv but flags it as unverified, treating it as a Ukrainian claim rather than an established fact.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Putin made a rare admission that fuel shortages had been caused by Ukrainian attacks, and on Saturday signed a bill into law aimed at boosting domestic fuel supplies.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only BBC reports Putin's admission about fuel shortages and his signing of the domestic fuel supply bill.",
+      "framing_variants": [
+        {
+          "characterization": "BBC describes Putin's acknowledgment as a 'rare admission' and frames the legislation as a direct response to the damage caused by Ukrainian strikes.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The Russian Defence Ministry characterised the Ukrainian drone attacks as an attempt to distract attention from a major Russian strike on Kyiv on 2 July and from what it called a 'catastrophic failure' of Ukrainian forces in Kostiantynivka, and said Ukrainian attacks on Russian civilian facilities 'will not go unanswered.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only BBC reports the Russian Defence Ministry's specific characterisation of the Ukrainian attacks as a distraction and the ministry's warning of retaliation.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports the Russian ministry's framing without endorsing it, presenting it as the ministry's stated rationale and threat.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Drone strikes elsewhere in Russia killed one person in Bryansk region and one person in Crimea, with several more wounded in both areas.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian reports the casualties in Bryansk region and Crimea from the broader overnight drone campaign.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports these casualties attributing them to the governors of Bryansk region and the Russian-installed governor of Crimea, contextualising the attack as nationwide in scope.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "The governor of Pskov region reported more than 30 drones shot down overnight, with minor damage and injuries including at a factory in Velikiye Luki.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian reports the Pskov regional governor's account of drone interceptions and damage.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports the Pskov governor's figures, noting both the drone shoot-downs and the specific injury location at a factory in Velikiye Luki.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Governor Beglov warned St Petersburg residents to stay indoors until the drone threat was over and cautioned that mobile internet services may have been disrupted.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC reports Beglov's specific public safety directives to residents.",
+      "framing_variants": [
+        {
+          "characterization": "BBC frames Beglov's public warnings as emergency guidance to a city of more than five million people.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "A NATO summit is scheduled for the following week in Turkey, with both sides seen as seeking to gain the upper hand ahead of it.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only BBC contextualises the military actions within the upcoming NATO summit in Turkey.",
+      "framing_variants": [
+        {
+          "characterization": "BBC frames both sides' actions as posturing ahead of the NATO summit, presenting this as an analytical observation.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "On Saturday, Putin sent US President Donald Trump a congratulatory note for 4 July celebrations, calling for 'constructive relations' between their countries.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only BBC reports Putin's congratulatory message to Trump on US Independence Day.",
+      "framing_variants": [
+        {
+          "characterization": "BBC notes the message alongside Putin's simultaneous visit to military commanders in fatigues, implicitly contrasting diplomatic outreach with military posturing.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "The attack on St Petersburg occurred weeks after Ukraine previously targeted the city on the opening day of an annual economic conference at which Putin was speaking.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only DW provides this specific historical context about the prior attack coinciding with the economic conference.",
+      "framing_variants": [
+        {
+          "characterization": "DW contextualises the attack as part of a pattern of Ukrainian strikes targeting St Petersburg during politically significant moments.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "Putin dismissed the strikes on Russian energy facilities as 'not critical.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian reports Putin's direct quote characterising the energy strikes as 'not critical.'",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports Putin's dismissal without endorsement, juxtaposing it against broader reporting on the damage caused.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Russia launched a full-scale invasion of Ukraine in February 2022, which remains ongoing.",
+      "sources": [
+        "src_003"
+      ]
+    },
+    {
+      "point": "Ukraine has been conducting a sustained campaign of long-range drone strikes against Russian energy infrastructure throughout 2026, targeting oil refineries and storage facilities to degrade Russia's capacity to finance its military operations.",
+      "sources": [
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Kronstadt is a major Russian Baltic Fleet naval base near St Petersburg that Ukraine had also previously targeted in a separate attack the month before this strike.",
+      "sources": [
+        "src_004"
+      ]
+    },
+    {
+      "point": "Kostiantynivka is one of several heavily fortified towns comprising Ukraine's 'fortress belt' in the Donetsk region, most of which is occupied by Russia; it forms part of a defensive line critical to Ukraine's hold on remaining Donetsk territory.",
+      "sources": [
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "A major Russian strike on Kyiv occurred on 2 July 2026, days before the St Petersburg attack.",
+      "sources": [
+        "src_003"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-06T15:41:33.050425+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Ukrainian drones struck an oil terminal in St Petersburg overnight on 4 July 2026, in what President Volodymyr Zelenskyy confirmed was a deliberate Ukrainian operation. St Petersburg Governor Alexander Beglov described the attack as 'large-scale' and reported no casualties. The strikes were part of a broader campaign targeting Russian energy infrastructure across multiple regions.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Zelenskyy characterized the attacks as 'long-range sanctions' targeting port oil infrastructure that generates revenue for Russia's war effort. Ukraine also claimed it struck Kronstadt, a major Russian Baltic Fleet naval base more than 850 km from Ukraine's border; Russia did not publicly confirm this claim. Additional strikes hit the port of Vysotsk, approximately 170 km northwest of St Petersburg on the Gulf of Finland, which handles oil, grain, coal, and liquefied natural gas.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Russian officials reported that 72 drones were shot down over the Leningrad region during the attack. The Russian Defence Ministry separately reported intercepting between 389 and more than 500 Ukrainian combat drones and missiles overnight and into the morning across Russia, though the exact figures varied by reporting window.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Ukraine has intensified long-range drone strikes on Russian energy infrastructure throughout 2026, causing significant damage to refineries and contributing to fuel shortages across Russia. Ukrainian officials stated their justification for targeting Russian oil and gas facilities is that Moscow relies heavily on fossil fuel exports to finance its invasion.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Center-left outlets reported that Ukraine claims nearly 43% of Russia's oil refining capacity has been disabled as a result of its drone strikes, though the BBC stated it could not independently verify this figure. The same outlets also reported that Putin made a rare admission that fuel shortages had been caused by Ukrainian attacks, and on Saturday signed a bill into law aimed at boosting domestic fuel supplies.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The BBC reported that the Ukrainian military described the St Petersburg oil terminal as one of the largest in Russia, capable of producing 12.5 million tonnes of petroleum products per year. Governor Beglov warned St Petersburg residents to stay indoors until the drone threat was over and cautioned that mobile internet services may have been disrupted.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The Guardian reported that drone strikes elsewhere in Russia killed one person in Bryansk region and one person in Crimea, with several more wounded in both areas. The governor of Pskov region reported more than 30 drones shot down overnight, with minor damage and injuries including at a factory in Velikiye Luki.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Deutsche Welle reported that Finland imposed temporary aviation and maritime restrictions in the eastern Gulf of Finland due to the Ukrainian drone attacks. The strikes on St Petersburg occurred weeks after Ukraine previously targeted the city on the opening day of an annual economic conference at which Putin was speaking.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Guardian quoted Putin dismissing the strikes on Russian energy facilities as 'not critical.' However, the Russian Defence Ministry characterized the Ukrainian drone attacks as an attempt to distract attention from a major Russian strike on Kyiv on 2 July and from what it called a 'catastrophic failure' of Ukrainian forces in Kostiantynivka, warning that Ukrainian attacks on Russian civilian facilities 'will not go unanswered.'",
+        "supports": {
+          "claim_ids": [
+            "clm_026",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Separately, Russia and Ukraine issued directly contradictory claims about control of Kostiantynivka, an eastern Ukrainian city in Donetsk. Russia's military told President Putin its forces had taken control of the city. Ukraine flatly denied this, with Zelenskyy and Ukraine's General Staff calling it 'another Russian lie' and insisting Ukrainian forces remain in control and are conducting active defensive operations.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Center and center-left outlets reported that Putin characterized Russia's claimed advance on Kostiantynivka as a 'strategic achievement,' calling the city a key transport and industrial centre of Donbas, while General Staff Chief Gerasimov described it as part of a wider effort to secure all of Donetsk.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Guardian described Kostiantynivka as the southernmost of four key settlements forming a defensive line central to Ukraine's effort to hold the remaining part of the Donetsk region. The BBC reported that Zelenskyy challenged Putin to meet him in Kostiantynivka to find diplomatic solutions if the city is truly under Russian control.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Guardian also reported that Russia's Defence Ministry claimed it had captured five villages in eastern Ukraine: Shyikivka, Novyi Myr, Cherneshchyna, and Druzhelyubivka in Kharkiv region, and Vasylivka in Donetsk region. Ukraine did not publicly comment on these claims.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "The BBC contextualized the military actions as occurring ahead of a NATO summit scheduled for the following week in Turkey, with both sides seen as seeking to gain the upper hand. On Saturday, Putin sent US President Donald Trump a congratulatory note for 4 July celebrations, calling for 'constructive relations' between their countries.",
+        "supports": {
+          "claim_ids": [
+            "clm_023",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}
