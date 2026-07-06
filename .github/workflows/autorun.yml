@@ -41,6 +41,28 @@ jobs:
             echo "::error::ANTHROPIC_API_KEY repo secret is not set (Settings → Secrets → Actions)."
             exit 1
           fi
+          # Surface obvious paste mistakes without exposing the key
+          echo "key length: ${#ANTHROPIC_API_KEY}"
+          case "$ANTHROPIC_API_KEY" in
+            sk-ant-*) echo "prefix ok (sk-ant-)";;
+            *) echo "::error::secret does not start with 'sk-ant-' — a prefix/quote/whitespace likely got pasted in.";;
+          esac
+
+      - name: Validate API key (fail fast, ~1s)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          code=$(curl -s -o /tmp/anthropic_resp.json -w "%{http_code}" https://api.anthropic.com/v1/messages \
+            -H "x-api-key: $ANTHROPIC_API_KEY" \
+            -H "anthropic-version: 2023-06-01" \
+            -H "content-type: application/json" \
+            -d '{"model":"claude-haiku-4-5-20251001","max_tokens":1,"messages":[{"role":"user","content":"ping"}]}')
+          echo "Anthropic API responded HTTP $code"
+          if [ "$code" != "200" ]; then
+            echo "::error::Anthropic API rejected the key (HTTP $code). The ANTHROPIC_API_KEY secret value is wrong — re-set it (Settings → Secrets and variables → Actions), pasting ONLY the key with no prefix/quotes/whitespace."
+            cat /tmp/anthropic_resp.json
+            exit 1
+          fi
 
       - uses: actions/checkout@v4
 
