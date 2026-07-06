@@ -1,0 +1,1141 @@
+{
+  "schema_version": "0.3",
+  "event": {
+    "cluster_id": "evt_2026_07_06_auto_001",
+    "beat": "israel_middle_east",
+    "title": "State Funeral of Iranian Supreme Leader Ali Khamenei",
+    "summary": "Iran held a multi-day state funeral for Supreme Leader Ali Khamenei, who was killed in February 2026 during a US-Israeli airstrike on a government residence in Tehran. The six-day, five-city funeral procession drew massive crowds and significant international attendance, while his son Mojtaba Khamenei was absent amid questions about his injuries.",
+    "date": "2026-07-04",
+    "generated_at": "2026-07-06T08:18:22.866813+00:00",
+    "image_attempted_at": "2026-07-06T08:19:00.248958+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C%D8%8C_%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%B4%D9%87%DB%8C%D8%A7%D8%AF%D8%8C_%D8%A8%D8%B1%D8%AC_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C%D8%8C_%D8%A8%D8%B1%D8%AC_%D8%B4%D9%87%DB%8C%D8%A7%D8%AF%D8%8C_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_Azadi_Tower%2C_Azadi_Square%2C_Meydea-e_Azadi%2C_Meydan-e_Shahyad%2C_Tehran_province%2C_Iran_Flag_colors_-_panoramio_%281%29.jpg/1280px-thumbnail.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C%D8%8C_%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%B4%D9%87%DB%8C%D8%A7%D8%AF%D8%8C_%D8%A8%D8%B1%D8%AC_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C%D8%8C_%D8%A8%D8%B1%D8%AC_%D8%B4%D9%87%DB%8C%D8%A7%D8%AF%D8%8C_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_Azadi_Tower%2C_Azadi_Square%2C_Meydea-e_Azadi%2C_Meydan-e_Shahyad%2C_Tehran_province%2C_Iran_Flag_colors_-_panoramio_%281%29.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C%D8%8C_%D9%85%DB%8C%D8%AF%D8%A7%D9%86_%D8%B4%D9%87%DB%8C%D8%A7%D8%AF%D8%8C_%D8%A8%D8%B1%D8%AC_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C%D8%8C_%D8%A8%D8%B1%D8%AC_%D8%B4%D9%87%DB%8C%D8%A7%D8%AF%D8%8C_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_Azadi_Tower,_Azadi_Square,_Meydea-e_Azadi,_Meydan-e_Shahyad,_Tehran_province,_Iran_Flag_colors_-_panoramio_(1).jpg",
+      "width": 1200,
+      "height": 900,
+      "caption": "Azadi Square in Tehran, Iran (file photo)",
+      "credit": "Mahdi Kalhor",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:میدان آزادی، میدان شهیاد، برج آزادی، برج شهیاد، تهران Azadi Tower, Azadi Square, Meydea-e Azadi, Meydan-e Shahyad, Tehran province, Iran Flag colors - panoramio (1).jpg",
+      "query": "Azadi Square Tehran",
+      "fetched_at": "2026-07-06T08:19:00.248862+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPck9CMXprVlItRHBCcnYydDN0Y0xTZzlBclp0cENaQW1NZUdzUDNTaFNCOVFQamlyeURsM3RnblI5enlqTXIwN2htWmZrSlF0UjRlYzRtOEZ1elp2dDlKaDlELURDeDFhdG9yakJCaEpHemR1RkFnZW1BMlRnVzNSdlVVeHp6MnlsWFNfMXhGdDNRWnJpSFRubk82TUxJYy1lMzdjbWVBaDlqZ2U5Z1FiV0ZLQ0dIb0Fjdk1GVTF6YnF2N0lvU3MwcVd3clR6b2hHbGVUeDdPRlNuSlEtNTVpQWRKMA?oc=5",
+      "author": null,
+      "published_at": "2026-07-04T07:38:53+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/video/2026/jul/04/mourners-gather-tehran-funeral-former-iranian-supreme-leader-ali-khamenei-video",
+      "author": null,
+      "published_at": "2026-07-04T11:15:20+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/03/ali-khamenei-six-day-funeral-millions-iran",
+      "author": "Patrick Wintour in Tehran",
+      "published_at": "2026-07-03T14:05:44+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Patrick Wintour is The Guardian's chief political commentator and former editor who has covered UK politics, elections, and international affairs throughout his career.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9LajVfSHBETFY1OUJFc2RhRC04cUVENnRkMGgteUNVWGFfUVYyRGYzaHZURzBHdF8wWUF3dlk1REozZU9vN0hmdTVYeDhIcGExbFAyUlFR?oc=5",
+      "author": null,
+      "published_at": "2026-07-04T04:51:40+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/video/2026/07/06/ali-khameneis-coffin-carried-through-the-streets-of-tehran",
+      "author": null,
+      "published_at": "2026-07-06T06:56:03+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/video/2026/07/04/iranians-mourn-as-khamenei-funeral-ceremonies-begin",
+      "author": null,
+      "published_at": "2026-07-04T09:23:52+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/04/crowds-gather-six-day-funeral-former-iranian-supreme-leader-ali-khamenei",
+      "author": "Patrick Wintour in Tehran",
+      "published_at": "2026-07-04T12:51:41+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Patrick Wintour is The Guardian's chief political commentator and former editor who has covered UK politics, elections, and international affairs throughout his career.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_008",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-578",
+      "author": "Mera Aladam",
+      "published_at": "2026-07-06T05:59:36+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_009",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/06/ali-khamenei-funeral-procession-iran-supreme-leader",
+      "author": "Patrick Wintour in Tehran",
+      "published_at": "2026-07-06T07:28:58+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Patrick Wintour is The Guardian's chief political commentator and former editor who has covered UK politics, elections, and international affairs throughout his career.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_010",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-state-media-says-millions-attending-former-supreme-leaders-funeral",
+      "author": "Mera Aladam",
+      "published_at": "2026-07-06T05:47:57+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_011",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/2026/07/03/iran-to-host-dozens-of-foreign-leaders-for-khameneis-funeral-with-western-nations-absent",
+      "author": null,
+      "published_at": "2026-07-03T12:46:57+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_012",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pictures-funeral-procession-irans-slain-supreme-leader-begins-tehran",
+      "author": "Mera Aladam",
+      "published_at": "2026-07-06T04:16:52+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_013",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/06/iran-middle-east-crisis-funeral-supreme-leader-ali-khamenei-tehran-latest-news-updates",
+      "author": "Olivia Konotey-Ahulu",
+      "published_at": "2026-07-06T07:53:31+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Ali Khamenei served as Iran's supreme leader for approximately 36–37 years before his death.",
+      "classification": "agreed",
+      "claim_group": "khamenei_background",
+      "rationale": "Multiple outlets across center-left and center tiers report the same figure, with minor variation of 36 vs. 37 years likely reflecting rounding differences rather than a substantive dispute.",
+      "framing_variants": [
+        {
+          "characterization": "37-year reign",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "36 turbulent years as Iran's supreme leader",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "who was killed aged 86",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_007",
+        "src_003",
+        "src_006",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Khamenei was killed on 28 February 2026, aged 86, in an airstrike on a government residence in Tehran, on the first day of the US-Israeli war with Iran.",
+      "classification": "agreed",
+      "claim_group": "khamenei_background",
+      "rationale": "Sources across center-left (The Guardian), center (Euronews), and center-right (i24, Ynet) tiers all confirm the date, age, and general circumstances of Khamenei's death.",
+      "framing_variants": [
+        {
+          "characterization": "Killed on 28 February in strikes on his residence in central Tehran",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Assassinated by Israeli jet planes",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "Killed by Israeli bombs in February in an attempt to destabilize and topple the government",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Killed during the first airstrike when the US and Israel started the current war",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006",
+        "src_007",
+        "src_011",
+        "src_002",
+        "src_013",
+        "src_009"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Multiple members of Khamenei's family were killed in the same airstrike, including his 14-month-old granddaughter, his eldest daughter, his son-in-law, and the wife of Mojtaba Khamenei.",
+      "classification": "agreed",
+      "claim_group": "khamenei_background",
+      "rationale": "Multiple outlets across center-left and center tiers confirm the family casualties; Euronews provides the most complete list including son-in-law, eldest daughter, 14-month-old granddaughter, and wife of Mojtaba.",
+      "framing_variants": [
+        {
+          "characterization": "Dead include son-in-law, eldest daughter, 14-month-old granddaughter, and wife of Mojtaba Khamenei",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "14-month-old granddaughter and three other family members killed",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Including his 14-month-old granddaughter",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_007",
+        "src_011",
+        "src_005",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Iran held a six-day state funeral for Khamenei spanning five cities, beginning with farewell ceremonies at Tehran's Grand Mosalla mosque.",
+      "classification": "agreed",
+      "claim_group": "funeral_logistics",
+      "rationale": "Sources from left, center-left, center, and center-right tiers all confirm the six-day, multi-city format beginning at the Grand Mosalla.",
+      "framing_variants": [
+        {
+          "characterization": "Six-day funeral ceremony with body lying in state for three days",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The scale of the six-day, five-city funeral",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "Iran announced a six-day funeral programme",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_006",
+        "src_007",
+        "src_011",
+        "src_005",
+        "src_013",
+        "src_012",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The funeral itinerary included ceremonies at Tehran's Grand Mosalla (Saturday–Sunday), a procession through Tehran (Monday), a stop in Qom (Tuesday), ceremonies in Najaf and Karbala in Iraq (Wednesday), and final burial in Mashhad (Thursday).",
+      "classification": "corroborated",
+      "claim_group": "funeral_logistics",
+      "rationale": "Multiple sources confirm the itinerary, though all are from center-left or left tiers; the schedule is internally consistent across these outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Six-day programme with Tehran, Qom, Najaf/Karbala, and Mashhad stops",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Body taken to Qom Tuesday, Iraq Wednesday, Mashhad Thursday for burial",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Ceremony begins Saturday in Tehran and ends with burial Thursday in Mashhad",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_011",
+        "src_008",
+        "src_012",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Khamenei will be buried in Mashhad, his birthplace, near the shrine of Imam Reza.",
+      "classification": "corroborated",
+      "claim_group": "funeral_logistics",
+      "rationale": "Multiple sources confirm the burial location; all are from center-left or center tiers.",
+      "framing_variants": [
+        {
+          "characterization": "Mashhad, near the shrine of Imam Reza, one of Shia Islam's holiest sites",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Buried at the Imam Reza shrine in Mashhad, where he was born",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_011",
+        "src_013",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The Monday funeral procession through central Tehran was expected to last 10–12 hours and ran from Revolution/Imam Hossein Square to Azadi Square.",
+      "classification": "corroborated",
+      "claim_group": "funeral_logistics",
+      "rationale": "Sources from left and center-left tiers confirm the 10–12 hour duration and the east-to-west route through central Tehran.",
+      "framing_variants": [
+        {
+          "characterization": "Throng moved from east to west, from Revolution Square to Azadi Square",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "6-mile procession from Imam Hossein Square to Azadi Square",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Procession expected to last 10 to 12 hours",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_009",
+        "src_008",
+        "src_012",
+        "src_003",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "At the request of Iraqi politicians, Khamenei's body was carried through the Shia holy cities of Karbala and Najaf in Iraq.",
+      "classification": "corroborated",
+      "claim_group": "funeral_logistics",
+      "rationale": "Multiple center-left and center sources confirm this element of the itinerary.",
+      "framing_variants": [
+        {
+          "characterization": "At the request of Iraqi politicians, body carried through Kerbala and Najaf",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Journey through several cities in Iran and neighbouring Iraq",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_007",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Iranian authorities ordered the closure of public and private offices in Tehran from Saturday to Monday, restricted private vehicles in the city centre, and progressively closed Tehran's airspace.",
+      "classification": "agreed",
+      "claim_group": "funeral_logistics",
+      "rationale": "Sources from center and left tiers confirm the various closures and restrictions implemented during the funeral period.",
+      "framing_variants": [
+        {
+          "characterization": "All public and private offices shut Saturday to Monday; airspace partly closed from Friday, fully closed Monday",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Iran will fully close Tehran's airspace on Monday per ISNA",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Daily life ground to a halt since national mourning began Saturday",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_011",
+        "src_008",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Iranian state media and officials reported that millions gathered in Tehran for the funeral procession; Iranian Press TV described it as the 'largest public gathering in the country's modern history.'",
+      "classification": "corroborated",
+      "claim_group": "funeral_attendance",
+      "rationale": "Multiple left and center-left outlets attribute the million-plus attendance figures to Iranian state media; the claim originates from official Iranian sources rather than independent verification.",
+      "framing_variants": [
+        {
+          "characterization": "Iranian media reporting millions gathered; Press TV calls it 'largest public gathering in modern history'",
+          "source_id": "src_010"
+        },
+        {
+          "characterization": "A crowd of millions assembled for the funeral procession",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "State media reporting attendance of millions",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_010",
+        "src_008",
+        "src_009"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Funeral organizers claimed up to 30 million people could attend at some point across the six-day ceremonies; Iranian officials separately estimated 15–20 million attendees.",
+      "classification": "corroborated",
+      "claim_group": "funeral_attendance",
+      "rationale": "Multiple center-left and center outlets report the organizers' and officials' attendance projections, attributed to Iranian official sources.",
+      "framing_variants": [
+        {
+          "characterization": "Up to 30 million may attend, organisers claim",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "Officials estimate 15 to 20 million, which would make it the largest state funeral in the country's history",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_007",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Thousands to hundreds of thousands gathered at the Grand Mosalla in Tehran for the initial farewell ceremonies.",
+      "classification": "agreed",
+      "claim_group": "funeral_attendance",
+      "rationale": "Outlets from center-left and center tiers all report large crowds at the Grand Mosalla, with figures ranging from thousands to hundreds of thousands.",
+      "framing_variants": [
+        {
+          "characterization": "Thousands gathered at the gates",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Hundreds of thousands gathered to pay their respects",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "By 8am, approximately 10,000 people in the open-air mosque",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_006",
+        "src_007",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Mourners at the funeral and procession wore black, carried flags and banners calling for revenge, chanted anti-Israel and anti-US slogans, and expressed demands for revenge for the airstrike that killed Khamenei.",
+      "classification": "agreed",
+      "claim_group": "funeral_atmosphere",
+      "rationale": "Sources from center-left and center tiers all describe similar mourner behavior including black attire, flags, anti-Israel/US chants, and revenge banners.",
+      "framing_variants": [
+        {
+          "characterization": "Many chanted anti-Israel and anti-US slogans; banners called for revenge",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Mourners wore black and carried flags with slogan 'We will rise'; chanted 'Martyr Khamenei is before God today'",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Grief melded with calls for revenge",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_006",
+        "src_005",
+        "src_009",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "The phrase 'Kill Trump' was chalked on the stage at the funeral on Sunday, and calls for the murder of Donald Trump were made during the public farewell ceremonies.",
+      "classification": "corroborated",
+      "claim_group": "funeral_atmosphere",
+      "rationale": "Two Guardian (center-left) articles confirm this detail; no cross-spectrum corroboration is available.",
+      "framing_variants": [
+        {
+          "characterization": "'Kill Trump' chalked on the stage by mourners",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Calls for the murder of Donald Trump during public farewell ceremonies",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_009",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Donald Trump characterized the grief displayed at the funeral as 'fake tears'; Iranian President Pezeshkian publicly rejected this characterization, stating the world could see the truth of the mourners' pain.",
+      "classification": "single_source",
+      "claim_group": "funeral_atmosphere",
+      "rationale": "This is an actor dispute: Trump characterized the mourning as staged while Pezeshkian characterized it as genuine grief visible to the world; only one outlet reports both sides, so it is placed in supported_by_articles.",
+      "framing_variants": [
+        {
+          "characterization": "Trump called grief 'fake tears'; Pezeshkian responded 'Tears arise from the pain and sorrow that surges within a person'",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_009"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "No fatalities occurred during the funeral procession, in contrast to previous major Iranian state funerals that descended into chaos.",
+      "classification": "corroborated",
+      "claim_group": "funeral_atmosphere",
+      "rationale": "Multiple center-left and left outlets note the funeral passed without the deadly crowd chaos that marked previous funerals, particularly that of Khomeini in 1989.",
+      "framing_variants": [
+        {
+          "characterization": "No one was killed, unlike previous state-linked funerals that rapidly descended into chaos",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Authorities hoped to avoid crowd crushes like those in 1989 that killed more than 10 people and injured over 10,000",
+          "source_id": "src_010"
+        }
+      ],
+      "supported_by": [
+        "src_009",
+        "src_010",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Mojtaba Khamenei was appointed as Iran's new supreme leader, succeeding his father Ali Khamenei.",
+      "classification": "agreed",
+      "claim_group": "succession",
+      "rationale": "Sources from center-left, center, and center-right tiers all confirm Mojtaba Khamenei's succession as supreme leader.",
+      "framing_variants": [
+        {
+          "characterization": "Ayatollah Mojtaba Khamenei appointed as the country's new supreme leader",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "His appointed successor; mourners held portraits of the new supreme leader",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Iran's new Supreme Leader, Ayatollah Mojtaba Khamenei",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006",
+        "src_007",
+        "src_011",
+        "src_009",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Mojtaba Khamenei was absent from his father's funeral; Iranian officials cited security concerns rather than wounds as the reason.",
+      "classification": "single_source",
+      "claim_group": "succession",
+      "rationale": "Only The Guardian's Monday coverage reports the specific Iranian official explanation attributing absence to safety concerns rather than injury.",
+      "framing_variants": [
+        {
+          "characterization": "Iranian officials said absence was not due to wounds but to concerns for his safety",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_009"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Mojtaba Khamenei was reportedly severely wounded in the 28 February US-Israeli strike; the extent of his injuries remains unknown, and he has communicated only through written statements.",
+      "classification": "corroborated",
+      "claim_group": "succession",
+      "rationale": "Multiple outlets report Mojtaba was wounded in the strike, though Iranian officials disputed this framing by citing safety concerns as the reason for his absence rather than injury.",
+      "framing_variants": [
+        {
+          "characterization": "Severely injured in the same US-Israeli strike; extent of injuries unknown; issued only written statements",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Remains in hiding after reportedly being wounded in the attack",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Iranian officials denied his absence was due to wounds, citing safety concerns instead",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_011"
+      ],
+      "contested_by": [
+        "src_009"
+      ]
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Mojtaba Khamenei issued written statements that distanced him from ceasefire negotiations while simultaneously sanctioning their continuation.",
+      "classification": "single_source",
+      "claim_group": "succession",
+      "rationale": "Only The Guardian's July 3 article reports the specific content of Mojtaba's written statements regarding ceasefire negotiations.",
+      "framing_variants": [
+        {
+          "characterization": "Statements distanced himself from ceasefire negotiations but sanctioned their continuation",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Israeli Defence Minister Israel Katz threatened to kill Mojtaba Khamenei, describing him as 'marked for death.'",
+      "classification": "single_source",
+      "claim_group": "succession",
+      "rationale": "Only The Guardian's July 3 article reports Katz's specific threat against Mojtaba.",
+      "framing_variants": [
+        {
+          "characterization": "Israel's defence minister threatened to kill him, saying he was marked for death",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Katz's threats against Mojtaba Khamenei prompted Iranian hardliners to call for a re-examination of Iran's fatwa against possessing nuclear weapons.",
+      "classification": "single_source",
+      "claim_group": "succession",
+      "rationale": "Only The Guardian's July 3 article reports this specific consequence of Katz's threats.",
+      "framing_variants": [
+        {
+          "characterization": "Remarks prompted hardliners to call for re-examination of Iran's fatwa against nuclear weapons",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "The entire Iranian leadership attended the Sunday morning prayer at the funeral, with the sole exception of the new supreme leader Mojtaba Khamenei.",
+      "classification": "corroborated",
+      "claim_group": "funeral_attendance",
+      "rationale": "Two Guardian articles confirm that the full leadership was present except for Mojtaba Khamenei, with three of his brothers attending.",
+      "framing_variants": [
+        {
+          "characterization": "Entire Iranian leadership, depleted by successive Israeli assassinations, turned out with one exception: Mojtaba Khamenei",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Mojtaba not expected to make an appearance; his three grieving brothers attended",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_009",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "At least eight heads of government or state from countries including Iraq, Pakistan, Armenia, and Tajikistan attended the funeral at senior levels, along with parliamentary speakers from 12 countries.",
+      "classification": "agreed",
+      "claim_group": "international_response",
+      "rationale": "Both The Guardian (center-left) and Euronews (center) confirm senior international attendance from the listed countries.",
+      "framing_variants": [
+        {
+          "characterization": "Leaders from Iraq, Pakistan, Armenia and Tajikistan at most senior levels; 12 heads of parliament mainly from Arab states",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "At least eight heads of government or state and parliamentary speakers from 12 countries",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "Russia sent Dmitry Medvedev as special envoy of President Vladimir Putin to the funeral.",
+      "classification": "single_source",
+      "claim_group": "international_response",
+      "rationale": "Only Euronews specifically reports that Russia is represented by Medvedev as Putin's special envoy.",
+      "framing_variants": [
+        {
+          "characterization": "Russia sending former President and Deputy Security Council Chair Medvedev as Putin's special envoy",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "No European countries were formally invited to the funeral; Iran's foreign ministry spokesperson Esmail Baghaei stated that countries seen as having taken 'an inappropriate position' on the US-Israeli strikes were not invited.",
+      "classification": "agreed",
+      "claim_group": "international_response",
+      "rationale": "Both The Guardian (center-left) and Euronews (center) confirm no western/European leaders were invited and report Baghaei's stated criterion for exclusion.",
+      "framing_variants": [
+        {
+          "characterization": "No western leaders were invited",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "No European country formally invited; Baghaei accused Europeans of 'shameful' stance; those attending were 'standing on the right side of history'",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "More than 300 foreign journalists were granted rare visas to report on the funeral, though British and American journalists were officially advised not to speak to mourners.",
+      "classification": "corroborated",
+      "claim_group": "international_response",
+      "rationale": "Two Guardian (center-left) articles report both the visa grants and the restriction on British and American journalists.",
+      "framing_variants": [
+        {
+          "characterization": "More than 300 foreign journalists granted rare visas",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "British and American journalists officially advised not to speak to mourners",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_009",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_028",
+      "text": "Iranian President Masoud Pezeshkian praised the crowds' behavior at the funeral, described the gathering as a covenant rather than a farewell, and accused Israel — with US and European support — of perpetrating crimes across the region.",
+      "classification": "corroborated",
+      "claim_group": "international_response",
+      "rationale": "Multiple Guardian articles report Pezeshkian's statements at the funeral, consistently attributing these positions to him.",
+      "framing_variants": [
+        {
+          "characterization": "Pezeshkian called funeral a 'covenant for continuing on the path'; accused Israel of all regional crimes with US and European support",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "President in attendance at funeral",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_009",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_029",
+      "text": "Gen. Ahmad Vahidi, commander-in-chief of the IRGC, made his first public appearance since 8 February at the funeral; he had played a role in crushing January protests and in Iran's asymmetric warfare strategy.",
+      "classification": "single_source",
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian's July 3 article reports Vahidi's return to public view and details his prior activities.",
+      "framing_variants": [
+        {
+          "characterization": "Broke cover for the first time since 8 February; instrumental in crushing January protests; had a hand in asymmetric warfare strategy",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_030",
+      "text": "The funeral coincided with Muharram, the first month of the Islamic calendar, when Shia Muslims commemorate the seventh-century martyrdom of Husayn ibn Ali.",
+      "classification": "single_source",
+      "claim_group": "khamenei_background",
+      "rationale": "Only The Guardian's July 3 article notes the religious significance of the timing coinciding with Muharram.",
+      "framing_variants": [
+        {
+          "characterization": "Funeral date coincides with Muharram; Khamenei's last speech referenced the martyrdom of Husayn, comparing Iran's resistance to that legacy",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-06T08:18:54.589623+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Iran held a six-day state funeral for Supreme Leader Ali Khamenei, who was killed on 28 February 2026, aged 86, in an airstrike on a government residence in Tehran. The elaborate funeral ceremonies spanned five cities, beginning with farewell rites at Tehran's Grand Mosalla mosque and concluding with burial in Mashhad, Khamenei's birthplace, near the shrine of Imam Reza.",
+        "supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_004",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_005",
+            "src_006",
+            "src_007",
+            "src_009",
+            "src_011",
+            "src_012",
+            "src_013"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Khamenei had served as Iran's supreme leader for approximately 36–37 years before his death. The airstrike that killed him occurred on the first day of the US-Israeli war with Iran. Multiple members of Khamenei's family also died in the strike, including his 14-month-old granddaughter, his eldest daughter, his son-in-law, and the wife of his son Mojtaba Khamenei.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005",
+            "src_006",
+            "src_007",
+            "src_009",
+            "src_011",
+            "src_013"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Iranian authorities ordered the closure of public and private offices in Tehran from Saturday to Monday, restricted private vehicles in the city center, and progressively closed Tehran's airspace to accommodate the funeral proceedings. Thousands to hundreds of thousands gathered at the Grand Mosalla in Tehran for the initial farewell ceremonies. Mourners wore black, carried flags and banners calling for revenge, and chanted anti-Israel and anti-US slogans, expressing demands for retribution for the airstrike that killed Khamenei.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_005",
+            "src_006",
+            "src_007",
+            "src_008",
+            "src_009",
+            "src_011",
+            "src_013"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "At least eight heads of government or state from countries including Iraq, Pakistan, Armenia, and Tajikistan attended the funeral at senior levels, along with parliamentary speakers from 12 countries. No European countries were formally invited. Iran's foreign ministry spokesperson Esmail Baghaei stated that countries seen as having taken 'an inappropriate position' on the US-Israeli strikes were not invited.",
+        "supports": {
+          "claim_ids": [
+            "clm_024",
+            "clm_026"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_011"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Mojtaba Khamenei was appointed as Iran's new supreme leader, succeeding his father. He was the sole member of Iran's entire leadership absent from the Sunday morning prayer at the funeral, though three of his brothers attended.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_005",
+            "src_006",
+            "src_007",
+            "src_009",
+            "src_011",
+            "src_013"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Left-leaning and center-left outlets reported that the funeral itinerary included ceremonies at Tehran's Grand Mosalla on Saturday and Sunday, a procession through Tehran on Monday, a stop in Qom on Tuesday, ceremonies in the Iraqi cities of Najaf and Karbala on Wednesday, and final burial in Mashhad on Thursday. According to these sources, the Monday funeral procession through central Tehran was expected to last 10–12 hours, running from Revolution/Imam Hossein Square to Azadi Square. The body was carried through the Shia holy cities of Karbala and Najaf in Iraq at the request of Iraqi politicians.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_005",
+            "src_007",
+            "src_008",
+            "src_011",
+            "src_012",
+            "src_013"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Center-left and left-leaning outlets attributed large crowd estimates to Iranian state media and officials. Iranian state media and officials reported that millions gathered in Tehran for the funeral procession, with Iranian Press TV describing it as the 'largest public gathering in the country's modern history.' Funeral organizers claimed up to 30 million people could attend at some point across the six-day ceremonies, while Iranian officials separately estimated 15–20 million attendees. These outlets also noted that no fatalities occurred during the funeral procession, in contrast to previous major Iranian state funerals — particularly that of Ayatollah Khomeini in 1989 — that descended into deadly crowd chaos.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_007",
+            "src_008",
+            "src_009",
+            "src_010",
+            "src_011"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Center-left outlets reported that Iranian President Masoud Pezeshkian praised the crowds' behavior at the funeral, described the gathering as a covenant rather than a farewell, and accused Israel — with US and European support — of perpetrating crimes across the region. The same outlets reported that the phrase 'Kill Trump' was chalked on the stage at the funeral on Sunday, and calls for the murder of Donald Trump were made during the public farewell ceremonies.",
+        "supports": {
+          "claim_ids": [
+            "clm_028",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_009",
+            "src_013"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Guardian reported that Donald Trump characterized the grief displayed at the funeral as 'fake tears,' while Iranian President Pezeshkian publicly rejected this characterization, stating the world could see the truth of the mourners' pain.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_009"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Center-left and center outlets reported that more than 300 foreign journalists were granted rare visas to report on the funeral, though British and American journalists were officially advised not to speak to mourners. Euronews reported that Russia sent Dmitry Medvedev as special envoy of President Vladimir Putin to the funeral.",
+        "supports": {
+          "claim_ids": [
+            "clm_027",
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_007",
+            "src_009",
+            "src_011"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The Guardian reported that the funeral coincided with Muharram, the first month of the Islamic calendar, when Shia Muslims commemorate the seventh-century martyrdom of Husayn ibn Ali. The outlet also reported that Gen. Ahmad Vahidi, commander-in-chief of the IRGC, made his first public appearance since 8 February at the funeral, having previously played a role in crushing January protests and in Iran's asymmetric warfare strategy.",
+        "supports": {
+          "claim_ids": [
+            "clm_030",
+            "clm_029"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Center-left and center outlets characterized Mojtaba Khamenei's absence from the funeral as resulting from wounds he reportedly sustained in the 28 February US-Israeli strike, noting that the extent of his injuries remains unknown and that he has communicated only through written statements. Center-left outlets reported that Iranian officials, however, cited security concerns rather than wounds as the reason for his absence. The Guardian separately reported that Mojtaba issued written statements that distanced him from ceasefire negotiations while simultaneously sanctioning their continuation.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_018",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_009",
+            "src_011"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Guardian reported that Israeli Defence Minister Israel Katz threatened to kill Mojtaba Khamenei, describing him as 'marked for death.' According to the same outlet, Katz's threats prompted Iranian hardliners to call for a re-examination of Iran's fatwa against possessing nuclear weapons.",
+        "supports": {
+          "claim_ids": [
+            "clm_021",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}
