@@ -1,0 +1,847 @@
+{
+  "schema_version": "0.4",
+  "event": {
+    "cluster_id": "evt_2026_07_06_auto_002",
+    "beat": "europe",
+    "title": "Russian Strikes on Kyiv Before NATO Ankara Summit",
+    "summary": "Russia launched a major missile and drone attack on Kyiv around July 6, 2026, killing dozens of civilians. The assault occurred just before the NATO annual summit in Ankara, Turkey, where Ukraine's air defense needs and support for the war effort were central agenda items.",
+    "date": "2026-07-06",
+    "generated_at": "2026-07-06T17:34:39.661032+00:00",
+    "image_attempted_at": "2026-07-06T17:35:16.560743+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/06/ukraine-russia-zelenskyy-nato-summit-strikes-kyiv-europe-latest-news-updates",
+      "author": "Jakub Krupa",
+      "published_at": "2026-07-06T16:04:29+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Fox News",
+      "url": "https://www.foxnews.com/world/zelenskyy-pressures-us-europe-air-defense-assistance-ongoing-war-russia",
+      "author": null,
+      "published_at": "2026-07-06T11:07:56+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Fox Corporation, controlled by the Murdoch family trust.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/europe/20260705-zelensky-warns-of-new-russian-attacks-as-battle-for-kostyantynivka-continues",
+      "author": "FRANCE 24",
+      "published_at": "2026-07-05T20:19:22+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Politico Europe",
+      "url": "https://www.politico.eu/article/russian-attack-kyiv-kills-11-injures-46/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "author": "Ferdinand Knapp",
+      "published_at": "2026-07-06T07:58:27+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Axel Springer SE (German media conglomerate, majority-owned by KKR since 2019).",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A Russian strike on Kyiv killed at least 22 people (15 in the city proper and 7 in the wider region), with dozens more injured.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "casualties_and_attack_details",
+      "rationale": "Sources report different casualty figures: The Guardian cites at least 22 dead, France 24 reports 30 killed, and Politico Europe reports at least 12 killed. These figures may reflect different reporting times or different incidents, but as presented they are incompatible.",
+      "framing_variants": [
+        {
+          "characterization": "At least 22 killed (15 in city, 7 in wider region), dozens injured — framed as 'another major Russian attack'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "30 people killed in the Russian strike on Kyiv, noted in the context of Zelenskyy's prior warning",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "At least 12 killed and more than 50 injured on Sunday night — earliest/lower figure, possibly a different reporting window",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Russia launched 68 missiles and 351 attack drones in the attack on Kyiv.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "casualties_and_attack_details",
+      "rationale": "Only Fox News, citing Zelenskyy's statement, reports the specific figures of 68 missiles and 351 attack drones; no other source in the cluster provides these numbers.",
+      "framing_variants": [
+        {
+          "characterization": "Attributed to Zelenskyy's public statement as evidence of the scale of the attack",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Ukraine's air defenses intercepted drones and cruise missiles but failed to intercept Russian ballistic missiles during the attack.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "casualties_and_attack_details",
+      "rationale": "Only Fox News reports this specific distinction in Ukrainian defensive performance, attributed to Zelenskyy.",
+      "framing_variants": [
+        {
+          "characterization": "Attributed to Zelenskyy, who praised warriors for intercepting some munitions but acknowledged failure against ballistic missiles",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Zelenskyy warned ahead of the NATO summit that Russian intelligence indicated Russia was preparing another massive strike on Ukraine.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualties_and_attack_details",
+      "rationale": "Both France 24 (center) and Politico Europe (center-left) report Zelenskyy's pre-attack warning based on intelligence, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as a warning Zelenskyy issued before the strike materialised, with the attack presented as confirming his prediction",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Cited as context for Zelenskyy's renewed calls for Patriot missiles at the NATO summit",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Zelenskyy called for the US and European allies to emerge from the NATO summit in Ankara with strong decisions in support of Ukraine's air defense.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ukraine_requests_and_diplomacy",
+      "rationale": "The Guardian (center-left), Fox News (right), and Politico Europe (center-left) all report Zelenskyy's call for strong decisions on air defense; coverage spans left and right of the spectrum, confirming cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as Zelenskyy 'urging' NATO leaders to take 'strong decisions' and back air defence units",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Framed as Zelenskyy 'pressuring' the US and Europe to provide more missiles — slightly more assertive language",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Framed as Zelenskyy 'renewing calls' for more Patriot missiles and citing the statement as posted on X",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Zelenskyy stated that insufficient supply of interceptor missiles was the reason Ukraine could not intercept Russian ballistic missiles.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "ukraine_requests_and_diplomacy",
+      "rationale": "Both Fox News and The Guardian report Zelenskyy's claim about interceptor shortfalls, but both outlets lean toward the same side (right and center-left respectively), and the underlying sourcing is Zelenskyy's own statement repeated across outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Quoted directly from Zelenskyy: 'the reason lies in the insufficient supply of interceptor missiles'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Rutte echoes the concern, saying more needs to be done to produce more interceptors — consistent with Zelenskyy's framing",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Zelenskyy asserted that Patriot missiles remain in allied stockpiles unused.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ukraine_requests_and_diplomacy",
+      "rationale": "Only Fox News reports this specific assertion by Zelenskyy about allied stockpiles.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as Zelenskyy implying allies are withholding available missiles",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Zelenskyy stated he is willing to meet with Putin in any format to resolve the war.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "peace_negotiations",
+      "rationale": "Only The Guardian reports this characterisation of Zelenskyy's negotiating posture, attributed to NATO Secretary General Rutte.",
+      "framing_variants": [
+        {
+          "characterization": "Reported via Rutte's words: 'willing to sit down with Putin in whatever format to solve this terrible war'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Russia has declined to engage in direct negotiations with Zelenskyy, according to NATO Secretary General Rutte.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "peace_negotiations",
+      "rationale": "Only The Guardian reports Rutte's characterisation that Putin has declined to sit down with Zelenskyy.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as Rutte's observation: 'so far Putin has declined to sit down'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Russia claimed it had captured Kostyantynivka; Ukraine denied this claim, calling it a lie, while Zelenskyy said fighting was continuing for the town.",
+      "classification": "single_source",
+      "dispute_type": "actor",
+      "claim_group": "territorial_control",
+      "rationale": "Russia and Ukraine make directly contradictory claims about control of Kostyantynivka; France 24 reports both positions, making this a clear actor dispute.",
+      "framing_variants": [
+        {
+          "characterization": "Reports both Moscow's announcement of capture and Kyiv's denial; notes Zelenskyy said fighting was ongoing for the town",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Kostyantynivka had a pre-war population of approximately 78,000 and is located on the way to important hubs in the Donetsk region.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "territorial_control",
+      "rationale": "Only France 24 provides demographic and geographic context about Kostyantynivka.",
+      "framing_variants": [
+        {
+          "characterization": "Provided as background to underline the town's strategic significance",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "The NATO annual summit is scheduled to take place in Ankara, Turkey this week.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "nato_summit",
+      "rationale": "All four outlets across the political spectrum confirm the NATO summit is being held in Ankara, Turkey.",
+      "framing_variants": [
+        {
+          "characterization": "Described as the alliance's 'annual summit'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Described as 'the North Atlantic Treaty Organization (NATO) summit'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Referenced as the upcoming summit in Turkey",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Referenced as 'this week's NATO summit in Ankara'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "NATO Secretary General Mark Rutte stated the summit agenda would focus on defence spending and supporting Ukraine.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "nato_summit",
+      "rationale": "Only The Guardian reports Rutte's specific framing of the summit's agenda.",
+      "framing_variants": [
+        {
+          "characterization": "Attributed directly to Rutte in media comments ahead of the summit",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Zelenskyy is expected to meet with Donald Trump on the sidelines of the NATO summit.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "nato_summit",
+      "rationale": "Both The Guardian (center-left) and France 24 (center) report the planned bilateral meeting between Zelenskyy and Trump on the summit's sidelines.",
+      "framing_variants": [
+        {
+          "characterization": "Described as Zelenskyy expected to meet Trump on the sidelines",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Framed as an expected meeting between Zelenskyy and US President Trump at the summit",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Zelenskyy, South Korean President Lee Jae Myung, European Council President Antonio Costa, and European Commission President Ursula von der Leyen are expected to have dinner with NATO leaders on Tuesday.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "nato_summit",
+      "rationale": "Only Fox News, citing Reuters, reports the specific details of the planned dinner meeting.",
+      "framing_variants": [
+        {
+          "characterization": "Attributed to Reuters reporting on the planned dinner",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Donald Trump stated that ending Russian aggression in Ukraine is 'much closer than people realise' and that both Putin and Zelenskyy want the war to end.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "peace_negotiations",
+      "rationale": "Only The Guardian reports Trump's specific optimistic framing about peace proximity and his characterisation of both leaders' intentions.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as Trump suggesting peace is closer than people think, and asserting Putin 'wants it to end' and Zelenskyy 'wants it to end now'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Trump said he had a 'good call' with Putin; Kremlin spokesperson Dmitry Peskov stated that Trump and Putin agreed their contacts would continue in the near future.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "peace_negotiations",
+      "rationale": "Only The Guardian reports both Trump's characterisation of his call with Putin and the Kremlin's readout via Peskov.",
+      "framing_variants": [
+        {
+          "characterization": "Reported alongside Trump's optimistic peace comments, suggesting an active diplomatic channel between Washington and Moscow",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "NATO Secretary General Rutte stated that Belarus is under heavy Russian influence and that events in Minsk are inspired by Putin.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "nato_summit",
+      "rationale": "Only The Guardian reports Rutte's assessment of the Belarus-Russia relationship.",
+      "framing_variants": [
+        {
+          "characterization": "Attributed to Rutte in pre-summit media comments",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Rutte stated that NATO's Purl weapons delivery scheme is working as intended but that more needs to be done to produce interceptors for Ukraine.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ukraine_requests_and_diplomacy",
+      "rationale": "Only The Guardian reports Rutte's dual assessment of the delivery scheme's effectiveness and the need for greater interceptor production.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as Rutte's balanced assessment: existing mechanisms work, but production must scale up",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "The US has reviewed its force posture to assess what it can provide to NATO in the event of simultaneous conflicts in the Indo-Pacific and Euro-Atlantic theatres.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "nato_summit",
+      "rationale": "Only The Guardian, citing Rutte, reports this detail about US two-theatre conflict planning.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as part of Rutte's pre-summit briefing, signalling US commitment assessment to NATO",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "British F-35 fighter jets intercepted a Russian aircraft that flew at low altitude near the HMS Prince of Wales aircraft carrier in the Norwegian Sea.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "broader_military_context",
+      "rationale": "Only The Guardian reports this specific NATO-Russia military incident in the Norwegian Sea.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as a separate but contextually relevant incident illustrating broader NATO-Russia tensions",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Rutte characterised the Russian strikes on Kyiv as an indiscriminate attack on innocent civilians and infrastructure.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "casualties_and_attack_details",
+      "rationale": "Only The Guardian reports Rutte's specific condemnation language describing the attack as indiscriminate.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as Rutte's moral framing in pre-summit remarks",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Ukrainian strikes have reached as far as the Ural region of Russia in recent months, targeting oil and fuel depots and affecting ordinary life in Russia.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "broader_military_context",
+      "rationale": "Only France 24 reports the geographic reach and targets of recent Ukrainian strikes into Russia.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as context for the escalatory cycle of strikes and counter-strikes",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "At least four people were killed by Russian drone and missile strikes in Ukraine on Sunday, the day before the major Kyiv attack.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "casualties_and_attack_details",
+      "rationale": "Only France 24 reports Sunday's separate, lower-casualty Russian strike preceding the major Monday attack.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as part of a pattern of ongoing Russian strikes in the lead-up to the NATO summit",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "Zelenskyy stated that Ukraine has put forward proposals for peace.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "peace_negotiations",
+      "rationale": "Only France 24 reports Zelenskyy's claim to have submitted peace proposals.",
+      "framing_variants": [
+        {
+          "characterization": "Brief mention, without detail on what the proposals contain",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "Russia's invasion of Ukraine is described as Europe's worst conflict since World War II, having lasted nearly four and a half years.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "broader_military_context",
+      "rationale": "Only France 24 uses this specific characterisation of the war's historical scale and duration.",
+      "framing_variants": [
+        {
+          "characterization": "Used as contextual framing to underscore the conflict's magnitude",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Russia's full-scale invasion of Ukraine began in February 2022 and has involved sustained aerial attacks, including ballistic missiles and Shahed-type drones, against Ukrainian cities including Kyiv.",
+      "sources": [
+        "src_003",
+        "src_002"
+      ]
+    },
+    {
+      "point": "Ukraine has repeatedly requested Patriot air defense systems and interceptor missiles from Western allies, arguing that shortfalls directly lead to civilian casualties from Russian strikes.",
+      "sources": [
+        "src_002",
+        "src_004",
+        "src_001"
+      ]
+    },
+    {
+      "point": "The NATO summit in Ankara was a key diplomatic moment, with Ukraine's war, defence spending commitments, and alliance support all on the agenda.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Kostyantynivka is a town in the Donetsk region that had a pre-war population of around 78,000 and sits on strategically important routes; its control has been disputed between Russian and Ukrainian forces.",
+      "sources": [
+        "src_003"
+      ]
+    },
+    {
+      "point": "Donald Trump has positioned himself as a potential mediator between Russia and Ukraine, maintaining direct communications with Putin while also meeting Zelenskyy.",
+      "sources": [
+        "src_001",
+        "src_002"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-06T17:35:04.840738+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Russia launched a major missile and drone attack on Kyiv on Monday, killing at least 22 people across the city and wider region, with dozens more injured. The strike came just days before NATO's annual summit in Ankara, Turkey, where Ukraine's air defense needs are a central agenda item.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Ukrainian President Volodymyr Zelenskyy had warned ahead of the NATO summit that Russian intelligence indicated Russia was preparing another massive strike on Ukraine. His warning preceded Monday's assault by a matter of days.",
+        "supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Zelenskyy called for the US and European allies to emerge from the NATO summit in Ankara with strong decisions in support of Ukraine's air defense. The appeal reflected Ukraine's urgent need for additional defensive capabilities as Russian strikes continued.",
+        "supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Zelenskyy is expected to meet with US President Donald Trump on the sidelines of the NATO summit. The bilateral meeting comes as both leaders navigate diplomatic efforts to address the ongoing conflict.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Russia's invasion of Ukraine has lasted nearly four and a half years and is described by France 24 as Europe's worst conflict since World War II. In recent months, Ukrainian strikes have reached as far as the Ural region of Russia, targeting oil and fuel depots and affecting ordinary life inside Russian territory.",
+        "supports": {
+          "claim_ids": [
+            "clm_026",
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "NATO Secretary General Mark Rutte characterized the Russian strikes on Kyiv as an indiscriminate attack on innocent civilians and infrastructure, according to The Guardian. Rutte stated the summit agenda would focus on defense spending and supporting Ukraine.",
+        "supports": {
+          "claim_ids": [
+            "clm_022",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Fox News, citing Zelenskyy's statement, reported that Russia launched 68 missiles and 351 attack drones in the attack on Kyiv. The outlet also reported that Ukraine's air defenses intercepted drones and cruise missiles but failed to intercept Russian ballistic missiles during the assault.",
+        "supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Zelenskyy stated that insufficient supply of interceptor missiles was the reason Ukraine could not intercept Russian ballistic missiles, according to reports from Fox News and The Guardian. Fox News reported Zelenskyy's assertion that Patriot missiles remain in allied stockpiles unused.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Guardian reported that Rutte stated NATO's Purl weapons delivery scheme is working as intended but that more needs to be done to produce interceptors for Ukraine. The outlet also cited Rutte's statement that the US has reviewed its force posture to assess what it can provide to NATO in the event of simultaneous conflicts in the Indo-Pacific and Euro-Atlantic theaters.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "At least four people were killed by Russian drone and missile strikes in Ukraine on Sunday, the day before the major Kyiv attack, according to France 24. This separate assault preceded Monday's larger-scale strike on the capital.",
+        "supports": {
+          "claim_ids": [
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "France 24 reported that Russia claimed it had captured the town of Kostyantynivka, while Ukraine denied this claim, calling it a lie. Zelenskyy stated that fighting was continuing for the town. Kostyantynivka had a pre-war population of approximately 78,000 and is located on the way to important hubs in the Donetsk region.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Guardian reported that Zelenskyy stated he is willing to meet with Putin in any format to resolve the war, according to NATO Secretary General Rutte. However, Russia has declined to engage in direct negotiations with Zelenskyy, Rutte said.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Donald Trump stated that ending Russian aggression in Ukraine is \"much closer than people realise\" and that both Putin and Zelenskyy want the war to end, according to The Guardian. Trump said he had a \"good call\" with Putin; Kremlin spokesperson Dmitry Peskov stated that Trump and Putin agreed their contacts would continue in the near future.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "France 24 reported that Zelenskyy stated Ukraine has put forward proposals for peace. Fox News, citing Reuters, reported that Zelenskyy, South Korean President Lee Jae Myung, European Council President Antonio Costa, and European Commission President Ursula von der Leyen are expected to have dinner with NATO leaders on Tuesday.",
+        "supports": {
+          "claim_ids": [
+            "clm_025",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "The Guardian reported that NATO Secretary General Rutte stated that Belarus is under heavy Russian influence and that events in Minsk are inspired by Putin. The outlet also reported that British F-35 fighter jets intercepted a Russian aircraft that flew at low altitude near the HMS Prince of Wales aircraft carrier in the Norwegian Sea.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}
