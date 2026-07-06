@@ -74,6 +74,7 @@ def build_sources_list(articles: list[dict]) -> list[dict]:
             "published_at": art.get("published_at", ""),
             "bias_rating": art["bias_rating"],
             "bias_rating_source": art["bias_rating_source"],
+            "state_alignment": art.get("state_alignment"),
             "ownership": None,        # M4 (Annotate) will fill this
             "author_background": None,
             "amplification_signal": None,

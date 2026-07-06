@@ -67,6 +67,19 @@ export default function OutletCard({ outlet, sources }: OutletCardProps) {
         </span>
       </div>
 
+      {/* State alignment — always surfaced, never buried (B-17) */}
+      {rep.state_alignment && (
+        <div style={{
+          alignSelf: 'flex-start',
+          padding: '4px 9px', borderRadius: 4,
+          background: '#f6e8e6', border: '1px solid #e5c5c0',
+          font: '700 10px/1 var(--font-archivo), system-ui',
+          letterSpacing: '.09em', textTransform: 'uppercase', color: '#9c3f35',
+        }}>
+          ⚑ {rep.state_alignment}
+        </div>
+      )}
+
       {/* Rated by */}
       <div style={{
         font: '400 11px/1 var(--font-archivo), system-ui',

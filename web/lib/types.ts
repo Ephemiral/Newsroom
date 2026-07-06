@@ -18,6 +18,9 @@ export interface Source {
   published_at: string;
   bias_rating: BiasRating;
   bias_rating_source: string;
+  /** Set for government-controlled/aligned outlets, e.g. "Russian state-controlled".
+   *  A separate axis from left/right bias; always surfaced to the reader (B-17). */
+  state_alignment?: string | null;
   ownership: string | null;
   author_background: string | null;
   amplification_signal: null;
@@ -78,6 +81,8 @@ export interface EventMeta {
   /** Present from schema v0.3; null when no suitable image was found. */
   image?: EventImage | null;
   image_attempted_at?: string;
+  /** Earlier events this one develops (shared articles) — "Earlier coverage". */
+  related_events?: { cluster_id: string; title: string }[];
 }
 
 export interface ReportParagraph {

@@ -5,7 +5,9 @@ import OutletCard from '@/components/OutletCard';
 import ClaimSection from '@/components/ClaimSection';
 import BiasLegend from '@/components/BiasLegend';
 import ReportView from '@/components/ReportView';
+import EventImageFigure from '@/components/EventImageFigure';
 import CritiqalLogo from '@/components/CritiqalLogo';
+import { beatLabel } from '@/lib/beats';
 
 // Render on demand — new event JSON files are picked up without restarting the server
 export const dynamic = 'force-dynamic';
@@ -78,7 +80,7 @@ export default async function EventPage({ params }: Props) {
             font: '600 10px/1 var(--font-archivo), system-ui',
             letterSpacing: '.16em', textTransform: 'uppercase', color: '#b08a4a',
           }}>
-            {event.event.beat.replace(/_/g, ' ')}
+            {beatLabel(event.event.beat)}
           </div>
         </div>
       </div>
@@ -116,51 +118,29 @@ export default async function EventPage({ params }: Props) {
           </div>
         </header>
 
-        {/* Hero image (openly licensed file photo, with required attribution) */}
-        {event.event.image && (
-          <figure style={{ margin: '0 0 36px' }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={event.event.image.url}
-              alt={event.event.image.caption}
-              style={{
-                width: '100%', maxHeight: 400, objectFit: 'cover',
-                borderRadius: 4, border: '1px solid #e1d8c8', background: '#ece6da',
-                display: 'block',
-              }}
-            />
-            <figcaption style={{
-              fontFamily: 'var(--font-spectral), serif',
-              fontStyle: 'italic', fontSize: 13, lineHeight: 1.5,
-              color: '#9a8d7c', marginTop: 8,
+        {/* Earlier coverage — developments of an ongoing story link back */}
+        {(event.event.related_events?.length ?? 0) > 0 && (
+          <div style={{
+            margin: '0 0 32px', padding: '12px 16px',
+            background: '#f2ede4', border: '1px solid #e2d7c2', borderRadius: 4,
+            fontFamily: 'var(--font-spectral), serif', fontSize: 14, lineHeight: 1.6, color: '#5b5249',
+          }}>
+            <span style={{
+              font: '600 10px/1 var(--font-archivo), system-ui',
+              letterSpacing: '.14em', textTransform: 'uppercase', color: '#a3957f',
+              display: 'block', marginBottom: 6,
             }}>
-              {event.event.image.caption}
-              {' — '}
-              {event.event.image.credit},{' '}
-              <a
-                href={event.event.image.source_page}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ color: '#9a8d7c', textDecoration: 'underline' }}
-              >
-                {event.event.image.provider === 'openverse' ? 'Openverse' : 'Wikimedia Commons'}
-              </a>
-              {' '}(
-              {event.event.image.license_url ? (
-                <a
-                  href={event.event.image.license_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ color: '#9a8d7c', textDecoration: 'underline' }}
-                >
-                  {event.event.image.license}
-                </a>
-              ) : (
-                event.event.image.license
-              )}
-              )
-            </figcaption>
-          </figure>
+              Earlier coverage of this story
+            </span>
+            {event.event.related_events!.map((rel, i) => (
+              <span key={rel.cluster_id}>
+                {i > 0 && ' · '}
+                <Link href={`/event/${rel.cluster_id}`} style={{ color: '#b08a4a' }}>
+                  {rel.title || rel.cluster_id}
+                </Link>
+              </span>
+            ))}
+          </div>
         )}
 
         {/* Spectrum — who covered this */}
@@ -168,13 +148,16 @@ export default async function EventPage({ params }: Props) {
           <BiasLegend sources={event.sources} />
         </div>
 
-        {/* Report */}
-        {event.report && (
+        {/* Report — the event image is woven in after the lede paragraph */}
+        {event.report ? (
           <ReportView
             report={event.report}
             claimsMap={claimsMap}
             sourceMap={sourceMap}
+            image={event.event.image}
           />
+        ) : (
+          event.event.image && <EventImageFigure image={event.event.image} />
         )}
 
         {/* Claims */}

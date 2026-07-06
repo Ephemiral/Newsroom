@@ -90,3 +90,13 @@ G reviewed part 1 and requested a second wave, all delivered:
 7. **Multi-theatre** — new beats `europe` / `americas` / `asia` (feeds live-verified, 13 new outlets in the provenance registry), homepage theatre tabs, `auto_run --beats` loops all four, novelty gate global across beats. launchd reloaded with all four theatres.
 
 **Watch items for next session:** first auto-published events in the new theatres (spot-check outlet diversity + images); whether Fox topic_filters are too broad/narrow; GH Actions first green run once the secret is added; B-17 (state-aligned outlets) remains open for G's decision; B-10 (claim_ids) unchanged.
+
+---
+
+## ADDENDUM — Session 14, part 3 (same day)
+
+1. **B-17 RESOLVED** — state-aligned outlets added with loud labeling: RT News (europe), Global Times (asia), Asharq Al-Awsat + Saudi Gazette (middle east). `state_alignment` field flows config → Article → sources[] → UI (⚑ chips, red outlet-card badge, About section). Enforced as *perspective, not corroboration*: excluded from the auto_run spectrum gate and B-01's agreed tier count; prompts require inline attribution ("Russian state-controlled RT reported that…").
+2. **Developing news** — novelty gate redefined: a cluster needs ≥50% previously-unpublished URLs (same-articles block, not same-story block). Overlapping prior events are recorded in `event.related_events` and shown as an "Earlier coverage of this story" box. Follow-ups now publish as linked developments.
+3. **UI** — beat label is now "Middle East" everywhere (`web/lib/beats.ts` is the single label map); the event image moved from the top hero into the report body after the lede paragraph (`EventImageFigure`, placement heuristic in `ReportView`).
+4. **⚠ launchd is TCC-blocked** — background launchd jobs cannot read `~/Documents` (macOS privacy). Every scheduled run dies with PermissionError before doing anything; today's successful cycles all ran from an interactive shell. Fix: System Settings → Privacy & Security → Full Disk Access → add `/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app`, then `launchctl kickstart gui/$(id -u)/com.critiqal.newsroom.autorun` and confirm a run log appears. Alternative: activate GitHub Actions (part-2 addendum steps) and skip local scheduling entirely. **Until one of these happens, nothing publishes automatically.**
+5. GH Actions activation (PAT `workflow` scope + secret) still pending — G deferred to next session.

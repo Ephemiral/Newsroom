@@ -43,6 +43,12 @@ class Article:
     collected_at: str                    # ISO 8601 date string, e.g. "2026-05-31"
     beat: Optional[str] = None          # beat name this article was ingested for
 
+    # State alignment (B-17): set for government-controlled/aligned outlets,
+    # e.g. "Russian state-controlled", "Saudi state-aligned". A separate axis
+    # from left/right bias — these outlets add perspective, not corroboration:
+    # they never satisfy cross-spectrum requirements (B-01, auto_run gate).
+    state_alignment: Optional[str] = None
+
     def to_dict(self) -> dict:
         return asdict(self)
 
@@ -64,6 +70,7 @@ class Article:
             bias_rating_source=d.get("bias_rating_source"),
             collected_at=d.get("collected_at", ""),
             beat=d.get("beat"),
+            state_alignment=d.get("state_alignment"),
         )
 
     @classmethod

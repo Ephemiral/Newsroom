@@ -66,25 +66,100 @@
     {
       "outlet": "Fox News",
       "rss": "https://moxie.foxnews.com/google-publisher/world.xml",
-      "topic_filter": ["China", "Japan", "Korea", "India", "Taiwan", "Asia", "Pakistan", "Philippines", "Indonesia", "Vietnam", "Thailand", "Beijing", "Tokyo"],
+      "topic_filter": [
+        "China",
+        "Japan",
+        "Korea",
+        "India",
+        "Taiwan",
+        "Asia",
+        "Pakistan",
+        "Philippines",
+        "Indonesia",
+        "Vietnam",
+        "Thailand",
+        "Beijing",
+        "Tokyo"
+      ],
       "bias_rating": "right",
       "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "Global Times",
+      "rss": "https://www.globaltimes.cn/rss/outbrain.xml",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": "Chinese state-controlled"
     }
   ],
-  "gdelt": { "enabled": false },
-  "domain_map": {
-    "aljazeera.com": { "outlet": "Al Jazeera English", "bias_rating": "left", "bias_rating_source": "AllSides" },
-    "theguardian.com": { "outlet": "The Guardian", "bias_rating": "center-left", "bias_rating_source": "AllSides" },
-    "bbc.com": { "outlet": "BBC News", "bias_rating": "center-left", "bias_rating_source": "Ad Fontes Media" },
-    "bbc.co.uk": { "outlet": "BBC News", "bias_rating": "center-left", "bias_rating_source": "Ad Fontes Media" },
-    "scmp.com": { "outlet": "South China Morning Post", "bias_rating": "center-left", "bias_rating_source": "MBFC" },
-    "japantimes.co.jp": { "outlet": "The Japan Times", "bias_rating": "center-left", "bias_rating_source": "MBFC" },
-    "asia.nikkei.com": { "outlet": "Nikkei Asia", "bias_rating": "center", "bias_rating_source": "MBFC" },
-    "france24.com": { "outlet": "France 24", "bias_rating": "center", "bias_rating_source": "MBFC" },
-    "straitstimes.com": { "outlet": "The Straits Times", "bias_rating": "center-right", "bias_rating_source": "MBFC" },
-    "timesofindia.indiatimes.com": { "outlet": "The Times of India", "bias_rating": "center-right", "bias_rating_source": "MBFC" },
-    "foxnews.com": { "outlet": "Fox News", "bias_rating": "right", "bias_rating_source": "AllSides" }
+  "gdelt": {
+    "enabled": false
   },
-  "language_filter": ["en"],
-  "notes": "Created 2026-07-06 (multi-theatre expansion)."
+  "domain_map": {
+    "aljazeera.com": {
+      "outlet": "Al Jazeera English",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides"
+    },
+    "theguardian.com": {
+      "outlet": "The Guardian",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides"
+    },
+    "bbc.com": {
+      "outlet": "BBC News",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media"
+    },
+    "bbc.co.uk": {
+      "outlet": "BBC News",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media"
+    },
+    "scmp.com": {
+      "outlet": "South China Morning Post",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC"
+    },
+    "japantimes.co.jp": {
+      "outlet": "The Japan Times",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC"
+    },
+    "asia.nikkei.com": {
+      "outlet": "Nikkei Asia",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC"
+    },
+    "france24.com": {
+      "outlet": "France 24",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC"
+    },
+    "straitstimes.com": {
+      "outlet": "The Straits Times",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC"
+    },
+    "timesofindia.indiatimes.com": {
+      "outlet": "The Times of India",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC"
+    },
+    "foxnews.com": {
+      "outlet": "Fox News",
+      "bias_rating": "right",
+      "bias_rating_source": "AllSides"
+    },
+    "globaltimes.cn": {
+      "outlet": "Global Times",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": "Chinese state-controlled"
+    }
+  },
+  "language_filter": [
+    "en"
+  ],
+  "notes": "Created 2026-07-06 (multi-theatre expansion). 2026-07-06: added Chinese state-controlled Global Times (B-17; perspective not corroboration)."
 }

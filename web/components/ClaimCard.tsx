@@ -13,12 +13,13 @@ export const BIAS_COLORS: Record<string, string> = {
 
 /** "Al Jazeera · 28 May 2026" — never exposes internal IDs */
 function sourceLabel(src: Source): string {
-  if (!src.published_at) return src.outlet;
+  const aligned = src.state_alignment ? ` · ${src.state_alignment}` : '';
+  if (!src.published_at) return `${src.outlet}${aligned}`;
   const d = new Date(src.published_at);
   const date = d.toLocaleDateString(undefined, {
     day: 'numeric', month: 'short', year: 'numeric',
   });
-  return `${src.outlet} · ${date}`;
+  return `${src.outlet} · ${date}${aligned}`;
 }
 
 interface Props {
@@ -63,7 +64,7 @@ export default function ClaimCard({ claim, sourceMap, accentBorder }: Props) {
             title={sourceLabel(src)}
             className={`text-xs px-2 py-0.5 rounded-full font-medium cursor-default ${BIAS_COLORS[src.bias_rating] ?? 'bg-gray-100 text-gray-600'}`}
           >
-            {src.outlet}
+            {src.state_alignment ? `⚑ ${src.outlet}` : src.outlet}
           </span>
         ))}
         {contestingSources.length > 0 && (
@@ -77,7 +78,7 @@ export default function ClaimCard({ claim, sourceMap, accentBorder }: Props) {
                 title={sourceLabel(src)}
                 className={`text-xs px-2 py-0.5 rounded-full font-medium cursor-default ${BIAS_COLORS[src.bias_rating] ?? 'bg-gray-100 text-gray-600'}`}
               >
-                {src.outlet}
+                {src.state_alignment ? `⚑ ${src.outlet}` : src.outlet}
               </span>
             ))}
           </>

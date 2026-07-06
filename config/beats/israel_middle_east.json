@@ -1,6 +1,6 @@
 {
   "beat": "israel_middle_east",
-  "display_name": "Israel / Middle East",
+  "display_name": "Middle East",
   "description": "Coverage of Israel, the Palestinian territories, and the broader Middle East region. Primary beat at launch.",
   "_rss_notes": [
     "Reuters deprecated their public RSS in 2020. We proxy via Google News search RSS (site:reuters.com).",
@@ -64,7 +64,22 @@
       "rss": "https://www.euronews.com/rss?format=mrss&level=theme&name=news",
       "bias_rating": "center",
       "bias_rating_source": "MBFC",
-      "topic_filter": ["Israel", "Gaza", "Palestine", "Hamas", "Hezbollah", "Iran", "West Bank", "IDF", "Netanyahu", "Middle East", "Lebanon", "Syria", "Arab", "Palestinian"],
+      "topic_filter": [
+        "Israel",
+        "Gaza",
+        "Palestine",
+        "Hamas",
+        "Hezbollah",
+        "Iran",
+        "West Bank",
+        "IDF",
+        "Netanyahu",
+        "Middle East",
+        "Lebanon",
+        "Syria",
+        "Arab",
+        "Palestinian"
+      ],
       "_note": "General news feed — topic_filter restricts to Middle East coverage."
     },
     {
@@ -112,32 +127,126 @@
       "bias_rating": "right",
       "bias_rating_source": "MBFC",
       "_note": "Pro-Netanyahu, Adelson-founded. Cloudflare bot challenge on direct fetch; Google News proxy."
+    },
+    {
+      "outlet": "Asharq Al-Awsat",
+      "rss": "https://news.google.com/rss/search?q=site:english.aawsat.com&hl=en-US&gl=US&ceid=US:en",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": "Saudi state-aligned"
+    },
+    {
+      "outlet": "Saudi Gazette",
+      "rss": "https://saudigazette.com.sa/rssFeed/74",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": "Saudi state-aligned"
     }
   ],
   "gdelt": {
     "enabled": true,
-    "keywords": ["Israel", "Gaza", "Palestine", "Hamas", "Netanyahu", "West Bank", "IDF", "Hezbollah", "Israeli"],
+    "keywords": [
+      "Israel",
+      "Gaza",
+      "Palestine",
+      "Hamas",
+      "Netanyahu",
+      "West Bank",
+      "IDF",
+      "Hezbollah",
+      "Israeli"
+    ],
     "timespan": "24h",
     "max_records": 250,
     "language": "English",
     "source_country": "US"
   },
   "domain_map": {
-    "aljazeera.com":           {"outlet": "Al Jazeera English",              "bias_rating": "left",         "bias_rating_source": "AllSides"},
-    "middleeasteye.net":       {"outlet": "Middle East Eye",                  "bias_rating": "left",         "bias_rating_source": "MBFC"},
-    "haaretz.com":             {"outlet": "Haaretz (English)",                "bias_rating": "center-left",  "bias_rating_source": "AllSides"},
-    "theguardian.com":         {"outlet": "The Guardian",                     "bias_rating": "center-left",  "bias_rating_source": "AllSides"},
-    "bbc.com":                 {"outlet": "BBC News",                         "bias_rating": "center-left",  "bias_rating_source": "Ad Fontes Media"},
-    "bbc.co.uk":               {"outlet": "BBC News",                         "bias_rating": "center-left",  "bias_rating_source": "Ad Fontes Media"},
-    "reuters.com":             {"outlet": "Reuters",                          "bias_rating": "center",       "bias_rating_source": "AllSides"},
-    "euronews.com":            {"outlet": "Euronews",                         "bias_rating": "center",       "bias_rating_source": "MBFC"},
-    "ynetnews.com":            {"outlet": "Ynet News",                        "bias_rating": "center-right", "bias_rating_source": "MBFC"},
-    "timesofisrael.com":       {"outlet": "The Times of Israel",              "bias_rating": "center-right", "bias_rating_source": "MBFC"},
-    "jpost.com":               {"outlet": "Jerusalem Post",                   "bias_rating": "center-right", "bias_rating_source": "MBFC"},
-    "i24news.tv":              {"outlet": "i24 News (Israel)",                 "bias_rating": "center-right", "bias_rating_source": "MBFC"},
-    "israelnationalnews.com":  {"outlet": "Arutz Sheva (Israel National News)","bias_rating": "right",        "bias_rating_source": "MBFC"},
-    "israelhayom.com":         {"outlet": "Israel Hayom",                     "bias_rating": "right",        "bias_rating_source": "MBFC"}
+    "aljazeera.com": {
+      "outlet": "Al Jazeera English",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides"
+    },
+    "middleeasteye.net": {
+      "outlet": "Middle East Eye",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC"
+    },
+    "haaretz.com": {
+      "outlet": "Haaretz (English)",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides"
+    },
+    "theguardian.com": {
+      "outlet": "The Guardian",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides"
+    },
+    "bbc.com": {
+      "outlet": "BBC News",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media"
+    },
+    "bbc.co.uk": {
+      "outlet": "BBC News",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media"
+    },
+    "reuters.com": {
+      "outlet": "Reuters",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides"
+    },
+    "euronews.com": {
+      "outlet": "Euronews",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC"
+    },
+    "ynetnews.com": {
+      "outlet": "Ynet News",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC"
+    },
+    "timesofisrael.com": {
+      "outlet": "The Times of Israel",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC"
+    },
+    "jpost.com": {
+      "outlet": "Jerusalem Post",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC"
+    },
+    "i24news.tv": {
+      "outlet": "i24 News (Israel)",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC"
+    },
+    "israelnationalnews.com": {
+      "outlet": "Arutz Sheva (Israel National News)",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC"
+    },
+    "israelhayom.com": {
+      "outlet": "Israel Hayom",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC"
+    },
+    "english.aawsat.com": {
+      "outlet": "Asharq Al-Awsat",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": "Saudi state-aligned"
+    },
+    "saudigazette.com.sa": {
+      "outlet": "Saudi Gazette",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": "Saudi state-aligned"
+    }
   },
-  "language_filter": ["en"],
-  "notes": "Updated 2026-06-01: added Ynet, Arutz Sheva, Israel Hayom; added domain_map for GDELT ingest; GDELT config updated for gdeltdoc library."
+  "language_filter": [
+    "en"
+  ],
+  "notes": "Updated 2026-06-01: added Ynet, Arutz Sheva, Israel Hayom; added domain_map for GDELT ingest; GDELT config updated for gdeltdoc library. 2026-07-06: display_name changed to 'Middle East'; added Saudi state-aligned outlets Asharq Al-Awsat + Saudi Gazette (B-17 resolution: state-aligned outlets included with explicit alignment labels; excluded from cross-spectrum gates)."
 }

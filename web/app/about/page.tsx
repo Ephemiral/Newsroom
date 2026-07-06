@@ -93,6 +93,18 @@ export default function AboutPage() {
           with the raters — that&rsquo;s the point of citing them.
         </p>
 
+        <h2 style={h2}>State-aligned outlets</h2>
+        <p style={p}>
+          Some sources are government-controlled or government-aligned — RT (Russia),
+          Global Times (China), Asharq Al-Awsat and Saudi Gazette (Saudi Arabia). We include
+          them deliberately: they are often the most direct record of what a government
+          itself is claiming, which matters when the actors in a story dispute the facts.
+          But they are perspective, not corroboration. They are flagged with a ⚑ marker
+          everywhere they appear, their alignment is named inline whenever the report conveys
+          their account (&ldquo;Russian state-controlled RT reported that&hellip;&rdquo;), and they
+          never count toward &ldquo;agreed across the spectrum.&rdquo;
+        </p>
+
         <h2 style={h2}>Images</h2>
         <p style={p}>
           Story images are openly licensed file photos (Wikimedia Commons, Openverse — CC0,

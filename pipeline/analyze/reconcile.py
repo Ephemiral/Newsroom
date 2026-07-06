@@ -70,6 +70,17 @@ Critical rules:
     [contested]    Iran's IRGC attributed the Kuwait airport damage to a malfunctioning
                    US Patriot missile interceptor; US Central Command and Kuwait's defence
                    ministry attributed the strike directly to an Iranian drone attack.
+- STATE-ALIGNED OUTLETS: some sources carry a "state_alignment" value (e.g. "Russian
+  state-controlled", "Saudi state-aligned"). These outlets are included precisely because
+  they carry a government's own account — but they are perspective, NOT corroboration:
+  - They never count toward cross-spectrum agreement. A claim supported only by one
+    independent outlet plus state-aligned outlets is "single_source" or "corroborated",
+    never "agreed".
+  - Whenever a claim text, rationale, or framing variant conveys such an outlet's account,
+    name the alignment inline in that text: "Russian state-controlled RT reported that…",
+    "Saudi state-aligned Asharq Al-Awsat characterized…". Never cite them bare.
+  - For actor disputes they are often the best record of one actor's position — use them,
+    with the inline alignment label.
 - Keep claims atomic and concrete.
 - For any claim describing a directive, decision, or policy: if the source provides the actor's
   stated justification or reasoning, extract it as a SEPARATE linked claim. Do not merge the
@@ -118,6 +129,9 @@ def enforce_classification_rules(result: dict, articles: list[dict]) -> list[str
     """
     corrections = []
     article_bias = {a["article_id"]: a.get("bias_rating", "") for a in articles}
+    # B-17: state-aligned outlets add perspective, not corroboration — they never
+    # anchor a side of the spectrum for 'agreed' classification.
+    article_aligned = {a["article_id"]: bool(a.get("state_alignment")) for a in articles}
 
     LEFT_SIDE = {"left", "center-left"}
     RIGHT_SIDE = {"center-right", "right"}
@@ -166,8 +180,10 @@ def enforce_classification_rules(result: dict, articles: list[dict]) -> list[str
                 )
 
         # B-01: reclassify 'agreed' → 'corroborated' if cross-spectrum diversity is absent
+        # (state-aligned outlets excluded from the tier count — B-17)
         if claim.get("classification") == "agreed":
-            tiers = {article_bias.get(a) for a in supported if article_bias.get(a)}
+            tiers = {article_bias.get(a) for a in supported
+                     if article_bias.get(a) and not article_aligned.get(a)}
             has_left_side = bool(tiers & LEFT_SIDE)
             has_right_side = bool(tiers & RIGHT_SIDE)
             has_center = bool(tiers & CENTER)
@@ -238,6 +254,7 @@ def reconcile_claims(all_raw_claims: list[dict], articles: list[dict],
             "outlet": art["outlet"],
             "bias_rating": art["bias_rating"],
             "bias_rating_source": art["bias_rating_source"],
+            "state_alignment": art.get("state_alignment"),
             "published_at": art.get("published_at", ""),
             "has_full_text": bool(art.get("body_text") and not art["body_text"].startswith("[Full"))
         })

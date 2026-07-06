@@ -54,23 +54,91 @@
     {
       "outlet": "Fox News",
       "rss": "https://moxie.foxnews.com/google-publisher/world.xml",
-      "topic_filter": ["Europe", "Ukraine", "Russia", "EU", "European Union", "France", "Germany", "Britain", "UK", "NATO", "Poland", "Italy", "Spain", "Brussels"],
+      "topic_filter": [
+        "Europe",
+        "Ukraine",
+        "Russia",
+        "EU",
+        "European Union",
+        "France",
+        "Germany",
+        "Britain",
+        "UK",
+        "NATO",
+        "Poland",
+        "Italy",
+        "Spain",
+        "Brussels"
+      ],
       "bias_rating": "right",
       "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "RT News",
+      "rss": "https://www.rt.com/rss/news/",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": "Russian state-controlled"
     }
   ],
-  "gdelt": { "enabled": false },
-  "domain_map": {
-    "theguardian.com": { "outlet": "The Guardian", "bias_rating": "center-left", "bias_rating_source": "AllSides" },
-    "bbc.com": { "outlet": "BBC News", "bias_rating": "center-left", "bias_rating_source": "Ad Fontes Media" },
-    "bbc.co.uk": { "outlet": "BBC News", "bias_rating": "center-left", "bias_rating_source": "Ad Fontes Media" },
-    "politico.eu": { "outlet": "Politico Europe", "bias_rating": "center-left", "bias_rating_source": "MBFC" },
-    "dw.com": { "outlet": "Deutsche Welle (DW)", "bias_rating": "center", "bias_rating_source": "MBFC" },
-    "france24.com": { "outlet": "France 24", "bias_rating": "center", "bias_rating_source": "MBFC" },
-    "euronews.com": { "outlet": "Euronews", "bias_rating": "center", "bias_rating_source": "MBFC" },
-    "telegraph.co.uk": { "outlet": "The Telegraph", "bias_rating": "center-right", "bias_rating_source": "AllSides" },
-    "foxnews.com": { "outlet": "Fox News", "bias_rating": "right", "bias_rating_source": "AllSides" }
+  "gdelt": {
+    "enabled": false
   },
-  "language_filter": ["en"],
-  "notes": "Created 2026-07-06 (multi-theatre expansion). Right-of-center coverage rests on Telegraph + Fox — thinner than ideal; candidates to evaluate: GB News, Daily Express."
+  "domain_map": {
+    "theguardian.com": {
+      "outlet": "The Guardian",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides"
+    },
+    "bbc.com": {
+      "outlet": "BBC News",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media"
+    },
+    "bbc.co.uk": {
+      "outlet": "BBC News",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media"
+    },
+    "politico.eu": {
+      "outlet": "Politico Europe",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC"
+    },
+    "dw.com": {
+      "outlet": "Deutsche Welle (DW)",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC"
+    },
+    "france24.com": {
+      "outlet": "France 24",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC"
+    },
+    "euronews.com": {
+      "outlet": "Euronews",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC"
+    },
+    "telegraph.co.uk": {
+      "outlet": "The Telegraph",
+      "bias_rating": "center-right",
+      "bias_rating_source": "AllSides"
+    },
+    "foxnews.com": {
+      "outlet": "Fox News",
+      "bias_rating": "right",
+      "bias_rating_source": "AllSides"
+    },
+    "rt.com": {
+      "outlet": "RT News",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": "Russian state-controlled"
+    }
+  },
+  "language_filter": [
+    "en"
+  ],
+  "notes": "Created 2026-07-06 (multi-theatre expansion). Right-of-center coverage rests on Telegraph + Fox — thinner than ideal; candidates to evaluate: GB News, Daily Express. 2026-07-06: added Russian state-controlled RT News (B-17; perspective not corroboration)."
 }

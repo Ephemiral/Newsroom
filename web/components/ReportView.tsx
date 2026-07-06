@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { Report, ReportParagraph, Claim, Source } from '@/lib/types';
+import { Report, ReportParagraph, Claim, Source, EventImage } from '@/lib/types';
+import EventImageFigure from '@/components/EventImageFigure';
 
 // ── Kind config — warm palette matching the Critiqal design ──────────────────
 
@@ -87,16 +88,19 @@ function KindBadge({ kind }: { kind: ReportParagraph['kind'] }) {
 function SourceChip({ src }: { src: Source }) {
   const dot = BIAS_DOT[src.bias_rating] ?? '#8a8a8a';
   return (
-    <span style={{
-      display: 'inline-flex', alignItems: 'center', gap: 5,
-      padding: '3px 8px',
-      background: '#f2ede4', border: '1px solid #e2d7c2',
-      borderRadius: 20,
-      font: '500 11px/1 var(--font-archivo), system-ui',
-      color: '#5b5249',
-    }}>
+    <span
+      title={src.state_alignment ?? undefined}
+      style={{
+        display: 'inline-flex', alignItems: 'center', gap: 5,
+        padding: '3px 8px',
+        background: '#f2ede4', border: '1px solid #e2d7c2',
+        borderRadius: 20,
+        font: '500 11px/1 var(--font-archivo), system-ui',
+        color: '#5b5249',
+      }}
+    >
       <span style={{ width: 7, height: 7, borderRadius: '50%', background: dot, flexShrink: 0, display: 'inline-block' }} />
-      {src.outlet}
+      {src.state_alignment ? `⚑ ${src.outlet}` : src.outlet}
     </span>
   );
 }
@@ -268,10 +272,19 @@ interface ReportViewProps {
   report: Report;
   claimsMap: Record<string, Claim>;
   sourceMap: Record<string, Source>;
+  /** Event file photo, rendered inside the article body rather than as a top hero. */
+  image?: EventImage | null;
 }
 
-export default function ReportView({ report, claimsMap, sourceMap }: ReportViewProps) {
+export default function ReportView({ report, claimsMap, sourceMap, image }: ReportViewProps) {
   const [transparencyMode, setTransparencyMode] = useState(false);
+
+  // Place the image after the first paragraph — or the second when the opener
+  // is a short one-liner, so the photo doesn't interrupt a two-line lede.
+  const imageAfterIndex =
+    image && report.paragraphs.length > 1 && (report.paragraphs[0]?.text?.length ?? 0) < 220
+      ? 1
+      : 0;
 
   return (
     <section style={{ marginBottom: 48 }}>
@@ -324,9 +337,9 @@ export default function ReportView({ report, claimsMap, sourceMap }: ReportViewP
         </div>
       )}
 
-      {/* Paragraphs — continuous left rail */}
+      {/* Paragraphs — continuous left rail, image woven in after the lede */}
       <div style={{ borderLeft: '2px solid #e7e0d4' }}>
-        {report.paragraphs.map(para => {
+        {report.paragraphs.map((para, i) => {
           const cfg = KIND[para.kind] ?? KIND.background;
           return (
             <div
@@ -344,6 +357,9 @@ export default function ReportView({ report, claimsMap, sourceMap }: ReportViewP
                   sourceMap={sourceMap}
                   transparencyMode={transparencyMode}
                 />
+                {image && i === imageAfterIndex && (
+                  <EventImageFigure image={image} />
+                )}
               </div>
             </div>
           );

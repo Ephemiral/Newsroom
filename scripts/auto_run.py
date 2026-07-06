@@ -15,10 +15,16 @@ Designed to be run every few hours by launchd (see docs). Safe to run manually.
 QUALIFICATION GATES (a cluster must pass ALL to publish):
   - size:          MIN_ARTICLES–MAX_ARTICLES articles (default 4–40)
   - outlets:       ≥3 distinct outlets
-  - spectrum:      ≥1 outlet left-of-center AND ≥1 right-of-center
+  - spectrum:      ≥1 outlet left-of-center AND ≥1 right-of-center, counting
+                   independent outlets only (state-aligned outlets add
+                   perspective, not corroboration — B-17)
   - bodies:        ≥3 articles with a usable body text (≥400 chars)
   - cohesion:      mean pairwise cosine similarity ≥ 0.65 (no grab-bag clusters)
-  - novelty:       ≤40% URL overlap with any already-published event
+  - novelty:       ≥50% of the cluster's articles must be previously unpublished.
+                   This blocks re-publishing the SAME articles while leaving room
+                   for developing stories: new coverage of an ongoing story
+                   publishes as a new event, linked to the earlier one via
+                   event.related_events ("Earlier coverage" in the UI).
   - not retried:   the same article set (URL fingerprint) is attempted only once
 
 Usage:
@@ -63,7 +69,7 @@ MIN_OUTLETS = 3
 MIN_BODY_CHARS = 400
 MIN_BODIES = 3
 COHESION_FLOOR = 0.65
-MAX_URL_OVERLAP = 0.40      # vs. any single already-published event
+MIN_NEW_COVERAGE = 0.50     # ≥ this fraction of a cluster's URLs must be previously unpublished
 INGEST_MAX_AGE_DAYS = 3
 DEFAULT_MAX_EVENTS = 2      # per cycle — cost control
 
@@ -122,19 +128,23 @@ def fingerprint(urls: list[str]) -> str:
 
 # ── Published-event index (for novelty gate) ──────────────────────────────────
 
-def published_url_sets(events_root: Path) -> list[set[str]]:
-    """URL sets of every already-published (analyzed) event, across ALL beats —
-    the same story must not publish in two theatres."""
-    sets = []
+def published_events(events_root: Path) -> list[dict]:
+    """id/title/URL-set of every already-published (analyzed) event, across ALL
+    beats — the same story must not re-publish, in any theatre."""
+    events = []
     for path in events_root.glob("*/*_analyzed.json"):
         try:
             data = json.loads(path.read_text())
             urls = {s.get("url", "") for s in data.get("sources", []) if s.get("url")}
             if urls:
-                sets.append(urls)
+                events.append({
+                    "event_id": data.get("event", {}).get("cluster_id", path.stem.replace("_analyzed", "")),
+                    "title": data.get("event", {}).get("title", ""),
+                    "urls": urls,
+                })
         except Exception:
             continue
-    return sets
+    return events
 
 
 # ── Cluster qualification ─────────────────────────────────────────────────────
@@ -148,6 +158,10 @@ def evaluate_cluster(cluster: dict, article_map: dict, sim, id_to_idx: dict,
     urls = [a.url for a in arts]
     outlets = {a.outlet for a in arts}
     tiers = {a.bias_rating for a in arts if a.bias_rating}
+    # B-17: state-aligned outlets add perspective, not corroboration — the
+    # cross-spectrum gate must be satisfied by independent outlets alone.
+    indep_tiers = {a.bias_rating for a in arts
+                   if a.bias_rating and not getattr(a, "state_alignment", None)}
     bodies = sum(1 for a in arts if len(a.body_text or "") >= MIN_BODY_CHARS)
 
     stats = {
@@ -162,8 +176,8 @@ def evaluate_cluster(cluster: dict, article_map: dict, sim, id_to_idx: dict,
         return False, f"size {len(arts)} outside [{MIN_ARTICLES},{MAX_ARTICLES}]", stats
     if len(outlets) < MIN_OUTLETS:
         return False, f"only {len(outlets)} distinct outlets", stats
-    if not (tiers & LEFT_TIERS and tiers & RIGHT_TIERS):
-        return False, f"no cross-spectrum spread (tiers: {sorted(tiers)})", stats
+    if not (indep_tiers & LEFT_TIERS and indep_tiers & RIGHT_TIERS):
+        return False, f"no cross-spectrum spread among independent outlets (tiers: {sorted(indep_tiers)})", stats
     if bodies < MIN_BODIES:
         return False, f"only {bodies} articles with usable body text", stats
 
@@ -176,12 +190,24 @@ def evaluate_cluster(cluster: dict, article_map: dict, sim, id_to_idx: dict,
         if mean_sim < COHESION_FLOOR:
             return False, f"low cohesion {mean_sim:.3f} (grab-bag)", stats
 
-    # Novelty vs. already-published events
+    # Novelty vs. already-published events. Developing stories are welcome:
+    # what's blocked is re-publishing the SAME articles, not new coverage of an
+    # ongoing story. A cluster qualifies if ≥50% of its articles are new
+    # (unseen URLs); prior events sharing articles are recorded as related —
+    # published as a development, not rejected as a duplicate.
     url_set = set(urls)
-    for pub in published:
-        overlap = len(url_set & pub) / max(len(url_set), 1)
-        if overlap > MAX_URL_OVERLAP:
-            return False, f"{overlap:.0%} URL overlap with a published event", stats
+    all_published_urls = set().union(*(p["urls"] for p in published)) if published else set()
+    new_frac = len(url_set - all_published_urls) / max(len(url_set), 1)
+    stats["new_coverage"] = round(new_frac, 2)
+    related = [
+        {"cluster_id": p["event_id"], "title": p["title"]}
+        for p in published
+        if len(url_set & p["urls"]) >= 2 or len(url_set & p["urls"]) / max(len(url_set), 1) > 0.15
+    ]
+    if related:
+        stats["related_events"] = related
+    if new_frac < MIN_NEW_COVERAGE:
+        return False, f"only {new_frac:.0%} new coverage — same articles already published", stats
 
     # Already attempted this exact article set?
     if stats["fingerprint"] in state["attempted"]:
@@ -268,7 +294,7 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
 
     # ── 3. Qualify ────────────────────────────────────────────────────────
     article_map = {a.article_id: a for a in articles}
-    published = published_url_sets(ROOT / "data" / "events")
+    published = published_events(ROOT / "data" / "events")
     state = load_state()
 
     qualified = []
@@ -327,6 +353,11 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
 
         analyzed_path = out_dir / f"{event_id}_analyzed.json"
         if ok:
+            # Link developments of an ongoing story to their earlier events
+            if stats.get("related_events"):
+                data = json.loads(analyzed_path.read_text())
+                data["event"]["related_events"] = stats["related_events"]
+                analyzed_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
             try:
                 attach_image(analyzed_path, client)
             except Exception:

@@ -217,6 +217,7 @@ def ingest_beat(
                 "outlet": outlet,
                 "bias_rating": bias_rating,
                 "bias_rating_source": bias_rating_source,
+                "state_alignment": source.get("state_alignment"),
                 "summary": getattr(entry, "summary", "") or getattr(entry, "description", "") or "",
             })
 
@@ -242,6 +243,7 @@ def ingest_beat(
                 bias_rating_source=meta["bias_rating_source"],
                 collected_at=today,
                 beat=beat_name,
+                state_alignment=meta.get("state_alignment"),
             )
         return
 
@@ -282,4 +284,5 @@ def ingest_beat(
                 bias_rating_source=meta["bias_rating_source"],
                 collected_at=today,
                 beat=beat_name,
+                state_alignment=meta.get("state_alignment"),
             )

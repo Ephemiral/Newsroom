@@ -1,17 +1,10 @@
 import Link from 'next/link';
 import { getEventIds, getEvent } from '@/lib/data';
+import { BEAT_LABELS, beatLabel } from '@/lib/beats';
 import CritiqalLogoAnimated from '@/components/CritiqalLogoAnimated';
 
 // Render on demand so new events appear without restarting the dev server
 export const dynamic = 'force-dynamic';
-
-/** Theatre tabs — order matters. Keys match beat names in config/beats/. */
-const BEATS: Record<string, string> = {
-  israel_middle_east: 'Israel / Middle East',
-  europe: 'Europe',
-  americas: 'Americas',
-  asia: 'Asia',
-};
 
 interface HomeProps {
   searchParams: Promise<{ beat?: string }>;
@@ -19,7 +12,7 @@ interface HomeProps {
 
 export default async function Home({ searchParams }: HomeProps) {
   const { beat } = await searchParams;
-  const activeBeat = beat && BEATS[beat] ? beat : null;
+  const activeBeat = beat && BEAT_LABELS[beat] ? beat : null;
 
   const ids = getEventIds();
   const events = ids
@@ -65,7 +58,7 @@ export default async function Home({ searchParams }: HomeProps) {
           maxWidth: 760, margin: '0 auto', padding: '0 28px',
           display: 'flex', gap: 22, overflowX: 'auto',
         }}>
-          {[['', 'All'], ...Object.entries(BEATS)].map(([key, label]) => {
+          {[['', 'All'], ...Object.entries(BEAT_LABELS)].map(([key, label]) => {
             const active = (key === '' && !activeBeat) || key === activeBeat;
             return (
               <Link
@@ -109,7 +102,7 @@ export default async function Home({ searchParams }: HomeProps) {
                     letterSpacing: '.16em', textTransform: 'uppercase',
                     color: '#b08a4a', marginBottom: 14,
                   }}>
-                    {event.event.beat.replace(/_/g, ' ')}
+                    {beatLabel(event.event.beat)}
                   </div>
                   <div style={{ display: 'flex', gap: 24, alignItems: 'flex-start' }}>
                     <div style={{ flex: 1, minWidth: 0 }}>

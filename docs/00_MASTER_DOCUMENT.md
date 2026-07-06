@@ -557,6 +557,13 @@ Leaning toward option 1 as the immediate fix, with 2/3 as later refinements if 1
 
 **Priority:** Medium — doesn't block B-16's resolution (the evidence-model conflict needs fixing regardless, on the existing source list), but caps how much B-16's fix can actually achieve until addressed.
 
+**RESOLVED (2026-07-06, G's decision):** state-aligned outlets are included, with the alignment made loud rather than hidden. Implementation:
+
+- New `state_alignment` field (e.g. `"Russian state-controlled"`, `"Saudi state-aligned"`) on beat-config sources and `domain_map` entries, carried through `Article` → per-event `sources[]` → the UI. A separate axis from left/right `bias_rating`, exactly as this item anticipated.
+- **Outlets added:** RT News (europe beat, Russian state-controlled), Global Times (asia, Chinese state-controlled), Asharq Al-Awsat + Saudi Gazette (middle east, Saudi state-aligned). All have provenance-registry entries stating ownership plainly.
+- **Perspective, not corroboration — enforced in three places:** (1) the auto_run cross-spectrum gate counts independent outlets only; (2) B-01's agreed-classification tier count excludes state-aligned sources; (3) the reconcile and generate prompts require naming the alignment inline whenever their account is conveyed ("Russian state-controlled RT reported that…") and forbid presenting it as independent corroboration.
+- **UI:** ⚑ marker on every source chip, alignment in chip tooltips, a prominent red badge on the outlet's provenance card, and an explanation section on the About page.
+
 ---
 
 ### FC-02 — Single-outlet clusters as a "Breaking / Developing" signal
@@ -606,11 +613,13 @@ The pipeline now runs unattended. One cycle = ingest → cluster → **qualify**
 |---|---|---|
 | Size | 4–40 articles | Below 4: no diversity. Above 40: likely mega-cluster (B-12 family) |
 | Outlets | ≥3 distinct | Multi-outlet requirement |
-| Spectrum | ≥1 left-of-center AND ≥1 right-of-center outlet | The product's core promise |
+| Spectrum | ≥1 left-of-center AND ≥1 right-of-center among **independent** outlets (state-aligned outlets don't count — B-17) | The product's core promise |
 | Bodies | ≥3 articles with ≥400 chars body text | Claims need real text to extract from |
 | Cohesion | mean pairwise cosine sim ≥ 0.65 | Rejects grab-bag clusters |
-| Novelty | ≤40% URL overlap with any published event | No duplicate events on the homepage (B-13) |
-| One attempt | article-set fingerprint recorded in `data/logs/autorun/state.json` | A failed/rejected set is not retried every 4h |
+| Novelty | ≥50% of the cluster's article URLs previously unpublished (checked across all beats) | Blocks re-publishing the *same articles* while leaving room for developing stories (see below) |
+| One attempt | article-set fingerprint recorded in `data/autorun/state.json` (git-tracked) | A failed/rejected set is not retried every 4h |
+
+**Developing stories vs. duplicates (2026-07-06 refinement):** a "duplicate" is the same *articles* re-clustered, not the same *story* re-covered. New coverage of an ongoing story (new URLs) publishes as a new event; any prior events sharing articles with it are recorded in `event.related_events` and rendered as an "Earlier coverage of this story" box on the event page. This keeps room for follow-up developments (ongoing negotiations, day-two reactions) without homepage duplication.
 
 Additional safety properties: report validation errors abort that event and delete its artifacts (nothing broken is published); a lock file prevents overlapping cycles; per-run JSON logs land in `data/logs/autorun/`; max 2 events published per beat per cycle (cost control, tunable via `--max-events`). Auto-published events get IDs of the form `evt_YYYY_MM_DD_auto_NNN`. Unlike the manual `--discover` flow, auto mode writes **only the selected clusters'** JSON files to `data/events/` — no more thousands of raw cluster files.
 

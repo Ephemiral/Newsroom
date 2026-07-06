@@ -205,10 +205,21 @@ def _build_claims_block(claims: list[dict]) -> str:
 def _build_sources_block(sources: list[dict]) -> str:
     """Format sources into a readable reference block."""
     lines = ["\n### SOURCES\n"]
+    has_aligned = any(s.get("state_alignment") for s in sources)
+    if has_aligned:
+        lines.append(
+            "⚠ STATE-ALIGNED SOURCES PRESENT: sources marked [STATE-ALIGNED: …] below are "
+            "government-controlled or government-aligned outlets. Whenever the report text "
+            "conveys their account, name the alignment inline — e.g. \"Russian state-controlled "
+            "RT reported that…\", \"Saudi state-aligned Asharq Al-Awsat characterized…\". "
+            "Never cite them without the label, and never present their account as "
+            "independent corroboration.\n"
+        )
     for s in sources:
         ownership = s.get("ownership") or "Unknown"
+        aligned = f" [STATE-ALIGNED: {s['state_alignment']}]" if s.get("state_alignment") else ""
         lines.append(
-            f"[{s['source_id']}] {s['outlet']} — bias: {s.get('bias_rating', '?')} "
+            f"[{s['source_id']}] {s['outlet']}{aligned} — bias: {s.get('bias_rating', '?')} "
             f"({s.get('bias_rating_source', '')}) — {ownership}"
         )
     return "\n".join(lines)

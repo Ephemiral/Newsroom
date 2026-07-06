@@ -224,6 +224,7 @@ def ingest_gdelt(
             bias_rating_source=outlet_meta.get("bias_rating_source"),
             collected_at=today,
             beat=beat_name,
+            state_alignment=outlet_meta.get("state_alignment"),
         ))
 
     log.info(

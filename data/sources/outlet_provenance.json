@@ -173,5 +173,25 @@
     "ownership": "Owned by Bennett, Coleman & Co. (The Times Group), controlled by the Jain family.",
     "notes": "World's largest-circulation English-language daily.",
     "last_reviewed": "2026-07-06"
+  },
+  "RT News": {
+    "ownership": "Owned and funded by the Russian government (ANO TV-Novosti). Russian state-controlled.",
+    "notes": "Included deliberately as the Russian government's own account of events — perspective, not corroboration. Banned in the EU since 2022; feed accessibility may vary.",
+    "last_reviewed": "2026-07-06"
+  },
+  "Asharq Al-Awsat": {
+    "ownership": "Owned by SRMG (Saudi Research and Media Group), whose principal shareholders are tied to the Saudi royal family. Saudi state-aligned.",
+    "notes": "London-based pan-Arab daily; included for the Gulf/Arab-state account of regional events.",
+    "last_reviewed": "2026-07-06"
+  },
+  "Saudi Gazette": {
+    "ownership": "Owned by Okaz Organization for Press and Publication (Jeddah); operates under Saudi press law. Saudi state-aligned.",
+    "notes": "English-language Saudi daily.",
+    "last_reviewed": "2026-07-06"
+  },
+  "Global Times": {
+    "ownership": "Published under the People's Daily, the official newspaper of the Chinese Communist Party. Chinese state-controlled.",
+    "notes": "Included deliberately as the Chinese government's own account of events — perspective, not corroboration.",
+    "last_reviewed": "2026-07-06"
   }
 }
