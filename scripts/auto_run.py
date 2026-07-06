@@ -281,6 +281,7 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
     config = json.loads(config_path.read_text())
     store = ArticleStore(base_dir=str(ROOT / "data" / "ingested"), beat=beat)
     out_dir = ROOT / "data" / "events" / beat
+    out_dir.mkdir(parents=True, exist_ok=True)  # first run of a new beat has no dir yet
 
     # ── 1. Ingest ─────────────────────────────────────────────────────────
     log.info("Ingesting RSS for beat %s…", beat)

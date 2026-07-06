@@ -7,8 +7,22 @@
     "summary": "Ukrainian drones struck an oil terminal in St Petersburg and port infrastructure across the wider region overnight on 4 July 2026, with President Zelenskyy confirming the attacks. Separately, Russia claimed its forces had captured the eastern Ukrainian city of Kostiantynivka in Donetsk, a claim Ukraine flatly denied.",
     "date": "2026-07-04",
     "generated_at": "2026-07-06T15:41:09.019592+00:00",
-    "image_attempted_at": "2026-07-06T15:41:54.676075+00:00",
-    "image": null
+    "image_attempted_at": "2026-07-06T16:00:03.851638+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Port_of_Saint_Petersburg_20241124_140907_MP.jpg/1280px-Port_of_Saint_Petersburg_20241124_140907_MP.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Port_of_Saint_Petersburg_20241124_140907_MP.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Port_of_Saint_Petersburg_20241124_140907_MP.jpg",
+      "width": 1200,
+      "height": 900,
+      "caption": "Port of Saint Petersburg (file photo)",
+      "credit": "Vasilii Martynov",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Port of Saint Petersburg 20241124 140907 MP.jpg",
+      "query": "St Petersburg port industrial",
+      "fetched_at": "2026-07-06T16:00:03.851560+00:00"
+    }
   },
   "sources": [
     {
