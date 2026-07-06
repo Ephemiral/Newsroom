@@ -1,0 +1,1036 @@
+{
+  "schema_version": "0.4",
+  "event": {
+    "cluster_id": "evt_2026_07_06_auto_003",
+    "beat": "asia",
+    "title": "Negombo Prison Riot, Sri Lanka – July 2026",
+    "summary": "A two-day riot at Negombo Prison in Sri Lanka beginning on the evening of July 5, 2026, resulted in at least 26 deaths and more than 100 injuries. The violence, reportedly linked to drug gang rivalries inside the prison, was described as the deadliest prison riot in Sri Lanka in years.",
+    "date": "2026-07-06",
+    "generated_at": "2026-07-06T20:53:29.015350+00:00",
+    "image_attempted_at": "2026-07-06T20:54:05.131864+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Negombo_Lagoon_%2842672733110%29.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Negombo_Lagoon_%2842672733110%29.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Negombo_Lagoon_(42672733110).jpg",
+      "width": 1024,
+      "height": 768,
+      "caption": "The Dutch fort at Negombo, Sri Lanka, which houses Negombo Prison (file photo)",
+      "credit": "David Stanley from Nanaimo, Canada",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Negombo Lagoon (42672733110).jpg",
+      "query": "Negombo Prison Sri Lanka",
+      "fetched_at": "2026-07-06T20:54:05.131823+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/south-asia/sri-lanka-prison-riot-kills-19-wounds-more-than-100",
+      "author": null,
+      "published_at": "2026-07-06T08:50:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cvg77klne3yo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-06T14:19:26+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/twenty-five-dead-100-injured-in-clashes-at-sri-lanka-prison-sources-say",
+      "author": null,
+      "published_at": "2026-07-06T09:46:36+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3359606/sri-lanka-prison-riot-kills-23-wounds-more-100?utm_source=rss_feed",
+      "author": "Agence France-Presse",
+      "published_at": "2026-07-06T10:05:03+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "The riot at Negombo Prison killed 26 people, including seven guards, and injured more than 100.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "The final toll of 26 dead and 100+ injured is confirmed by all four sources across center-left and center-right outlets. An earlier Straits Times article (art_55bc8731a5) reported 25 dead before the Justice Minister's updated count, but the final figure is cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Reports final toll as 26 including seven guards, citing Justice Minister's updated count",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 26 dead, seven of them guards, and more than 100 injured as the definitive toll",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 25 dead and about 100 injured (earlier count before Justice Minister's update)",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Cites Justice Minister Nanayakkara confirming toll of 26, including seven guards",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Justice Minister Harshana Nanayakkara announced three additional deaths, raising the total death toll to 26.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "Two center-right and center-left outlets both report the Justice Minister's specific announcement updating the toll to 26, though both sources are from similar areas of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Frames as a later announcement by the minister updating a previous figure",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Frames as an official government statement revising the fatality count",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Two people were killed and approximately 38 inmates were injured on the first day (Sunday, July 5); 23 or more additional people, including six prison officials, were killed in a second, more deadly round of clashes on Monday morning.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "Two outlets report the breakdown of casualties across two days of violence, with consistent figures for day-one deaths and the Monday escalation; both are from the same center-to-center-left range of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Reports two killed on Sunday with dozens injured, then fresh violence Monday",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Specifies two prisoners died and 38 were injured Sunday; 23 died Monday including six prison officials",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "23 bodies were brought to Negombo Hospital; 18 of the more seriously wounded were transferred to Colombo National Hospital.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "Both the Straits Times (center-right) and SCMP (center-left) report the same figures from the Negombo Hospital director, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Cites hospital director's statement that 23 bodies were at the facility and 18 seriously wounded transferred",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Quotes hospital director directly on 23 bodies and 18 transfers to Colombo National Hospital",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "23 prison officers and 54 inmates were still receiving treatment at the time of reporting.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "Only BBC News provides these specific figures for ongoing treatment broken down by prison officers and inmates.",
+      "framing_variants": [
+        {
+          "characterization": "Reports specific breakdown of those still receiving treatment as a factual statement",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Some of the wounded had gunshot injuries; others had cuts and severe bruises.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "All four sources across center-left and center-right report the mix of gunshot injuries and cuts/bruises, citing the Negombo Hospital director or medical staff.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes hospital director on gunshot injuries alongside cuts and bruises",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Attributes injury types to hospital director speaking to AFP",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Lists gunshot injuries, cuts and bruises among those brought to Negombo Hospital",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Directly quotes hospital director describing both types of injuries",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The riot occurred at Negombo Prison, a coastal town approximately 35 km north of Colombo.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "All four sources identify Negombo Prison as the location; the Straits Times article art_55bc8731a5 and BBC specifically note it is about 35 km north of Colombo, providing cross-spectrum geographical confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Identifies Negombo Prison as the location, north of capital Colombo",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes it as a coastal town north of Colombo",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Specifies approximately 35 km (20 miles) north of Colombo",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Identifies Negombo Hospital as the receiving facility, situating the prison in Negombo",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The riot lasted two days, beginning on the evening of July 5 (Sunday) and continuing into July 6 (Monday).",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Three sources across center-left and center-right confirm the two-day duration spanning Sunday evening to Monday.",
+      "framing_variants": [
+        {
+          "characterization": "Cites Justice Minister's statement that fighting began on the evening of July 5",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes 'two days of violence' as a direct characterization",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Details Sunday clashes followed by a second round on Monday morning",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The violence was reportedly triggered by a drug-related dispute inside the prison, though accounts differ on the specifics: police described it as a clash between inmates from two drug gangs, while one source reported it was triggered by an inmate informing on a drug trafficking operation, and the prisons commissioner linked it to drug trafficking without giving details.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "All sources agree the violence was drug-related, but the specific trigger differs: some cite a gang clash, BBC reports it was sparked by an inmate informing on a drug operation, and the prisons commissioner declined to specify. These represent genuinely different characterizations of the same underlying cause.",
+      "framing_variants": [
+        {
+          "characterization": "Reports police statement describing overnight fighting between inmates from two drug gangs",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports the violence was 'reportedly triggered by a clash over an inmate informing on a drug trafficking operation inside'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports prisons commissioner described cause as linked to drug trafficking but declined to give details, citing an investigation",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports police statement that overnight fighting was between inmates from two drug gangs",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Another account describes the clashes as beginning between convicted (permanent) prisoners and those under temporary detention.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Only one Straits Times article characterizes the clashing groups as convicted prisoners versus those under temporary detention; other sources describe them as drug gang members.",
+      "framing_variants": [
+        {
+          "characterization": "Describes clashes as beginning between more permanent convicted prisoners and those under temporary detention",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Prisoners allegedly grabbed guards' guns during the riot.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "BBC News reports prisoners allegedly grabbed guards' guns; the Straits Times corroborates that weapons fell into prisoner hands per the Justice Minister's statement. Both sources are from the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Uses 'alleged' framing: 'Prisoners are alleged to have grabbed guards' guns on Sunday'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Cites Justice Minister's acknowledgment that 'some weapons fell into the hands of the prisoners' with exact number unknown",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "The fighting on Monday morning began when prisoners were being served breakfast; prisoners chased prison officials to the gate and attempted to break out.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Three sources describe inmates attempting to rush or break through the prison gate on Monday, with two specifying it occurred during breakfast. Sources span center-right and center-left but the claim is confirmed across multiple outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Reports prison spokesman's account: inmates clashed with guards during breakfast and made a dash to the main gate",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports fresh violence Monday when inmates tried to rush the prison gates",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports fighting broke out when prisoners were being served breakfast; they chased officials to the gate and attempted to break out",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Women inmates in an adjoining prison section climbed onto the roof demanding release; part of the roof collapsed, injuring some of the women.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Both the Straits Times (center-right) and BBC News (center-left) report the women inmates' rooftop protest and the resulting roof collapse, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Reports women climbed on top of a roof demanding release and part of it collapsed, injuring some",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports groups of male prisoners and women from an adjoining unit climbed onto rooftops; part of the roof collapsed injuring some women",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Local residents and media reported hearing multiple gunshots from inside the prison.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "security_response",
+      "rationale": "Both the Straits Times (center-right) and BBC News (center-left) report gunshots being heard from inside the prison, confirming the detail across spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Cites local residents saying they heard gunshots",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports multiple gunshots heard from inside the prison as a direct observation",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Security forces including police riot control squads, police special forces, and commandos were deployed to control the riot; armed forces guarded the prison perimeter but did not enter the prison.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "security_response",
+      "rationale": "Three sources across center-left and center-right confirm security force deployment to the prison, with the Straits Times specifically noting armed forces only guarded the perimeter rather than entering.",
+      "framing_variants": [
+        {
+          "characterization": "Reports police and commandos deployed; notes armed forces guarded the perimeter only, not entering the prison",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports security forces were deployed on Monday",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Details police riot control squads with batons and police special forces were rushed to the prison",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "The military was requested by police to provide support and was placed on standby; military personnel in armoured vehicles moved into position around the prison after dusk.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "security_response",
+      "rationale": "Both BBC News (center-left) and Straits Times (center-right) report military being placed on standby after a police request, and Straits Times adds detail on armoured vehicles deploying at dusk.",
+      "framing_variants": [
+        {
+          "characterization": "States military placed on standby after police requested support",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes military requested to support police, on standby; later reports armoured vehicles positioning around prison after dusk",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "The Sri Lanka Air Force deployed drones and a helicopter to monitor the prison.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "security_response",
+      "rationale": "Two Straits Times articles both report the air force deploying drones and a helicopter, though both are from the same center-right outlet.",
+      "framing_variants": [
+        {
+          "characterization": "Reports air force deployed drones and a helicopter to monitor the area",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Specifies the Sri Lanka Air Force provided a helicopter and several drones to monitor the prison",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Some inmates were transferred to other prisons following the riot.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "security_response",
+      "rationale": "Both the Straits Times (center-right) and BBC News (center-left) report inmate transfers to other facilities, confirmed by the prisons commissioner spokesperson.",
+      "framing_variants": [
+        {
+          "characterization": "Reports officials confirmed inmates were being relocated to other prisons",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Cites prisons commissioner media spokesman AC Gajanayake stating steps had been taken to transfer inmates to other prisons",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Large crowds of inmates' relatives gathered outside the prison on Monday; some relatives told BBC Sinhala they had not been given information about where their relatives were or who was alive and who had died.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Three sources report relatives gathering outside the prison. BBC's additional detail about relatives receiving no information is unique to that outlet but the gathering itself is cross-confirmed.",
+      "framing_variants": [
+        {
+          "characterization": "Reports large crowds of relatives gathered outside on July 6",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports crowds gathered Monday; adds that some told BBC Sinhala they received no information about relatives' whereabouts or survival",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports dozens of people including relatives gathered and had to be held back by a police cordon",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Justice Minister Harshana Nanayakkara visited the prison, expressed condolences to victims' families, and instructed authorities to investigate and submit a report.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Both BBC News and one Straits Times article report the Justice Minister's visit and instructions for an investigation, both from similar areas of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Reports minister instructed authorities to investigate and submit a report",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports minister visited prison and expressed condolences; quotes his statement acknowledging weapons fell into prisoner hands and asserting the prison is now under government control",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "The Justice Minister stated that the entire prison was under government control and investigations were being conducted.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Only one Straits Times article quotes the Justice Minister's direct assertion that the prison was fully back under control.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Justice Minister directly: 'The entire prison is now under our control and we are conducting investigations'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Sri Lankan prisons held 41,250 inmates as of July 5, operating at approximately four times their capacity.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "prison_conditions",
+      "rationale": "Both the Straits Times (center-right) and BBC News (center-left) cite the same official figures on prison population and overcrowding, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 41,250 inmates as of July 5, about four times capacity, citing official data",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States prisons held 41,250 inmates as of Sunday at four times their capacity",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Negombo Prison holds approximately 2,400 inmates according to the Department of Prisons.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "prison_conditions",
+      "rationale": "Only one Straits Times article provides the specific capacity figure for Negombo Prison itself, citing the Department of Prisons.",
+      "framing_variants": [
+        {
+          "characterization": "Cites Department of Prisons data that the prison holds about 2,400 inmates",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "This riot was described as Sri Lanka's deadliest prison violence in years.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "All four sources across center-left and center-right characterize this as the worst or deadliest prison riot in years in Sri Lanka.",
+      "framing_variants": [
+        {
+          "characterization": "Calls it 'the country's deadliest prison riot in years'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'these were the worst in years' in context of occasional prison riots",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes it as 'the deadliest such violence in years'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Refers to it as 'Sri Lanka's worst prison riot in more than five years'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "A previous prison riot in Sri Lanka in late 2020 killed 11 inmates and injured 117 others; the government subsequently released hundreds of inmates from overcrowded jails.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Three sources reference the 2020 prison riot as a historical comparison, with consistent figures on deaths and injuries. One Straits Times article notes the event occurred 'during the Covid-19 pandemic'; art_55bc8731a5 dates it to November rather than December 2020.",
+      "framing_variants": [
+        {
+          "characterization": "Places it in December 2020 during the height of Covid-19 pandemic; notes it led the government to release hundreds of inmates from overcrowded jails",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Cites December 2020 as a historical comparison: 11 killed, 117 injured at another facility",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Places it in November 2020; mentions 11 dead as historical reference alongside a 2012 Colombo riot with 27 dead",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "A prison riot in Colombo in 2012 left 27 people dead.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Only one Straits Times article references the 2012 Colombo prison riot as historical context.",
+      "framing_variants": [
+        {
+          "characterization": "Cites 2012 Colombo prison riot with 27 dead as historical precedent",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "A 22-year-old British woman has been held at Negombo Prison since her arrest in May 2025 at the international airport with 46 kg of kush, a highly potent form of cannabis; prison officials confirmed no foreign inmates were affected by the riots.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Only the Straits Times mentions the British detainee and the prison spokesman's assurance that no foreign inmates were harmed.",
+      "framing_variants": [
+        {
+          "characterization": "Provides context about a specific foreign detainee and notes the prison spokesman's statement that no foreign inmates were affected",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Sri Lankan prisons have long suffered from severe overcrowding. As of July 5, 2026, the country's prisons held 41,250 inmates — approximately four times their official capacity — creating conditions that have contributed to periodic outbreaks of prison violence.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "Drug trafficking and gang activity inside Sri Lankan prisons have been identified by officials as an ongoing problem, and the specific trigger for the July 2026 riot was reportedly linked to drug-related disputes among inmates.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "In late 2020, a prison riot at another Sri Lankan facility killed 11 inmates and injured 117 during the Covid-19 pandemic. The government responded by releasing hundreds of inmates from overcrowded jails.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "Negombo is a coastal town approximately 35 km north of Colombo, home to the international airport. The prison there holds approximately 2,400 inmates according to the Department of Prisons.",
+      "sources": [
+        "src_003",
+        "src_002"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-06T20:53:53.707138+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "A two-day riot at Negombo Prison in Sri Lanka killed 26 people, including seven guards, and injured more than 100. The violence began on the evening of Sunday, July 5, 2026, and continued into Monday, July 6, at the facility located approximately 35 kilometers north of Colombo.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Twenty-three bodies were brought to Negombo Hospital, while 18 of the more seriously wounded were transferred to Colombo National Hospital. The injured included people with gunshot wounds, cuts, and severe bruises, according to the hospital director and medical staff.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Local residents and media reported hearing multiple gunshots from inside the prison during the violence. Security forces including police riot control squads, police special forces, and commandos were deployed to control the riot, while armed forces guarded the prison perimeter but did not enter the facility.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The military was requested by police to provide support and placed on standby; military personnel in armoured vehicles moved into position around the prison after dusk. Following the riot, some inmates were transferred to other prisons.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "In a separate incident during the unrest, women inmates in an adjoining prison section climbed onto the roof demanding release. Part of the roof collapsed, injuring some of the women.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The riot was described as Sri Lanka's deadliest prison violence in years. A previous riot in late 2020 killed 11 inmates and injured 117 others, prompting the government to subsequently release hundreds of inmates from overcrowded jails. An earlier riot in Colombo in 2012 left 27 people dead.",
+        "supports": {
+          "claim_ids": [
+            "clm_024",
+            "clm_025",
+            "clm_026"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Sri Lankan prisons held 41,250 inmates as of July 5, operating at approximately four times their capacity. Negombo Prison itself holds approximately 2,400 inmates according to the Department of Prisons.",
+        "supports": {
+          "claim_ids": [
+            "clm_022",
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "All sources agree the violence was drug-related, but characterizations of the specific trigger differ across outlets. Police described it as a clash between inmates from two drug gangs. BBC News reported it was triggered by an inmate informing on a drug trafficking operation. The prisons commissioner linked it to drug trafficking but declined to provide further details.",
+        "supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The pattern of casualties differed across the two days. Two people were killed and approximately 38 inmates were injured on Sunday, July 5. A second, more deadly round of clashes on Monday morning killed 23 or more additional people, including six prison officials.",
+        "supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The fighting on Monday morning began when prisoners were being served breakfast. Prisoners chased prison officials to the gate and attempted to break out. During the violence, prisoners allegedly grabbed guards' guns, with weapons falling into prisoner hands according to the Justice Minister.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "One Straits Times article characterized the clashing groups as convicted (permanent) prisoners versus those under temporary detention, a framing not adopted by other outlets.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Straits Times reported that the Sri Lanka Air Force deployed drones and a helicopter to monitor the prison during the unrest.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Large crowds of inmates' relatives gathered outside the prison on Monday. Some relatives told BBC Sinhala they had not been given information about where their relatives were or who was alive and who had died.",
+        "supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "Justice Minister Harshana Nanayakkara visited the prison, expressed condolences to victims' families, and instructed authorities to investigate and submit a report. The minister announced three additional deaths beyond initial counts, raising the total death toll to 26, and stated that the entire prison was under government control.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_002",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "BBC News reported that 23 prison officers and 54 inmates were still receiving treatment at the time of their reporting.",
+        "supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "The Straits Times reported that a 22-year-old British woman has been held at Negombo Prison since her arrest in May 2025 at the international airport with 46 kilograms of kush, a highly potent form of cannabis. Prison officials confirmed no foreign inmates were affected by the riots.",
+        "supports": {
+          "claim_ids": [
+            "clm_027"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}
