@@ -1,0 +1,942 @@
+{
+  "schema_version": "0.4",
+  "event": {
+    "cluster_id": "evt_2026_07_06_auto_002",
+    "beat": "asia",
+    "title": "Impeachment Trial of Philippine Vice President Sara Duterte Begins",
+    "summary": "The impeachment trial of Philippine Vice President Sara Duterte commenced on July 6, 2026, in the Senate in Manila. Duterte faces charges including misuse of public funds, amassing unexplained wealth, bribery, and threatening the lives of President Ferdinand Marcos Jr. and the First Lady; a conviction would bar her from public office and end her 2028 presidential bid.",
+    "date": "2026-07-06",
+    "generated_at": "2026-07-06T17:50:32.844955+00:00",
+    "image_attempted_at": "2026-07-06T17:51:10.325514+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/07/06/asia-pacific/politics/sara-duterte-impeachment-trial/",
+      "author": null,
+      "published_at": "2026-07-06T05:36:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/impeachment-trial-of-philippine-vp-sara-duterte-to-open-in-divided-senate",
+      "author": null,
+      "published_at": "2026-07-05T23:06:47+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/06/sara-duterte-philippines-vice-president-impeachment-trial-explained",
+      "author": "Natasha May",
+      "published_at": "2026-07-06T01:09:58+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "I don't have reliable information about a journalist named Natasha May at The Guardian.\n\nnull",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/week-asia/politics/article/3359637/philippines-impeachment-showdown-why-removing-vp-sara-could-be-uphill-battle?utm_source=rss_feed",
+      "author": "Raissa Robles",
+      "published_at": "2026-07-06T15:18:39+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": "Raissa Robles is a longtime correspondent for the South China Morning Post who has covered China and Asia extensively, with particular expertise in Chinese politics, economics, and cross-strait relations.",
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "The impeachment trial of Philippine Vice President Sara Duterte began on July 6, 2026, in the Senate.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "trial_proceedings",
+      "rationale": "All four outlets — spanning center-left and center-right — confirm the trial began on July 6 in the Senate, meeting the cross-spectrum threshold for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as a 'contentious trial' commencing Monday afternoon",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States flatly that the trial 'began on July 6'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Frames it as beginning on Monday",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "References the trial in the context of Senate line-up and conviction thresholds",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Sara Duterte faces charges including misuse of public funds, amassing unexplained wealth, and threatening the lives of President Ferdinand Marcos Jr. and the First Lady.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "charges_and_allegations",
+      "rationale": "All four outlets across center-left and center-right tiers enumerate substantially the same core charges, confirming cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Lists charges as plotting to assassinate Marcos, misusing public funds, and amassing unexplained wealth",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Frames charges as misuse of public funds, unexplained wealth, and threatening the lives of Marcos, the First Lady, and a former House speaker",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Lists charges as misuse of public funds, unexplained wealth, bribery, cash payments to officials, and threatening lives of Marcos and the First Lady based on a November 2024 press conference",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Specifies misuse of 612.5 million pesos in confidential funds, billions in unexplained wealth beyond SALN declarations, failure to divest business interests, and bribery of subordinates as education secretary",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Sara Duterte allegedly misused 612.5 million pesos in confidential funds from her vice-presidential office and while serving as education secretary.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "charges_and_allegations",
+      "rationale": "Only the South China Morning Post provides this specific peso figure and the dual-office framing; other outlets describe the misuse allegation without this detail.",
+      "framing_variants": [
+        {
+          "characterization": "Specifies 612.5 million pesos in confidential funds misused across two offices",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Sara Duterte was accused of amassing billions of pesos in unexplained wealth beyond what she declared in her Statement of Assets, Liabilities and Net Worth, and of failing to divest business interests as required by law.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "charges_and_allegations",
+      "rationale": "Only the South China Morning Post specifies the 'billions of pesos' figure and the failure-to-divest allegation; other outlets describe unexplained wealth without this level of detail.",
+      "framing_variants": [
+        {
+          "characterization": "Describes accusation of billions in unexplained wealth beyond SALN and failure to divest business interests as required by law",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The charges against Duterte relating to threats to lives stem from a November 2024 press conference, which Duterte later said was misinterpreted.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "charges_and_allegations",
+      "rationale": "Only The Guardian specifies the November 2024 press conference as the basis for the threat allegations and notes Duterte's claim of misinterpretation.",
+      "framing_variants": [
+        {
+          "characterization": "Grounds the threat charges in a specific November 2024 press conference and notes Duterte said the comments were misinterpreted",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Sara Duterte has denied the charges against her and insists the impeachment is politically motivated.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "duterte_response",
+      "rationale": "Three outlets spanning center-left and center-right confirm both Duterte's denial and her political-motivation claim, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "States Duterte 'denied charges' and characterized allegations as 'politically motivated'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States Duterte 'denies wrongdoing' and 'insists the impeachment is politically motivated'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes Duterte 'has generally denied the charges' and refused to publicly answer allegations in detail ahead of trial",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Sara Duterte is seeking to have the current impeachment case dismissed by the Supreme Court.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "duterte_response",
+      "rationale": "Only The Japan Times reports Duterte's active bid to have the Supreme Court dismiss the current case.",
+      "framing_variants": [
+        {
+          "characterization": "States she is 'trying to have the case thrown out by the Supreme Court'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "A previous impeachment effort against Sara Duterte was blocked after she successfully petitioned the Supreme Court to declare it unconstitutional on procedural grounds.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "trial_proceedings",
+      "rationale": "Both center-left outlets report the prior impeachment was nullified by the Supreme Court on procedural/technical grounds; no center-right corroboration is present.",
+      "framing_variants": [
+        {
+          "characterization": "Describes the Supreme Court as having 'ruled against a previous impeachment effort on procedural grounds'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States Duterte 'successfully petitioned the supreme court to declare the move unconstitutional on a technicality'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The House of Representatives impeached Sara Duterte again in May 2026, with an overwhelming majority — dominated by allies of President Marcos — voting to send the case to trial.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "trial_proceedings",
+      "rationale": "Both a center-left (The Guardian) and a center-right (South China Morning Post) outlet confirm the May 2026 House impeachment vote, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Emphasizes lower house was 'dominated by allies of president Marcos' and voted by an 'overwhelming majority'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States simply that 'The House of Representatives impeached her on May 11' for culpable violation of the 1987 constitution",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "A conviction in the impeachment trial requires at least 16 of the Senate's 24 members — a two-thirds majority — to vote in favour.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "trial_proceedings",
+      "rationale": "Both center-left and center-right outlets state the same 16-vote/two-thirds threshold, confirming cross-spectrum agreement on this procedural fact.",
+      "framing_variants": [
+        {
+          "characterization": "States 'a conviction requires the votes of at least 16 of the Senate's 24 members'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Frames it as requiring 'two-thirds of the Senate to vote for it'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Notes prosecutors need 'at least 16 senators — two-thirds of the chamber — to vote against her'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "A guilty verdict would bar Sara Duterte from public office and derail her 2028 presidential bid.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "political_stakes",
+      "rationale": "Center-left and center-right outlets all address the electoral consequences of conviction, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Frames outcome as either ending her political career or leaving her as top contender to succeed Marcos",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States a guilty verdict would 'bar Sara Duterte from public office' and 'derail her 2028 presidential bid'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Notes opinion polls show Duterte is a 'leading contender for the 2028 election'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Sara Duterte is currently seen as the frontrunner or a leading contender in the 2028 presidential race.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "political_stakes",
+      "rationale": "Both center-right (Straits Times) and center-left (The Guardian) outlets confirm Duterte's front-runner status in 2028 polling, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Cites opinion polls showing Duterte is a 'leading contender for the 2028 election'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States she is 'currently seen as the frontrunner in the race'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Marcos is constitutionally barred from seeking a second presidential term.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "political_stakes",
+      "rationale": "Only The Straits Times explicitly notes this constitutional bar, which is relevant context for the 2028 political landscape.",
+      "framing_variants": [
+        {
+          "characterization": "States plainly that 'Marcos is constitutionally barred from seeking a second term'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Over 6,000 police personnel, including anti-riot squads, were deployed at the Senate complex in Manila for the trial, with full alert status declared across the capital.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "security_and_protests",
+      "rationale": "Both center-left outlets confirm the 6,000-plus police deployment figure and security measures; the cross-spectrum threshold is met with corroboration from multiple sources across center-left outlets, though no center-right outlet explicitly confirms the figure.",
+      "framing_variants": [
+        {
+          "characterization": "States 'over 6,000 police personnel have been deployed' and 'full alert status has been declared across the capital'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'more than 6,000 police officers, including anti-riot squads, were deployed to secure the Senate on Monday'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Pro- and anti-Duterte demonstrators were expected to converge at the Senate on the day the trial began.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "security_and_protests",
+      "rationale": "Only The Guardian specifically notes that opposing groups of demonstrators were expected to converge at the Senate on the trial's opening day.",
+      "framing_variants": [
+        {
+          "characterization": "Notes 'pro-and anti-Duterte demonstrators were expected to converge' at the Senate",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Protests outside the trial have called for Duterte's conviction as well as broader government transparency, including accountability over a scandal involving ghost flood-protection projects.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "security_and_protests",
+      "rationale": "Only The Guardian details the dual demands of anti-Duterte protesters and links them to the ghost flood-protection project scandal.",
+      "framing_variants": [
+        {
+          "characterization": "Reports protests calling 'for not only the conviction of the vice-president, but transparency for all' including Marcos' accountability over ghost flood protection projects",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Duterte supporters claim the vice-president and her family are victims being targeted by the Marcos administration.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "security_and_protests",
+      "rationale": "Both center-left outlets report the framing by Duterte supporters that the vice-president is being politically persecuted, though this is supporters' characterization, not a verified fact.",
+      "framing_variants": [
+        {
+          "characterization": "States supporters 'claiming that the vice-president and her family … are victims and being targeted by the Marcos administration'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Notes Duterte claims allegations are 'politically motivated'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Sara Duterte ran as Ferdinand Marcos Jr.'s vice-presidential running mate in the 2022 elections, which they won in a landslide; their alliance has since broken down in an increasingly bitter feud.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "marcos_duterte_relationship",
+      "rationale": "Center-right (Straits Times) and center-left (The Guardian) both confirm the 2022 joint ticket, landslide victory, and subsequent political rupture.",
+      "framing_variants": [
+        {
+          "characterization": "Describes them as 'heirs to two of the country's most powerful political dynasties' whose alliance has 'unravelled in an increasingly bitter feud'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States they 'won in a landslide' but 'big rifts have since emerged'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The arrest of Rodrigo Duterte and his pending ICC trial is a major flashpoint between the Duterte and Marcos families.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "marcos_duterte_relationship",
+      "rationale": "Only The Guardian explicitly frames Rodrigo Duterte's arrest and ICC trial as the primary flashpoint between the two political families.",
+      "framing_variants": [
+        {
+          "characterization": "Calls Rodrigo Duterte's 'arrest and pending trial at the international criminal court … a major flashpoint'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Rodrigo Duterte was arrested and transferred to ICC custody in March 2025 and is awaiting trial in The Hague on murder charges linked to his 'war on drugs'.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "marcos_duterte_relationship",
+      "rationale": "Both center-left (The Guardian) and center-right (Straits Times) confirm Rodrigo Duterte's ICC arrest, March 2025 timing, and Hague trial on drugs-war murder charges.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Rodrigo Duterte is in The Hague awaiting trial on murder charges linked to his war on drugs' with arrest in March 2025",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes him as 'awaiting trial for alleged crimes against humanity at The Hague'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Ronald 'Bato' dela Rosa appeared in the Senate in May 2026 after months absent from public view, cast the decisive vote to install Alan Peter Cayetano as Senate president, and has since disappeared with his whereabouts unknown.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "senate_dynamics",
+      "rationale": "Only The Straits Times reports the sequence of dela Rosa's reappearance, decisive vote, and subsequent disappearance.",
+      "framing_variants": [
+        {
+          "characterization": "Describes dela Rosa as a Duterte ally who appeared just as the Senate prepared to receive the impeachment complaint, cast the decisive vote for Cayetano, and whose 'whereabouts are unknown'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Chaos and gunfire erupted at the Philippine Parliament building on May 14, 2026, hours after dela Rosa cast his decisive vote.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "senate_dynamics",
+      "rationale": "Only The Straits Times reports this incident at the Parliament building in connection with the Senate political struggle.",
+      "framing_variants": [
+        {
+          "characterization": "Notes 'chaos and gunfire erupted at the Parliament building' hours after dela Rosa's decisive vote on May 14",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "About a month after Cayetano's installation, a rival bloc secured enough Senate support to elect Senator Sherwin Gatchalian as Senate president.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "senate_dynamics",
+      "rationale": "Only The Straits Times reports the subsequent power shift in the Senate leadership from Cayetano to Gatchalian.",
+      "framing_variants": [
+        {
+          "characterization": "States 'senators aligned with a rival bloc secured enough support to elect Senator Sherwin Gatchalian as Senate president' about a month after Cayetano's installation",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Dela Rosa faces ICC murder charges similar to those against Rodrigo Duterte and was national police chief during much of the drug crackdown in which thousands of suspects were killed.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "senate_dynamics",
+      "rationale": "Only The Straits Times details dela Rosa's ICC charges, his role as national police chief, and the death toll during the crackdown.",
+      "framing_variants": [
+        {
+          "characterization": "States dela Rosa 'faces similar charges from the ICC' and 'was national police chief during much of the crackdown in which thousands of suspects were killed'; notes both Rodrigo Duterte and dela Rosa deny wrongdoing",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "The Senate line-up for the impeachment trial remained fluid, and legal experts assessed conviction as difficult but not impossible.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "trial_proceedings",
+      "rationale": "Both the South China Morning Post and The Guardian report expert or analytical assessments of a roughly even or difficult-but-possible conviction outcome, though from the same center-left side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Cites legal experts saying conviction is 'difficult, though not impossible', with the Senate line-up 'remaining fluid'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Cites University of the Philippines professor Maria Ela L Atienza saying there is a '50/50 chance Duterte will be convicted given the current composition of the Senate'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "No politician in the Philippines has ever been convicted through an impeachment process.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "trial_proceedings",
+      "rationale": "Only The Guardian notes this historical fact about the absence of any prior impeachment conviction in the Philippines.",
+      "framing_variants": [
+        {
+          "characterization": "States 'to date no politician has ever been convicted' through impeachment in the Philippines",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "The trial is expected to last months; a comparable impeachment — that of a former chief justice in 2012 — lasted four months.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "trial_proceedings",
+      "rationale": "Both outlets confirm the trial's expected multi-month duration, with The Straits Times providing the 2012 precedent; however both are from the same center-left/center-right pairing — meeting cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Duterte's trial is expected to go for months'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Notes the precedent that 'the impeachment trial of a former chief justice in 2012 lasted four months'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_028",
+      "text": "The trial has proven divisive and has heightened political polarisation in the Philippines, according to political scientists.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "political_stakes",
+      "rationale": "Only The Guardian cites Professor Jean Encinas-Franco characterizing the trial as 'divisive' and as having 'heightened political polarisation'.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes University of the Philippines professor Jean Encinas-Franco describing the trial as 'divisive' and as having 'heightened political polarisation'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Sara Duterte is the daughter of former President Rodrigo Duterte, making this trial part of a broader confrontation between two of the Philippines' most powerful political dynasties.",
+      "sources": [
+        "src_003",
+        "src_002"
+      ]
+    },
+    {
+      "point": "Rodrigo Duterte was arrested and transferred to ICC custody in March 2025 and is currently awaiting trial in The Hague on murder charges linked to his administration's 'war on drugs', in which thousands of suspects were killed.",
+      "sources": [
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "Marcos and Sara Duterte ran together on a joint ticket in the 2022 presidential election and won in a landslide, but their political alliance subsequently collapsed into an acrimonious feud.",
+      "sources": [
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "A first impeachment attempt against Sara Duterte was nullified by the Supreme Court on procedural/constitutional grounds; the current proceedings follow a second impeachment vote by the House of Representatives in May 2026.",
+      "sources": [
+        "src_001",
+        "src_003"
+      ]
+    },
+    {
+      "point": "Alan Peter Cayetano, briefly installed as Senate president with the decisive vote of Duterte ally Ronald dela Rosa, was Rodrigo Duterte's vice-presidential running mate in the 2016 election.",
+      "sources": [
+        "src_002"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-06T17:50:59.104233+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "The impeachment trial of Philippine Vice President Sara Duterte began on July 6, 2026, in the Senate in Manila. Duterte faces charges including misuse of public funds, amassing unexplained wealth, and threatening the lives of President Ferdinand Marcos Jr. and the First Lady. The vice president has denied all charges and insists the impeachment is politically motivated.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "A conviction requires at least 16 of the Senate's 24 members — a two-thirds majority — to vote in favor. A guilty verdict would bar Duterte from public office and end her bid for the presidency in 2028, a race in which she is currently seen as a leading contender.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Sara Duterte ran as Ferdinand Marcos Jr.'s vice-presidential running mate in the 2022 elections, which they won in a landslide. Their once-strong political alliance has since broken down in an increasingly bitter feud. Rodrigo Duterte, Sara's father and a former president, was arrested and transferred to International Criminal Court custody in March 2025 and is awaiting trial in The Hague on murder charges linked to his 'war on drugs'.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The House of Representatives impeached Duterte in May 2026, with an overwhelming majority — dominated by allies of President Marcos — voting to send the case to trial. This followed an earlier impeachment effort that Duterte successfully blocked after petitioning the Supreme Court, which declared it unconstitutional on procedural grounds.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The trial is expected to last months. A comparable impeachment — that of a former chief justice in 2012 — lasted four months. The Senate line-up for the impeachment trial remained fluid, and legal experts assessed conviction as difficult but not impossible.",
+        "supports": {
+          "claim_ids": [
+            "clm_027",
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The South China Morning Post reports that Duterte allegedly misused 612.5 million pesos in confidential funds from her vice-presidential office and while serving as education secretary. The outlet also reports she was accused of amassing billions of pesos in unexplained wealth beyond what she declared in her official asset statement, and of failing to divest business interests as required by law.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The Guardian reports that the charges relating to threats to lives stem from a November 2024 press conference, which Duterte later said was misinterpreted. The Japan Times notes that Duterte is seeking to have the current impeachment case dismissed by the Supreme Court.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Over 6,000 police personnel, including anti-riot squads, were deployed at the Senate complex for the trial, with full alert status declared across the capital. Pro- and anti-Duterte demonstrators were expected to converge at the Senate on the day the trial began.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Supporters of Duterte claim the vice president and her family are victims being targeted by the Marcos administration. Anti-Duterte protesters have called for her conviction as well as broader government transparency, including accountability over a scandal involving ghost flood-protection projects, according to The Guardian.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The Straits Times reports that President Marcos is constitutionally barred from seeking a second presidential term, making the 2028 race particularly consequential for the country's political future.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The Guardian frames Rodrigo Duterte's arrest and pending ICC trial as a major flashpoint between the Duterte and Marcos families, emphasizing the personal and political dimensions of the current impeachment proceedings.",
+        "supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Straits Times reports a tumultuous sequence of events in the Senate earlier this year. Ronald 'Bato' dela Rosa — who faces ICC murder charges similar to those against Rodrigo Duterte and served as national police chief during much of the drug crackdown in which thousands of suspects were killed — appeared in May 2026 after months absent from public view. He cast the decisive vote to install Alan Peter Cayetano as Senate president, then disappeared with his whereabouts unknown.",
+        "supports": {
+          "claim_ids": [
+            "clm_021",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Hours after dela Rosa cast his vote, chaos and gunfire erupted at the Philippine Parliament building on May 14, 2026. About a month later, a rival bloc secured enough Senate support to elect Senator Sherwin Gatchalian as Senate president, according to The Straits Times.",
+        "supports": {
+          "claim_ids": [
+            "clm_022",
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "The Guardian notes that no politician in the Philippines has ever been convicted through an impeachment process, underscoring the difficulty of securing the two-thirds Senate majority required.",
+        "supports": {
+          "claim_ids": [
+            "clm_026"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "The trial has proven divisive and has heightened political polarization in the Philippines, according to political scientists cited by The Guardian.",
+        "supports": {
+          "claim_ids": [
+            "clm_028"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

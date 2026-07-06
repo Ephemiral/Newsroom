@@ -1,0 +1,1016 @@
+{
+  "schema_version": "0.4",
+  "event": {
+    "cluster_id": "evt_2026_07_06_auto_001",
+    "beat": "asia",
+    "title": "China Test-Fires Submarine-Launched Missile into Pacific Ocean",
+    "summary": "China's People's Liberation Army Navy test-fired a submarine-launched strategic missile carrying a dummy warhead into the Pacific Ocean on July 6, 2026, drawing criticism from Japan, Australia, New Zealand, and Taiwan. The test coincided with Australia signing a mutual defence treaty with Fiji.",
+    "date": "2026-07-06",
+    "generated_at": "2026-07-06T17:47:34.819238+00:00",
+    "image_attempted_at": "2026-07-06T17:48:09.862131+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/SLBM_Comparison.jpg/1280px-SLBM_Comparison.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/SLBM_Comparison.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:SLBM_Comparison.jpg",
+      "width": 1200,
+      "height": 678,
+      "caption": "Submarine-launched ballistic missiles comparison, including Chinese models JL-2 and CSS-NX-3 (file photo)",
+      "credit": "MDA-file",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:SLBM Comparison.jpg",
+      "query": "submarine-launched ballistic missile",
+      "fetched_at": "2026-07-06T17:48:09.862093+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/07/06/asia-pacific/china-submarine-missile-pacific/",
+      "author": null,
+      "published_at": "2026-07-06T08:29:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/australianz/china-test-fires-missile-into-pacific-alarming-regional-powers",
+      "author": null,
+      "published_at": "2026-07-06T05:11:44+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c30yy6jj8p1o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-06T09:06:53+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/china-test-fires-missile-into-pacific-alarming-regional-powers",
+      "author": null,
+      "published_at": "2026-07-06T06:21:37+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/asia-pacific/20260706-china-conducts-long-range-ballistic-missile-test-in-south-pacific",
+      "author": "FRANCE 24",
+      "published_at": "2026-07-06T07:32:27+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/military/article/3359541/nuclear-powered-pla-submarine-fires-test-missile-western-pacific?utm_source=rss_feed",
+      "author": "Alcott Wei,Gabriel Dominguez",
+      "published_at": "2026-07-06T05:12:58+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/06/china-missile-test-south-pacific",
+      "author": "Josh Butler and Dan Jervis-Bardy with agencies",
+      "published_at": "2026-07-06T10:15:35+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "I don't have reliable information about these specific journalists at The Guardian, so I cannot provide an accurate background note.\n\nnull",
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "China's PLA Navy test-fired a submarine-launched strategic missile carrying a dummy warhead into the Pacific Ocean on July 6, 2026 at 12:01 pm.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "All seven outlets across center-left, center, and center-right tiers confirm the core fact of the missile launch, its dummy warhead, and the 12:01 pm launch time. This satisfies the cross-spectrum agreement requirement.",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as a 'submarine-launched strategic missile' from the Chinese Navy, notes it was 'unidentified'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports it as 'a missile from a nuclear submarine' per state media; notes launch time of 12:01pm.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes it as 'a long-range ballistic missile with a dummy warhead'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'missile from a nuclear-powered submarine' per state media at 12:01 pm.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes it as 'a long-range ballistic missile from one of its nuclear-powered submarines in the South Pacific'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports 'nuclear-powered PLA submarine fired a test missile' per Chinese state media.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Cites Chinese navy statement describing 'a nuclear submarine launched a strategic missile carrying a training simulation warhead'.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The missile accurately landed in a designated sea area, according to Chinese authorities.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Multiple outlets across center-left and center-right tiers report China's claim that the missile landed in the designated area. The exact landing location was separately noted by some outlets as unclear.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Beijing's claim that it 'accurately landed in a designated area', while noting the exact location was not immediately clear.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports China's characterization that 'it precisely landed in the designated waters'.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Cites Chinese navy: missile 'accurately land(ed) in the designated sea area'.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "China characterized the missile test as a routine arrangement of its annual military training, not directed at any specific country or target, and in compliance with international law and practice.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "All seven outlets across the spectrum report China's stated justification that the launch was routine, legally compliant, and not targeted at any country, drawn from Xinhua and Chinese Foreign Ministry statements.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Beijing's characterization as 'routine part of China's annual military training' that 'complied with international law and practice' and 'was not directed against any specific country or target'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports Xinhua's description as a 'routine arrangement' and Foreign Ministry spokeswoman Mao Ning saying it was conducted 'safely, in a standardised and professional manner'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports Beijing called it a 'routine part of China's annual military programme' and 'not directed at any specific country or target'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports China stated the launch 'complied with international law and practice' and 'was not directed against any country or target'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports China's foreign ministry described it as 'routine arrangement' in 'accordance with international law' and 'not directed against any specific country'.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Reports Chinese spokesperson Wang Xuemeng's statement it was 'routine' and Mao Ning's that it was conducted 'safely, in a standardised manner'; notes China asked countries 'not to over-interpret this'.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "China stated that relevant countries were notified in advance of the missile test.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Multiple outlets across center-left and center tiers confirm China's claim of advance notification, corroborated by governments of Japan, Australia, and New Zealand themselves confirming they received notice.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Beijing's claim that 'relevant countries had been notified in advance'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports Indo-Pacific governments including New Zealand, Japan, and Papua New Guinea 'were informed by Chinese officials of their military's intention to conduct sea-based drills on Monday'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports Japan and Australia confirmed they had been given advance notice.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Reports Chinese spokesperson Wang Xuemeng stated 'relevant countries were informed in advance'; Australia confirmed being informed 'within the next 24 hours'.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Australia, New Zealand, and Japan were given only a short period of advance notice — hours before the launch — about the missile test.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Multiple outlets across center-left and center-right tiers confirm the short advance notice window, with Japan specifically informed 90 minutes before launch and New Zealand criticizing China for acting 'within hours of informing' them.",
+      "framing_variants": [
+        {
+          "characterization": "States Pacific regional powers 'were given only a short period of advance notice about the test'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Specifies Japan was informed '90 minutes before it happened' and strongly urged China to reconsider.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States Australia, New Zealand, and Japan 'were given only a short period of advance notice about the test'.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reports New Zealand 'was informed of the planned launch hours beforehand' and Peters criticized that 'China carried out the test within hours of informing us'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports Australia was informed the test would occur 'within the next 24 hours'; defence attachés in Beijing and officials in Canberra were briefed 'earlier in the day'.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Japan strongly urged China to reconsider the missile test after being notified, and expressed grave concern over China's increased military activity.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Five outlets across center-left and center-right tiers consistently report Japan's diplomatic objection and expression of grave concern, cross-confirming the claim across the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Says Tokyo 'strongly urged' Beijing to reconsider the move before it was launched.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports Japan 'expressed its grave concern over the Chinese military's increased activity' and urged China to reconsider.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States Japan 'strongly urged' China to reconsider after being informed 90 minutes before launch.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports Japan 'expressed our grave concern over the Chinese military's increased activity' and urged China to reconsider.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reports Japan 'tried to convince China not to fire the test missile' and 'expressed serious concerns over China's increasing military activity'.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "New Zealand Foreign Minister Winston Peters called the test 'an unwelcome and concerning development' and criticized China for carrying out the test within hours of informing New Zealand.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Five outlets across center-left, center, and center-right tiers report Peters's statement, with multiple also reporting his criticism of the short notification window, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Peters called it 'an unwelcome and concerning development' and said New Zealand has 'no interest in China using the South Pacific as a testing site for missile capability'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Quotes Peters calling it 'an unwelcome and concerning development'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports Peters called it 'an unwelcome and concerning development'.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reports Peters stated China 'carried out the test within hours of informing us'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports Peters described the test as 'deeply concerning' and criticized China for acting 'within hours of informing us'.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Australia's Foreign Minister Penny Wong characterized the missile test as occurring 'in the context of a rapid military build-up by China, which is lacking in the transparency and reassurance as to intent that the region expects,' and said Australia regards the test as destabilising to the region.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Five outlets across center-left, center, and center-right tiers consistently report Wong's statements characterizing the test, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Wong saying the test came 'in the context of a rapid military build-up by China, which is lacking in the transparency and reassurance as to intent that the region expects'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Canberra accused China of 'destabilising' the region; Wong framed the test as occurring amid 'a rapid military build-up by China'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Quotes Wong saying the test came 'in the context of a rapid military buildup by China, which is lacking in the transparency and reassurance as to intent that the region expects'.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reports Wong stated 'Australia has been clear with China that we regard this as destabilising to the region'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports Wong said she would 'leave it to China to speak to its intent' while noting Australia had been aware of a Chinese task group in the region 'for some time'.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Australia's Acting Prime Minister Richard Marles said Australia is 'very concerned about any actions which undermine the stability, the peace, and security of the Pacific'.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Two center-left outlets report Marles's statement, but both are from the same side of the spectrum, so this is corroborated rather than agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Marles saying Australia is 'very concerned about any actions which undermine the stability, the peace, and security of the Pacific'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Identifies Marles as Australia's acting prime minister and reports his concern over regional stability.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Taiwan's presidential office characterized the test as an attempt by China to intimidate the international community; China characterized the test as routine and not directed at any specific country.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "international_response",
+      "rationale": "Taiwan and China offer directly contradictory characterizations of the test's intent — Taiwan calling it intimidation, China calling it routine training — creating an actor dispute reported by two outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Taiwan's presidential office called it 'an attempt by China to intimidate the international community'; also reports China's routine-training characterization.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports Taiwan's presidential office called it 'an attempt to intimidate the international community'; also carries China's 'routine arrangement' framing.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "A senior Taiwanese security official said Taiwan was tracking an upward trend in Chinese naval movements during the peak military exercise season, including joint drills with Russia.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Two center-right outlets report the Taiwanese security official's assessment, but both are from the same outlet (The Straits Times), so this is corroborated.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Taiwan tracked an 'upward trend' in Chinese naval movements, including joint drills with Russia.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports a senior Taiwanese security official said Taiwan was tracking an 'upward trend' in Chinese naval movements including joint drills with Russia.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Xinhua did not specify what type of missile China had launched; China's defence ministry did not confirm whether an intercontinental ballistic missile was used.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Three outlets across center-right and center-left tiers note the lack of official identification of the missile type, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Xinhua did not specify what type of missile China had launched'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'Xinhua did not specify what type of missile China had launched'.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Notes China's defence ministry 'did not confirm whether an intercontinental ballistic missile (ICBM) was used'.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "State-controlled Global Times, citing a military expert, said the missile was likely the JL-3 — China's most advanced submarine-launched missile, which debuted at a military parade in 2025 and could reach the continental United States from Chinese coastal waters according to a Pentagon report.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Two center-right outlets (both The Straits Times) report the JL-3 assessment from state-controlled Global Times. As a state-aligned outlet's claim carried by same-spectrum sources, this is corroborated but not cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Reports state-controlled tabloid Global Times, citing a military expert, said it was 'likely to have been the JL-3', China's most advanced submarine-launched missile which debuted at a 2025 parade and could reach the US mainland per a Pentagon report.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports state-controlled tabloid Global Times, citing a military expert, said the missile was 'likely' the JL-3, with same details about range and the Pentagon report.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "The missile test was China's first known submarine-based missile test since 1982, and the first known to have been fired from a nuclear-powered submarine.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only the South China Morning Post reports this historical claim about the test being the first submarine-based missile test since 1982 and the first from a nuclear-powered submarine.",
+      "framing_variants": [
+        {
+          "characterization": "States 'the test was China's first known submarine-based missile test since 1982' and 'the first known to have been fired from a nuclear-powered submarine'.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "The missile test occurred on the same day as Australia and Fiji signed the Ocean of Peace alliance, a mutual defence pact committing each country to come to the other's aid if attacked.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "australia_fiji_pact",
+      "rationale": "Five outlets across center-left, center, and center-right tiers confirm the timing coincidence of the missile test and the Australia-Fiji treaty signing, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Notes the test 'coincided with the signing in Fiji of a mutual defence pact between that island nation and Australia'; describes the Ocean of Peace alliance's mutual defence commitment.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports the test occurred 'hours after Australia signed a new defence pact with Fiji'; describes the Ocean of Peace Alliance as Fiji's first alliance and Australia's fourth.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Notes the test 'coincided with the signing in Fiji of a mutual defence pact between that island nation and Australia'.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reports the launch took place 'the same day Australia and Fiji signed a new mutual defence treaty' and states the treaty 'is meant to counter Chinese influence in the Pacific'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports Australia and Fiji signed 'a major defence alliance, committing each country to come to the other's aid in the event of an attack'; notes the alliance is 'open to other countries to join in the future'.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Australian officials stated they do not believe the missile test was a response to the new Australia-Fiji security agreement.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "australia_fiji_pact",
+      "rationale": "Only BBC News reports Australian officials' stated view that the test was not a response to the new security agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States Australian 'officials said they do not believe the test is a response to its new security agreement'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "The Australia-Fiji Ocean of Peace Alliance is described by France 24 as intended to counter Chinese influence in the Pacific; Fijian Prime Minister Rabuka stated it does not threaten Fiji's or Australia's relationship with China.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "australia_fiji_pact",
+      "rationale": "France 24 characterizes the Australia-Fiji treaty as designed to counter Chinese influence, while Fijian PM Rabuka explicitly stated it does not threaten either country's relationship with China — creating a direct dispute between the outlet's framing and the actor's stated position.",
+      "framing_variants": [
+        {
+          "characterization": "States the treaty 'is meant to counter Chinese influence in the Pacific'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports Fijian PM Rabuka stated 'It does not threaten Fiji's relationship with China nor Australia's relationship with China'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Australian Prime Minister Anthony Albanese called the Australia-Fiji treaty 'one of the most significant endeavours' Canberra had undertaken with any country, and Fijian PM Sitiveni Rabuka called it a 'defining moment' and a 'very significant elevation' of bilateral ties.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "australia_fiji_pact",
+      "rationale": "Only BBC News reports these specific quotes from both prime ministers characterizing the significance of the treaty.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Albanese calling it 'one of the most significant endeavours' Canberra had undertaken, and Rabuka calling it a 'defining moment' and 'very significant elevation of our bilateral relationship'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Under the Ocean of Peace Alliance, Australia will spend more than $1 billion over a decade on measures against transnational crime, health, and infrastructure in Fiji.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "australia_fiji_pact",
+      "rationale": "Only BBC News reports this specific financial commitment under the treaty.",
+      "framing_variants": [
+        {
+          "characterization": "States Australia's government will spend 'more than $1bn over a decade on measures against transnational crime, and health and infrastructure in Fiji'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Australia also signed a comprehensive strategic pact with Vanuatu on the same trip, recognizing Australia as Vanuatu's primary policing partner and barring any foreign military base on the island.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "australia_fiji_pact",
+      "rationale": "Only BBC News reports the separate Australia-Vanuatu strategic pact and its specific provisions.",
+      "framing_variants": [
+        {
+          "characterization": "States Albanese 'signed Australia's first comprehensive strategic pact with Vanuatu' which 'recognises Australia as Vanuatu's primary policing partner' and 'bars the establishment of any foreign military base on the Pacific island'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "The missile test coincided with Australian PM Albanese's Pacific diplomatic tour, which was ongoing in Fiji at the time of the test.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "australia_fiji_pact",
+      "rationale": "Two center-left outlets confirm that Albanese and Wong were in Fiji when the test occurred, but both are from the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Notes Albanese was in Fiji signing the treaty and would continue his Pacific trip to Solomon Islands.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports Wong 'was travelling with the prime minister, Anthony Albanese' in Fiji when she made statements about the test.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "The missile was fired into the South Pacific Nuclear Free Zone, which was established by the 1986 Treaty of Rarotonga; China ratified the protocols in 1987, pledging not to test nuclear weapons within the zone.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Two outlets — France 24 (center) and The Guardian (center-left) — report the Nuclear Free Zone detail and New Zealand's observation, but both are close to the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Notes the missile was 'fired into the South Pacific Nuclear Free Zone' established by the 1986 Treaty of Rarotonga, and that China in 1987 pledged not to test nuclear weapons within the zone.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports New Zealand noted 'it was fired into the South Pacific Nuclear Free Zone'.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-06T17:47:57.891545+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "China's People's Liberation Army Navy test-fired a submarine-launched strategic missile carrying a dummy warhead into the Pacific Ocean on July 6, 2026, at 12:01 pm. The missile accurately landed in a designated sea area, according to Chinese authorities.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "China characterized the test as a routine arrangement of its annual military training, not directed at any specific country or target, and stated that it was in compliance with international law and practice. Chinese authorities said relevant countries were notified in advance of the missile test.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The launch occurred on the same day as Australia and Fiji signed the Ocean of Peace alliance, a mutual defence pact committing each country to come to the other's aid if attacked. The coincidence came during Australian Prime Minister Anthony Albanese's Pacific diplomatic tour, which was ongoing in Fiji at the time of the test.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Australia, New Zealand, and Japan were given only a short period of advance notice — hours before the launch — about the missile test. Japan was specifically informed 90 minutes before launch, while New Zealand criticized China for acting within hours of informing them.",
+        "supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Xinhua did not specify what type of missile China had launched, and China's defence ministry did not confirm whether an intercontinental ballistic missile was used.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The missile was fired into the South Pacific Nuclear Free Zone, which was established by the 1986 Treaty of Rarotonga. China ratified the protocols in 1987, pledging not to test nuclear weapons within the zone.",
+        "supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_007"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Japan strongly urged China to reconsider the missile test after being notified, and expressed grave concern over China's increased military activity.",
+        "supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "New Zealand Foreign Minister Winston Peters called the test \"an unwelcome and concerning development\" and criticized China for carrying out the test within hours of informing New Zealand.",
+        "supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Australia's Foreign Minister Penny Wong characterized the missile test as occurring \"in the context of a rapid military build-up by China, which is lacking in the transparency and reassurance as to intent that the region expects,\" and said Australia regards the test as destabilising to the region. Australia's Acting Prime Minister Richard Marles said Australia is \"very concerned about any actions which undermine the stability, the peace, and security of the Pacific.\"",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "A senior Taiwanese security official said Taiwan was tracking an upward trend in Chinese naval movements during the peak military exercise season, including joint drills with Russia.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "State-controlled Global Times, cited by center-right outlets, said the missile was likely the JL-3 — China's most advanced submarine-launched missile, which debuted at a military parade in 2025 and could reach the continental United States from Chinese coastal waters according to a Pentagon report.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The South China Morning Post reported the test as China's first known submarine-based missile test since 1982, and the first known to have been fired from a nuclear-powered submarine.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "BBC News reported that Australian officials stated they do not believe the missile test was a response to the new Australia-Fiji security agreement.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "BBC News reported that Australian Prime Minister Anthony Albanese called the Australia-Fiji treaty \"one of the most significant endeavours\" Canberra had undertaken with any country, while Fijian Prime Minister Sitiveni Rabuka called it a \"defining moment\" and a \"very significant elevation\" of bilateral ties. Under the Ocean of Peace Alliance, Australia will spend more than $1 billion over a decade on measures against transnational crime, health, and infrastructure in Fiji.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "BBC News also reported that Australia signed a comprehensive strategic pact with Vanuatu on the same trip, recognizing Australia as Vanuatu's primary policing partner and barring any foreign military base on the island.",
+        "supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "Taiwan's presidential office and China offered contradictory characterizations of the test's intent. Taiwan's presidential office characterized the test as an attempt by China to intimidate the international community, while China characterized the test as routine and not directed at any specific country.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p17",
+        "text": "The purpose of the Australia-Fiji security pact was characterized differently by different actors. France 24 described the Ocean of Peace Alliance as intended to counter Chinese influence in the Pacific, while Fijian Prime Minister Rabuka stated it does not threaten Fiji's or Australia's relationship with China.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}
