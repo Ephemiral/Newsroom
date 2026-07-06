@@ -82,11 +82,26 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
+            const fs = require('fs');
             const run_url = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            // Embed the per-beat run logs (errors + outcomes) so a failure is
+            // diagnosable from the issue itself, without downloading artifacts.
+            let details = '';
+            try {
+              const dir = 'data/logs/autorun';
+              const files = fs.readdirSync(dir).filter(f => f.startsWith('run_')).sort().slice(-6);
+              for (const f of files) {
+                const log = JSON.parse(fs.readFileSync(`${dir}/${f}`, 'utf8'));
+                details += `\n### ${log.beat || f}\n- outcome: ${log.outcome || '?'}\n`;
+                if (log.errors && log.errors.length)
+                  details += 'errors:\n' + log.errors.map(e => `  - ${e.event_id}: ${e.error}`).join('\n') + '\n';
+                if (log.git) details += `- git: ${log.git}\n`;
+              }
+            } catch (e) { details = `(could not read run logs: ${e.message})`; }
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: `autorun failed — ${new Date().toISOString().slice(0, 16)}Z`,
               labels: ["autorun-failure"],
-              body: `The scheduled publish cycle failed.\n\nRun: ${run_url}\n\nCheck the run log artifact for the per-cycle JSON log.`,
+              body: `The publish cycle failed.\n\nRun: ${run_url}\n\n## Diagnostics\n${details}`,
             });
