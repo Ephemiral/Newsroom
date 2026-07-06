@@ -71,7 +71,10 @@ LEFT_TIERS = {"left", "center-left"}
 RIGHT_TIERS = {"right", "center-right"}
 
 LOG_DIR = ROOT / "data" / "logs" / "autorun"
-STATE_PATH = LOG_DIR / "state.json"
+# State is git-tracked (and committed by publish cycles) so that stateless
+# environments — the GitHub Actions runner — share the attempt ledger and never
+# re-burn tokens on an article set that already failed.
+STATE_PATH = ROOT / "data" / "autorun" / "state.json"
 LOCK_PATH = LOG_DIR / "autorun.lock"
 LOCK_STALE_SECONDS = 3 * 3600
 
@@ -109,6 +112,7 @@ def load_state() -> dict:
 
 
 def save_state(state: dict) -> None:
+    STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
     STATE_PATH.write_text(json.dumps(state, indent=2))
 
 
@@ -118,10 +122,11 @@ def fingerprint(urls: list[str]) -> str:
 
 # ── Published-event index (for novelty gate) ──────────────────────────────────
 
-def published_url_sets(beat_dir: Path) -> list[set[str]]:
-    """URL sets of every already-published (analyzed) event."""
+def published_url_sets(events_root: Path) -> list[set[str]]:
+    """URL sets of every already-published (analyzed) event, across ALL beats —
+    the same story must not publish in two theatres."""
     sets = []
-    for path in beat_dir.glob("*_analyzed.json"):
+    for path in events_root.glob("*/*_analyzed.json"):
         try:
             data = json.loads(path.read_text())
             urls = {s.get("url", "") for s in data.get("sources", []) if s.get("url")}
@@ -201,8 +206,11 @@ def unique_event_id(out_dir: Path) -> str:
 def git_publish(paths: list[Path], titles: list[str], no_push: bool) -> str:
     rel = [str(p.relative_to(ROOT)) for p in paths]
     subprocess.run(["git", "add", *rel], cwd=ROOT, check=True)
-    title_line = "; ".join(t[:60] for t in titles)
-    msg = f"auto: publish {len(titles)} event(s) — {title_line}\n\nAutomated publish by scripts/auto_run.py."
+    if titles:
+        title_line = "; ".join(t[:60] for t in titles)
+        msg = f"auto: publish {len(titles)} event(s) — {title_line}\n\nAutomated publish by scripts/auto_run.py."
+    else:
+        msg = "auto: record failed publish attempt(s) in state ledger\n\nAutomated commit by scripts/auto_run.py."
     subprocess.run(["git", "commit", "-m", msg], cwd=ROOT, check=True)
     if no_push:
         return "committed (push skipped)"
@@ -260,7 +268,7 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
 
     # ── 3. Qualify ────────────────────────────────────────────────────────
     article_map = {a.article_id: a for a in articles}
-    published = published_url_sets(out_dir)
+    published = published_url_sets(ROOT / "data" / "events")
     state = load_state()
 
     qualified = []
@@ -340,7 +348,11 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
         save_state(state)
 
     # ── Git ───────────────────────────────────────────────────────────────
-    if to_commit:
+    # The attempt ledger travels with the repo (see STATE_PATH comment); commit
+    # it even on publish-free cycles that recorded failed attempts.
+    if STATE_PATH.exists():
+        to_commit.append(STATE_PATH)
+    if titles or run_log["failed"]:
         try:
             run_log["git"] = git_publish(to_commit, titles, no_push)
         except Exception as e:
@@ -350,31 +362,63 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
     return run_log
 
 
+def notify_failure(summary: str) -> None:
+    """Local alerting: macOS notification when a cycle goes wrong (launchd mode).
+    In GitHub Actions the workflow's failure-issue step covers this instead."""
+    if sys.platform != "darwin" or os.environ.get("GITHUB_ACTIONS"):
+        return
+    try:
+        safe = summary.replace('"', "'")[:200]
+        subprocess.run([
+            "osascript", "-e",
+            f'display notification "{safe}" with title "Newsroom autorun failed" sound name "Basso"',
+        ], check=False, timeout=10)
+    except Exception:
+        pass
+
+
 def main():
     parser = argparse.ArgumentParser(description="Autonomous discover→qualify→publish cycle")
-    parser.add_argument("--beat", default="israel_middle_east")
-    parser.add_argument("--max-events", type=int, default=DEFAULT_MAX_EVENTS)
+    parser.add_argument("--beats", "--beat", dest="beats", default="israel_middle_east",
+                        help="Comma-separated beat names, processed in order")
+    parser.add_argument("--max-events", type=int, default=DEFAULT_MAX_EVENTS,
+                        help="Max events published per beat per cycle")
     parser.add_argument("--dry-run", action="store_true", help="Qualify only; no LLM calls, no publishing")
     parser.add_argument("--no-push", action="store_true", help="Commit but do not push")
     args = parser.parse_args()
+    beats = [b.strip() for b in args.beats.split(",") if b.strip()]
 
     if not acquire_lock():
         sys.exit(0)
 
-    run_log = {}
+    failures = []
     try:
-        run_log = run_cycle(args.beat, args.max_events, args.dry_run, args.no_push)
-    except Exception as e:
-        log.exception("auto_run cycle crashed")
-        run_log = {"outcome": f"CRASH: {e}", "started_at": datetime.now(timezone.utc).isoformat()}
-        raise
+        for beat in beats:
+            run_log = {}
+            try:
+                run_log = run_cycle(beat, args.max_events, args.dry_run, args.no_push)
+            except Exception as e:
+                log.exception("auto_run cycle crashed for beat %s", beat)
+                run_log = {"beat": beat, "outcome": f"CRASH: {e}",
+                           "started_at": datetime.now(timezone.utc).isoformat()}
+            run_log["finished_at"] = datetime.now(timezone.utc).isoformat()
+            stamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+            LOG_DIR.mkdir(parents=True, exist_ok=True)
+            (LOG_DIR / f"run_{stamp}_{beat}.json").write_text(
+                json.dumps(run_log, indent=2, ensure_ascii=False))
+            log.info("[%s] Cycle finished: %s", beat, run_log.get("outcome"))
+            outcome = str(run_log.get("outcome", ""))
+            git_status = str(run_log.get("git", ""))
+            if ("CRASH" in outcome or "ERROR" in outcome or run_log.get("failed")
+                    or "FAILED" in git_status or "ERROR" in git_status):
+                failures.append(f"{beat}: {outcome} | git: {git_status or 'n/a'}")
     finally:
-        run_log["finished_at"] = datetime.now(timezone.utc).isoformat()
-        stamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
-        LOG_DIR.mkdir(parents=True, exist_ok=True)
-        (LOG_DIR / f"run_{stamp}.json").write_text(json.dumps(run_log, indent=2, ensure_ascii=False))
-        log.info("Cycle finished: %s", run_log.get("outcome"))
+        if failures:
+            notify_failure("; ".join(failures))
         release_lock()
+
+    if failures:
+        sys.exit(1)  # non-zero exit → CI failure step fires
 
 
 if __name__ == "__main__":

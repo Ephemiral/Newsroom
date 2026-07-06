@@ -15,9 +15,20 @@ const spectral = Spectral({
   style: ["normal", "italic"],
 });
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://newsroom-sand-seven.vercel.app";
+
 export const metadata: Metadata = {
-  title: "Critiqal",
-  description: "Neutral synthesis of multi-source news — what outlets agree on, what they contest, and who is behind each story.",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Critiqal",
+    template: "%s — Critiqal",
+  },
+  description:
+    "Transparent synthesis of multi-source news — what outlets agree on, what they contest, and who is behind each story.",
+  openGraph: {
+    siteName: "Critiqal",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

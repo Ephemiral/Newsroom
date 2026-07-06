@@ -1,14 +1,28 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.4",
   "event": {
     "cluster_id": "evt_2026_06_04_062",
     "beat": "israel_middle_east",
-    "title": "US-Iran Ceasefire Extension Negotiations: Framework Agreement Reached, Pending Approval",
-    "summary": "US and Iranian negotiators reached a tentative framework agreement (memorandum of understanding) to extend their ceasefire by 60 days and launch nuclear talks, but as of late May 2026 the deal remained unconfirmed and pending approval from both President Trump and Iran's new supreme leader, with both sides accusing each other of ceasefire violations and disputes persisting over nuclear enrichment and Strait of Hormuz control.",
+    "title": "US-Iran Ceasefire Extension Framework: Negotiations and Sticking Points",
+    "summary": "US and Iranian negotiators reached a tentative framework agreement to extend their ceasefire by 60 days and launch nuclear talks, but the deal remained unsigned as of late May 2026, pending approval from President Trump and Iranian leadership, with both sides exchanging conflicting statements about the agreement's terms and status.",
     "date": "2026-05-29",
-    "generated_at": "2026-06-30T08:53:29.772071+00:00",
-    "image_attempted_at": "2026-07-06T07:55:45.523063+00:00",
-    "image": null
+    "generated_at": "2026-07-06T09:06:55.294837+00:00",
+    "image_attempted_at": "2026-07-06T09:10:48.438469+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/State_Department_Building_headquarters.png/1280px-State_Department_Building_headquarters.png",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/State_Department_Building_headquarters.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:State_Department_Building_headquarters.png",
+      "width": 1200,
+      "height": 675,
+      "caption": "United States Department of State building in Washington, D.C. (file photo)",
+      "credit": "Unknown authorUnknown author",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "provider": "wikimedia_commons",
+      "file_title": "File:State Department Building headquarters.png",
+      "query": "State Department building",
+      "fetched_at": "2026-07-06T09:10:48.438420+00:00"
+    }
   },
   "sources": [
     {
@@ -291,30 +305,39 @@
   "claims": [
     {
       "claim_id": "clm_001",
-      "text": "US and Iranian negotiators reached a tentative framework agreement (described as a memorandum of understanding) to extend their ceasefire by 60 days, pending final approval from President Trump and Iran's leadership.",
+      "text": "US and Iranian negotiators agreed on a tentative framework (memorandum of understanding) to extend the ceasefire by 60 days.",
       "classification": "agreed",
+      "dispute_type": null,
       "claim_group": "ceasefire_details",
-      "rationale": "Multiple outlets across center and center-left bias tiers report this framework agreement was reached by negotiators but awaits leadership approval, making it cross-spectrum confirmed.",
+      "rationale": "Multiple outlets across the political spectrum — center (BBC, Reuters, Euronews) and center-left (Haaretz, The Guardian) and right (Israel Hayom) — all reported that negotiators had agreed on a tentative 60-day ceasefire extension framework, satisfying the cross-spectrum agreement threshold.",
       "framing_variants": [
         {
-          "characterization": "Reuters calls it a 'US-Iran MOU on 60-day ceasefire extension reached'",
-          "source_id": "src_007"
+          "characterization": "US officials told BBC the two countries had agreed a framework of a deal known as a memorandum of understanding",
+          "source_id": "src_002"
         },
         {
-          "characterization": "Euronews describes it as negotiators reaching agreement, pending final approval from Trump and Ayatollah Mojtaba Khamenei",
+          "characterization": "Reuters reports Iran and US reached a deal to extend ceasefire, pending Trump's approval",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews reports negotiators from both sides reached agreement on a 60-day deal to extend the ceasefire",
           "source_id": "src_008"
         },
         {
-          "characterization": "BBC frames it as officials indicating an agreed framework, not yet approved by Trump or Iranian leadership",
-          "source_id": "src_018"
+          "characterization": "BBC reports negotiators from both US and Iran sides agreed a framework for a 60-day extension",
+          "source_id": "src_022"
         },
         {
-          "characterization": "Euronews describes it as a 'tentative framework agreement' reached Thursday",
+          "characterization": "Euronews reports US and Iranian negotiators reached a tentative framework agreement on Thursday",
           "source_id": "src_021"
         },
         {
-          "characterization": "The Guardian calls it a 'reported memorandum of understanding reached with the help of Pakistani and Qatari mediators'",
+          "characterization": "Guardian describes a reported MOU that would extend the current ceasefire for 60 days",
           "source_id": "src_016"
+        },
+        {
+          "characterization": "Guardian reports Trump claimed he could approve an Iran peace deal on Friday",
+          "source_id": "src_014"
         }
       ],
       "supported_by": [
@@ -323,33 +346,72 @@
         "src_005",
         "src_007",
         "src_008",
-        "src_009",
         "src_015",
         "src_018",
         "src_022",
         "src_021",
         "src_016",
-        "src_014"
+        "src_014",
+        "src_009"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_002",
-      "text": "Trump met with senior advisers for approximately two hours in the White House Situation Room but did not make a decision on the Iran deal.",
+      "text": "The ceasefire extension framework required approval from both President Trump and Iranian leadership before taking effect.",
       "classification": "agreed",
+      "dispute_type": null,
       "claim_group": "ceasefire_details",
-      "rationale": "Center-left (Haaretz, The Guardian) and center (Euronews) outlets all report the Situation Room meeting concluded without a decision, providing cross-spectrum corroboration.",
+      "rationale": "Center outlets (BBC, Reuters, Euronews) and right-leaning outlets (Israel Hayom, Arutz Sheva) all confirmed that the framework awaited Trump's and Iranian leadership's approval, providing cross-spectrum corroboration.",
       "framing_variants": [
         {
-          "characterization": "The Guardian reports Trump 'emerged from the White House situation room after spending more than two hours with senior aides'",
+          "characterization": "Reuters notes deal is pending Trump's approval",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews says deal awaits final approval from Trump and Ayatollah Mojtaba Khamenei",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "BBC states agreement is yet to be approved by Donald Trump and Iranian leadership",
+          "source_id": "src_018"
+        },
+        {
+          "characterization": "Arutz Sheva reports Treasury Secretary said Iran deal depends on what Trump wants to do",
+          "source_id": "src_020"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_007",
+        "src_008",
+        "src_015",
+        "src_018",
+        "src_022",
+        "src_009",
+        "src_020"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Trump met with senior advisers for approximately two hours in the White House Situation Room on Friday but concluded the meeting without making a decision on the Iran deal.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Center-left (The Guardian, Haaretz) and center (Euronews) outlets all reported that Trump's Situation Room meeting ended without a decision, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Trump spent more than two hours in the Situation Room with senior aides; NYT cited senior official saying Trump had not made a decision",
           "source_id": "src_014"
         },
         {
-          "characterization": "Euronews states 'the meeting concluded without a decision'",
+          "characterization": "Euronews reports meeting concluded without a decision on a potential deal with Iran",
           "source_id": "src_021"
         },
         {
-          "characterization": "Haaretz reports 'Trump did not reach a decision on an Iran deal'",
+          "characterization": "Haaretz reports Trump did not reach a decision on an Iran deal",
           "source_id": "src_001"
         }
       ],
@@ -361,22 +423,23 @@
       "contested_by": []
     },
     {
-      "claim_id": "clm_003",
-      "text": "US Vice President JD Vance said the US and Iran were very close to a deal but that several sticking points, including the question of uranium enrichment, still needed to be resolved, and it was too early to say when or if an agreement would be finalized.",
-      "classification": "corroborated",
+      "claim_id": "clm_004",
+      "text": "US Vice President JD Vance stated that the US and Iran were 'very close' to a deal but still needed to work out 'several sticking points,' including 'the question of enrichment,' and that negotiators were 'going back and forth on a couple of language points.'",
+      "classification": "agreed",
+      "dispute_type": null,
       "claim_group": "ceasefire_details",
-      "rationale": "Multiple center and center-left outlets all cite Vance's same statements, but these outlets do not span enough of the political spectrum to qualify as 'agreed'.",
+      "rationale": "Center (BBC, Euronews) and center-left (The Guardian) outlets all reported Vance's direct statements about the near-but-not-final state of negotiations, spanning the spectrum sufficiently for 'agreed' classification.",
       "framing_variants": [
         {
-          "characterization": "BBC quotes Vance directly: 'We're very close and we're going to keep on working at it' while noting enrichment as a sticking point",
+          "characterization": "BBC quotes Vance directly: 'We're not there yet, but we're very close and we're going to keep on working at it'; identified enrichment as a sticking point",
           "source_id": "src_002"
         },
         {
-          "characterization": "Euronews describes Vance saying talks were making 'good progress'",
+          "characterization": "Euronews quotes Vance saying talks were making 'good progress'",
           "source_id": "src_008"
         },
         {
-          "characterization": "The Guardian notes Vance 'hinted on Thursday night that an agreement was close'",
+          "characterization": "Guardian reports Vance hinted on Thursday night that an agreement was close",
           "source_id": "src_014"
         }
       ],
@@ -388,117 +451,101 @@
       "contested_by": []
     },
     {
-      "claim_id": "clm_004",
-      "text": "Vance said the US believed Iran was negotiating in good faith.",
-      "classification": "single_source",
-      "claim_group": "ceasefire_details",
-      "rationale": "Only BBC directly quotes Vance's 'good faith' characterization of Iranian negotiators.",
-      "framing_variants": [
-        {
-          "characterization": "BBC quotes Vance saying 'the US believed the Iranians were negotiating in good faith'",
-          "source_id": "src_002"
-        }
-      ],
-      "supported_by": [
-        "src_002"
-      ],
-      "contested_by": []
-    },
-    {
       "claim_id": "clm_005",
-      "text": "US and Iranian officials disputed whether a final agreement had been reached: US officials and Axios reported a tentative framework was agreed, while Iran's Tasnim news agency, Iranian Foreign Ministry spokesperson Esmaeil Baghaei, and top Iranian negotiator Ghalibaf said no final understanding had been reached.",
-      "classification": "corroborated",
+      "text": "The US characterized the Iran-reported unofficial draft 14-point memorandum of understanding — which included lifting Washington's naval blockade, US force withdrawal from the 'vicinity of Iran,' and Iran-Oman control of the Strait of Hormuz — as a 'complete fabrication'; Iran's Tasnim news agency reported that the final text had not been completed or approved.",
+      "classification": "contested",
+      "dispute_type": "actor",
       "claim_group": "ceasefire_details",
-      "rationale": "US-side sources reported a framework had been agreed, while Iranian officials explicitly denied a final deal was reached — a direct factual dispute between the two parties reported across multiple outlets.",
+      "rationale": "The White House flatly denied the Iranian state media-reported draft as a 'complete fabrication,' while Iranian sources neither confirmed nor denied, saying the text was not finalized; this is a direct actor dispute about the content and authenticity of a circulating document.",
       "framing_variants": [
         {
-          "characterization": "BBC reports both: US officials said a framework was agreed; Iran's Tasnim said the deal had 'not been finalised or confirmed'",
+          "characterization": "BBC reports Iranian state media published the draft; White House called it a 'complete fabrication'; Tasnim said it had not been finalised",
           "source_id": "src_002"
         },
         {
-          "characterization": "The Guardian: 'top Iranian officials signalled a final agreement had not been reached'; Iranian FM spokesperson said 'no final agreement has been reached yet'",
+          "characterization": "BBC reports the draft included blockade lifting and Strait management by Iran/Oman but notably lacked Iranian nuclear concessions; White House called it a 'complete fabrication'",
+          "source_id": "src_022"
+        },
+        {
+          "characterization": "Reuters reports Iran state TV said a draft deal would reopen Hormuz shipping and end the naval blockade",
+          "source_id": "src_023"
+        },
+        {
+          "characterization": "Euronews notes IRGC-affiliated Tasnim quoted a source saying the final text had not been completed or approved",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Guardian reports Iran's Fars news agency said Trump published a 'mixture of truth and lies' about the terms",
           "source_id": "src_014"
-        },
-        {
-          "characterization": "Euronews: Iranian FM Baghaei stated 'no deal had yet been finalised'; Tasnim reported no final understanding reached",
-          "source_id": "src_021"
-        },
-        {
-          "characterization": "Reuters frames it as 'Iran and the US reached a deal to extend a ceasefire'",
-          "source_id": "src_003"
         }
       ],
       "supported_by": [
         "src_002",
-        "src_003",
-        "src_015",
-        "src_007",
         "src_022",
-        "src_021",
+        "src_008",
+        "src_023",
         "src_014"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_006",
-      "text": "The reported framework agreement's key terms include: unrestricted passage through the Strait of Hormuz, Iran removing all mines from the strait within 30 days, a proportional lifting of the US naval blockade as commercial shipping resumes, US sanctions waivers to allow Iran to sell oil, and Iran committing not to pursue nuclear weapons.",
+      "text": "The reported ceasefire extension framework included: unrestricted shipping through the Strait of Hormuz; Iran removing mines from the strait within 30 days; a proportional lifting of the US naval blockade; US sanctions waivers allowing Iran to sell oil; and Iran's commitment not to pursue nuclear weapons.",
       "classification": "corroborated",
+      "dispute_type": null,
       "claim_group": "ceasefire_details",
-      "rationale": "Multiple center and center-left outlets report these as the terms described by US sources, but coverage is clustered among center and center-left outlets rather than spanning the full spectrum.",
+      "rationale": "Multiple center and center-left outlets reported these as the terms of the framework, but the articles are predominantly from the same side of the spectrum (center/center-left), and Iran contested some terms, so this is corroborated rather than agreed.",
       "framing_variants": [
         {
-          "characterization": "BBC: framework gives Iran 30 days to remove mines, includes US lifting blockade and sanction waivers for oil sales",
+          "characterization": "BBC lists these as the reported framework terms, including 'unrestricted' passage and 30 days for mine removal",
           "source_id": "src_002"
         },
         {
-          "characterization": "Euronews lists these as US-sourced draft terms including Iran's commitment not to pursue nuclear weapons",
+          "characterization": "Euronews lists same terms as 'draft memorandum' provisions",
           "source_id": "src_008"
         },
         {
-          "characterization": "The Guardian reports Trump's stated requirements including Iran must 'never have a Nuclear Weapon or Bomb' and open the strait 'without tolls'",
+          "characterization": "Guardian attributes these terms to Trump's own public claims about the deal",
           "source_id": "src_014"
         },
         {
-          "characterization": "Euronews quotes Trump: 'The Hormuz Strait must be immediately open, no tolls, for unrestricted shipping traffic'",
-          "source_id": "src_021"
+          "characterization": "Guardian describes the reported MOU terms in a background context piece",
+          "source_id": "src_016"
         }
       ],
       "supported_by": [
         "src_002",
         "src_008",
         "src_014",
-        "src_021"
+        "src_016"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_007",
-      "text": "During the 60-day ceasefire extension, negotiations on Iran's nuclear programme — including its stockpile of highly enriched uranium — would begin.",
+      "text": "The 60-day ceasefire extension was intended to allow US and Iranian teams to begin nuclear negotiations during the window.",
       "classification": "agreed",
+      "dispute_type": null,
       "claim_group": "ceasefire_details",
-      "rationale": "Center (BBC, Euronews) and center-left (The Guardian) outlets all report that nuclear talks would be a key component of the ceasefire extension period, meeting the cross-spectrum threshold.",
+      "rationale": "Center outlets (BBC, Euronews) and center-left (The Guardian) all reported this as the intended purpose of the ceasefire extension, providing cross-spectrum confirmation.",
       "framing_variants": [
         {
-          "characterization": "BBC: extension would 'launch talks on the future of Iran's nuclear programme' including its enriched uranium stockpile",
+          "characterization": "BBC: 'Extending the ceasefire would allow US and Iranian teams to discuss the far more complicated and technical issues at play, particularly about Iran's nuclear programme'",
           "source_id": "src_002"
         },
         {
-          "characterization": "BBC: framework would 'launch negotiations on the future of Iran's nuclear programme'",
-          "source_id": "src_018"
-        },
-        {
-          "characterization": "Euronews: 'Nuclear negotiations would begin during the 60-day window' with Iran's enriched uranium as first item",
+          "characterization": "Euronews reports nuclear negotiations would begin during the 60-day window, with Iran's enriched uranium stockpile as the first agenda item",
           "source_id": "src_008"
         },
         {
-          "characterization": "The Guardian: 'negotiations would take place on the two-decades-old dispute over Iran's nuclear program'",
+          "characterization": "Guardian states negotiations would take place on the two-decades-old dispute over Iran's nuclear program during the 60-day period",
           "source_id": "src_016"
         }
       ],
       "supported_by": [
         "src_002",
-        "src_018",
         "src_008",
+        "src_018",
         "src_021",
         "src_016"
       ],
@@ -506,391 +553,339 @@
     },
     {
       "claim_id": "clm_008",
-      "text": "Iranian negotiators and officials stated Iran would not transfer its enriched uranium stockpile to a third country, while the US demanded Iran stop producing highly enriched uranium and dispose of its existing stockpile.",
-      "classification": "corroborated",
-      "claim_group": "nuclear_programme",
-      "rationale": "The US position demands Iran halt enrichment and remove stockpiles, while Iranian parliament speaker Azizi and other officials explicitly denied Iran would hand over or transfer nuclear materials — a direct actor dispute.",
+      "text": "Trump publicly stated that any deal would require Iran to never have a nuclear weapon or bomb, the Strait of Hormuz to be immediately opened without tolls, all water mines to be terminated, and that he would lift the US naval blockade; he also claimed he could approve a deal on Friday.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "nuclear_and_hormuz_dispute",
+      "rationale": "Center-left (The Guardian) and center (Euronews, Reuters, BBC) outlets all reported Trump's stated deal conditions, providing cross-spectrum corroboration.",
       "framing_variants": [
         {
-          "characterization": "BBC: US 'long demanded that Iran stop producing highly enriched uranium and dispose of its existing stockpile'; Iran 'insists its nuclear programme is entirely peaceful'",
-          "source_id": "src_002"
-        },
-        {
-          "characterization": "The Guardian: Iranian official Azizi stated 'the Islamic Republic has no intention of handing over or transferring these materials'; Trump suggested the US 'could take it, or dilute it'",
+          "characterization": "Guardian quotes Trump saying Iran 'must agree that they will never have a Nuclear Weapon or Bomb' and that he could approve a deal on Friday",
           "source_id": "src_014"
         },
         {
-          "characterization": "Euronews: Iran's Azizi said Iran has 'no intention of removing enriched uranium from the country and transferring it to a third state'",
-          "source_id": "src_008"
+          "characterization": "Euronews quotes Trump's stated red lines on nuclear weapons, Hormuz access without tolls, and mine removal",
+          "source_id": "src_021"
         },
         {
-          "characterization": "Euronews: Tehran maintains 'nuclear activities are solely for peaceful and civilian purposes'",
-          "source_id": "src_021"
+          "characterization": "Reuters reports Trump said he will soon decide on Iran deal and demanded reopening of the Hormuz Strait",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "BBC notes Trump suggested the US could take Iran's uranium stockpile or dilute it in place or at a third location",
+          "source_id": "src_002"
         }
       ],
       "supported_by": [
-        "src_002",
-        "src_008",
         "src_014",
-        "src_021"
+        "src_021",
+        "src_012",
+        "src_002"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_009",
-      "text": "Trump suggested Iran's highly enriched uranium could be taken by the US, diluted in place, or diluted in a third location.",
+      "text": "US Treasury Secretary Scott Bessent declined to confirm that an agreement had been reached, saying 'it's always a mistake to get out ahead of the president' and that 'it is all going to be the president's decision.'",
       "classification": "corroborated",
-      "claim_group": "nuclear_programme",
-      "rationale": "Multiple center and center-left outlets report Trump's uranium disposal suggestion, but coverage does not span the full political spectrum.",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Both BBC (center) and Arutz Sheva (right) reported Bessent's non-confirmation, but these two outlets are not sufficiently separated on the political spectrum to qualify as 'agreed'; they are center and right, which does span the spectrum — however only two sources and both attributed to the same official statement.",
       "framing_variants": [
         {
-          "characterization": "BBC: Trump suggested US could 'take it, or, together with Iran, dilute it in place or in a third location'",
+          "characterization": "BBC quotes Bessent directly declining to confirm the agreement and deferring to Trump's decision",
           "source_id": "src_002"
         },
         {
-          "characterization": "The Guardian: Trump's deal would 'allow the US to unearth and destroy highly enriched uranium from a secure nuclear site in Iran'",
-          "source_id": "src_014"
+          "characterization": "Arutz Sheva characterizes the story as Treasury Secretary saying the Iran deal depends on what Trump wants to do",
+          "source_id": "src_020"
         }
       ],
       "supported_by": [
         "src_002",
-        "src_008",
-        "src_014"
+        "src_020"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_010",
-      "text": "Iran's semi-official Tasnim news agency reported that the nuclear issue was not being discussed in current negotiations.",
-      "classification": "single_source",
-      "claim_group": "nuclear_programme",
-      "rationale": "Only The Guardian directly cites Tasnim's specific claim that there was 'no discussion about the nuclear issue' in negotiations.",
+      "text": "Iran's foreign ministry spokesperson Esmaeil Baqaei stated that exchanges of messages were continuing but no final agreement had been reached, while Iran's Tasnim news agency characterized Trump's announcement as 'in line with his usual pattern of making unilateral and egotistical statements.'",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Center-left (The Guardian) and center (Euronews, BBC) outlets all reported the Iranian foreign ministry's denial of a finalized agreement, spanning the spectrum for 'agreed' classification.",
       "framing_variants": [
         {
-          "characterization": "The Guardian cites Tasnim reporting 'there had been no discussion about the nuclear issue'",
+          "characterization": "Guardian quotes Baqaei: 'exchanges of messages are continuing, but no final agreement has been reached yet'; Tasnim called Trump's post egotistical",
           "source_id": "src_014"
+        },
+        {
+          "characterization": "Euronews quotes Iranian Foreign Ministry spokesperson stating no deal had yet been finalized and that negotiators were focused on ending the war, not nuclear specifics",
+          "source_id": "src_021"
+        },
+        {
+          "characterization": "BBC reports Iran's Tasnim said the framework had 'not been finalised or confirmed'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Euronews notes the IRGC-affiliated Tasnim quoted a source saying the final text had not been completed or approved",
+          "source_id": "src_008"
         }
       ],
       "supported_by": [
-        "src_014"
+        "src_014",
+        "src_021",
+        "src_002",
+        "src_008"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_011",
-      "text": "Iranian state media on Wednesday reported elements of what they described as an unofficial draft 14-point memorandum of understanding, including lifting the US naval blockade, withdrawing US forces from the 'vicinity of Iran,' and restoring non-military traffic through the Strait of Hormuz with Iran and Oman managing vessel routing.",
-      "classification": "corroborated",
-      "claim_group": "ceasefire_details",
-      "rationale": "Multiple center outlets (BBC, BBC, Reuters) report the Iranian state media draft, with the White House calling it a fabrication — but the fact of the reporting itself is not contested.",
+      "text": "Trump characterized the deal as requiring Iran to allow the US to 'unearth and destroy highly enriched uranium from a secure nuclear site in Iran'; Iranian officials — including parliamentary speaker Mohammad-Bagher Ghalibaf and parliament commission chair Ebrahim Azizi — denied any plan to export or transfer enriched uranium, with Azizi stating the Islamic Republic has 'no intention of handing over or transferring these materials.'",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "nuclear_and_hormuz_dispute",
+      "rationale": "Trump publicly stated the deal would allow US access to destroy Iran's enriched uranium, while multiple Iranian officials explicitly denied any plan to transfer or export their uranium stockpile — a direct actor dispute about a central deal term.",
       "framing_variants": [
         {
-          "characterization": "BBC describes it as 'an unofficial draft of a 14-point memorandum of understanding' reported by Iranian state media",
+          "characterization": "Guardian reports Trump claimed the deal would allow the US to 'unearth and destroy highly enriched uranium'; Iranian officials repeated there was no plan to allow export of uranium; Fars said Trump published 'a mixture of truth and lies'",
+          "source_id": "src_014"
+        },
+        {
+          "characterization": "BBC outlines US demand that Iran stop producing and dispose of its HEU stockpile; notes Iran insists its programme is peaceful",
           "source_id": "src_002"
         },
         {
-          "characterization": "BBC notes the draft was 'notably absent' of any Iranian concessions, especially on the nuclear issue",
-          "source_id": "src_022"
+          "characterization": "Euronews reports Iranian parliamentary official Azizi reiterated Iran has no intention of removing enriched uranium from the country",
+          "source_id": "src_008"
         },
         {
-          "characterization": "Reuters: 'Iran state TV says draft deal with US would reopen Hormuz shipping' and 'end naval blockade'",
-          "source_id": "src_023"
+          "characterization": "Guardian notes Trump previously said Iran's uranium must be transferred to the US for destruction or destroyed elsewhere; Iranian parliament speakers denied any transfer",
+          "source_id": "src_016"
+        },
+        {
+          "characterization": "Euronews notes Tehran has repeatedly pushed back against nuclear requirements, maintaining nuclear activities are for peaceful and civilian purposes",
+          "source_id": "src_021"
         }
       ],
       "supported_by": [
+        "src_014",
         "src_002",
-        "src_022",
-        "src_023"
+        "src_008",
+        "src_016",
+        "src_021"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_012",
-      "text": "The White House called the Iranian state media's purported draft memorandum a 'complete fabrication.'",
-      "classification": "corroborated",
-      "claim_group": "ceasefire_details",
-      "rationale": "Two BBC articles (center) both report the White House's 'complete fabrication' denial, but no cross-spectrum source adds additional confirmation.",
+      "text": "Trump characterized the deal as requiring the Strait of Hormuz to be opened without tolls; Iranian officials — including parliament commission chair Ebrahim Azizi and spokesperson Ebrahim Rezaei — insisted Iran's 'smart management' of the strait was permanent and that Iran would never relinquish control over it.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "nuclear_and_hormuz_dispute",
+      "rationale": "Trump demanded toll-free unrestricted passage while Iranian officials explicitly stated Iran's control over the Strait of Hormuz was permanent and non-negotiable — a central actor dispute over the Strait's governance terms.",
       "framing_variants": [
         {
-          "characterization": "BBC: 'The White House called the purported memorandum draft a complete fabrication'",
-          "source_id": "src_002"
+          "characterization": "Guardian reports Trump demanded 'open the strait of Hormuz for all traffic without tolls'; Rezaei stated Iran was 'in no mood to back down on its plans to change the management of the strait'",
+          "source_id": "src_014"
         },
         {
-          "characterization": "BBC: 'The White House issued a terse statement, calling the purported draft a complete fabrication'",
+          "characterization": "Euronews notes Mojtaba Khamenei stated the Islamic Republic will never give up on control over the Strait of Hormuz; Azizi said the policy is permanent",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "BBC reports US Treasury sanctioned Iran's 'Persian Gulf Strait Authority,' calling it an attempt to 'monetise its campaign of state-sponsored terror'",
           "source_id": "src_022"
+        },
+        {
+          "characterization": "Reuters notes Trump denied a deal on the Strait of Hormuz",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Euronews quotes Trump stating the Hormuz Strait must be immediately open with no tolls",
+          "source_id": "src_021"
         }
       ],
       "supported_by": [
-        "src_002",
-        "src_022"
+        "src_014",
+        "src_008",
+        "src_022",
+        "src_011",
+        "src_021"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_013",
-      "text": "Both Iran and the US accused each other of violating the ceasefire, with the US launching strikes on a site near Bandar Abbas, the IRGC claiming it attacked a US air base, and a ballistic missile intercepted over Kuwait.",
+      "text": "Both Iran and the US accused each other of violating the ceasefire, with the IRGC stating it targeted a US base in the region, US Central Command reporting strikes on a 'ground control site' in Bandar Abbas, and the US saying it shot down five Iranian drones.",
       "classification": "corroborated",
+      "dispute_type": null,
       "claim_group": "military_operations",
-      "rationale": "Center (BBC, Euronews) and center-left outlets all report mutual ceasefire violation accusations and the specific military incidents, meeting the cross-spectrum threshold.",
+      "rationale": "Center outlets (BBC, Reuters, Euronews) and center-left (The Guardian, via Euronews framing) all reported mutual ceasefire violation accusations and ongoing military incidents, providing cross-spectrum corroboration.",
       "framing_variants": [
         {
-          "characterization": "BBC: 'both Iran and the US have accused each other of violating the fragile ceasefire in the past few days'",
+          "characterization": "BBC: 'both Iran and the US have accused each other of violating the fragile ceasefire'; IRGC said it targeted a US base; fresh US strikes on southern Iran occurred overnight",
           "source_id": "src_002"
         },
         {
-          "characterization": "BBC: US struck a 'ground control site' in Bandar Abbas; IRGC said it attacked a US air base; Centcom called it 'an egregious ceasefire violation'",
+          "characterization": "BBC describes US Centcom strike on 'ground control site' in Bandar Abbas; IRGC said it attacked an American air base; a ballistic missile was intercepted over Kuwait; US shot down five Iranian drones",
           "source_id": "src_022"
         },
         {
-          "characterization": "Euronews: 'sporadic exchange of fire between Iran and the US, particularly along Iran's southern coast in the Persian Gulf'",
+          "characterization": "Euronews notes sporadic exchanges of fire particularly along Iran's southern coast in the Persian Gulf",
           "source_id": "src_008"
         },
         {
           "characterization": "Euronews: 'Both Iran and US have accused each other of violating the ceasefire'",
           "source_id": "src_021"
+        },
+        {
+          "characterization": "Reuters reports US struck Iran again, according to an official",
+          "source_id": "src_011"
         }
       ],
       "supported_by": [
         "src_002",
         "src_022",
         "src_008",
-        "src_021"
+        "src_021",
+        "src_011"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_014",
-      "text": "Iranian state media reported Iranian forces had downed a US aircraft near Bushehr; US Central Command denied the claim, saying 'No US aircraft were shot down' and all US air assets were accounted for.",
+      "text": "Iranian state media claimed Iran's forces downed a US aircraft near Bushehr; US Central Command denied the claim, stating 'No US aircraft were shot down' and that 'all US air assets are accounted for.'",
       "classification": "contested",
+      "dispute_type": "actor",
       "claim_group": "military_operations",
-      "rationale": "Iran's state media claimed to have downed a US aircraft while US Central Command explicitly rejected the report — a direct factual dispute between the two parties.",
+      "rationale": "Iranian state media asserted that Iranian forces shot down a US aircraft, while US Central Command flatly denied this — a direct actor dispute about a specific military event.",
       "framing_variants": [
         {
-          "characterization": "BBC: Iranian state media reported a US aircraft was downed; CENTCOM said 'No US aircraft were shot down. All US air assets are accounted for'",
+          "characterization": "BBC reports Iranian state media claimed forces 'taken down a US aircraft, possibly a drone'; US Central Command rejected the reports on social media",
           "source_id": "src_002"
         },
         {
-          "characterization": "Euronews: 'Tehran claimed to have downed a US aircraft near Bushehr'; 'CENTCOM denied Iran's allegation'",
+          "characterization": "Euronews notes Tehran claimed to have downed a US aircraft near Bushehr; CENTCOM denied the claim",
           "source_id": "src_008"
         }
       ],
       "supported_by": [
+        "src_002",
         "src_008"
       ],
-      "contested_by": [
-        "src_002"
-      ]
+      "contested_by": []
     },
     {
       "claim_id": "clm_015",
-      "text": "Iran's Strait of Hormuz management and the question of control over the waterway constituted a major dispute in negotiations, with Iran seeking to maintain management authority and the US opposing it.",
+      "text": "Pakistan's Foreign Minister Mohammad Ishaq Dar is serving as a mediator between Tehran and Washington; his meeting with US Secretary of State Marco Rubio in Washington ended without any public comment on the negotiations.",
       "classification": "agreed",
-      "claim_group": "strait_of_hormuz",
-      "rationale": "Center (BBC, Euronews) and center-left (The Guardian) outlets all report the Strait of Hormuz management as a central unresolved dispute, meeting the cross-spectrum threshold.",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Center (Euronews, BBC) and center-left (The Guardian) outlets all reported Pakistan's mediating role and the inconclusive Rubio-Dar meeting, providing cross-spectrum confirmation.",
       "framing_variants": [
         {
-          "characterization": "BBC: describes the US sanctioning Iran's 'Persian Gulf Strait Authority' and Trump threatening Oman over strait tolls",
-          "source_id": "src_022"
-        },
-        {
-          "characterization": "Euronews: 'The IRGC is seeking to consolidate its control and management over traffic in the Strait of Hormuz' while 'US forces are attempting to prevent' this",
+          "characterization": "Euronews identifies Pakistan's FM Ishaq Dar as mediator and reports his planned Washington meeting with Rubio",
           "source_id": "src_008"
         },
         {
-          "characterization": "The Guardian: Iranian parliament members claim Iran's management 'had been recognised worldwide' and question nuclear concession requirements",
+          "characterization": "Guardian reports the Rubio-Dar meeting ended without any public comment on negotiations",
           "source_id": "src_014"
         },
         {
-          "characterization": "Euronews: Trump demanded 'The Hormuz Strait must be immediately open, no tolls, for unrestricted shipping traffic'",
-          "source_id": "src_021"
+          "characterization": "Guardian mentions Pakistani and Qatari mediators involved in negotiations",
+          "source_id": "src_016"
+        },
+        {
+          "characterization": "BBC states the diplomatic effort is 'spearheaded by Pakistan'",
+          "source_id": "src_022"
         }
       ],
       "supported_by": [
         "src_008",
-        "src_022",
         "src_014",
-        "src_021"
+        "src_016",
+        "src_022"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_016",
-      "text": "The US Treasury Department sanctioned Iran's newly formed 'Persian Gulf Strait Authority,' which was established to oversee traffic through the Strait of Hormuz, calling it an attempt to monetize IRGC 'state-sponsored terror.'",
-      "classification": "corroborated",
-      "claim_group": "strait_of_hormuz",
-      "rationale": "Two outlets (BBC and Euronews, both center) report the Treasury sanctions on Iran's strait authority, but coverage is limited to the same bias tier.",
+      "text": "Iran's parliament speaker Mohammad-Bagher Ghalibaf, serving as Iran's top negotiator, wrote that Iran had 'no trust in guarantees or words — only actions are the measure' and that 'We seize concessions not through dialogue, but with missiles,' while also stating Iran was ready for another round of fighting if talks failed.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Center-left (The Guardian) and center (Euronews) outlets all reported Ghalibaf's statements, spanning the spectrum for 'agreed' classification.",
       "framing_variants": [
         {
-          "characterization": "BBC: Treasury sanctioned the authority and OFAC called it 'a new attempt by Iran's IRGC to monetise its campaign of state-sponsored terror'",
-          "source_id": "src_022"
+          "characterization": "Guardian quotes Ghalibaf: 'no trust in guarantees or words – only actions are the measure'; 'We seize concessions not through dialogue, but with missiles'; ready for another round of fighting",
+          "source_id": "src_014"
         },
         {
-          "characterization": "Euronews: 'The US Treasury Department recently sanctioned Iran's newly established body for managing the Strait of Hormuz'",
+          "characterization": "Euronews quotes Ghalibaf: 'We do not gain concessions through talks, but through missiles'; 'No step will be taken before the other side acts'",
+          "source_id": "src_021"
+        },
+        {
+          "characterization": "Euronews notes Ghalibaf was praised in Mojtaba Khamenei's recent message and that the Iranian team is intent on finding a pathway toward ending the war",
           "source_id": "src_008"
         }
       ],
       "supported_by": [
-        "src_022",
+        "src_014",
+        "src_021",
         "src_008"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_017",
-      "text": "Trump threatened that Oman would be 'blown up' if it reached any deal with Iran imposing charges for passage through the Strait of Hormuz.",
-      "classification": "corroborated",
+      "text": "Trump threatened to 'blow up' Oman if it reached any deal with Iran that imposed charges for passage through the Strait of Hormuz.",
+      "classification": "agreed",
+      "dispute_type": null,
       "claim_group": "international_response",
-      "rationale": "Multiple center and center-left outlets report Trump's threat against Oman, but these do not span the full political spectrum to qualify as 'agreed.'",
+      "rationale": "Center-left (The Guardian) and center (BBC, Euronews) outlets all reported Trump's explicit threat against Oman, providing cross-spectrum corroboration.",
       "framing_variants": [
         {
-          "characterization": "BBC quotes Trump: 'Oman will behave just like everybody else, or we'll have to blow them up'",
-          "source_id": "src_022"
-        },
-        {
-          "characterization": "The Guardian: Trump 'threatened to blow up Oman – a US ally – if it reached any deal with Iran that imposed charges for passage'",
+          "characterization": "Guardian quotes Trump: threatened to 'blow up' Oman if it reached any deal with Iran imposing passage charges",
           "source_id": "src_016"
         },
         {
-          "characterization": "Euronews: 'Trump directly threatened US regional ally Oman'",
+          "characterization": "BBC quotes Trump directly: 'Oman will behave just like everybody else, or we'll have to blow them up'",
+          "source_id": "src_022"
+        },
+        {
+          "characterization": "Euronews reports Trump directly threatened US regional ally Oman; Iran's Foreign Ministry expressed solidarity with Oman in response",
           "source_id": "src_008"
         }
       ],
       "supported_by": [
-        "src_022",
         "src_016",
+        "src_022",
         "src_008"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_018",
-      "text": "Trump stated his deal would require Iran to never possess a nuclear weapon, open the Strait of Hormuz without tolls, eliminate mines, and allow destruction of highly enriched uranium — while he would lift the naval blockade but not transfer frozen assets to Iran.",
+      "text": "Trump is facing mounting domestic pressure to end the war, including from Gulf state allies, Democrats who oppose it, and some Republicans in Congress who have raised concerns about the conflict's length; meanwhile, Iran hawks including Lindsey Graham, Ted Cruz, Roger Wicker, and Mike Pompeo warned against any agreement.",
       "classification": "agreed",
-      "claim_group": "nuclear_programme",
-      "rationale": "Center-left (The Guardian) and center (Euronews, Reuters) outlets all report these as Trump's publicly stated deal conditions, meeting the cross-spectrum threshold.",
-      "framing_variants": [
-        {
-          "characterization": "The Guardian quotes Trump: Iran 'must agree that they will never have a Nuclear Weapon or Bomb' and must 'open the strait of Hormuz for all traffic without tolls'",
-          "source_id": "src_014"
-        },
-        {
-          "characterization": "Euronews: Trump stated 'Iran must agree that they will never have a nuclear weapon or bomb' and 'The Hormuz Strait must be immediately open, no tolls'",
-          "source_id": "src_021"
-        },
-        {
-          "characterization": "Reuters: 'Trump demands reopening of Hormuz Strait'",
-          "source_id": "src_012"
-        }
-      ],
-      "supported_by": [
-        "src_014",
-        "src_021",
-        "src_012"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_019",
-      "text": "Pakistan's Foreign Minister Mohammad Ishaq Dar was acting as a mediator between Tehran and Washington, and met with US Secretary of State Marco Rubio in Washington, with the meeting ending without any public comment.",
-      "classification": "agreed",
+      "dispute_type": null,
       "claim_group": "international_response",
-      "rationale": "Center (Euronews, BBC) and center-left (The Guardian) outlets all report Pakistan's mediating role and the Rubio-Dar meeting, meeting the cross-spectrum threshold.",
+      "rationale": "BBC (center) and The Guardian (center-left) both reported the cross-partisan domestic pressure on Trump, spanning the spectrum for 'agreed' classification.",
       "framing_variants": [
         {
-          "characterization": "Euronews: 'Pakistan's Foreign Minister Mohammad Ishaq Dar is acting as a mediator between Tehran and Washington'",
-          "source_id": "src_008"
-        },
-        {
-          "characterization": "The Guardian: 'A meeting in Washington between the US secretary of state, Marco Rubio, and Pakistan's foreign minister, Ishaq Dar, ended without any public comment'",
-          "source_id": "src_014"
-        },
-        {
-          "characterization": "BBC: 'The diplomatic effort, spearheaded by Pakistan, is immensely complex'",
-          "source_id": "src_022"
-        }
-      ],
-      "supported_by": [
-        "src_008",
-        "src_014",
-        "src_022"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_020",
-      "text": "Iranian President Pezeshkian thanked Pakistani mediators for their effectiveness in reaching an agreement, and spoke by phone with Pakistani Prime Minister Shahbaz Sharif.",
-      "classification": "single_source",
-      "claim_group": "international_response",
-      "rationale": "Only The Guardian reports the Pezeshkian phone call and thanks to Pakistani mediators.",
-      "framing_variants": [
-        {
-          "characterization": "The Guardian: Pezeshkian spoke with Pakistani PM Sharif 'thanking Pakistani mediators for their effectiveness toward reaching an agreement'",
-          "source_id": "src_014"
-        }
-      ],
-      "supported_by": [
-        "src_014"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_021",
-      "text": "Iran's top negotiator Mohammad-Bagher Ghalibaf wrote that Iran had 'no trust in guarantees or words — only actions are the measure,' stated 'We do not gain concessions through talks, but through missiles,' and said Iran was ready to resume fighting if ceasefire talks failed.",
-      "classification": "agreed",
-      "claim_group": "ceasefire_details",
-      "rationale": "Center-left (The Guardian) and center (Euronews) both report Ghalibaf's statements signaling distrust and readiness to fight, meeting the cross-spectrum threshold.",
-      "framing_variants": [
-        {
-          "characterization": "The Guardian: Ghalibaf wrote Iran had 'no trust in guarantees or words' and was 'ready for another round of fighting if talks to extend the ceasefire failed'",
-          "source_id": "src_014"
-        },
-        {
-          "characterization": "Euronews quotes Ghalibaf: 'We do not gain concessions through talks, but through missiles' and 'No step will be taken before the other side acts'",
-          "source_id": "src_021"
-        }
-      ],
-      "supported_by": [
-        "src_014",
-        "src_021"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_022",
-      "text": "US Defense Secretary Pete Hegseth stated the US is 'more than capable' of resuming war with Iran, speaking at a major defense summit in Asia.",
-      "classification": "single_source",
-      "claim_group": "military_operations",
-      "rationale": "Only Euronews reports Hegseth's specific statement at the defense summit.",
-      "framing_variants": [
-        {
-          "characterization": "Euronews: Hegseth stated 'We are more than capable' of resuming war with Iran at a major defence summit in Asia",
-          "source_id": "src_021"
-        }
-      ],
-      "supported_by": [
-        "src_021"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_023",
-      "text": "Trump and other US officials have warned that a return to combat operations ('option B') remains on the table.",
-      "classification": "corroborated",
-      "claim_group": "military_operations",
-      "rationale": "Center (BBC, Euronews) and center (BBC) outlets report this warning from Trump and officials, and cross-spectrum reporting from center and center-left sources confirms it.",
-      "framing_variants": [
-        {
-          "characterization": "BBC: 'Trump and other officials have warned that option B — a return to combat operations — is still on the table'",
+          "characterization": "BBC: Trump facing pressure from Gulf state allies, Democrats, and some Republicans concerned about conflict length",
           "source_id": "src_002"
         },
         {
-          "characterization": "BBC: Trump 'repeated his warning that Tehran's failure to comply would trigger a return to war'",
-          "source_id": "src_022"
+          "characterization": "Guardian emphasizes Republican hawks — Graham, Cruz, Wicker, Pompeo — warning against an agreement, while also noting broader pressure to end war",
+          "source_id": "src_016"
         }
       ],
       "supported_by": [
         "src_002",
-        "src_022",
-        "src_021"
+        "src_016"
       ],
       "contested_by": []
     }
@@ -898,14 +893,16 @@
   "background": [],
   "report": {
     "schema_version": "0.2",
-    "generated_at": "2026-06-30T08:53:54.359398+00:00",
+    "generated_at": "2026-07-06T09:07:18.380699+00:00",
     "paragraphs": [
       {
         "paragraph_id": "p1",
-        "text": "US and Iranian negotiators reached a tentative framework agreement to extend their ceasefire by 60 days, pending final approval from President Trump and Iran's leadership. The agreement, described as a memorandum of understanding, remained unconfirmed as of late May 2026, with both governments still reviewing the terms.",
+        "text": "US and Iranian negotiators agreed on a tentative framework to extend their ceasefire by 60 days, according to reports from outlets across the political spectrum. The memorandum of understanding would allow diplomatic teams from both countries to begin nuclear negotiations during the extension window. However, the framework required approval from both President Trump and Iranian leadership before taking effect, and as of late May 2026, no final agreement had been signed.",
         "supports": {
           "claim_ids": [
-            "clm_001"
+            "clm_001",
+            "clm_007",
+            "clm_002"
           ],
           "source_ids": [
             "src_002",
@@ -913,25 +910,29 @@
             "src_005",
             "src_007",
             "src_008",
-            "src_009",
             "src_015",
             "src_018",
             "src_022",
             "src_021",
             "src_016",
-            "src_014"
+            "src_014",
+            "src_009",
+            "src_020"
           ]
         },
         "kind": "agreed"
       },
       {
         "paragraph_id": "p2",
-        "text": "Trump met with senior advisers for approximately two hours in the White House Situation Room but did not make a decision on the Iran deal. The meeting concluded without the president committing to approve or reject the framework.",
+        "text": "US Vice President JD Vance stated that the US and Iran were \"very close\" to a deal but still needed to work out \"several sticking points,\" including \"the question of enrichment.\" Vance added that negotiators were \"going back and forth on a couple of language points.\" Trump met with senior advisers for approximately two hours in the White House Situation Room on Friday but concluded the meeting without making a decision on the Iran deal.",
         "supports": {
           "claim_ids": [
-            "clm_002"
+            "clm_004",
+            "clm_003"
           ],
           "source_ids": [
+            "src_002",
+            "src_008",
             "src_014",
             "src_021",
             "src_001"
@@ -941,95 +942,41 @@
       },
       {
         "paragraph_id": "p3",
-        "text": "Under the proposed framework, the 60-day ceasefire extension would launch negotiations on Iran's nuclear programme, including its stockpile of highly enriched uranium. Trump stated his deal would require Iran to never possess a nuclear weapon, open the Strait of Hormuz without tolls, eliminate mines, and allow destruction of highly enriched uranium — while he would lift the naval blockade but not transfer frozen assets to Iran.",
+        "text": "Iran's foreign ministry spokesperson Esmaeil Baqaei stated that exchanges of messages were continuing but no final agreement had been reached. Iran's Tasnim news agency characterized Trump's announcement as \"in line with his usual pattern of making unilateral and egotistical statements.\" US Treasury Secretary Scott Bessent declined to confirm that an agreement had been reached, saying \"it's always a mistake to get out ahead of the president\" and that \"it is all going to be the president's decision.\"",
         "supports": {
           "claim_ids": [
-            "clm_007",
-            "clm_018"
+            "clm_010",
+            "clm_009"
           ],
           "source_ids": [
-            "src_002",
-            "src_018",
-            "src_008",
-            "src_021",
-            "src_016",
             "src_014",
-            "src_012"
+            "src_021",
+            "src_002",
+            "src_008",
+            "src_020"
           ]
         },
         "kind": "agreed"
       },
       {
         "paragraph_id": "p4",
-        "text": "Iran's Strait of Hormuz management constituted a major unresolved dispute in negotiations. Iran sought to maintain management authority over the waterway, while the US opposed Iranian control. The US Treasury Department sanctioned Iran's newly formed Persian Gulf Strait Authority, which was established to oversee traffic through the strait, calling it an attempt to monetize IRGC state-sponsored terror.",
+        "text": "Pakistan's Foreign Minister Mohammad Ishaq Dar served as a mediator between Tehran and Washington. His meeting with US Secretary of State Marco Rubio in Washington ended without any public comment on the negotiations.",
         "supports": {
           "claim_ids": [
-            "clm_015",
-            "clm_016"
-          ],
-          "source_ids": [
-            "src_008",
-            "src_022",
-            "src_014",
-            "src_021"
-          ]
-        },
-        "kind": "agreed"
-      },
-      {
-        "paragraph_id": "p5",
-        "text": "Pakistan's Foreign Minister Mohammad Ishaq Dar acted as a mediator between Tehran and Washington, meeting with US Secretary of State Marco Rubio in Washington. The meeting ended without any public comment.",
-        "supports": {
-          "claim_ids": [
-            "clm_019"
+            "clm_015"
           ],
           "source_ids": [
             "src_008",
             "src_014",
+            "src_016",
             "src_022"
           ]
         },
         "kind": "agreed"
       },
       {
-        "paragraph_id": "p6",
-        "text": "Both Iran and the US accused each other of violating the ceasefire. The US launched strikes on a site near Bandar Abbas, the IRGC claimed it attacked a US air base, and a ballistic missile was intercepted over Kuwait. Trump and other US officials warned that a return to combat operations remained on the table.",
-        "supports": {
-          "claim_ids": [
-            "clm_013",
-            "clm_023"
-          ],
-          "source_ids": [
-            "src_002",
-            "src_022",
-            "src_008",
-            "src_021"
-          ]
-        },
-        "kind": "agreed"
-      },
-      {
-        "paragraph_id": "p7",
-        "text": "Center and center-left outlets reported that US officials and Axios described a tentative framework as agreed, while Iranian authorities presented a different characterization. Iranian Foreign Ministry spokesperson Esmaeil Baghaei and top Iranian negotiator Ghalibaf, along with Iran's Tasnim news agency, stated that no final understanding had been reached. This reflected differing assessments by the two governments about the status of negotiations rather than agreement on a completed deal.",
-        "supports": {
-          "claim_ids": [
-            "clm_005"
-          ],
-          "source_ids": [
-            "src_002",
-            "src_003",
-            "src_015",
-            "src_007",
-            "src_022",
-            "src_021",
-            "src_014"
-          ]
-        },
-        "kind": "framing"
-      },
-      {
-        "paragraph_id": "p8",
-        "text": "Center and center-left outlets reported that the framework agreement's key terms, as described by US sources, included unrestricted passage through the Strait of Hormuz, Iran removing all mines from the strait within 30 days, a proportional lifting of the US naval blockade as commercial shipping resumed, US sanctions waivers to allow Iran to sell oil, and Iran committing not to pursue nuclear weapons.",
+        "paragraph_id": "p5",
+        "text": "Center and center-left outlets reported that the tentative framework included several specific terms: unrestricted shipping through the Strait of Hormuz; Iran removing mines from the strait within 30 days; a proportional lifting of the US naval blockade; US sanctions waivers allowing Iran to sell oil; and Iran's commitment not to pursue nuclear weapons. However, key elements of these reported terms became subject to direct contradictions between US and Iranian officials.",
         "supports": {
           "claim_ids": [
             "clm_006"
@@ -1038,98 +985,149 @@
             "src_002",
             "src_008",
             "src_014",
-            "src_021"
-          ]
-        },
-        "kind": "framing"
-      },
-      {
-        "paragraph_id": "p9",
-        "text": "Center outlets reported that US Vice President JD Vance said the US and Iran were very close to a deal but that several sticking points, including the question of uranium enrichment, still needed to be resolved. Vance stated it was too early to say when or if an agreement would be finalized.",
-        "supports": {
-          "claim_ids": [
-            "clm_003"
-          ],
-          "source_ids": [
-            "src_002",
-            "src_008",
-            "src_014"
+            "src_016"
           ]
         },
         "kind": "one_sided"
       },
       {
-        "paragraph_id": "p10",
-        "text": "Center outlets reported differing positions on Iran's enriched uranium stockpile. Iranian negotiators and officials stated Iran would not transfer its enriched uranium to a third country, while the US demanded Iran stop producing highly enriched uranium and dispose of its existing stockpile. Trump suggested Iran's highly enriched uranium could be taken by the US, diluted in place, or diluted in a third location.",
+        "paragraph_id": "p6",
+        "text": "Trump publicly stated that any deal would require Iran to never have a nuclear weapon or bomb, the Strait of Hormuz to be immediately opened without tolls, all water mines to be terminated, and that he would lift the US naval blockade. Trump also claimed he could approve a deal on Friday.",
         "supports": {
           "claim_ids": [
-            "clm_008",
-            "clm_009"
-          ],
-          "source_ids": [
-            "src_002",
-            "src_008",
-            "src_014",
-            "src_021"
-          ]
-        },
-        "kind": "framing"
-      },
-      {
-        "paragraph_id": "p11",
-        "text": "Center outlets reported that Iranian state media on Wednesday published elements of what they described as an unofficial draft 14-point memorandum of understanding, including lifting the US naval blockade, withdrawing US forces from the vicinity of Iran, and restoring non-military traffic through the Strait of Hormuz with Iran and Oman managing vessel routing. The White House called the purported draft memorandum a complete fabrication.",
-        "supports": {
-          "claim_ids": [
-            "clm_011",
-            "clm_012"
-          ],
-          "source_ids": [
-            "src_002",
-            "src_022",
-            "src_023"
-          ]
-        },
-        "kind": "one_sided"
-      },
-      {
-        "paragraph_id": "p12",
-        "text": "Iran's top negotiator Mohammad-Bagher Ghalibaf wrote that Iran had no trust in guarantees or words, stating that only actions are the measure. \"We do not gain concessions through talks, but through missiles,\" Ghalibaf said, adding that Iran was ready to resume fighting if ceasefire talks failed.",
-        "supports": {
-          "claim_ids": [
-            "clm_021"
+            "clm_008"
           ],
           "source_ids": [
             "src_014",
-            "src_021"
+            "src_021",
+            "src_012",
+            "src_002"
           ]
         },
         "kind": "agreed"
       },
       {
-        "paragraph_id": "p13",
-        "text": "Center and center-left outlets reported that Trump threatened Oman would be blown up if it reached any deal with Iran imposing charges for passage through the Strait of Hormuz.",
+        "paragraph_id": "p7",
+        "text": "Iran's parliament speaker Mohammad-Bagher Ghalibaf, serving as Iran's top negotiator, wrote that Iran had \"no trust in guarantees or words — only actions are the measure\" and that \"We seize concessions not through dialogue, but with missiles.\" Ghalibaf also stated Iran was ready for another round of fighting if talks failed.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_014",
+            "src_021",
+            "src_008"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Trump threatened to \"blow up\" Oman if it reached any deal with Iran that imposed charges for passage through the Strait of Hormuz. The threat came amid broader tensions over the strait's governance and access terms.",
         "supports": {
           "claim_ids": [
             "clm_017"
           ],
           "source_ids": [
-            "src_022",
             "src_016",
+            "src_022",
             "src_008"
           ]
         },
-        "kind": "one_sided"
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Trump faced mounting domestic pressure to end the war, including from Gulf state allies, Democrats who opposed it, and some Republicans in Congress who raised concerns about the conflict's length. Meanwhile, Iran hawks including Lindsey Graham, Ted Cruz, Roger Wicker, and Mike Pompeo warned against any agreement.",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_016"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The US characterized an Iran-reported unofficial draft 14-point memorandum of understanding — which included lifting Washington's naval blockade, US force withdrawal from the \"vicinity of Iran,\" and Iran-Oman control of the Strait of Hormuz — as a \"complete fabrication.\" Iran's Tasnim news agency reported that the final text had not been completed or approved. The White House flatly denied the Iranian state media-reported draft, while Iranian sources neither confirmed nor denied its authenticity, saying only that the text was not finalized.",
+        "supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_022",
+            "src_008",
+            "src_023",
+            "src_014"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Trump characterized the deal as requiring Iran to allow the US to \"unearth and destroy highly enriched uranium from a secure nuclear site in Iran.\" Iranian officials — including parliamentary speaker Mohammad-Bagher Ghalibaf and parliament commission chair Ebrahim Azizi — denied any plan to export or transfer enriched uranium. Azizi stated the Islamic Republic has \"no intention of handing over or transferring these materials.\"",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_014",
+            "src_002",
+            "src_008",
+            "src_016",
+            "src_021"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Trump characterized the deal as requiring the Strait of Hormuz to be opened without tolls. Iranian officials — including parliament commission chair Ebrahim Azizi and spokesperson Ebrahim Rezaei — insisted Iran's \"smart management\" of the strait was permanent and that Iran would never relinquish control over it.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_014",
+            "src_008",
+            "src_022",
+            "src_011",
+            "src_021"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Both Iran and the US accused each other of violating the ceasefire during the negotiation period. The IRGC stated it targeted a US base in the region, while US Central Command reported strikes on a \"ground control site\" in Bandar Abbas. The US said it shot down five Iranian drones.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_022",
+            "src_008",
+            "src_021",
+            "src_011"
+          ]
+        },
+        "kind": "agreed"
       },
       {
         "paragraph_id": "p14",
-        "text": "Iranian state media reported that Iranian forces had downed a US aircraft near Bushehr. US Central Command denied the claim, stating that no US aircraft were shot down and all US air assets were accounted for.",
+        "text": "Iranian state media claimed Iran's forces downed a US aircraft near Bushehr. US Central Command denied the claim, stating \"No US aircraft were shot down\" and that \"all US air assets are accounted for.\"",
         "supports": {
           "claim_ids": [
             "clm_014"
           ],
           "source_ids": [
-            "src_008",
-            "src_002"
+            "src_002",
+            "src_008"
           ]
         },
         "kind": "contested"

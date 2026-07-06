@@ -68,8 +68,10 @@ def run_pipeline_for_event(event_id: str, beat: str, client: anthropic.Anthropic
         del s["article_id"]
     reconciled = remap_article_ids_to_source_ids(reconciled, art_to_src)
 
+    from pipeline.schema import EVENT_SCHEMA_VERSION
+
     event_data = {
-        "schema_version": "0.3",
+        "schema_version": EVENT_SCHEMA_VERSION,
         "event": {
             "cluster_id": event_id,
             "beat": beat,

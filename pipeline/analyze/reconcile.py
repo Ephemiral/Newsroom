@@ -44,14 +44,18 @@ Critical rules:
   two separate corroborated claims for each actor's position. Creating separate corroborated
   claims for each side buries the dispute.
 
+  Mark every such claim with "dispute_type": "actor". (All other claims: omit the field
+  or use null.) The dispute is between the ACTORS, not between the outlets — it is normal
+  for every responsible outlet to report both sides in the same article. Therefore:
+
   How to assign supported_by / contested_by in actor disputes:
-    - supported_by_articles: outlets that primarily reported the initiating or majority
-      account (i.e. the account held by the party who took the action or made the
-      announcement being disputed).
-    - contested_by_articles: outlets that primarily reported the contesting account (i.e.
-      the denial, the alternative version, the minority position).
-    - If an outlet reported both positions neutrally and equally, place it in
-      supported_by_articles only (per the existing rule: a source cannot appear in both).
+    - supported_by_articles: EVERY outlet that reported the dispute (one side or both) —
+      these outlets corroborate that the contradictory accounts exist.
+    - contested_by_articles: ONLY outlets whose own reporting asserts one account as fact
+      against the other (rare). Usually this list is EMPTY for actor disputes — that is
+      correct and expected; the claim stays "contested" because dispute_type is "actor".
+    - Use framing_variants to record which account(s) each outlet carried and how it
+      presented them (e.g. "Led with the US account; carried Iran's denial in paragraph 8").
 
   The contested claim's text must use parallel language for both sides
   (per B-06: "Side A characterizes X as Y; Side B characterizes X as Z.").
@@ -85,6 +89,7 @@ Output: A JSON object with this structure:
       "claim_id": "clm_001",
       "text": "Neutral claim statement",
       "classification": "agreed|corroborated|contested|single_source",
+      "dispute_type": "actor (only for actor disputes) or null",
       "claim_group": "snake_case_group_name or null",
       "supported_by_articles": ["art_001", "art_004"],
       "contested_by_articles": [],
@@ -136,14 +141,29 @@ def enforce_classification_rules(result: dict, articles: list[dict]) -> list[str
         # A contested classification with no contesting outlets means the model inferred dispute
         # from claim content (e.g., two parties quoted within one claim) rather than from
         # cross-outlet disagreement. That is not an outlet-level contest.
+        #
+        # B-16 carve-out: actor disputes (dispute_type == "actor") legitimately have an empty
+        # contested_by — the contradiction is between the actors, and every outlet that reported
+        # the dispute sits in supported_by. They stay "contested" as long as at least two
+        # outlets corroborate that the dispute exists; a one-outlet actor dispute is demoted
+        # to single_source like any other one-outlet claim.
         if claim.get("classification") == "contested" and not contested:
-            tiers = {article_bias.get(a) for a in supported if article_bias.get(a)}
-            new_cls = "corroborated" if len(tiers) >= 2 else "single_source"
-            claim["classification"] = new_cls
-            corrections.append(
-                f"B-09 {cid}: reclassified 'contested' → '{new_cls}' "
-                f"(contested_by is empty; supported_by tiers: {tiers})."
-            )
+            if claim.get("dispute_type") == "actor":
+                if len(supported) < 2:
+                    claim["classification"] = "single_source"
+                    corrections.append(
+                        f"B-09/B-16 {cid}: actor dispute reported by only "
+                        f"{len(supported)} outlet(s) — reclassified to 'single_source'."
+                    )
+                # else: legitimate actor dispute — keep 'contested'
+            else:
+                tiers = {article_bias.get(a) for a in supported if article_bias.get(a)}
+                new_cls = "corroborated" if len(tiers) >= 2 else "single_source"
+                claim["classification"] = new_cls
+                corrections.append(
+                    f"B-09 {cid}: reclassified 'contested' → '{new_cls}' "
+                    f"(contested_by is empty; supported_by tiers: {tiers})."
+                )
 
         # B-01: reclassify 'agreed' → 'corroborated' if cross-spectrum diversity is absent
         if claim.get("classification") == "agreed":

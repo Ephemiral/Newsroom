@@ -49,6 +49,14 @@ export default function ClaimCard({ claim, sourceMap, accentBorder }: Props) {
 
       {/* Source chips */}
       <div className="px-4 pb-3 flex flex-wrap items-center gap-1.5 ml-6">
+        {claim.dispute_type === 'actor' && (
+          <span
+            title="The actors in this story gave contradictory accounts. Each outlet listed here reported the dispute — the outlets themselves are not taking sides."
+            className="text-xs px-2 py-0.5 rounded-full font-semibold bg-amber-50 text-amber-800 border border-amber-200 cursor-default"
+          >
+            conflicting accounts
+          </span>
+        )}
         {supportingSources.map((src) => (
           <span
             key={src.source_id}

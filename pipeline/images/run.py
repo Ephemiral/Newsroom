@@ -29,11 +29,25 @@ load_dotenv(ROOT / ".env")
 import anthropic
 
 from pipeline.images.select import find_event_image
+from pipeline.schema import EVENT_SCHEMA_VERSION as SCHEMA_VERSION
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s — %(message)s", datefmt="%H:%M:%S")
 log = logging.getLogger("images.run")
 
-SCHEMA_VERSION = "0.3"
+
+def _used_image_titles(beat_dir: Path, exclude_event: str) -> set[str]:
+    """file_titles of images already used by OTHER events in this beat — never reuse."""
+    used = set()
+    for p in beat_dir.glob("*_analyzed.json"):
+        if p.name == exclude_event:
+            continue
+        try:
+            img = json.loads(p.read_text()).get("event", {}).get("image")
+            if img and img.get("file_title"):
+                used.add(img["file_title"])
+        except Exception:
+            continue
+    return used
 
 
 def attach_image(path: Path, client: anthropic.Anthropic, force: bool = False) -> bool:
@@ -44,7 +58,7 @@ def attach_image(path: Path, client: anthropic.Anthropic, force: bool = False) -
         log.info("%s already has an image — skipping (use --force to replace)", path.name)
         return False
 
-    image = find_event_image(event, client)
+    image = find_event_image(event, client, exclude_titles=_used_image_titles(path.parent, path.name))
     # Record the attempt either way so automated re-runs don't retry every cycle
     event["image_attempted_at"] = datetime.now(timezone.utc).isoformat()
     if image is None:

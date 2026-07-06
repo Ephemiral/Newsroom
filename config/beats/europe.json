@@ -1,0 +1,76 @@
+{
+  "beat": "europe",
+  "display_name": "Europe",
+  "description": "European news: EU politics, Ukraine/Russia, UK, and the continent. Added July 2026 as part of the multi-theatre expansion.",
+  "_rss_notes": [
+    "All direct feeds verified live on 2026-07-06.",
+    "Telegraph direct RSS is bot-blocked; proxied via Google News search RSS.",
+    "Fox News World is a global feed; topic_filter restricts it to European coverage.",
+    "DW's rss-en-all is broad but Europe-heavy; left unfiltered deliberately."
+  ],
+  "sources": [
+    {
+      "outlet": "The Guardian",
+      "rss": "https://www.theguardian.com/world/europe-news/rss",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "BBC News",
+      "rss": "https://feeds.bbci.co.uk/news/world/europe/rss.xml",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media"
+    },
+    {
+      "outlet": "Politico Europe",
+      "rss": "https://www.politico.eu/feed/",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC"
+    },
+    {
+      "outlet": "Deutsche Welle (DW)",
+      "rss": "https://rss.dw.com/xml/rss-en-all",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC"
+    },
+    {
+      "outlet": "France 24",
+      "rss": "https://www.france24.com/en/europe/rss",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC"
+    },
+    {
+      "outlet": "Euronews",
+      "rss": "https://www.euronews.com/rss?format=mrss&level=theme&name=news",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC"
+    },
+    {
+      "outlet": "The Telegraph",
+      "rss": "https://news.google.com/rss/search?q=site:telegraph.co.uk+Europe&hl=en-US&gl=US&ceid=US:en",
+      "bias_rating": "center-right",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "Fox News",
+      "rss": "https://moxie.foxnews.com/google-publisher/world.xml",
+      "topic_filter": ["Europe", "Ukraine", "Russia", "EU", "European Union", "France", "Germany", "Britain", "UK", "NATO", "Poland", "Italy", "Spain", "Brussels"],
+      "bias_rating": "right",
+      "bias_rating_source": "AllSides"
+    }
+  ],
+  "gdelt": { "enabled": false },
+  "domain_map": {
+    "theguardian.com": { "outlet": "The Guardian", "bias_rating": "center-left", "bias_rating_source": "AllSides" },
+    "bbc.com": { "outlet": "BBC News", "bias_rating": "center-left", "bias_rating_source": "Ad Fontes Media" },
+    "bbc.co.uk": { "outlet": "BBC News", "bias_rating": "center-left", "bias_rating_source": "Ad Fontes Media" },
+    "politico.eu": { "outlet": "Politico Europe", "bias_rating": "center-left", "bias_rating_source": "MBFC" },
+    "dw.com": { "outlet": "Deutsche Welle (DW)", "bias_rating": "center", "bias_rating_source": "MBFC" },
+    "france24.com": { "outlet": "France 24", "bias_rating": "center", "bias_rating_source": "MBFC" },
+    "euronews.com": { "outlet": "Euronews", "bias_rating": "center", "bias_rating_source": "MBFC" },
+    "telegraph.co.uk": { "outlet": "The Telegraph", "bias_rating": "center-right", "bias_rating_source": "AllSides" },
+    "foxnews.com": { "outlet": "Fox News", "bias_rating": "right", "bias_rating_source": "AllSides" }
+  },
+  "language_filter": ["en"],
+  "notes": "Created 2026-07-06 (multi-theatre expansion). Right-of-center coverage rests on Telegraph + Fox — thinner than ideal; candidates to evaluate: GB News, Daily Express."
+}

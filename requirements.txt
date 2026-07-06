@@ -1,0 +1,10 @@
+# Pipeline dependencies (mirrors the local .venv; used by CI — .github/workflows/autorun.yml)
+anthropic>=0.105
+python-dotenv>=1.2
+feedparser>=6.0
+trafilatura>=2.0
+numpy>=2.0
+requests>=2.32
+json_repair>=0.44
+gdeltdoc>=1.5
+sentence-transformers>=5.1

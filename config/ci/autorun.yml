@@ -1,0 +1,102 @@
+# ⚠ PARKED — this file belongs at .github/workflows/autorun.yml
+# It could not be pushed there because the stored git PAT lacks the `workflow`
+# scope. To activate:
+#   1. github.com/settings/tokens → regenerate the PAT with `repo` + `workflow` scopes,
+#      then re-authenticate with one manual `git push`.
+#   2. mkdir -p .github/workflows && git mv config/ci/autorun.yml .github/workflows/autorun.yml
+#   3. git commit -m "activate autorun workflow" && git push
+#   4. Add repo secret ANTHROPIC_API_KEY (Settings → Secrets and variables → Actions).
+#   5. Disable launchd: launchctl bootout gui/$(id -u)/com.critiqal.newsroom.autorun
+#
+# Autonomous newsroom publish cycle — cloud version of the local launchd job.
+#
+# SETUP (one-time, manual): add the repo secret ANTHROPIC_API_KEY under
+#   Settings → Secrets and variables → Actions → New repository secret.
+# Until the secret exists, runs fail fast at the "check secret" step.
+#
+# IMPORTANT: run EITHER this workflow OR the local launchd job, never both
+# (both publish; they would race each other). Disable local:
+#   launchctl bootout gui/$(id -u)/com.critiqal.newsroom.autorun
+#
+# Cost note: this repo is private, so runs bill against the free 2,000
+# Actions minutes/month. A cycle takes ~15-25 min → every 6h ≈ 1,400-2,400
+# min/month. Options if that's too tight: make the repo public (unlimited
+# free minutes), lengthen the cron, or stay on launchd.
+
+name: autorun
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"   # every 6 hours (offset avoids GitHub's on-the-hour congestion)
+  workflow_dispatch: {}       # manual trigger from the Actions tab
+
+permissions:
+  contents: write   # push published events
+  issues: write     # failure alerting
+
+concurrency:
+  group: autorun
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90   # 4 beats × (ingest + cluster) + LLM stages for published events
+    steps:
+      - name: Check secret is configured
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::error::ANTHROPIC_API_KEY repo secret is not set (Settings → Secrets → Actions)."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Cache sentence-transformers model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-all-MiniLM-L6-v2
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git author
+        run: |
+          git config user.name "newsroom-autorun"
+          git config user.email "autorun@users.noreply.github.com"
+
+      - name: Run publish cycle (all beats)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/auto_run.py --beats israel_middle_east,europe,americas,asia
+
+      - name: Upload run log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-log-${{ github.run_id }}
+          path: data/logs/autorun/
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Open issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const run_url = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `autorun failed — ${new Date().toISOString().slice(0, 16)}Z`,
+              labels: ["autorun-failure"],
+              body: `The scheduled publish cycle failed.\n\nRun: ${run_url}\n\nCheck the run log artifact for the per-cycle JSON log.`,
+            });

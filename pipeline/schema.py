@@ -12,6 +12,12 @@ from typing import Optional
 import json
 import os
 
+# Version of the per-event JSON artifact (the pipeline↔frontend contract).
+# 0.2 — claims/sources/report baseline
+# 0.3 — optional event.image (Wikimedia Commons file photo with attribution)
+# 0.4 — optional claim.dispute_type ("actor") for actor disputes (B-16)
+EVENT_SCHEMA_VERSION = "0.4"
+
 
 @dataclass
 class Article:

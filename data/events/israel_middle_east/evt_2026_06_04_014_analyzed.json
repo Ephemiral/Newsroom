@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.4",
   "event": {
     "cluster_id": "evt_2026_06_04_014",
     "beat": "israel_middle_east",
@@ -7,21 +7,21 @@
     "summary": "New York City's annual Israel Day on Fifth parade drew tens of thousands of participants on May 31, 2026, but was overshadowed by controversy after Israeli Finance Minister Bezalel Smotrich attended without being announced in advance, prompting condemnation from multiple New York officials and becoming a flashpoint in a Congressional primary race.",
     "date": "2026-05-31",
     "generated_at": "2026-06-04T07:44:04.227225+00:00",
-    "image_attempted_at": "2026-07-06T07:55:20.712197+00:00",
+    "image_attempted_at": "2026-07-06T09:11:36.890254+00:00",
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Spires_of_St_Patricks_Cathedral_Rising_Above_Fifth_Avenue_2019-09-30_18-19.jpg/1280px-Spires_of_St_Patricks_Cathedral_Rising_Above_Fifth_Avenue_2019-09-30_18-19.jpg",
-      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Spires_of_St_Patricks_Cathedral_Rising_Above_Fifth_Avenue_2019-09-30_18-19.jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Spires_of_St_Patricks_Cathedral_Rising_Above_Fifth_Avenue_2019-09-30_18-19.jpg",
-      "width": 1200,
-      "height": 1800,
-      "caption": "Fifth Avenue in Manhattan, New York City (file photo)",
-      "credit": "Axel Tschentscher",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Israel_day_parade_2026.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Israel_day_parade_2026.jpg",
+      "source_page": "https://commons.wikimedia.org/w/index.php?curid=193201185",
+      "width": 5712,
+      "height": 4284,
+      "caption": "Israel Day Parade in New York City, 2026 (file photo)",
+      "credit": "Source.history.wiki",
       "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "provider": "wikimedia_commons",
-      "file_title": "File:Spires of St Patricks Cathedral Rising Above Fifth Avenue 2019-09-30 18-19.jpg",
-      "query": "Fifth Avenue New York",
-      "fetched_at": "2026-07-06T07:55:20.712164+00:00"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "openverse",
+      "file_title": "openverse:1b794cf4-9166-4a55-b2e0-51746970bea0|Israel day parade 2026",
+      "query": "Israel Day parade",
+      "fetched_at": "2026-07-06T09:11:36.890184+00:00"
     }
   },
   "sources": [

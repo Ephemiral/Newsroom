@@ -25,6 +25,8 @@
     <array>
         <string>/Users/gidon/Documents/Claude/Projects/Newsroom/.venv/bin/python3</string>
         <string>/Users/gidon/Documents/Claude/Projects/Newsroom/scripts/auto_run.py</string>
+        <string>--beats</string>
+        <string>israel_middle_east,europe,americas,asia</string>
     </array>
 
     <key>WorkingDirectory</key>

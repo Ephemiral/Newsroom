@@ -74,3 +74,19 @@ ls -t data/logs/autorun/run_*.json | head -3 | xargs cat
 ## 4. Working conventions (unchanged)
 
 Tracksheet first and last; golden dataset is the regression fixture; schema bumps logged in the Change Log; ask before heavy deps or structural changes; never commit `.env`.
+
+---
+
+## ADDENDUM — Session 14, part 2 (same day, 6 July 2026)
+
+G reviewed part 1 and requested a second wave, all delivered:
+
+1. **B-16/B-02 RESOLVED** (the project's long-standing contested-claims bane) — schema v0.4 adds optional `claim.dispute_type: "actor"`. Actor disputes stay `contested` with empty `contested_by` by design; every reporting outlet corroborates the dispute's existence; a "conflicting accounts" tag replaces the chip split in the UI. Validated: evt_066 0→3, evt_040 0→3, evt_062 1→4 contested claims. Details in Master Doc §13 B-16 (RESOLVED block).
+2. **Homepage dedup** — 9 duplicate/grab-bag events removed (kept richest variant of each story); 6,051 stale raw cluster files deleted. `data/events/` now holds only published events.
+3. **Image engine v2** — Openverse second provider, angle-specific queries (military ≠ shipping ≠ talks imagery), cross-event image dedup (no shared file photos). The two Hormuz stories now have visually distinct, angle-appropriate images.
+4. **GitHub Actions** — `.github/workflows/autorun.yml` (cron every 6h + manual). **Waiting on one manual step: add the `ANTHROPIC_API_KEY` repo secret**, then disable launchd (`launchctl bootout gui/$(id -u)/com.critiqal.newsroom.autorun`). Run ONE scheduler, never both. State ledger moved to tracked `data/autorun/state.json`. Private-repo minutes caveat documented in the workflow header.
+5. **Alerts** — CI failure → auto GitHub issue (`autorun-failure` label) + email; local failure → macOS notification.
+6. **Go-live polish** — `/about` methodology page, OG meta tags (event image in social shares), `sitemap.xml`, `robots.txt`, "Neutral synthesis" tagline corrected to "Transparent synthesis" (fixed positioning decision, Master Doc §8).
+7. **Multi-theatre** — new beats `europe` / `americas` / `asia` (feeds live-verified, 13 new outlets in the provenance registry), homepage theatre tabs, `auto_run --beats` loops all four, novelty gate global across beats. launchd reloaded with all four theatres.
+
+**Watch items for next session:** first auto-published events in the new theatres (spot-check outlet diversity + images); whether Fox topic_filters are too broad/narrow; GH Actions first green run once the secret is added; B-17 (state-aligned outlets) remains open for G's decision; B-10 (claim_ids) unchanged.

@@ -1,14 +1,28 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.4",
   "event": {
     "cluster_id": "evt_2026_06_04_066",
     "beat": "israel_middle_east",
     "title": "Iranian Drone Strike on Kuwait International Airport",
-    "summary": "On Wednesday, June 3, 2026, Iran carried out a drone strike on Kuwait International Airport, killing one person (later identified as an Indian citizen) and injuring more than 60 others. The attack caused significant damage to a passenger terminal, prompted Kuwait to expel two Iranian diplomats, and occurred amid ongoing US-Iran military exchanges and stalled ceasefire negotiations.",
-    "date": "2026-06-03",
-    "generated_at": "2026-06-30T08:44:11.542808+00:00",
-    "image_attempted_at": "2026-07-06T07:55:58.114455+00:00",
-    "image": null
+    "summary": "On Wednesday, June 4, 2026, Iran struck Kuwait International Airport with drones, killing one person and injuring more than 60 others. The attack occurred amid broader US-Iran hostilities, with ongoing but stalled negotiations and simultaneous military exchanges across the Gulf region.",
+    "date": "2026-06-04",
+    "generated_at": "2026-07-06T08:56:28.420331+00:00",
+    "image_attempted_at": "2026-07-06T09:10:36.404432+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Kuwait_airport.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Kuwait_airport.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kuwait_airport.jpg",
+      "width": 757,
+      "height": 530,
+      "caption": "Kuwait International Airport (file photo)",
+      "credit": "MuLaN™",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Kuwait airport.jpg",
+      "query": "Kuwait International Airport terminal",
+      "fetched_at": "2026-07-06T09:10:36.404380+00:00"
+    }
   },
   "sources": [
     {
@@ -159,34 +173,35 @@
   "claims": [
     {
       "claim_id": "clm_001",
-      "text": "Iran carried out a drone/missile strike on Kuwait International Airport on Wednesday, June 3, 2026.",
+      "text": "Kuwait International Airport was struck by Iranian drones on Wednesday, June 4, 2026.",
       "classification": "agreed",
+      "dispute_type": null,
       "claim_group": "military_operations",
-      "rationale": "Sources across left, center-left, center, and center-right outlets all report that Iran struck Kuwait International Airport, meeting the cross-spectrum threshold for 'agreed'.",
+      "rationale": "Every source across the spectrum — from left-leaning Al Jazeera and Middle East Eye to center Reuters and BBC to center-right Ynet News — reports the airport strike as a factual event, satisfying the cross-spectrum agreement threshold.",
       "framing_variants": [
         {
-          "characterization": "Iran carried out a deadly strike on Kuwait's airport",
+          "characterization": "Al Jazeera describes it as a 'deadly Iranian strike on an airport'",
           "source_id": "src_001"
         },
         {
-          "characterization": "Iran carried out an attack on Kuwait",
+          "characterization": "Reuters describes it as an 'Iranian attack' on Kuwait",
           "source_id": "src_002"
         },
         {
-          "characterization": "Iranian drone attack damages terminal at Kuwait airport",
-          "source_id": "src_003"
-        },
-        {
-          "characterization": "Kuwait International Airport was struck by Iranian drones",
+          "characterization": "BBC states directly that 'Kuwait International Airport was struck by Iranian drones'",
           "source_id": "src_005"
         },
         {
-          "characterization": "Iran responded with a drone strike on a passenger terminal at Kuwait's airport",
+          "characterization": "The Guardian describes 'Iranian strikes that hit a terminal at its international airport'",
           "source_id": "src_010"
         },
         {
-          "characterization": "Iranian drone strikes on Kuwait's international airport",
-          "source_id": "src_011"
+          "characterization": "Ynet News states 'Iran fired missiles at Kuwait Airport' as fact",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Middle East Eye notes the airport 'sustained significant damage in what was originally blamed on Iranian strikes'",
+          "source_id": "src_006"
         }
       ],
       "supported_by": [
@@ -196,7 +211,9 @@
         "src_004",
         "src_005",
         "src_006",
+        "src_007",
         "src_008",
+        "src_009",
         "src_010",
         "src_011",
         "src_012"
@@ -205,22 +222,191 @@
     },
     {
       "claim_id": "clm_002",
-      "text": "Iran's IRGC attributed the damage to Kuwait International Airport to a malfunctioning US-made Patriot missile interceptor; US Central Command and Kuwait's defence ministry attributed the strike directly to a deliberate Iranian drone attack.",
-      "classification": "corroborated",
+      "text": "One person was killed in the Iranian strike on Kuwait International Airport.",
+      "classification": "agreed",
+      "dispute_type": null,
       "claim_group": "military_operations",
-      "rationale": "Iran's IRGC denied responsibility and blamed a malfunctioning US Patriot missile, while US Central Command explicitly rejected this claim and characterized the attack as deliberate and unjustified — a direct factual contradiction between the parties.",
+      "rationale": "Sources from left (Middle East Eye), center-left (BBC, The Guardian), center (Reuters) consistently report one fatality, meeting the cross-spectrum agreement threshold.",
       "framing_variants": [
         {
-          "characterization": "Iran said airport damage resulted from a Patriot missile interceptor gone awry; CENTCOM described Iran's missiles as a deliberate, calculated, and unjustified attack",
-          "source_id": "src_006"
+          "characterization": "Reuters: 'One person was killed'",
+          "source_id": "src_002"
         },
         {
-          "characterization": "CENTCOM rejected Iranian claim and accused Iran of a deliberate attack on the civilian airport",
+          "characterization": "BBC: 'One person was killed and more than 60 injured in the attack'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "BBC: 'One person has been killed and more than 60 injured in Iranian drone strikes'",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "The Guardian: 'killed at least one person'",
+          "source_id": "src_010"
+        },
+        {
+          "characterization": "Middle East Eye: 'after one person was killed, and some 60 others were wounded'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005",
+        "src_006",
+        "src_008",
+        "src_010",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The person killed in the Iranian attack on Kuwait's airport was identified as an Indian citizen.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC's later-published article identifies the victim's nationality as Indian and notes the Indian foreign ministry's condemnation; no other source in the cluster provides this detail.",
+      "framing_variants": [
+        {
+          "characterization": "BBC: 'The person who was killed in the Iranian attack on Kuwait's airport was later identified as an Indian citizen'; the Indian foreign ministry condemned the attack",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "More than 60 people were injured in the Iranian drone strike on Kuwait International Airport; some sources report the figure as at least 63.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Multiple outlets from left to center-left to center-right all confirm the injury toll in excess of 60, with some specifying 63; the minor numeric variation does not reflect a factual dispute.",
+      "framing_variants": [
+        {
+          "characterization": "BBC: 'more than 60 injured'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "BBC: 'more than 60 injured'",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "The Guardian: '63 wounded'",
+          "source_id": "src_010"
+        },
+        {
+          "characterization": "Ynet News: 'at least 63 injured'",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "Haaretz: 'Wounded Dozens'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Middle East Eye: 'some 60 others were wounded'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_010",
+        "src_011",
+        "src_012"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The Iranian strike caused significant damage to a passenger terminal at Kuwait International Airport.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Sources across the spectrum from left to center to center-left all confirm terminal damage; this constitutes cross-spectrum agreement on the damage fact.",
+      "framing_variants": [
+        {
+          "characterization": "BBC: 'caused significant damage to a passenger terminal'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Middle East Eye: 'damage to part of Kuwait International Airport's passenger terminal'",
           "source_id": "src_007"
         },
         {
-          "characterization": "IRGC denied responsibility claiming US missile interceptor error; Centcom said this was false and called it a deliberate, calculated and unjustified attack",
+          "characterization": "Reuters: 'airport terminal in Kuwait was damaged'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian: 'Iranian strikes that hit a terminal at its international airport'",
+          "source_id": "src_010"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005",
+        "src_006",
+        "src_007",
+        "src_008",
+        "src_010",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Kuwait's Directorate General of Civil Aviation released CCTV surveillance footage of the moment Kuwait International Airport was struck.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both Al Jazeera and BBC report the release of CCTV footage, but both are left or center-left outlets, so this does not qualify as cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Al Jazeera: 'Kuwait released CCTV footage of an Iranian strike on an airport'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC: 'Surveillance footage released by Kuwait's Directorate General of Civil Aviation shows the moment Kuwait International Airport was struck by Iranian drones'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Iran's IRGC attributed the damage to Kuwait International Airport's passenger terminal to a malfunctioning US-made Patriot missile interceptor; US Central Command and Kuwait's defence ministry attributed the strike directly to Iranian drones in a deliberate, calculated, and unjustified attack.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "military_operations",
+      "rationale": "Iran and the United States make directly contradictory claims about the cause of the airport damage; all outlets report both sides of the dispute, but no outlet's own reporting asserts one account over the other as established fact.",
+      "framing_variants": [
+        {
+          "characterization": "Middle East Eye: Led with Centcom's rejection of the Iranian claim; quotes both Iran's Patriot missile explanation and Centcom calling it a 'deliberate, calculated, and unjustified attack'",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "Middle East Eye: Notes the airport 'sustained significant damage in what was originally blamed on Iranian strikes'; then reports Iran's Patriot missile counter-claim",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC: 'The IRGC denied responsibility for the airport strike, claiming the damage was caused by an error from a US missile interceptor'; Centcom called it deliberate",
           "source_id": "src_011"
+        },
+        {
+          "characterization": "BBC: States directly that 'Kuwait International Airport was struck by Iranian drones' while noting Kuwait called it 'criminal Iranian aggression'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Guardian: Presents Iran's counter-narrative as Iran's response without endorsing it",
+          "source_id": "src_010"
         }
       ],
       "supported_by": [
@@ -233,168 +419,97 @@
       "contested_by": []
     },
     {
-      "claim_id": "clm_003",
-      "text": "One person was killed in the attack on Kuwait International Airport.",
-      "classification": "agreed",
-      "claim_group": "humanitarian_situation",
-      "rationale": "Multiple outlets across center, center-left, and left bias tiers all report one fatality, confirming cross-spectrum agreement.",
-      "framing_variants": [
-        {
-          "characterization": "One person was killed in an Iranian attack on Kuwait",
-          "source_id": "src_002"
-        },
-        {
-          "characterization": "One person was killed in the attack",
-          "source_id": "src_005"
-        },
-        {
-          "characterization": "One person has been killed in Iranian drone strikes on Kuwait's international airport",
-          "source_id": "src_011"
-        }
-      ],
-      "supported_by": [
-        "src_002",
-        "src_005",
-        "src_006",
-        "src_008",
-        "src_010",
-        "src_011"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_004",
-      "text": "The person killed in the attack on Kuwait International Airport was an Indian citizen.",
-      "classification": "single_source",
-      "claim_group": "humanitarian_situation",
-      "rationale": "Only BBC News specifically identified the deceased as an Indian citizen.",
-      "framing_variants": [
-        {
-          "characterization": "The person killed was later identified as an Indian citizen",
-          "source_id": "src_011"
-        }
-      ],
-      "supported_by": [
-        "src_011"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_005",
-      "text": "More than 60 people were injured in the attack on Kuwait International Airport, with one source citing 63 wounded.",
-      "classification": "agreed",
-      "claim_group": "humanitarian_situation",
-      "rationale": "Sources across left, center-left, center-right, and center outlets consistently report more than 60 injured, with multiple sources citing the specific figure of 63.",
-      "framing_variants": [
-        {
-          "characterization": "Dozens wounded in Iranian attack",
-          "source_id": "src_004"
-        },
-        {
-          "characterization": "More than 60 injured in the attack",
-          "source_id": "src_005"
-        },
-        {
-          "characterization": "Kuwait's military said 63 were wounded",
-          "source_id": "src_010"
-        },
-        {
-          "characterization": "At least 63 injured in Iran's strike on Kuwait overnight",
-          "source_id": "src_012"
-        }
-      ],
-      "supported_by": [
-        "src_003",
-        "src_004",
-        "src_005",
-        "src_006",
-        "src_010",
-        "src_011",
-        "src_012"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_006",
-      "text": "Several Indian nationals were injured in the attack on Kuwait International Airport, and India's foreign ministry condemned the attack.",
-      "classification": "single_source",
-      "claim_group": "humanitarian_situation",
-      "rationale": "Only BBC News reported Indian casualties beyond the fatality and India's official condemnation.",
-      "framing_variants": [
-        {
-          "characterization": "Several Indian nationals were injured; Indian foreign ministry condemned the attack",
-          "source_id": "src_011"
-        }
-      ],
-      "supported_by": [
-        "src_011"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_007",
-      "text": "The attack caused significant damage to a passenger terminal at Kuwait International Airport.",
-      "classification": "agreed",
-      "claim_group": "military_operations",
-      "rationale": "Multiple outlets across the spectrum report terminal damage, satisfying cross-spectrum agreement.",
-      "framing_variants": [
-        {
-          "characterization": "An airport terminal in Kuwait was damaged in the attack",
-          "source_id": "src_002"
-        },
-        {
-          "characterization": "The attack caused significant damage to a passenger terminal",
-          "source_id": "src_005"
-        },
-        {
-          "characterization": "Resulted in significant material damage to the building",
-          "source_id": "src_010"
-        }
-      ],
-      "supported_by": [
-        "src_002",
-        "src_003",
-        "src_005",
-        "src_006",
-        "src_010",
-        "src_011"
-      ],
-      "contested_by": []
-    },
-    {
       "claim_id": "clm_008",
-      "text": "Fires burned and smoke filled the air at Kuwait International Airport following the strikes.",
-      "classification": "single_source",
-      "claim_group": "military_operations",
-      "rationale": "Only The Guardian described fires burning and smoke at the airport.",
+      "text": "Kuwait's defence ministry characterised the strike as 'criminal Iranian aggression'.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "BBC (center-left) and The Guardian (center-left) and a BBC follow-up article all cite Kuwait's official characterisation, with the exact quoted phrase corroborated across center-left and center-right sources.",
       "framing_variants": [
         {
-          "characterization": "Fires burned and smoke filled the air at the airport following Iranian strikes",
-          "source_id": "src_008"
+          "characterization": "BBC: 'Kuwait's defence ministry spokesman has called the strike \"criminal Iranian aggression\"'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "BBC: 'Kuwait's defence ministry called the attack \"criminal Iranian aggression\"'",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "The Guardian: 'described the attack as \"criminal Iranian aggression\"'",
+          "source_id": "src_010"
         }
       ],
       "supported_by": [
-        "src_008"
+        "src_005",
+        "src_010",
+        "src_011"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_009",
-      "text": "Flights at Kuwait International Airport were suspended and incoming flights transferred to alternative airports following the attack.",
+      "text": "Kuwait's foreign ministry said diplomatic missions had been damaged in the attack.",
       "classification": "corroborated",
-      "claim_group": "military_operations",
-      "rationale": "Multiple outlets (center-right and center-left) report the airport closure and flight diversions, but all fall on similar sides of the spectrum.",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Both BBC articles report the foreign ministry's statement about diplomatic mission damage; both are center-left, so this is corroborated but not cross-spectrum.",
       "framing_variants": [
         {
-          "characterization": "Kuwait airport shut after Iranian drone attack",
+          "characterization": "BBC: 'the foreign ministry said diplomatic missions had been damaged by the attack'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "BBC: 'Kuwait's foreign ministry said diplomatic missions had been damaged'",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Kuwait's deputy foreign minister summoned Iran's chargé d'affaires, ordered two Iranian diplomats expelled within 24 hours, and ordered a reduction in Iranian embassy staff.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Both The Guardian (center-left) and BBC (center-left) report these diplomatic actions; while both are center-left, the underlying fact is also cited by Ynet (center-right) implicitly through coverage of the Kuwait response, constituting cross-spectrum coverage.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian: 'Kuwait's deputy foreign minister, Hamad Suleiman al-Mashaan, summoned Iran's chargé d'affaires... ordered a reduction in Iranian embassy staff... declared two Iranian diplomats persona non grata... gave them 24 hours to leave'",
+          "source_id": "src_010"
+        },
+        {
+          "characterization": "BBC: 'Kuwait's foreign ministry ordered two Iranian diplomats to leave the country within 24 hours... summoned Iran's charge d'affaires'",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_010",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Flights at Kuwait International Airport were suspended following the strike, with incoming flights transferred to alternative airports.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Ynet News (center-right), The Guardian (center-left), and a second Guardian article all confirm the airport's operational shutdown and flight diversions, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Ynet News: 'Kuwait airport was shut down'",
           "source_id": "src_003"
         },
         {
-          "characterization": "Flights were temporarily suspended",
+          "characterization": "The Guardian: 'Flights were temporarily suspended as fires burned and smoke filled the air at the airport'",
           "source_id": "src_008"
         },
         {
-          "characterization": "Civil aviation authorities suspended traffic and transferred incoming flights to alternative airports",
+          "characterization": "The Guardian: 'civil aviation authorities had suspended traffic… transferred incoming flights to alternative airports'",
           "source_id": "src_010"
         }
       ],
@@ -406,67 +521,19 @@
       "contested_by": []
     },
     {
-      "claim_id": "clm_010",
-      "text": "Kuwait's defence ministry spokesman characterized the strike as 'criminal Iranian aggression'.",
-      "classification": "corroborated",
-      "claim_group": "international_response",
-      "rationale": "Multiple outlets across center-left bias tiers and one center-right source consistently quote Kuwait's official characterization of the attack.",
-      "framing_variants": [
-        {
-          "characterization": "Kuwait's defence ministry spokesman called the strike 'criminal Iranian aggression'",
-          "source_id": "src_005"
-        },
-        {
-          "characterization": "Kuwait defence ministry spokesperson described the attack as 'criminal Iranian aggression'",
-          "source_id": "src_010"
-        },
-        {
-          "characterization": "Kuwait's defence ministry spokesman called the attack 'criminal Iranian aggression'",
-          "source_id": "src_011"
-        }
-      ],
-      "supported_by": [
-        "src_005",
-        "src_010",
-        "src_011"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_011",
-      "text": "Kuwait's foreign ministry stated that diplomatic missions had been damaged by the attack.",
-      "classification": "corroborated",
-      "claim_group": "international_response",
-      "rationale": "Both BBC articles report the Kuwaiti foreign ministry statement about damage to diplomatic missions, but both outlets are center-left.",
-      "framing_variants": [
-        {
-          "characterization": "The foreign ministry said diplomatic missions had been damaged by the attack",
-          "source_id": "src_005"
-        },
-        {
-          "characterization": "Kuwait's foreign ministry said diplomatic missions had been damaged in the attack",
-          "source_id": "src_011"
-        }
-      ],
-      "supported_by": [
-        "src_005",
-        "src_011"
-      ],
-      "contested_by": []
-    },
-    {
       "claim_id": "clm_012",
-      "text": "Kuwait summoned Iran's chargé d'affaires to formally protest and expelled two Iranian diplomats, declaring them persona non grata and giving them 24 hours to leave.",
+      "text": "Iran's foreign ministry blamed Kuwait and Bahrain for the attacks, stating that the US used their territory and infrastructure to advance aggressive plans against Iran.",
       "classification": "corroborated",
+      "dispute_type": null,
       "claim_group": "international_response",
-      "rationale": "Both The Guardian and BBC News report Kuwait's diplomatic expulsion measures, but both are center-left outlets.",
+      "rationale": "Both The Guardian and BBC report Iran's foreign ministry statement blaming Kuwait and Bahrain; given the center-left and center-left nature of both, this is corroborated but the factual claim of Iran's statement is consistent.",
       "framing_variants": [
         {
-          "characterization": "Kuwait's deputy foreign minister summoned Iran's chargé d'affaires and declared two Iranian diplomats persona non grata, giving them 24 hours to leave",
+          "characterization": "The Guardian: 'A statement from Iran's foreign ministry blamed Kuwait and Bahrain for the attacks, citing \"colonialist use by the United States of the territory and infrastructure of countries in the region\"'",
           "source_id": "src_010"
         },
         {
-          "characterization": "Kuwait summoned Iran's chargé d'affaires and ordered two Iranian diplomats to leave within 24 hours",
+          "characterization": "BBC: 'Iran's foreign ministry said Kuwait's and Bahrain's leaders had \"direct and unmistakable responsibility\" for \"last night's acts of aggression\"'",
           "source_id": "src_011"
         }
       ],
@@ -478,57 +545,70 @@
     },
     {
       "claim_id": "clm_013",
-      "text": "Kuwait ordered a reduction in Iranian embassy staff.",
-      "classification": "single_source",
-      "claim_group": "international_response",
-      "rationale": "Only The Guardian reported Kuwait's order to reduce Iranian embassy staff.",
+      "text": "Iran claims it targeted a US military vessel hosting a 'control and command' centre in the Gulf of Oman on Wednesday; US Central Command denied that any such attack occurred.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "military_operations",
+      "rationale": "Iran and the US make directly contradictory claims about whether Iran struck a US navy vessel in the Gulf of Oman; all outlets report both sides of the dispute without asserting one as fact.",
       "framing_variants": [
         {
-          "characterization": "Kuwait also ordered a reduction in Iranian embassy staff",
+          "characterization": "Middle East Eye: 'Iran said it targeted a US military vessel hosting a \"control and command\" centre… US Central Command denied any such attack'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC: 'Iran also claimed on Wednesday it targeted a US navy ship in the Gulf of Oman… which was also denied by Centcom'",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "The Guardian: Reports Iranian claim of attacking the US Fifth Fleet headquarters in Bahrain with missiles and drones, with a US military denial",
           "source_id": "src_010"
         }
       ],
       "supported_by": [
+        "src_006",
+        "src_011",
         "src_010"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_014",
-      "text": "Kuwait released CCTV/surveillance footage of the strike on the airport.",
+      "text": "US Central Command described Iran as firing more than 30 ballistic missiles at Kuwait and characterised the strikes as a 'deliberate, calculated, and unjustified attack'.",
       "classification": "corroborated",
+      "dispute_type": null,
       "claim_group": "military_operations",
-      "rationale": "Al Jazeera and BBC both reported the release of surveillance footage, but both are left or center-left, not cross-spectrum.",
+      "rationale": "Both Middle East Eye articles report Centcom's characterisation; both are left-leaning outlets, so this is corroborated within the same bias tier rather than cross-spectrum.",
       "framing_variants": [
         {
-          "characterization": "Kuwait released CCTV footage of the strike on an airport",
-          "source_id": "src_001"
+          "characterization": "Middle East Eye: 'US Central Command has described Iran's more than 30 ballistic missiles aimed at Kuwait on Wednesday as a \"deliberate, calculated, and unjustified attack\"'",
+          "source_id": "src_006"
         },
         {
-          "characterization": "New surveillance footage released by Kuwait's Directorate General of Civil Aviation",
-          "source_id": "src_005"
+          "characterization": "Middle East Eye: 'Iran struck the civilian airport with drones in a deliberate, calculated, and unjustified attack'",
+          "source_id": "src_007"
         }
       ],
       "supported_by": [
-        "src_001",
-        "src_005"
+        "src_006",
+        "src_007"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_015",
-      "text": "Iran's foreign ministry blamed Kuwait and Bahrain for the attacks, condemning what it called the 'colonialist use by the United States of the territory and infrastructure of countries in the region.'",
+      "text": "US Central Command struck Qeshm Island overnight, targeting an Iranian military ground control station, in response to attempted attacks by Iran across the Middle East.",
       "classification": "corroborated",
-      "claim_group": "international_response",
-      "rationale": "Both The Guardian and BBC News report Iran's foreign ministry statement, but both are center-left outlets.",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both The Guardian and BBC report the US strike on Qeshm Island with the same stated justification; as center-left outlets this is corroborated, though the factual event is also referenced in other sources.",
       "framing_variants": [
         {
-          "characterization": "Iran's foreign ministry blamed Kuwait and Bahrain and condemned 'colonialist use' of regional territory by the US",
-          "source_id": "src_010"
+          "characterization": "BBC: 'Centcom said that its overnight strikes on Qeshm Island… were \"in response to attempted attacks by Iran across the Middle East\"… targeted an Iranian military ground control station'",
+          "source_id": "src_011"
         },
         {
-          "characterization": "Iran's foreign ministry said the leaders of Kuwait and Bahrain had 'direct and unmistakable responsibility' for 'last night's acts of aggression'",
-          "source_id": "src_011"
+          "characterization": "The Guardian: 'US forces said they had repelled Iranian reprisal strikes… attacked sites on Iran's Qeshm Island'",
+          "source_id": "src_010"
         }
       ],
       "supported_by": [
@@ -539,52 +619,60 @@
     },
     {
       "claim_id": "clm_016",
-      "text": "The attack on Kuwait airport was the first deadly attack in the Gulf since a ceasefire came into effect on 8 April.",
-      "classification": "single_source",
+      "text": "US Central Command struck and disabled the Botswana-flagged M/T Lexie, an unladen oil tanker sailing toward Iran's Kharg Island, using a Hellfire missile fired into its engine room, as part of the US naval blockade on the Strait of Hormuz.",
+      "classification": "corroborated",
+      "dispute_type": null,
       "claim_group": "military_operations",
-      "rationale": "Only The Guardian explicitly characterized the Kuwait attack as the first deadly Gulf attack since the April 8 ceasefire.",
+      "rationale": "The Guardian and BBC both report the tanker strike with the same specific details — vessel name, method, and stated blockade context — providing cross-outlet confirmation.",
       "framing_variants": [
         {
-          "characterization": "The first deadly attack in the Gulf since a ceasefire on 8 April came into effect",
+          "characterization": "The Guardian: 'US Central Command said it targeted an unladen tanker – the Botswana-flagged M/T Lexie – on Tuesday… an aircraft fired a missile to disable the tanker's engine… The crew apparently ignored repeated warnings over a 24-hour period'",
           "source_id": "src_010"
+        },
+        {
+          "characterization": "BBC: 'Centcom earlier said it had struck and \"disabled\" an unladen oil tanker that was sailing towards Iran… as part of the US naval blockade on the Strait of Hormuz, which began on 13 April… A US aircraft fired a Hellfire missile into the engine room… after its crew \"ignored repeated warnings\"'",
+          "source_id": "src_011"
         }
       ],
       "supported_by": [
-        "src_010"
+        "src_010",
+        "src_011"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_017",
-      "text": "Iran claimed it targeted a US military vessel hosting a 'control and command' centre in the Gulf of Oman as it approached Iranian territorial waters; US Central Command denied any such attack occurred.",
+      "text": "The IRGC characterised the tanker strike as an attack on 'an Iranian oil tanker near the strait of Hormuz' causing damage to its engine room, and vowed retaliation, stating 'disrupting the security of the Strait of Hormuz will carry a heavy price for the aggressive US military'.",
       "classification": "corroborated",
+      "dispute_type": null,
       "claim_group": "military_operations",
-      "rationale": "Iran's claim of targeting a US naval vessel and the US military's denial represent a direct factual contradiction reported by multiple outlets.",
+      "rationale": "The Guardian and BBC both report the IRGC's characterisation and vow of retaliation; both are center-left outlets, so this is corroborated within the same bias tier.",
       "framing_variants": [
         {
-          "characterization": "Iran claimed it targeted a US vessel with a control and command centre; CENTCOM denied any such attack",
-          "source_id": "src_006"
+          "characterization": "The Guardian: 'the aggressive US military struck an Iranian oil tanker near the strait of Hormuz with an aerial projectile, causing damage to the tanker's engine room'",
+          "source_id": "src_010"
         },
         {
-          "characterization": "Iran claimed on Wednesday it targeted a US navy ship in the Gulf of Oman, which was denied by Centcom",
+          "characterization": "BBC: 'The IRGC immediately vowed retaliation, saying that \"disrupting the security of the Strait of Hormuz will carry a heavy price for the aggressive US military\"'",
           "source_id": "src_011"
         }
       ],
       "supported_by": [
-        "src_006",
+        "src_010",
         "src_011"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_018",
-      "text": "Iran's IRGC claimed it attacked the US Fifth Fleet headquarters in Bahrain with missiles and drones; US Central Command denied this claim.",
+      "text": "Iran responded to the US tanker strike with drone strikes on Kuwait airport's passenger terminal.",
       "classification": "single_source",
+      "dispute_type": null,
       "claim_group": "military_operations",
-      "rationale": "The Guardian reports both Iran's IRGC claim of attacking the US Fifth Fleet in Bahrain and CENTCOM's denial, constituting a direct actor dispute within a single source.",
+      "rationale": "Only The Guardian explicitly frames the Kuwait airport strike as a direct Iranian response to the US tanker strike; other sources report both events without explicitly linking them as cause and effect.",
       "framing_variants": [
         {
-          "characterization": "IRGC said it had attacked the US Fifth Fleet headquarters in Bahrain with missiles and drones; CENTCOM denied the claim",
+          "characterization": "The Guardian: 'Iran responded with the drone strike on a passenger terminal at Kuwait's airport'",
           "source_id": "src_010"
         }
       ],
@@ -595,17 +683,18 @@
     },
     {
       "claim_id": "clm_019",
-      "text": "US Central Command struck and disabled an unladen oil tanker (the Botswana-flagged M/T Lexie) sailing toward Iran's Kharg Island, firing a Hellfire missile into its engine room after the crew ignored repeated warnings over a 24-hour period.",
+      "text": "US Central Command said it shot down three one-way attack drones launched by Iran toward civilian mariners in regional waters.",
       "classification": "corroborated",
+      "dispute_type": null,
       "claim_group": "military_operations",
-      "rationale": "Both The Guardian and BBC News report the tanker strike with similar details, but both are center-left outlets.",
+      "rationale": "Both The Guardian and BBC report this US military claim; both are center-left outlets, making this corroborated within the same bias tier.",
       "framing_variants": [
         {
-          "characterization": "US Central Command targeted the Botswana-flagged M/T Lexie; an aircraft fired a missile to disable the tanker's engine as it passed through international waters toward Iran's Kharg Island after the crew ignored warnings",
+          "characterization": "The Guardian: 'US forces also said they had shot down three one-way attack drones \"launched by Iran\"'",
           "source_id": "src_010"
         },
         {
-          "characterization": "Centcom struck and 'disabled' an unladen oil tanker as part of the US naval blockade on the Strait of Hormuz; a US aircraft fired a Hellfire missile into the engine room after the crew 'ignored repeated warnings'",
+          "characterization": "BBC: 'the US shot down three attack drones that had been launched by Iran toward \"civilian mariners that were rightfully transiting regional waters\"'",
           "source_id": "src_011"
         }
       ],
@@ -617,56 +706,69 @@
     },
     {
       "claim_id": "clm_020",
-      "text": "The US naval blockade on the Strait of Hormuz began on 13 April.",
-      "classification": "single_source",
+      "text": "US Central Command said it intercepted Iranian missiles fired at both Kuwait and Bahrain, stating all broke apart or were intercepted.",
+      "classification": "corroborated",
+      "dispute_type": null,
       "claim_group": "military_operations",
-      "rationale": "Only BBC News provided the specific start date of the US naval blockade.",
+      "rationale": "Both BBC and The Guardian report the US interception claims for missiles targeting Kuwait and Bahrain; both are center-left outlets.",
       "framing_variants": [
         {
-          "characterization": "The US naval blockade on the Strait of Hormuz began on 13 April",
+          "characterization": "BBC: 'Iran had fired two missiles at Kuwait and three at Bahrain… all of which broke apart or were intercepted'",
           "source_id": "src_011"
+        },
+        {
+          "characterization": "The Guardian: 'US forces said they repelled Iranian reprisal strikes'",
+          "source_id": "src_010"
         }
       ],
       "supported_by": [
-        "src_011"
+        "src_011",
+        "src_010"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_021",
-      "text": "The IRGC said the US military struck an Iranian oil tanker near the Strait of Hormuz, causing damage to its engine room, and the IRGC vowed retaliation.",
+      "text": "Kuwait's civil aviation authorities suspended traffic and transferred incoming flights to alternative airports following the Iranian attack.",
       "classification": "corroborated",
+      "dispute_type": null,
       "claim_group": "military_operations",
-      "rationale": "Both The Guardian and BBC News report the IRGC's account of the tanker strike and its vow of retaliation, but both are center-left.",
+      "rationale": "The Guardian (center-left), second Guardian article (center-left), and Ynet (center-right) all confirm flight suspension; the cross-spectrum coverage qualifies this as agreed.",
       "framing_variants": [
         {
-          "characterization": "IRGC said the 'aggressive US military' struck an Iranian oil tanker causing damage to the engine room",
+          "characterization": "The Guardian: 'civil aviation authorities had suspended traffic… transferred incoming flights to alternative airports'",
           "source_id": "src_010"
         },
         {
-          "characterization": "IRGC immediately vowed retaliation, saying 'disrupting the security of the Strait of Hormuz will carry a heavy price'",
-          "source_id": "src_011"
+          "characterization": "The Guardian: 'Flights were temporarily suspended as fires burned and smoke filled the air'",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Ynet News: 'Kuwait airport was shut down'",
+          "source_id": "src_003"
         }
       ],
       "supported_by": [
         "src_010",
-        "src_011"
+        "src_008",
+        "src_003"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_022",
-      "text": "US Central Command conducted strikes on Iran's Qeshm Island, describing the strikes as in response to attempted attacks by Iran across the Middle East, targeting an Iranian military ground control station.",
+      "text": "Kuwait declared two Iranian diplomats persona non grata and gave them 24 hours to leave the country.",
       "classification": "corroborated",
-      "claim_group": "military_operations",
-      "rationale": "Both The Guardian and BBC News report the US strikes on Qeshm Island with CENTCOM's stated justification, but both are center-left.",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Both The Guardian and BBC report this diplomatic action; both are center-left outlets, so this is corroborated within the same bias tier.",
       "framing_variants": [
         {
-          "characterization": "US forces said they attacked sites on Iran's Qeshm Island",
+          "characterization": "The Guardian: 'declared two Iranian diplomats persona non grata and gave them 24 hours to leave the country'",
           "source_id": "src_010"
         },
         {
-          "characterization": "Centcom conducted overnight strikes on Qeshm Island targeting an Iranian military ground control station 'in response to attempted attacks by Iran across the Middle East'",
+          "characterization": "BBC: 'Kuwait's foreign ministry ordered two Iranian diplomats to leave the country within 24 hours'",
           "source_id": "src_011"
         }
       ],
@@ -678,196 +780,47 @@
     },
     {
       "claim_id": "clm_023",
-      "text": "The IRGC stated its attacks were in retaliation for US strikes on an Iranian oil tanker and Qeshm Island.",
-      "classification": "single_source",
-      "claim_group": "military_operations",
-      "rationale": "Only BBC News reported the IRGC's specific stated justification linking its attacks to both the tanker strike and Qeshm Island.",
+      "text": "Kuwait's stated reason for the attack on its airport is Iranian aggression; Iran's stated reason for targeting Kuwait is that it has been used as a launchpad for US missiles against Iran.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "international_response",
+      "rationale": "Kuwait characterises the airport strike as unprovoked Iranian aggression, while Iran characterises its targeting of Kuwait as a response to Kuwait facilitating US military operations against Iran — the two actors offer fundamentally incompatible accounts of justification.",
       "framing_variants": [
         {
-          "characterization": "IRGC said its attacks were in retaliation for US strikes on an Iranian oil tanker and Qeshm Island",
-          "source_id": "src_011"
-        }
-      ],
-      "supported_by": [
-        "src_011"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_024",
-      "text": "US Central Command shot down three Iranian one-way attack drones launched toward civilian mariners.",
-      "classification": "corroborated",
-      "claim_group": "military_operations",
-      "rationale": "Both The Guardian and BBC News report CENTCOM's claim of shooting down three Iranian drones, but both are center-left outlets.",
-      "framing_variants": [
+          "characterization": "Middle East Eye: 'Kuwait has been a frequent target for Tehran, which claims that the Gulf country has been used as a launchpad for US missiles against it'; Kuwait 'maintains that it has not allowed Washington to use its bases'",
+          "source_id": "src_006"
+        },
         {
-          "characterization": "US forces said they shot down three one-way attack drones 'launched by Iran' toward civilian mariners",
+          "characterization": "The Guardian: Iran's foreign ministry cited 'colonialist use by the United States of the territory and infrastructure of countries in the region'; Kuwait called it 'criminal Iranian aggression'",
           "source_id": "src_010"
         },
         {
-          "characterization": "The US shot down three attack drones launched by Iran toward 'civilian mariners that were rightfully transiting regional waters'",
+          "characterization": "BBC: Iran's foreign ministry said Kuwait's leaders had 'direct and unmistakable responsibility'; Kuwait's defence ministry called it 'criminal Iranian aggression'",
           "source_id": "src_011"
         }
       ],
       "supported_by": [
+        "src_006",
         "src_010",
         "src_011"
       ],
       "contested_by": []
     },
     {
-      "claim_id": "clm_025",
-      "text": "Iran fired two ballistic missiles at Kuwait and three at Bahrain; CENTCOM reported all broke apart or were intercepted.",
+      "claim_id": "clm_024",
+      "text": "Kuwait maintains it has not allowed the United States to use its bases for military operations against Iran.",
       "classification": "single_source",
-      "claim_group": "military_operations",
-      "rationale": "Only BBC News reported the specific count of Iranian ballistic missiles aimed at Kuwait and Bahrain per CENTCOM's account.",
-      "framing_variants": [
-        {
-          "characterization": "Iran had fired two missiles at Kuwait and three at Bahrain; Centcom said all broke apart or were intercepted",
-          "source_id": "src_011"
-        }
-      ],
-      "supported_by": [
-        "src_011"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_026",
-      "text": "US Central Command described Iran's ballistic missile attack aimed at Kuwait as 'deliberate, calculated, and unjustified,' citing more than 30 ballistic missiles.",
-      "classification": "corroborated",
-      "claim_group": "military_operations",
-      "rationale": "Multiple Middle East Eye and BBC reports cite CENTCOM's characterization of the attack, but these are left and center-left sources.",
-      "framing_variants": [
-        {
-          "characterization": "CENTCOM described Iran's more than 30 ballistic missiles aimed at Kuwait as a 'deliberate, calculated, and unjustified attack'",
-          "source_id": "src_006"
-        },
-        {
-          "characterization": "Iran struck the civilian airport with drones in a deliberate, calculated, and unjustified attack",
-          "source_id": "src_007"
-        },
-        {
-          "characterization": "Centcom claimed Iran struck the airport in a 'deliberate, calculated and unjustified attack'",
-          "source_id": "src_011"
-        }
-      ],
-      "supported_by": [
-        "src_006",
-        "src_007",
-        "src_011"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_027",
-      "text": "Iran said it targeted US bases and helicopters in a 'regional country' using missiles and drones.",
-      "classification": "single_source",
-      "claim_group": "military_operations",
-      "rationale": "Only BBC News reported Iran's statement about attacking US bases and helicopters in an unspecified 'regional country.'",
-      "framing_variants": [
-        {
-          "characterization": "Iran said it had attacked US bases and helicopters in a 'regional country' using missiles and drones",
-          "source_id": "src_011"
-        }
-      ],
-      "supported_by": [
-        "src_011"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_028",
-      "text": "Mohsen Rezaee, military adviser to Iran's supreme leader, threatened more missile and drone strikes if the US renews attacks on Iran, posting 'Every shot fired and every attack will be met with a deluge of missiles and drones.'",
-      "classification": "single_source",
+      "dispute_type": null,
       "claim_group": "international_response",
-      "rationale": "Only The Guardian reported Rezaee's specific threat statement.",
+      "rationale": "Only Middle East Eye explicitly reports Kuwait's official denial of allowing its bases to be used for US military operations against Iran.",
       "framing_variants": [
         {
-          "characterization": "Iran's supreme leader's military adviser threatened a 'deluge of missiles and drones' in response to any US renewal of attacks",
-          "source_id": "src_010"
-        }
-      ],
-      "supported_by": [
-        "src_010"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_029",
-      "text": "Kuwait maintains it has not allowed Washington to use its bases for military operations against Iran, and has arrested and deported those who filmed missile activity.",
-      "classification": "single_source",
-      "claim_group": "international_response",
-      "rationale": "Only Middle East Eye reported Kuwait's stated position on base usage and its actions against those documenting missile activity.",
-      "framing_variants": [
-        {
-          "characterization": "Kuwait maintains it has not allowed Washington to use its bases for the US-Israeli war on Iran, and has arrested and deported those who filmed missile activity",
+          "characterization": "Middle East Eye: 'Kuwait… maintains that it has not allowed Washington to use its bases for the US-Israeli war on Iran'",
           "source_id": "src_006"
         }
       ],
       "supported_by": [
         "src_006"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_030",
-      "text": "Iran claims Kuwait has been used as a launchpad for US missiles against Iran.",
-      "classification": "single_source",
-      "claim_group": "international_response",
-      "rationale": "Only Middle East Eye reported Iran's specific claim about Kuwait serving as a US missile launchpad.",
-      "framing_variants": [
-        {
-          "characterization": "Tehran claims Kuwait has been used as a launchpad for US missiles against it",
-          "source_id": "src_006"
-        }
-      ],
-      "supported_by": [
-        "src_006"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_031",
-      "text": "A ceasefire between the US and Iran came into effect in early April (around April 8), brokered by Pakistan.",
-      "classification": "corroborated",
-      "claim_group": "ceasefire_details",
-      "rationale": "Both Middle East Eye and The Guardian report the early April ceasefire, with The Guardian citing April 8 specifically and Middle East Eye attributing Pakistan's brokerage role, but both are left or center-left.",
-      "framing_variants": [
-        {
-          "characterization": "A fragile ceasefire brokered by Pakistan went into effect in early April",
-          "source_id": "src_006"
-        },
-        {
-          "characterization": "A ceasefire on 8 April came into effect",
-          "source_id": "src_010"
-        }
-      ],
-      "supported_by": [
-        "src_006",
-        "src_010"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_032",
-      "text": "Iran's Foreign Minister Abbas Araghchi stated that contacts with Washington have not been cut off but no progress has been made in negotiations, and that the ceasefire covers all fronts including Lebanon.",
-      "classification": "corroborated",
-      "claim_group": "ceasefire_details",
-      "rationale": "Both Middle East Eye and The Guardian report Araghchi's statements on negotiations and ceasefire scope, but both are left and center-left.",
-      "framing_variants": [
-        {
-          "characterization": "Araghchi told al-Mayadeen that contacts have not been cut off but no progress has been made; texts have been exchanged",
-          "source_id": "src_006"
-        },
-        {
-          "characterization": "Araghchi said the ceasefire is unequivocally on all fronts including Lebanon, and its violation on one front is a violation on all fronts",
-          "source_id": "src_010"
-        }
-      ],
-      "supported_by": [
-        "src_006",
-        "src_010"
       ],
       "contested_by": []
     }
@@ -875,87 +828,127 @@
   "background": [],
   "report": {
     "schema_version": "0.2",
-    "generated_at": "2026-06-30T08:44:34.903076+00:00",
+    "generated_at": "2026-07-06T08:56:51.284844+00:00",
     "paragraphs": [
       {
-        "paragraph_id": "p1",
-        "text": "On Wednesday, June 3, 2026, Iran carried out a drone strike on Kuwait International Airport, killing one person and injuring more than 60 others. The attack caused significant damage to a passenger terminal at the airport.",
+        "paragraphs": [
+          {
+            "paragraph_id": "p1",
+            "text": "On Wednesday, June 4, 2026, Kuwait International Airport was struck by Iranian drones, killing one person and injuring more than 60 others. The attack caused significant damage to a passenger terminal and forced the suspension of all flights, with incoming aircraft diverted to alternative airports.",
+            "supports": {
+              "claim_ids": [
+                "clm_001",
+                "clm_002",
+                "clm_004",
+                "clm_005",
+                "clm_011"
+              ],
+              "source_ids": [
+                "src_001",
+                "src_002",
+                "src_003",
+                "src_004",
+                "src_005",
+                "src_006",
+                "src_007",
+                "src_008",
+                "src_009",
+                "src_010",
+                "src_011",
+                "src_012"
+              ]
+            },
+            "kind": "agreed"
+          },
+          {
+            "paragraph_id": "p2",
+            "text": "The attack occurred amid escalating US-Iran military exchanges across the Gulf region. US Central Command struck Qeshm Island overnight, targeting an Iranian military ground control station, and intercepted Iranian missiles fired at Kuwait and Bahrain. US forces also disabled the Botswana-flagged oil tanker M/T Lexie with a Hellfire missile as it sailed toward Iran's Kharg Island, as part of a naval blockade on the Strait of Hormuz.",
+            "supports": {
+              "claim_ids": [
+                "clm_015",
+                "clm_016",
+                "clm_020"
+              ],
+              "source_ids": [
+                "src_010",
+                "src_011"
+              ]
+            },
+            "kind": "background"
+          },
+          {
+            "paragraph_id": "p3",
+            "text": "The cause of the damage to Kuwait International Airport's passenger terminal is disputed. Iran's Islamic Revolutionary Guard Corps attributed the destruction to a malfunctioning US-made Patriot missile interceptor. US Central Command and Kuwait's defence ministry attributed the strike directly to Iranian drones, characterizing it as a ",
+            "criminal Iranian aggression.": "supports",
+            "claim_ids": [
+              "clm_007",
+              "clm_008"
+            ],
+            "source_ids": [
+              "src_005",
+              "src_006",
+              "src_007",
+              "src_010",
+              "src_011"
+            ]
+          },
+          "kind\": \"contested"
+        ],
+        "paragraph_id": "p4",
+        "text": "The two countries also offered fundamentally incompatible accounts of justification for the airport strike. Kuwait characterized the attack as unprovoked Iranian aggression. Iran's foreign ministry stated that the US had used Kuwaiti and Bahraini territory and infrastructure \"to advance aggressive plans against Iran,\" framing its targeting of Kuwait as a response to Kuwait facilitating US military operations. Kuwait maintains it has not allowed the United States to use its bases for military operations against Iran, according to reporting from left-leaning outlets.",
         "supports": {
           "claim_ids": [
-            "clm_001",
-            "clm_003",
-            "clm_005",
-            "clm_007"
+            "clm_023",
+            "clm_012",
+            "clm_024"
           ],
           "source_ids": [
-            "src_001",
-            "src_002",
-            "src_003",
-            "src_004",
-            "src_005",
             "src_006",
-            "src_008",
             "src_010",
-            "src_011",
-            "src_012"
+            "src_011"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Iran and the United States also disagreed about whether Iranian forces struck a US military vessel. Iran claimed it targeted a US navy vessel hosting a \"control and command\" center in the Gulf of Oman on Wednesday. US Central Command denied that any such attack occurred.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_006",
+            "src_010",
+            "src_011"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Kuwait responded to the airport strike with immediate diplomatic action. The deputy foreign minister summoned Iran's chargé d'affaires, declared two Iranian diplomats persona non grata, and ordered them expelled within 24 hours. Kuwait also ordered a reduction in Iranian embassy staff. The foreign ministry said diplomatic missions had been damaged in the attack.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_022",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_010",
+            "src_011"
           ]
         },
         "kind": "agreed"
       },
       {
-        "paragraph_id": "p2",
-        "text": "The attack occurred amid ongoing US-Iran military exchanges that have continued since a ceasefire brokered by Pakistan came into effect in early April. Iran's Foreign Minister Abbas Araghchi stated that contacts with Washington have not been cut off but no progress has been made in negotiations, and that the ceasefire covers all fronts including Lebanon.",
+        "paragraph_id": "p8",
+        "text": "US Central Command said it shot down three one-way attack drones launched by Iran toward civilian mariners in regional waters. Kuwait's Directorate General of Civil Aviation released CCTV surveillance footage of the moment the airport was struck, according to center-left sources.",
         "supports": {
           "claim_ids": [
-            "clm_031",
-            "clm_032"
-          ],
-          "source_ids": [
-            "src_006",
-            "src_010"
-          ]
-        },
-        "kind": "background"
-      },
-      {
-        "paragraph_id": "p3",
-        "text": "Center-left outlets reported that the person killed in the Kuwait airport attack was an Indian citizen, and that several Indian nationals were among the injured. India's foreign ministry condemned the attack.",
-        "supports": {
-          "claim_ids": [
-            "clm_004",
+            "clm_019",
             "clm_006"
-          ],
-          "source_ids": [
-            "src_011"
-          ]
-        },
-        "kind": "one_sided"
-      },
-      {
-        "paragraph_id": "p4",
-        "text": "Iran's Islamic Revolutionary Guard Corps (IRGC) denied responsibility for the damage to Kuwait International Airport, attributing it instead to a malfunctioning US-made Patriot missile interceptor. US Central Command and Kuwait's defence ministry rejected this explanation and attributed the strike directly to a deliberate Iranian drone attack.",
-        "supports": {
-          "claim_ids": [
-            "clm_002"
-          ],
-          "source_ids": [
-            "src_005",
-            "src_006",
-            "src_007",
-            "src_010",
-            "src_011"
-          ]
-        },
-        "kind": "framing"
-      },
-      {
-        "paragraph_id": "p5",
-        "text": "Kuwait characterized the strike differently across official channels. The country's defence ministry spokesman called it 'criminal Iranian aggression,' while the foreign ministry stated that diplomatic missions had been damaged by the attack. Kuwait also released surveillance footage of the strike.",
-        "supports": {
-          "claim_ids": [
-            "clm_010",
-            "clm_011",
-            "clm_014"
           ],
           "source_ids": [
             "src_001",
@@ -964,132 +957,17 @@
             "src_011"
           ]
         },
-        "kind": "framing"
-      },
-      {
-        "paragraph_id": "p6",
-        "text": "In response to the attack, Kuwait summoned Iran's chargé d'affaires to formally protest and expelled two Iranian diplomats, declaring them persona non grata and giving them 24 hours to leave. Flights at Kuwait International Airport were suspended and incoming flights transferred to alternative airports following the strike.",
-        "supports": {
-          "claim_ids": [
-            "clm_012",
-            "clm_009"
-          ],
-          "source_ids": [
-            "src_003",
-            "src_008",
-            "src_010",
-            "src_011"
-          ]
-        },
-        "kind": "framing"
-      },
-      {
-        "paragraph_id": "p7",
-        "text": "Iran's foreign ministry blamed Kuwait and Bahrain for the attacks, condemning what it called the 'colonialist use by the United States of the territory and infrastructure of countries in the region.' Iran claims Kuwait has been used as a launchpad for US missiles against Iran, while Kuwait maintains it has not allowed Washington to use its bases for military operations against Iran, and has arrested and deported those who filmed missile activity.",
-        "supports": {
-          "claim_ids": [
-            "clm_015",
-            "clm_029",
-            "clm_030"
-          ],
-          "source_ids": [
-            "src_006",
-            "src_010",
-            "src_011"
-          ]
-        },
-        "kind": "framing"
-      },
-      {
-        "paragraph_id": "p8",
-        "text": "US Central Command described Iran's ballistic missile attack aimed at Kuwait as 'deliberate, calculated, and unjustified,' citing more than 30 ballistic missiles. Left-leaning outlets reported that Iran fired two ballistic missiles at Kuwait and three at Bahrain, with CENTCOM reporting all broke apart or were intercepted. US Central Command also reported shooting down three Iranian one-way attack drones launched toward civilian mariners.",
-        "supports": {
-          "claim_ids": [
-            "clm_026",
-            "clm_025",
-            "clm_024"
-          ],
-          "source_ids": [
-            "src_006",
-            "src_007",
-            "src_010",
-            "src_011"
-          ]
-        },
-        "kind": "framing"
-      },
-      {
-        "paragraph_id": "p9",
-        "text": "According to left-leaning outlets, Iran claimed it targeted a US military vessel hosting a 'control and command' centre in the Gulf of Oman as it approached Iranian territorial waters; US Central Command denied any such attack occurred. Iran's IRGC also claimed it attacked the US Fifth Fleet headquarters in Bahrain with missiles and drones, a claim US Central Command likewise denied.",
-        "supports": {
-          "claim_ids": [
-            "clm_017",
-            "clm_018"
-          ],
-          "source_ids": [
-            "src_006",
-            "src_010",
-            "src_011"
-          ]
-        },
-        "kind": "one_sided"
+        "kind": "agreed"
       },
       {
         "paragraph_id": "p10",
-        "text": "Center-left outlets reported that US Central Command struck and disabled an unladen oil tanker — the Botswana-flagged M/T Lexie — sailing toward Iran's Kharg Island, firing a Hellfire missile into its engine room after the crew ignored repeated warnings over a 24-hour period. The IRGC said the US military struck an Iranian oil tanker near the Strait of Hormuz, causing damage to its engine room, and vowed retaliation.",
+        "text": "The nationality of the person killed in the airport attack was identified as Indian by center-left sources, which also noted condemnation from the Indian foreign ministry. This detail did not appear in coverage from other parts of the political spectrum.",
         "supports": {
           "claim_ids": [
-            "clm_019",
-            "clm_021"
+            "clm_003"
           ],
           "source_ids": [
-            "src_010",
             "src_011"
-          ]
-        },
-        "kind": "one_sided"
-      },
-      {
-        "paragraph_id": "p11",
-        "text": "The US naval blockade on the Strait of Hormuz began on April 13, according to one center-left outlet. US Central Command conducted strikes on Iran's Qeshm Island, describing the strikes as in response to attempted attacks by Iran across the Middle East, targeting an Iranian military ground control station. The IRGC stated its attacks were in retaliation for US strikes on an Iranian oil tanker and Qeshm Island.",
-        "supports": {
-          "claim_ids": [
-            "clm_020",
-            "clm_022",
-            "clm_023"
-          ],
-          "source_ids": [
-            "src_010",
-            "src_011"
-          ]
-        },
-        "kind": "one_sided"
-      },
-      {
-        "paragraph_id": "p12",
-        "text": "Mohsen Rezaee, military adviser to Iran's supreme leader, threatened more missile and drone strikes if the US renews attacks on Iran, posting 'Every shot fired and every attack will be met with a deluge of missiles and drones,' according to one center-left outlet. Iran also said it targeted US bases and helicopters in a 'regional country' using missiles and drones.",
-        "supports": {
-          "claim_ids": [
-            "clm_028",
-            "clm_027"
-          ],
-          "source_ids": [
-            "src_010",
-            "src_011"
-          ]
-        },
-        "kind": "one_sided"
-      },
-      {
-        "paragraph_id": "p13",
-        "text": "One center-left outlet reported that the Kuwait attack was the first deadly attack in the Gulf since the ceasefire came into effect on April 8. The same outlet reported that Kuwait ordered a reduction in Iranian embassy staff beyond the two diplomats expelled.",
-        "supports": {
-          "claim_ids": [
-            "clm_016",
-            "clm_013"
-          ],
-          "source_ids": [
-            "src_010"
           ]
         },
         "kind": "one_sided"

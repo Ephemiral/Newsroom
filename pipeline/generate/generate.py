@@ -143,6 +143,18 @@ operating along Israel's northern borders. This is a distinct conflict from Gaza
 extension of it. Draw only on claims present in the input; do not add facts not in the claims."""
 
 
+def _claim_is_contested_evidence(c: dict) -> bool:
+    """
+    True when a claim constitutes evidence of genuine contention (B-11/B-16):
+    either outlets directly disagree (contested_by populated), or the claim is a
+    validated actor dispute (classification 'contested' with dispute_type 'actor',
+    which the B-09/B-16 reconcile guard only lets through with >=2 outlets).
+    """
+    return bool(c.get("contested_by")) or (
+        c.get("classification") == "contested" and c.get("dispute_type") == "actor"
+    )
+
+
 def _build_claims_block(claims: list[dict]) -> str:
     """Format claims into a readable block for the prompt, grouped by classification."""
     groups = {"agreed": [], "corroborated": [], "contested": [], "single_source": []}
@@ -150,13 +162,16 @@ def _build_claims_block(claims: list[dict]) -> str:
         cls = c.get("classification", "single_source")
         groups.setdefault(cls, []).append(c)
 
-    # Emit a prominent header when no claim has contested_by populated
-    has_any_contested_by = any(c.get("contested_by") for c in claims)
+    # Emit a prominent header when nothing in the event evidences genuine contention
+    # (neither outlet-level disagreement nor a validated actor dispute — B-16)
+    has_any_contested_evidence = any(_claim_is_contested_evidence(c) for c in claims)
     lines = []
-    if not has_any_contested_by:
+    if not has_any_contested_evidence:
         lines.append(
-            "⚠ CONTESTED_BY STATUS: No claim in this event has a non-empty contested_by list. "
-            "This means NO outlets reported genuinely opposing facts. "
+            "⚠ CONTESTED_BY STATUS: No claim in this event has a non-empty contested_by list "
+            "or a validated actor dispute. "
+            "This means NO outlets reported genuinely opposing facts and no actors gave "
+            "contradictory accounts. "
             "You MUST NOT write any paragraphs with kind=contested. "
             "Use framing or one_sided instead where perspectives differ.\n"
         )
@@ -175,6 +190,11 @@ def _build_claims_block(claims: list[dict]) -> str:
             lines.append(f"  supported_by: {', '.join(c.get('supported_by', []))}")
             if c.get("contested_by"):
                 lines.append(f"  contested_by: {', '.join(c['contested_by'])}")
+            if c.get("dispute_type") == "actor":
+                lines.append(
+                    "  dispute_type: actor — the contradiction is between the actors named in "
+                    "the claim; every outlet above corroborates that the dispute exists"
+                )
             if c.get("rationale"):
                 lines.append(f"  rationale: {c['rationale']}")
             lines.append("")
@@ -299,7 +319,7 @@ def validate_report(report: dict, event_data: dict) -> list[str]:
     claim_meta = {
         c["claim_id"]: {
             "classification": c.get("classification", "single_source"),
-            "has_contested_by": bool(c.get("contested_by")),
+            "has_contested_by": _claim_is_contested_evidence(c),
         }
         for c in event_data["claims"]
     }
@@ -380,7 +400,7 @@ def _enforce_paragraph_kinds(report: dict, event_data: dict) -> list[str]:
     """
     import sys
     claim_has_contested = {
-        c["claim_id"]: bool(c.get("contested_by"))
+        c["claim_id"]: _claim_is_contested_evidence(c)
         for c in event_data["claims"]
     }
     corrections = []

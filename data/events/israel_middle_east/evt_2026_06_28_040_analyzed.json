@@ -1,27 +1,27 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.4",
   "event": {
     "cluster_id": "evt_2026_06_28_040",
     "beat": "israel_middle_east",
-    "title": "US-Iran Tit-for-Tat Strikes Amid Fragile Ceasefire, June 2026",
-    "summary": "A cycle of retaliatory military strikes between the United States and Iran erupted in late June 2026, beginning with Iranian drone attacks on commercial vessels transiting the Strait of Hormuz and escalating to US strikes on Iranian military installations, Iranian missile and drone attacks on US bases in Kuwait and Bahrain, and Iranian drone strikes on Bahrain itself — all occurring weeks after both countries signed a 14-point memorandum of understanding intended to end hostilities.",
+    "title": "US-Iran Tit-for-Tat Strikes Amid Strait of Hormuz Ceasefire Crisis",
+    "summary": "Following Iranian drone attacks on commercial vessels in the Strait of Hormuz in late June 2026, the United States conducted multiple rounds of strikes on Iranian military targets. Iran retaliated with missile and drone attacks on US military sites in Kuwait and Bahrain, with both sides accusing the other of violating their June 17 memorandum of understanding.",
     "date": "2026-06-26",
-    "generated_at": "2026-06-30T08:48:58.511033+00:00",
-    "image_attempted_at": "2026-07-06T07:56:18.599094+00:00",
+    "generated_at": "2026-07-06T09:01:49.676329+00:00",
+    "image_attempted_at": "2026-07-06T09:11:00.991817+00:00",
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/STS004-37-716_-_Strait_of_Hormuz.jpg/1280px-STS004-37-716_-_Strait_of_Hormuz.jpg",
-      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/STS004-37-716_-_Strait_of_Hormuz.jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg",
-      "width": 1200,
-      "height": 1200,
-      "caption": "The Strait of Hormuz, a critical waterway for global maritime commerce, viewed from space (file photo)",
-      "credit": "NASA",
-      "license": "Public domain",
-      "license_url": null,
-      "provider": "wikimedia_commons",
-      "file_title": "File:STS004-37-716 - Strait of Hormuz.jpg",
-      "query": "Strait of Hormuz",
-      "fetched_at": "2026-07-06T07:56:18.599023+00:00"
+      "url": "https://live.staticflickr.com/7137/7118994707_59d2b158fc_b.jpg",
+      "full_url": "https://live.staticflickr.com/7137/7118994707_59d2b158fc_b.jpg",
+      "source_page": "https://www.flickr.com/photos/9998127@N06/7118994707",
+      "width": 1024,
+      "height": 685,
+      "caption": "US Navy Oliver Hazard Perry-class frigate in the Persian Gulf (file photo)",
+      "credit": "wbaiv",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "provider": "openverse",
+      "file_title": "openverse:78ec5545-c600-4fa2-ba0b-1869d96d0653|Oliver Hazzard Perry Class Frigate - from an 'Island AIr' De Havilland Canada Dash 8",
+      "query": "Strait of Hormuz tanker ship",
+      "fetched_at": "2026-07-06T09:11:00.991779+00:00"
     }
   },
   "sources": [
@@ -221,35 +221,40 @@
   "claims": [
     {
       "claim_id": "clm_001",
-      "text": "Iran conducted a drone attack on the Singapore-flagged cargo ship M/V Ever Lovely in the Strait of Hormuz on Thursday, June 26, 2026.",
+      "text": "On Thursday, June 26, an Iranian drone struck the M/V Ever Lovely, a Singapore-flagged cargo ship owned by Evergreen, in the Strait of Hormuz approximately 7.5 nautical miles southeast of Oman's port of Dahit.",
       "classification": "agreed",
-      "claim_group": "maritime_incidents",
-      "rationale": "Sources across center-left (BBC, Guardian) and center-right (i24, Times of Israel) outlets all confirm the drone attack on the Ever Lovely as the triggering incident. The attack is consistently reported as fact across the political spectrum.",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Multiple outlets across center-left (BBC, Guardian) and center-right (i24) tiers confirm the attack on the Ever Lovely cargo ship near Oman.",
       "framing_variants": [
         {
-          "characterization": "Identifies the Ever Lovely as the attacked vessel and notes it was Singapore-flagged",
+          "characterization": "BBC identifies the ship, its flag, its owner Evergreen, and the UKMTO-reported strike location.",
           "source_id": "src_001"
         },
         {
-          "characterization": "Describes it as 'a tit-for-tat' drone strike on a cargo ship",
+          "characterization": "Guardian frames the attack as the Iranian action that prompted US retaliation.",
           "source_id": "src_002"
         },
         {
-          "characterization": "Trump blamed Iran for carrying out a drone strike on a cargo ship",
+          "characterization": "BBC (earlier article) reports UKMTO confirmation of an unknown projectile strike and Trump's accusation of at least four drones.",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "Guardian notes Trump blamed Iran and called it a 'foolish violation' of the ceasefire.",
           "source_id": "src_006"
         },
         {
-          "characterization": "Reports no casualties and damage to the bridge, with ship owner confirming limited damage",
-          "source_id": "src_012"
+          "characterization": "Euronews uses CENTCOM's framing: 'one-way drone attack on the M/V Ever Lovely.'",
+          "source_id": "src_015"
         }
       ],
       "supported_by": [
         "src_001",
         "src_002",
-        "src_003",
-        "src_005",
-        "src_006",
         "src_012",
+        "src_006",
+        "src_005",
+        "src_003",
         "src_015",
         "src_016"
       ],
@@ -257,98 +262,109 @@
     },
     {
       "claim_id": "clm_002",
-      "text": "The Ever Lovely was struck 7.5 nautical miles southeast of Oman's port of Dahit; one drone hit the ship's bridge/upper deck while the US shot down three other drones aimed at the vessel.",
-      "classification": "corroborated",
-      "claim_group": "maritime_incidents",
-      "rationale": "Both BBC (center-left) and Guardian (center-left), relying on UKMTO and Trump's statements, corroborate the location and damage details. The four-drone figure is reported consistently across outlets.",
+      "text": "The Ever Lovely was following the UKMTO's recommended route through the strait when it was struck, according to the ship's owner Evergreen; Iran's Persian Gulf Strait Authority had separately warned that any passage through routes outside its designated framework would not be covered by safe passage guarantees.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "military_operations",
+      "rationale": "The ship owner and UKMTO assert the vessel was on the internationally recommended route; Iran's authorities assert that ships not following its own designated routes are not entitled to safe passage guarantees, creating a direct actor dispute over which route was legitimate.",
       "framing_variants": [
         {
-          "characterization": "UKMTO placed the strike 7.5 nautical miles southeast of Dahit; Trump said three drones were knocked down and one hit the upper deck",
+          "characterization": "BBC states Evergreen said the Ever Lovely followed the UKMTO recommended route; also notes Tehran said the ship used an 'unauthorised route.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC Verify confirms via MarineTraffic data that the vessel followed the IMO-identified southern route; IMO chief Dominguez noted the ship 'did not transit under IMO's evacuation framework.'",
           "source_id": "src_012"
         },
         {
-          "characterization": "Damaged the bridge of the ship; no one was injured",
+          "characterization": "Guardian quotes Iran's Persian Gulf Strait Authority warning that passages outside its framework are not covered by safe passage guarantees.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_012",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The Ever Lovely sustained damage to its bridge/upper deck from the drone strike; no crew casualties were reported and the vessel was able to continue on its way.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Center-left and center outlets consistently report no crew casualties and the ship's ability to proceed, with damage confined to the bridge/upper deck.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports 'damage to its bridge, but all crew were safe and no environmental damage.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Guardian specifies the attack 'damaged the bridge of the ship' and UKMTO confirmed no injuries.",
           "source_id": "src_002"
         },
         {
-          "characterization": "One drone damaged the upper deck; ship was able to proceed; US shot down three other drones",
+          "characterization": "Trump's account cited: 'One drone damaged the upper deck of the ship but the ship was able to proceed.'",
           "source_id": "src_006"
         }
       ],
       "supported_by": [
         "src_001",
         "src_002",
+        "src_012",
         "src_006",
-        "src_012"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_003",
-      "text": "The Ever Lovely's owner Evergreen stated the ship had been following the UKMTO's recommended route through the strait when it was struck, and that all crew, the vessel, and cargo remained safe.",
-      "classification": "corroborated",
-      "claim_group": "maritime_incidents",
-      "rationale": "Both BBC articles consistently cite Evergreen's statement about route compliance and crew safety, with ship-tracking data from MarineTraffic reviewed by BBC Verify confirming the route.",
-      "framing_variants": [
-        {
-          "characterization": "Evergreen confirmed the ship was following the UKMTO recommended route and all crew and cargo are safe",
-          "source_id": "src_001"
-        },
-        {
-          "characterization": "BBC Verify reviewed ship-tracking data confirming the IMO-identified southern route; IMO chief noted the ship 'did not transit under IMO's evacuation framework'",
-          "source_id": "src_012"
-        }
-      ],
-      "supported_by": [
-        "src_001",
-        "src_012"
+        "src_016"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_004",
-      "text": "Iran's Persian Gulf Strait Authority stated that any passage through routes outside the framework designated by PGSA would not be covered by safe passage guarantees; Iran also stated the Ever Lovely was attacked because it was using an unauthorised route.",
-      "classification": "single_source",
-      "claim_group": "maritime_incidents",
-      "rationale": "Iran characterised the attack as a response to the ship using an unauthorised route, while Evergreen and UKMTO stated the ship was following the UKMTO-recommended route — presenting a direct factual dispute over the vessel's route compliance.",
+      "text": "Trump stated that Iran fired four drones at vessels in the strait, that the US shot down three, and one hit the upper deck of the Ever Lovely.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Multiple center-left outlets report Trump's Truth Social account of four drones, three downed and one hitting the ship; this is Trump's stated version rather than independently confirmed.",
       "framing_variants": [
         {
-          "characterization": "Iran said the ship was using an unauthorised route; Evergreen said it was following the UKMTO recommended route",
-          "source_id": "src_001"
+          "characterization": "Guardian reports Trump's social media post without identifying the ship or time.",
+          "source_id": "src_006"
         },
         {
-          "characterization": "PGSA stated routes outside its framework carry no safe passage guarantees",
-          "source_id": "src_002"
-        },
-        {
-          "characterization": "IMO chief noted the ship 'did not transit under IMO's evacuation framework,' introducing ambiguity about route authorisation",
+          "characterization": "BBC reports Trump's post: 'knocked down three drones, one hit the upper deck.'",
           "source_id": "src_012"
+        },
+        {
+          "characterization": "Guardian quotes Trump: 'I don't like the fact that they took a shot yesterday, actually four of them.'",
+          "source_id": "src_002"
         }
       ],
       "supported_by": [
         "src_001",
-        "src_002",
-        "src_012"
+        "src_006",
+        "src_012",
+        "src_002"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_005",
-      "text": "The US military conducted strikes on Iranian missile and drone storage facilities and coastal radar positions on Friday, June 27, 2026, in response to the drone attack on the Ever Lovely.",
+      "text": "On Friday, June 27, US Central Command struck Iranian missile and drone storage facilities and coastal radar positions in and near the Strait of Hormuz in response to the Ever Lovely drone attack.",
       "classification": "agreed",
+      "dispute_type": null,
       "claim_group": "military_operations",
-      "rationale": "The initial US strikes on Friday are confirmed by sources spanning the full spectrum from center-left (BBC, Guardian) to center (Reuters, Euronews) to center-right (i24, Times of Israel), all citing US Central Command.",
+      "rationale": "Sources from center-left (BBC, Guardian), center (Reuters, Euronews), and center-right (i24, Times of Israel) all confirm Friday's US strikes and describe the same target types cited by CENTCOM.",
       "framing_variants": [
         {
-          "characterization": "US Central Command described the strikes as 'a powerful response' to the drone attack",
+          "characterization": "BBC quotes CENTCOM: 'struck missile and drone storage facilities and coastal radar positions on Friday.'",
           "source_id": "src_001"
         },
         {
-          "characterization": "Framed as 'a tit-for-tat response' targeting 'Iranian missile and drone storage locations'",
+          "characterization": "Guardian describes it as targeting 'multiple missile and drone facilities in Iran near the strait of Hormuz and on Qeshm Island.'",
           "source_id": "src_002"
         },
         {
-          "characterization": "US aircraft targeted missile/drone storage and coastal radar sites, per CENTCOM statement",
+          "characterization": "Euronews notes CENTCOM framing: strikes were a 'direct response to continued Iranian aggression against commercial shipping.'",
           "source_id": "src_015"
         }
       ],
@@ -358,132 +374,177 @@
         "src_003",
         "src_004",
         "src_005",
-        "src_006",
-        "src_008",
-        "src_009",
         "src_012",
-        "src_013",
         "src_015",
-        "src_016"
+        "src_016",
+        "src_008"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_006",
-      "text": "US Central Command stated the Iranian drone attack on the Ever Lovely constituted a 'clear violation' of the ceasefire, describing US strikes as 'a powerful response to unwarranted aggression against commercial shipping.'",
+      "text": "On Saturday, June 28, the US military launched additional strikes on Iranian military targets including surveillance infrastructure, communication systems, air defense sites, drone storage facilities, and minelayer capabilities, in response to an Iranian drone attack on the Panama-flagged oil tanker M/T Kiku near the Strait of Hormuz.",
       "classification": "agreed",
+      "dispute_type": null,
       "claim_group": "military_operations",
-      "rationale": "CENTCOM's characterisation of the ceasefire violation and the justification for its strikes is reported consistently by multiple outlets citing official CENTCOM statements.",
+      "rationale": "Center-right (Times of Israel) and center (Euronews) and center-left (Guardian) outlets all confirm a second round of US strikes on Saturday targeting a broader set of Iranian military infrastructure.",
       "framing_variants": [
         {
-          "characterization": "'The unwarranted aggression against commercial shipping by Iranian forces clearly violated the ceasefire'",
+          "characterization": "Times of Israel reports 10 Iranian military targets struck at multiple locations; lists target types per CENTCOM.",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Euronews quotes CENTCOM specifying navy and air force jets targeted 'military surveillance infrastructure, communication systems, air defence sites, drone storage facilities, and mine-laying capabilities.'",
+          "source_id": "src_015"
+        },
+        {
+          "characterization": "Guardian reports 'further strikes on multiple targets in Iran on Saturday.'",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_008",
+        "src_015",
+        "src_013",
+        "src_016"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "CENTCOM described both rounds of US strikes as a 'powerful response' and stated that Iran's drone attacks on commercial shipping clearly violated the ceasefire and undermined freedom of navigation.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Multiple center-left and center outlets uniformly report CENTCOM's framing characterizing US strikes as justified responses to ceasefire violations.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes CENTCOM calling the Friday strikes 'a powerful response' and Iran's behavior a ceasefire violation undermining freedom of navigation.",
           "source_id": "src_001"
         },
         {
-          "characterization": "Strikes were in 'direct response to continued Iranian aggression against commercial shipping'",
-          "source_id": "src_013"
-        },
-        {
-          "characterization": "Iran was given a chance to honor the ceasefire after Friday strikes but 'elected not to'",
+          "characterization": "Euronews reports CENTCOM stated Iran 'was given a chance to honor the ceasefire agreement but elected not to' after Friday's strikes.",
           "source_id": "src_015"
         }
       ],
       "supported_by": [
         "src_001",
+        "src_002",
         "src_015",
         "src_013"
       ],
       "contested_by": []
     },
     {
-      "claim_id": "clm_007",
-      "text": "The US military launched a second round of strikes against Iran on Saturday, June 28, targeting surveillance infrastructure, communication systems, air defense sites, drone storage facilities, and minelayer capabilities at 10 locations in and near the Strait of Hormuz.",
-      "classification": "agreed",
-      "claim_group": "military_operations",
-      "rationale": "The Saturday US strikes and their scope are confirmed across center-left (Guardian) and center-right (Times of Israel) outlets citing CENTCOM, as well as center Euronews.",
-      "framing_variants": [
-        {
-          "characterization": "10 Iranian military targets struck at multiple locations; included air defense sites, drone storage, and minelayer capabilities",
-          "source_id": "src_008"
-        },
-        {
-          "characterization": "US navy and air force jets targeted these sites in response to Iranian drone attack on the M/T Kiku oil tanker",
-          "source_id": "src_015"
-        },
-        {
-          "characterization": "Strikes targeted 'military surveillance infrastructure, communication systems, air defense sites, drone storage facilities, and minelayer capabilities'",
-          "source_id": "src_013"
-        }
-      ],
-      "supported_by": [
-        "src_008",
-        "src_013",
-        "src_015"
-      ],
-      "contested_by": []
-    },
-    {
       "claim_id": "clm_008",
-      "text": "The Saturday US strikes were in response to an Iranian drone attack on the Panama-flagged oil tanker M/T Kiku, which was carrying approximately two million barrels of crude near the Strait of Hormuz.",
-      "classification": "agreed",
-      "claim_group": "maritime_incidents",
-      "rationale": "Both Times of Israel and Euronews cite CENTCOM's identification of the M/T Kiku as the vessel triggering the Saturday strikes.",
+      "text": "US and Iran characterize the other's actions as ceasefire violations: the US asserts Iran violated the MOU by attacking commercial shipping; Iran asserts the US violated the MOU by striking Iranian targets, with the IRGC citing Clause 1 of the Islamabad Memorandum of Understanding.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "ceasefire_details",
+      "rationale": "Both the US and Iran publicly accused the other of breaching their agreement; outlets across the spectrum report both positions, making this a clear actor dispute.",
       "framing_variants": [
         {
-          "characterization": "CENTCOM said strikes responded to an Iranian drone attack on the Kiku carrying 2 million barrels of crude",
+          "characterization": "BBC notes the US accused Iran of ceasefire violation and Iran 'in turn accused the US of violating their interim deal.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Guardian reports Iran's IRGC claimed the ceasefire gave Iran 'control over ship traffic in the strait' and the US sought to violate it.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Times of Israel notes the IRGC explicitly cited 'Clause 1 of the Islamabad Memorandum of Understanding' as the basis for Iran's response.",
           "source_id": "src_008"
         },
         {
-          "characterization": "A one-way Iranian drone attack on the Panama-flagged M/T Kiku oil tanker triggered the Saturday US response",
-          "source_id": "src_015"
-        }
-      ],
-      "supported_by": [
-        "src_008",
-        "src_015"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_009",
-      "text": "Iran's IRGC launched joint missile and drone attacks targeting US military sites in Kuwait and Bahrain in retaliation for US strikes.",
-      "classification": "agreed",
-      "claim_group": "military_operations",
-      "rationale": "Iran's retaliatory strikes on US positions in Kuwait and Bahrain are confirmed across center-left (BBC, Guardian, Haaretz) and center-right (Times of Israel, Ynet) outlets citing IRGC statements and corroborated by Kuwaiti and Bahraini authorities.",
-      "framing_variants": [
-        {
-          "characterization": "IRGC announced navy and aerospace forces launched joint missile and drone attacks targeting US military sites in Kuwait and Bahrain",
-          "source_id": "src_008"
-        },
-        {
-          "characterization": "Iran launched drone and missile attacks on Sunday targeting Bahrain and Kuwait",
+          "characterization": "Guardian summarizes: 'Both countries have accused each other of violating their truce.'",
           "source_id": "src_013"
-        },
-        {
-          "characterization": "IRGC launched missile strikes on Kuwait and drone strikes on Bahrain after US attacks",
-          "source_id": "src_011"
         }
       ],
       "supported_by": [
         "src_001",
+        "src_002",
         "src_008",
-        "src_010",
-        "src_011",
-        "src_013",
         "src_015",
+        "src_013",
         "src_016"
       ],
       "contested_by": []
     },
     {
-      "claim_id": "clm_010",
-      "text": "The IRGC claimed it destroyed eight important US military facilities at the Ali al-Salem base in Kuwait and at the Fifth Fleet naval base in Bahrain; a US official told Reuters there were no reported US casualties or major damage to US facilities.",
-      "classification": "single_source",
-      "claim_group": "military_operations",
-      "rationale": "The IRGC claimed destruction of eight US facilities, while a US official told Reuters there were no casualties or major damage — a direct factual dispute between the two parties' accounts of the same event.",
+      "claim_id": "clm_009",
+      "text": "Ebrahim Azizi, head of the Iranian parliament's national security commission, characterized Iran's attack on the cargo ship as 'ceasefire management' rather than a violation, and accused the US of attacking Iran 'in the middle of negotiations.'",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Multiple center-left and center outlets report Azizi's social media statements framing Iran's actions as defensive management rather than aggression.",
       "framing_variants": [
         {
-          "characterization": "IRGC claimed eight facilities destroyed; US official told Reuters there were no reported US casualties or major damage immediately after Iranian attacks",
+          "characterization": "BBC quotes Azizi saying the US attacked Iran 'in the middle of negotiations once again' and that the 'reckless violation of the ceasefire will lead to retreat and regret.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Guardian quotes Azizi directly: 'This is not a violation of the ceasefire; it is ceasefire management,' and that Iran was not seeking escalation.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Euronews reports Azizi said the US strikes showed Trump had 'no commitment to the principles of negotiation or a ceasefire.'",
+          "source_id": "src_015"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_015"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Iran's Islamic Revolutionary Guard Corps stated its navy struck US military positions in the region in retaliation for US strikes, launched joint missile and drone attacks on US military sites in Kuwait and Bahrain, and claimed it destroyed eight important US military facilities.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Center-left (BBC, Guardian, Haaretz), center-right (Times of Israel, Ynet), and center (Euronews) outlets all confirm Iran's IRGC launched retaliatory strikes against US positions in Kuwait and Bahrain.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports IRGC said its navy 'struck US military positions in the region, without providing further details.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Times of Israel reports IRGC claimed 'destroyed eight important US military facilities at the Ali al-Salem base in Kuwait and the Fifth Fleet naval base in Port Salman in Bahrain.'",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Guardian reports Iran 'launched a joint missile and drone operation targeting eight US military sites in Kuwait and Bahrain.'",
+          "source_id": "src_013"
+        },
+        {
+          "characterization": "Guardian (earlier article) notes IRGC statement did not specify locations, attributing it to 'US terrorist army in the region.'",
+          "source_id": "src_016"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_008",
+        "src_011",
+        "src_013",
+        "src_016",
+        "src_010",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "A US official told Reuters there were no reported US casualties or major damage to US facilities in the immediate aftermath of Iranian retaliatory attacks.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only the Times of Israel article cites a US official's assessment of no casualties or major damage from Iran's retaliatory strikes.",
+      "framing_variants": [
+        {
+          "characterization": "Times of Israel attributes the no-casualties assessment to an unnamed US official speaking to Reuters.",
           "source_id": "src_008"
         }
       ],
@@ -493,357 +554,295 @@
       "contested_by": []
     },
     {
-      "claim_id": "clm_011",
-      "text": "Kuwait's military said its air defenses were intercepting hostile missile and drone attacks and detected and intercepted two ballistic missiles with no reports of injuries or damage; Bahrain's interior ministry activated air raid sirens and reported that Iranian strikes damaged a residential building near the international airport with no fatalities.",
-      "classification": "agreed",
-      "claim_group": "military_operations",
-      "rationale": "Kuwaiti and Bahraini official statements about the Iranian attacks and their domestic responses are consistently reported across center-left (Guardian, Haaretz), center (Euronews), and center-right (i24, Times of Israel) outlets.",
-      "framing_variants": [
-        {
-          "characterization": "Kuwait air defenses engaging 'hostile missile and drone attacks'; Bahrain activated air raid sirens, urged residents to find safe places",
-          "source_id": "src_008"
-        },
-        {
-          "characterization": "Kuwait intercepted two ballistic missiles, no injuries or damage; Bahrain said Iranian strikes damaged a residential building near airport, no one killed",
-          "source_id": "src_013"
-        },
-        {
-          "characterization": "No immediate reports of damage from drone attack on Bahrain initially reported",
-          "source_id": "src_016"
-        }
-      ],
-      "supported_by": [
-        "src_008",
-        "src_009",
-        "src_010",
-        "src_013",
-        "src_014",
-        "src_016"
-      ],
-      "contested_by": []
-    },
-    {
       "claim_id": "clm_012",
-      "text": "Bahrain condemned the Iranian drone attacks as a 'flagrant violation' of its sovereignty and accused Tehran of 'sabotaging peace efforts.'",
+      "text": "Bahrain reported that its territory was targeted by several Iranian drones early Saturday, condemned the attack as a flagrant violation of its sovereignty, and said Iranian strikes damaged a residential building near the international airport with no fatalities.",
       "classification": "agreed",
-      "claim_group": "international_response",
-      "rationale": "Bahrain's condemnation is consistently reported across outlets ranging from center-left BBC and Guardian to center-right i24 and Times of Israel.",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Sources across center-left (BBC, Guardian, Haaretz), center (Euronews), and center-right (i24, Ynet) all confirm Bahrain's report of Iranian drone attacks and the country's condemnation.",
       "framing_variants": [
         {
-          "characterization": "Bahrain's foreign ministry condemned the action as a 'flagrant violation' of its sovereignty",
+          "characterization": "BBC quotes Bahrain's foreign ministry calling it a 'flagrant violation' of its sovereignty.",
           "source_id": "src_001"
         },
         {
-          "characterization": "Bahrain accused Tehran of 'sabotaging peace efforts'",
-          "source_id": "src_008"
+          "characterization": "Guardian specifies Iranian strikes damaged a residential building near the airport; 'no one was killed'; includes photos of an 8-story building with top floor destroyed.",
+          "source_id": "src_013"
         },
         {
-          "characterization": "Bahrain described the attack as a 'flagrant threat to the security of citizens and residents'",
+          "characterization": "Guardian (earlier article) reports 'no immediate reports of damage' in its earlier coverage, reflecting the timing difference.",
           "source_id": "src_016"
         }
       ],
       "supported_by": [
         "src_001",
-        "src_008",
-        "src_013",
+        "src_009",
+        "src_010",
         "src_014",
-        "src_016"
+        "src_016",
+        "src_013",
+        "src_011"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_013",
-      "text": "Iran's foreign ministry stated it had struck targets linked to American forces and blamed the 'treaty-breaking US regime' for the situation; the IRGC stated its navy had struck US military positions in the region.",
-      "classification": "corroborated",
+      "text": "Kuwait's military reported its air defenses were responding to hostile Iranian missile and drone attacks; Kuwait said it detected and intercepted two ballistic missiles with no reported injuries or damage.",
+      "classification": "agreed",
+      "dispute_type": null,
       "claim_group": "military_operations",
-      "rationale": "Iran's claims of striking US-linked targets and blaming the US for violating the agreement are consistently reported across center-left and center outlets.",
+      "rationale": "Center-right (Times of Israel) and center-left (Guardian) outlets both confirm Kuwait's military report of intercepted Iranian missiles with no casualties.",
       "framing_variants": [
         {
-          "characterization": "Iran's foreign ministry said the country struck targets linked to American forces and blamed the 'treaty-breaking US regime'",
-          "source_id": "src_001"
+          "characterization": "Times of Israel reports Kuwait's military said air defenses were 'engaging hostile missile and drone attacks.'",
+          "source_id": "src_008"
         },
         {
-          "characterization": "IRGC said its navy struck 'the locations where the terrorist US military is stationed in the region'",
-          "source_id": "src_002"
-        },
-        {
-          "characterization": "IRGC said it targeted several sites of the 'US terrorist army in the region' without specifying where",
-          "source_id": "src_016"
+          "characterization": "Guardian reports Kuwait 'detected and intercepted two ballistic missiles and there were no reports of injuries or damage.'",
+          "source_id": "src_013"
         }
       ],
       "supported_by": [
-        "src_001",
-        "src_002",
-        "src_010",
+        "src_008",
         "src_013",
-        "src_016"
+        "src_011"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_014",
-      "text": "The US and Iran accused each other of violating the ceasefire/MOU: the US characterized Iranian drone attacks on commercial shipping as clear ceasefire violations; Iran accused the US of violating the MOU by conducting military strikes and characterized its own attacks on shipping as 'ceasefire management.'",
+      "text": "A tanker near the Strait of Hormuz was struck by a projectile on Saturday; the UK Maritime Trade Operations reported no casualties or environmental damage from the attack, and no one immediately claimed responsibility.",
       "classification": "corroborated",
-      "claim_group": "ceasefire_status",
-      "rationale": "Both sides made directly contradictory claims about who violated the ceasefire — the US pointing to Iranian attacks on commercial shipping, and Iran pointing to US military strikes — with Iranian official Azizi explicitly reframing Iranian actions as 'ceasefire management, not a violation.'",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Multiple center-left and center outlets report Saturday's tanker attack in the strait, citing UKMTO's damage and casualty assessment.",
       "framing_variants": [
         {
-          "characterization": "US: 'unwarranted aggression against commercial shipping by Iranian forces clearly violated the ceasefire'; Iran: accused US of violating their interim deal",
+          "characterization": "BBC reports UKMTO said a tanker 'was struck by an unidentified projectile in the Strait of Hormuz' with damage to the bridge and no casualties.",
           "source_id": "src_001"
         },
         {
-          "characterization": "Azizi: 'This is not a violation of the ceasefire; it is ceasefire management'",
-          "source_id": "src_002"
+          "characterization": "Guardian (earlier article) notes Iran was 'suspected to be behind it' but 'no one claimed responsibility.'",
+          "source_id": "src_016"
         },
         {
-          "characterization": "Trump called the attack a 'foolish violation' of the ceasefire agreement",
-          "source_id": "src_006"
-        },
-        {
-          "characterization": "IRGC stated violating the ceasefire is contrary to Clause 1 of the Islamabad MOU",
-          "source_id": "src_008"
+          "characterization": "Euronews identifies the vessel as the 'Panama-flagged M/T Kiku oil tanker' citing CENTCOM.",
+          "source_id": "src_015"
         }
       ],
       "supported_by": [
         "src_001",
-        "src_002",
-        "src_006",
-        "src_008",
-        "src_013",
+        "src_016",
         "src_015"
       ],
       "contested_by": []
     },
     {
       "claim_id": "clm_015",
-      "text": "The US and Iran signed a 14-point memorandum of understanding on June 17, 2026 to end hostilities, which called for a ceasefire, Iran to use its 'best efforts for the safe passage of commercial vessels with no charge for 60 days,' and gave both sides 60 days to negotiate a final deal.",
+      "text": "Trump threatened that if the US is 'forced' to resume the war, Iran will 'no longer exist,' and posted on Truth Social that 'there may come a point when we are no longer able to be reasonable, and will be forced to militarily complete the job.'",
       "classification": "agreed",
-      "claim_group": "ceasefire_details",
-      "rationale": "The existence, date, key provisions, and 60-day negotiating window of the MOU are consistently reported across center-left (BBC, Guardian), center (Euronews), and center-right (Times of Israel) outlets.",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Both center-right (Times of Israel) and center-left (Guardian) outlets confirm Trump's existential threat against Iran on social media.",
       "framing_variants": [
         {
-          "characterization": "14-point MOU signed June 17; called for Iran to use 'best efforts for safe passage with no charge for 60 days'",
+          "characterization": "Times of Israel quotes Trump: Iran will 'no longer exist' if the US is 'forced' to resume war, framing it as a threat conditional on continued ceasefire violations.",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Guardian quotes the Truth Social post: 'There may come a point when we are no longer able to be reasonable, and will be forced to militarily complete the job.'",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_008",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Vice President JD Vance stated that Iran signed the ceasefire agreement and the US honored it, urged Iran to 'pick up the phone' to resolve disagreements about the MOU, and warned that 'violence will be met with violence.'",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Center-left (BBC, Guardian) and center-left (Guardian again) outlets all confirm Vance's three-part message: ceasefire honored, call Iran to use diplomacy, and warn of matching violence.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes Vance's full statement including the 'pick up the phone' and 'violence will be met with violence' lines.",
           "source_id": "src_001"
         },
         {
-          "characterization": "The MOU was 'the first of its kind signed by the US and Iran since Iran's 1979 Islamic revolution'; extended a 'fragile ceasefire' and set a 60-day window for lasting peace talks",
+          "characterization": "Guardian presents Vance's statement as a social media post asserting the US honored the ceasefire.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Guardian emphasizes Vance's 'central role in negotiations' as context for his warning.",
+          "source_id": "src_016"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_016",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "JD Vance told HBO's Bill Maher that if a final deal is made with Iran it would be 'great,' but if not, Iran's nuclear program is still destroyed and Iran is 'much weaker as a country.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only the Guardian's June 28 article reports Vance's comments to HBO's Bill Maher framing both deal and no-deal outcomes.",
+      "framing_variants": [
+        {
+          "characterization": "Guardian reports Vance's TV interview statement as reflecting the US position that military gains persist regardless of negotiations.",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "The IRGC warned that any further US attacks would be met with a broader response, and that ceasefire violations would result in a 'complete halt of all diplomatic processes.'",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Center-left (Guardian) and center-right (Times of Israel) both confirm Iran's IRGC warning of escalated retaliation and diplomatic consequences.",
+      "framing_variants": [
+        {
+          "characterization": "Guardian reports the IRGC warned 'any further US attacks would be met with a broader response.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Times of Israel quotes IRGC: 'Any enemy aggression…will have a crushing response' and ceasefire violations 'will result in the complete halt of all diplomatic processes.'",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Guardian reports IRGC IRCG spokesperson Hossein Mohebi said they 'will respond more strongly than before' if the US breaks commitments.",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_008",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The US and Iran agreed on June 17 to end hostilities under a 14-point memorandum of understanding, which was the first such agreement between the two countries since Iran's 1979 Islamic Revolution.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Sources across center-left (BBC, Guardian) and center-right (Times of Israel) and center (Euronews) all confirm the June 17 MOU and its 14-point structure.",
+      "framing_variants": [
+        {
+          "characterization": "BBC states this as established fact, noting the 14-point MOU and its provision for toll-free safe passage for 60 days.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Guardian characterizes the MOU as 'the first of its kind signed by the US and Iran since the latter's 1979 Islamic revolution.'",
           "source_id": "src_016"
         },
         {
-          "characterization": "Under the agreement, US must remove its naval blockade of Iran, Tehran must reopen the Strait and reaffirm it shall not develop nuclear weapons",
+          "characterization": "Euronews notes the MOU required the US to remove its naval blockade and Iran to reopen the strait and reaffirm it would not develop nuclear weapons.",
           "source_id": "src_015"
         }
       ],
       "supported_by": [
         "src_001",
+        "src_012",
+        "src_016",
+        "src_015",
+        "src_008",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "The MOU required Iran to use its best efforts for the safe passage of commercial vessels with no charge for 60 days, and gave both countries 60 days to achieve a final deal.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Multiple outlets across center-left and center-right tiers confirm the 60-day provision for both toll-free passage and reaching a permanent deal.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes the MOU calling for 'best efforts for the safe passage of commercial vessels with no charge for 60 days.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Guardian notes negotiations include 'getting ships through the key strait and addressing the future of Iran's stockpile of highly enriched uranium' within the 60-day window.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Euronews states the agreement 'gave the two countries 60 days to achieve a final deal.'",
+          "source_id": "src_015"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_012",
         "src_006",
         "src_008",
-        "src_012",
-        "src_013",
         "src_015",
         "src_016"
       ],
       "contested_by": []
     },
     {
-      "claim_id": "clm_016",
-      "text": "The MOU also required the US to remove its naval blockade of Iran and Iran to reopen the Strait of Hormuz and reaffirm it would not procure or develop nuclear weapons.",
-      "classification": "single_source",
+      "claim_id": "clm_021",
+      "text": "The tit-for-tat strikes between the US and Iran marked the first incidents of violence between the two countries since the MOU was signed.",
+      "classification": "corroborated",
+      "dispute_type": null,
       "claim_group": "ceasefire_details",
-      "rationale": "Only Euronews explicitly detailed these specific obligations — the US blockade removal and Iran's nuclear weapons renunciation — as terms of the MOU; other outlets mention related but different provisions.",
+      "rationale": "Two Guardian articles (center-left) both characterize the exchange as the ceasefire's 'greatest test yet' and the first violence since the MOU, but no cross-spectrum confirmation is present.",
       "framing_variants": [
         {
-          "characterization": "US required to remove naval blockade; Tehran must reopen Strait and reaffirm it 'shall not procure or develop nuclear weapons'",
-          "source_id": "src_015"
-        }
-      ],
-      "supported_by": [
-        "src_015"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_017",
-      "text": "The Revolutionary Guards claimed the ceasefire agreement gave Iran control over ship traffic in the strait.",
-      "classification": "single_source",
-      "claim_group": "ceasefire_details",
-      "rationale": "Only the Guardian reported this specific IRGC claim about the agreement granting Iran control over ship traffic; other outlets reported Iran's general assertion of authority without linking it explicitly to the MOU's text.",
-      "framing_variants": [
+          "characterization": "Guardian states: 'The tit-for-tat strikes marked the first incident of violence between the US and Iran since a memorandum of understanding was signed between the two countries last week.'",
+          "source_id": "src_016"
+        },
         {
-          "characterization": "The ceasefire agreement gave Iran control over ship traffic in the strait, the Guards said",
+          "characterization": "Guardian describes the events as putting the ceasefire through 'its greatest test yet.'",
           "source_id": "src_002"
         }
       ],
       "supported_by": [
+        "src_016",
         "src_002"
       ],
       "contested_by": []
     },
     {
-      "claim_id": "clm_018",
-      "text": "The UN's International Maritime Organization paused its planned evacuation of more than 11,000 sailors stranded in the Strait of Hormuz since the war began, following the drone attack on the Ever Lovely; the IMO said it would not resume until guarantees of ship safety were obtained.",
-      "classification": "corroborated",
-      "claim_group": "humanitarian_situation",
-      "rationale": "The IMO evacuation pause and its conditions are consistently reported across multiple center-left outlets including BBC and the Guardian.",
-      "framing_variants": [
-        {
-          "characterization": "IMO paused planned evacuation of more than 11,000 sailors stranded since the war erupted",
-          "source_id": "src_001"
-        },
-        {
-          "characterization": "Attack caused IMO to pause efforts to evacuate hundreds of ships stranded in the Persian Gulf",
-          "source_id": "src_002"
-        },
-        {
-          "characterization": "IMO chief Dominguez said he was working with the US, Iran and Oman to obtain guarantees, and would re-initiate evacuation once confirmed; 115 vessels and 2,500 seafarers had crossed before the pause",
-          "source_id": "src_012"
-        }
-      ],
-      "supported_by": [
-        "src_001",
-        "src_002",
-        "src_012",
-        "src_016"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_019",
-      "text": "A tanker was struck by an unidentified projectile in the Strait of Hormuz on Saturday, June 28; no casualties or significant damage were initially reported and no party immediately claimed responsibility.",
-      "classification": "corroborated",
-      "claim_group": "maritime_incidents",
-      "rationale": "Both BBC and the Guardian reported the Saturday tanker strike with no casualties claimed and Iran suspected but not confirmed as responsible.",
-      "framing_variants": [
-        {
-          "characterization": "UKMTO said the tanker sustained bridge damage; all crew safe; no environmental damage",
-          "source_id": "src_001"
-        },
-        {
-          "characterization": "No damage or casualties reported; no one claimed responsibility; Iran suspected",
-          "source_id": "src_016"
-        }
-      ],
-      "supported_by": [
-        "src_001",
-        "src_016"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_020",
-      "text": "Trump threatened on Saturday that if the US is 'forced' to resume the war, the Islamic Republic of Iran will 'no longer exist.'",
-      "classification": "agreed",
-      "claim_group": "international_response",
-      "rationale": "Trump's existential threat against Iran is reported consistently by both the Times of Israel (center-right) and the Guardian (center-left).",
-      "framing_variants": [
-        {
-          "characterization": "Trump said if forced to resume the war, 'the Islamic Republic of Iran will no longer exist'",
-          "source_id": "src_008"
-        },
-        {
-          "characterization": "Trump said he may be forced to 'militarily complete the job,' after which 'the Islamic Republic of Iran will no longer exist'",
-          "source_id": "src_013"
-        }
-      ],
-      "supported_by": [
-        "src_008",
-        "src_013"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_021",
-      "text": "Trump called the Iranian drone attack on the Ever Lovely a 'foolish violation' of the ceasefire agreement and accused Iran of firing four drones at ships.",
-      "classification": "corroborated",
-      "claim_group": "international_response",
-      "rationale": "Trump's characterisation of the incident as a 'foolish violation' and his four-drone claim are consistently reported across center-left (BBC, Guardian) outlets citing Trump's Truth Social post.",
-      "framing_variants": [
-        {
-          "characterization": "'Foolish violation' of the ceasefire agreement; one drone hit the upper deck while the US shot down three others",
-          "source_id": "src_006"
-        },
-        {
-          "characterization": "Trump accused Iran of shooting at least four drones at traversing ships, with one hitting",
-          "source_id": "src_012"
-        }
-      ],
-      "supported_by": [
-        "src_002",
-        "src_006",
-        "src_012",
-        "src_013"
-      ],
-      "contested_by": []
-    },
-    {
       "claim_id": "clm_022",
-      "text": "Vice President JD Vance warned that 'violence will be met with violence' and said Iran should 'pick up the phone' if it has disagreements about how the MOU is being applied.",
-      "classification": "corroborated",
-      "claim_group": "international_response",
-      "rationale": "Vance's dual message of diplomatic openness and military resolve is reported consistently by BBC and the Guardian.",
+      "text": "Tehran repeatedly stated it plans to charge maritime service fees (which it distinguishes from tolls) for vessels crossing the Strait of Hormuz; the US condemned this as a violation of the MOU and of international maritime law.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "ceasefire_details",
+      "rationale": "Iran and the US hold directly contradictory positions on whether maritime fees are permissible under the MOU; this actor dispute is reported across multiple outlets.",
       "framing_variants": [
         {
-          "characterization": "Vance said Iran can 'pick up the phone' for disagreements; 'But violence will be met with violence'",
+          "characterization": "BBC reports the US 'condemned reports that Iran is charging fees' and quotes Trump's Truth Social post threatening to end negotiations if the no-tolls information was false.",
           "source_id": "src_001"
         },
         {
-          "characterization": "Vance said on Friday night Iran should 'pick up the phone' and warned 'violence will be met with violence'",
-          "source_id": "src_016"
+          "characterization": "BBC notes Tehran 'has repeatedly said it plans to charge what it calls maritime service fees...as opposed to tolls' and that the US is 'fiercely opposed.'",
+          "source_id": "src_012"
         }
       ],
       "supported_by": [
         "src_001",
-        "src_016"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_023",
-      "text": "The IRGC warned that any further US attacks would be met with a 'broader' or 'crushing' response and threatened a complete halt to all diplomatic processes if US strikes continued.",
-      "classification": "agreed",
-      "claim_group": "international_response",
-      "rationale": "Iran's warnings about escalating its response and halting diplomacy are consistently reported across center-left (Guardian) and center-right (Times of Israel) outlets.",
-      "framing_variants": [
-        {
-          "characterization": "Revolutionary Guards warned any further US attacks would be met with a broader response",
-          "source_id": "src_002"
-        },
-        {
-          "characterization": "IRGC warned any further US action would meet a 'crushing response'; ceasefire violations would result in 'complete halt of all diplomatic processes'",
-          "source_id": "src_008"
-        },
-        {
-          "characterization": "Iran threatened a 'complete halt' in negotiations if Washington continues its attacks; IRGC will respond with more force",
-          "source_id": "src_013"
-        }
-      ],
-      "supported_by": [
-        "src_002",
-        "src_008",
+        "src_012",
+        "src_006",
+        "src_016",
         "src_013"
-      ],
-      "contested_by": []
-    },
-    {
-      "claim_id": "clm_024",
-      "text": "Iranian senior official Ebrahim Azizi (head of parliament's national security commission) stated the US had 'attacked Iran in the middle of negotiations' and showed Trump had 'no commitment to the principles of negotiation or a ceasefire'; he also said Iran was not seeking to escalate.",
-      "classification": "agreed",
-      "claim_group": "international_response",
-      "rationale": "Azizi's statements characterising the US as the aggressor while denying Iranian escalation are consistently reported across center-left (BBC, Guardian) and center (Euronews) outlets.",
-      "framing_variants": [
-        {
-          "characterization": "Azizi said on social media that US 'attacked Iran in the middle of negotiations once again'",
-          "source_id": "src_001"
-        },
-        {
-          "characterization": "Azizi said Iran was not seeking to escalate and characterised the attack as 'ceasefire management' rather than a violation",
-          "source_id": "src_002"
-        }
-      ],
-      "supported_by": [
-        "src_001",
-        "src_002",
-        "src_015"
       ],
       "contested_by": []
     }
@@ -851,24 +850,23 @@
   "background": [],
   "report": {
     "schema_version": "0.2",
-    "generated_at": "2026-06-30T08:49:24.648883+00:00",
+    "generated_at": "2026-07-06T09:02:16.504103+00:00",
     "paragraphs": [
       {
         "paragraph_id": "p1",
-        "text": "A cycle of retaliatory military strikes between the United States and Iran erupted in late June 2026, shattering a fragile ceasefire signed just nine days earlier. The escalation began on Thursday, June 26, when Iran conducted a drone attack on the Singapore-flagged cargo ship M/V Ever Lovely in the Strait of Hormuz. One drone struck the vessel's bridge and upper deck 7.5 nautical miles southeast of Oman's port of Dahit, while US forces shot down three other drones aimed at the ship. The Ever Lovely's owner, Evergreen, stated the ship had been following the UK Maritime Trade Operations' recommended route through the strait when it was struck, and that all crew, the vessel, and cargo remained safe.",
+        "text": "On Thursday, June 26, an Iranian drone struck the M/V Ever Lovely, a Singapore-flagged cargo ship owned by Evergreen, in the Strait of Hormuz approximately 7.5 nautical miles southeast of Oman's port of Dahit. The vessel sustained damage to its bridge and upper deck but no crew casualties were reported, and the ship was able to continue its voyage.",
         "supports": {
           "claim_ids": [
             "clm_001",
-            "clm_002",
             "clm_003"
           ],
           "source_ids": [
             "src_001",
             "src_002",
-            "src_003",
-            "src_005",
-            "src_006",
             "src_012",
+            "src_006",
+            "src_005",
+            "src_003",
             "src_015",
             "src_016"
           ]
@@ -877,13 +875,11 @@
       },
       {
         "paragraph_id": "p2",
-        "text": "The US military responded with strikes on Iranian missile and drone storage facilities and coastal radar positions on Friday, June 27. US Central Command stated the Iranian drone attack on the Ever Lovely constituted a 'clear violation' of the ceasefire, describing its strikes as 'a powerful response to unwarranted aggression against commercial shipping.' A second round of US strikes followed on Saturday, June 28, targeting surveillance infrastructure, communication systems, air defense sites, drone storage facilities, and minelayer capabilities at 10 locations in and near the Strait of Hormuz. These Saturday strikes came in response to an Iranian drone attack on the Panama-flagged oil tanker M/T Kiku, which was carrying approximately two million barrels of crude near the strait.",
+        "text": "On Friday, June 27, US Central Command struck Iranian missile and drone storage facilities and coastal radar positions in and near the Strait of Hormuz in response to the Ever Lovely attack. CENTCOM described the strikes as a \"powerful response\" and stated that Iran's drone attacks on commercial shipping clearly violated the ceasefire and undermined freedom of navigation.",
         "supports": {
           "claim_ids": [
             "clm_005",
-            "clm_006",
-            "clm_007",
-            "clm_008"
+            "clm_007"
           ],
           "source_ids": [
             "src_001",
@@ -891,172 +887,203 @@
             "src_003",
             "src_004",
             "src_005",
-            "src_006",
-            "src_008",
-            "src_009",
             "src_012",
-            "src_013",
             "src_015",
-            "src_016"
+            "src_016",
+            "src_008",
+            "src_013"
           ]
         },
         "kind": "agreed"
       },
       {
         "paragraph_id": "p3",
-        "text": "Iran's Islamic Revolutionary Guard Corps launched joint missile and drone attacks targeting US military sites in Kuwait and Bahrain in retaliation for the US strikes. Kuwait's military said its air defenses intercepted hostile missile and drone attacks, detecting and intercepting two ballistic missiles with no reports of injuries or damage. Bahrain's interior ministry activated air raid sirens and reported that Iranian strikes damaged a residential building near the international airport with no fatalities. Bahrain condemned the Iranian drone attacks as a 'flagrant violation' of its sovereignty and accused Tehran of 'sabotaging peace efforts.'",
+        "text": "On Saturday, June 28, the US military launched additional strikes on Iranian military targets including surveillance infrastructure, communication systems, air defense sites, drone storage facilities, and minelayer capabilities. These strikes followed an Iranian drone attack on the Panama-flagged oil tanker M/T Kiku near the Strait of Hormuz. A separate tanker in the strait was also struck by a projectile on Saturday; the UK Maritime Trade Operations reported no casualties or environmental damage, and no one immediately claimed responsibility.",
         "supports": {
           "claim_ids": [
-            "clm_009",
-            "clm_011",
-            "clm_012"
+            "clm_006",
+            "clm_014"
           ],
           "source_ids": [
-            "src_001",
             "src_008",
-            "src_009",
-            "src_010",
-            "src_011",
-            "src_013",
-            "src_014",
             "src_015",
-            "src_016"
+            "src_013",
+            "src_016",
+            "src_001"
           ]
         },
         "kind": "agreed"
       },
       {
         "paragraph_id": "p4",
-        "text": "The escalation occurred weeks after the US and Iran signed a 14-point memorandum of understanding on June 17, 2026 to end hostilities. The MOU called for a ceasefire, required Iran to use its 'best efforts for the safe passage of commercial vessels with no charge for 60 days,' and gave both sides 60 days to negotiate a final deal. President Trump threatened on Saturday that if the US is 'forced' to resume the war, the Islamic Republic of Iran will 'no longer exist.' The IRGC warned that any further US attacks would be met with a 'broader' or 'crushing' response and threatened a complete halt to all diplomatic processes if US strikes continued.",
+        "text": "Iran's Islamic Revolutionary Guard Corps stated its navy struck US military positions in the region in retaliation for US strikes, launched joint missile and drone attacks on US military sites in Kuwait and Bahrain, and claimed it destroyed eight important US military facilities. Kuwait's military reported its air defenses were responding to hostile Iranian missile and drone attacks; Kuwait said it detected and intercepted two ballistic missiles with no reported injuries or damage. Bahrain reported that its territory was targeted by several Iranian drones early Saturday, condemned the attack as a flagrant violation of its sovereignty, and said Iranian strikes damaged a residential building near the international airport with no fatalities.",
         "supports": {
           "claim_ids": [
-            "clm_015",
-            "clm_020",
-            "clm_023"
+            "clm_010",
+            "clm_013",
+            "clm_012"
           ],
           "source_ids": [
             "src_001",
             "src_002",
-            "src_006",
             "src_008",
-            "src_012",
+            "src_011",
             "src_013",
-            "src_015",
-            "src_016"
+            "src_016",
+            "src_010",
+            "src_004",
+            "src_009",
+            "src_014"
           ]
         },
         "kind": "agreed"
       },
       {
         "paragraph_id": "p5",
-        "text": "The conflict suspended humanitarian evacuation operations in the region. The UN's International Maritime Organization paused its planned evacuation of more than 11,000 sailors stranded in the Strait of Hormuz since the war began, following the drone attack on the Ever Lovely. The IMO said it would not resume until guarantees of ship safety were obtained. A tanker was struck by an unidentified projectile in the Strait of Hormuz on Saturday, June 28; no casualties or significant damage were initially reported and no party immediately claimed responsibility.",
+        "text": "The US and Iran agreed on June 17 to end hostilities under a 14-point memorandum of understanding, which was the first such agreement between the two countries since Iran's 1979 Islamic Revolution. The MOU required Iran to use its best efforts for the safe passage of commercial vessels with no charge for 60 days, and gave both countries 60 days to achieve a final deal.",
         "supports": {
           "claim_ids": [
-            "clm_018",
-            "clm_019"
+            "clm_019",
+            "clm_020"
           ],
           "source_ids": [
             "src_001",
-            "src_002",
             "src_012",
-            "src_016"
+            "src_016",
+            "src_015",
+            "src_008",
+            "src_006"
           ]
         },
-        "kind": "agreed"
+        "kind": "background"
       },
       {
         "paragraph_id": "p6",
-        "text": "Both sides accused the other of violating the ceasefire agreement, but characterized the same sequence of events in opposing terms. The US characterized Iranian drone attacks on commercial shipping as clear ceasefire violations. Iran accused the US of violating the MOU by conducting military strikes and characterized its own attacks on shipping as 'ceasefire management, not a violation.' Iranian senior official Ebrahim Azizi, head of parliament's national security commission, stated the US had 'attacked Iran in the middle of negotiations' and showed Trump had 'no commitment to the principles of negotiation or a ceasefire.' He also said Iran was not seeking to escalate.",
-        "supports": {
-          "claim_ids": [
-            "clm_014",
-            "clm_024"
-          ],
-          "source_ids": [
-            "src_001",
-            "src_002",
-            "src_006",
-            "src_008",
-            "src_013",
-            "src_015"
-          ]
-        },
-        "kind": "framing"
-      },
-      {
-        "paragraph_id": "p7",
-        "text": "Center-left outlets reported Iran's characterization of the Ever Lovely attack as a response to the ship using an unauthorized route. Iran's Persian Gulf Strait Authority stated that any passage through routes outside the framework designated by PGSA would not be covered by safe passage guarantees, and that the Ever Lovely was attacked because it was using an unauthorized route. This account conflicts with statements from the ship's owner Evergreen and the UK Maritime Trade Operations, both of which stated the ship was following the UKMTO-recommended route through the strait when it was struck.",
+        "text": "President Trump stated that Iran fired four drones at vessels in the strait, that the US shot down three, and one hit the upper deck of the Ever Lovely. This account appeared on Trump's Truth Social platform and was reported by center-left outlets.",
         "supports": {
           "claim_ids": [
             "clm_004"
           ],
           "source_ids": [
             "src_001",
-            "src_002",
-            "src_012"
+            "src_006",
+            "src_012",
+            "src_002"
           ]
         },
         "kind": "one_sided"
       },
       {
-        "paragraph_id": "p8",
-        "text": "President Trump called the Iranian drone attack on the Ever Lovely a 'foolish violation' of the ceasefire agreement and accused Iran of firing four drones at ships. Vice President JD Vance warned that 'violence will be met with violence' and said Iran should 'pick up the phone' if it has disagreements about how the MOU is being applied. Center-left outlets including BBC and The Guardian reported Iran's foreign ministry statement that it had struck targets linked to American forces and blamed the 'treaty-breaking US regime' for the situation; the IRGC stated its navy had struck US military positions in the region.",
+        "paragraph_id": "p7",
+        "text": "Ebrahim Azizi, head of the Iranian parliament's national security commission, characterized Iran's attack on the cargo ship as \"ceasefire management\" rather than a violation, and accused the US of attacking Iran \"in the middle of negotiations.\" This Iranian perspective was reported by center-left and center outlets.",
         "supports": {
           "claim_ids": [
-            "clm_021",
-            "clm_022",
-            "clm_013"
+            "clm_009"
           ],
           "source_ids": [
             "src_001",
             "src_002",
-            "src_006",
-            "src_010",
-            "src_012",
-            "src_013",
-            "src_016"
-          ]
-        },
-        "kind": "framing"
-      },
-      {
-        "paragraph_id": "p9",
-        "text": "A center-right Israeli outlet reported conflicting accounts of the damage from Iran's retaliatory strikes on US facilities. The IRGC claimed it destroyed eight important US military facilities at the Ali al-Salem base in Kuwait and at the Fifth Fleet naval base in Bahrain. A US official told Reuters there were no reported US casualties or major damage to US facilities.",
-        "supports": {
-          "claim_ids": [
-            "clm_010"
-          ],
-          "source_ids": [
-            "src_008"
-          ]
-        },
-        "kind": "one_sided"
-      },
-      {
-        "paragraph_id": "p10",
-        "text": "A center outlet reported additional terms of the memorandum of understanding not detailed elsewhere. According to this account, the MOU also required the US to remove its naval blockade of Iran and Iran to reopen the Strait of Hormuz and reaffirm it would not procure or develop nuclear weapons.",
-        "supports": {
-          "claim_ids": [
-            "clm_016"
-          ],
-          "source_ids": [
             "src_015"
           ]
         },
         "kind": "one_sided"
       },
       {
-        "paragraph_id": "p11",
-        "text": "A center-left outlet reported that the Revolutionary Guards claimed the ceasefire agreement gave Iran control over ship traffic in the strait. This characterization of the MOU's terms was not corroborated by other sources.",
+        "paragraph_id": "p8",
+        "text": "The tit-for-tat strikes between the US and Iran marked the first incidents of violence between the two countries since the MOU was signed, according to center-left outlets characterizing these events as the ceasefire's greatest test yet.",
         "supports": {
           "claim_ids": [
-            "clm_017"
+            "clm_021"
           ],
           "source_ids": [
+            "src_016",
             "src_002"
           ]
         },
         "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Ever Lovely's location when struck is a matter of dispute between the actors involved. The ship's owner Evergreen and the UK Maritime Trade Operations asserted the vessel was following the UKMTO's recommended route through the strait when it was struck. Iran's Persian Gulf Strait Authority had separately warned that any passage through routes outside its designated framework would not be covered by safe passage guarantees. This creates a direct disagreement over which route was legitimate under the ceasefire terms.",
+        "supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_012",
+            "src_002"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The US and Iran each characterized the other's actions as ceasefire violations. The US asserted Iran violated the MOU by attacking commercial shipping in the Strait of Hormuz. Iran asserted the US violated the MOU by striking Iranian targets, with the IRGC citing Clause 1 of the Islamabad Memorandum of Understanding. Both positions were reported across outlets spanning center-left to center-right.",
+        "supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_008",
+            "src_015",
+            "src_013",
+            "src_016"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Tehran and Washington also hold contradictory positions on maritime fees. Tehran repeatedly stated it plans to charge maritime service fees (which it distinguishes from tolls) for vessels crossing the Strait of Hormuz. The US condemned this as a violation of the MOU and of international maritime law. This actor dispute over whether such fees are permissible under the ceasefire agreement was reported across multiple outlets.",
+        "supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_012",
+            "src_006",
+            "src_016",
+            "src_013"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "President Trump threatened that if the US is \"forced\" to resume the war, Iran will \"no longer exist.\" He posted on Truth Social that \"there may come a point when we are no longer able to be reasonable, and will be forced to militarily complete the job.\" Vice President JD Vance stated that Iran signed the ceasefire agreement and the US honored it, urged Iran to \"pick up the phone\" to resolve disagreements about the MOU, and warned that \"violence will be met with violence.\"",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_008",
+            "src_013",
+            "src_001",
+            "src_002",
+            "src_016"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The IRGC warned that any further US attacks would be met with a broader response, and that ceasefire violations would result in a \"complete halt of all diplomatic processes.\"",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_008",
+            "src_013"
+          ]
+        },
+        "kind": "agreed"
       }
     ]
   }

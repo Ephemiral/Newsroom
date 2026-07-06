@@ -32,6 +32,11 @@ export interface Claim {
   claim_id: string;
   text: string;
   classification: Classification;
+  /** "actor" when the contradiction is between the actors named in the claim
+   *  (e.g. two governments giving conflicting accounts) rather than between
+   *  outlets. For these, contested_by is usually empty by design — every
+   *  outlet in supported_by corroborates that the dispute exists. (v0.4) */
+  dispute_type?: 'actor' | null;
   /** Thematic group in snake_case, e.g. "territorial_control". Null/absent if ungrouped. */
   claim_group?: string | null;
   supported_by: string[];

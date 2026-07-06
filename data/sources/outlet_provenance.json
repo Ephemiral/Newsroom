@@ -108,5 +108,70 @@
     "ownership": "Non-profit, listener/viewer-supported. No corporate or government ownership.",
     "notes": "Founded 1996 by Amy Goodman; independent progressive daily news program.",
     "last_reviewed": "2026-06-02"
+  },
+  "Politico Europe": {
+    "ownership": "Owned by Axel Springer SE (German media conglomerate, majority-owned by KKR since 2019).",
+    "notes": "Brussels-based EU-politics outlet; European edition of Politico, acquired by Axel Springer in 2021.",
+    "last_reviewed": "2026-07-06"
+  },
+  "The Telegraph": {
+    "ownership": "Owned by Telegraph Media Group; control passed to RedBird Capital Partners (US investment firm) in 2025 after the RedBird IMI ownership dispute.",
+    "notes": "UK broadsheet, historically aligned with the Conservative Party.",
+    "last_reviewed": "2026-07-06"
+  },
+  "Fox News": {
+    "ownership": "Owned by Fox Corporation, controlled by the Murdoch family trust.",
+    "notes": "Highest-rated US cable news network; opinion programming leans strongly right of its news desk.",
+    "last_reviewed": "2026-07-06"
+  },
+  "The New York Times": {
+    "ownership": "Owned by The New York Times Company, publicly traded; the Ochs-Sulzberger family holds controlling Class B shares.",
+    "notes": "Largest US newspaper by digital subscribers.",
+    "last_reviewed": "2026-07-06"
+  },
+  "AP News": {
+    "ownership": "The Associated Press is a non-profit cooperative owned by its member newspapers and broadcasters.",
+    "notes": "Wire service; content syndicated across thousands of outlets.",
+    "last_reviewed": "2026-07-06"
+  },
+  "New York Post": {
+    "ownership": "Owned by News Corp, controlled by the Murdoch family trust.",
+    "notes": "Oldest continuously published US daily; tabloid format.",
+    "last_reviewed": "2026-07-06"
+  },
+  "The Washington Times": {
+    "ownership": "Owned by Operations Holdings, affiliated with the Unification Church (founded by Sun Myung Moon).",
+    "notes": "Washington DC daily, conservative editorial line since its 1982 founding.",
+    "last_reviewed": "2026-07-06"
+  },
+  "MercoPress": {
+    "ownership": "Independent news agency based in Montevideo, Uruguay; privately held.",
+    "notes": "Covers South Atlantic / Mercosur region in English and Spanish.",
+    "last_reviewed": "2026-07-06"
+  },
+  "South China Morning Post": {
+    "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+    "notes": "Hong Kong English-language daily; editorial independence debated since the Alibaba acquisition — ownership is the relevant disclosure.",
+    "last_reviewed": "2026-07-06"
+  },
+  "The Japan Times": {
+    "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+    "notes": "Japan's oldest English-language newspaper.",
+    "last_reviewed": "2026-07-06"
+  },
+  "Nikkei Asia": {
+    "ownership": "Owned by Nikkei Inc., an employee-owned Japanese media company (also owner of the Financial Times).",
+    "notes": "English-language pan-Asian business and news coverage.",
+    "last_reviewed": "2026-07-06"
+  },
+  "The Straits Times": {
+    "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+    "notes": "Singapore's paper of record; operates under Singapore's press regulatory regime — state-adjacent by structure.",
+    "last_reviewed": "2026-07-06"
+  },
+  "The Times of India": {
+    "ownership": "Owned by Bennett, Coleman & Co. (The Times Group), controlled by the Jain family.",
+    "notes": "World's largest-circulation English-language daily.",
+    "last_reviewed": "2026-07-06"
   }
 }

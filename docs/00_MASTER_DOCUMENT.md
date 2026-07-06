@@ -530,7 +530,16 @@ Add an explicit instruction to the `RECONCILE_SYSTEM` prompt:
 2. Explicit actor-dispute carve-out in both B-02 and B-16 prompt text, telling the model a source may legitimately appear in both lists for an actor dispute; matching code change to skip the B-02 strip for these claims specifically.
 3. Schema-level: introduce a `dispute_type` distinction (coverage-divergence vs. actor-dispute) with different evidence-rendering semantics — actor disputes would show as "Position A (reported by: ...) vs. Position B (reported by: ...)" rather than the existing bias-colored supporting/contesting chip split. Most correct long-term, biggest lift (new schema fields + new UI card layout for this claim subtype).
 
-Leaning toward option 1 as the immediate fix, with 2/3 as later refinements if 1 proves too blunt in practice. **Not yet implemented — decision pending.**
+Leaning toward option 1 as the immediate fix, with 2/3 as later refinements if 1 proves too blunt in practice. ~~**Not yet implemented — decision pending.**~~
+
+**RESOLVED (2026-07-06)** — implemented a lean version of option 3 (schema v0.4), rejecting option 1 because an arbitrary strip would *misattribute* contesting positions to outlets that merely reported both sides — the worst possible failure for a trust product. The chosen model:
+
+- New optional claim field **`dispute_type: "actor"`**. For actor disputes, `supported_by` = every outlet that reported the dispute (they corroborate that it exists), `contested_by` stays empty by design, and `framing_variants` records which account(s) each outlet carried. The dispute's substance lives in the claim text (parallel language per B-06).
+- **B-09 carve-out** (`reconcile.py`): `contested` + empty `contested_by` survives iff `dispute_type == "actor"` and ≥2 outlets support; one-outlet actor disputes demote to `single_source`.
+- **B-11/B-08/B-10 alignment** (`generate.py`): a claim now counts as contested evidence if `contested_by` is populated OR it is a validated actor dispute (`_claim_is_contested_evidence()`).
+- **UI**: actor-dispute claims show a "conflicting accounts" tag instead of the supporting-↔-contesting chip split; the existing framing-variants panel carries the positions. No new card type.
+
+**Validated** on the three B-16 test events: evt_066 Kuwait airport 0→3 contested, evt_040 Hormuz 0→3, evt_062 ceasefire 1→4 — all within the expected ranges, all surviving B-09 and appearing as contested paragraphs in regenerated reports.
 
 ---
 
@@ -603,7 +612,15 @@ The pipeline now runs unattended. One cycle = ingest → cluster → **qualify**
 | Novelty | ≤40% URL overlap with any published event | No duplicate events on the homepage (B-13) |
 | One attempt | article-set fingerprint recorded in `data/logs/autorun/state.json` | A failed/rejected set is not retried every 4h |
 
-Additional safety properties: report validation errors abort that event and delete its artifacts (nothing broken is published); a lock file prevents overlapping cycles; per-run JSON logs land in `data/logs/autorun/`; max 2 events published per cycle (cost control, tunable via `--max-events`). Auto-published events get IDs of the form `evt_YYYY_MM_DD_auto_NNN`. Unlike the manual `--discover` flow, auto mode writes **only the selected clusters'** JSON files to `data/events/` — no more thousands of raw cluster files.
+Additional safety properties: report validation errors abort that event and delete its artifacts (nothing broken is published); a lock file prevents overlapping cycles; per-run JSON logs land in `data/logs/autorun/`; max 2 events published per beat per cycle (cost control, tunable via `--max-events`). Auto-published events get IDs of the form `evt_YYYY_MM_DD_auto_NNN`. Unlike the manual `--discover` flow, auto mode writes **only the selected clusters'** JSON files to `data/events/` — no more thousands of raw cluster files.
+
+**Multi-beat (added same day):** `--beats israel_middle_east,europe,americas,asia` processes theatres in sequence; the novelty gate checks URL overlap across **all** beats so one story cannot publish in two theatres. New beat configs `europe.json` / `americas.json` / `asia.json` (feeds live-verified 2026-07-06; `world_news.json` remains an unscheduled stub). The homepage has theatre tabs (`/?beat=<name>`).
+
+**Two schedulers exist — run exactly ONE:**
+1. **launchd** (local, currently active): every 4h while the Mac is awake.
+2. **GitHub Actions** (`.github/workflows/autorun.yml`, cron every 6h + manual trigger): activates once the `ANTHROPIC_API_KEY` repo secret is added (Settings → Secrets → Actions). Then disable launchd: `launchctl bootout gui/$(id -u)/com.critiqal.newsroom.autorun`. The attempt ledger moved to git-tracked `data/autorun/state.json` so the stateless CI runner shares it. Private-repo caveat: ~15–25 min/cycle against 2,000 free minutes/month — make the repo public, lengthen the cron, or stay on launchd if that's too tight.
+
+**Failure alerting:** locally, a macOS notification fires when a cycle crashes/fails; in CI, the workflow uploads the run log as an artifact and auto-opens a GitHub issue labelled `autorun-failure` (GitHub also emails on failed scheduled runs).
 
 **Human review note:** this supersedes the "human review before publish" MVP mitigation in §7 by owner decision (July 2026). The gates + report validation are the review. Spot-check the homepage regularly, especially early on.
 
@@ -611,8 +628,9 @@ Additional safety properties: report validation errors abort that event and dele
 
 Every event gets an optional openly-licensed file photo, embedded at `event.image` in the per-event JSON (schema bumped 0.2 → 0.3; additive, so v0.2 files still render).
 
-- **Source: Wikimedia Commons only.** Accepted licenses: CC0, CC BY, CC BY-SA, public domain. NC/ND variants rejected. This eliminates the copyright exposure of using publisher photography (§7). Hotlinking from `upload.wikimedia.org` is explicitly permitted by Wikimedia.
-- **Selection:** Haiku turns the event title/summary into 2–4 concrete visual search queries (people, places, institutions); Commons is searched; Haiku picks the most relevant, editorially neutral candidate or rejects all (maps/flags/logos/gore rejected). No image is always acceptable; a wrong image is not.
+- **Sources: Wikimedia Commons + Openverse** (v2, 2026-07-06 — Openverse widens the pool for generic editorial subjects like "cargo ship at sea"). Accepted licenses: CC0, CC BY, CC BY-SA, public domain. NC/ND variants rejected. This eliminates the copyright exposure of using publisher photography (§7).
+- **Selection (v2):** Haiku first identifies the event's *distinctive visual angle* (military escalation vs. shipping dispute vs. diplomatic talks…), then proposes 3–5 concrete queries; a disqualify-then-pick prompt chooses or rejects all (maps/flags/logos/gore rejected; **any identifiable person not central to the event disqualifies the photo**). No image is always acceptable; a wrong image is not.
+- **No image reuse across events:** file_titles already used by other events in the beat are excluded from candidates, so adjacent stories (e.g. two Strait of Hormuz events) get visually distinct images.
 - **Attribution is stored and must be rendered** (`caption`, `credit`, `license`, `license_url`, `source_page`) — the event page shows a full credit line. For CC BY / CC BY-SA this is a license requirement, not a courtesy.
 - **Honesty note:** these are *file photos* (a portrait of the PM, a photo of the strait), not photos of the specific event. Captions are generated to say so.
 - CLI: `python3 -m pipeline.images.run --event-id evt_X [--force]` or `--all-missing`.

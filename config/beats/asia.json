@@ -1,0 +1,90 @@
+{
+  "beat": "asia",
+  "display_name": "Asia",
+  "description": "News across East, Southeast, and South Asia and the Pacific. Added July 2026 as part of the multi-theatre expansion.",
+  "_rss_notes": [
+    "All direct feeds verified live on 2026-07-06.",
+    "Al Jazeera direct RSS is bot-blocked (see israel beat); proxied via Google News search RSS.",
+    "Fox News World is a global feed; topic_filter restricts it to Asia coverage.",
+    "SCMP (Alibaba-owned) and Straits Times (SPH Media Trust, Singapore) carry state-adjacent ownership — surfaced on their provenance cards, not hidden."
+  ],
+  "sources": [
+    {
+      "outlet": "Al Jazeera English",
+      "rss": "https://news.google.com/rss/search?q=site:aljazeera.com+Asia+OR+China+OR+India&hl=en-US&gl=US&ceid=US:en",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "The Guardian",
+      "rss": "https://www.theguardian.com/world/asia/rss",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "BBC News",
+      "rss": "https://feeds.bbci.co.uk/news/world/asia/rss.xml",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media"
+    },
+    {
+      "outlet": "South China Morning Post",
+      "rss": "https://www.scmp.com/rss/91/feed",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC"
+    },
+    {
+      "outlet": "The Japan Times",
+      "rss": "https://www.japantimes.co.jp/feed/",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC"
+    },
+    {
+      "outlet": "Nikkei Asia",
+      "rss": "https://asia.nikkei.com/rss/feed/nar",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC"
+    },
+    {
+      "outlet": "France 24",
+      "rss": "https://www.france24.com/en/asia-pacific/rss",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC"
+    },
+    {
+      "outlet": "The Straits Times",
+      "rss": "https://www.straitstimes.com/news/asia/rss.xml",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC"
+    },
+    {
+      "outlet": "The Times of India",
+      "rss": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC"
+    },
+    {
+      "outlet": "Fox News",
+      "rss": "https://moxie.foxnews.com/google-publisher/world.xml",
+      "topic_filter": ["China", "Japan", "Korea", "India", "Taiwan", "Asia", "Pakistan", "Philippines", "Indonesia", "Vietnam", "Thailand", "Beijing", "Tokyo"],
+      "bias_rating": "right",
+      "bias_rating_source": "AllSides"
+    }
+  ],
+  "gdelt": { "enabled": false },
+  "domain_map": {
+    "aljazeera.com": { "outlet": "Al Jazeera English", "bias_rating": "left", "bias_rating_source": "AllSides" },
+    "theguardian.com": { "outlet": "The Guardian", "bias_rating": "center-left", "bias_rating_source": "AllSides" },
+    "bbc.com": { "outlet": "BBC News", "bias_rating": "center-left", "bias_rating_source": "Ad Fontes Media" },
+    "bbc.co.uk": { "outlet": "BBC News", "bias_rating": "center-left", "bias_rating_source": "Ad Fontes Media" },
+    "scmp.com": { "outlet": "South China Morning Post", "bias_rating": "center-left", "bias_rating_source": "MBFC" },
+    "japantimes.co.jp": { "outlet": "The Japan Times", "bias_rating": "center-left", "bias_rating_source": "MBFC" },
+    "asia.nikkei.com": { "outlet": "Nikkei Asia", "bias_rating": "center", "bias_rating_source": "MBFC" },
+    "france24.com": { "outlet": "France 24", "bias_rating": "center", "bias_rating_source": "MBFC" },
+    "straitstimes.com": { "outlet": "The Straits Times", "bias_rating": "center-right", "bias_rating_source": "MBFC" },
+    "timesofindia.indiatimes.com": { "outlet": "The Times of India", "bias_rating": "center-right", "bias_rating_source": "MBFC" },
+    "foxnews.com": { "outlet": "Fox News", "bias_rating": "right", "bias_rating_source": "AllSides" }
+  },
+  "language_filter": ["en"],
+  "notes": "Created 2026-07-06 (multi-theatre expansion)."
+}

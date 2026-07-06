@@ -22,15 +22,19 @@ log = logging.getLogger(__name__)
 
 MODEL = "claude-haiku-4-5-20251001"
 
-_QUERY_PROMPT = """You are helping a news product find a *file photo* on Wikimedia Commons to illustrate a news event. Commons has portraits of public figures, photos of specific places, buildings, institutions, vehicles/equipment types, and city skylines — but NOT photos of the specific news event itself.
+_QUERY_PROMPT = """You are helping a news product find a *file photo* from open image libraries (Wikimedia Commons, Openverse) to illustrate a news event. These libraries have portraits of public figures, photos of specific places, buildings, institutions, vehicle/vessel/equipment types, and generic editorial subjects — but NOT photos of the specific news event itself.
 
 Event title: {title}
 Event summary: {summary}
+{exclusion_note}
+First, identify the event's DISTINCTIVE VISUAL ANGLE — what makes this story different from adjacent stories on the same beat. A military escalation story, a shipping/trade story, and a diplomatic-talks story about the same region should each get a different kind of image (e.g. warships / cargo vessels at sea / a negotiating venue).
 
-Propose 2-4 Commons search queries, most promising first. Rules:
-- Prefer named public figures central to the event (e.g. "Benjamin Netanyahu"), then specific places/institutions (e.g. "Knesset building", "Strait of Hormuz"), then concrete subjects (e.g. "USS Abraham Lincoln aircraft carrier").
-- Each query 1-4 words, a concrete visual subject. No abstract nouns (no "ceasefire", "negotiations", "tensions").
-- Avoid queries likely to return maps, flags, logos, or charts.
+Then propose 3-5 search queries, most promising first, mixing:
+- named public figures central to the event (e.g. "Benjamin Netanyahu"),
+- specific places/institutions (e.g. "Knesset building", "Kuwait International Airport"),
+- generic-but-evocative subjects expressing the angle (e.g. "cargo ship at sea", "naval warship Persian Gulf", "oil tanker", "press conference podium").
+
+Rules: each query 1-4 words, a concrete visual subject. No abstract nouns (no "ceasefire", "dispute", "tensions"). Avoid queries likely to return maps, flags, logos, or charts.
 
 Respond with JSON only: {{"queries": ["...", "..."]}}"""
 
@@ -39,7 +43,7 @@ _SELECT_PROMPT = """You are choosing a *file photo* to illustrate a news event o
 Event title: {title}
 Event summary: {summary}
 
-Candidate images (from Wikimedia Commons):
+Candidate images (from Wikimedia Commons and Openverse):
 {candidates}
 
 Work in two steps.
@@ -68,43 +72,53 @@ def _parse_json(text: str) -> dict:
         return json.loads(repair_json(text))
 
 
-def find_event_image(event: dict, client: anthropic.Anthropic) -> dict | None:
+def find_event_image(event: dict, client: anthropic.Anthropic,
+                     exclude_titles: set[str] | None = None) -> dict | None:
     """
     Find a permissively-licensed image for a per-event JSON dict.
     `event` is the "event" sub-object (needs title + summary).
+    `exclude_titles`: file_titles already used by other events — never reuse an
+    image across events, even for similar stories (each event should look distinct).
     Returns an image dict for embedding at event["image"], or None.
     """
     title = event.get("title", "")
     summary = event.get("summary", "")
     if not title:
         return None
+    exclude_titles = exclude_titles or set()
 
     # ── 1. Haiku: search queries ──────────────────────────────────────────
+    exclusion_note = ""
     resp = client.messages.create(
         model=MODEL,
-        max_tokens=300,
-        messages=[{"role": "user", "content": _QUERY_PROMPT.format(title=title, summary=summary)}],
+        max_tokens=400,
+        messages=[{"role": "user", "content": _QUERY_PROMPT.format(
+            title=title, summary=summary, exclusion_note=exclusion_note)}],
     )
     try:
-        queries = _parse_json(resp.content[0].text).get("queries", [])[:4]
+        queries = _parse_json(resp.content[0].text).get("queries", [])[:5]
     except Exception as e:
         log.warning("Query-generation parse failed: %s", e)
         return None
 
-    # ── 2. Commons search, pooled candidates ─────────────────────────────
+    # ── 2. Provider search, pooled candidates ─────────────────────────────
+    # Commons first (strongest on public figures/landmarks, best metadata);
+    # Openverse widens the pool for generic editorial subjects.
+    from pipeline.images.openverse import search_openverse
+
     candidates: list[dict] = []
-    seen_titles: set[str] = set()
+    seen_titles: set[str] = set(exclude_titles)
     for q in queries:
-        for cand in search_commons(q, limit=6):
+        for cand in search_commons(q, limit=6) + search_openverse(q, limit=6):
             if cand["file_title"] in seen_titles:
                 continue
             seen_titles.add(cand["file_title"])
             cand["query"] = q
             candidates.append(cand)
-        if len(candidates) >= 18:
+        if len(candidates) >= 24:
             break
     if not candidates:
-        log.info("No license-cleared Commons candidates for %r (queries: %s)", title, queries)
+        log.info("No license-cleared candidates for %r (queries: %s)", title, queries)
         return None
 
     # ── 3. Haiku: pick the best candidate ─────────────────────────────────
@@ -139,7 +153,7 @@ def find_event_image(event: dict, client: anthropic.Anthropic) -> dict | None:
         "credit": chosen["credit"],
         "license": chosen["license"],
         "license_url": chosen["license_url"],
-        "provider": "wikimedia_commons",
+        "provider": chosen.get("provider", "wikimedia_commons"),
         "file_title": chosen["file_title"],
         "query": chosen["query"],
         "fetched_at": datetime.now(timezone.utc).isoformat(),

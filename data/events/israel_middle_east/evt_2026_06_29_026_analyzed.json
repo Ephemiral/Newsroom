@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.4",
   "event": {
     "cluster_id": "evt_2026_06_29_026",
     "beat": "israel_middle_east",
@@ -7,22 +7,8 @@
     "summary": "Following an exchange of military strikes in the Strait of Hormuz in late June 2026, the US and Iran publicly disputed whether high-level talks were scheduled in Doha, while both sides navigated competing frameworks for the strait's management and a fragile 60-day diplomatic framework remained under pressure.",
     "date": "2026-06-29",
     "generated_at": "2026-06-30T06:54:46.749200+00:00",
-    "image_attempted_at": "2026-07-06T07:56:47.747459+00:00",
-    "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/STS004-37-716_-_Strait_of_Hormuz.jpg/1280px-STS004-37-716_-_Strait_of_Hormuz.jpg",
-      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/STS004-37-716_-_Strait_of_Hormuz.jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg",
-      "width": 1200,
-      "height": 1200,
-      "caption": "The Strait of Hormuz, viewed from space, showing shipping traffic and the surrounding coastlines of Iran, Oman, and the United Arab Emirates (file photo)",
-      "credit": "NASA",
-      "license": "Public domain",
-      "license_url": null,
-      "provider": "wikimedia_commons",
-      "file_title": "File:STS004-37-716 - Strait of Hormuz.jpg",
-      "query": "Strait of Hormuz",
-      "fetched_at": "2026-07-06T07:56:47.747391+00:00"
-    }
+    "image_attempted_at": "2026-07-06T09:11:16.358517+00:00",
+    "image": null
   },
   "sources": [
     {

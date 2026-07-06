@@ -5,10 +5,26 @@ import CritiqalLogoAnimated from '@/components/CritiqalLogoAnimated';
 // Render on demand so new events appear without restarting the dev server
 export const dynamic = 'force-dynamic';
 
-export default function Home() {
+/** Theatre tabs — order matters. Keys match beat names in config/beats/. */
+const BEATS: Record<string, string> = {
+  israel_middle_east: 'Israel / Middle East',
+  europe: 'Europe',
+  americas: 'Americas',
+  asia: 'Asia',
+};
+
+interface HomeProps {
+  searchParams: Promise<{ beat?: string }>;
+}
+
+export default async function Home({ searchParams }: HomeProps) {
+  const { beat } = await searchParams;
+  const activeBeat = beat && BEATS[beat] ? beat : null;
+
   const ids = getEventIds();
   const events = ids
     .map((id) => ({ id, event: getEvent(id)! }))
+    .filter(({ event }) => !activeBeat || event.event.beat === activeBeat)
     .sort((a, b) => new Date(b.event.event.date).getTime() - new Date(a.event.event.date).getTime());
 
   return (
@@ -21,7 +37,7 @@ export default function Home() {
             font: '600 10px/1 var(--font-archivo), system-ui',
             letterSpacing: '.34em', textTransform: 'uppercase', color: '#b08a4a',
           }}>
-            Neutral synthesis · Multi-source
+            Transparent synthesis · Multi-source
           </div>
           <div style={{
             margin: '14px 0 12px',
@@ -35,15 +51,48 @@ export default function Home() {
             fontStyle: 'italic', fontSize: 15, lineHeight: 1.5, color: '#7a6e5c',
             margin: 0,
           }}>
-            What outlets agree on, what they contest, and who is behind each story.
+            What outlets agree on, what they contest, and who is behind each story.{' '}
+            <Link href="/about" style={{ color: '#b08a4a', textDecoration: 'underline' }}>
+              How it works
+            </Link>
           </p>
         </div>
       </header>
 
+      {/* ── Theatre tabs ─────────────────────────────────────────────────── */}
+      <nav style={{ borderBottom: '1px solid #e7e0d4', background: '#f7f4ee' }}>
+        <div style={{
+          maxWidth: 760, margin: '0 auto', padding: '0 28px',
+          display: 'flex', gap: 22, overflowX: 'auto',
+        }}>
+          {[['', 'All'], ...Object.entries(BEATS)].map(([key, label]) => {
+            const active = (key === '' && !activeBeat) || key === activeBeat;
+            return (
+              <Link
+                key={key || 'all'}
+                href={key ? `/?beat=${key}` : '/'}
+                style={{
+                  font: `600 12px/1 var(--font-archivo), system-ui`,
+                  letterSpacing: '.08em', textTransform: 'uppercase',
+                  color: active ? '#141109' : '#a3957f',
+                  textDecoration: 'none', padding: '14px 0 12px',
+                  borderBottom: active ? '2px solid #b08a4a' : '2px solid transparent',
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                {label}
+              </Link>
+            );
+          })}
+        </div>
+      </nav>
+
       {/* ── Feed ─────────────────────────────────────────────────────────── */}
       <div style={{ maxWidth: 760, margin: '0 auto', padding: '8px 28px 80px' }}>
         {events.length === 0 ? (
-          <p style={{ color: '#a3957f', paddingTop: 32 }}>No analyzed events yet.</p>
+          <p style={{ color: '#a3957f', paddingTop: 32 }}>
+            No analyzed events in this theatre yet — the pipeline publishes automatically as qualifying coverage appears.
+          </p>
         ) : (
           <div>
             {events.map(({ id, event }) => {

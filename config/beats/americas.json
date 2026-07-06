@@ -1,0 +1,82 @@
+{
+  "beat": "americas",
+  "display_name": "Americas",
+  "description": "News across North, Central, and South America. Added July 2026 as part of the multi-theatre expansion.",
+  "_rss_notes": [
+    "All direct feeds verified live on 2026-07-06.",
+    "AP has no public RSS; proxied via Google News search RSS.",
+    "Fox News World is a global feed; topic_filter restricts it to Americas coverage.",
+    "BBC appears twice (US & Canada + Latin America feeds) — same outlet, wider coverage."
+  ],
+  "sources": [
+    {
+      "outlet": "The Guardian",
+      "rss": "https://www.theguardian.com/world/americas/rss",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "The New York Times",
+      "rss": "https://rss.nytimes.com/services/xml/rss/nyt/Americas.xml",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "BBC News",
+      "rss": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media"
+    },
+    {
+      "outlet": "BBC News",
+      "rss": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media"
+    },
+    {
+      "outlet": "AP News",
+      "rss": "https://news.google.com/rss/search?q=site:apnews.com&hl=en-US&gl=US&ceid=US:en",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "MercoPress",
+      "rss": "https://en.mercopress.com/rss/",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC"
+    },
+    {
+      "outlet": "New York Post",
+      "rss": "https://nypost.com/news/feed/",
+      "bias_rating": "center-right",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "The Washington Times",
+      "rss": "https://www.washingtontimes.com/rss/headlines/news/world/",
+      "bias_rating": "center-right",
+      "bias_rating_source": "AllSides"
+    },
+    {
+      "outlet": "Fox News",
+      "rss": "https://moxie.foxnews.com/google-publisher/world.xml",
+      "topic_filter": ["America", "United States", "Canada", "Mexico", "Brazil", "Argentina", "Venezuela", "Colombia", "Chile", "Peru", "Cuba", "Haiti", "Washington"],
+      "bias_rating": "right",
+      "bias_rating_source": "AllSides"
+    }
+  ],
+  "gdelt": { "enabled": false },
+  "domain_map": {
+    "theguardian.com": { "outlet": "The Guardian", "bias_rating": "center-left", "bias_rating_source": "AllSides" },
+    "nytimes.com": { "outlet": "The New York Times", "bias_rating": "center-left", "bias_rating_source": "AllSides" },
+    "bbc.com": { "outlet": "BBC News", "bias_rating": "center-left", "bias_rating_source": "Ad Fontes Media" },
+    "bbc.co.uk": { "outlet": "BBC News", "bias_rating": "center-left", "bias_rating_source": "Ad Fontes Media" },
+    "apnews.com": { "outlet": "AP News", "bias_rating": "center", "bias_rating_source": "AllSides" },
+    "en.mercopress.com": { "outlet": "MercoPress", "bias_rating": "center", "bias_rating_source": "MBFC" },
+    "nypost.com": { "outlet": "New York Post", "bias_rating": "center-right", "bias_rating_source": "AllSides" },
+    "washingtontimes.com": { "outlet": "The Washington Times", "bias_rating": "center-right", "bias_rating_source": "AllSides" },
+    "foxnews.com": { "outlet": "Fox News", "bias_rating": "right", "bias_rating_source": "AllSides" }
+  },
+  "language_filter": ["en"],
+  "notes": "Created 2026-07-06 (multi-theatre expansion)."
+}

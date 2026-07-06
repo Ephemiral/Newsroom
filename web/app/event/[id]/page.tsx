@@ -14,6 +14,28 @@ interface Props {
   params: Promise<{ id: string }>;
 }
 
+export async function generateMetadata({ params }: Props) {
+  const { id } = await params;
+  const event = getEvent(id);
+  if (!event) return {};
+  const { title, summary, image } = event.event;
+  return {
+    title,
+    description: summary,
+    openGraph: {
+      title,
+      description: summary,
+      type: 'article',
+      ...(image ? { images: [{ url: image.url, width: image.width, height: image.height }] } : {}),
+    },
+    twitter: {
+      card: image ? 'summary_large_image' : 'summary',
+      title,
+      description: summary,
+    },
+  };
+}
+
 export default async function EventPage({ params }: Props) {
   const { id } = await params;
   const event = getEvent(id);
@@ -121,7 +143,7 @@ export default async function EventPage({ params }: Props) {
                 rel="noopener noreferrer"
                 style={{ color: '#9a8d7c', textDecoration: 'underline' }}
               >
-                Wikimedia Commons
+                {event.event.image.provider === 'openverse' ? 'Openverse' : 'Wikimedia Commons'}
               </a>
               {' '}(
               {event.event.image.license_url ? (

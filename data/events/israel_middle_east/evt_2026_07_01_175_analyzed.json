@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.4",
   "event": {
     "cluster_id": "evt_2026_07_01_175",
     "beat": "israel_middle_east",
@@ -7,21 +7,21 @@
     "summary": "In late June 2026, Iran and Oman moved forward with plans to manage and levy fees on shipping through the Strait of Hormuz, while the US objected and sponsored an alternative southern shipping route. Amid ongoing military exchanges, both sides pursued diplomatic talks toward a final settlement under a June 2026 framework agreement.",
     "date": "2026-06-29",
     "generated_at": "2026-07-01T19:44:29.090800+00:00",
-    "image_attempted_at": "2026-07-06T07:57:17.423665+00:00",
+    "image_attempted_at": "2026-07-06T09:11:26.703640+00:00",
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/STS004-37-716_-_Strait_of_Hormuz.jpg/1280px-STS004-37-716_-_Strait_of_Hormuz.jpg",
-      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/STS004-37-716_-_Strait_of_Hormuz.jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/USNS_PFC_Dewayne_T._Williams_%28T-AK-3009%29_underway_in_the_Strait_of_Hormuz_on_17_April_2020_%28200417-N-PI330-0057%29.JPG/1280px-USNS_PFC_Dewayne_T._Williams_%28T-AK-3009%29_underway_in_the_Strait_of_Hormuz_on_17_April_2020_%28200417-N-PI330-0057%29.JPG",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/USNS_PFC_Dewayne_T._Williams_%28T-AK-3009%29_underway_in_the_Strait_of_Hormuz_on_17_April_2020_%28200417-N-PI330-0057%29.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:USNS_PFC_Dewayne_T._Williams_(T-AK-3009)_underway_in_the_Strait_of_Hormuz_on_17_April_2020_(200417-N-PI330-0057).JPG",
       "width": 1200,
-      "height": 1200,
-      "caption": "Strait of Hormuz viewed from space, showing ship traffic and surrounding coastlines (file photo)",
-      "credit": "NASA",
+      "height": 799,
+      "caption": "A cargo ship transiting the Strait of Hormuz (file photo from April 2020)",
+      "credit": "U.S. Navy photo by Mass Communication Specialist 3rd Class Andrew Waters",
       "license": "Public domain",
       "license_url": null,
       "provider": "wikimedia_commons",
-      "file_title": "File:STS004-37-716 - Strait of Hormuz.jpg",
-      "query": "Strait of Hormuz",
-      "fetched_at": "2026-07-06T07:57:17.423649+00:00"
+      "file_title": "File:USNS PFC Dewayne T. Williams (T-AK-3009) underway in the Strait of Hormuz on 17 April 2020 (200417-N-PI330-0057).JPG",
+      "query": "cargo ship Strait of Hormuz",
+      "fetched_at": "2026-07-06T09:11:26.703599+00:00"
     }
   },
   "sources": [
