@@ -1,12 +1,28 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "event": {
     "cluster_id": "evt_2026_06_29_102",
     "beat": "israel_middle_east",
     "title": "Israel's Government Votes to Recognize the Armenian Genocide",
     "summary": "On June 29, 2026, the Israeli government unanimously approved a resolution recognizing the Armenian Genocide, proposed by Foreign Minister Gideon Sa'ar. The decision still requires ratification by the Knesset and drew immediate condemnation from Turkey and Azerbaijan.",
     "date": "2026-06-28",
-    "generated_at": "2026-06-30T06:57:01.124324+00:00"
+    "generated_at": "2026-06-30T06:57:01.124324+00:00",
+    "image_attempted_at": "2026-07-06T07:56:53.844928+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/0005_FL69382357_01.jpg/1280px-0005_FL69382357_01.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/0005_FL69382357_01.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:0005_FL69382357_01.jpg",
+      "width": 1200,
+      "height": 898,
+      "caption": "The Knesset in Jerusalem (file photo)",
+      "credit": "הלל ברגר",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:0005 FL69382357 01.jpg",
+      "query": "Knesset building interior",
+      "fetched_at": "2026-07-06T07:56:53.844891+00:00"
+    }
   },
   "sources": [
     {

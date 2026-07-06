@@ -1,12 +1,28 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "event": {
     "cluster_id": "evt_2026_06_28_035",
     "beat": "israel_middle_east",
     "title": "UN Adds Israel and Russia to Conflict-Related Sexual Violence Blacklist",
     "summary": "The United Nations added Israel and Russia to its annual 'Conflict-Related Sexual Violence' blacklist for the first time, citing verified cases of sexual abuse by their forces. Israel responded by cutting ties with UN Secretary-General António Guterres and rejecting the allegations.",
     "date": "2026-05-29",
-    "generated_at": "2026-06-29T20:46:31.576122+00:00"
+    "generated_at": "2026-06-29T20:46:31.576122+00:00",
+    "image_attempted_at": "2026-07-06T07:56:11.051968+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg/1280px-Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Headquarters_of_the_United_Nations,_New_York_City,_20231001_1103_1006.jpg",
+      "width": 1200,
+      "height": 1276,
+      "caption": "United Nations Headquarters in New York City (file photo)",
+      "credit": "Jakub Hałun",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Headquarters of the United Nations, New York City, 20231001 1103 1006.jpg",
+      "query": "United Nations headquarters",
+      "fetched_at": "2026-07-06T07:56:11.051915+00:00"
+    }
   },
   "sources": [
     {

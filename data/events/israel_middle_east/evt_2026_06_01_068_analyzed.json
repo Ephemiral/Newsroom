@@ -1,12 +1,28 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "event": {
     "cluster_id": "evt_2026_06_01_068",
     "beat": "israel_middle_east",
     "title": "UN Adds Israel and Russia to Sexual Violence in Conflict Blacklist",
     "summary": "The United Nations published its annual Conflict-Related Sexual Violence report, adding Israel and Russia to a blacklist of parties committing sexual violence in warzones for the first time. The report verified 31 cases of sexual violence by Israeli forces against Palestinians and 310 cases by Russian forces against Ukrainians, prompting diplomatic backlash from both countries.",
     "date": "2026-05-29",
-    "generated_at": "2026-06-01T21:06:34.182181+00:00"
+    "generated_at": "2026-06-01T21:06:34.182181+00:00",
+    "image_attempted_at": "2026-07-06T07:54:47.485158+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg/1280px-Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Headquarters_of_the_United_Nations,_New_York_City,_20231001_1103_1006.jpg",
+      "width": 1200,
+      "height": 1276,
+      "caption": "United Nations General Assembly Building in New York City (file photo)",
+      "credit": "Jakub Hałun",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Headquarters of the United Nations, New York City, 20231001 1103 1006.jpg",
+      "query": "United Nations building New York",
+      "fetched_at": "2026-07-06T07:54:47.485124+00:00"
+    }
   },
   "sources": [
     {

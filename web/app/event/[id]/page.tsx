@@ -94,6 +94,53 @@ export default async function EventPage({ params }: Props) {
           </div>
         </header>
 
+        {/* Hero image (openly licensed file photo, with required attribution) */}
+        {event.event.image && (
+          <figure style={{ margin: '0 0 36px' }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={event.event.image.url}
+              alt={event.event.image.caption}
+              style={{
+                width: '100%', maxHeight: 400, objectFit: 'cover',
+                borderRadius: 4, border: '1px solid #e1d8c8', background: '#ece6da',
+                display: 'block',
+              }}
+            />
+            <figcaption style={{
+              fontFamily: 'var(--font-spectral), serif',
+              fontStyle: 'italic', fontSize: 13, lineHeight: 1.5,
+              color: '#9a8d7c', marginTop: 8,
+            }}>
+              {event.event.image.caption}
+              {' — '}
+              {event.event.image.credit},{' '}
+              <a
+                href={event.event.image.source_page}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: '#9a8d7c', textDecoration: 'underline' }}
+              >
+                Wikimedia Commons
+              </a>
+              {' '}(
+              {event.event.image.license_url ? (
+                <a
+                  href={event.event.image.license_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: '#9a8d7c', textDecoration: 'underline' }}
+                >
+                  {event.event.image.license}
+                </a>
+              ) : (
+                event.event.image.license
+              )}
+              )
+            </figcaption>
+          </figure>
+        )}
+
         {/* Spectrum — who covered this */}
         <div style={{ marginBottom: 48 }}>
           <BiasLegend sources={event.sources} />

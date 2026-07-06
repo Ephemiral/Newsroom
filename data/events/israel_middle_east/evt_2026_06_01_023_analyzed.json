@@ -1,12 +1,28 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "event": {
     "cluster_id": "evt_2026_06_01_023",
     "beat": "israel_middle_east",
     "title": "US-Iran Ceasefire Extension Framework: Negotiations Near Deal as Trump Weighs Approval",
     "summary": "US and Iranian negotiators reportedly agreed on a tentative framework to extend their ceasefire by 60 days, pending approval from President Trump and Iran's leadership. Trump spent over two hours in the White House Situation Room on Friday without reaching a decision, while Iranian officials and media contradicted key aspects of his public characterization of the proposed deal's terms.",
     "date": "2026-05-29",
-    "generated_at": "2026-06-28T09:34:19.947284+00:00"
+    "generated_at": "2026-06-28T09:34:19.947284+00:00",
+    "image_attempted_at": "2026-07-06T07:54:27.299666+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/2026_Donald_Trump_at_the_White_House_on_9_January_%28cropped%29.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/2026_Donald_Trump_at_the_White_House_on_9_January_%28cropped%29.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2026_Donald_Trump_at_the_White_House_on_9_January_(cropped).jpg",
+      "width": 774,
+      "height": 825,
+      "caption": "President Donald Trump at the White House, January 2026 (file photo)",
+      "credit": "The White House",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:2026 Donald Trump at the White House on 9 January (cropped).jpg",
+      "query": "Donald Trump White House",
+      "fetched_at": "2026-07-06T07:54:27.299632+00:00"
+    }
   },
   "sources": [
     {

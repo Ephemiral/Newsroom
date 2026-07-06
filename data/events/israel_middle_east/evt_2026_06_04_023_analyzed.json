@@ -1,12 +1,28 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "event": {
     "cluster_id": "evt_2026_06_04_023",
     "beat": "israel_middle_east",
     "title": "Israeli Knesset Advances Dissolution Bill and Attorney General Reform Bills",
     "summary": "In late May–early June 2026, the Israeli Knesset advanced a coalition-backed bill to dissolve the parliament—potentially triggering early elections—while also passing first readings of two bills that would curtail the power of the attorney general and make it harder to indict senior officials, amid a coalition crisis driven by a dispute over haredi military draft legislation.",
     "date": "2026-06-01",
-    "generated_at": "2026-06-28T09:41:33.570429+00:00"
+    "generated_at": "2026-06-28T09:41:33.570429+00:00",
+    "image_attempted_at": "2026-07-06T07:55:36.267873+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Knesset_front_side_-_2022.jpg/1280px-Knesset_front_side_-_2022.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Knesset_front_side_-_2022.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Knesset_front_side_-_2022.jpg",
+      "width": 1200,
+      "height": 800,
+      "caption": "The Knesset building in Jerusalem (file photo)",
+      "credit": "Clema12",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Knesset front side - 2022.jpg",
+      "query": "Israeli parliament chamber",
+      "fetched_at": "2026-07-06T07:55:36.267823+00:00"
+    }
   },
   "sources": [
     {

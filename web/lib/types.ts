@@ -45,6 +45,24 @@ export interface BackgroundPoint {
   sources: string[];
 }
 
+/** Openly-licensed file photo (schema v0.3). Attribution fields must be
+ *  rendered wherever the image is shown — this is a license requirement. */
+export interface EventImage {
+  url: string;
+  full_url: string;
+  source_page: string;
+  width: number;
+  height: number;
+  caption: string;
+  credit: string;
+  license: string;
+  license_url: string | null;
+  provider: string;
+  file_title: string;
+  query: string;
+  fetched_at: string;
+}
+
 export interface EventMeta {
   cluster_id: string;
   beat: string;
@@ -52,6 +70,9 @@ export interface EventMeta {
   summary: string;
   date: string;
   generated_at: string;
+  /** Present from schema v0.3; null when no suitable image was found. */
+  image?: EventImage | null;
+  image_attempted_at?: string;
 }
 
 export interface ReportParagraph {

@@ -1,12 +1,28 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "event": {
     "cluster_id": "evt_2026_06_02_063",
     "beat": "israel_middle_east",
     "title": "Israel Kills Hamas Military Wing Chief in Gaza Strike",
     "summary": "Israel conducted a strike in Gaza that killed the head of Hamas's military wing. Hamas confirmed the death, and Israeli Prime Minister Netanyahu made a public statement about the operation.",
     "date": "2026-05-26",
-    "generated_at": "2026-06-02T08:10:23.628004+00:00"
+    "generated_at": "2026-06-02T08:10:23.628004+00:00",
+    "image_attempted_at": "2026-07-06T07:55:15.992996+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/230315-F-UT528-1015_-_Israeli_Air_Force_at_Red_Flag-Nellis_23-2%2C_15_Mar%2C_2023.jpg/1280px-230315-F-UT528-1015_-_Israeli_Air_Force_at_Red_Flag-Nellis_23-2%2C_15_Mar%2C_2023.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/230315-F-UT528-1015_-_Israeli_Air_Force_at_Red_Flag-Nellis_23-2%2C_15_Mar%2C_2023.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:230315-F-UT528-1015_-_Israeli_Air_Force_at_Red_Flag-Nellis_23-2,_15_Mar,_2023.jpg",
+      "width": 1200,
+      "height": 799,
+      "caption": "Israeli Air Force F-35I fighter jets (file photo)",
+      "credit": "William Lewis",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:230315-F-UT528-1015 - Israeli Air Force at Red Flag-Nellis 23-2, 15 Mar, 2023.jpg",
+      "query": "Israeli Air Force",
+      "fetched_at": "2026-07-06T07:55:15.992966+00:00"
+    }
   },
   "sources": [
     {

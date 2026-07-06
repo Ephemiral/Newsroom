@@ -62,20 +62,37 @@ export default function Home() {
                   }}>
                     {event.event.beat.replace(/_/g, ' ')}
                   </div>
-                  <h2 style={{
-                    fontFamily: 'var(--font-spectral), serif',
-                    fontWeight: 600, fontSize: 28, lineHeight: 1.2,
-                    letterSpacing: '-.018em', color: '#141109', margin: 0,
-                  }}>
-                    {event.event.title}
-                  </h2>
-                  <p style={{
-                    fontFamily: 'var(--font-spectral), serif',
-                    fontSize: 17, lineHeight: 1.6, color: '#5b5249',
-                    margin: '12px 0 0',
-                  }}>
-                    {event.event.summary}
-                  </p>
+                  <div style={{ display: 'flex', gap: 24, alignItems: 'flex-start' }}>
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <h2 style={{
+                        fontFamily: 'var(--font-spectral), serif',
+                        fontWeight: 600, fontSize: 28, lineHeight: 1.2,
+                        letterSpacing: '-.018em', color: '#141109', margin: 0,
+                      }}>
+                        {event.event.title}
+                      </h2>
+                      <p style={{
+                        fontFamily: 'var(--font-spectral), serif',
+                        fontSize: 17, lineHeight: 1.6, color: '#5b5249',
+                        margin: '12px 0 0',
+                      }}>
+                        {event.event.summary}
+                      </p>
+                    </div>
+                    {event.event.image && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={event.event.image.url}
+                        alt={event.event.image.caption}
+                        loading="lazy"
+                        style={{
+                          width: 168, height: 118, objectFit: 'cover',
+                          borderRadius: 3, flexShrink: 0, marginTop: 4,
+                          border: '1px solid #e1d8c8', background: '#ece6da',
+                        }}
+                      />
+                    )}
+                  </div>
                   <div style={{
                     display: 'flex', alignItems: 'center', gap: 12, marginTop: 16,
                     font: '500 12px/1 var(--font-archivo), system-ui', color: '#8a7d6c',

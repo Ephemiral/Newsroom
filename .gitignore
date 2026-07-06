@@ -23,3 +23,6 @@ web/out/
 # OS
 .DS_Store
 Thumbs.db
+
+# Autonomous-run state and logs (local only)
+data/logs/

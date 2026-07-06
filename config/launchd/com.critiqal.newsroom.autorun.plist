@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Autonomous newsroom pipeline — runs scripts/auto_run.py every 4 hours.
+
+  Install (copies + loads):
+    cp config/launchd/com.critiqal.newsroom.autorun.plist ~/Library/LaunchAgents/
+    launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.critiqal.newsroom.autorun.plist
+
+  Disable:
+    launchctl bootout gui/$(id -u)/com.critiqal.newsroom.autorun
+
+  Run once now:
+    launchctl kickstart gui/$(id -u)/com.critiqal.newsroom.autorun
+
+  Notes: runs only while the Mac is awake; a missed interval fires once on wake.
+  Logs: data/logs/autorun/launchd.out.log / launchd.err.log + per-run JSON logs.
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.critiqal.newsroom.autorun</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/gidon/Documents/Claude/Projects/Newsroom/.venv/bin/python3</string>
+        <string>/Users/gidon/Documents/Claude/Projects/Newsroom/scripts/auto_run.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/gidon/Documents/Claude/Projects/Newsroom</string>
+
+    <key>StartInterval</key>
+    <integer>14400</integer>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/gidon/Documents/Claude/Projects/Newsroom/data/logs/autorun/launchd.out.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/gidon/Documents/Claude/Projects/Newsroom/data/logs/autorun/launchd.err.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+    </dict>
+</dict>
+</plist>

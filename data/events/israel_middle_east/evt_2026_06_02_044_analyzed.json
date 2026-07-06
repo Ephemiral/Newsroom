@@ -1,12 +1,28 @@
 {
-  "schema_version": "0.1",
+  "schema_version": "0.3",
   "event": {
     "cluster_id": "evt_2026_06_02_044",
     "beat": "israel_middle_east",
     "title": "US-Iran Ceasefire Extension Framework: Negotiations Near Deal but No Final Agreement",
     "summary": "US and Iranian negotiators reached a tentative framework to extend their ceasefire by 60 days and launch nuclear talks, but as of late May 2026 the deal had not been approved by either Donald Trump or Iran's new supreme leader Mojtaba Khamenei. Both sides continued to accuse each other of ceasefire violations while publicly disputing the terms Trump described.",
     "date": "2026-05-29",
-    "generated_at": "2026-06-03T09:23:23.712918+00:00"
+    "generated_at": "2026-06-03T09:23:23.712918+00:00",
+    "image_attempted_at": "2026-07-06T07:55:05.201824+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/United_Nations_Headquarters_-_Security_Council_chamber%2C_angled_view.jpg/1280px-United_Nations_Headquarters_-_Security_Council_chamber%2C_angled_view.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/United_Nations_Headquarters_-_Security_Council_chamber%2C_angled_view.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:United_Nations_Headquarters_-_Security_Council_chamber,_angled_view.jpg",
+      "width": 1200,
+      "height": 960,
+      "caption": "UN Security Council chamber (file photo)",
+      "credit": "Jdforrester",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:United Nations Headquarters - Security Council chamber, angled view.jpg",
+      "query": "United Nations Security Council chamber",
+      "fetched_at": "2026-07-06T07:55:05.201768+00:00"
+    }
   },
   "sources": [
     {

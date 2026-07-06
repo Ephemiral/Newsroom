@@ -1,12 +1,28 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "event": {
     "cluster_id": "evt_2026_06_01_117",
     "beat": "israel_middle_east",
     "title": "Israel Intensifies Strikes on Lebanon, Hits Beirut Amid Ceasefire Violations Dispute",
     "summary": "In late May 2026, Israel launched intensified strikes across southern Lebanon and Beirut, issuing large-scale evacuation orders and expanding ground operations, while both Israel and Hezbollah accused each other of violating a ceasefire that had come into force on 17 April 2026.",
     "date": "2026-05-28",
-    "generated_at": "2026-06-28T09:37:44.929326+00:00"
+    "generated_at": "2026-06-28T09:37:44.929326+00:00",
+    "image_attempted_at": "2026-07-06T07:54:53.340922+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Beirut_skyline%2C_Beirut%2C_Lebanon.jpg/1280px-Beirut_skyline%2C_Beirut%2C_Lebanon.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Beirut_skyline%2C_Beirut%2C_Lebanon.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Beirut_skyline,_Beirut,_Lebanon.jpg",
+      "width": 1200,
+      "height": 674,
+      "caption": "Beirut skyline (file photo)",
+      "credit": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Beirut skyline, Beirut, Lebanon.jpg",
+      "query": "Beirut skyline",
+      "fetched_at": "2026-07-06T07:54:53.340802+00:00"
+    }
   },
   "sources": [
     {

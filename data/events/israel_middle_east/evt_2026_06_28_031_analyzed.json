@@ -1,12 +1,28 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "event": {
     "cluster_id": "evt_2026_06_28_031",
     "beat": "israel_middle_east",
     "title": "New York Israel Day Parade 2026: Smotrich's Unannounced Attendance Sparks Backlash",
     "summary": "New York City's annual Israel Day on Fifth parade drew a record crowd on May 31, 2026, but was overshadowed by the unannounced attendance of Israeli Finance Minister Bezalel Smotrich, who marched with an Israeli parliamentary delegation led by Knesset Speaker Amir Ohana. Mayor Zohran Mamdani became the first mayor in the event's 61-year history not to attend, while several prominent New York Democrats who did participate subsequently released statements distancing themselves from Smotrich.",
     "date": "2026-05-31",
-    "generated_at": "2026-06-29T20:30:07.648951+00:00"
+    "generated_at": "2026-06-29T20:30:07.648951+00:00",
+    "image_attempted_at": "2026-07-06T07:56:05.040075+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Israel_Day_Parade_2007_Flags.jpg/1280px-Israel_Day_Parade_2007_Flags.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Israel_Day_Parade_2007_Flags.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Israel_Day_Parade_2007_Flags.jpg",
+      "width": 1200,
+      "height": 798,
+      "caption": "Israel Day Parade on Fifth Avenue, New York, 2007 (file photo)",
+      "credit": "Akalati at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Israel Day Parade 2007 Flags.jpg",
+      "query": "Israel Day Parade",
+      "fetched_at": "2026-07-06T07:56:05.040027+00:00"
+    }
   },
   "sources": [
     {

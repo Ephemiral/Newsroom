@@ -1,12 +1,28 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "event": {
     "cluster_id": "evt_2026_06_28_120",
     "beat": "israel_middle_east",
     "title": "US-Iran Ceasefire Extension Framework: Negotiations, Sticking Points, and Unresolved Deal",
     "summary": "In late May 2026, US and Iranian negotiators reportedly reached a tentative framework (memorandum of understanding) to extend their ceasefire by 60 days and launch nuclear talks, but the deal remained unsigned as Trump deliberated and both sides continued to dispute key terms including Iran's nuclear programme and control of the Strait of Hormuz.",
     "date": "2026-05-29",
-    "generated_at": "2026-06-29T20:39:36.039008+00:00"
+    "generated_at": "2026-06-29T20:39:36.039008+00:00",
+    "image_attempted_at": "2026-07-06T07:56:25.300810+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/STS004-37-716_-_Strait_of_Hormuz.jpg/1280px-STS004-37-716_-_Strait_of_Hormuz.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/STS004-37-716_-_Strait_of_Hormuz.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg",
+      "width": 1200,
+      "height": 1200,
+      "caption": "The Strait of Hormuz, a strategic waterway at the center of US-Iran negotiations (file photo)",
+      "credit": "NASA",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:STS004-37-716 - Strait of Hormuz.jpg",
+      "query": "Strait of Hormuz",
+      "fetched_at": "2026-07-06T07:56:25.300776+00:00"
+    }
   },
   "sources": [
     {

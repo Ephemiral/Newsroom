@@ -1,12 +1,28 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "event": {
     "cluster_id": "evt_2026_06_02_014",
     "beat": "israel_middle_east",
     "title": "Israel Day Parade on Fifth Avenue draws record crowd amid controversy over far-right ministers",
     "summary": "New York City's annual Israel Day on Fifth parade drew tens of thousands of participants on Sunday, May 31, 2026, but was overshadowed by controversy after Israeli Finance Minister Bezalel Smotrich and Heritage Minister Amichai Eliyahu participated without having been announced in advance. NYC Mayor Zohran Mamdani skipped the event, becoming the first mayor in the parade's 61-year history to do so, while Governor Kathy Hochul and other officials attended but later condemned Smotrich's presence.",
     "date": "2026-05-31",
-    "generated_at": "2026-06-02T08:09:16.949848+00:00"
+    "generated_at": "2026-06-02T08:09:16.949848+00:00",
+    "image_attempted_at": "2026-07-06T07:54:58.692416+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Spires_of_St_Patricks_Cathedral_Rising_Above_Fifth_Avenue_2019-09-30_18-19.jpg/1280px-Spires_of_St_Patricks_Cathedral_Rising_Above_Fifth_Avenue_2019-09-30_18-19.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Spires_of_St_Patricks_Cathedral_Rising_Above_Fifth_Avenue_2019-09-30_18-19.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Spires_of_St_Patricks_Cathedral_Rising_Above_Fifth_Avenue_2019-09-30_18-19.jpg",
+      "width": 1200,
+      "height": 1800,
+      "caption": "St. Patrick's Cathedral on Fifth Avenue, New York City (file photo)",
+      "credit": "Axel Tschentscher",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Spires of St Patricks Cathedral Rising Above Fifth Avenue 2019-09-30 18-19.jpg",
+      "query": "Fifth Avenue New York",
+      "fetched_at": "2026-07-06T07:54:58.692385+00:00"
+    }
   },
   "sources": [
     {

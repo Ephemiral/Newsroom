@@ -1,0 +1,828 @@
+{
+  "schema_version": "0.3",
+  "event": {
+    "cluster_id": "evt_2026_07_01_175",
+    "beat": "israel_middle_east",
+    "title": "Iran-US Strait of Hormuz Negotiations and Shipping Dispute",
+    "summary": "In late June 2026, Iran and Oman moved forward with plans to manage and levy fees on shipping through the Strait of Hormuz, while the US objected and sponsored an alternative southern shipping route. Amid ongoing military exchanges, both sides pursued diplomatic talks toward a final settlement under a June 2026 framework agreement.",
+    "date": "2026-06-29",
+    "generated_at": "2026-07-01T19:44:29.090800+00:00",
+    "image_attempted_at": "2026-07-06T07:57:17.423665+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/STS004-37-716_-_Strait_of_Hormuz.jpg/1280px-STS004-37-716_-_Strait_of_Hormuz.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/STS004-37-716_-_Strait_of_Hormuz.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg",
+      "width": 1200,
+      "height": 1200,
+      "caption": "Strait of Hormuz viewed from space, showing ship traffic and surrounding coastlines (file photo)",
+      "credit": "NASA",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:STS004-37-716 - Strait of Hormuz.jpg",
+      "query": "Strait of Hormuz",
+      "fetched_at": "2026-07-06T07:57:17.423649+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jun/29/oman-safe-reopening-strait-hormuz-iran-us-middle-east",
+      "author": "Patrick Wintour",
+      "published_at": "2026-06-29T16:20:16+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Patrick Wintour is The Guardian's Editor-in-Chief and a veteran political journalist who has covered British politics and international affairs for decades.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdFJxbGhGc1I5V0wxS0U1enVwUENOTlRDaWNvQlBGbTNUb2RKNXlWNUtERWNjZllBa1Z0YlBBNGRNNlg1N1BTYkhsQzh4LVpfU3pYVlNteV9HZlg2NUJtS1F4MnppYUw2cFBDQjlNaXFZdDY2TWRmbERiOVBwMU9DbHdPZzhfZ1F4ZDkzZEM0aTJzY0lxd2FUdmRQbnpFcFIxT1JwOGxma2ctRklJNjlrYzd2RnBTYTZ5bmQxWC1WbFdPTW1lVEx3?oc=5",
+      "author": null,
+      "published_at": "2026-07-01T05:34:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/2026/06/29/us-and-iran-agree-to-pause-attacks-and-meet-in-qatar-us-media-reports",
+      "author": null,
+      "published_at": "2026-06-29T02:24:13+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdVg5czlKNG5mTDhINWRuUjlHbWt6bl9TUUVsbGJ4WHNMXzdvcHJkY3I2V1ZDZDhDMzhJNVk5Y2tKeW9pWkgzTHVqQUFaR3hjNUd1MEpnV2JNRjFYTERQS192LWxLLWt4bzM2UDJwZFYxZEhvUVViTElFLXg5OFdpMHFob2t6Qm83MjRmRjB0TENyVU9YeFZQdzZac1hoVndyY3VjdnV4MFdQVXNMdHBnaXRDcVg4OU1XNE43VzNMVUFxTHpla1dKUnlpakphdWU5eHFXdnloclVMT0RLMFdtajBMeFprZl9nb0JxRWpic1Y1TGxZZnc?oc=5",
+      "author": null,
+      "published_at": "2026-06-29T03:37:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A memorandum of understanding between Iran and the United States was signed on 18 June 2026.",
+      "classification": "agreed",
+      "claim_group": "ceasefire_and_framework_deal",
+      "rationale": "Both The Guardian (center-left) and Euronews (center) reported the signing of a memorandum of understanding, satisfying cross-spectrum confirmation. Euronews dates the framework deal to 17 June while The Guardian dates the MOU to 18 June; these may refer to related but distinct documents.",
+      "framing_variants": [
+        {
+          "characterization": "Described as a 'memorandum of understanding signed with Washington on 18 June' with specific terms on nuclear talks and blockade lifting.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Described as a 'framework deal' signed on 17 June by Trump at Versailles and Pezeshkian in Tehran, intended to open the door to a final settlement.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Under the framework/memorandum, substantive talks over Iran's nuclear programme are not required to start until after the lifting of the blockade of the Strait of Hormuz.",
+      "classification": "single_source",
+      "claim_group": "ceasefire_and_framework_deal",
+      "rationale": "Only The Guardian reported this specific term of the memorandum.",
+      "framing_variants": [
+        {
+          "characterization": "Stated as a key sequencing term: nuclear talks are deferred until blockade is lifted.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Under the memorandum, Iran is required to use only 'its best endeavours' to achieve the lifting of the blockade.",
+      "classification": "single_source",
+      "claim_group": "ceasefire_and_framework_deal",
+      "rationale": "Only The Guardian reported this specific term of the memorandum.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as a weak obligation, noting the language only requires 'best endeavours' rather than a firm commitment.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Under the 60-day framework, the two sides committed to negotiate a final agreement covering Iran's nuclear programme, the lifting of sanctions, and the long-term status of the Strait of Hormuz.",
+      "classification": "single_source",
+      "claim_group": "ceasefire_and_framework_deal",
+      "rationale": "Only Euronews specified these three negotiating tracks within the 60-day framework.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as the comprehensive scope of what the framework deal committed both sides to negotiate.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The memorandum of understanding states that Iran will define the future administration of the Strait of Hormuz in dialogue with Oman and other Gulf States, in line with international law.",
+      "classification": "single_source",
+      "claim_group": "ceasefire_and_framework_deal",
+      "rationale": "Only Euronews cited this specific language from the published text of the memorandum.",
+      "framing_variants": [
+        {
+          "characterization": "Cited as the published text of the MOU granting Iran a central role in defining strait administration.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Iran and Oman held the first meeting of a Joint Hormuz Committee in Muscat, with Iran's deputy foreign minister Kazem Gharibabadi meeting Oman's minister of state for foreign affairs Abdulaziz al-Hinai.",
+      "classification": "agreed",
+      "claim_group": "iran_oman_strait_management",
+      "rationale": "Both The Guardian (center-left) and Euronews (center) confirmed the joint committee meeting in Muscat, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Described as 'joint discussions in Muscat' between the two officials, framed as part of Oman's detailed management plan for the strait.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Described as 'the first meeting of the Joint Hormuz Committee,' signalling a formal institutional structure.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Iran and Oman are pushing ahead with a plan to charge fees for passage through the Strait of Hormuz, despite US objections.",
+      "classification": "agreed",
+      "claim_group": "iran_oman_strait_management",
+      "rationale": "The Guardian (center-left), i24 News (center-right), and Euronews (center) all reported the fee discussions, spanning multiple parts of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Headlined as Iran and Oman 'pushing ahead' with Hormuz fees 'despite US objections,' framing it as defiance.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Framed as Oman's detailed legal plan for a management system with voluntary contributions and service fees, not tolls.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reported as active discussions between Iran and Oman on managing the strait, with US opposition noted.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Oman's proposed management system would ensure littoral states receive income from commercial shipping through voluntary contributions or payments for specific navigational services, not tolls.",
+      "classification": "single_source",
+      "claim_group": "iran_oman_strait_management",
+      "rationale": "Only The Guardian reported the specific financial mechanism of Oman's proposed scheme.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as a legally careful distinction between prohibited tolls and permissible service fees, citing Oman's minister explicitly opposing tolls.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Oman's foreign minister Badr al-Busaidi stated that Oman is not in favour of imposing tolls on passage through the Strait of Hormuz, noting that tolls are prohibited under international law while service fees are legal.",
+      "classification": "single_source",
+      "claim_group": "iran_oman_strait_management",
+      "rationale": "Only The Guardian directly quoted Oman's foreign minister and provided the international law context.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as Oman publicly distancing itself from tolls while leaving open the door to service fees under Articles 26 and 43 of the law of the sea.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Article 26 of UNCLOS forbids payment for mere passage through an international strait, while Article 43 permits user states and strait states to cooperatively fund maritime services.",
+      "classification": "single_source",
+      "claim_group": "iran_oman_strait_management",
+      "rationale": "Only The Guardian cited these specific articles of the law of the sea.",
+      "framing_variants": [
+        {
+          "characterization": "Cited as the legal basis for distinguishing between prohibited tolls and permissible cooperative service funding.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Tehran effectively blockaded the Strait of Hormuz on 28 February 2026, coinciding with US and Israeli airstrikes against Iran.",
+      "classification": "single_source",
+      "claim_group": "strait_blockade_and_shipping",
+      "rationale": "Only Euronews reported the specific date of the blockade and its connection to the US-Israeli strikes.",
+      "framing_variants": [
+        {
+          "characterization": "Described as Iran's retaliatory measure on the day the US and Israel launched airstrikes, linking the blockade to the wider military conflict.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "The closure of the Strait of Hormuz sent energy prices sharply higher and disrupted global supply chains for more than four months.",
+      "classification": "single_source",
+      "claim_group": "strait_blockade_and_shipping",
+      "rationale": "Only Euronews reported the economic impact and duration of the blockade.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as the major economic consequence of Iran's blockade, underlining the global stakes of resolving the crisis.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "A fifth of the world's oil and liquefied natural gas passed through the Strait of Hormuz prior to the conflict.",
+      "classification": "single_source",
+      "claim_group": "strait_blockade_and_shipping",
+      "rationale": "Only Euronews cited this statistic about the strait's pre-war importance.",
+      "framing_variants": [
+        {
+          "characterization": "Cited as context for why the strait's status matters to global energy markets.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Tehran insists ships transiting the Strait of Hormuz pass through a corridor near its own shores, and warned that attempts to bypass this preferred route would increase tensions and delay reopening.",
+      "classification": "agreed",
+      "claim_group": "strait_blockade_and_shipping",
+      "rationale": "Both The Guardian (center-left) and Euronews (center) reported Iran's insistence on its preferred route and the warnings issued by Foreign Minister Araghchi.",
+      "framing_variants": [
+        {
+          "characterization": "Araghchi quoted directly: 'Any attempt to adopt new or separate arrangements... will only lead to more complicated situations and delays in the reopening of the Strait of Hormuz.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Araghchi's statement at a Baghdad news conference framed as Iran's diplomatic warning against alternative routing plans.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "The central route through the Strait of Hormuz was closed because of mines, prompting proposals for alternative shipping lanes.",
+      "classification": "single_source",
+      "claim_group": "strait_blockade_and_shipping",
+      "rationale": "Only The Guardian reported mines as the reason for the closure of the central route.",
+      "framing_variants": [
+        {
+          "characterization": "Stated as the factual context explaining why alternative southern and northern shipping lanes were being considered.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Iran rejected a southern shipping route near the Omani coast developed with the UN's International Maritime Organization, which would have opened two lanes: one in Omani waters overseen by the US Joint Maritime Information Center, and one closer to Iran.",
+      "classification": "single_source",
+      "claim_group": "strait_blockade_and_shipping",
+      "rationale": "Only The Guardian reported Iran's rejection of this specific IMO-developed route proposal and its details.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as Iran blocking a UN-backed compromise solution involving shared oversight.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "On Saturday, the US Navy's Joint Maritime Information Center announced a formal widened shipping route near the Omani coast, in direct challenge to Iran's assertion of sole navigational authority.",
+      "classification": "single_source",
+      "claim_group": "strait_blockade_and_shipping",
+      "rationale": "Only Euronews reported the formal announcement of the US-backed Omani-coast shipping route.",
+      "framing_variants": [
+        {
+          "characterization": "Described as a 'direct challenge to Iran's assertion of sole authority over navigation,' framing it as a deliberate US counter-move.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "An Iranian attack on a Singaporean ship travelling through the southern route occurred on Thursday, which led the IMO to abandon the southern route plan.",
+      "classification": "single_source",
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian reported this specific incident involving a Singaporean vessel and the IMO's consequential abandonment of the southern route.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as a direct cause-and-effect: Iran's attack forced the IMO to scrap the plan entirely.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "An Iranian drone attacked the M/T Kiku, a Panama-flagged crude oil tanker heading to Fujairah in the UAE, on Saturday.",
+      "classification": "single_source",
+      "claim_group": "military_operations",
+      "rationale": "Only Euronews reported the specific details of the M/T Kiku attack.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as a concrete act of Iranian aggression against commercial shipping that triggered US military retaliation.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "US Central Command said it struck 10 Iranian military targets early Sunday in response to continued Iranian aggression against commercial shipping.",
+      "classification": "single_source",
+      "claim_group": "military_operations",
+      "rationale": "Only Euronews reported CENTCOM's statement about the Sunday strikes on 10 Iranian targets.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as a US retaliatory action with CENTCOM citing 'continued Iranian aggression against commercial shipping' as justification.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Iran said it retaliated against US military strikes by targeting the US Fifth Fleet headquarters at Salman Port in Bahrain and the Ali Al Salem Air Base in Kuwait; both Kuwait and Bahrain denounced the Iranian attacks.",
+      "classification": "single_source",
+      "claim_group": "military_operations",
+      "rationale": "Only Euronews reported Iran's retaliatory strikes on the two US bases and the condemnations from Kuwait and Bahrain.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as Iran's stated retaliatory action, framed alongside Gulf state condemnations to emphasise regional backlash.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Iran's IRGC said it was taking measures to control traffic in the strait, warning that vessels violating those measures would be dealt with more firmly than before.",
+      "classification": "single_source",
+      "claim_group": "military_operations",
+      "rationale": "Only Euronews reported this specific IRGC statement on traffic control and enforcement.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as an escalatory warning from Iran's Revolutionary Guards reinforcing Tehran's claim of authority over strait navigation.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "US President Donald Trump issued warnings on Truth Social on Saturday that Iran would 'no longer exist' if the US were 'forced' to restart the war.",
+      "classification": "single_source",
+      "claim_group": "international_response",
+      "rationale": "Only Euronews reported Trump's specific Truth Social post with this language and timing.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as Trump restating his most extreme threat, directly quoting the 'no longer exist' language to underscore the severity of the US position.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Disputed: Multiple US media outlets reported that fresh US-Iran talks were planned for Tuesday in Doha; Tehran denied the reports, while Trump stated on Truth Social that Iran had requested a meeting and it would take place in Doha.",
+      "classification": "corroborated",
+      "claim_group": "ceasefire_and_framework_deal",
+      "rationale": "Euronews and i24 News both reported the contradictory accounts: Iran denied the planned talks while Trump publicly asserted they would happen, representing a direct dispute between the two parties over whether a meeting was scheduled.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as a contradiction: Tehran denied the reports, Gharibabadi said conditions were not yet met, while Trump posted on Truth Social that Iran had 'requested a meeting' in Doha.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Headlined as US and Iran agreeing to halt attacks and 'reportedly' holding talks in Qatar on Tuesday, presented as a fait accompli without noting Iran's denial.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "Iran's deputy foreign minister Kazem Gharibabadi said Iran's consultations with Qatar are ongoing as usual, but that reports about technical talks in Doha are unconfirmed and that the first round of technical talks will take place only when all conditions are met and all sides agree on a date and venue.",
+      "classification": "single_source",
+      "claim_group": "ceasefire_and_framework_deal",
+      "rationale": "Only Euronews reported Gharibabadi's specific statements about Qatar consultations, the unconfirmed Doha reports, and Iran's conditions for technical talks.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as Iran's official position: maintaining diplomatic contacts while refusing to confirm a specific meeting, and setting conditions for any technical talks.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "The Sultan of Oman met with French President Emmanuel Macron on Monday.",
+      "classification": "single_source",
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reported this specific diplomatic meeting between the Sultan of Oman and Macron.",
+      "framing_variants": [
+        {
+          "characterization": "Mentioned as context for Western engagement with Oman's strait management proposal.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "France and the UK have a naval taskforce ready to police an agreement on freedom of navigation through the Strait of Hormuz.",
+      "classification": "single_source",
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reported the existence of a Franco-British naval taskforce in readiness to enforce a navigation agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Described as 'in theory' ready, implying the taskforce is contingent on an agreement being reached first.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_028",
+      "text": "Mohammad Mokhber, adviser to Iran's Ayatollah Mojtaba Khamenei, wrote on X that as long as Tehran managed the strait, Washington's 'hegemonic dreams' in the region would not be realised.",
+      "classification": "single_source",
+      "claim_group": "international_response",
+      "rationale": "Only Euronews reported this statement from Mokhber.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as reflecting Iran's ideological framing of its control over the strait as a counter to US regional influence.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_029",
+      "text": "Dozens of vessels travelled along the Omani-coast side of the waterway this week, contrary to Iran's preferred corridor.",
+      "classification": "single_source",
+      "claim_group": "strait_blockade_and_shipping",
+      "rationale": "Only Euronews reported the volume of vessels using the Omani-coast route in defiance of Iran's preferred corridor.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as evidence that shipping was already defying Iran's navigation preferences, heightening tensions.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "The Strait of Hormuz is approximately 24 miles wide and comprises Omani and Iranian territorial waters. Under customary international law, neither state can generally block passage or levy tolls, though service fees may be permissible under Article 43 of UNCLOS.",
+      "sources": [
+        "src_001",
+        "src_003"
+      ]
+    },
+    {
+      "point": "A fifth of the world's oil and liquefied natural gas passed through the Strait of Hormuz before the conflict began. Its blockade by Iran from 28 February 2026 sent energy prices sharply higher and disrupted global supply chains for more than four months.",
+      "sources": [
+        "src_003"
+      ]
+    },
+    {
+      "point": "The broader conflict began when the US and Israel launched airstrikes across Iran, prompting Tehran to blockade the strait and exchange further military strikes with the US, including Iranian attacks on US bases in Kuwait and Bahrain.",
+      "sources": [
+        "src_003"
+      ]
+    },
+    {
+      "point": "Oman has played a central mediating role, hosting Iran-US diplomatic contacts and developing a detailed legal framework for long-term management of the strait over approximately two months.",
+      "sources": [
+        "src_001",
+        "src_003"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-01T19:44:54.635992+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Iran and the United States signed a memorandum of understanding on 18 June 2026, establishing a framework for negotiations aimed at resolving their longstanding disputes. The agreement set a 60-day period for the two sides to negotiate a final settlement covering Iran's nuclear programme, the lifting of sanctions, and the long-term status of the Strait of Hormuz.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Under the memorandum, Iran agreed to define the future administration of the Strait of Hormuz in dialogue with Oman and other Gulf States, in line with international law. However, substantive talks over Iran's nuclear programme were not required to start until after the lifting of the blockade of the Strait of Hormuz, and Iran was required to use only 'its best endeavours' to achieve that lifting.",
+        "supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_003",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Iran and Oman held the first meeting of a Joint Hormuz Committee in Muscat, with Iran's deputy foreign minister Kazem Gharibabadi meeting Oman's minister of state for foreign affairs Abdulaziz al-Hinai. The two countries are pushing ahead with a plan to charge fees for passage through the Strait of Hormuz, despite US objections.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The Strait of Hormuz, through which a fifth of the world's oil and liquefied natural gas passed prior to the conflict, was effectively blockaded by Tehran on 28 February 2026, coinciding with US and Israeli airstrikes against Iran. The closure sent energy prices sharply higher and disrupted global supply chains for more than four months.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The central route through the Strait of Hormuz was closed because of mines, prompting proposals for alternative shipping lanes. Iran rejected a southern shipping route near the Omani coast developed with the UN's International Maritime Organization, which would have opened two lanes: one in Omani waters overseen by the US Joint Maritime Information Center, and one closer to Iran.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Tehran insists that ships transiting the Strait of Hormuz pass through a corridor near its own shores, and warned that attempts to bypass this preferred route would increase tensions and delay reopening. Iran's Islamic Revolutionary Guard Corps said it was taking measures to control traffic in the strait, warning that vessels violating those measures would be dealt with more firmly than before.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Center and center-left outlets reported Oman's proposed management system in detail, noting it would ensure littoral states receive income from commercial shipping through voluntary contributions or payments for specific navigational services, not tolls. Oman's foreign minister Badr al-Busaidi stated that Oman is not in favour of imposing tolls on passage through the Strait of Hormuz, noting that tolls are prohibited under international law while service fees are legal. Article 26 of the UN Convention on the Law of the Sea forbids payment for mere passage through an international strait, while Article 43 permits user states and strait states to cooperatively fund maritime services.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "On Saturday, the US Navy's Joint Maritime Information Center announced a formal widened shipping route near the Omani coast, in direct challenge to Iran's assertion of sole navigational authority. Dozens of vessels travelled along the Omani-coast side of the waterway this week, contrary to Iran's preferred corridor.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_029"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "An Iranian attack on a Singaporean ship travelling through the southern route occurred on Thursday, which led the International Maritime Organization to abandon the southern route plan. On Saturday, an Iranian drone attacked the M/T Kiku, a Panama-flagged crude oil tanker heading to Fujairah in the UAE.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "US Central Command said it struck 10 Iranian military targets early Sunday in response to continued Iranian aggression against commercial shipping. Iran said it retaliated against US military strikes by targeting the US Fifth Fleet headquarters at Salman Port in Bahrain and the Ali Al Salem Air Base in Kuwait; both Kuwait and Bahrain denounced the Iranian attacks.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "US President Donald Trump issued warnings on Truth Social on Saturday that Iran would 'no longer exist' if the US were 'forced' to restart the war. Mohammad Mokhber, adviser to Iran's Ayatollah Mojtaba Khamenei, wrote on X that as long as Tehran managed the strait, Washington's 'hegemonic dreams' in the region would not be realised.",
+        "supports": {
+          "claim_ids": [
+            "clm_023",
+            "clm_028"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Multiple US media outlets reported that fresh US-Iran talks were planned for Tuesday in Doha, but Tehran denied the reports. Trump stated on Truth Social that Iran had requested a meeting and it would take place in Doha. Iran's deputy foreign minister Kazem Gharibabadi said Iran's consultations with Qatar are ongoing as usual, but that reports about technical talks in Doha are unconfirmed and that the first round of technical talks will take place only when all conditions are met and all sides agree on a date and venue.",
+        "supports": {
+          "claim_ids": [
+            "clm_024",
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Sultan of Oman met with French President Emmanuel Macron on Monday. France and the UK have a naval taskforce ready to police an agreement on freedom of navigation through the Strait of Hormuz.",
+        "supports": {
+          "claim_ids": [
+            "clm_026",
+            "clm_027"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

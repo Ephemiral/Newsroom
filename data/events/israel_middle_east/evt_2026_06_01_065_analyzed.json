@@ -1,12 +1,14 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "event": {
     "cluster_id": "evt_2026_06_01_065",
     "beat": "israel_middle_east",
     "title": "France Bars Israeli Officials and Offensive Weapons from Eurosatory 2026 Defence Exhibition",
     "summary": "France banned Israeli government representatives from attending the Eurosatory defence exhibition in Paris in June 2026, and restricted Israeli companies to displaying only air defence products while prohibiting offensive weapons systems. Israel's Defence Ministry condemned the move as 'disgraceful.'",
     "date": "2026-06-01",
-    "generated_at": "2026-06-01T21:08:17.799781+00:00"
+    "generated_at": "2026-06-01T21:08:17.799781+00:00",
+    "image_attempted_at": "2026-07-06T07:54:38.898301+00:00",
+    "image": null
   },
   "sources": [
     {

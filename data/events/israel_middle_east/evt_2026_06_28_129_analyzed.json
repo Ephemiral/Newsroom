@@ -1,12 +1,28 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "event": {
     "cluster_id": "evt_2026_06_28_129",
     "beat": "israel_middle_east",
     "title": "Iranian Drone and Missile Strikes on Kuwait International Airport",
     "summary": "Iranian drones and missiles struck Kuwait International Airport on Wednesday, June 3, 2026, killing one person (later identified as an Indian national) and injuring more than 60 others, causing significant damage to a passenger terminal. The attack prompted diplomatic fallout between Kuwait and Iran, occurring amid broader US-Iran military exchanges and ongoing ceasefire negotiations.",
     "date": "2026-06-03",
-    "generated_at": "2026-06-29T20:43:16.224217+00:00"
+    "generated_at": "2026-06-29T20:43:16.224217+00:00",
+    "image_attempted_at": "2026-07-06T07:56:39.183234+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Kuwait_International_Airport.jpg/1280px-Kuwait_International_Airport.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Kuwait_International_Airport.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kuwait_International_Airport.jpg",
+      "width": 1200,
+      "height": 900,
+      "caption": "Kuwait International Airport (file photo)",
+      "credit": "Dhaval Surana",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Kuwait International Airport.jpg",
+      "query": "Kuwait International Airport",
+      "fetched_at": "2026-07-06T07:56:39.183218+00:00"
+    }
   },
   "sources": [
     {

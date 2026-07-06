@@ -1,12 +1,14 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "event": {
     "cluster_id": "evt_2026_06_01_009",
     "beat": "israel_middle_east",
     "title": "Israel Threatens Beirut Strikes, Iran Suspends US Talks, Trump Claims Ceasefire Agreement",
     "summary": "On June 1, 2026, Israeli Prime Minister Netanyahu ordered strikes on Beirut's southern suburbs (Dahieh) citing Hezbollah ceasefire violations, triggering mass civilian displacement and Iranian threats to suspend US peace negotiations. By evening, Trump announced via Truth Social that he had spoken with Netanyahu and Hezbollah representatives, claiming all shooting would stop — though Israel and Hezbollah did not immediately confirm the agreement.",
     "date": "2026-06-01",
-    "generated_at": "2026-06-01T21:21:08.840877+00:00"
+    "generated_at": "2026-06-01T21:21:08.840877+00:00",
+    "image_attempted_at": "2026-07-06T07:54:21.469876+00:00",
+    "image": null
   },
   "sources": [
     {

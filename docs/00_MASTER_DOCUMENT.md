@@ -3,9 +3,9 @@
 
 > **Read this first.** This is the single source of truth for the project. Anyone — a human collaborator, Claude Code, or Claude Cowork — should be able to read this document and understand what the project is, why it exists, how it is architected, and what to build next. If you only read one file, read this one. Then consult the per-stage instruction docs (`STAGE_*.md`) for implementation detail, and keep `TRACKSHEET` updated as you go.
 
-**Last updated:** 31 May 2026
+**Last updated:** 6 July 2026
 **Owner:** G (GitHub: Ephemiral)
-**Status:** Pre-build. Architecture and plan defined. No pipeline code written yet.
+**Status:** Live (Vercel), M9 in progress. Pipeline runs autonomously every 4 hours (§15); events carry openly-licensed images (schema v0.3, §15b).
 
 ---
 
@@ -582,6 +582,40 @@ Leaning toward option 1 as the immediate fix, with 2/3 as later refinements if 1
 **The existing mechanism handles accountability adequately for now:** Claims are attributed to the outlets that reported them; readers can click through to the original article. The generate prompt already requires verbatim quotes where available (from `framing_variants`), which reduces the risk of unattributed paraphrase.
 
 **The right future enhancement, if revisited:** Add a `source_type` field to the claim schema distinguishing between "journalist-reported fact," "attributed official statement," "primary document cited," and "statistics from official body." This would let the UI flag paragraphs containing attributed official statements without requiring primary source links. It preserves the existing pipeline model while surfacing the indirect sourcing as a signal readers can assess. Worth considering as a schema addition (alongside a schema version bump) once external validation has run and the core loop is proven.
+
+---
+
+## 15. Autonomous Operation & Event Images (added 6 July 2026)
+
+### 15a. Autonomous pipeline (`scripts/auto_run.py`)
+
+The pipeline now runs unattended. One cycle = ingest → cluster → **qualify** → analyze/annotate/generate → image → git commit + push (Vercel auto-deploys). Scheduled via launchd every 4 hours (`config/launchd/com.critiqal.newsroom.autorun.plist`; install/disable instructions are in the plist header comment).
+
+**Qualification gates** (a cluster must pass all of them to publish — this is the codified version of the manual selection criteria used in sessions 11–13):
+
+| Gate | Rule | Why |
+|---|---|---|
+| Size | 4–40 articles | Below 4: no diversity. Above 40: likely mega-cluster (B-12 family) |
+| Outlets | ≥3 distinct | Multi-outlet requirement |
+| Spectrum | ≥1 left-of-center AND ≥1 right-of-center outlet | The product's core promise |
+| Bodies | ≥3 articles with ≥400 chars body text | Claims need real text to extract from |
+| Cohesion | mean pairwise cosine sim ≥ 0.65 | Rejects grab-bag clusters |
+| Novelty | ≤40% URL overlap with any published event | No duplicate events on the homepage (B-13) |
+| One attempt | article-set fingerprint recorded in `data/logs/autorun/state.json` | A failed/rejected set is not retried every 4h |
+
+Additional safety properties: report validation errors abort that event and delete its artifacts (nothing broken is published); a lock file prevents overlapping cycles; per-run JSON logs land in `data/logs/autorun/`; max 2 events published per cycle (cost control, tunable via `--max-events`). Auto-published events get IDs of the form `evt_YYYY_MM_DD_auto_NNN`. Unlike the manual `--discover` flow, auto mode writes **only the selected clusters'** JSON files to `data/events/` — no more thousands of raw cluster files.
+
+**Human review note:** this supersedes the "human review before publish" MVP mitigation in §7 by owner decision (July 2026). The gates + report validation are the review. Spot-check the homepage regularly, especially early on.
+
+### 15b. Event images (schema v0.3, `pipeline/images/`)
+
+Every event gets an optional openly-licensed file photo, embedded at `event.image` in the per-event JSON (schema bumped 0.2 → 0.3; additive, so v0.2 files still render).
+
+- **Source: Wikimedia Commons only.** Accepted licenses: CC0, CC BY, CC BY-SA, public domain. NC/ND variants rejected. This eliminates the copyright exposure of using publisher photography (§7). Hotlinking from `upload.wikimedia.org` is explicitly permitted by Wikimedia.
+- **Selection:** Haiku turns the event title/summary into 2–4 concrete visual search queries (people, places, institutions); Commons is searched; Haiku picks the most relevant, editorially neutral candidate or rejects all (maps/flags/logos/gore rejected). No image is always acceptable; a wrong image is not.
+- **Attribution is stored and must be rendered** (`caption`, `credit`, `license`, `license_url`, `source_page`) — the event page shows a full credit line. For CC BY / CC BY-SA this is a license requirement, not a courtesy.
+- **Honesty note:** these are *file photos* (a portrait of the PM, a photo of the strait), not photos of the specific event. Captions are generated to say so.
+- CLI: `python3 -m pipeline.images.run --event-id evt_X [--force]` or `--all-missing`.
 
 ---
 

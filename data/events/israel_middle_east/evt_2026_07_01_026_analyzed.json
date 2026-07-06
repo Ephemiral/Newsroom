@@ -1,0 +1,923 @@
+{
+  "schema_version": "0.3",
+  "event": {
+    "cluster_id": "evt_2026_07_01_026",
+    "beat": "israel_middle_east",
+    "title": "US Envoys Arrive in Doha Amid Disputed Iran Meeting Plans",
+    "summary": "US special envoy Steve Witkoff and Jared Kushner traveled to Doha on Tuesday for talks with Qatari mediators on US-Iran negotiations, following a four-day exchange of strikes over the Strait of Hormuz. Iran and Qatar's foreign ministry both denied that any direct US-Iran meeting was scheduled, contradicting earlier statements by President Trump and the White House.",
+    "date": "2026-06-30",
+    "generated_at": "2026-07-01T19:39:36.308939+00:00",
+    "image_attempted_at": "2026-07-06T07:57:02.613026+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/trump-says-next-us-iran-meeting-to-be-held-in-doha-tuesday-amid-conflicting-reports/",
+      "author": null,
+      "published_at": "2026-06-29T13:52:49+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZWlTN0M4a0lya0J1UmV6eHppZW4wVjJFMjlVcWNZU0o5bHQ1OGhfdnZDcGJOU3ZEYlF1Ylh5aTlHcXpBeDgtdTdMeFZBQkNfdlUxUWhZOGxyS3l1R0JZMmxyaG10LXc2TEVQRjU5anpxR0RVYS1zRnpZRWZaN25lT1lCRTZ6cWlEM0U1YmhLdHRmSzB3T2VvTktjYVdvTC1VUmhGTUxqYko3N1V5R2xPQW9BdzVhaTV4VzZpRg?oc=5",
+      "author": null,
+      "published_at": "2026-06-29T12:40:27+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/2026/06/30/us-envoys-witkoff-and-kushner-land-in-qatar-for-fresh-iran-war-talks",
+      "author": null,
+      "published_at": "2026-06-30T10:43:26+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/Trump%3A%20Doha%20meeting%20may%20prove%20important%20for%20Iran%20talks",
+      "author": "Qazi Zaid",
+      "published_at": "2026-06-30T02:28:41+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcGNVdFY5c0Q5TVhJNV9LalBTbGJtQVcwanpsVUF6SnpHVzEzMWNHbG5WQ0t5MXpDQWxBeUJqNUJkSTMyNXp6SXo2Yi10LWluN1lDU09PWUxIM1BXNTdLRW9qYnluSVhJdW56QVlGX2NQTkdoa2puRlFmX1lZbTNobHNPbUlRNGkzcUtsQTBHSmVPdHB3TkRfNzB6NFFXQzVRWXNWdmFicThIR25Hcnctb2tndkdVM0Q3cGVFbHZmelRwU3Nac096Mm82Wk1WTXM?oc=5",
+      "author": null,
+      "published_at": "2026-06-30T10:49:43+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cpd38x1dy4no?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-06-30T23:41:11+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcXNSRWRjWTdUUDFHVm4ta1p5VU9oR0IySnVaYVBzRkRUODVheVRtMHRfY0tIRFhYZ01zc1gyY25udnV3VEREOWM1S09hYXE0VjZ4YlNJcnUzVHg4WllEU2V4Mzc3NWxPZXJlaDUyZFZJeVM3NEEtUG9WT3l5b0RyZXJ0bk1LQ0dvUXJyYTQxWW56MTRROHRqMXVvU3l0WGNaNFRJSGlSY2dTTTRRUFVnUFdEZUN5YThNaGpieWdmZ3dsVWl2ZkdV?oc=5",
+      "author": null,
+      "published_at": "2026-06-30T03:44:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "US special envoy Steve Witkoff and Jared Kushner arrived in Doha on Tuesday.",
+      "classification": "agreed",
+      "claim_group": "diplomatic_meetings",
+      "rationale": "Sources across center-right (Times of Israel), center (Reuters, Euronews), and center-left (BBC) all confirm the arrival of Witkoff and Kushner in Doha, meeting the cross-spectrum threshold for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "White House announced envoys would attend 'high-level' talks with technical talks on the sidelines",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Confirmed by Qatar's foreign ministry spokesman at a news conference",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Qatar's foreign ministry spokesman confirmed US envoys had arrived in Doha",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_005",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Trump claimed on Monday that Iran had requested a meeting and that it would take place on Tuesday in Doha; Iran's officials denied any such meeting was scheduled at any level.",
+      "classification": "corroborated",
+      "claim_group": "diplomatic_meetings",
+      "rationale": "Trump and the White House stated Iran had requested a direct meeting in Doha, while Iranian officials—including Foreign Ministry spokesman Esmail Baqai and lead negotiator Kazem Gharibabadi—denied any meeting with the US was scheduled at any level, a direct factual contradiction reported across multiple outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Trump posted on Truth Social that Iran requested the meeting; Iranian officials said earlier that day that no such meeting was scheduled",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Trump said Iran requested a meeting; Tehran insisted it had not agreed to meet with the US 'at any level'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Trump said Iran requested a meeting in Qatar's capital on Tuesday; Iranian Foreign Ministry spokesman said 'No meeting at any level with the American side has been scheduled for the coming days'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Qatar's foreign ministry confirmed Witkoff and Kushner were in Doha to meet with Qatari mediators and officials, but stated they would not meet Iranian officials and that no direct US-Iran meetings were scheduled in the coming days.",
+      "classification": "agreed",
+      "claim_group": "diplomatic_meetings",
+      "rationale": "Qatar's stated position—that the US envoys were present for mediation talks but not for direct US-Iran meetings—was reported consistently by center outlets (Reuters, Euronews) and center-left (BBC), spanning different parts of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Qatar confirmed envoys met with Qatari officials; Iran stated it had not agreed to meet the US 'at any level'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "A Qatari official stated there would be no meeting with Iran",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Qatar's foreign ministry spokesman said the envoys are 'not here for direct negotiations with the Iranians or related meetings'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The talks in Doha were described by Qatar's foreign ministry as covering all regional issues, including negotiations with Iran, Lebanon, and other regional files.",
+      "classification": "agreed",
+      "claim_group": "diplomatic_meetings",
+      "rationale": "Both Euronews (center) and BBC (center-left) reported Qatar's foreign ministry spokesman's statement about the broader regional scope of the talks, with nearly identical quotes.",
+      "framing_variants": [
+        {
+          "characterization": "Qatari officials described talks as covering 'all regional issues… including negotiations with Iran, but also including Lebanon'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Qatar's spokesman quoted: 'The talks will be around all regional issues which are of concern, including, of course, the negotiations with Iran, but also including Lebanon and other files in the region'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Iran announced it would send delegations to Qatar during the week to consult with Qatari officials on points of the framework deal, including the release of frozen assets and lifting of sanctions on Iranian oil exports.",
+      "classification": "agreed",
+      "claim_group": "diplomatic_meetings",
+      "rationale": "Both Euronews (center) and BBC (center-left) reported Iran's announcement of sending delegations to Doha for consultations with Qatari mediators, not with US counterparts.",
+      "framing_variants": [
+        {
+          "characterization": "Iran 'separately announced it will send delegations to Qatar this week' focused on consultations with Qatari officials on framework deal points",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Iranian Foreign Ministry spokesman said officials were 'likely to hold talks with mediators in Doha on Wednesday' to discuss MoU implementation",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Iran's stated negotiating priorities in the Doha consultations include the release of frozen assets and the lifting of sanctions on Iranian oil exports.",
+      "classification": "corroborated",
+      "claim_group": "diplomatic_meetings",
+      "rationale": "Both Euronews and BBC reported Iran's stated priorities, but both are center or center-left outlets, so this is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Release of frozen assets and lifting of sanctions on Iranian oil exports described as 'at the forefront of the talks'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Iranian spokesman said talks would 'discuss implementation of provisions in the MoU, including one concerning the release of Iranian assets frozen under US sanctions'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Iranian President Pezeshkian claimed that $6 billion out of $12 billion in frozen Iranian assets held in Qatar would be released as part of the deal with the US; US officials and Qatar denied any transfer had taken place.",
+      "classification": "contested",
+      "claim_group": "frozen_assets_dispute",
+      "rationale": "Iranian President Pezeshkian publicly claimed $6 billion in assets would be released and called it a 'great victory,' while US officials said no frozen assets had been released and Qatar's foreign ministry said the release depended on progress in talks that had not yet happened—a direct three-way factual dispute.",
+      "framing_variants": [
+        {
+          "characterization": "Pezeshkian called the release 'a great victory for the Iranian people'; US officials say no frozen assets have been released; Qatar has not acknowledged any transfer",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Qatar's spokesman said the release of $6bn 'depended on progress in talks between the US and Iran that had not yet happened'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": [
+        "src_006"
+      ]
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "A total of $12 billion in frozen Iranian assets are held in Qatar, of which $6 billion is the subject of potential release discussions.",
+      "classification": "corroborated",
+      "claim_group": "frozen_assets_dispute",
+      "rationale": "Both Times of Israel (center-right) and BBC (center-left) reported the same figures of $12 billion total with $6 billion potentially subject to release, providing cross-spectrum corroboration of the underlying numbers.",
+      "framing_variants": [
+        {
+          "characterization": "Pezeshkian stated '$6 billion out of the total $12 billion of Iranian resources in Qatar will be released'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Qatar's spokesman confirmed 'the $12bn in frozen Iranian assets held in Qatar' with $6bn release contingent on talks progress",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "A US-Iran memorandum of understanding (MoU) was signed approximately two weeks before June 30, brokered by Pakistan and Qatar, committing both sides to halt military operations on all fronts including Lebanon and to immediately reopen the Strait of Hormuz.",
+      "classification": "agreed",
+      "claim_group": "mou_and_ceasefire",
+      "rationale": "The existence and core terms of the MoU are consistently reported across center-right (Times of Israel), center (Euronews), and center-left (BBC) outlets, satisfying the cross-spectrum requirement.",
+      "framing_variants": [
+        {
+          "characterization": "References the MoU signed by Tehran and Washington as basis for Strait of Hormuz management discussions",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Described as 'US-Iran framework deal signed on 17 June'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "MoU 'brokered by Pakistan and Qatar less than two weeks ago' committed countries to halt military operations and immediately reopen the Strait",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The MoU gave both sides at least 60 days to reach a final deal covering Iran's nuclear programme, US sanctions, and a permanent truce.",
+      "classification": "single_source",
+      "claim_group": "mou_and_ceasefire",
+      "rationale": "Only BBC reported the specific 60-day timeline and the three-part scope of a final deal, making this a single-source claim.",
+      "framing_variants": [
+        {
+          "characterization": "The MoU gave countries 'at least 60 days to reach a final deal that covers Iran's nuclear programme, US sanctions and a permanent truce'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Pakistan and Qatar brokered the MoU; Pakistan said talks would resume on Tuesday.",
+      "classification": "corroborated",
+      "claim_group": "mou_and_ceasefire",
+      "rationale": "Both Times of Israel and BBC reported Pakistan's role as co-broker and Pakistan's statement about talks resuming, but these are center-right and center-left outlets—corroborated across the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Pakistan said talks would resume Tuesday",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "MoU 'brokered by Pakistan and Qatar'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "The first round of talks under the MoU was held in Switzerland approximately one week before June 30; Pakistani and Qatari mediators described progress as encouraging. US Vice-President JD Vance and Iran's Parliamentary Speaker Mohammed Bagher Ghalibaf attended.",
+      "classification": "single_source",
+      "claim_group": "mou_and_ceasefire",
+      "rationale": "Only BBC reported the Switzerland venue, mediators' characterization of progress, and the specific high-level attendees for the first round of talks.",
+      "framing_variants": [
+        {
+          "characterization": "Mediators said 'encouraging progress was made at the first round of talks held in Switzerland a week ago' attended by Vance and Ghalibaf",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "A four-day exchange of strikes between the US and Iran occurred before both sides agreed to stand down, triggered by a dispute over the reopening of the Strait of Hormuz.",
+      "classification": "agreed",
+      "claim_group": "strait_of_hormuz_conflict",
+      "rationale": "Both Euronews (center) and BBC (center-left) reported the four-day exchange of strikes and its cause, with near-identical characterizations spanning different outlets.",
+      "framing_variants": [
+        {
+          "characterization": "'After four days of trading strikes, both sides appeared to pause their attacks on Monday'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "'A four-day exchange of strikes triggered by a dispute over the reopening of the crucial Strait of Hormuz waterway'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Iran attacked a cargo ship on Thursday after efforts were made to open Oman's territorial waters to inbound and outbound traffic on the southern side of the Strait of Hormuz.",
+      "classification": "corroborated",
+      "claim_group": "strait_of_hormuz_conflict",
+      "rationale": "Both Times of Israel and BBC reported an Iranian attack on a vessel and related disruption to the Strait, though with slightly different details about the specific vessel; both are corroborating the core incident.",
+      "framing_variants": [
+        {
+          "characterization": "Iran attacked a tanker filled with Qatari crude oil 'this weekend during crossfire in the Persian Gulf'; a UN-led seafarer evacuation was suspended after a vessel was struck in the Gulf of Oman on Thursday",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "'Iran attacked a cargo ship on Thursday following efforts to open Oman's territorial waters to both inbound and outbound traffic on the southern side of the strait'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Iran warned vessels that the only permitted route through the Strait of Hormuz was through its own waters on the northern side, while also asserting it would control the waterway based on its interpretation of the framework deal.",
+      "classification": "corroborated",
+      "claim_group": "strait_of_hormuz_conflict",
+      "rationale": "Both Euronews and BBC reported Iran's position asserting control over the Strait's northern route and its interpretive stance on the framework deal, both from center or center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "'Iran digging in on its position that it will control the waterway from now on based on its own interpretation of the framework deal'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "'Iran had warned vessels that the only route was through its own waters on the northern side'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "A US official said on Sunday night that both sides would 'stand down for now,' that vessels could move freely in and around the strait, and that technical talks would continue on all areas of the MoU.",
+      "classification": "single_source",
+      "claim_group": "strait_of_hormuz_conflict",
+      "rationale": "Only BBC reported the specific US official statement about both sides standing down and vessels moving freely, alongside the continuation of technical talks.",
+      "framing_variants": [
+        {
+          "characterization": "US official said both sides would 'stand down for now,' vessels could 'move freely,' and technical talks would 'continue on all areas of the MoU'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Approximately 20% of global oil and gas shipments pass through the Strait of Hormuz.",
+      "classification": "corroborated",
+      "claim_group": "strait_of_hormuz_conflict",
+      "rationale": "Both Euronews and BBC cited the same figure for the Strait's share of global oil and gas trade, both from center/center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "'Through which a fifth of the world's oil had been shipped before war began'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "'Through which about 20% of global oil and gas shipments pass'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Maritime traffic through the Strait of Hormuz declined sharply after new strikes, with 29 vessel crossings on Saturday and only 12 on Sunday, down from a peak of 70 on Wednesday following the MoU.",
+      "classification": "single_source",
+      "claim_group": "strait_of_hormuz_conflict",
+      "rationale": "Only Times of Israel reported the specific Kpler traffic data showing the drop in vessel crossings from a post-MoU peak to the weekend figures.",
+      "framing_variants": [
+        {
+          "characterization": "Kpler data showed traffic peaked at 70 crossings Wednesday post-MoU, then fell to 29 Saturday and 12 Sunday after renewed strikes",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "A UN-led operation to evacuate 11,000 seafarers was suspended on Thursday after a vessel was struck in the Gulf of Oman.",
+      "classification": "single_source",
+      "claim_group": "strait_of_hormuz_conflict",
+      "rationale": "Only Times of Israel reported the suspension of the UN seafarer evacuation operation and the specific number of seafarers involved.",
+      "framing_variants": [
+        {
+          "characterization": "UN-led evacuation of 11,000 seafarers suspended Thursday after a vessel strike in Gulf of Oman",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Iranian officials held a meeting with Oman as the first session of a joint committee on the Strait of Hormuz, covering Gulf coastal states' sovereign rights and the strait's future management under the MoU.",
+      "classification": "single_source",
+      "claim_group": "strait_of_hormuz_conflict",
+      "rationale": "Only Times of Israel reported Iranian negotiator Gharibabadi's announcement of the Iran-Oman joint committee meeting and its agenda.",
+      "framing_variants": [
+        {
+          "characterization": "Gharibabadi announced Iranian representatives met with Oman as the 'first meeting of a joint committee on the Strait of Hormuz'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Trump stated the conflict was 'almost won militarily' and that Iran had agreed not to pursue a nuclear weapon, framing US objectives as securing the denuclearisation of Iran.",
+      "classification": "corroborated",
+      "claim_group": "us_iran_nuclear_negotiations",
+      "rationale": "Both Middle East Eye and BBC reported Trump's characterizations of the military and nuclear dimensions, though from left and center-left outlets respectively.",
+      "framing_variants": [
+        {
+          "characterization": "Trump said the conflict was 'almost won militarily' and described the US goal as 'denuclearisation of Iran,' claiming Iran 'agreed to that'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Qatar's spokesman described a 'track on the nuclear side' of negotiations as one of three parallel tracks",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Qatar's foreign ministry spokesman described three parallel negotiating tracks: a nuclear track, an economic and state performance track, and a security and regional security track.",
+      "classification": "single_source",
+      "claim_group": "us_iran_nuclear_negotiations",
+      "rationale": "Only BBC reported Qatar's foreign ministry spokesman's specific description of the three-track negotiating structure.",
+      "framing_variants": [
+        {
+          "characterization": "Qatar's spokesman described tracks on 'the nuclear side,' 'the economic and state performance issue,' and 'security and the regional security'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Iran's deputy foreign minister and lead technical negotiator Kazem Gharibabadi denied that technical talks by working groups in Doha had been confirmed, while stating that consultations with Qatar on MoU implementation were continuing.",
+      "classification": "agreed",
+      "claim_group": "diplomatic_meetings",
+      "rationale": "Both Times of Israel (center-right) and BBC (center-left) reported Gharibabadi's denial of working-group technical talks while acknowledging ongoing Qatar consultations, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Gharibabadi said 'reports by some media about technical talks by the working groups being held in Doha are not confirmed' while consultations with Qatar 'are continuing as usual'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Gharibabadi 'denied that there were plans for technical talks this week'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "A senior Trump administration official told CBS News that 'very positive conversations' had been held between Witkoff, Kushner and regional leaders, with 'good progress in technical talks' continuing.",
+      "classification": "single_source",
+      "claim_group": "diplomatic_meetings",
+      "rationale": "Only BBC reported the unnamed senior Trump administration official's characterization of the Doha consultations as 'very positive' with 'good progress.'",
+      "framing_variants": [
+        {
+          "characterization": "Senior Trump official told CBS News talks were 'very positive' and 'good progress in technical talks continues'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "Steve Witkoff has served as the Trump administration's lead envoy on Middle East negotiations since the start of Trump's second term and played a central role in both the Gaza ceasefire talks and the US-Iran framework deal.",
+      "classification": "single_source",
+      "claim_group": "envoy_backgrounds",
+      "rationale": "Only Euronews provided detailed background on Witkoff's roles in Gaza and the Iran framework deal within this event cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Witkoff described as a 'real estate investor' who 'served as the administration's lead envoy on Middle East negotiations' and played a 'central role in both the Gaza ceasefire talks and the more recent US-Iran framework deal signed on 17 June'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "Jared Kushner, Trump's son-in-law, has worked as a senior adviser on regional diplomacy alongside Witkoff, building on his role brokering the Abraham Accords during Trump's first term.",
+      "classification": "single_source",
+      "claim_group": "envoy_backgrounds",
+      "rationale": "Only Euronews provided detailed background on Kushner's diplomatic history and current role in this event cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Kushner described as 'Trump's son-in-law' who 'worked alongside him as a senior adviser on regional diplomacy,' building on the Abraham Accords role",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "Iran's Foreign Ministry spokesman Esmail Baqai said Iran would 'do whatever is necessary to safeguard its interests' over the Strait of Hormuz and implement related MoU provisions.",
+      "classification": "single_source",
+      "claim_group": "strait_of_hormuz_conflict",
+      "rationale": "Only BBC reported Baqai's specific warning about safeguarding Iran's interests over the Strait while also citing MoU implementation.",
+      "framing_variants": [
+        {
+          "characterization": "Iranian spokesman said Iran would 'do whatever is necessary to safeguard its interests' over the Strait and 'implement related provisions in the MoU'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "A US-Iran memorandum of understanding was signed on approximately June 17, 2026, brokered by Pakistan and Qatar, committing both sides to halt military operations on all fronts and immediately reopen the Strait of Hormuz, with 60 days to negotiate a final deal covering Iran's nuclear programme, US sanctions, and a permanent truce.",
+      "sources": [
+        "src_003",
+        "src_006",
+        "src_001"
+      ]
+    },
+    {
+      "point": "The Strait of Hormuz carries approximately 20% of global oil and gas shipments, making it one of the world's most strategically critical maritime chokepoints.",
+      "sources": [
+        "src_003",
+        "src_006"
+      ]
+    },
+    {
+      "point": "A four-day exchange of strikes between the US and Iran occurred after the MoU was signed, triggered by a dispute over the route for vessel traffic through the Strait—Iran insisting ships use its northern waters, while the US sought use of the southern Omani corridor.",
+      "sources": [
+        "src_006",
+        "src_003",
+        "src_001"
+      ]
+    },
+    {
+      "point": "The first round of high-level talks under the MoU was held in Switzerland approximately one week before June 30, attended by US Vice-President JD Vance and Iran's Parliamentary Speaker Mohammed Bagher Ghalibaf.",
+      "sources": [
+        "src_006"
+      ]
+    },
+    {
+      "point": "Steve Witkoff served as the Trump administration's lead Middle East envoy and helped broker both the Gaza ceasefire and the US-Iran framework deal; Jared Kushner previously brokered the Abraham Accords during Trump's first term.",
+      "sources": [
+        "src_003"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-01T19:40:03.268514+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "US special envoy Steve Witkoff and Jared Kushner arrived in Doha on Tuesday for talks with Qatari mediators on regional negotiations, including discussions on US-Iran relations. The visit followed a four-day exchange of strikes between the US and Iran over the reopening of the Strait of Hormuz, after which both sides agreed to stand down.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_005",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Qatar's foreign ministry confirmed that Witkoff and Kushner were meeting with Qatari officials but stated explicitly that they would not meet Iranian officials and that no direct US-Iran meetings were scheduled in the coming days. The talks were described as covering all regional issues, including negotiations with Iran, Lebanon, and other regional files.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Iran announced it would send delegations to Qatar during the week to consult with Qatari officials on points of the framework deal, including the release of frozen assets and lifting of sanctions on Iranian oil exports. Iran's deputy foreign minister and lead technical negotiator Kazem Gharibabadi denied that technical talks by working groups in Doha had been confirmed, while stating that consultations with Qatar on implementing the memorandum of understanding were continuing.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "A US-Iran memorandum of understanding was signed approximately two weeks earlier, brokered by Pakistan and Qatar. The MoU committed both sides to halt military operations on all fronts including Lebanon and to immediately reopen the Strait of Hormuz. Pakistan stated that talks would resume on Tuesday.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_006"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The Strait of Hormuz is the transit route for approximately 20% of global oil and gas shipments, making its status a matter of international economic significance. The four-day exchange of strikes was triggered by a dispute over the reopening of the waterway under the terms of the memorandum of understanding.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_006"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Steve Witkoff has served as the Trump administration's lead envoy on Middle East negotiations since the start of Trump's second term and played a central role in both the Gaza ceasefire talks and the US-Iran framework deal. Jared Kushner, Trump's son-in-law, has worked as a senior adviser on regional diplomacy alongside Witkoff, building on his role brokering the Abraham Accords during Trump's first term.",
+        "supports": {
+          "claim_ids": [
+            "clm_025",
+            "clm_026"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Trump stated on Monday that the conflict was 'almost won militarily' and that Iran had agreed not to pursue a nuclear weapon, framing US objectives as securing the denuclearisation of Iran. Left-leaning and center-left outlets reported this characterization, though no outlets on the right side of the spectrum covered Trump's specific framing of the military and nuclear dimensions.",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Center-left outlets reported that the MoU gave both sides at least 60 days to reach a final deal covering Iran's nuclear programme, US sanctions, and a permanent truce. The same outlets reported that the first round of talks under the MoU was held in Switzerland approximately one week before June 30, with Pakistani and Qatari mediators describing progress as encouraging. US Vice-President JD Vance and Iran's Parliamentary Speaker Mohammed Bagher Ghalibaf attended.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Qatar's foreign ministry spokesman described three parallel negotiating tracks: a nuclear track, an economic and state performance track, and a security and regional security track. A senior Trump administration official told CBS News that 'very positive conversations' had been held between Witkoff, Kushner and regional leaders, with 'good progress in technical talks' continuing. These characterizations of the negotiating structure and progress assessments appeared only in center-left reporting.",
+        "supports": {
+          "claim_ids": [
+            "clm_022",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Iran attacked a cargo ship on Thursday after efforts were made to open Oman's territorial waters to inbound and outbound traffic on the southern side of the Strait of Hormuz. Iran warned vessels that the only permitted route through the waterway was through its own waters on the northern side, while also asserting it would control the Strait based on its interpretation of the framework deal. Iran's Foreign Ministry spokesman Esmail Baqai said Iran would 'do whatever is necessary to safeguard its interests' over the Strait and implement related MoU provisions.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015",
+            "clm_027"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Center-right Israeli outlets reported that maritime traffic through the Strait of Hormuz declined sharply after new strikes, with 29 vessel crossings on Saturday and only 12 on Sunday, down from a peak of 70 on Wednesday following the MoU. The same outlets reported that a UN-led operation to evacuate 11,000 seafarers was suspended on Thursday after a vessel was struck in the Gulf of Oman. These specific maritime impact figures did not appear in outlets from other parts of the political spectrum.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Center-right Israeli outlets reported that a US official said on Sunday night that both sides would 'stand down for now,' that vessels could move freely in and around the strait, and that technical talks would continue on all areas of the MoU. The same outlets also reported that Iranian officials held a meeting with Oman as the first session of a joint committee on the Strait of Hormuz, covering Gulf coastal states' sovereign rights and the strait's future management under the MoU. This reporting on the US stand-down statement and the Iran-Oman joint committee did not appear in center or left-leaning coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Trump claimed on Monday that Iran had requested a meeting and that it would take place on Tuesday in Doha. Iranian officials—including Foreign Ministry spokesman Esmail Baqai and lead negotiator Kazem Gharibabadi—denied any meeting with the US was scheduled at any level. Qatar's foreign ministry also denied that direct US-Iran meetings were scheduled.",
+        "supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "Iranian President Pezeshkian claimed that $6 billion out of $12 billion in frozen Iranian assets held in Qatar would be released as part of the deal with the US, calling it a 'great victory.' US officials said no frozen assets had been released, and Qatar's foreign ministry said the release depended on progress in talks that had not yet happened.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_006"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}

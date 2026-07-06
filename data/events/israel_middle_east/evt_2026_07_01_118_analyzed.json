@@ -1,0 +1,744 @@
+{
+  "schema_version": "0.3",
+  "event": {
+    "cluster_id": "evt_2026_07_01_118",
+    "beat": "israel_middle_east",
+    "title": "Israeli Finance Minister Smotrich Announces Plans for Three Gaza Settlements",
+    "summary": "Israeli Finance Minister Bezalel Smotrich announced on June 29, 2026 that the Defense Ministry's Settlement Administration has completed groundwork to establish three settlements in northern Gaza, and called on Prime Minister Netanyahu to approve the plan. The announcement came during a visit to southern Israel communities near the Gaza border and was accompanied by controversial claims about Smotrich's role in the Israel-Hamas War.",
+    "date": "2026-06-29",
+    "generated_at": "2026-07-01T19:41:55.112399+00:00",
+    "image_attempted_at": "2026-07-06T07:57:11.611849+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bezalel_Smotrich.jpg/1280px-Bezalel_Smotrich.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Bezalel_Smotrich.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bezalel_Smotrich.jpg",
+      "width": 1200,
+      "height": 1800,
+      "caption": "Bezalel Smotrich, Israeli Finance Minister (file photo)",
+      "credit": "Avi Ohayon",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Bezalel Smotrich.jpg",
+      "query": "Bezalel Smotrich",
+      "fetched_at": "2026-07-06T07:57:11.611756+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/smotrich-says-plans-drawn-up-to-establish-3-israeli-settlements-in-gaza/",
+      "author": null,
+      "published_at": "2026-06-29T19:21:18+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/video-far-right-israeli-minister-smotrich-calls-jewish-settlements-gaza",
+      "author": "Qazi Zaid",
+      "published_at": "2026-06-30T04:41:37+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-901000",
+      "author": "BY KESHET NEEV",
+      "published_at": "2026-06-30T21:23:09+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "ownership": "Owned by Riesling Investment & Technology Ltd, controlled by Israeli investor Eli Azur. Previously owned by Miriam Adelson.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Haaretz (English)",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPMWRnUEotZ2g0Y19vNHdZZDRkVTZ6dXhMN19SLW1zZVhRQTViOVhma2xZRzY2NzA3OERWRDhWNVZ1dWRLNlZZVUJ5QXJPVThVd2lhU0JVcC1yWGNLZzd6cG02cWJXZy1fVWl4UFJuSXNJVDc4b3dlSHc3TGd4RmRsb2xLZlJpb2RmSkp5S2lvdXZ5V3c0dHhXcFdrV1Fmb3d5YmlTSmZ3dDJSNjdodWVrSG9ZVWpFSGdvYUVKT1U2aVZGc21wd3gxczAtRFgtT0hwdVVTdUJsUU12MUpJdzRuTkpBY3ZNQ3A3SVVmRHJvX180U191bllJXw?oc=5",
+      "author": null,
+      "published_at": "2026-06-30T11:19:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Finance Minister Bezalel Smotrich announced that Israel has prepared plans to establish three settlements in the northern Gaza Strip.",
+      "classification": "agreed",
+      "claim_group": "settlement_plans",
+      "rationale": "This core claim is reported across all four outlets spanning left, center-left, and center-right bias ratings, confirming broad cross-spectrum agreement on Smotrich's announcement.",
+      "framing_variants": [
+        {
+          "characterization": "Smotrich 'said on Monday that Israel has prepared plans to establish three settlements in the Gaza Strip'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Far-right finance minister 'called for the establishment of Jewish settlements within Gaza,' with 'preparations already in place to build three settlements in the northern perimeter'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Smotrich said plans 'have been completed' and the Settlement Administration 'is ready to establish three settlements immediately'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Israel is 'ready to build three settlements in Gaza immediately'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The settlement plans are awaiting approval from Prime Minister Benjamin Netanyahu before implementation can begin.",
+      "classification": "agreed",
+      "claim_group": "settlement_plans",
+      "rationale": "Three outlets from different bias tiers (center-right, left, center-right) all report that the plans require Netanyahu's green light, confirming cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Smotrich 'called on Netanyahu to approve the settlement establishment plan'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The initiative is 'awaiting only a green light from the prime minister and the defence minister'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Plans 'were awaiting Prime Minister Benjamin Netanyahu's green light before implementation could begin'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The Defense Ministry's Settlement Administration, which Smotrich heads, completed the groundwork for the three settlements.",
+      "classification": "corroborated",
+      "claim_group": "settlement_plans",
+      "rationale": "Both center-right outlets report this specific institutional detail, but no cross-spectrum confirmation from a differently-aligned outlet is present.",
+      "framing_variants": [
+        {
+          "characterization": "The 'Defense Ministry Settlement Administration has completed groundwork to establish three settlements in the north Gaza area'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "'The Settlement Administration, under my leadership in the Defense Ministry, has completed its staff work'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The Settlement Administration is a Defense Ministry body established in 2023 that manages settlement matters and advances construction and housing in the West Bank.",
+      "classification": "single_source",
+      "claim_group": "settlement_plans",
+      "rationale": "Only the Jerusalem Post provides this institutional background information about the Settlement Administration.",
+      "framing_variants": [
+        {
+          "characterization": "Described as 'a Defense Ministry body established in 2023' that 'manages matters relating to settlements and advances construction and housing in the West Bank'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Smotrich stated that Jewish settlements in Gaza would serve as a security belt for Israeli border communities and restore security for residents of the south.",
+      "classification": "corroborated",
+      "claim_group": "settlement_plans",
+      "rationale": "Both center-right outlets report Smotrich's stated security rationale, but no cross-spectrum outlet confirms this specific framing.",
+      "framing_variants": [
+        {
+          "characterization": "Smotrich said settlements 'will act as a security belt for border communities in Israel' and would 'complete the mission and restore true security for the residents of the south'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Framed as part of Smotrich's broader security argument for settlement construction",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Smotrich stated that the IDF currently controls approximately 70 percent of Gaza's land.",
+      "classification": "agreed",
+      "claim_group": "territorial_control",
+      "rationale": "Outlets from across the political spectrum — left and center-right — all report Smotrich's 70% territorial control claim, though all attribute it to Smotrich rather than independently verifying it.",
+      "framing_variants": [
+        {
+          "characterization": "'The Israel Defense Forces currently control more than 70 percent of Gaza's land'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Smotrich 'claimed that the Israeli military controls nearly 70 per cent of the strip'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "'The IDF currently holds nearly 70% of the Gaza Strip's territory'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Netanyahu ordered the IDF to take control of 70% of Gaza.",
+      "classification": "single_source",
+      "claim_group": "territorial_control",
+      "rationale": "Only the Times of Israel attributes the order for 70% territorial control specifically to Netanyahu.",
+      "framing_variants": [
+        {
+          "characterization": "'Netanyahu ordered the IDF to take control of 70% of Gaza'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Smotrich made the announcement during a visit to southern Israel, meeting with Sderot Mayor Alon Davidi.",
+      "classification": "corroborated",
+      "claim_group": "settlement_plans",
+      "rationale": "Both center-right outlets confirm the location and timing of the announcement, including the meeting with Sderot's mayor.",
+      "framing_variants": [
+        {
+          "characterization": "Smotrich 'met with Alon Davidi, mayor of Sderot, during a tour of Gaza-border communities'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "'The announcement at the end of a meeting held on Monday evening in the South with Sderot Mayor Alon Davidi'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Smotrich's visit to southern Israel also included a tour of new neighborhoods being constructed in Kibbutz Nir Oz, one of the Gaza-border communities devastated during the October 7 attack.",
+      "classification": "single_source",
+      "claim_group": "political_reactions",
+      "rationale": "Only the Jerusalem Post reports the specific detail of Smotrich visiting Kibbutz Nir Oz and its reconstruction.",
+      "framing_variants": [
+        {
+          "characterization": "'Smotrich's Monday trip to southern Israel was part of a wider visit to the new neighborhoods being constructed in Kibbutz Nir Oz, one of the Gaza border communities devastated by Hamas during the October 7 massacre'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Smotrich called for finishing the conquest of all of Gaza.",
+      "classification": "single_source",
+      "claim_group": "settlement_plans",
+      "rationale": "Only Haaretz reports this specific quote about 'finishing conquering all of Gaza,' which goes beyond the settlement announcement covered by other outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Smotrich stated 'We must finish conquering all of Gaza'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "A return to Jewish settlement in Gaza is strongly opposed by the United States.",
+      "classification": "single_source",
+      "claim_group": "international_response",
+      "rationale": "Only the Times of Israel explicitly notes U.S. opposition to Gaza resettlement as context for Smotrich's announcement.",
+      "framing_variants": [
+        {
+          "characterization": "'A return to settlement in Gaza is strongly opposed by the United States'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Smotrich has been sanctioned by several European allies of Israel, and his statements calling for West Bank and Gaza annexation frequently draw sharp international condemnation.",
+      "classification": "single_source",
+      "claim_group": "international_response",
+      "rationale": "Only the Jerusalem Post notes European sanctions against Smotrich and the broader pattern of international condemnation of his annexation statements.",
+      "framing_variants": [
+        {
+          "characterization": "'Smotrich has been sanctioned by several European allies of Israel' and his annexation statements 'often draw sharp international condemnation'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Smotrich canceled a planned visit to Kibbutz Be'eri following opposition from relatives of Gaza hostages from that kibbutz.",
+      "classification": "corroborated",
+      "claim_group": "political_reactions",
+      "rationale": "Both center-right outlets report the canceled Be'eri visit, though the Jerusalem Post specifies 32 hostage relatives protested while the Times of Israel describes general resident anger.",
+      "framing_variants": [
+        {
+          "characterization": "'Smotrich was forced to cancel a planned visit to Kibbutz Be'eri due to anger from its residents'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Canceled 'following strong opposition by relatives of the 32 Gaza hostages from the kibbutz'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Eyal Eshel, father of Roni Eshel who was killed on October 7, heckled Smotrich during a speech at Kibbutz Ein HaShlosha, which was overrun by Hamas on October 7 with four members killed.",
+      "classification": "single_source",
+      "claim_group": "political_reactions",
+      "rationale": "Only the Times of Israel reports the heckling incident involving Eyal Eshel at Kibbutz Ein HaShlosha.",
+      "framing_variants": [
+        {
+          "characterization": "Described as an October 7 bereaved father heckling Smotrich during his speech at the kibbutz",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "A few dozen people protested outside Kibbutz Ein HaShlosha against Smotrich's participation in an event there.",
+      "classification": "single_source",
+      "claim_group": "political_reactions",
+      "rationale": "Only the Times of Israel reports the small protest outside Kibbutz Ein HaShlosha.",
+      "framing_variants": [
+        {
+          "characterization": "'A few dozen people protested outside Kibbutz Ein HaShlosha against Smotrich's participation in the event'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Smotrich claimed in a podcast interview that all hostages were returned thanks to him, and that without him the war would have ended before the Rafah operation.",
+      "classification": "corroborated",
+      "claim_group": "smotrich_hostage_claims",
+      "rationale": "Both center-right outlets report Smotrich's self-aggrandizing podcast claims about his role in the hostage returns and prosecution of the war.",
+      "framing_variants": [
+        {
+          "characterization": "'Smotrich took credit on Sunday for the return of all hostages held by terror groups in Gaza'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Smotrich stated 'I think it is thanks to me that all the hostages are here' and 'without me, the war in Gaza would have ended even before Rafah'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Smotrich's claim of credit for the hostage returns is contested: Smotrich asserts his red-line stance and opposition to early deals was decisive; former hostage Or Levy and critics assert that Smotrich's repeated votes against hostage deals meant he was responsible for delaying their return.",
+      "classification": "contested",
+      "claim_group": "smotrich_hostage_claims",
+      "rationale": "Smotrich claims his firmness secured the hostages' return, while former hostage Or Levy and reporting on his voting record directly contradict this, presenting incompatible characterizations of his role.",
+      "framing_variants": [
+        {
+          "characterization": "Or Levy stated 'if it had been left to him, we wouldn't have returned to this day' and called Smotrich 'a shame of a minister, a shame of a citizen, and a shame of a person'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "'Smotrich voted repeatedly throughout the two-year war against deals that would have released hostages earlier,' directly undermining his credit-claiming",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": [
+        "src_001"
+      ]
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Smotrich consistently opposed or gave only conditional support to hostage deal proposals throughout the war, arguing that continuing the military offensive and overthrowing Hamas was more important.",
+      "classification": "single_source",
+      "claim_group": "smotrich_hostage_claims",
+      "rationale": "Only the Times of Israel provides this detailed characterization of Smotrich's voting record and stated rationale for opposing hostage deals.",
+      "framing_variants": [
+        {
+          "characterization": "Smotrich 'consistently opposed or gave only conditional support to various proposals for hostage deals' and 'threatened on multiple occasions to pull his Religious Zionism party from the government if a deal was signed that he disapproved of'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Of the 251 hostages abducted on October 7, 2023, 166 were released alive and 85 were returned deceased, of whom 44 were killed before abduction and 41 were abducted alive and killed in captivity.",
+      "classification": "single_source",
+      "claim_group": "hostage_statistics",
+      "rationale": "Only the Times of Israel provides this detailed breakdown of hostage fates.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as factual statistics contextualizing Smotrich's hostage-related claims",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "The Israeli military confirmed that some hostages died as a result of Israeli airstrikes during the war.",
+      "classification": "single_source",
+      "claim_group": "hostage_statistics",
+      "rationale": "Only the Times of Israel notes the IDF's confirmation that its own actions caused some hostage deaths.",
+      "framing_variants": [
+        {
+          "characterization": "'The military confirmed that its own actions, including airstrikes, led to the deaths of hostages'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Polls show Smotrich's Religious Zionism party polling around the electoral threshold for entry into the Knesset.",
+      "classification": "single_source",
+      "claim_group": "political_reactions",
+      "rationale": "Only the Times of Israel provides this polling context, suggesting Smotrich's announcements may be motivated by electoral considerations.",
+      "framing_variants": [
+        {
+          "characterization": "'Polls show Smotrich's Religious Zionism party hovering around the threshold for entry into the Knesset'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "An October 2025 ceasefire deal with Hamas halted the war triggered by the October 7, 2023 attack.",
+      "classification": "single_source",
+      "claim_group": "background_conflict",
+      "rationale": "Only the Times of Israel references the October 2025 ceasefire as background context for the current situation in Gaza.",
+      "framing_variants": [
+        {
+          "characterization": "Referenced as background context explaining the current state of IDF control over Gaza territory",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Rehabilitation plans for Gaza-border communities include constructing approximately 1,000 housing units.",
+      "classification": "single_source",
+      "claim_group": "settlement_plans",
+      "rationale": "Only the Times of Israel mentions the rehabilitation housing plan for border communities as part of the broader context of Smotrich's activities.",
+      "framing_variants": [
+        {
+          "characterization": "Described as part of the rehabilitation plans Smotrich was touring, involving 'some 1,000 housing units'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Hamas carried out an invasion of southern Israel on October 7, 2023, resulting in the deaths of approximately 1,200 Israelis, the abduction of 251 hostages, and triggering the Israel-Hamas War.",
+      "sources": [
+        "src_001",
+        "src_003"
+      ]
+    },
+    {
+      "point": "An October 2025 ceasefire deal between Israel and Hamas halted the war, with the IDF retaining control over significant portions of Gaza.",
+      "sources": [
+        "src_001"
+      ]
+    },
+    {
+      "point": "Jewish settlements were evacuated from Gaza in Israel's 2005 unilateral disengagement. Any return to civilian settlement in Gaza would be controversial internationally, with the U.S. explicitly opposing such a move.",
+      "sources": [
+        "src_001",
+        "src_003"
+      ]
+    },
+    {
+      "point": "Smotrich heads the Defense Ministry's Settlement Administration, a body established in 2023 to oversee settlement construction, primarily in the West Bank, and has a history of publicly calling for annexation and settlement in both the West Bank and Gaza.",
+      "sources": [
+        "src_001",
+        "src_003"
+      ]
+    },
+    {
+      "point": "Smotrich has been sanctioned by several European countries over his settlement and annexation positions.",
+      "sources": [
+        "src_003"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-01T19:42:16.440361+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Israeli Finance Minister Bezalel Smotrich announced on June 29, 2026 that Israel has prepared plans to establish three settlements in the northern Gaza Strip. The settlement plans are awaiting approval from Prime Minister Benjamin Netanyahu before implementation can begin. Smotrich made the announcement during a visit to southern Israel, where he met with Sderot Mayor Alon Davidi.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Smotrich stated that the IDF currently controls approximately 70 percent of Gaza's land. This territorial control figure was attributed to Smotrich himself by outlets across the political spectrum, though it was not independently verified by the reporting sources.",
+        "supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The announcement follows an October 2025 ceasefire deal with Hamas that halted the war triggered by the October 7, 2023 attack. Of the 251 hostages abducted on October 7, 166 were released alive and 85 were returned deceased, of whom 44 were killed before abduction and 41 were abducted alive and killed in captivity. The Israeli military confirmed that some hostages died as a result of Israeli airstrikes during the war.",
+        "supports": {
+          "claim_ids": [
+            "clm_022",
+            "clm_019",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The Settlement Administration—a Defense Ministry body established in 2023 that manages settlement matters and advances construction in the West Bank—completed the groundwork for the three Gaza settlements under Smotrich's leadership. Center-right Israeli outlets reported that Smotrich framed the proposed settlements as serving a security function: they would act as a security belt for Israeli border communities and restore security for residents of the south.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The Times of Israel reported that Netanyahu ordered the IDF to take control of 70 percent of Gaza, while Haaretz quoted Smotrich calling for \"finishing the conquest of all of Gaza\"—a statement that extends beyond the settlement announcement itself and was reported only by the center-left outlet.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "International reactions to Smotrich's settlement policies have been sharply negative. The Times of Israel noted that a return to Jewish settlement in Gaza is strongly opposed by the United States. The Jerusalem Post reported that Smotrich has been sanctioned by several European allies of Israel, and that his statements calling for West Bank and Gaza annexation frequently draw sharp international condemnation.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Smotrich's visit to southern Israel sparked protests and controversy in Gaza-border communities. He canceled a planned visit to Kibbutz Be'eri following opposition from relatives of Gaza hostages from that kibbutz—the Jerusalem Post specified that 32 hostage relatives protested, while the Times of Israel described general resident anger.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "At Kibbutz Ein HaShlosha, which was overrun by Hamas on October 7 with four members killed, Eyal Eshel—father of Roni Eshel who was killed in the attack—heckled Smotrich during a speech. A few dozen people protested outside the kibbutz against Smotrich's participation in the event. The Times of Israel also reported that Smotrich toured new neighborhoods being constructed in Kibbutz Nir Oz, another Gaza-border community devastated during the October 7 attack, though this detail appeared only in center-right coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "In a podcast interview, Smotrich claimed credit for the return of all hostages and asserted that without him, the war would have ended before the Rafah operation. He stated that his red-line stance and opposition to early deals was decisive in securing the hostages' return.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Smotrich's claim of credit for the hostage returns is actively disputed. Former hostage Or Levy and critics assert that Smotrich's repeated votes against hostage deals meant he was responsible for delaying their return, not expediting it. The Times of Israel reported that Smotrich consistently opposed or gave only conditional support to hostage deal proposals throughout the war, arguing that continuing the military offensive and overthrowing Hamas was more important than securing hostage releases.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The Times of Israel noted that polls show Smotrich's Religious Zionism party polling around the electoral threshold for entry into the Knesset, suggesting his settlement announcements may be motivated by electoral considerations as he faces potential political marginalization.",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

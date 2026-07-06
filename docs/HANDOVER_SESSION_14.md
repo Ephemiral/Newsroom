@@ -1,0 +1,76 @@
+# HANDOVER — Session 14
+## News Synthesis & Credibility Engine
+**Handover date:** 6 July 2026
+**Prepared by:** Claude Code (Fable 5), Session 14
+**Owner:** G (GitHub: Ephemiral)
+
+---
+
+## 0. Read this first
+
+1. `docs/00_MASTER_DOCUMENT.md` — single source of truth. **New §15** documents everything added this session.
+2. **The pipeline now runs by itself.** A launchd job executes `scripts/auto_run.py` every 4 hours: ingest → cluster → qualify → analyze/annotate/generate → attach image → commit + push (Vercel auto-deploys). If you are a future session, check `data/logs/autorun/` before assuming nothing has happened since the last human session.
+3. Schema is now **v0.3**: per-event JSON gained an optional `event.image` object (openly-licensed Wikimedia Commons file photo with full attribution).
+
+---
+
+## 1. What was done this session (6 July 2026)
+
+### 1a. Image stage (`pipeline/images/`)
+- `wikimedia.py` — Commons search; only CC0 / CC BY / CC BY-SA / public-domain files accepted (NC/ND rejected); attribution metadata extracted and preserved.
+- `select.py` — Haiku proposes 2–4 concrete visual queries from the event title/summary, then a disqualify-then-pick prompt chooses the best candidate or rejects all. Key guardrail learned in testing: **a photo of the right place featuring the wrong person must be disqualified** (the first prompt version picked a Situation-Room photo featuring the wrong administration for a Trump-era story).
+- `run.py` — CLI: `python3 -m pipeline.images.run --event-id X [--force]` / `--all-missing`. Writes `event.image` (or `null` + `image_attempted_at` so automation doesn't retry forever).
+- All existing events backfilled. Roughly 2/3 got images; the rest correctly got none ("no image" is always acceptable; a wrong image is not).
+
+### 1b. Front end
+- `web/lib/types.ts` — `EventImage` type, `EventMeta.image`.
+- Homepage: thumbnail (168×118) to the right of each event card when present.
+- Event page: hero image above the bias legend with a full credit line (caption — credit, Wikimedia Commons link, license link). The credit line is a **license requirement** for CC BY / CC BY-SA — never remove it.
+
+### 1c. Autonomous runner (`scripts/auto_run.py`)
+- Codifies the manual event-selection criteria as hard gates: size 4–40, ≥3 outlets, cross-spectrum (≥1 left-of-center AND ≥1 right-of-center), ≥3 usable bodies, cohesion ≥0.65, ≤40% URL overlap with published events, one-attempt-per-article-set fingerprinting.
+- Publishes at most 2 events per cycle (`--max-events`), IDs `evt_YYYY_MM_DD_auto_NNN`.
+- Failed events are cleaned up, not published. Lock file prevents overlap. Per-run JSON logs in `data/logs/autorun/`.
+- Auto mode writes only the *selected* clusters' JSON files (the manual `--discover` flow's habit of dumping every cluster to `data/events/` is why there are ~6,000 raw files there).
+- `run_pipeline_for_event` was extracted from `scripts/scale_test.py` into `pipeline/run_event.py` (shared by both flows; scale_test CLI unchanged).
+
+### 1d. Scheduling
+- `config/launchd/com.critiqal.newsroom.autorun.plist` → installed at `~/Library/LaunchAgents/`. Every 4h while the Mac is awake.
+- Disable: `launchctl bootout gui/$(id -u)/com.critiqal.newsroom.autorun`
+- Run now: `launchctl kickstart gui/$(id -u)/com.critiqal.newsroom.autorun`
+- Logs: `data/logs/autorun/launchd.{out,err}.log` + per-run `run_*.json`.
+
+---
+
+## 2. Operating the autonomous pipeline
+
+```bash
+# Manual cycle (same thing launchd runs)
+.venv/bin/python3 scripts/auto_run.py
+
+# See what would be published without spending tokens
+.venv/bin/python3 scripts/auto_run.py --dry-run
+
+# Check what automation has done lately
+ls -t data/logs/autorun/run_*.json | head -3 | xargs cat
+```
+
+**Spot-check duty:** automation supersedes the "human review before publish" mitigation (owner decision, July 2026). Review new events on the homepage every day or two, especially image choices and contested-claim classifications.
+
+---
+
+## 3. Known issues / next work
+
+| Item | Notes |
+|---|---|
+| **Homepage duplicates (B-13)** | Pre-existing: several near-duplicate events are live (e.g. three "US-Iran Ceasefire Extension Framework" variants). The novelty gate stops *new* duplicates but old ones need manual cleanup — dedupe/merge, then delete the redundant `*_analyzed.json` files. |
+| B-10 remaining | `claim_ids` often empty in report paragraphs. |
+| Validator feedback (M6/M9) | Still none received. |
+| Image relevance | Commons only has file photos, not event photos. Watch for subtle mismatches; the disqualify prompt is new. |
+| world_news beat | Config exists but automation currently runs israel_middle_east only (`--beat` per invocation; a second launchd job or a loop in auto_run would enable it). |
+
+---
+
+## 4. Working conventions (unchanged)
+
+Tracksheet first and last; golden dataset is the regression fixture; schema bumps logged in the Change Log; ask before heavy deps or structural changes; never commit `.env`.

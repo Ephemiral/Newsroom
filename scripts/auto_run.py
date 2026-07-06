@@ -1,0 +1,381 @@
+"""
+Autonomous pipeline runner — discover, qualify, publish. No human in the loop.
+
+One invocation = one cycle:
+  1. Ingest fresh articles (RSS + GDELT) for the beat.
+  2. Cluster the last 3 days of articles.
+  3. Apply qualification gates to every cluster (see QUALIFICATION GATES below).
+  4. Run analyze → annotate → generate on the top qualifying clusters
+     (report validation failures abort that event — nothing broken is published).
+  5. Attach an openly-licensed file photo (Wikimedia Commons).
+  6. git commit + push the new event files → Vercel auto-deploys.
+
+Designed to be run every few hours by launchd (see docs). Safe to run manually.
+
+QUALIFICATION GATES (a cluster must pass ALL to publish):
+  - size:          MIN_ARTICLES–MAX_ARTICLES articles (default 4–40)
+  - outlets:       ≥3 distinct outlets
+  - spectrum:      ≥1 outlet left-of-center AND ≥1 right-of-center
+  - bodies:        ≥3 articles with a usable body text (≥400 chars)
+  - cohesion:      mean pairwise cosine similarity ≥ 0.65 (no grab-bag clusters)
+  - novelty:       ≤40% URL overlap with any already-published event
+  - not retried:   the same article set (URL fingerprint) is attempted only once
+
+Usage:
+    python3 scripts/auto_run.py [--beat israel_middle_east] [--max-events 2]
+                                [--dry-run] [--no-push]
+
+State + logs live in data/logs/autorun/ (gitignored is fine; state is local).
+"""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+import subprocess
+import sys
+import time
+from datetime import datetime, timezone
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from dotenv import load_dotenv
+
+load_dotenv(ROOT / ".env")
+
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s — %(message)s",
+    datefmt="%H:%M:%S",
+)
+log = logging.getLogger("auto_run")
+
+# ── Tunables ──────────────────────────────────────────────────────────────────
+MIN_ARTICLES = 4
+MAX_ARTICLES = 40
+MIN_OUTLETS = 3
+MIN_BODY_CHARS = 400
+MIN_BODIES = 3
+COHESION_FLOOR = 0.65
+MAX_URL_OVERLAP = 0.40      # vs. any single already-published event
+INGEST_MAX_AGE_DAYS = 3
+DEFAULT_MAX_EVENTS = 2      # per cycle — cost control
+
+LEFT_TIERS = {"left", "center-left"}
+RIGHT_TIERS = {"right", "center-right"}
+
+LOG_DIR = ROOT / "data" / "logs" / "autorun"
+STATE_PATH = LOG_DIR / "state.json"
+LOCK_PATH = LOG_DIR / "autorun.lock"
+LOCK_STALE_SECONDS = 3 * 3600
+
+
+# ── Lock ──────────────────────────────────────────────────────────────────────
+
+def acquire_lock() -> bool:
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+    if LOCK_PATH.exists():
+        age = time.time() - LOCK_PATH.stat().st_mtime
+        if age < LOCK_STALE_SECONDS:
+            log.warning("Another auto_run appears active (lock age %.0fs) — exiting.", age)
+            return False
+        log.warning("Stale lock (%.0fs old) — overriding.", age)
+    LOCK_PATH.write_text(str(os.getpid()))
+    return True
+
+
+def release_lock() -> None:
+    try:
+        LOCK_PATH.unlink()
+    except FileNotFoundError:
+        pass
+
+
+# ── State (article-set fingerprints already attempted) ───────────────────────
+
+def load_state() -> dict:
+    if STATE_PATH.exists():
+        try:
+            return json.loads(STATE_PATH.read_text())
+        except Exception:
+            log.warning("Could not parse state file — starting fresh.")
+    return {"attempted": {}}
+
+
+def save_state(state: dict) -> None:
+    STATE_PATH.write_text(json.dumps(state, indent=2))
+
+
+def fingerprint(urls: list[str]) -> str:
+    return hashlib.sha256("\n".join(sorted(urls)).encode()).hexdigest()[:16]
+
+
+# ── Published-event index (for novelty gate) ──────────────────────────────────
+
+def published_url_sets(beat_dir: Path) -> list[set[str]]:
+    """URL sets of every already-published (analyzed) event."""
+    sets = []
+    for path in beat_dir.glob("*_analyzed.json"):
+        try:
+            data = json.loads(path.read_text())
+            urls = {s.get("url", "") for s in data.get("sources", []) if s.get("url")}
+            if urls:
+                sets.append(urls)
+        except Exception:
+            continue
+    return sets
+
+
+# ── Cluster qualification ─────────────────────────────────────────────────────
+
+def evaluate_cluster(cluster: dict, article_map: dict, sim, id_to_idx: dict,
+                     published: list[set[str]], state: dict) -> tuple[bool, str, dict]:
+    """Apply all gates. Returns (qualified, reason_if_not, stats)."""
+    import numpy as np
+
+    arts = [article_map[a] for a in cluster["article_ids"] if a in article_map]
+    urls = [a.url for a in arts]
+    outlets = {a.outlet for a in arts}
+    tiers = {a.bias_rating for a in arts if a.bias_rating}
+    bodies = sum(1 for a in arts if len(a.body_text or "") >= MIN_BODY_CHARS)
+
+    stats = {
+        "size": len(arts),
+        "outlets": sorted(outlets),
+        "bias_tiers": sorted(tiers),
+        "usable_bodies": bodies,
+        "fingerprint": fingerprint(urls),
+    }
+
+    if not (MIN_ARTICLES <= len(arts) <= MAX_ARTICLES):
+        return False, f"size {len(arts)} outside [{MIN_ARTICLES},{MAX_ARTICLES}]", stats
+    if len(outlets) < MIN_OUTLETS:
+        return False, f"only {len(outlets)} distinct outlets", stats
+    if not (tiers & LEFT_TIERS and tiers & RIGHT_TIERS):
+        return False, f"no cross-spectrum spread (tiers: {sorted(tiers)})", stats
+    if bodies < MIN_BODIES:
+        return False, f"only {bodies} articles with usable body text", stats
+
+    # Cohesion (mean pairwise similarity)
+    idxs = [id_to_idx[a.article_id] for a in arts if a.article_id in id_to_idx]
+    if len(idxs) >= 2:
+        pair_sims = [sim[i, j] for k, i in enumerate(idxs) for j in idxs[k + 1:]]
+        mean_sim = float(np.mean(pair_sims))
+        stats["cohesion"] = round(mean_sim, 3)
+        if mean_sim < COHESION_FLOOR:
+            return False, f"low cohesion {mean_sim:.3f} (grab-bag)", stats
+
+    # Novelty vs. already-published events
+    url_set = set(urls)
+    for pub in published:
+        overlap = len(url_set & pub) / max(len(url_set), 1)
+        if overlap > MAX_URL_OVERLAP:
+            return False, f"{overlap:.0%} URL overlap with a published event", stats
+
+    # Already attempted this exact article set?
+    if stats["fingerprint"] in state["attempted"]:
+        prev = state["attempted"][stats["fingerprint"]]
+        return False, f"already attempted on {prev.get('at', '?')} ({prev.get('outcome')})", stats
+
+    return True, "", stats
+
+
+def unique_event_id(out_dir: Path) -> str:
+    """Date-based event ID that never collides with files already on disk."""
+    date_part = datetime.now(timezone.utc).strftime("%Y_%m_%d")
+    existing = {p.stem.replace("_analyzed", "") for p in out_dir.glob(f"evt_{date_part}_*.json")}
+    n = 1
+    while f"evt_{date_part}_{n:03d}" in existing or f"evt_{date_part}_auto_{n:03d}" in existing:
+        n += 1
+    return f"evt_{date_part}_auto_{n:03d}"
+
+
+# ── Git publish ───────────────────────────────────────────────────────────────
+
+def git_publish(paths: list[Path], titles: list[str], no_push: bool) -> str:
+    rel = [str(p.relative_to(ROOT)) for p in paths]
+    subprocess.run(["git", "add", *rel], cwd=ROOT, check=True)
+    title_line = "; ".join(t[:60] for t in titles)
+    msg = f"auto: publish {len(titles)} event(s) — {title_line}\n\nAutomated publish by scripts/auto_run.py."
+    subprocess.run(["git", "commit", "-m", msg], cwd=ROOT, check=True)
+    if no_push:
+        return "committed (push skipped)"
+    push = subprocess.run(["git", "push"], cwd=ROOT, capture_output=True, text=True)
+    if push.returncode != 0:
+        log.error("git push failed: %s", push.stderr.strip()[:500])
+        return "committed, PUSH FAILED (will deploy on next successful push)"
+    return "pushed"
+
+
+# ── Main cycle ────────────────────────────────────────────────────────────────
+
+def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
+    from pipeline.ingest.rss import ingest_beat
+    from pipeline.ingest.gdelt import ingest_gdelt
+    from pipeline.ingest.store import ArticleStore
+    from pipeline.cluster.embed import embed_articles
+    from pipeline.cluster.group import auto_cluster
+
+    run_log: dict = {
+        "started_at": datetime.now(timezone.utc).isoformat(),
+        "beat": beat,
+        "dry_run": dry_run,
+        "published": [],
+        "failed": [],
+        "rejected": [],
+    }
+
+    config_path = ROOT / "config" / "beats" / f"{beat}.json"
+    config = json.loads(config_path.read_text())
+    store = ArticleStore(base_dir=str(ROOT / "data" / "ingested"), beat=beat)
+    out_dir = ROOT / "data" / "events" / beat
+
+    # ── 1. Ingest ─────────────────────────────────────────────────────────
+    log.info("Ingesting RSS for beat %s…", beat)
+    saved = sum(1 for a in ingest_beat(config, fetch_body=True) if store.save(a))
+    if config.get("gdelt", {}).get("enabled"):
+        log.info("Ingesting GDELT…")
+        saved += sum(1 for a in ingest_gdelt(config, fetch_body=True) if store.save(a))
+    run_log["new_articles"] = saved
+    log.info("Ingest done — %d new articles.", saved)
+
+    # ── 2. Cluster ────────────────────────────────────────────────────────
+    articles = store.load_all(max_age_days=INGEST_MAX_AGE_DAYS)
+    if len(articles) < MIN_ARTICLES:
+        run_log["outcome"] = f"only {len(articles)} recent articles — nothing to do"
+        return run_log
+    log.info("Clustering %d recent articles…", len(articles))
+    embeddings, ids = embed_articles(articles)
+    sim = embeddings @ embeddings.T
+    id_to_idx = {aid: i for i, aid in enumerate(ids)}
+    pub_dates = [getattr(a, "published_at", "") or "" for a in articles]
+    clusters = auto_cluster(embeddings, ids, beat=beat, pub_dates=pub_dates)
+    run_log["clusters"] = len(clusters)
+
+    # ── 3. Qualify ────────────────────────────────────────────────────────
+    article_map = {a.article_id: a for a in articles}
+    published = published_url_sets(out_dir)
+    state = load_state()
+
+    qualified = []
+    for c in sorted(clusters, key=lambda x: -x["size"]):
+        ok, reason, stats = evaluate_cluster(c, article_map, sim, id_to_idx, published, state)
+        if ok:
+            qualified.append((c, stats))
+        elif stats["size"] >= MIN_ARTICLES:
+            # Log only non-trivial rejections to keep the run log readable
+            run_log["rejected"].append({"size": stats["size"], "reason": reason})
+
+    # Rank: widest spectrum spread first, then size
+    qualified.sort(key=lambda cs: (-len(cs[1]["bias_tiers"]), -cs[1]["size"]))
+    selected = qualified[:max_events]
+    log.info("%d cluster(s) qualified; selecting %d.", len(qualified), len(selected))
+
+    if dry_run:
+        for c, stats in selected:
+            log.info("[dry-run] would publish: %s", json.dumps(stats))
+        run_log["outcome"] = f"dry-run — {len(qualified)} qualified"
+        return run_log
+
+    if not selected:
+        run_log["outcome"] = "no qualifying clusters this cycle"
+        return run_log
+
+    # ── 4–6. Publish each selected cluster ────────────────────────────────
+    import anthropic
+    from pipeline.run_event import run_pipeline_for_event
+    from pipeline.images.run import attach_image
+
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        run_log["outcome"] = "ERROR: ANTHROPIC_API_KEY not set"
+        return run_log
+    client = anthropic.Anthropic(api_key=api_key)
+
+    to_commit: list[Path] = []
+    titles: list[str] = []
+
+    for cluster, stats in selected:
+        event_id = unique_event_id(out_dir)
+        cluster["cluster_id"] = event_id
+        cluster_path = out_dir / f"{event_id}.json"
+        cluster_path.write_text(json.dumps(cluster, indent=2, ensure_ascii=False))
+
+        log.info("Running pipeline for %s (%d articles, tiers %s)…",
+                 event_id, stats["size"], stats["bias_tiers"])
+        attempt = {"at": datetime.now(timezone.utc).isoformat(), "event_id": event_id}
+        try:
+            ok = run_pipeline_for_event(event_id, beat, client, force_generate=False)
+        except Exception as e:
+            log.exception("Pipeline crashed for %s", event_id)
+            ok = False
+            attempt["error"] = str(e)[:300]
+
+        analyzed_path = out_dir / f"{event_id}_analyzed.json"
+        if ok:
+            try:
+                attach_image(analyzed_path, client)
+            except Exception:
+                log.exception("Image stage failed for %s (publishing without image)", event_id)
+            data = json.loads(analyzed_path.read_text())
+            titles.append(data["event"].get("title", event_id))
+            to_commit += [cluster_path, analyzed_path]
+            attempt["outcome"] = "published"
+            run_log["published"].append({"event_id": event_id, "title": titles[-1], **stats})
+        else:
+            # Don't leave half-processed artifacts for the site to pick up
+            attempt["outcome"] = "failed"
+            run_log["failed"].append({"event_id": event_id, **stats})
+            for p in (analyzed_path, cluster_path):
+                if p.exists():
+                    p.unlink()
+
+        state["attempted"][stats["fingerprint"]] = attempt
+        save_state(state)
+
+    # ── Git ───────────────────────────────────────────────────────────────
+    if to_commit:
+        try:
+            run_log["git"] = git_publish(to_commit, titles, no_push)
+        except Exception as e:
+            log.exception("git publish failed")
+            run_log["git"] = f"ERROR: {e}"
+    run_log["outcome"] = f"published {len(titles)}, failed {len(run_log['failed'])}"
+    return run_log
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Autonomous discover→qualify→publish cycle")
+    parser.add_argument("--beat", default="israel_middle_east")
+    parser.add_argument("--max-events", type=int, default=DEFAULT_MAX_EVENTS)
+    parser.add_argument("--dry-run", action="store_true", help="Qualify only; no LLM calls, no publishing")
+    parser.add_argument("--no-push", action="store_true", help="Commit but do not push")
+    args = parser.parse_args()
+
+    if not acquire_lock():
+        sys.exit(0)
+
+    run_log = {}
+    try:
+        run_log = run_cycle(args.beat, args.max_events, args.dry_run, args.no_push)
+    except Exception as e:
+        log.exception("auto_run cycle crashed")
+        run_log = {"outcome": f"CRASH: {e}", "started_at": datetime.now(timezone.utc).isoformat()}
+        raise
+    finally:
+        run_log["finished_at"] = datetime.now(timezone.utc).isoformat()
+        stamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+        LOG_DIR.mkdir(parents=True, exist_ok=True)
+        (LOG_DIR / f"run_{stamp}.json").write_text(json.dumps(run_log, indent=2, ensure_ascii=False))
+        log.info("Cycle finished: %s", run_log.get("outcome"))
+        release_lock()
+
+
+if __name__ == "__main__":
+    main()
