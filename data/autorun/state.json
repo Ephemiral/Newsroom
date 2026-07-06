@@ -4,12 +4,6 @@
       "at": "2026-07-06T08:14:22.834824+00:00",
       "event_id": "evt_2026_07_06_auto_001",
       "outcome": "published"
-    },
-    "7d6e82e5f7fbdb32": {
-      "at": "2026-07-06T13:19:06.765599+00:00",
-      "event_id": "evt_2026_07_06_auto_002",
-      "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcksSq19xUVRFFTQtrqQV'}",
-      "outcome": "failed"
     }
   }
 }

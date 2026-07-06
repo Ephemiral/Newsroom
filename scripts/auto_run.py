@@ -76,6 +76,17 @@ DEFAULT_MAX_EVENTS = 2      # per cycle — cost control
 LEFT_TIERS = {"left", "center-left"}
 RIGHT_TIERS = {"right", "center-right"}
 
+
+class SystemicError(RuntimeError):
+    """A whole-cycle failure (bad API key, etc.) — abort and alert loudly.
+    Distinct from a routine single-event validation rejection, which is silent."""
+
+
+def _is_auth_error(e: Exception) -> bool:
+    s = str(e).lower()
+    return ("authentication_error" in s or "invalid x-api-key" in s
+            or "401" in s or "permission_error" in s)
+
 LOG_DIR = ROOT / "data" / "logs" / "autorun"
 # State is git-tracked (and committed by publish cycles) so that stateless
 # environments — the GitHub Actions runner — share the attempt ledger and never
@@ -261,8 +272,9 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
         "beat": beat,
         "dry_run": dry_run,
         "published": [],
-        "failed": [],
-        "rejected": [],
+        "rejected": [],            # clusters rejected by the qualification gates
+        "rejected_pipeline": [],   # selected but failed report validation (routine)
+        "errors": [],              # systemic/transient failures (API, crash) — alert-worthy
     }
 
     config_path = ROOT / "config" / "beats" / f"{beat}.json"
@@ -344,12 +356,13 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
         log.info("Running pipeline for %s (%d articles, tiers %s)…",
                  event_id, stats["size"], stats["bias_tiers"])
         attempt = {"at": datetime.now(timezone.utc).isoformat(), "event_id": event_id}
+        error_exc = None
         try:
             ok = run_pipeline_for_event(event_id, beat, client, force_generate=False)
         except Exception as e:
             log.exception("Pipeline crashed for %s", event_id)
             ok = False
-            attempt["error"] = str(e)[:300]
+            error_exc = e
 
         analyzed_path = out_dir / f"{event_id}_analyzed.json"
         if ok:
@@ -367,29 +380,51 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
             to_commit += [cluster_path, analyzed_path]
             attempt["outcome"] = "published"
             run_log["published"].append({"event_id": event_id, "title": titles[-1], **stats})
+            state["attempted"][stats["fingerprint"]] = attempt
+            save_state(state)
         else:
-            # Don't leave half-processed artifacts for the site to pick up
-            attempt["outcome"] = "failed"
-            run_log["failed"].append({"event_id": event_id, **stats})
+            # Never leave half-processed artifacts for the site to pick up
             for p in (analyzed_path, cluster_path):
                 if p.exists():
                     p.unlink()
 
-        state["attempted"][stats["fingerprint"]] = attempt
-        save_state(state)
+            if error_exc is not None:
+                # A raised exception is a SYSTEMIC/transient problem (API auth, rate
+                # limit, network, a code bug) — NOT the article set's fault. Do NOT
+                # record it in the ledger, so it's retried next cycle once fixed.
+                run_log.setdefault("errors", []).append(
+                    {"event_id": event_id, "error": str(error_exc)[:300]})
+                if _is_auth_error(error_exc):
+                    # Every beat will hit the same wall — abort now instead of
+                    # burning an hour ingesting the rest.
+                    raise SystemicError(
+                        "Anthropic API authentication failed — check the "
+                        "ANTHROPIC_API_KEY secret. " + str(error_exc)[:120])
+                # Non-auth exception: skip this event, keep going.
+            else:
+                # A clean False is a routine validation rejection (e.g. the report
+                # failed ID validation). The article set genuinely didn't qualify —
+                # record it so we don't reprocess the same junk every cycle. This
+                # is normal operation, NOT a workflow failure.
+                attempt["outcome"] = "rejected"
+                run_log["rejected_pipeline"].append({"event_id": event_id, **stats})
+                state["attempted"][stats["fingerprint"]] = attempt
+                save_state(state)
 
     # ── Git ───────────────────────────────────────────────────────────────
     # The attempt ledger travels with the repo (see STATE_PATH comment); commit
     # it even on publish-free cycles that recorded failed attempts.
     if STATE_PATH.exists():
         to_commit.append(STATE_PATH)
-    if titles or run_log["failed"]:
+    if titles or run_log["rejected_pipeline"]:
         try:
             run_log["git"] = git_publish(to_commit, titles, no_push)
         except Exception as e:
             log.exception("git publish failed")
             run_log["git"] = f"ERROR: {e}"
-    run_log["outcome"] = f"published {len(titles)}, failed {len(run_log['failed'])}"
+    run_log["outcome"] = (
+        f"published {len(titles)}, rejected {len(run_log['rejected_pipeline'])}, "
+        f"errors {len(run_log['errors'])}")
     return run_log
 
 
@@ -422,12 +457,24 @@ def main():
     if not acquire_lock():
         sys.exit(0)
 
+    # Only SYSTEMIC problems escalate to a workflow failure + alert. A cluster
+    # that fails the qualification gates or report validation is normal operation
+    # and must NOT turn the run red or open an issue (that would cry wolf every
+    # cycle). Systemic = a crash, an API/auth error, or a git push failure.
     failures = []
+    systemic_abort = False
     try:
         for beat in beats:
+            if systemic_abort:
+                break  # a bad key affects every beat — don't ingest the rest
             run_log = {}
             try:
                 run_log = run_cycle(beat, args.max_events, args.dry_run, args.no_push)
+            except SystemicError as e:
+                log.error("[%s] systemic abort: %s", beat, e)
+                run_log = {"beat": beat, "outcome": f"SYSTEMIC: {e}",
+                           "started_at": datetime.now(timezone.utc).isoformat()}
+                systemic_abort = True
             except Exception as e:
                 log.exception("auto_run cycle crashed for beat %s", beat)
                 run_log = {"beat": beat, "outcome": f"CRASH: {e}",
@@ -440,7 +487,7 @@ def main():
             log.info("[%s] Cycle finished: %s", beat, run_log.get("outcome"))
             outcome = str(run_log.get("outcome", ""))
             git_status = str(run_log.get("git", ""))
-            if ("CRASH" in outcome or "ERROR" in outcome or run_log.get("failed")
+            if ("CRASH" in outcome or "SYSTEMIC" in outcome or run_log.get("errors")
                     or "FAILED" in git_status or "ERROR" in git_status):
                 failures.append(f"{beat}: {outcome} | git: {git_status or 'n/a'}")
     finally:
