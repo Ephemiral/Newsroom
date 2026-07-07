@@ -1,0 +1,726 @@
+{
+  "schema_version": "0.4",
+  "event": {
+    "cluster_id": "evt_2026_07_07_auto_002",
+    "beat": "asia",
+    "title": "Chinese Court Sentences Former Nanjing Official Yang Youlin to Death for Corruption",
+    "summary": "The Changzhou Intermediate People's Court in Jiangsu province sentenced Yang Youlin, a former senior official in Nanjing's economic development zone, to death on July 7, 2026, after convicting him of accepting more than 2.2 billion yuan in bribes and other offences spanning three decades from 1993 to 2023.",
+    "date": "2026-07-07",
+    "generated_at": "2026-07-07T05:08:28.626623+00:00",
+    "image_attempted_at": "2026-07-07T05:08:59.924562+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c33y0n1v1xjo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-07T03:36:56+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/chinese-court-hands-former-local-official-rare-death-sentence-in-324-million-graft-case",
+      "author": null,
+      "published_at": "2026-07-06T12:41:54+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/politics/article/3359625/former-chinese-official-sentenced-death-us323-million-bribery-case?utm_source=rss_feed",
+      "author": "Xinlu Liang",
+      "published_at": "2026-07-06T12:20:52+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/world/china/china-sentences-former-official-to-death-in-325-million-bribery-case/articleshow/132228523.cms",
+      "author": "TOI World Desk",
+      "published_at": "2026-07-07T02:31:12+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Bennett, Coleman & Co. (The Times Group), controlled by the Jain family.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "The Changzhou Intermediate People's Court in Jiangsu province sentenced former Nanjing official Yang Youlin to death on July 7, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "sentencing_decision",
+      "rationale": "All four outlets across center-left and center-right tiers consistently report the death sentence handed down by the Changzhou court, confirming cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "BBC describes it as a court in eastern China sentencing 'a former city official to death.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Straits Times specifies 'Changzhou Intermediate People's Court in Jiangsu province' issuing a 'first-instance judgment on July 6.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "SCMP names the Changzhou Intermediate People's Court delivering 'a consolidated death sentence' and stripping Yang of political rights for life.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Times of India frames Yang as 'former Nanjing economic development official' sentenced by the Changzhou court.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Yang Youlin illegally accepted more than 2.2 billion yuan (approximately US$325 million) in bribes across his career.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "corruption_charges",
+      "rationale": "All four outlets across both bias tiers report the same bribery figure of over 2.2 billion yuan, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "BBC converts to $325m / £243m and notes this is 'one of the highest in recent years.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Straits Times converts to S$419 million and quotes the court's language of 'especially huge amount.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "SCMP converts to US$323.8 million and calls the kickbacks 'staggering.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Times of India specifies '2.21 billion yuan' and notes the court described assets as 'illegally accepted property and assets.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Yang Youlin held various government posts in Nanjing from 1993 to 2023, including as executive deputy director of the Nanjing Economic and Technological Development Zone management committee.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "official_background",
+      "rationale": "All four outlets across the political spectrum confirm the 1993–2023 timeframe and his senior Nanjing role; multiple outlets specifically name his executive deputy director position.",
+      "framing_variants": [
+        {
+          "characterization": "BBC says Yang 'served in various positions in Nanjing city from 1993 to 2023' focused on economic and technological development.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Straits Times identifies him as 'former executive deputy director of Nanjing Development Zone's administrative committee.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "SCMP names him 'executive deputy director of the Nanjing Economic and Technological Development Zone management committee' and lists additional roles including director of Jiangning District Construction Bureau and general manager of Jiangning Economic and Technological Development Group.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Times of India describes him as 'former Nanjing economic development official' who accepted payments between 1993 and 2023.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "In addition to bribery, Yang Youlin was convicted of embezzlement, abuse of power, money laundering, and misappropriation of public funds.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "corruption_charges",
+      "rationale": "All four outlets confirm multiple charges beyond bribery; the full list aligns across sources with minor variation in which charges are enumerated.",
+      "framing_variants": [
+        {
+          "characterization": "BBC lists 'embezzlement, abuse of power and money laundering' alongside bribery.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Straits Times lists 'abuse of power and money laundering among other charges.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "SCMP gives the most complete list: 'bribery, embezzlement, misappropriating public funds, abuse of power and money laundering.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Times of India includes 'offering bribes' as an additional separate charge alongside the others.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Yang Youlin exploited his official positions to help private companies and individuals secure engineering contracts, land transfers, business opportunities, and financing in exchange for money and valuables.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "corruption_charges",
+      "rationale": "Three outlets across center-left and center-right tiers describe the same mechanism of corruption, confirming cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "BBC writes he 'exploited his roles to help others secure engineering contracts, land transfers and financing, in exchange for money and valuables.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP says he 'manipulated engineering contracts, business operations, land transfers and financial turnovers in exchange for staggering kickbacks.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Times of India says bribes were in return for helping 'secure projects, business opportunities, land allocations and financial support.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The Changzhou court imposed a consolidated death sentence on Yang Youlin, ordered confiscation of all personal assets, stripped him of political rights for life, and directed authorities to recover all ill-gotten gains.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "sentencing_decision",
+      "rationale": "Two outlets — both center-left/center-right — report the full suite of punishments including asset confiscation and political rights stripping; this is corroborated but not cross-spectrum confirmed since SCMP and TOI occupy adjacent tiers.",
+      "framing_variants": [
+        {
+          "characterization": "SCMP details 'consolidated death sentence,' stripping of political rights for life, confiscation of personal assets, and that 'ill-gotten gains and their yields have been seized and turned over to the state treasury.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Times of India notes 'confiscation of Yang's personal assets' and that 'authorities were directed to recover the full amount obtained through the bribes.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Yang Youlin pleaded guilty, expressed remorse in his final statement, and admitted wrongdoing during proceedings.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "trial_proceedings",
+      "rationale": "Three outlets across center-left and center-right tiers all report that Yang admitted guilt and expressed remorse, confirming cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "BBC notes Yang 'pleaded guilty' and 'expressed remorse in his final statement.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Straits Times reports Yang 'admitted guilt and expressed remorse in court' in a final statement.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Times of India says Yang 'admitted wrongdoing and expressed regret' and 'delivered a final statement in which he expressed his guilt and remorse.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Public hearings in Yang's case were held over two days in March and April and were attended by more than 30 people.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "trial_proceedings",
+      "rationale": "Only the Times of India reports the specific timing and attendance of public hearings; no other outlet in the cluster mentions this detail.",
+      "framing_variants": [
+        {
+          "characterization": "Times of India reports 'public hearings in the case were held over two days in March and April' and were attended by 'more than 30 people.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The Changzhou court determined that Yang's offences were so grave that his assistance to authorities was insufficient to warrant a more lenient punishment.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "sentencing_decision",
+      "rationale": "Only BBC explicitly reports the court's reasoning about Yang's cooperation being insufficient for leniency; this is a single-source claim from BBC.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes the court finding his offences 'so grave' that assistance 'was insufficient to warrant a more lenient punishment.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Yang Youlin provided assistance to authorities during the investigation, which courts sometimes use as grounds for sentence reduction.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "trial_proceedings",
+      "rationale": "Only BBC notes that Yang provided assistance to authorities and that courts have reduced sentences in some cases for such cooperation; this is a single-source observation.",
+      "framing_variants": [
+        {
+          "characterization": "BBC notes 'Yang provided similar assistance to authorities' as in other cases where courts reduced sentences for reporting on other offenders.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Yang Youlin's case is part of President Xi Jinping's long-running anti-corruption campaign, which has investigated millions of people across China's bureaucracy.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "anti_corruption_campaign",
+      "rationale": "Three outlets across center-left and center-right tiers confirm that Yang's prosecution is part of Xi Jinping's anti-corruption drive and note its broad scope.",
+      "framing_variants": [
+        {
+          "characterization": "BBC describes the crackdown as having 'cut through military ranks and high-level banking, among other sectors.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Straits Times reports that 'millions of people within China's vast bureaucracy have been investigated' during Xi's crackdown.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Times of India says Yang 'came under scrutiny as part of President Xi Jinping's long-running anti-corruption campaign.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Critics characterize Xi Jinping's anti-corruption campaign as a tool used to purge or sideline political rivals; the Chinese government characterizes it as a genuine anti-corruption drive.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "anti_corruption_campaign",
+      "rationale": "BBC and the Times of India both report the critics' perspective that the campaign targets political opponents alongside the government's framing of it as an anti-corruption effort, surfacing a genuine framing dispute between political actors.",
+      "framing_variants": [
+        {
+          "characterization": "BBC notes critics say the drives 'have also been used as a tool to purge political rivals.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Times of India says 'critics have argued has also been used to sideline Xi's political opponents.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Death sentences for white-collar corruption crimes remain rare in China, applied only in a handful of known cases over more than a decade, typically when sums exceed 1 billion yuan.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "sentencing_context",
+      "rationale": "BBC (center-left) and Straits Times (center-right) both characterize such death sentences as rare and note the approximate threshold of 1 billion yuan, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "BBC says death sentences for white-collar crimes 'remain rare' but 'are meted out occasionally, typically if cases involve large sums exceeding 1bn yuan.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Straits Times says such sentences 'remain rare, with just a handful of known cases in over a decade' and notes the 1 billion yuan threshold.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "In many corruption cases, Chinese courts have issued suspended death sentences, which are commonly commuted to life imprisonment after a specified period.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "sentencing_context",
+      "rationale": "Both BBC and Straits Times describe the practice of suspended death sentences being commuted to life imprisonment, confirming this across center-left and center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "BBC notes courts 'handed out jail terms or suspended death sentences, which get commuted to life imprisonment after a specified duration.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Straits Times describes suspended sentences as 'commonly commuted to life imprisonment' and notes they are mostly given to officials found guilty of large bribes.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Former finance official Lai Xiaomin was executed in 2021 after being convicted of accepting approximately 1.8 billion yuan in bribes, embezzlement, and bigamy.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "sentencing_context",
+      "rationale": "BBC and Times of India both cite Lai Xiaomin's 2021 execution as a comparable precedent, across center-left and center-right tiers.",
+      "framing_variants": [
+        {
+          "characterization": "BBC calls him 'former finance chief Lai Xiaomin' executed 'for taking 1.8bn yuan in bribes over a 10-year period.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Times of India identifies him as 'former Communist Party secretary of a state-owned financial company' executed 'after being convicted of accepting bribes, embezzlement and bigamy.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Former Inner Mongolia official Li Jianping was executed in 2024 after being convicted of embezzlement and bribery totaling more than 3 billion yuan.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "sentencing_context",
+      "rationale": "Three outlets across center-left and center-right tiers all cite Li Jianping's 2024 execution as a precedent, confirming the fact cross-spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "BBC notes 'Li Jianping, a former Inner Mongolia official, was executed in 2024 for embezzling and taking bribes totaling more than 3bn yuan.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Straits Times describes the 2024 case as 'involving more than 3 billion yuan.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Times of India lists Li among senior officials who received the death penalty in corruption cases in recent years.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Zhang Zhongsheng, a Shanxi province official, was sentenced to death in 2018 for taking over 1 billion yuan in bribes; that sentence was changed on appeal in 2021 to a suspended death sentence and life imprisonment.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "sentencing_context",
+      "rationale": "Only the Straits Times mentions Zhang Zhongsheng's case and the subsequent appeal that commuted his death sentence; no other outlet in the cluster reports this.",
+      "framing_variants": [
+        {
+          "characterization": "Straits Times cites Zhang Zhongsheng as an example of a death sentence changed on appeal to 'a suspended death sentence and life imprisonment.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Yang Youlin's bribery amount of over 2.2 billion yuan is characterized as one of the highest among recent corruption cases in China.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "corruption_charges",
+      "rationale": "BBC and Straits Times both note the exceptional scale of Yang's ill-gotten gains relative to other recent cases, though both are from overlapping parts of the spectrum (center-left and center-right are adjacent here but the characterization is an editorial observation rather than a disputed fact).",
+      "framing_variants": [
+        {
+          "characterization": "BBC describes the amount as 'one of the highest in recent years.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Straits Times quotes the court calling it 'an especially huge amount' with 'especially egregious social impact.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "President Xi Jinping launched a sweeping anti-corruption campaign that has investigated millions of officials across China's bureaucracy, military, and financial sectors since coming to power.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Under Chinese law, death sentences for corruption are issued but may be suspended, in which case they are typically commuted to life imprisonment after a set period; immediate executions for economic crimes are rare.",
+      "sources": [
+        "src_001",
+        "src_002"
+      ]
+    },
+    {
+      "point": "The Changzhou Intermediate People's Court's verdict is a first-instance judgment, meaning it may be subject to appeal under China's judicial process.",
+      "sources": [
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "Critics have long argued that Xi Jinping's anti-corruption campaign has been selectively applied to remove political rivals, though the government maintains it targets genuine corruption.",
+      "sources": [
+        "src_001",
+        "src_004"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-07T05:08:49.765902+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "On July 7, 2026, the Changzhou Intermediate People's Court in Jiangsu province sentenced Yang Youlin, a former senior official in Nanjing, to death after convicting him of corruption offenses spanning three decades. Yang was found to have illegally accepted more than 2.2 billion yuan — approximately US$325 million — in bribes across his career, making this one of the highest bribery amounts recorded in recent Chinese corruption cases.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Yang Youlin held various government posts in Nanjing from 1993 to 2023, including serving as executive deputy director of the Nanjing Economic and Technological Development Zone management committee. In addition to bribery, he was convicted of embezzlement, abuse of power, money laundering, and misappropriation of public funds.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "According to court findings, Yang exploited his official positions to help private companies and individuals secure engineering contracts, land transfers, business opportunities, and financing in exchange for money and valuables. During proceedings, Yang pleaded guilty, expressed remorse in his final statement, and admitted wrongdoing.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The Changzhou court imposed a consolidated death sentence on Yang, ordered confiscation of all personal assets, stripped him of political rights for life, and directed authorities to recover all ill-gotten gains. These additional penalties accompanied the capital sentence.",
+        "supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Death sentences for white-collar corruption crimes remain rare in China, applied only in a handful of known cases over more than a decade. Such sentences typically occur when the bribery amounts exceed 1 billion yuan. In many corruption cases, Chinese courts have instead issued suspended death sentences, which are commonly commuted to life imprisonment after a specified period.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Yang's case follows several other high-profile executions for corruption. Former finance official Lai Xiaomin was executed in 2021 after being convicted of accepting approximately 1.8 billion yuan in bribes, embezzlement, and bigamy. More recently, former Inner Mongolia official Li Jianping was executed in 2024 after being convicted of embezzlement and bribery totaling more than 3 billion yuan.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Yang's prosecution is part of President Xi Jinping's long-running anti-corruption campaign, which has investigated millions of people across China's bureaucracy since it began. The campaign has resulted in prosecutions at all levels of government and state-owned enterprises.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "BBC News noted that Yang provided assistance to authorities during the investigation — cooperation that courts sometimes use as grounds for sentence reduction. However, the Changzhou court determined that Yang's offenses were so grave that his assistance to authorities was insufficient to warrant a more lenient punishment.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Times of India reported that public hearings in Yang's case were held over two days in March and April 2026 and were attended by more than 30 people. No other outlets in the coverage cluster provided details about the hearing schedule or attendance.",
+        "supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The Straits Times noted a relevant precedent: Zhang Zhongsheng, a Shanxi province official, was sentenced to death in 2018 for taking over 1 billion yuan in bribes. That sentence was later changed on appeal in 2021 to a suspended death sentence and life imprisonment, illustrating how capital sentences in corruption cases can be modified through the appeals process.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Xi Jinping's anti-corruption campaign faces divergent interpretations. Critics characterize the campaign as a tool used to purge or sideline political rivals, while the Chinese government characterizes it as a genuine anti-corruption drive. Both BBC News and The Times of India reported this dispute between critics and Chinese authorities over the campaign's true purpose.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}

@@ -1,0 +1,938 @@
+{
+  "schema_version": "0.4",
+  "event": {
+    "cluster_id": "evt_2026_07_07_auto_001",
+    "beat": "asia",
+    "title": "Typhoon Maysak Triggers Severe Flooding in China's Guangxi Region",
+    "summary": "Typhoon Maysak made landfall in China's Hainan island on July 3, 2026, before striking Vietnam on July 5 and pushing inland into southern China's Guangxi region, causing catastrophic flooding that killed at least two people, displaced hundreds of thousands, and breached multiple reservoirs. Chinese authorities raised emergency flood response levels and deployed personnel, supplies, and funding across the affected region.",
+    "date": "2026-07-06",
+    "generated_at": "2026-07-07T05:05:53.130204+00:00",
+    "image_attempted_at": "2026-07-07T05:06:30.087194+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/06/typhoon-maysak-kills-two-and-forces-thousands-to-evacuate-in-china",
+      "author": "Guardian staff and agencies in Beijing",
+      "published_at": "2026-07-06T17:50:08+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/c1eyyevn5j7o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-07T00:58:22+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/flooding-kills-two-in-chinas-nanning-as-east-braces-for-super-typhoon",
+      "author": null,
+      "published_at": "2026-07-06T22:45:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/video/2026/jul/06/typhoon-maysak-floods-construction-site-south-west-china-video",
+      "author": null,
+      "published_at": "2026-07-06T12:28:14+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/chinas-nanning-on-top-alert-as-typhoon-maysak-triggers-reservoir-breach",
+      "author": null,
+      "published_at": "2026-07-06T06:32:01+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/hundreds-evacuated-dams-breached-as-heavy-rain-batters-south-china",
+      "author": null,
+      "published_at": "2026-07-06T14:45:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Typhoon Maysak made its first landfall in China's southern island province of Hainan on July 3, 2026, becoming the first tropical cyclone to reach the Chinese mainland that year.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "typhoon_track",
+      "rationale": "Multiple sources from center-left (The Guardian, BBC) and center-right (The Straits Times) outlets agree on the date, location, and historical significance of Maysak's first landfall, satisfying cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Described as a milestone: 'the first tropical cyclone to reach the Chinese mainland this year.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Dated precisely to July 3; described as 'first tropical cyclone to reach the Chinese mainland this year.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States landfall was 'on Friday' without a specific date, characterizes it as the year's first mainland cyclone.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Dated to July 3; identified as first tropical cyclone to reach the mainland in 2026.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States 'Maysak is the first typhoon to make landfall in China this year' without giving a date.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Typhoon Maysak made a second landfall in Vietnam on July 5, 2026, affecting the border city of Mong Cai where the storm brought down trees and ripped metal roofs from buildings.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "typhoon_track",
+      "rationale": "Center-left (The Guardian) and center-right (The Straits Times) sources consistently report the second landfall date, location, and associated damage in Mong Cai.",
+      "framing_variants": [
+        {
+          "characterization": "Describes second landfall 'on Sunday in Vietnam' and cites specific damage in 'the Vietnamese border city of Mong Cai.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Dates second landfall to July 5 in Vietnam; describes damage based on 'state media.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'second landfall on Sunday in Vietnam' and notes Vietnam 'shares a border with Guangxi.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Dates second landfall to July 5; describes Mong Cai damage via 'state media reporting.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "After making landfall, Typhoon Maysak weakened into a tropical storm but continued to bring heavy rain and severe flooding to China's southern Guangxi region.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "typhoon_track",
+      "rationale": "Both center-left and center-right outlets consistently report Maysak's weakening into a tropical storm and its continued rainfall impact on Guangxi.",
+      "framing_variants": [
+        {
+          "characterization": "Describes the storm 'lashing' Vietnam and Hainan before causing inland flooding.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Notes that as the storm heads inland and weakens, 'it will dump the water it sucked up on its way across the South China Sea, triggering catastrophic flooding, Chinese meteorologists say.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Explicitly states 'Maysak weakened into a tropical storm after making landfall in mainland China' while noting ongoing rain risk.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Describes the typhoon lashing Hainan and Vietnam 'over the weekend' and driving subsequent flooding.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_006",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "At least two people were killed in Nanning due to flooding caused by Typhoon Maysak.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualties_and_displacement",
+      "rationale": "Center-left (The Guardian, BBC) and center-right (The Straits Times) sources all confirm at least two deaths in Nanning attributed to Maysak-driven flooding.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Typhoon Maysak killed two people in Nanning.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'at least two people have been killed by flooding due to Typhoon Maysak.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Attributes to 'officials': 'Flooding has killed at least two people in the southern Chinese city of Nanning.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Five people died in separate heavy rain events in northern China: two in a flash flood in Inner Mongolia and three in Fushun, Liaoning province.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "casualties_and_displacement",
+      "rationale": "Only The Guardian reported deaths from northern China weather events, with no corroboration from other outlets in this cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Reports deaths as part of a broader picture of concurrent weather disasters across China.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Approximately 55,000 people were affected by floods in Nanning, according to deputy mayor Wei Jiang.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualties_and_displacement",
+      "rationale": "Both The Guardian (center-left) and The Straits Times (center-right) cite the same figure attributed to deputy mayor Wei Jiang, confirming cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States 'About 55,000 people were already affected by floods in Nanning.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Attributes to deputy mayor Wei Jiang directly: 'Around 55,000 people were already affected.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Approximately 48,000 people were evacuated in Nanning city, while 480,000 people were evacuated across the broader Guangxi province.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "casualties_and_displacement",
+      "rationale": "The Guardian reports ~48,000 evacuated in Nanning specifically; BBC reports 480,000 evacuated across Guangxi province — these figures are complementary (city vs. provincial level) rather than contradictory. Both are center-left outlets, so this is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Cites a city official: 'Approximately 48,000 people were evacuated' in Nanning.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports a broader provincial figure: '480,000 have been evacuated across the southern Guangxi province, officials say.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "More than 800 residents were evacuated due to severe flooding in Fangchenggang, Guangxi.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "casualties_and_displacement",
+      "rationale": "Only The Straits Times reported the specific Fangchenggang evacuation figure; no other outlet in this cluster corroborated it.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes the figure to 'state media': 'More than 800 residents were evacuated due to severe flooding in Fangchenggang.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Waters overflowed or broke through barriers at three reservoirs in Nanning, including a breach at a medium-sized reservoir in Hengzhou and failures at the Liulan, Yunbiao, and Liuwang reservoirs.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "infrastructure_damage",
+      "rationale": "All outlets from center-left to center-right confirm multiple reservoir failures; The Straits Times and BBC provide specific reservoir names (Liulan, Yunbiao, Liuwang), while The Guardian and BBC confirm the general fact of three reservoirs being compromised.",
+      "framing_variants": [
+        {
+          "characterization": "States 'waters were overflowing or breaking through barriers at three reservoirs.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Leads with 'A reservoir wall broke in Nanning' releasing a 'torrent of water after rivers swelled.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Attributes to deputy mayor Wei Jiang: 'waters were overflowing or breaking through barriers at three reservoirs.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'one breach has been reported at a medium-sized reservoir in Nanning's Hengzhou' via Xinhua.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Names specific reservoirs: breach at Liulan (shown in CCTV video), burst dam at Yunbiao, overflow at Liuwang.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Luwei Town in Nanning recorded 637mm of rainfall in 24 hours between July 5 and the morning of July 6.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "infrastructure_damage",
+      "rationale": "Only The Straits Times reported this specific rainfall measurement for Luwei Town; no other outlet in this cluster cited the figure.",
+      "framing_variants": [
+        {
+          "characterization": "States as a factual measurement: 'Luwei Town, also in Nanning, recorded 637mm of rain in 24 hours between July 5 and 6 morning.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Waters rose above warning levels at 66 hydrological monitoring stations on 55 rivers in Guangxi on July 6.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "infrastructure_damage",
+      "rationale": "Only The Straits Times reported the specific hydrological station count and rivers affected; no other outlet corroborated these figures.",
+      "framing_variants": [
+        {
+          "characterization": "States as a factual hydrological measurement supporting the severity of the flooding.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "The water level at Guigang Hydrological Station had risen to 42 metres by 12:30pm local time on July 6, according to China's Ministry of Water Resources.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "infrastructure_damage",
+      "rationale": "The Guardian (center-left) and two Straits Times articles (center-right) all cite the same 42-metre water level from the Ministry of Water Resources at the same time, confirming cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Cites 'the ministry of water resources' statement directly.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Cites 'the Ministry of Water Resources said in a statement.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States as fact per Ministry of Water Resources.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Flood waters in Guigang turned a wide road into a lake, submerging cars, and cascaded into a construction site; a small car was washed down a street in Fangchenggang.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "infrastructure_damage",
+      "rationale": "Both Straits Times articles describe the Guigang and Fangchenggang flooding scenes, verified by video. These are from the same outlet, making this corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Reports that 'heavy rain brought by Typhoon Maysak flooded a construction site in Guigang.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes 'flood waters turned a wide road into a lake' in Guigang via 'verified video on Douyin' and 'a small car being washed down a street' in Fangchenggang.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Nanning and Guangxi authorities raised the flood control emergency response to its highest level (Level I) on July 6.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "All outlets from center-left (The Guardian, BBC) to center-right (The Straits Times) confirm authorities raised the flood control response to the highest level, with some specifying it was raised from Level III to Level I.",
+      "framing_variants": [
+        {
+          "characterization": "States simply: 'Authorities raised the flood control emergency response to its highest level.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States: 'The province's emergency flood control response has been raised to its highest level.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States: 'Authorities raised the flood control emergency response to its highest level.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Specifies the change: 'raised the flood-control emergency response level to I from III' due to 'extremely heavy rain.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Notes officials raised Nanning's response to highest level 'after torrential rain breached dams.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "China's Ministry of Emergency Management raised its flood response level for the Guangxi region from Level III to Level II on July 6.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Only The Straits Times reported this specific action by the national Ministry of Emergency Management. Note that this is a separate, national-level action distinct from the city/province-level Level I declaration reported elsewhere.",
+      "framing_variants": [
+        {
+          "characterization": "States: 'China's Ministry of Emergency Management raised its flood response level for the whole region from III to II on July 6.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Central authorities dispatched 1,372 personnel and 140 boats to assist local rescuers in Guangxi.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Only The Straits Times reported the specific figures for personnel and boats dispatched; no other outlet in the cluster cited these numbers.",
+      "framing_variants": [
+        {
+          "characterization": "States as direct government action: 'the central authorities said they had dispatched 1,372 people and 140 boats to assist local rescuers.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "The Ministry of Emergency Management dispatched two Wing Loong drones to the disaster area to assist with emergency communications.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Only The Straits Times reported the deployment of Wing Loong drones; no other article in this cluster mentioned it.",
+      "framing_variants": [
+        {
+          "characterization": "Describes drone deployment as part of a broader list of central government emergency response measures.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Central authorities allocated 150,000 pieces of disaster relief supplies, including tents and camp beds, to Guangxi.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Only The Straits Times reported this specific allocation of relief supplies; no other outlet corroborated it.",
+      "framing_variants": [
+        {
+          "characterization": "Lists supply allocation as part of a comprehensive account of central government relief measures.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The Ministry of Finance and the Ministry of Emergency Management allocated 160 million yuan for flood and typhoon relief efforts across six provincial-level regions, including Guangxi.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Two Straits Times articles (center-right) both report the 160 million yuan allocation. However, as both are from the same outlet, this is corroborated; The Guardian and BBC did not mention this figure.",
+      "framing_variants": [
+        {
+          "characterization": "States 'the finance ministry and emergency management authorities provided 160 million yuan to support flood and typhoon response efforts across six provincial-level regions.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Specifies the amount as '160 million yuan (S$30.5 million)' allocated for 'relief efforts in six disaster-affected regions and provinces.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "China's National Development and Reform Commission (state planner) allocated 100 million yuan from central budgets for post-disaster reconstruction in Guangxi.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Both Straits Times articles report the 100 million yuan allocation from the state planner/NDRC, but both are from the same center-right outlet, making this corroborated rather than cross-spectrum confirmed.",
+      "framing_variants": [
+        {
+          "characterization": "States 'China's state planner released 100 million yuan (S$19 million) for relief work in Guangxi.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'The National Development and Reform Commission allocated a further 100 million yuan from central budgets for post-disaster reconstruction.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Heavy rainfall is forecast to continue across Guangxi, Guizhou, Hunan and neighbouring regions in the coming days, according to Chinese meteorologists.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "weather_forecast",
+      "rationale": "Center-left (The Guardian, BBC) and center-right (The Straits Times) sources all confirm official warnings of continued heavy rainfall across the affected southern Chinese provinces.",
+      "framing_variants": [
+        {
+          "characterization": "Cites 'Chinese meteorologists' predicting 'heavy rainfall across Guangxi, Guizhou, Hunan and other regions.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'authorities have warned that torrential rains will continue across Guangxi and several neighbouring provinces in the coming days.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Cites 'Chinese meteorologists' for expected 'heavy rainfall across Guangxi, Guizhou, Hunan and other areas.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States 'authorities have warned it is still likely to bring more rain to Guangxi and much of southern China over the coming days.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "The combined population of Guangxi, Guizhou, and Hunan exceeds 150 million people, more than the population of Russia.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "weather_forecast",
+      "rationale": "The Guardian (center-left) and The Straits Times (center-right) both present this demographic comparison to contextualize the scale of the threat, constituting cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States 'The three areas alone are home to more than 150 million people – more than the population of Russia.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'The three areas alone are home to over 150 million people – more than the population of Russia.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'The three provinces alone are home to more than 150 million people – more than the population of Russia.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Super Typhoon Bavi was tracking across the Pacific Ocean toward Taiwan, packing winds of up to 290 km/h (approximately 180 mph) as it passed over Guam, Tinian, Saipan, and Rota on July 6, with Chinese weather authorities warning it would bring strong winds and heavy rain to eastern China from July 9.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "weather_forecast",
+      "rationale": "The Guardian (center-left) and The Straits Times (center-right) all report Super Typhoon Bavi's track, wind speeds per the US National Weather Service, and Chinese authorities' warnings about its eastward approach, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Bavi 'making its way across the Pacific Ocean towards Taiwan' with 'winds of up to 180mph' and a warning of 'strong winds and heavy rain to eastern China from Thursday.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States Bavi was 'packing winds of up to 290kmh' per the US National Weather Service, and would 'bring strong winds and heavy rain to eastern China from July 9' per state agency Xinhua.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports Bavi's track across Guam, Tinian, Saipan, and Rota on July 6 with winds of up to 290 km/h.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Meteorologists link China's extreme weather and flooding events to climate change.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "climate_context",
+      "rationale": "Both The Guardian and The Straits Times mention meteorologists linking extreme weather to climate change or the climate crisis, but these are from center-left and center-right respectively — however, the claim is attributed to meteorologists rather than the outlets themselves, making it corroborated factual reporting of a scientific view.",
+      "framing_variants": [
+        {
+          "characterization": "States 'meteorologists link to the climate crisis' in the context of China's extreme weather threats.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'meteorologists link to climate change' and adds that 'analysts say weather-related risks each year stand to wipe out tens of billions of dollars worth of commercial activity.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "Weather-related risks in China are assessed by analysts to potentially wipe out tens of billions of dollars worth of commercial activity annually.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "climate_context",
+      "rationale": "Only one Straits Times article includes this analyst assessment of economic risk; no other outlet in the cluster reported it.",
+      "framing_variants": [
+        {
+          "characterization": "Frames as an analyst assessment contextualizing the broader economic implications of China's weather risks.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Typhoon Maysak (July 2026) is the first tropical cyclone to make landfall on the Chinese mainland in 2026, reflecting China's vulnerability to sequential typhoon impacts during the annual typhoon season.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-07T05:06:18.232641+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Typhoon Maysak made its first landfall in China's southern island province of Hainan on July 3, 2026, becoming the first tropical cyclone to reach the Chinese mainland that year. After striking Hainan, the storm made a second landfall in Vietnam on July 5, affecting the border city of Mong Cai where it brought down trees and ripped metal roofs from buildings. Though Maysak weakened into a tropical storm after landfall, it continued to bring heavy rain and severe flooding to China's southern Guangxi region.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "At least two people were killed in Nanning due to flooding caused by Typhoon Maysak. Approximately 55,000 people were affected by floods in Nanning, according to deputy mayor Wei Jiang. Evacuation efforts removed approximately 48,000 people from Nanning city, while across the broader Guangxi province, some 480,000 people were evacuated.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Waters overflowed or broke through barriers at three reservoirs in Nanning, including a breach at a medium-sized reservoir in Hengzhou and failures at the Liulan, Yunbiao, and Liuwang reservoirs. The water level at Guigang Hydrological Station had risen to 42 metres by 12:30pm local time on July 6, according to China's Ministry of Water Resources.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Nanning and Guangxi authorities raised the flood control emergency response to its highest level — Level I — on July 6. Heavy rainfall is forecast to continue across Guangxi, Guizhou, Hunan and neighbouring regions in the coming days, according to Chinese meteorologists. The combined population of Guangxi, Guizhou, and Hunan exceeds 150 million people, more than the population of Russia.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_021",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "As southern China grappled with Maysak's aftermath, Super Typhoon Bavi was tracking across the Pacific Ocean toward Taiwan, packing winds of up to 290 km/h (approximately 180 mph) as it passed over Guam, Tinian, Saipan, and Rota on July 6. Chinese weather authorities warned Bavi would bring strong winds and heavy rain to eastern China from July 9, threatening a second major storm system within days.",
+        "supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Meteorologists link China's extreme weather and flooding events to climate change, reflecting a broader scientific consensus on the intensification of such events in a warming world.",
+        "supports": {
+          "claim_ids": [
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Center-right outlet The Straits Times reported several additional operational details about the government response not covered by other sources. According to their reporting, China's Ministry of Emergency Management raised its flood response level for the Guangxi region from Level III to Level II on July 6 — a separate, national-level action distinct from the city and provincial Level I declarations. Central authorities dispatched 1,372 personnel and 140 boats to assist local rescuers in Guangxi, and allocated 150,000 pieces of disaster relief supplies, including tents and camp beds, to the region.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "The Straits Times also reported that the Ministry of Emergency Management dispatched two Wing Loong drones to the disaster area to assist with emergency communications, a technological response not mentioned by other outlets covering the event.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The same outlet reported that the Ministry of Finance and the Ministry of Emergency Management allocated 160 million yuan for flood and typhoon relief efforts across six provincial-level regions, including Guangxi, and that China's National Development and Reform Commission allocated 100 million yuan from central budgets for post-disaster reconstruction in Guangxi. These specific funding figures appeared only in center-right reporting.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The Straits Times provided several measurements of the storm's impact not reported elsewhere: Luwei Town in Nanning recorded 637mm of rainfall in 24 hours between July 5 and the morning of July 6, waters rose above warning levels at 66 hydrological monitoring stations on 55 rivers in Guangxi on July 6, and more than 800 residents were evacuated due to severe flooding in Fangchenggang, Guangxi.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Two Straits Times articles described localized flooding scenes verified by video: flood waters in Guigang turned a wide road into a lake, submerging cars, and cascaded into a construction site, while a small car was washed down a street in Fangchenggang.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Center-left outlet The Guardian was alone in reporting casualties from separate heavy rain events in northern China: five people died, including two in a flash flood in Inner Mongolia and three in Fushun, Liaoning province. These northern incidents occurred during the same period as Maysak's southern impact but were not connected to the typhoon itself.",
+        "supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "One Straits Times article included an analyst assessment not appearing in other coverage: weather-related risks in China are assessed by analysts to potentially wipe out tens of billions of dollars worth of commercial activity annually, contextualizing the economic dimension of extreme weather events.",
+        "supports": {
+          "claim_ids": [
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}
