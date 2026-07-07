@@ -26,3 +26,6 @@ Thumbs.db
 
 # Autonomous-run state and logs (local only)
 data/logs/
+
+# LibreOffice/editor lock files
+.~lock.*#
