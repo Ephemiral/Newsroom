@@ -1,0 +1,780 @@
+{
+  "schema_version": "0.4",
+  "event": {
+    "cluster_id": "evt_2026_07_07_auto_001",
+    "beat": "israel_middle_east",
+    "title": "Hamas Dissolves Gaza Governing Body, Paving Way for Technocratic Committee",
+    "summary": "On July 6, 2026, Hamas announced the dissolution of the governing body that has administered the Gaza Strip for nearly two decades, with the head of its emergency committee submitting his resignation. The move is intended to facilitate a transition of civilian governance to the National Committee for the Administration of Gaza (NCAG), a technocratic body established under a 2025 ceasefire framework, though significant obstacles—including Israeli objections and unresolved disarmament questions—remain.",
+    "date": "2026-07-06",
+    "generated_at": "2026-07-07T04:46:28.472238+00:00",
+    "image_attempted_at": "2026-07-07T04:46:57.770077+00:00",
+    "image": {
+      "url": "https://live.staticflickr.com/7302/9870053526_7cfd86986a_b.jpg",
+      "full_url": "https://live.staticflickr.com/7302/9870053526_7cfd86986a_b.jpg",
+      "source_page": "https://www.flickr.com/photos/8721758@N06/9870053526",
+      "width": 1024,
+      "height": 680,
+      "caption": "The Mahmoudiya Mosque in Gaza (file photo)",
+      "credit": "Jorge Lascar",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "provider": "openverse",
+      "file_title": "openverse:f7074743-40c8-46f7-b65a-2fb116cd3eb6|The Mahmoudiya Mosque",
+      "query": "Gaza City government building",
+      "fetched_at": "2026-07-07T04:46:57.770031+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/news/hamas-decision-dissolve-gaza-government-a-nod-trump-expert-says",
+      "author": "Sean Mathews",
+      "published_at": "2026-07-06T18:46:26+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-hamas-announces-dissolution-gaza-government-after-nearly-two",
+      "author": "Mera Aladam",
+      "published_at": "2026-07-06T23:43:44+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN2I4NG1JRkp6SGMtcXM1ZTJxQ1NWRldVX2VTbjlFYkFXcDE4SHJTd21PVDIzM2RCU2NpR2Q2cVNEVFNiWTlnNDNCZk52LWV4V1ZlMW9NRmdZT2NncG5CQjhTMGI1S0hQLVZGU3ZHY3ZkMk9ZOFRnS01Sd2Y2Y2g4d2FVYWtBNDJPdG5WOWN2NF9qTFh20gGaAUFVX3lxTE1Gb1BXXzk3ZlQ2a1V1Q3FwUWhVaWIwTENQOGNsMy1GQ3dxTHQxRzdzQkRKNEM0My1Ydy1JTnR0MHRZb3NNYllyeWs5eFg1ZGw4TF9hZlpJU0txQ18wSloyWmRDQ0tHMGhIWHdFaGFXZ19WUXU4bHBFX2JBZi00TTFDZjZ0UUFlMzRnUDktdnE5T2E2cGtXeHJ4X3c?oc=5",
+      "author": null,
+      "published_at": "2026-07-06T13:41:54+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Asharq Al-Awsat",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNS0xPb0tFMXAwb1ZPQUl3WjJQTW5RUXEybXlwa2FIMGZNQmNjdVl1TVdOVk1QS1k5YjJnM1Vkd0JrMXRvUUNKblptdXJaNUJaZVU5a2NBa1JJVHRkWVowcEZJMHdiWUNqd3d1aVZrdEJNQVl6NEl0Zlo1R2V0NFpPUmVXQ0xoRjg4dVFqajRlU3VaSFlZVjNxNzJEamdUMDBvdDM2YS16YmVIWl9EWVdyWHFEdEtRNlAyVGxIazdyeFE?oc=5",
+      "author": null,
+      "published_at": "2026-07-06T17:13:08+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": "Saudi state-aligned",
+      "ownership": "Owned by SRMG (Saudi Research and Media Group), whose principal shareholders are tied to the Saudi royal family. Saudi state-aligned.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/2026/07/06/hamas-announces-dissolution-gaza-governing-body-paves-way-for-technocratic-committee",
+      "author": null,
+      "published_at": "2026-07-06T10:48:15+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTFo2LTlqNk9aYUFPVWY4LWtLZFVranB4RHp3SEJNaXd2VzNjWUtWUUs0TkktQnVET2N6YndZMDBzY2MwYXQ0NnVmU0lmUC1Ga3dRcWZXSXZQaVBxdWRFM3VtNUktWEZiMFA4RUNERmJoRHFOUFRoZ1hDUjlBdnhBNnJIZUdWdlRLYVRoSkcxRkdmZnV4dDc2Ykt5cmI4R3JhNmRrMlhoeTRiYUkzVGhtemRsbXNXcjFDVlV3bS1n?oc=5",
+      "author": null,
+      "published_at": "2026-07-06T17:05:09+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBKUjdxanY4Rm9ZejZOY3ZUbHpjQkU5LU9ZbzdVa3Vkb3ozYUpBWlJYVm1iOEQyRlJMaVNxQmtfRjZnbnZJQWtORUw1MVZJQ05vZGRGWmwxZw?oc=5",
+      "author": null,
+      "published_at": "2026-07-05T20:25:26+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Hamas announced the dissolution of the body that has governed the Gaza Strip for nearly two decades.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "hamas_governance_dissolution",
+      "rationale": "All sources across the political spectrum—left, center, and center-right—report this core fact, making it strongly agreed upon.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as Hamas 'announcing the dissolution' of its governing body.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes Hamas as 'the Palestinian militant group' announcing the dissolution.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Saudi state-aligned Asharq Al-Awsat headlines it as 'Hamas Dissolves Gaza Government.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reuters reports Hamas dissolved the Gaza government without additional framing.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Ynet News reported the move as anticipated before it was confirmed.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_005",
+        "src_006",
+        "src_004",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Mohammed al-Farra, head of the government's emergency committee, officially submitted his resignation and decided to dissolve the emergency committee.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "hamas_governance_dissolution",
+      "rationale": "Two outlets—Middle East Eye (left) and Euronews (center)—report this specific detail about al-Farra's resignation and dissolution decision, though both are drawing from the same Hamas government media office statement.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes the action directly to al-Farra submitting resignation and dissolving the committee.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States al-Farra 'officially submitted his resignation' and 'decided to dissolve the committee.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Hamas dissolved its governing body to facilitate an administrative and governmental transition to the National Committee for the Administration of Gaza (NCAG).",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "hamas_governance_dissolution",
+      "rationale": "Left-leaning Middle East Eye (twice) and center outlet Euronews all report that the dissolution is intended to hand governance to the technocratic NCAG, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as facilitating 'administrative and governmental transition to the NCAG.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Frames it as 'clearing the way for a technocratic committee to implement civilian rule.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes the dissolution 'paves the way' for the NCAG to assume governance.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Hamas has governed Gaza since winning legislative elections in 2006 and seizing full control from Fatah in 2007.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "historical_background",
+      "rationale": "Multiple sources across left and center ratings confirm these historical dates, with minor variation (some say Hamas has 'governed since 2006,' others 'seized control in 2007') that reflects different reference points rather than contradiction.",
+      "framing_variants": [
+        {
+          "characterization": "States Hamas 'has governed Gaza since 2006, when it won a majority in the Palestinian legislature.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States Hamas 'has run Gaza since its fighters seized control from rival Palestinian movement Fatah in 2007, after winning legislative elections the previous year.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States Hamas 'has run Gaza since 2007, after winning the legislative elections the previous year.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States Hamas has governed Gaza for nearly 20 years, without specifying dates.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Following Hamas's 2006 electoral victory, fighting broke out between Hamas and Fatah, resulting in Hamas consolidating control of Gaza and Fatah consolidating control of the West Bank via the Palestinian Authority.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "historical_background",
+      "rationale": "Only Middle East Eye provides this specific contextual detail about the Hamas-Fatah split and its outcome.",
+      "framing_variants": [
+        {
+          "characterization": "Describes the post-election fighting and subsequent territorial division as historical background.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The National Committee for the Administration of Gaza (NCAG) is a committee of Palestinian technocrats from Gaza intended to govern daily civilian affairs in the enclave.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ncag_status",
+      "rationale": "Both Middle East Eye (left) and Euronews (center) describe the NCAG's composition and civilian governance mandate in consistent terms.",
+      "framing_variants": [
+        {
+          "characterization": "Describes NCAG as 'the committee of Palestinian technocrats from Gaza intended to govern daily affairs in the enclave as part of the peace deal.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes the NCAG as headed by 'Palestinian technocrat Ali Shaath,' paving the way for civilian governance.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The NCAG was created by the Board of Peace, a body established by US President Donald Trump when he brokered the ceasefire between Hamas and Israel in October 2025.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ncag_status",
+      "rationale": "Only Euronews explicitly attributes the NCAG's creation to the Board of Peace and links Trump's brokering role with the October 2025 ceasefire in this level of detail.",
+      "framing_variants": [
+        {
+          "characterization": "States the NCAG 'was created by the Board of Peace,' which Trump established 'when he brokered the ceasefire between Hamas and Israel in October 2025.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The NCAG has remained based outside Gaza—in Cairo—for months, reportedly due to Israeli objections to its entry into the territory.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ncag_status",
+      "rationale": "Both Middle East Eye (left) and Euronews (center) report the NCAG's location outside Gaza and cite Israeli objections as the reason, meeting cross-spectrum criteria.",
+      "framing_variants": [
+        {
+          "characterization": "States the committee 'has been unable to enter Gaza and is instead based in Cairo.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States the NCAG 'has remained based outside Gaza for months, reportedly due to Israeli objections to its entry into the war-devastated territory.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Ali Shaath, a Palestinian technocrat, heads the NCAG and stated the committee is fully prepared to assume civilian governance once necessary resources and capabilities are available, with a single authority, single law, and single armed force as fundamental requirements.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ncag_status",
+      "rationale": "Only Middle East Eye quotes Ali Shaath directly on these specific conditions and requirements for NCAG success.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Shaath affirming NCAG readiness while citing the need for unified authority, law, and armed force.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "A ceasefire between Hamas and Israel was reached in 2025 (brokered with US, Qatari, and Egyptian involvement), with the first phase involving the release of the last Israeli hostages held by Hamas in exchange for Palestinians detained by Israel.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Both Middle East Eye (left) and Euronews (center) report the ceasefire's existence and its first-phase terms, with minor differences in describing the brokers.",
+      "framing_variants": [
+        {
+          "characterization": "Describes the ceasefire as 'brokered by the US, Qatar and Egypt in September 2025.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States a 'ceasefire took effect in Gaza last October between Hamas and Israel,' brokered by Trump, and details the first-phase hostage-detainee exchange.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "The second phase of the ceasefire was to involve Hamas's disarmament and a gradual withdrawal of Israeli forces from Gaza, but negotiations on phase two have been stalled for months.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Euronews (center) and Middle East Eye (left) both report the stalled phase-two negotiations and their planned contents, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Describes phase two as involving 'Hamas' disarmament and a gradual withdrawal of Israeli forces,' noting the transition 'has been stalled for months.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Notes Hamas agreed to decommission weapons as Israel withdraws, and that the issue of disarmament remains unresolved.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Hamas has repeatedly stated it is prepared to step aside from day-to-day governance since the ceasefire, but is demanding the establishment of a Palestinian administration before considering handing over any part of its arsenal.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Only Euronews provides this combination of Hamas's stated willingness to step back from governance alongside its conditional stance on disarmament.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Hamas 'has repeatedly said it is prepared to step aside from day-to-day governance' while 'demanding the establishment of a Palestinian administration before it will consider handing over any part of its arsenal.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Hamas informed other Palestinian factions of its dissolution decision at a recent meeting in Cairo, and those factions welcomed the decision.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "hamas_governance_dissolution",
+      "rationale": "Only Euronews reports that Hamas pre-briefed other factions in Cairo and that they reacted positively.",
+      "framing_variants": [
+        {
+          "characterization": "States Hamas had already informed factions 'at a recent meeting in Cairo' and 'the factions welcomed Hamas' decision.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Israel dismissed Hamas's dissolution of its governing body as a 'stunt,' while Israel also called for the 'complete demilitarisation of the Gaza Strip' in response to the announcement.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "israeli_response",
+      "rationale": "Reuters (center) and Saudi state-aligned Asharq Al-Awsat (center-right) both report Israel's 'stunt' characterization, while Middle East Eye adds Israel's call for complete demilitarization.",
+      "framing_variants": [
+        {
+          "characterization": "Reuters reports Israel dismissed the move as a 'stunt.'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Saudi state-aligned Asharq Al-Awsat headlines Israel's dismissal of the move as a 'stunt.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Middle East Eye reports Israel called for 'complete demilitarisation of the Gaza Strip' in response, placing Israel's reaction in a skeptical frame.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_006",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Israel rejects any return of Hamas to power and also rejects a direct takeover by the Palestinian Authority at this stage; post-war governance of Gaza remains one of the main sticking points in phase-two negotiations.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "israeli_response",
+      "rationale": "Only Euronews explicitly details both of Israel's stated governance red lines and identifies them as key negotiating obstacles.",
+      "framing_variants": [
+        {
+          "characterization": "States Israel 'rejects any return of Hamas to power' and 'rejects a direct takeover by the Ramallah-based Palestinian Authority at this stage,' calling post-war governance 'one of the main sticking points.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Israeli Prime Minister Benjamin Netanyahu has publicly stated that Israel plans to increase its territorial control of Gaza.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "israeli_response",
+      "rationale": "Only Middle East Eye attributes this specific public statement to Netanyahu.",
+      "framing_variants": [
+        {
+          "characterization": "Cites Netanyahu's public statements as evidence of Israel's expansionist intent in Gaza.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Israeli forces have expanded their military presence in Gaza in recent months and now control nearly 70% of Gaza's territory.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "israeli_response",
+      "rationale": "Both Middle East Eye (left) and Euronews (center) report the same figures for Israeli territorial control and military expansion.",
+      "framing_variants": [
+        {
+          "characterization": "States Israel 'expanded its military presence in recent months, taking control of nearly 70 percent of Gaza's territory.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'Israeli forces have actually expanded their presence in the territory in recent months, taking control of nearly 70%.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "The Board of Peace said it 'took note' of Hamas's dissolution decision and called for the 'consolidation of all weapons under the control of the NCAG.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only Middle East Eye reports the Board of Peace's specific quoted reaction to Hamas's announcement.",
+      "framing_variants": [
+        {
+          "characterization": "Notes the Board 'took note' of the decision but frames the Board's non-condemnation of Israeli actions as a notable omission.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "According to Israeli newspaper Israel Hayom, Trump's 'Board of Peace' is overseeing a plan to move Palestinians into so-called 'Hamas-free humanitarian zones.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only Middle East Eye cites this specific report from Israel Hayom about the Board of Peace's plan.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes the information to Israel Hayom and uses the term 'herd' in describing the planned movement of Palestinians, reflecting a critical framing.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Israel has restricted the entry of aid into Gaza and has killed over 1,000 people since the ceasefire was signed.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Only Middle East Eye reports these specific post-ceasefire casualty and aid-restriction figures.",
+      "framing_variants": [
+        {
+          "characterization": "Presents these figures in the context of criticizing Israel's conduct since the ceasefire, noting Israel 'has continued to launch attacks on Gaza, killing over 1,000 people since the ceasefire was signed' and 'restricted the entry of aid.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Over 73,000 Palestinians have been killed in Gaza since the beginning of the conflict.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Only Middle East Eye cites this overall casualty figure for the conflict.",
+      "framing_variants": [
+        {
+          "characterization": "Cites 'over 73,000 Palestinians have been killed' without specifying a source for the figure.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Hamas won Palestinian legislative elections in 2006 and subsequently seized full control of Gaza in 2007 following armed conflict with Fatah, creating a split between Hamas-governed Gaza and the Fatah-led Palestinian Authority in the West Bank.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_005"
+      ]
+    },
+    {
+      "point": "A ceasefire between Hamas and Israel, brokered with US, Qatari, and Egyptian involvement, took effect in late 2025. Its first phase involved a hostage-detainee exchange; its second phase was meant to address Hamas disarmament and Israeli troop withdrawal but has been stalled.",
+      "sources": [
+        "src_001",
+        "src_005"
+      ]
+    },
+    {
+      "point": "The Board of Peace—a body established by US President Trump as part of the ceasefire framework—created the NCAG (National Committee for the Administration of Gaza) to oversee civilian governance in Gaza, but the committee has been blocked from entering Gaza, reportedly due to Israeli objections.",
+      "sources": [
+        "src_001",
+        "src_005"
+      ]
+    },
+    {
+      "point": "Hamas's disarmament and the question of post-war governance in Gaza are the central unresolved issues in the phase-two ceasefire negotiations, with Israel rejecting both a Hamas return to power and a direct Palestinian Authority takeover.",
+      "sources": [
+        "src_005",
+        "src_001"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-07T04:46:51.199933+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "On July 6, 2026, Hamas announced the dissolution of the body that has governed the Gaza Strip for nearly two decades. Mohammed al-Farra, head of the government's emergency committee, officially submitted his resignation and decided to dissolve the emergency committee. The move is intended to facilitate a transition of civilian governance to the National Committee for the Administration of Gaza (NCAG), a technocratic body composed of Palestinian technocrats from Gaza tasked with overseeing daily civilian affairs in the enclave.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Hamas has governed Gaza since winning legislative elections in 2006 and seizing full control from Fatah in 2007. Following that electoral victory, fighting broke out between Hamas and Fatah, resulting in Hamas consolidating control of Gaza while Fatah consolidated control of the West Bank via the Palestinian Authority.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_005",
+            "src_007"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "A ceasefire between Hamas and Israel was reached in 2025, brokered with US, Qatari, and Egyptian involvement. The first phase involved the release of the last Israeli hostages held by Hamas in exchange for Palestinians detained by Israel. The second phase was to involve Hamas's disarmament and a gradual withdrawal of Israeli forces from Gaza, but negotiations on phase two have been stalled for months.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Despite the dissolution announcement, the NCAG has remained based outside Gaza—in Cairo—for months, reportedly due to Israeli objections to its entry into the territory. Israeli forces have expanded their military presence in Gaza in recent months and now control nearly 70% of Gaza's territory.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Israel dismissed Hamas's dissolution of its governing body as a 'stunt,' while also calling for the 'complete demilitarisation of the Gaza Strip' in response to the announcement.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Left-leaning outlets reported that the NCAG was created by the Board of Peace, a body established by US President Donald Trump when he brokered the ceasefire between Hamas and Israel in October 2025. According to the Board of Peace, it 'took note' of Hamas's dissolution decision and called for the 'consolidation of all weapons under the control of the NCAG.'",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Ali Shaath, a Palestinian technocrat heading the NCAG, stated the committee is fully prepared to assume civilian governance once necessary resources and capabilities are available. \"A single authority, single law, and single armed force\" are fundamental requirements, according to Shaath. Hamas has informed other Palestinian factions of its dissolution decision at a recent meeting in Cairo, and those factions welcomed the decision.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Left-leaning outlets characterized Hamas's position as one of readiness to step aside from day-to-day governance since the ceasefire, but demanding the establishment of a Palestinian administration before considering handing over any part of its arsenal. Center outlets noted that Israel rejects any return of Hamas to power and also rejects a direct takeover by the Palestinian Authority at this stage, with post-war governance of Gaza remaining one of the main sticking points in phase-two negotiations.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Left-leaning outlets reported that Israeli Prime Minister Benjamin Netanyahu has publicly stated that Israel plans to increase its territorial control of Gaza. According to the Israeli newspaper Israel Hayom, as cited by left-leaning outlets, Trump's 'Board of Peace' is overseeing a plan to move Palestinians into so-called 'Hamas-free humanitarian zones.'",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Left-leaning outlets reported that Israel has restricted the entry of aid into Gaza and has killed over 1,000 people since the ceasefire was signed. The same outlets cited a figure of over 73,000 Palestinians killed in Gaza since the beginning of the conflict. These casualty figures originate from the Gaza Health Ministry, which operates under Hamas administration.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}
