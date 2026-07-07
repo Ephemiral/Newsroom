@@ -3,9 +3,9 @@
 
 > **Read this first.** This is the single source of truth for the project. Anyone — a human collaborator, Claude Code, or Claude Cowork — should be able to read this document and understand what the project is, why it exists, how it is architected, and what to build next. If you only read one file, read this one. Then consult the per-stage instruction docs (`STAGE_*.md`) for implementation detail, and keep `TRACKSHEET` updated as you go.
 
-**Last updated:** 6 July 2026
+**Last updated:** 7 July 2026
 **Owner:** G (GitHub: Ephemiral)
-**Status:** Live (Vercel), M9 in progress. Pipeline runs autonomously every 4 hours (§15); events carry openly-licensed images (schema v0.3, §15b).
+**Status:** Live (Vercel), fully autonomous. Pipeline runs on GitHub Actions every 6h across 4 beats (Middle East/Europe/Americas/Asia; §15); events carry openly-licensed images; schema v0.4 (actor disputes + state-aligned outlets). Latest handover: `docs/HANDOVER_SESSION_15.md`.
 
 ---
 
@@ -621,7 +621,7 @@ The pipeline now runs unattended. One cycle = ingest → cluster → **qualify**
 
 **Developing stories vs. duplicates (2026-07-06 refinement):** a "duplicate" is the same *articles* re-clustered, not the same *story* re-covered. New coverage of an ongoing story (new URLs) publishes as a new event; any prior events sharing articles with it are recorded in `event.related_events` and rendered as an "Earlier coverage of this story" box on the event page. This keeps room for follow-up developments (ongoing negotiations, day-two reactions) without homepage duplication.
 
-Additional safety properties: report validation errors abort that event and delete its artifacts (nothing broken is published); a lock file prevents overlapping cycles; per-run JSON logs land in `data/logs/autorun/`; max 2 events published per beat per cycle (cost control, tunable via `--max-events`). Auto-published events get IDs of the form `evt_YYYY_MM_DD_auto_NNN`. Unlike the manual `--discover` flow, auto mode writes **only the selected clusters'** JSON files to `data/events/` — no more thousands of raw cluster files.
+Additional safety properties: report validation errors abort that event and delete its artifacts (nothing broken is published); a lock file prevents overlapping cycles; per-run JSON logs land in `data/logs/autorun/`; max 2 events published per beat per cycle (cost control, tunable via `--max-events`). Auto-published events get IDs of the form `evt_YYYY_MM_DD_<beat>_NNN` — **beat-namespaced and globally unique** (checked across all beat directories). This matters: IDs used to be `evt_YYYY_MM_DD_auto_NNN` scoped per-beat-dir, so each beat minted its own `auto_001` and the IDs collided across beats. The frontend's `getEvent(id)` resolves the first (alphabetical) beat match, so one event rendered multiple times while same-ID events in other beats were shadowed and never appeared. Never revert to a beat-agnostic ID scheme. Unlike the manual `--discover` flow, auto mode writes **only the selected clusters'** JSON files to `data/events/` — no more thousands of raw cluster files.
 
 **Multi-beat (added same day):** `--beats israel_middle_east,europe,americas,asia` processes theatres in sequence; the novelty gate checks URL overlap across **all** beats so one story cannot publish in two theatres. New beat configs `europe.json` / `americas.json` / `asia.json` (feeds live-verified 2026-07-06; `world_news.json` remains an unscheduled stub). The homepage has theatre tabs (`/?beat=<name>`).
 
