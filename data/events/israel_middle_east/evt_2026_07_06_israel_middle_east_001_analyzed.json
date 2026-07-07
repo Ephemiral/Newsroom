@@ -1,7 +1,7 @@
 {
   "schema_version": "0.3",
   "event": {
-    "cluster_id": "evt_2026_07_06_auto_001",
+    "cluster_id": "evt_2026_07_06_israel_middle_east_001",
     "beat": "israel_middle_east",
     "title": "State Funeral of Iranian Supreme Leader Ali Khamenei",
     "summary": "Iran held a multi-day state funeral for Supreme Leader Ali Khamenei, who was killed in February 2026 during a US-Israeli airstrike on a government residence in Tehran. The six-day, five-city funeral procession drew massive crowds and significant international attendance, while his son Mojtaba Khamenei was absent amid questions about his injuries.",

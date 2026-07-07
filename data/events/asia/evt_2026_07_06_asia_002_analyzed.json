@@ -1,7 +1,7 @@
 {
   "schema_version": "0.4",
   "event": {
-    "cluster_id": "evt_2026_07_06_auto_002",
+    "cluster_id": "evt_2026_07_06_asia_002",
     "beat": "asia",
     "title": "Impeachment Trial of Philippine Vice President Sara Duterte Begins",
     "summary": "The impeachment trial of Philippine Vice President Sara Duterte commenced on July 6, 2026, in the Senate in Manila. Duterte faces charges including misuse of public funds, amassing unexplained wealth, bribery, and threatening the lives of President Ferdinand Marcos Jr. and the First Lady; a conviction would bar her from public office and end her 2028 presidential bid.",

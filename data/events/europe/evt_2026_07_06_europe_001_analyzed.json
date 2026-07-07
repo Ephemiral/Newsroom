@@ -1,7 +1,7 @@
 {
   "schema_version": "0.4",
   "event": {
-    "cluster_id": "evt_2026_07_06_auto_001",
+    "cluster_id": "evt_2026_07_06_europe_001",
     "beat": "europe",
     "title": "Ukraine Strikes St Petersburg Oil Terminal and Kronstadt; Russia Claims Capture of Kostiantynivka",
     "summary": "Ukrainian drones struck an oil terminal in St Petersburg and port infrastructure across the wider region overnight on 4 July 2026, with President Zelenskyy confirming the attacks. Separately, Russia claimed its forces had captured the eastern Ukrainian city of Kostiantynivka in Donetsk, a claim Ukraine flatly denied.",

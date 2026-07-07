@@ -1,7 +1,7 @@
 {
   "schema_version": "0.4",
   "event": {
-    "cluster_id": "evt_2026_07_07_auto_001",
+    "cluster_id": "evt_2026_07_07_asia_001",
     "beat": "asia",
     "title": "Typhoon Maysak Triggers Severe Flooding in China's Guangxi Region",
     "summary": "Typhoon Maysak made landfall in China's Hainan island on July 3, 2026, before striking Vietnam on July 5 and pushing inland into southern China's Guangxi region, causing catastrophic flooding that killed at least two people, displaced hundreds of thousands, and breached multiple reservoirs. Chinese authorities raised emergency flood response levels and deployed personnel, supplies, and funding across the affected region.",

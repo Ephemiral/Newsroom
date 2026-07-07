@@ -1,7 +1,7 @@
 {
   "schema_version": "0.4",
   "event": {
-    "cluster_id": "evt_2026_07_06_auto_001",
+    "cluster_id": "evt_2026_07_06_asia_001",
     "beat": "asia",
     "title": "China Test-Fires Submarine-Launched Missile into Pacific Ocean",
     "summary": "China's People's Liberation Army Navy test-fired a submarine-launched strategic missile carrying a dummy warhead into the Pacific Ocean on July 6, 2026, drawing criticism from Japan, Australia, New Zealand, and Taiwan. The test coincided with Australia signing a mutual defence treaty with Fiji.",

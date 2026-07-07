@@ -1,7 +1,7 @@
 {
   "schema_version": "0.4",
   "event": {
-    "cluster_id": "evt_2026_07_06_auto_002",
+    "cluster_id": "evt_2026_07_06_europe_002",
     "beat": "europe",
     "title": "Russian Strikes on Kyiv Before NATO Ankara Summit",
     "summary": "Russia launched a major missile and drone attack on Kyiv around July 6, 2026, killing dozens of civilians. The assault occurred just before the NATO annual summit in Ankara, Turkey, where Ukraine's air defense needs and support for the war effort were central agenda items.",

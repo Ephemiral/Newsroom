@@ -1,7 +1,7 @@
 {
   "schema_version": "0.4",
   "event": {
-    "cluster_id": "evt_2026_07_07_auto_002",
+    "cluster_id": "evt_2026_07_07_asia_002",
     "beat": "asia",
     "title": "Chinese Court Sentences Former Nanjing Official Yang Youlin to Death for Corruption",
     "summary": "The Changzhou Intermediate People's Court in Jiangsu province sentenced Yang Youlin, a former senior official in Nanjing's economic development zone, to death on July 7, 2026, after convicting him of accepting more than 2.2 billion yuan in bribes and other offences spanning three decades from 1993 to 2023.",

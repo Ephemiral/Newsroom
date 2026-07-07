@@ -228,14 +228,22 @@ def evaluate_cluster(cluster: dict, article_map: dict, sim, id_to_idx: dict,
     return True, "", stats
 
 
-def unique_event_id(out_dir: Path) -> str:
-    """Date-based event ID that never collides with files already on disk."""
+def unique_event_id(out_dir: Path, beat: str) -> str:
+    """
+    Beat-namespaced, globally-unique event ID: evt_<date>_<beat>_<NNN>.
+
+    The beat is part of the ID and uniqueness is checked across ALL beat
+    directories, not just this one — otherwise two beats independently mint
+    evt_<date>_auto_001 and the frontend's getEvent(id) can only resolve one of
+    them, shadowing the rest (the cross-beat collision bug).
+    """
     date_part = datetime.now(timezone.utc).strftime("%Y_%m_%d")
-    existing = {p.stem.replace("_analyzed", "") for p in out_dir.glob(f"evt_{date_part}_*.json")}
+    events_root = out_dir.parent  # data/events/
+    existing = {p.stem.replace("_analyzed", "") for p in events_root.glob(f"*/evt_{date_part}_*.json")}
     n = 1
-    while f"evt_{date_part}_{n:03d}" in existing or f"evt_{date_part}_auto_{n:03d}" in existing:
+    while f"evt_{date_part}_{beat}_{n:03d}" in existing:
         n += 1
-    return f"evt_{date_part}_auto_{n:03d}"
+    return f"evt_{date_part}_{beat}_{n:03d}"
 
 
 # ── Git publish ───────────────────────────────────────────────────────────────
@@ -349,7 +357,7 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
     titles: list[str] = []
 
     for cluster, stats in selected:
-        event_id = unique_event_id(out_dir)
+        event_id = unique_event_id(out_dir, beat)
         cluster["cluster_id"] = event_id
         cluster_path = out_dir / f"{event_id}.json"
         cluster_path.write_text(json.dumps(cluster, indent=2, ensure_ascii=False))
