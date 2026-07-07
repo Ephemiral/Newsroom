@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getEventIds, getEvent } from '@/lib/data';
+import { getEventGroups } from '@/lib/data';
 import { BEAT_LABELS, beatLabel } from '@/lib/beats';
 import CritiqalLogoAnimated from '@/components/CritiqalLogoAnimated';
 
@@ -14,11 +14,11 @@ export default async function Home({ searchParams }: HomeProps) {
   const { beat } = await searchParams;
   const activeBeat = beat && BEAT_LABELS[beat] ? beat : null;
 
-  const ids = getEventIds();
-  const events = ids
-    .map((id) => ({ id, event: getEvent(id)! }))
-    .filter(({ event }) => !activeBeat || event.event.beat === activeBeat)
-    .sort((a, b) => new Date(b.event.event.date).getTime() - new Date(a.event.event.date).getTime());
+  // One card per story: developments are grouped under their earliest coverage
+  // (getEventGroups collapses related_events chains), so a multi-day story shows
+  // once instead of as N cards. Filter by the representative event's beat.
+  const events = getEventGroups()
+    .filter(({ event }) => !activeBeat || event.event.beat === activeBeat);
 
   return (
     <main style={{ background: '#f7f4ee', minHeight: '100vh' }}>
@@ -88,14 +88,14 @@ export default async function Home({ searchParams }: HomeProps) {
           </p>
         ) : (
           <div>
-            {events.map(({ id, event }) => {
+            {events.map(({ id, event, earlier }) => {
               const agreedCount = event.claims.filter(c => c.classification === 'agreed').length;
               const contestedCount = event.claims.filter(c => c.classification === 'contested').length;
               return (
+                <div key={id} style={{ borderBottom: '1px solid #e7e0d4' }}>
                 <Link
-                  key={id}
                   href={`/event/${id}`}
-                  style={{ display: 'block', padding: '30px 0', borderBottom: '1px solid #e7e0d4', textDecoration: 'none' }}
+                  style={{ display: 'block', padding: '30px 0 18px', textDecoration: 'none' }}
                 >
                   <div style={{
                     font: '600 11px/1 var(--font-archivo), system-ui',
@@ -156,6 +156,38 @@ export default async function Home({ searchParams }: HomeProps) {
                     )}
                   </div>
                 </Link>
+
+                {/* Developing story — earlier coverage folded under this card */}
+                {earlier.length > 0 && (
+                  <div style={{ padding: '0 0 20px' }}>
+                    <div style={{
+                      font: '600 10px/1 var(--font-archivo), system-ui',
+                      letterSpacing: '.14em', textTransform: 'uppercase', color: '#a3957f',
+                      marginBottom: 8,
+                    }}>
+                      Developing story · {earlier.length} earlier {earlier.length === 1 ? 'report' : 'reports'}
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: 6, borderLeft: '2px solid #e2d7c2', paddingLeft: 14 }}>
+                      {earlier.map((e) => (
+                        <Link
+                          key={e.id}
+                          href={`/event/${e.id}`}
+                          style={{
+                            fontFamily: 'var(--font-spectral), serif', fontSize: 15,
+                            lineHeight: 1.4, color: '#7a6e5c', textDecoration: 'none',
+                          }}
+                        >
+                          <span style={{ color: '#a3957f' }}>
+                            {new Date(e.event.event.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })}
+                            {' — '}
+                          </span>
+                          {e.event.event.title}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                </div>
               );
             })}
           </div>

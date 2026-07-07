@@ -25,6 +25,15 @@ QUALIFICATION GATES (a cluster must pass ALL to publish):
                    for developing stories: new coverage of an ongoing story
                    publishes as a new event, linked to the earlier one via
                    event.related_events ("Earlier coverage" in the UI).
+  - semantic dedup: the candidate's embedding centroid is compared against events
+                   published in the last SEMANTIC_WINDOW_DAYS (across all beats).
+                   URL-novelty catches the same ARTICLES re-clustered; this catches
+                   the same STORY re-clustered from a different-enough article set
+                   (the "three Khamenei funeral cards" failure of 2026-07-06):
+                     ≥ SEMANTIC_DUP_FLOOR   → reject as a semantic duplicate.
+                     ≥ SEMANTIC_SAME_STORY  → publishable, but forced into
+                                              related_events so the homepage groups
+                                              it as a development (not a new card).
   - not retried:   the same article set (URL fingerprint) is attempted only once
 
 Usage:
@@ -72,6 +81,15 @@ COHESION_FLOOR = 0.65
 MIN_NEW_COVERAGE = 0.50     # ≥ this fraction of a cluster's URLs must be previously unpublished
 INGEST_MAX_AGE_DAYS = 3
 DEFAULT_MAX_EVENTS = 2      # per cycle — cost control
+
+# Semantic dedup (B-13). Compares the candidate cluster's embedding centroid to
+# the title+summary embedding of events published in the last SEMANTIC_WINDOW_DAYS.
+# The two thresholds are the "same story" lever: near-identical → reject; merely
+# high → publish as a grouped development. Calibrate from the semantic_sim values
+# logged in each run's rejected/published stats.
+SEMANTIC_WINDOW_DAYS = 5    # only dedup against events this recent (across all beats)
+SEMANTIC_SAME_STORY = 0.85  # ≥ this: same story family — force into related_events
+SEMANTIC_DUP_FLOOR = 0.93   # ≥ this: essentially identical — reject outright (no tokens)
 
 LEFT_TIERS = {"left", "center-left"}
 RIGHT_TIERS = {"right", "center-right"}
@@ -140,17 +158,21 @@ def fingerprint(urls: list[str]) -> str:
 # ── Published-event index (for novelty gate) ──────────────────────────────────
 
 def published_events(events_root: Path) -> list[dict]:
-    """id/title/URL-set of every already-published (analyzed) event, across ALL
-    beats — the same story must not re-publish, in any theatre."""
+    """id/title/summary/date/URL-set of every already-published (analyzed) event,
+    across ALL beats — the same story must not re-publish, in any theatre. Title
+    and summary feed the semantic-dedup gate; the URL set feeds URL novelty."""
     events = []
     for path in events_root.glob("*/*_analyzed.json"):
         try:
             data = json.loads(path.read_text())
+            ev = data.get("event", {})
             urls = {s.get("url", "") for s in data.get("sources", []) if s.get("url")}
             if urls:
                 events.append({
-                    "event_id": data.get("event", {}).get("cluster_id", path.stem.replace("_analyzed", "")),
-                    "title": data.get("event", {}).get("title", ""),
+                    "event_id": ev.get("cluster_id", path.stem.replace("_analyzed", "")),
+                    "title": ev.get("title", ""),
+                    "summary": ev.get("summary", ""),
+                    "date": ev.get("date", ""),
                     "urls": urls,
                 })
         except Exception:
@@ -158,10 +180,44 @@ def published_events(events_root: Path) -> list[dict]:
     return events
 
 
+def attach_recent_embeddings(published: list[dict],
+                             window_days: int = SEMANTIC_WINDOW_DAYS) -> None:
+    """Embed the title+summary of every event published within window_days and
+    store it under p["embedding"] (a normalised vector). Older events are left
+    without an embedding and are skipped by the semantic gate — URL novelty still
+    guards against them across all time; semantic dedup only needs the recent
+    window (a story fully plays out inside a few days). Mutates `published`."""
+    from pipeline.cluster.embed import embed_texts
+
+    cutoff = datetime.now(timezone.utc).timestamp() - window_days * 86400
+    recent = [p for p in published if _parse_event_ts(p.get("date")) >= cutoff]
+    if not recent:
+        return
+    texts = [f'{p["title"]}. {p.get("summary", "")}'.strip() for p in recent]
+    embs = embed_texts(texts)
+    for p, e in zip(recent, embs):
+        p["embedding"] = e
+
+
+def _parse_event_ts(date_str: str | None) -> float:
+    """Event dates are 'YYYY-MM-DD' (occasionally full ISO). Return a POSIX
+    timestamp, or -inf when unparseable so the event is treated as old."""
+    if not date_str:
+        return float("-inf")
+    try:
+        s = date_str.strip().replace("Z", "+00:00")
+        dt = datetime.fromisoformat(s if "T" in s else f"{s}T00:00:00+00:00")
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.timestamp()
+    except Exception:
+        return float("-inf")
+
+
 # ── Cluster qualification ─────────────────────────────────────────────────────
 
-def evaluate_cluster(cluster: dict, article_map: dict, sim, id_to_idx: dict,
-                     published: list[set[str]], state: dict) -> tuple[bool, str, dict]:
+def evaluate_cluster(cluster: dict, article_map: dict, embeddings, sim, id_to_idx: dict,
+                     published: list[dict], state: dict) -> tuple[bool, str, dict]:
     """Apply all gates. Returns (qualified, reason_if_not, stats)."""
     import numpy as np
 
@@ -219,6 +275,39 @@ def evaluate_cluster(cluster: dict, article_map: dict, sim, id_to_idx: dict,
         stats["related_events"] = related
     if new_frac < MIN_NEW_COVERAGE:
         return False, f"only {new_frac:.0%} new coverage — same articles already published", stats
+
+    # Semantic dedup (B-13). URL novelty above blocks the same ARTICLES; this
+    # blocks the same STORY re-clustered from a different-enough article set.
+    # Compare the candidate's centroid to the title+summary embedding of events
+    # published in the last SEMANTIC_WINDOW_DAYS (attached by run_cycle).
+    sem_matches = []  # (similarity, published_event)
+    if idxs:
+        centroid = embeddings[idxs].mean(axis=0)
+        norm = float(np.linalg.norm(centroid))
+        if norm > 0:
+            centroid = centroid / norm
+            for p in published:
+                emb = p.get("embedding")
+                if emb is None:
+                    continue
+                s = float(centroid @ emb)
+                if s >= SEMANTIC_SAME_STORY:
+                    sem_matches.append((s, p))
+    if sem_matches:
+        sem_matches.sort(key=lambda t: -t[0])
+        top_sim, top = sem_matches[0]
+        stats["semantic_sim"] = round(top_sim, 3)
+        stats["semantic_match"] = {"cluster_id": top["event_id"], "title": top["title"]}
+        if top_sim >= SEMANTIC_DUP_FLOOR:
+            return False, (f"semantic duplicate of {top['event_id']} "
+                           f"(sim {top_sim:.2f} ≥ {SEMANTIC_DUP_FLOOR}) — same story already published"), stats
+        # Same-story family but not identical → publish as a development. Fold the
+        # semantic match(es) into related_events so the homepage groups it under
+        # the existing story instead of standing it up as a separate card.
+        merged = {r["cluster_id"]: r for r in stats.get("related_events", [])}
+        for _s, p in sem_matches:
+            merged.setdefault(p["event_id"], {"cluster_id": p["event_id"], "title": p["title"]})
+        stats["related_events"] = list(merged.values())
 
     # Already attempted this exact article set?
     if stats["fingerprint"] in state["attempted"]:
@@ -316,11 +405,12 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
     # ── 3. Qualify ────────────────────────────────────────────────────────
     article_map = {a.article_id: a for a in articles}
     published = published_events(ROOT / "data" / "events")
+    attach_recent_embeddings(published)  # title+summary vectors for the semantic gate
     state = load_state()
 
     qualified = []
     for c in sorted(clusters, key=lambda x: -x["size"]):
-        ok, reason, stats = evaluate_cluster(c, article_map, sim, id_to_idx, published, state)
+        ok, reason, stats = evaluate_cluster(c, article_map, embeddings, sim, id_to_idx, published, state)
         if ok:
             qualified.append((c, stats))
         elif stats["size"] >= MIN_ARTICLES:
