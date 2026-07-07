@@ -1,0 +1,573 @@
+{
+  "schema_version": "0.4",
+  "event": {
+    "cluster_id": "evt_2026_07_07_israel_middle_east_002",
+    "beat": "israel_middle_east",
+    "title": "Explosions in Central Damascus During Macron's Visit to Syria",
+    "summary": "Two improvised explosive devices detonated in central Damascus near the Four Seasons Hotel on Tuesday, July 7, 2026, wounding at least 18 people, including four police officers. The blasts occurred moments before French President Emmanuel Macron — the first Western leader to visit Syria since the fall of Bashar al-Assad in 2024 — arrived at the presidential palace to meet Syrian President Ahmad al-Sharaa; Macron had already left the hotel and his visit continued.",
+    "date": "2026-07-07",
+    "generated_at": "2026-07-07T10:21:53.978738+00:00",
+    "image_attempted_at": "2026-07-07T10:22:17.325540+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3TlJWM0FoNW12THZjUmdySDlVZ18yZnRIdE94R3FkVU1RZ2RHa0JWMDRBN01LZEtDMzBUUGdBRXZSYm1zUm1TS0xzVnlUUWw2MTRnYzVB?oc=5",
+      "author": null,
+      "published_at": "2026-07-07T07:35:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/2026/07/07/explosions-heard-in-damascus-during-visit-by-frances-president-emmanuel-macron",
+      "author": null,
+      "published_at": "2026-07-07T07:40:22+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosion-heard-damascus-during-french-presidents-visit",
+      "author": "Hilal Saki",
+      "published_at": "2026-07-07T07:53:48+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQmdOUU16Zi1OamtBQWdXQy0xTlNEZ0s3cmJxOUhUNnJRMkRHSl9kYWUzR0tYMkltcVhxemxPZEZkVFBlTlhKUmQ3OXVMSHFYYTlEdU14dHBRN1B0cjBGODlMdTVuSVVyUjdjZ29TVFFzSmdqZlBRNmZ4d0l1N0pDQ1RFZENCQ2xGM3hCNzJvNWhNdWpaQ3NCeHJ6cGRaUk10N0lFa0REMWxSTzVmdkRoMjYtWUNDNVVzclotd2lhOEhjQ3NIMWw5YWN6eFVYdi1KX2RyRXlVLVZmQ0pDTHFoQU1EZw?oc=5",
+      "author": null,
+      "published_at": "2026-07-07T07:45:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-says-18-wounded-damascus-blasts-during-macron-visit",
+      "author": "Hilal Saki",
+      "published_at": "2026-07-07T09:42:14+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "Arutz Sheva (Israel National News)",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9hZjV2MVBRQnNfOFNHd3ZwWGliR1BqTi1zbnVmdG5EaWdwd042SnJCSy1ldTNlRGh6OTR6NkdqWERybWliOHd4M3h4UGlVWHFpTjhSU3gwYkR1T0hOcWc?oc=5",
+      "author": null,
+      "published_at": "2026-07-07T08:30:26+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Operated by a non-profit association registered in the United States. Closely associated with the national-religious settler movement in the West Bank.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Two explosions occurred in central Damascus near the Four Seasons Hotel on Tuesday, July 7, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "explosion_incident",
+      "rationale": "All six outlets across left, center, center-right, and right tiers report explosions in central Damascus near Macron's hotel, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Reports two blasts in central Damascus near the Four Seasons Hotel, noting Syrian authorities' casualty figures.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes an explosion heard in central Damascus, with witnesses reporting smoke rising near Macron's hotel.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports blasts in central Damascus near the hotel where France's president spent the night.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Headline frames it as 'explosions rocking Damascus near hotel where Macron is staying.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports explosions near the hotel where Macron is staying, emphasizing proximity.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Brief headline reference: 'Explosions near Damascus hotel where Macron is staying.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005",
+        "src_001",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "At least 18 people were wounded in the two blasts, including four police officers, according to Syrian authorities.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "explosion_incident",
+      "rationale": "Both Euronews (center) and Middle East Eye (left) cite the Syrian interior ministry's figure of 18 wounded, including four police officers, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Cites Syrian authorities: '18 people, including four police officers, were injured.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Cites Syrian interior ministry directly: '18 people, including four police officers, were injured.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The Syrian interior ministry identified the cause of the blasts as two improvised explosive devices — one placed inside a parked car and one inside a garbage container.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "explosion_incident",
+      "rationale": "Euronews (center) and Middle East Eye (left) both report the Syrian interior ministry's account of two improvised devices and their specific placements, spanning different bias tiers.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes device details to the Syrian interior ministry: one in a parked car, one in a garbage container.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Directly quotes Syrian interior ministry on device types and placements.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The Syrian interior ministry stated that the devices exploded while preparations were underway to dismantle them.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "explosion_incident",
+      "rationale": "Euronews (center) and Middle East Eye (left) both quote the Syrian interior ministry's explanation that the devices detonated during attempted dismantling, providing cross-spectrum confirmation of this official account.",
+      "framing_variants": [
+        {
+          "characterization": "Reports ministry statement that devices exploded 'while preparations were underway' to dismantle them.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Directly quotes ministry: devices exploded 'while preparations were underway' to dismantle them.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The second explosion occurred near Victoria Bridge in central Damascus, approximately 200 metres from the Four Seasons Hotel.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "explosion_incident",
+      "rationale": "Both reporting outlets that carry this detail — Euronews and Middle East Eye — are on the same side of the spectrum (center and left), so the claim is corroborated but not cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "States second explosion near Victoria Bridge, about 200 metres from the hotel.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports second explosion near Victoria Bridge, approximately 200 meters from the Four Seasons hotel.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The blasts occurred moments before Syrian state television announced Emmanuel Macron's arrival at the presidential palace.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "macron_visit",
+      "rationale": "Euronews (center) and Middle East Eye (left) both report the same timing detail linking the blasts to the announcement of Macron's arrival, spanning different bias tiers.",
+      "framing_variants": [
+        {
+          "characterization": "Notes blasts 'came moments before Syrian state television announced Emmanuel Macron's arrival to the presidential palace.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports same timing: blasts moments before Syrian state TV announced Macron's arrival at the presidential palace.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Macron had left the Four Seasons Hotel before the blasts took place and was not harmed; the explosions were not heard by the French presidential convoy.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "macron_visit",
+      "rationale": "Euronews (center) and Middle East Eye (left), both citing AFP journalists traveling with the convoy, confirm Macron had left before the blasts and the convoy did not hear them, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "States Macron had left the hotel before the blasts; convoy did not hear them, per AFP journalists traveling with it.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports Macron left hotel before blasts; AFP journalists with convoy confirm it was not heard.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The Élysée Palace stated that Macron's visit to Syria was ongoing despite the explosions.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "macron_visit",
+      "rationale": "Euronews (center) and Middle East Eye (left) both cite the Élysée Palace confirming the visit continued, covering different bias tiers.",
+      "framing_variants": [
+        {
+          "characterization": "Cites Élysée Palace saying Macron's visit is ongoing.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes Élysée Palace confirmation that visit is ongoing.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Macron held a meeting with civil society representatives at the Four Seasons Hotel on Tuesday morning before the blasts.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "macron_visit",
+      "rationale": "Euronews (center) and Middle East Eye (left) both report Macron's morning civil society meeting at the hotel; both outlets lean toward the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Macron held civil society meeting at the Four Seasons on Tuesday morning before departing for the presidential palace.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes Macron held meeting with civil society representatives at Four Seasons Tuesday morning.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Macron met with Syrian President Ahmad al-Sharaa at the presidential palace during the visit.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "macron_visit",
+      "rationale": "Euronews (center) and both Middle East Eye articles (left) all confirm Macron met with al-Sharaa at the presidential palace, spanning center and left bias tiers.",
+      "framing_variants": [
+        {
+          "characterization": "States Macron had entered the presidential palace to meet Syrian President Ahmad al-Sharaa when the explosions happened.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports Macron 'held talks with Syrian counterpart Ahmed al-Sharaa at the presidential palace.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Notes Macron was meeting 'his counterpart Ahmed al-Sharaa' at the presidential palace.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Emmanuel Macron is the first Western leader to visit Syria since the fall of Bashar al-Assad in 2024.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "macron_visit",
+      "rationale": "Euronews (center) and both Middle East Eye articles (left) all characterize Macron as the first Western leader to visit Syria since Assad's fall, providing cross-spectrum confirmation of this framing.",
+      "framing_variants": [
+        {
+          "characterization": "Describes Macron as 'the first Western leader to visit Syria since the fall of longtime ruler Bashar al-Assad in 2024.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes Macron as 'the first Western European leader to visit Syria since the 2024 fall of longtime ruler Bashar al-Assad.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Uses same 'first Western leader' framing as Euronews.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Macron postponed announcing the date of his Damascus visit until his plane had landed on Monday, citing security reasons.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "macron_visit",
+      "rationale": "Only Euronews reports the detail that Macron delayed disclosing his visit date until landing, citing security concerns; no other outlet in the cluster carries this claim.",
+      "framing_variants": [
+        {
+          "characterization": "Notes Macron postponed announcing his visit date until his plane landed on Monday 'for security reasons.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Hotel security took precautionary measures after the blasts and asked those who had met with Macron to move to the hotel's parking garage.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "explosion_incident",
+      "rationale": "Only Euronews reports this specific security response detail; no other article in the cluster mentions the parking garage directive.",
+      "framing_variants": [
+        {
+          "characterization": "States hotel security 'took precautionary measures and asked those who had met with Macron to go to the hotel's parking garage.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "A bombing at a Damascus café killed 10 people on the Thursday preceding Macron's visit, making the July 7 explosions the second bombing incident within that period.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "broader_security_context",
+      "rationale": "Euronews (center) and Middle East Eye (left) both reference the prior café bombing killing 10 people; both are on similar sides of the spectrum so this does not meet the threshold for 'agreed.'",
+      "framing_variants": [
+        {
+          "characterization": "References the prior Thursday café bombing as context for the security environment surrounding Macron's visit.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes the July 7 explosions as 'the second since Thursday,' referencing the café bombing killing 10.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Bashar al-Assad, who ruled Syria for decades, fell from power in 2024 and was replaced by a new government led by Ahmad al-Sharaa (also referred to as Ahmed al-Sharaa), marking a major political transition in Syria.",
+      "sources": [
+        "src_002",
+        "src_003",
+        "src_005"
+      ]
+    },
+    {
+      "point": "Syria has experienced ongoing security instability following Assad's fall. A café bombing killed 10 people in Damascus just days before Macron's visit, illustrating the volatile security environment.",
+      "sources": [
+        "src_002",
+        "src_005"
+      ]
+    },
+    {
+      "point": "Macron's visit was the first by a Western head of state to Syria since Assad's removal, signalling a potential shift in Western engagement with the new Syrian government.",
+      "sources": [
+        "src_002",
+        "src_003",
+        "src_005"
+      ]
+    },
+    {
+      "point": "The Four Seasons Hotel in Damascus served as Macron's base during the visit, where he held meetings with civil society representatives before travelling to the presidential palace.",
+      "sources": [
+        "src_002",
+        "src_005"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-07T10:22:06.465037+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Two explosions rocked central Damascus near the Four Seasons Hotel on Tuesday, July 7, 2026, wounding at least 18 people, including four police officers, according to Syrian authorities. The Syrian interior ministry identified the devices as improvised explosive devices — one placed inside a parked car and one inside a garbage container. The ministry stated that the devices exploded while preparations were underway to dismantle them.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005",
+            "src_001",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The blasts occurred moments before Syrian state television announced Emmanuel Macron's arrival at the presidential palace for a meeting with Syrian President Ahmad al-Sharaa. Macron had left the Four Seasons Hotel before the explosions took place and was not harmed. The explosions were not heard by the French presidential convoy, according to AFP journalists traveling with it. The Élysée Palace stated that Macron's visit to Syria was ongoing despite the explosions.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007",
+            "clm_008",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Emmanuel Macron is the first Western leader to visit Syria since the fall of Bashar al-Assad in 2024. Macron met with Syrian President Ahmad al-Sharaa at the presidential palace during the visit, which proceeded as scheduled.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The explosions occurred in a city that had experienced recent violence. A bombing at a Damascus café killed 10 people on the Thursday preceding Macron's visit, making the July 7 explosions the second bombing incident within that period.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Center and left-leaning outlets provided detailed accounts of the explosion locations and Macron's schedule. These sources reported that the second explosion occurred near Victoria Bridge in central Damascus, approximately 200 metres from the Four Seasons Hotel. They also noted that Macron had held a meeting with civil society representatives at the Four Seasons Hotel on Tuesday morning before the blasts.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Euronews alone reported that Macron postponed announcing the date of his Damascus visit until his plane had landed on Monday, citing security reasons. The outlet also reported that hotel security took precautionary measures after the blasts and asked those who had met with Macron to move to the hotel's parking garage.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}
