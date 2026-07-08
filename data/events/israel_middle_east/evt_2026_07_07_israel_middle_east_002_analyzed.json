@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.5",
   "event": {
     "cluster_id": "evt_2026_07_07_israel_middle_east_002",
     "beat": "israel_middle_east",
@@ -8,7 +8,127 @@
     "date": "2026-07-07",
     "generated_at": "2026-07-07T10:21:53.978738+00:00",
     "image_attempted_at": "2026-07-07T10:22:17.325540+00:00",
-    "image": null
+    "image": null,
+    "entities": [
+      {
+        "entity_id": "ent_person_emmanuel_macron",
+        "surfaces": [
+          "Emmanuel Macron",
+          "Macron"
+        ],
+        "relevance_to_event": "The French President whose visit to Syria was disrupted by the explosions; he was the first Western leader to visit since Assad's fall and was the apparent security concern prompting the visit's careful planning.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007",
+            "clm_008",
+            "clm_009",
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_ahmad_al_sharaa",
+        "surfaces": [
+          "Ahmad al-Sharaa",
+          "Ahmed al-Sharaa"
+        ],
+        "relevance_to_event": "The Syrian President who met with Macron at the presidential palace during the visit, representing the new Syrian government that took power after Assad's 2024 fall.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_bashar_al_assad",
+        "surfaces": [
+          "Bashar al-Assad"
+        ],
+        "relevance_to_event": "The former Syrian ruler whose fall in 2024 enabled the political transition to Ahmad al-Sharaa's government and made Macron's visit as the first Western leader possible.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_syria",
+        "surfaces": [
+          "Syria",
+          "Damascus",
+          "central Damascus"
+        ],
+        "relevance_to_event": "The country experiencing the security incidents, with ongoing instability following Assad's fall that created the volatile environment in which the explosions occurred.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_four_seasons_hotel_damascus",
+        "surfaces": [
+          "Four Seasons Hotel"
+        ],
+        "relevance_to_event": "The location where Macron stayed and met with civil society representatives before the explosions; security measures were implemented there following the blasts.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_005",
+            "clm_007",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_syrian_interior_ministry",
+        "surfaces": [
+          "Syrian interior ministry"
+        ],
+        "relevance_to_event": "The authority that identified the devices as improvised explosive devices and stated they detonated during dismantling attempts.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_french_government",
+        "surfaces": [
+          "Élysée Palace",
+          "French presidential convoy"
+        ],
+        "relevance_to_event": "The government entity (via the Élysée Palace) that confirmed Macron's visit proceeded as scheduled despite the explosions and managed security protocols for the French presidential delegation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

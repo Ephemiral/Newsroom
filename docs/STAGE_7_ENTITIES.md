@@ -1,6 +1,6 @@
 # STAGE 7 — Entity Cards (Milestone M10)
 
-> **Status: APPROVED by G (2026-07-08) with modifications. Ready to implement once Anthropic credits are confirmed topped up.**
+> **Status: ✅ IMPLEMENTED (2026-07-08, same session as approval).** `pipeline/entities/` live and wired into `auto_run.py`; entity store at `data/entities/`; frontend panel shipped. Measured cost: ~$0.008–0.009/event cold, ~$0.007 warm (below estimate). Beyond the approved design, implementation added an **LLM namesake guard** on person grounding (a keyword check alone mis-grounded "Ali Shaath" to a namesake QID in testing) and a `person_grounded` audit line in `review_log.jsonl` for every person→identity binding.
 > Extends the "receipts for everything" model from the outlets covering a story (Stage 4 provenance cards) down to the actors inside it. Same discipline, different layer: provenance cards describe the *source*; entity cards describe the *subject*.
 >
 > **G's approval modifications (2026-07-08):**

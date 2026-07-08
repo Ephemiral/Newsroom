@@ -16,7 +16,9 @@ import os
 # 0.2 — claims/sources/report baseline
 # 0.3 — optional event.image (Wikimedia Commons file photo with attribution)
 # 0.4 — optional claim.dispute_type ("actor") for actor disputes (B-16)
-EVENT_SCHEMA_VERSION = "0.4"
+# 0.5 — optional event.entities[] (STAGE_7 entity cards; entity store lives in
+#       data/entities/ with its own ENTITY_SCHEMA_VERSION)
+EVENT_SCHEMA_VERSION = "0.5"
 
 
 @dataclass

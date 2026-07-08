@@ -1,0 +1,30 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_syrian_interior_ministry",
+  "type": "organization",
+  "canonical_name": "Syrian Interior Ministry",
+  "aliases": [
+    "Syrian interior ministry"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_07_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-08T13:51:03.563003+00:00",
+  "last_updated": "2026-07-08T13:51:09.488201+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_israel_middle_east_002",
+      "source": null
+    }
+  ]
+}

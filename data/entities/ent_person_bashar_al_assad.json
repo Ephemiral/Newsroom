@@ -1,0 +1,78 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_bashar_al_assad",
+  "type": "person",
+  "canonical_name": "Bashar al-Assad",
+  "aliases": [],
+  "wikidata_qid": "Q44329",
+  "summary": "Bashar Hafez al-Assad is a former Syrian politician, doctor, and military officer who served as the president of Syria from 2000 until his overthrow in 2024 after the Syrian civil war. As president, Assad was commander-in-chief of the Syrian Arab Armed Forces and secretary-general of the Central Command of the Arab Socialist Ba'ath Party.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Bashar_al-Assad"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/%28cropped_2%29_%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1_%D8%A8%D8%B4%D8%A7%D8%B1_%D8%A7%D8%B3%D8%AF_%D9%88_%D9%87%DB%8C%D8%A6%D8%AA_%D9%87%D9%85%D8%B1%D8%A7%D9%87_%D8%A8%D8%A7_%D8%B3%DB%8C%D8%AF_%D8%B9%D9%84%DB%8C_%D8%AE%D8%A7%D9%85%D9%86%D9%87_%D8%A7%DB%8C%D8%8C_%DB%B1%DB%B0_%D8%AE%D8%B1%D8%AF%D8%A7%D8%AF_%DB%B1%DB%B4%DB%B0%DB%B3_%2805%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:(cropped_2)_%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1_%D8%A8%D8%B4%D8%A7%D8%B1_%D8%A7%D8%B3%D8%AF_%D9%88_%D9%87%DB%8C%D8%A6%D8%AA_%D9%87%D9%85%D8%B1%D8%A7%D9%87_%D8%A8%D8%A7_%D8%B3%DB%8C%D8%AF_%D8%B9%D9%84%DB%8C_%D8%AE%D8%A7%D9%85%D9%86%D9%87_%D8%A7%DB%8C%D8%8C_%DB%B1%DB%B0_%D8%AE%D8%B1%D8%AF%D8%A7%D8%AF_%DB%B1%DB%B4%DB%B0%DB%B3_(05).jpg",
+    "credit": "khamenei.ir",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:(cropped 2) دیدار بشار اسد و هیئت همراه با سید علی خامنه ای، ۱۰ خرداد ۱۴۰۳ (05).jpg",
+    "fetched_at": "2026-07-08T13:50:59.918585+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "President of Syria",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q44329",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "commanding officer",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q44329",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He is the son of Hafez al-Assad, who ruled Syria from 1970 to 2000.",
+      "source_url": "https://en.wikipedia.org/wiki/Bashar_al-Assad",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_07_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-08T13:50:55.851743+00:00",
+  "last_updated": "2026-07-08T13:51:09.486652+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Bashar_al-Assad"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q44329 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q44329"
+    }
+  ]
+}

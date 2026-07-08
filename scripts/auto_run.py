@@ -439,6 +439,7 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
     # ── 4–6. Publish each selected cluster ────────────────────────────────
     import anthropic
     from pipeline.run_event import run_pipeline_for_event
+    from pipeline.entities.run import attach_entities
     from pipeline.images.run import attach_image
 
     api_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -474,6 +475,12 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
                 data = json.loads(analyzed_path.read_text())
                 data["event"]["related_events"] = stats["related_events"]
                 analyzed_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+            # Entity cards (STAGE_7, schema 0.5) — additive; a failure here must
+            # never block the event itself from publishing.
+            try:
+                attach_entities(analyzed_path, client)
+            except Exception:
+                log.exception("Entity stage failed for %s (publishing without entities)", event_id)
             try:
                 attach_image(analyzed_path, client)
             except Exception:
@@ -481,6 +488,11 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
             data = json.loads(analyzed_path.read_text())
             titles.append(data["event"].get("title", event_id))
             to_commit += [cluster_path, analyzed_path]
+            # Entity store files created/updated by attach_entities (whole dir:
+            # git add picks up new records, alias index and review log together).
+            entities_dir = ROOT / "data" / "entities"
+            if entities_dir.exists() and entities_dir not in to_commit:
+                to_commit.append(entities_dir)
             attempt["outcome"] = "published"
             run_log["published"].append({"event_id": event_id, "title": titles[-1], **stats})
             state["attempted"][stats["fingerprint"]] = attempt

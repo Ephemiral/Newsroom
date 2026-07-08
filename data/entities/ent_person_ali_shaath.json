@@ -1,0 +1,35 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_ali_shaath",
+  "type": "person",
+  "canonical_name": "Ali Shaath",
+  "aliases": [],
+  "wikidata_qid": "Q16123087",
+  "summary": "Palestinian-egyptian tech pioneer and activist",
+  "summary_sources": [
+    "https://www.wikidata.org/wiki/Q16123087"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_07_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-08T13:49:29.346415+00:00",
+  "last_updated": "2026-07-08T13:51:53.027849+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q16123087",
+      "source": "https://www.wikidata.org/wiki/Q16123087"
+    }
+  ]
+}

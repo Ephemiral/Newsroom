@@ -147,6 +147,7 @@ Build in the order the data flows, and prove trust before generating.
 - **`STAGE_3_4_ANALYZE_ANNOTATE.md`** — analysis + annotation; **defines the canonical per-event JSON schema**.
 - **`STAGE_5_GENERATE.md`** — report generation (Phase 2).
 - **`STAGE_6_FRONTEND.md`** — Next.js front end + toggle UI.
+- **`STAGE_7_ENTITIES.md`** — entity cards (Phase 3, M10): persistent entity store + clickable, tier-labeled background cards for people/orgs/locations/tech in transparency mode. Implemented 2026-07-08.
 
 **Working rhythm:** pick the current milestone from the TRACKSHEET → open that stage's instruction doc → build only that stage against the golden dataset → update the TRACKSHEET (status + change log) → move to the next. Work one stage at a time.
 
@@ -640,6 +641,12 @@ Additional safety properties: report validation errors abort that event and dele
 **Failure alerting:** locally, a macOS notification fires when a cycle crashes/fails; in CI, the workflow uploads the run log as an artifact and auto-opens a GitHub issue labelled `autorun-failure` (GitHub also emails on failed scheduled runs).
 
 **Human review note:** this supersedes the "human review before publish" MVP mitigation in §7 by owner decision (July 2026). The gates + report validation are the review. Spot-check the homepage regularly, especially early on.
+
+### 15c. Entity cards (schema v0.5, `pipeline/entities/`, added 8 July 2026)
+
+Every auto-published event now carries `event.entities[]` (STAGE_7, M10): up to 8 key actors — people, organizations, political parties, technologies, and strategically significant locations — extracted from the report text (Haiku), resolved against a **persistent, accumulating entity store** (`data/entities/`, one JSON per entity + alias index), grounded in **Wikidata/Wikipedia with a citation on every field** (never model knowledge), and rendered as clickable mentions in transparency mode that open a side-panel card (openly-licensed image via Wikidata P18, summary, roles, connections, facts grouped by confidence tier `verified|reported|disputed|allegation`, per-event relevance note, localStorage-driven "Updated" marker).
+
+Safety is **machine-enforced, no human bottleneck** (G's decision, 2026-07-08): a fact cannot publish without a source link AND a tier label; person allegations additionally require `attributed_to` (rendered "Alleged by X →", never the system's own voice); person grounding passes an **LLM namesake guard** (a wrong identity poisons the record — thin cards are the safe failure) and every person→QID binding is audit-logged in `data/entities/review_log.jsonl`. Measured cost ~$0.01/event (Haiku-only; Wikidata/Commons free). CLI: `python3 -m pipeline.entities.run --event-id evt_X [--force]` or `--all-missing`. The stage runs in `auto_run.py` after Generate, before Image; failures never block the event itself.
 
 ### 15b. Event images (schema v0.3, `pipeline/images/`)
 

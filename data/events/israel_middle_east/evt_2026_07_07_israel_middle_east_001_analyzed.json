@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.5",
   "event": {
     "cluster_id": "evt_2026_07_07_israel_middle_east_001",
     "beat": "israel_middle_east",
@@ -22,7 +22,146 @@
       "file_title": "openverse:f7074743-40c8-46f7-b65a-2fb116cd3eb6|The Mahmoudiya Mosque",
       "query": "Gaza City government building",
       "fetched_at": "2026-07-07T04:46:57.770031+00:00"
-    }
+    },
+    "entities": [
+      {
+        "entity_id": "ent_organization_hamas",
+        "surfaces": [
+          "Hamas"
+        ],
+        "relevance_to_event": "The organization dissolving its 20-year governing body in Gaza and announcing its withdrawal from day-to-day civilian governance as part of the ceasefire transition framework.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_007",
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_mohammed_al_farra",
+        "surfaces": [
+          "Mohammed al-Farra"
+        ],
+        "relevance_to_event": "Head of Hamas's emergency committee who formally submitted his resignation and dissolved the emergency committee to facilitate the transition to technocratic governance.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_national_committee_for_the_administration_of_gaza",
+        "surfaces": [
+          "National Committee for the Administration of Gaza",
+          "NCAG"
+        ],
+        "relevance_to_event": "The technocratic body established under the 2025 ceasefire framework to replace Hamas's governance of Gaza, though it has been unable to enter Gaza due to Israeli objections.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_006",
+            "clm_007",
+            "clm_008",
+            "clm_009",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_ali_shaath",
+        "surfaces": [
+          "Ali Shaath"
+        ],
+        "relevance_to_event": "Palestinian technocrat heading the NCAG who stated the committee is prepared to assume civilian governance once resources and capabilities are available, calling for unified authority and armed forces.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_benjamin_netanyahu",
+        "surfaces": [
+          "Benjamin Netanyahu"
+        ],
+        "relevance_to_event": "Israeli Prime Minister whose government dismissed Hamas's dissolution as a 'stunt' and publicly stated plans to increase Israeli territorial control of Gaza.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_board_of_peace",
+        "surfaces": [
+          "Board of Peace"
+        ],
+        "relevance_to_event": "US President Trump's body that brokered the 2025 ceasefire and established the NCAG, now calling for consolidation of all weapons under NCAG control.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_gaza_strip",
+        "surfaces": [
+          "Gaza Strip",
+          "Gaza"
+        ],
+        "relevance_to_event": "The territory where Hamas is dissolving its governing body and transitioning governance to the NCAG as part of the ceasefire framework.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israel",
+        "surfaces": [
+          "Israel",
+          "Israeli"
+        ],
+        "relevance_to_event": "The state whose government objects to NCAG entry into Gaza, rejects both Hamas and Palestinian Authority direct governance, and has expanded military control to nearly 70% of Gaza's territory.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008",
+            "clm_010",
+            "clm_011",
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

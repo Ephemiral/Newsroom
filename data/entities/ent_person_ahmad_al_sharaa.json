@@ -1,0 +1,63 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_ahmad_al_sharaa",
+  "type": "person",
+  "canonical_name": "Ahmad al-Sharaa",
+  "aliases": [
+    "Ahmed al-Sharaa"
+  ],
+  "wikidata_qid": "Q7934206",
+  "summary": "Ahmed Hussein al-Sharaa, formerly known by his nom de guerre Abu Mohammad al-Julani, is a Syrian politician and former rebel commander who has served as the president of Syria since 2025. As the emir of Hay'at Tahrir al-Sham (HTS) and de facto leader of the Syrian Salvation Government (SSG) during the Syrian civil war, he led the Syrian opposition offensives that resulted in the fall of the Assad regime in 2024.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ahmed_al-Sharaa"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ahmed_al-Sharaa%2C_President_of_Syria%2C_in_March_2026.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ahmed_al-Sharaa,_President_of_Syria,_in_March_2026.jpg",
+    "credit": "Original photo by Foreign, Commonwealth & Development Office, used under CC BY 4.0. Cropped by HurricaneEdgar.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Ahmed al-Sharaa, President of Syria, in March 2026.jpg",
+    "fetched_at": "2026-07-08T13:50:55.327793+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "President of Syria",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7934206",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "De facto Leader of Syria",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7934206",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_07_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-08T13:50:51.139971+00:00",
+  "last_updated": "2026-07-08T13:51:09.486049+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q7934206 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q7934206"
+    }
+  ]
+}

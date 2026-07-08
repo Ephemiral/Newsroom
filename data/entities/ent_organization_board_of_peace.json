@@ -1,0 +1,52 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_board_of_peace",
+  "type": "organization",
+  "canonical_name": "Board of Peace",
+  "aliases": [],
+  "wikidata_qid": "Q136402081",
+  "summary": "The Board of Peace (BoP), or the Peace Board, is an international organization with the stated purpose of promoting peacebuilding around the world. Established by President Donald Trump and led by the government of the United States, the board is named in United Nations Security Council Resolution 2803 as a body tasked with overseeing the processes of the Gaza peace plan.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Board_of_Peace"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The Board of Peace was proposed in September 2025 and formally established on the side-lines of the 56th World Economic Forum in January 2026.",
+      "source_url": "https://en.wikipedia.org/wiki/Board_of_Peace",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_07_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-08T13:49:38.594334+00:00",
+  "last_updated": "2026-07-08T13:51:53.028594+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Board_of_Peace"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q136402081 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q136402081"
+    }
+  ]
+}

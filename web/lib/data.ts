@@ -1,8 +1,31 @@
 import fs from 'fs';
 import path from 'path';
-import { AnalyzedEvent } from './types';
+import { AnalyzedEvent, EntityRecord } from './types';
 
 const DATA_DIR = path.join(process.cwd(), '..', 'data', 'events');
+const ENTITIES_DIR = path.join(process.cwd(), '..', 'data', 'entities');
+
+/** One record from the persistent entity store, or null if absent/unreadable. */
+export function getEntity(entityId: string): EntityRecord | null {
+  // Entity ids are pipeline-minted slugs; guard against path traversal anyway.
+  if (!/^ent_[a-z0-9_]+$/.test(entityId)) return null;
+  const filePath = path.join(ENTITIES_DIR, `${entityId}.json`);
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf-8')) as EntityRecord;
+  } catch {
+    return null;
+  }
+}
+
+/** Map of entity_id -> record for the ids that exist in the store. */
+export function getEntityMap(entityIds: string[]): Record<string, EntityRecord> {
+  const map: Record<string, EntityRecord> = {};
+  for (const id of entityIds) {
+    const rec = getEntity(id);
+    if (rec) map[id] = rec;
+  }
+  return map;
+}
 
 export function getEventIds(): string[] {
   const ids: string[] = [];

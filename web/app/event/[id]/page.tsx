@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getEvent } from '@/lib/data';
+import { getEvent, getEntityMap } from '@/lib/data';
 import OutletCard from '@/components/OutletCard';
 import ClaimSection from '@/components/ClaimSection';
 import BiasLegend from '@/components/BiasLegend';
@@ -45,6 +45,15 @@ export default async function EventPage({ params }: Props) {
 
   const sourceMap = Object.fromEntries(event.sources.map((s) => [s.source_id, s]));
   const claimsMap = Object.fromEntries(event.claims.map((c) => [c.claim_id, c]));
+
+  // Entity cards (schema v0.5): load store records for this event's entities,
+  // plus one hop of connection targets so edges in the panel can navigate.
+  const eventEntities = event.event.entities ?? [];
+  const entityRecords = getEntityMap(eventEntities.map((e) => e.entity_id));
+  const connectionIds = Object.values(entityRecords)
+    .flatMap((r) => r.connections.map((c) => c.entity_id))
+    .filter((id) => !entityRecords[id]);
+  Object.assign(entityRecords, getEntityMap([...new Set(connectionIds)]));
   const agreed       = event.claims.filter((c) => c.classification === 'agreed');
   const corroborated = event.claims.filter((c) => c.classification === 'corroborated');
   const contested    = event.claims.filter((c) => c.classification === 'contested');
@@ -155,6 +164,8 @@ export default async function EventPage({ params }: Props) {
             claimsMap={claimsMap}
             sourceMap={sourceMap}
             image={event.event.image}
+            entities={eventEntities}
+            entityRecords={entityRecords}
           />
         ) : (
           event.event.image && <EventImageFigure image={event.event.image} />

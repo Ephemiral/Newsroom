@@ -1,0 +1,96 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_syria",
+  "type": "location",
+  "canonical_name": "Syria",
+  "aliases": [
+    "Damascus",
+    "central Damascus"
+  ],
+  "wikidata_qid": "Q858",
+  "summary": "Syria, officially the Syrian Arab Republic, is a country in West Asia located in the Eastern Mediterranean and the Levant. It borders the Mediterranean Sea to the west, Turkey to the north and northwest, Iraq to the east and southeast, Jordan to the south, and Israel and Lebanon to the southwest.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Syria"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Damascus_general_laz1.jpg/960px-Damascus_general_laz1.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Damascus_general_laz1.jpg",
+    "credit": "Lazhar Neftien",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Damascus general laz1.jpg",
+    "fetched_at": "2026-07-08T13:51:02.967257+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is a republic under a provisional government and comprises 14 governorates.",
+      "source_url": "https://en.wikipedia.org/wiki/Syria",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Damascus is the capital and largest city.",
+      "source_url": "https://en.wikipedia.org/wiki/Syria",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "With a population of 26 million across an area of 185,180 square kilometres (71,500 sq mi), it is the 56th-most populous and 87th-largest country.",
+      "source_url": "https://en.wikipedia.org/wiki/Syria",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_07_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-08T13:51:00.401675+00:00",
+  "last_updated": "2026-07-08T13:51:09.487286+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Syria"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Syria"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Syria"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q858 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q858"
+    }
+  ]
+}

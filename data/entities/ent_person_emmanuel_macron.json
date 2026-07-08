@@ -1,0 +1,104 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_emmanuel_macron",
+  "type": "person",
+  "canonical_name": "Emmanuel Macron",
+  "aliases": [
+    "Macron"
+  ],
+  "wikidata_qid": "Q3052772",
+  "summary": "Emmanuel Jean-Michel Frédéric Macron is a French politician who has served as President of France since 2017. He has been a member of Renaissance since founding the party in 2016.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Emmanuel_Macron"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Emmanuel_Macron_2025_%28cropped%29.jpg/960px-Emmanuel_Macron_2025_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Emmanuel_Macron_2025_(cropped).jpg",
+    "credit": "Nebojša Tejić",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Emmanuel Macron 2025 (cropped).jpg",
+    "fetched_at": "2026-07-08T13:50:50.719048+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Minister of Economy, Industry and Digital",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q3052772",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Assistant Secretary General of the Presidency of the French Republic",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q3052772",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President of the French Republic",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q3052772",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "French co-prince of Andorra",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q3052772",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "chairperson",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q3052772",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Macron previously served as Deputy Secretary-General to the President from 2012 to 2014 and Minister of Economics and Finance from 2014 to 2016 under President François Hollande.",
+      "source_url": "https://en.wikipedia.org/wiki/Emmanuel_Macron",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_07_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-08T13:50:46.849537+00:00",
+  "last_updated": "2026-07-08T13:51:09.484393+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Emmanuel_Macron"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q3052772 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q3052772"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_israel",
+  "type": "organization",
+  "canonical_name": "Israel",
+  "aliases": [
+    "Israeli"
+  ],
+  "wikidata_qid": "Q801",
+  "summary": "Israel, officially the State of Israel, is a country in the Southern Levant region of West Asia. It is bordered by Lebanon to the north, Syria to the northeast, Jordan to the east, and Egypt to the southwest.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Israel"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Satellite_image_of_Israel_in_January_2003.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Satellite_image_of_Israel_in_January_2003.jpg",
+    "credit": "Jacques Descloitres, MODIS Rapid Response Team, NASA/GSFC",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Satellite image of Israel in January 2003.jpg",
+    "fetched_at": "2026-07-08T13:49:44.907279+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Israel's western coast lies on the Mediterranean Sea, its southern tip reaches the Red Sea, and to the east is Earth's lowest point near the Dead Sea.",
+      "source_url": "https://en.wikipedia.org/wiki/Israel",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Jerusalem is the government seat and proclaimed capital, while Tel Aviv is Israel's largest urban area and economic centre.",
+      "source_url": "https://en.wikipedia.org/wiki/Israel",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_07_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-08T13:49:42.457509+00:00",
+  "last_updated": "2026-07-08T13:51:53.029591+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Israel"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Israel"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q801 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q801"
+    }
+  ]
+}

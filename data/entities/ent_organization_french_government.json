@@ -1,0 +1,39 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_french_government",
+  "type": "organization",
+  "canonical_name": "French Government",
+  "aliases": [
+    "Government of the French Republic",
+    "Élysée Palace",
+    "French presidential convoy"
+  ],
+  "wikidata_qid": "Q1450662",
+  "summary": "The Government of France, officially the Government of the French Republic, or the Fifth Republic, exercises executive power in France. It is composed of the prime minister, who is the head of government, as well as both senior and junior ministers.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Government_of_France"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_07_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-08T13:51:04.126597+00:00",
+  "last_updated": "2026-07-08T13:51:09.488559+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q1450662 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1450662"
+    }
+  ]
+}

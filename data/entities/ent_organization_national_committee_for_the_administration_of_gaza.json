@@ -1,0 +1,54 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_national_committee_for_the_administration_of_gaza",
+  "type": "organization",
+  "canonical_name": "National Committee for the Administration of Gaza",
+  "aliases": [
+    "NCAG"
+  ],
+  "wikidata_qid": "Q136844303",
+  "summary": "The National Committee for the Administration of Gaza is a transitional body mandated by the United Nations to manage day-to-day operations of the civil service and administration in the Gaza Strip in the aftermath of the Gaza war and its related peace plan. It is intended to succeed the current Hamas administration in Gaza.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/National_Committee_for_the_Administration_of_Gaza"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The NCAG is composed of independent Palestinian technocrats and is supervised by the Board of Peace.",
+      "source_url": "https://en.wikipedia.org/wiki/National_Committee_for_the_Administration_of_Gaza",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_07_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-08T13:49:36.989622+00:00",
+  "last_updated": "2026-07-08T13:51:53.027417+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/National_Committee_for_the_Administration_of_Gaza"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q136844303 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q136844303"
+    }
+  ]
+}

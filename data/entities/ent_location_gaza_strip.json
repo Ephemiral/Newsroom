@@ -1,0 +1,63 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_gaza_strip",
+  "type": "location",
+  "canonical_name": "Gaza Strip",
+  "aliases": [
+    "Gaza"
+  ],
+  "wikidata_qid": "Q39760",
+  "summary": "The Gaza Strip, also known simply as Gaza, is the smaller of the two Palestinian territories that make up the State of Palestine in the Southern Levant region of West Asia. Gaza is bordered by Egypt on the southwest, Israel on the east and north, and the Mediterranean Sea to the west.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Gaza_Strip"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Forced_Displacement_of_Gaza_Strip_Residents_During_the_Gaza-Israel_War_23-25.jpg/960px-Forced_Displacement_of_Gaza_Strip_Residents_During_the_Gaza-Israel_War_23-25.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Forced_Displacement_of_Gaza_Strip_Residents_During_the_Gaza-Israel_War_23-25.jpg",
+    "credit": "Jaber Jehad Badwan",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Forced Displacement of Gaza Strip Residents During the Gaza-Israel War 23-25.jpg",
+    "fetched_at": "2026-07-08T13:49:42.456216+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Its capital and largest city is Gaza City.",
+      "source_url": "https://en.wikipedia.org/wiki/Gaza_Strip",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_07_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-08T13:49:40.060937+00:00",
+  "last_updated": "2026-07-08T13:51:53.028929+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Gaza_Strip"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q39760 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q39760"
+    }
+  ]
+}

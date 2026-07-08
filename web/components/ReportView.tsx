@@ -1,8 +1,9 @@
 'use client';
 
-import { useState } from 'react';
-import { Report, ReportParagraph, Claim, Source, EventImage } from '@/lib/types';
+import { useMemo, useState } from 'react';
+import { Report, ReportParagraph, Claim, Source, EventImage, EventEntity, EntityRecord } from '@/lib/types';
 import EventImageFigure from '@/components/EventImageFigure';
+import EntityPanel from '@/components/EntityPanel';
 
 // ── Kind config — warm palette matching the Critiqal design ──────────────────
 
@@ -220,16 +221,70 @@ function Receipt({
   );
 }
 
+// ── Entity mentions (STAGE_7) ─────────────────────────────────────────────────
+// Surfaces are matched as plain strings within paragraph text (no offsets —
+// robust to report regeneration). Longest surface wins so "Benjamin Netanyahu"
+// isn't split by the shorter "Netanyahu".
+
+function buildSurfaceMatcher(entities: EventEntity[] | undefined) {
+  const surfaceToId = new Map<string, string>();
+  for (const e of entities ?? []) {
+    for (const s of e.surfaces) {
+      if (s && s.length > 1 && !surfaceToId.has(s)) surfaceToId.set(s, e.entity_id);
+    }
+  }
+  if (surfaceToId.size === 0) return null;
+  const escaped = [...surfaceToId.keys()]
+    .sort((a, b) => b.length - a.length)
+    .map(s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  return { regex: new RegExp(`(${escaped.join('|')})`, 'g'), surfaceToId };
+}
+
+function EntityText({
+  text, matcher, onOpen,
+}: {
+  text: string;
+  matcher: { regex: RegExp; surfaceToId: Map<string, string> } | null;
+  onOpen: (entityId: string) => void;
+}) {
+  if (!matcher) return <>{text}</>;
+  const parts = text.split(matcher.regex);
+  return (
+    <>
+      {parts.map((part, i) => {
+        const entityId = matcher.surfaceToId.get(part);
+        if (!entityId) return <span key={i}>{part}</span>;
+        return (
+          <button
+            key={i}
+            onClick={() => onOpen(entityId)}
+            style={{
+              background: 'none', border: 'none', padding: 0, cursor: 'pointer',
+              font: 'inherit', color: 'inherit',
+              borderBottom: '1.5px dotted #b08a4a',
+            }}
+            title="Show entity card"
+          >
+            {part}
+          </button>
+        );
+      })}
+    </>
+  );
+}
+
 // ── Paragraph card ────────────────────────────────────────────────────────────
 
 function ParagraphCard({
-  para, claimsMap, sourceMap, transparencyMode, isLede,
+  para, claimsMap, sourceMap, transparencyMode, isLede, matcher, onOpenEntity,
 }: {
   para: ReportParagraph;
   claimsMap: Record<string, Claim>;
   sourceMap: Record<string, Source>;
   transparencyMode: boolean;
   isLede?: boolean;
+  matcher: ReturnType<typeof buildSurfaceMatcher>;
+  onOpenEntity: (entityId: string) => void;
 }) {
   const [expanded, setExpanded] = useState(false);
   const cfg = KIND[para.kind] ?? KIND.background;
@@ -261,7 +316,9 @@ function ParagraphCard({
           fontSize: 16.5, lineHeight: 1.65, color: '#2a2319', margin: 0,
         }}
       >
-        {para.text}
+        {transparencyMode
+          ? <EntityText text={para.text} matcher={matcher} onOpen={onOpenEntity} />
+          : para.text}
       </p>
       {expanded && transparencyMode && (
         <Receipt paragraph={para} claimsMap={claimsMap} sourceMap={sourceMap} />
@@ -278,10 +335,30 @@ interface ReportViewProps {
   sourceMap: Record<string, Source>;
   /** Event file photo, rendered inside the article body rather than as a top hero. */
   image?: EventImage | null;
+  /** Entity references for this event (schema v0.5); absent on older events. */
+  entities?: EventEntity[];
+  /** Store records for those entities (+ one hop of connections), keyed by id. */
+  entityRecords?: Record<string, EntityRecord>;
 }
 
-export default function ReportView({ report, claimsMap, sourceMap, image }: ReportViewProps) {
+export default function ReportView({
+  report, claimsMap, sourceMap, image, entities, entityRecords,
+}: ReportViewProps) {
   const [transparencyMode, setTransparencyMode] = useState(false);
+  const [activeEntityId, setActiveEntityId] = useState<string | null>(null);
+
+  // Only surfaces whose entity actually has a store record become clickable —
+  // a mention must never open an empty or broken card (STAGE_7 safety).
+  const matcher = useMemo(
+    () => buildSurfaceMatcher(entities?.filter(e => entityRecords?.[e.entity_id])),
+    [entities, entityRecords],
+  );
+  const activeRecord = activeEntityId ? entityRecords?.[activeEntityId] : undefined;
+  const relatedNames = useMemo(() => {
+    const names: Record<string, string> = {};
+    for (const [id, rec] of Object.entries(entityRecords ?? {})) names[id] = rec.canonical_name;
+    return names;
+  }, [entityRecords]);
 
   // Place the image after the first paragraph — or the second when the opener
   // is a short one-liner, so the photo doesn't interrupt a two-line lede.
@@ -372,6 +449,8 @@ export default function ReportView({ report, claimsMap, sourceMap, image }: Repo
                   sourceMap={sourceMap}
                   transparencyMode={transparencyMode}
                   isLede={i === 0}
+                  matcher={matcher}
+                  onOpenEntity={setActiveEntityId}
                 />
                 {image && i === imageAfterIndex && (
                   <EventImageFigure image={image} />
@@ -381,6 +460,17 @@ export default function ReportView({ report, claimsMap, sourceMap, image }: Repo
           );
         })}
       </div>
+
+      {/* Entity card panel (STAGE_7) */}
+      {activeRecord && (
+        <EntityPanel
+          record={activeRecord}
+          eventEntity={entities?.find(e => e.entity_id === activeRecord.entity_id)}
+          relatedNames={relatedNames}
+          onNavigate={(id) => { if (entityRecords?.[id]) setActiveEntityId(id); }}
+          onClose={() => setActiveEntityId(null)}
+        />
+      )}
 
     </section>
   );
