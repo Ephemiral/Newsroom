@@ -126,12 +126,12 @@ def attach_entities(analyzed_path: Path, client: anthropic.Anthropic,
 
         if record is None:
             record = store.create(cand["type"], name, event_id)
-            # Namesake guard: person grounding requires an LLM identity
-            # confirmation of the Wikidata hit against the story context.
-            confirm = None
-            if cand["type"] == "person":
-                confirm = lambda hit, c=cand: confirm_identity(  # noqa: E731
-                    c["canonical_name"], c["context"], hit, client, usage_log=usage)
+            # Identity guard for EVERY type: an LLM confirms the Wikidata hit
+            # against the story context before grounding (a wrong identity
+            # poisons the record; a thin card is the safe failure). This replaces
+            # the old brittle keyword type-check that false-rejected real people.
+            confirm = lambda hit, c=cand: confirm_identity(  # noqa: E731
+                c["canonical_name"], c["context"], hit, client, usage_log=usage)
             ground_entity(record, store, confirm=confirm)
             # Audit trail: every person→identity binding is reviewable later.
             if cand["type"] == "person" and record.get("wikidata_qid"):

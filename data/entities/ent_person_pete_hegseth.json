@@ -6,11 +6,39 @@
   "aliases": [
     "Hegseth"
   ],
-  "wikidata_qid": null,
-  "summary": null,
-  "summary_sources": [],
-  "image": null,
-  "roles_affiliations": [],
+  "wikidata_qid": "Q7172014",
+  "summary": "Peter Brian Hegseth is an American government official and former television personality who is serving as the 29th United States secretary of defense since 2025.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Pete_Hegseth"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Pete_Hegseth_Official_Portrait.jpg/960px-Pete_Hegseth_Official_Portrait.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Pete_Hegseth_Official_Portrait.jpg",
+    "credit": "U.S. Department of Defense",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Pete Hegseth Official Portrait.jpg",
+    "fetched_at": "2026-07-08T17:39:19.451120+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "United States Secretary of Defense",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7172014",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "defence minister",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7172014",
+      "source_type": "reference_work"
+    }
+  ],
   "connections": [],
   "facts": [],
   "review_status": "auto",
@@ -19,12 +47,17 @@
     "evt_2026_07_08_israel_middle_east_002"
   ],
   "created_at": "2026-07-08T15:08:29.547013+00:00",
-  "last_updated": "2026-07-08T15:08:36.308356+00:00",
+  "last_updated": "2026-07-08T17:39:19.967501+00:00",
   "change_log": [
     {
       "date": "2026-07-08",
       "summary_of_change": "Entity created from evt_2026_07_08_israel_middle_east_002",
       "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q7172014 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q7172014"
     }
   ]
 }

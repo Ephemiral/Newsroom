@@ -4,25 +4,65 @@
   "type": "person",
   "canonical_name": "Anastasiia Berezovska",
   "aliases": [],
-  "wikidata_qid": null,
-  "summary": null,
-  "summary_sources": [],
+  "wikidata_qid": "Q140456322",
+  "summary": "On 29 June 2026, an explosion occurred at the entrance of a residential building at 4 Rue Révérend Père Louis Frolla in Monaco, near the Monaco-France border. Three people were injured including two adults, left in critical condition, and a 13-year-old child.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/2026_Monaco_bombing"
+  ],
   "image": null,
   "roles_affiliations": [],
   "connections": [],
-  "facts": [],
+  "facts": [
+    {
+      "text": "The blast was caused by an improvised explosive device (IED) reportedly in a backpack left at the scene by an unidentified suspect, who fled toward France shortly after the detonation.",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Monaco_bombing",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Le Monde reported that it was \"a settling of scores linked to organized crime\".",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Monaco_bombing",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_08_europe_001",
   "appears_in_events": [
     "evt_2026_07_08_europe_001"
   ],
   "created_at": "2026-07-08T15:18:47.341078+00:00",
-  "last_updated": "2026-07-08T15:18:55.921280+00:00",
+  "last_updated": "2026-07-08T17:39:14.838442+00:00",
   "change_log": [
     {
       "date": "2026-07-08",
       "summary_of_change": "Entity created from evt_2026_07_08_europe_001",
       "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/2026_Monaco_bombing"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/2026_Monaco_bombing"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q140456322 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q140456322"
     }
   ]
 }

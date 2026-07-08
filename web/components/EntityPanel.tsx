@@ -116,6 +116,23 @@ export default function EntityPanel({ record, eventEntity, relatedNames, onNavig
     return groups;
   }, [record]);
 
+  // Roles: dedupe by label (Wikidata repeats a position once per term) and
+  // collect the distinct citation URLs so we show one source link, not one
+  // identical link per role.
+  const roles = useMemo(() => {
+    const seen = new Set<string>();
+    const out: typeof record.roles_affiliations = [];
+    for (const r of record.roles_affiliations) {
+      const key = r.role.trim().toLowerCase();
+      if (key && !seen.has(key)) { seen.add(key); out.push(r); }
+    }
+    return out;
+  }, [record]);
+  const roleSources = useMemo(
+    () => [...new Set(record.roles_affiliations.map(r => r.source_url).filter(Boolean))],
+    [record],
+  );
+
   const lastChange = record.change_log[record.change_log.length - 1];
 
   return (
@@ -169,7 +186,9 @@ export default function EntityPanel({ record, eventEntity, relatedNames, onNavig
               src={record.image.url}
               alt={record.canonical_name}
               style={{
-                width: '100%', maxHeight: 240, objectFit: 'cover',
+                // contain (not cover) so a portrait is never cropped through the
+                // face; the neutral background fills any letterbox margin.
+                width: '100%', height: 240, objectFit: 'contain', objectPosition: 'center',
                 borderRadius: 4, border: '1px solid #e1d8c8', background: '#ece6da',
               }}
             />
@@ -238,12 +257,12 @@ export default function EntityPanel({ record, eventEntity, relatedNames, onNavig
           </div>
         )}
 
-        {/* Roles */}
-        {record.roles_affiliations.length > 0 && (
+        {/* Roles — deduped; one shared source link rather than one per row */}
+        {roles.length > 0 && (
           <div style={{ margin: '18px 0' }}>
             <SectionLabel>Roles &amp; affiliations</SectionLabel>
             <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: 6 }}>
-              {record.roles_affiliations.map((r, i) => (
+              {roles.map((r, i) => (
                 <li key={i} style={{
                   fontFamily: 'var(--font-spectral), serif', fontSize: 14, lineHeight: 1.5, color: '#5b5249',
                 }}>
@@ -251,11 +270,22 @@ export default function EntityPanel({ record, eventEntity, relatedNames, onNavig
                   {(r.start || r.end) && (
                     <span style={{ color: '#a3957f' }}> ({r.start ?? '…'}–{r.end ?? 'present'})</span>
                   )}
-                  {' '}
-                  <a href={r.source_url} target="_blank" rel="noreferrer" style={{ color: '#b08a4a', fontSize: 11 }}>→</a>
                 </li>
               ))}
             </ul>
+            {roleSources.length > 0 && (
+              <p style={{ font: '400 11px/1.5 var(--font-archivo), system-ui', color: '#a3957f', marginTop: 6 }}>
+                Source:{' '}
+                {roleSources.map((u, i) => (
+                  <span key={u}>
+                    {i > 0 && ', '}
+                    <a href={u} target="_blank" rel="noreferrer" style={{ color: '#b08a4a' }}>
+                      Wikidata{roleSources.length > 1 ? ` ${i + 1}` : ''} →
+                    </a>
+                  </span>
+                ))}
+              </p>
+            )}
           </div>
         )}
 

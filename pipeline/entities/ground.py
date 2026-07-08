@@ -102,28 +102,29 @@ def _get(url: str, params: dict, timeout: int = 20) -> Optional[dict]:
 
 # ── Wikidata ──────────────────────────────────────────────────────────────────
 
-def wikidata_search(name: str, etype: str, limit: int = 5) -> Optional[dict]:
-    """Search Wikidata for `name`; return {qid, label, description} of the first
-    hit whose description is plausible for `etype`, else the first hit with a
-    plausibility flag so the caller can decide."""
+def wikidata_candidates(name: str, etype: str, limit: int = 5) -> list[dict]:
+    """Search Wikidata for `name`; return ranked candidates {qid, label,
+    description, type_plausible}. Type-plausible hits are ranked first (the
+    keyword match is a soft *ranking* hint only — never a hard reject, since it
+    wrongly dropped e.g. "United States Secretary of Defense" as a non-person).
+    Final identity is decided by the LLM confirmation guard in ground_entity."""
     data = _get(WIKIDATA_API, {
         "action": "wbsearchentities", "search": name, "language": "en",
         "limit": limit, "format": "json",
     })
     if not data or not data.get("search"):
-        return None
+        return []
     hints = _TYPE_HINTS.get(etype, ())
-    best = None
+    entries = []
     for hit in data["search"]:
-        desc = (hit.get("description") or "").lower()
-        entry = {"qid": hit["id"], "label": hit.get("label", name),
-                 "description": hit.get("description") or "",
-                 "type_plausible": any(h in desc for h in hints) if hints else True}
-        if entry["type_plausible"]:
-            return entry
-        if best is None:
-            best = entry
-    return best
+        desc = hit.get("description") or ""
+        entries.append({
+            "qid": hit["id"], "label": hit.get("label", name), "description": desc,
+            "type_plausible": any(h in desc.lower() for h in hints) if hints else True,
+        })
+    # Stable sort keeps Wikidata's own relevance order within each group.
+    entries.sort(key=lambda e: 0 if e["type_plausible"] else 1)
+    return entries
 
 
 def wikidata_entity(qid: str) -> Optional[dict]:
@@ -222,24 +223,28 @@ def ground_entity(record: dict, store, confirm=None) -> dict:
     an LLM namesake guard that must approve the hit before grounding proceeds.
     A wrong identity poisons the record; a thin card is always the safer failure."""
     name, etype = record["canonical_name"], record["type"]
-    hit = wikidata_search(name, etype)
-    if not hit:
+    candidates = wikidata_candidates(name, etype)
+    if not candidates:
         log.info("No Wikidata hit for %s (%s) — card stays thin", name, etype)
         return record
-    if not hit["type_plausible"]:
-        # A wrong identity is worse than a thin card — log for review, don't ground.
-        store.log_review({"kind": "grounding_type_mismatch", "entity_id": record["entity_id"],
-                          "name": name, "type": etype, "qid": hit["qid"],
-                          "description": hit["description"]})
-        log.info("Wikidata hit for %s is type-implausible (%s) — skipped, logged for review",
-                 name, hit["description"])
-        return record
-    if confirm is not None and not confirm(hit):
+
+    # Try candidates in rank order; the LLM guard picks the real identity and
+    # skips namesakes/disambiguation. Trying more than the top hit recovers the
+    # case where a namesake outranks the correct entity in search relevance.
+    hit = None
+    for cand in candidates[:3]:
+        if "disambiguation" in (cand["description"] or "").lower():
+            continue
+        if confirm is not None and not confirm(cand):
+            continue
+        hit = cand
+        break
+    if hit is None:
         store.log_review({"kind": "identity_not_confirmed", "entity_id": record["entity_id"],
-                          "name": name, "type": etype, "qid": hit["qid"],
-                          "description": hit["description"]})
-        log.info("Identity not confirmed for %s (candidate: %s) — card stays thin, logged",
-                 name, hit["description"])
+                          "name": name, "type": etype,
+                          "candidates": [{"qid": c["qid"], "description": c["description"]}
+                                         for c in candidates[:3]]})
+        log.info("No confirmed Wikidata identity for %s — card stays thin, logged", name)
         return record
 
     record["wikidata_qid"] = hit["qid"]
@@ -269,17 +274,25 @@ def ground_entity(record: dict, store, confirm=None) -> dict:
     if images and isinstance(images[0], str):
         record["image"] = commons_file_image(images[0])
 
-    # Roles (P39 position held) — cited to Wikidata.
+    # Roles (P39 position held) — cited to Wikidata. Wikidata stores one P39
+    # statement per term (e.g. a legislator gets one per parliament), so dedupe
+    # by label — "Knesset member" should appear once, not five times.
     role_qids = [v["id"] for v in _claim_values(entity, _ROLE_PROP)
-                 if isinstance(v, dict) and "id" in v][:6]
+                 if isinstance(v, dict) and "id" in v]
     labels = _qid_labels(role_qids)
+    seen_roles: set[str] = set()
     for qid in role_qids:
-        if qid in labels:
-            record["roles_affiliations"].append({
-                "role": labels[qid], "org_entity_id": None,
-                "start": None, "end": None,
-                "source_url": wd_url, "source_type": "reference_work",
-            })
+        label = labels.get(qid)
+        if not label or label.lower() in seen_roles:
+            continue
+        seen_roles.add(label.lower())
+        record["roles_affiliations"].append({
+            "role": label, "org_entity_id": None,
+            "start": None, "end": None,
+            "source_url": wd_url, "source_type": "reference_work",
+        })
+        if len(seen_roles) >= 6:
+            break
 
     # Typed connections — only to entities ALREADY in the store (matched by QID),
     # so every edge points at a real card. Unmatched relations are simply skipped;
