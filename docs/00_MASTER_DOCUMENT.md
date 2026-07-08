@@ -3,9 +3,11 @@
 
 > **Read this first.** This is the single source of truth for the project. Anyone — a human collaborator, Claude Code, or Claude Cowork — should be able to read this document and understand what the project is, why it exists, how it is architected, and what to build next. If you only read one file, read this one. Then consult the per-stage instruction docs (`STAGE_*.md`) for implementation detail, and keep `TRACKSHEET` updated as you go.
 
-**Last updated:** 7 July 2026
+**Last updated:** 8 July 2026
 **Owner:** G (GitHub: Ephemiral)
-**Status:** Live (Vercel), fully autonomous. Pipeline runs on GitHub Actions every 6h across 4 beats (Middle East/Europe/Americas/Asia; §15); events carry openly-licensed images; schema v0.4 (actor disputes + state-aligned outlets). Latest handover: `docs/HANDOVER_SESSION_15.md`.
+**Status:** Live (Vercel), fully autonomous. Pipeline runs on GitHub Actions **every 12h** (pre-launch cost control) across 4 beats (Middle East/Europe/Americas/Asia; §15); events carry openly-licensed images; schema v0.4 (actor disputes + state-aligned outlets). Latest handover: `docs/HANDOVER_SESSION_16.md`.
+
+> **Cost/billing (two separate meters):** GitHub Actions *minutes* (compute) are free on the public repo. Anthropic API *credits* (tokens) are billed per LLM call, identically wherever the code runs — **location does not change API cost, only volume does** (events published × cost/event; Sonnet reconcile+generate dominate; publish-free cycles cost ~$0). Levers to reduce burn: lengthen the cron, `--max-events`, fewer beats, or Sonnet→Haiku on reconcile/generate. Set a monthly spend limit in the Anthropic console so the account can't silently run dry (it did on 7 July → the fast auth-check now reports "BALANCE EXHAUSTED" distinctly from a bad key).
 
 ---
 

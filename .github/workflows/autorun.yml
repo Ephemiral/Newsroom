@@ -8,16 +8,19 @@
 # (both publish; they would race each other). Disable local:
 #   launchctl bootout gui/$(id -u)/com.critiqal.newsroom.autorun
 #
-# Cost note: this repo is private, so runs bill against the free 2,000
-# Actions minutes/month. A cycle takes ~15-25 min → every 6h ≈ 1,400-2,400
-# min/month. Options if that's too tight: make the repo public (unlimited
-# free minutes), lengthen the cron, or stay on launchd.
+# Cost notes — two SEPARATE meters:
+#   - GitHub Actions minutes (compute): free/unlimited because this repo is public.
+#   - Anthropic API credits (tokens): billed by Anthropic per LLM call, the same
+#     no matter where the code runs. Location does NOT change API cost; only
+#     volume does (events published × cost/event; Sonnet reconcile+generate
+#     dominate). Cron is every 12h pre-launch to control credit burn — raise to
+#     */6 when live, or lower models to Haiku for deeper savings.
 
 name: autorun
 
 on:
   schedule:
-    - cron: "23 */6 * * *"   # every 6 hours (offset avoids GitHub's on-the-hour congestion)
+    - cron: "23 */12 * * *"  # every 12 hours (00:23 & 12:23 UTC) — cost control pre-launch; raise to */6 when live
   workflow_dispatch: {}       # manual trigger from the Actions tab
 
 permissions:
