@@ -66,3 +66,37 @@ def embed_articles(
         batch_size=32,
     )
     return np.array(embeddings, dtype=np.float32), ids
+
+
+def embed_texts(
+    texts: list[str],
+    model_name: str = DEFAULT_MODEL,
+) -> np.ndarray:
+    """
+    Embed arbitrary strings into the same L2-normalised space as
+    ``embed_articles`` (so cosine similarity = dot product). Used by the
+    semantic-dedup gate to compare a candidate cluster's centroid against the
+    title+summary of recently-published events.
+
+    Returns a float32 array of shape (len(texts), embedding_dim). Empty input
+    returns an empty array.
+    """
+    if not texts:
+        return np.zeros((0, 0), dtype=np.float32)
+
+    try:
+        from sentence_transformers import SentenceTransformer
+    except ImportError:
+        raise ImportError(
+            "sentence-transformers is required for clustering. "
+            "Install with: pip install sentence-transformers"
+        )
+
+    model = SentenceTransformer(model_name)
+    embeddings = model.encode(
+        texts,
+        normalize_embeddings=True,
+        show_progress_bar=False,
+        batch_size=32,
+    )
+    return np.array(embeddings, dtype=np.float32)
