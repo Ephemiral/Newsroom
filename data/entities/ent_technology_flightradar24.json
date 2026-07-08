@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_flightradar24",
+  "type": "technology",
+  "canonical_name": "Flightradar24",
+  "aliases": [],
+  "wikidata_qid": "Q1164485",
+  "summary": "Flightradar24 is a Swedish Internet-based service that shows real-time aircraft flight tracking information on a map. It includes flight tracking information, origins and destinations, flight numbers, aircraft types, positions, altitudes, headings and speeds.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Flightradar24"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flights20April2010.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Flights20April2010.png",
+    "credit": "ITO World Ltd, using data from FlightRadar24 and from OpenStreetMap.",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Flights20April2010.png",
+    "fetched_at": "2026-07-08T15:35:13.850339+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It can also show time-lapse replays of previous tracks and historical flight data by airline, aircraft, aircraft type, area, or airport.",
+      "source_url": "https://en.wikipedia.org/wiki/Flightradar24",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It aggregates data from multiple sources, but, outside of the United States, mostly from crowdsourced information gathered by volunteers with ADS-B receivers and from satellite-based ADS-B receivers.",
+      "source_url": "https://en.wikipedia.org/wiki/Flightradar24",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_08_asia_001"
+  ],
+  "created_at": "2026-07-08T15:35:13.329988+00:00",
+  "last_updated": "2026-07-08T15:35:20.248487+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Flightradar24"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Flightradar24"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q1164485 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1164485"
+    }
+  ]
+}

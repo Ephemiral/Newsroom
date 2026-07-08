@@ -1,0 +1,46 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_boeing_737_400",
+  "type": "technology",
+  "canonical_name": "Boeing 737-400",
+  "aliases": [
+    "Boeing 737"
+  ],
+  "wikidata_qid": "Q15623313",
+  "summary": "Short range commercial jet aircraft",
+  "summary_sources": [
+    "https://www.wikidata.org/wiki/Q15623313"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/D-AHLO_B737-4K5_Hapag_Lloyd_LPA_01NOV00_%286955355633%29.jpg/960px-D-AHLO_B737-4K5_Hapag_Lloyd_LPA_01NOV00_%286955355633%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:D-AHLO_B737-4K5_Hapag_Lloyd_LPA_01NOV00_(6955355633).jpg",
+    "credit": "Ken Fielding",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:D-AHLO B737-4K5 Hapag Lloyd LPA 01NOV00 (6955355633).jpg",
+    "fetched_at": "2026-07-08T15:35:05.254282+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_08_asia_001"
+  ],
+  "created_at": "2026-07-08T15:35:04.720833+00:00",
+  "last_updated": "2026-07-08T15:35:20.247448+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q15623313",
+      "source": "https://www.wikidata.org/wiki/Q15623313"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_arabian_sea",
+  "type": "location",
+  "canonical_name": "Arabian Sea",
+  "aliases": [],
+  "wikidata_qid": "Q58705",
+  "summary": "The Arabian Sea is a region of sea in the northern Indian Ocean, bounded on the west by the Arabian Peninsula, Gulf of Aden and Guardafui Channel, on the northwest by Gulf of Oman and Iran, on the north by Pakistan, on the east by India, and on the southeast by the Laccadive Sea and the Maldives, and on the southwest by Somalia. Its total area is 3,862,000 km2 (1,491,000 sq mi) and its maximum depth is 5,395 meters.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Arabian_Sea"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Arabian_Sea_-_n22e70.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Arabian_Sea_-_n22e70.jpg",
+    "credit": "Arjun Sinh Jadeja",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Arabian Sea - n22e70.jpg",
+    "fetched_at": "2026-07-08T15:35:05.767637+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The Gulf of Aden in the west connects the Arabian Sea to the Red Sea through the strait of Bab-el-Mandeb, and the Gulf of Oman is in the northwest, connecting it to the Persian Gulf.",
+      "source_url": "https://en.wikipedia.org/wiki/Arabian_Sea",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It is dominated in its south and center by the Arabian Basin, an expansive, relatively flat stretch of seabed reaching depths exceeding 4500 meters in some areas.",
+      "source_url": "https://en.wikipedia.org/wiki/Arabian_Sea",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Most islands and seamounts within the sea are located along its coastal fringes, close to major landmasses.",
+      "source_url": "https://en.wikipedia.org/wiki/Arabian_Sea",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_08_asia_001"
+  ],
+  "created_at": "2026-07-08T15:35:05.254609+00:00",
+  "last_updated": "2026-07-08T15:35:20.247618+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Arabian_Sea"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Arabian_Sea"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Arabian_Sea"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q58705 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q58705"
+    }
+  ]
+}

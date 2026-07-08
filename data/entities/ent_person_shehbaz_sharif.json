@@ -1,0 +1,95 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_shehbaz_sharif",
+  "type": "person",
+  "canonical_name": "Shehbaz Sharif",
+  "aliases": [
+    "Prime Minister Shehbaz Sharif"
+  ],
+  "wikidata_qid": "Q2096387",
+  "summary": "Mian Muhammad Shehbaz Sharif is a Pakistani politician and businessman who has served as the prime minister of Pakistan since 2024, having previously been in the role between 2022 and 2023. He has also served as the president of the Pakistan Muslim League (N) and chief minister of Punjab three times, spanning over 12 years, making him the longest-serving person in the role.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Shehbaz_Sharif"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Shehbaz_Sharif_in_2024.jpg/960px-Shehbaz_Sharif_in_2024.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Shehbaz_Sharif_in_2024.jpg",
+    "credit": "Press Service of the President of the Republic of Azerbaijan",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Shehbaz Sharif in 2024.jpg",
+    "fetched_at": "2026-07-08T15:35:11.864789+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Chief Minister of Punjab",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q2096387",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Chief Minister of Punjab",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q2096387",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Chief Minister of Punjab",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q2096387",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President of the Pakistan Muslim League (N)",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q2096387",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President of the Pakistan Muslim League (N)",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q2096387",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Member of the 15th National Assembly of Pakistan",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q2096387",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_08_asia_001"
+  ],
+  "created_at": "2026-07-08T15:35:05.768115+00:00",
+  "last_updated": "2026-07-08T15:35:20.247813+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q2096387 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q2096387"
+    }
+  ]
+}

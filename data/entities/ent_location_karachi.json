@@ -1,0 +1,93 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_karachi",
+  "type": "location",
+  "canonical_name": "Karachi",
+  "aliases": [],
+  "wikidata_qid": "Q8660",
+  "summary": "Karachi is the capital city of the province of Sindh, Pakistan. It is the largest city in Pakistan and 12th largest in the world, with a population of over 20 million.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Karachi"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Karachi_from_above.jpg/960px-Karachi_from_above.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Karachi_from_above.jpg",
+    "credit": "Bilalhassan88",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Karachi from above.jpg",
+    "fetched_at": "2026-07-08T15:35:12.927672+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is situated at the southern tip of the country along the Arabian Sea coast and formerly served as the country's capital from 1947 to 1959.",
+      "source_url": "https://en.wikipedia.org/wiki/Karachi",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Ranked as a beta-global city, it is Pakistan's premier industrial and financial centre, with an estimated GDP of over $200 billion (PPP) as of 2021.",
+      "source_url": "https://en.wikipedia.org/wiki/Karachi",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Karachi is a major metropolitan area and is considered Pakistan's most cosmopolitan city, and among the country's most linguistically, ethnically, and religiously diverse regions, as well as one of the country's most progressive and socially liberal cities.",
+      "source_url": "https://en.wikipedia.org/wiki/Karachi",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_08_asia_001"
+  ],
+  "created_at": "2026-07-08T15:35:12.465348+00:00",
+  "last_updated": "2026-07-08T15:35:20.248121+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Karachi"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Karachi"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Karachi"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q8660 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q8660"
+    }
+  ]
+}

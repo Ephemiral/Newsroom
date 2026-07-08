@@ -1,0 +1,52 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_pakistan_civil_aviation_authority",
+  "type": "organization",
+  "canonical_name": "Pakistan Civil Aviation Authority",
+  "aliases": [],
+  "wikidata_qid": "Q5124424",
+  "summary": "The Pakistan Civil Aviation Authority was an autonomous regulatory body established on 7 December 1982 under the Pakistan Civil Aviation Authority Ordinance 1982. It operated under the administrative control of the Secretary to the Government of Pakistan for Aviation and was a member of the International Civil Aviation Organization.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Pakistan_Civil_Aviation_Authority"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The authority oversaw and regulated all aspects of civil aviation in Pakistan, with its head office situated at Terminal-1 of Jinnah International Airport in Karachi.",
+      "source_url": "https://en.wikipedia.org/wiki/Pakistan_Civil_Aviation_Authority",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_08_asia_001"
+  ],
+  "created_at": "2026-07-08T15:35:11.946055+00:00",
+  "last_updated": "2026-07-08T15:35:20.247986+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Pakistan_Civil_Aviation_Authority"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q5124424 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q5124424"
+    }
+  ]
+}

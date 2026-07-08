@@ -1,0 +1,95 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_sharjah",
+  "type": "location",
+  "canonical_name": "Sharjah",
+  "aliases": [
+    "Sharjah, UAE"
+  ],
+  "wikidata_qid": "Q289693",
+  "summary": "Sharjah is a major port city and the third-most populous city in the United Arab Emirates, after Dubai and Abu Dhabi. It is the capital of the Emirate of Sharjah and forms part of the Dubai-Sharjah-Ajman metropolitan area.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Sharjah"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Sharjah_city_skyline_in_2015.jpg/960px-Sharjah_city_skyline_in_2015.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Sharjah_city_skyline_in_2015.jpg",
+    "credit": "Mueed Ahmed",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Sharjah city skyline in 2015.jpg",
+    "fetched_at": "2026-07-08T15:35:13.329279+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The emirate shares legal, political, military and economic functions with the other emirates of the UAE within a federal framework.",
+      "source_url": "https://en.wikipedia.org/wiki/Sharjah",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Each emirate has jurisdiction over some functions such as civil law enforcement and provision and upkeep of local facilities.",
+      "source_url": "https://en.wikipedia.org/wiki/Sharjah",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Sharjah has been ruled by the Al Qasimi dynasty since the 18th century.",
+      "source_url": "https://en.wikipedia.org/wiki/Sharjah",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_08_asia_001"
+  ],
+  "created_at": "2026-07-08T15:35:12.928329+00:00",
+  "last_updated": "2026-07-08T15:35:20.248291+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Sharjah"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Sharjah"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Sharjah"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q289693 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q289693"
+    }
+  ]
+}
