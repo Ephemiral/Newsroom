@@ -1,0 +1,96 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_antonio_guterres",
+  "type": "person",
+  "canonical_name": "António Guterres",
+  "aliases": [
+    "UN Secretary General",
+    "Guterres"
+  ],
+  "wikidata_qid": "Q311440",
+  "summary": "António Manuel de Oliveira Guterres is a Portuguese and East Timorese politician and diplomat who, since 2017, has served as the ninth Secretary-General of the United Nations. A member of the Portuguese Socialist Party, Guterres served as the prime minister of Portugal from 1995 to 2002.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ant%C3%B3nio_Guterres"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Ant%C3%B3nio_Guterres_United_Nations_Secretary-General_in_2024_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ant%C3%B3nio_Guterres_United_Nations_Secretary-General_in_2024_(cropped).jpg",
+    "credit": "U.S. Department of State from United States",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:António Guterres United Nations Secretary-General in 2024 (cropped).jpg",
+    "fetched_at": "2026-07-08T18:28:27.903265+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "United Nations High Commissioner for Refugees",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q311440",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Prime Minister of Portugal",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q311440",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President of the Socialist International",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q311440",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "General Secretary of the Socialist Party (Portugal)",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q311440",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President-in-Office of the European Council",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q311440",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "United Nations Secretary-General",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q311440",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_04_017",
+  "appears_in_events": [
+    "evt_2026_06_04_017"
+  ],
+  "created_at": "2026-07-08T18:28:23.831681+00:00",
+  "last_updated": "2026-07-08T18:28:37.097087+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_04_017",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q311440 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q311440"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_oman",
+  "type": "organization",
+  "canonical_name": "Oman",
+  "aliases": [],
+  "wikidata_qid": "Q842",
+  "summary": "Oman, officially the Sultanate of Oman, is a country in the southeastern Arabian Peninsula in West Asia. It shares land borders with Saudi Arabia, the United Arab Emirates, and Yemen.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Oman"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Nakhal_Fort_Sultanate_of_Oman_001.jpg/960px-Nakhal_Fort_Sultanate_of_Oman_001.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Nakhal_Fort_Sultanate_of_Oman_001.jpg",
+    "credit": "Sakralamn",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Nakhal Fort Sultanate of Oman 001.jpg",
+    "fetched_at": "2026-07-08T18:32:24.273628+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q842"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q842"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Oman's coastline faces the Arabian Sea to the southeast and the Gulf of Oman on the northeast.",
+      "source_url": "https://en.wikipedia.org/wiki/Oman",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The exclaves of Madha and Musandam are surrounded by the United Arab Emirates on their land borders, while Musandam's coastal boundaries are formed by the Strait of Hormuz and the Gulf of Oman.",
+      "source_url": "https://en.wikipedia.org/wiki/Oman",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It has a population of approximately 5.46 million and an area of 315,331 km2.",
+      "source_url": "https://en.wikipedia.org/wiki/Oman",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_01_175",
+  "appears_in_events": [
+    "evt_2026_07_01_175"
+  ],
+  "created_at": "2026-07-08T18:32:18.864776+00:00",
+  "last_updated": "2026-07-08T18:32:29.639518+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_01_175",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Oman"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Oman"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Oman"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q842 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q842"
+    }
+  ]
+}

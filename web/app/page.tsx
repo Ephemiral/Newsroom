@@ -56,10 +56,10 @@ export default async function Home({ searchParams }: HomeProps) {
           display: 'flex', gap: 22, overflowX: 'auto',
           justifyContent: 'space-between',
         }}>
-          {[['', 'All'], ...Object.entries(BEAT_LABELS), ['about', 'About']].map(([key, label]) => {
-            const isAbout = key === 'about';
-            const active = !isAbout && ((key === '' && !activeBeat) || key === activeBeat);
-            const href = isAbout ? '/about' : key ? `/?beat=${key}` : '/';
+          {[['', 'All'], ...Object.entries(BEAT_LABELS), ['threads', 'Threads'], ['about', 'About']].map(([key, label]) => {
+            const isRoute = key === 'about' || key === 'threads';
+            const active = !isRoute && ((key === '' && !activeBeat) || key === activeBeat);
+            const href = isRoute ? `/${key}` : key ? `/?beat=${key}` : '/';
             return (
               <Link
                 key={key || 'all'}

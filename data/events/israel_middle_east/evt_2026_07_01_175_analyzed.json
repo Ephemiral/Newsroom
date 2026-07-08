@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_07_01_175",
     "beat": "israel_middle_east",
@@ -22,7 +22,136 @@
       "file_title": "File:USNS PFC Dewayne T. Williams (T-AK-3009) underway in the Strait of Hormuz on 17 April 2020 (200417-N-PI330-0057).JPG",
       "query": "cargo ship Strait of Hormuz",
       "fetched_at": "2026-07-06T09:11:26.703599+00:00"
-    }
+    },
+    "entities": [
+      {
+        "entity_id": "ent_location_strait_of_hormuz",
+        "surfaces": [
+          "Strait of Hormuz"
+        ],
+        "relevance_to_event": "The disputed waterway at the center of the conflict; Iran blockaded it on 28 February 2026, disrupting global oil and gas supplies, and now disputes control and fee-collection authority with the US over passage through its waters.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_004",
+            "clm_005",
+            "clm_007",
+            "clm_009",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "Iran",
+          "Tehran"
+        ],
+        "relevance_to_event": "The primary actor blocking the strait, demanding exclusive control over a northern shipping corridor, attacking vessels using alternative southern routes, and negotiating a framework agreement with the US on nuclear issues and strait administration.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_united_states",
+        "surfaces": [
+          "US",
+          "United States",
+          "USA"
+        ],
+        "relevance_to_event": "Opposed Iran's blockade and fee collection plans, sponsored an alternative southern shipping route, conducted military strikes against Iranian targets in response to attacks on shipping, and engaged in diplomatic negotiations under the June 2026 framework agreement.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_004",
+            "clm_006",
+            "clm_007",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_oman",
+        "surfaces": [
+          "Oman"
+        ],
+        "relevance_to_event": "The central mediator hosting the Joint Hormuz Committee with Iran, developing a legal framework for strait management based on international law, and proposing a system of service fees rather than tolls to ensure littoral states receive income.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006",
+            "clm_007",
+            "clm_008",
+            "clm_009",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "Donald Trump",
+          "Trump",
+          "US President Donald Trump"
+        ],
+        "relevance_to_event": "US President who issued escalatory warnings that Iran would 'no longer exist' if forced to restart the war, claimed Iran requested a meeting in Doha, and represents the US position opposing Iranian control of the strait.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_023",
+            "clm_024"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_kazem_gharibabadi",
+        "surfaces": [
+          "Kazem Gharibabadi"
+        ],
+        "relevance_to_event": "Iran's deputy foreign minister who led Iran's first Joint Hormuz Committee meeting with Oman and disputed reports of planned technical talks in Doha, stating conditions and agreement on venue must first be met.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_025"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_emmanuel_macron",
+        "surfaces": [
+          "Emmanuel Macron",
+          "French President Emmanuel Macron"
+        ],
+        "relevance_to_event": "French President who met with Oman's Sultan, representing France's readiness to provide naval enforcement of any agreement on freedom of navigation through the Strait of Hormuz alongside the UK.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_026"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "thread_id": "thr_usiran_strait_of_hormuz_negotiations_and_shipping_dispute"
   },
   "sources": [
     {

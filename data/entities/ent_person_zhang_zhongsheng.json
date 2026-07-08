@@ -1,0 +1,68 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_zhang_zhongsheng",
+  "type": "person",
+  "canonical_name": "Zhang Zhongsheng",
+  "aliases": [],
+  "wikidata_qid": "Q24831561",
+  "summary": "Zhang Zhongsheng is a former Chinese politician who spent his entire career in his home-province Shanxi. He was investigated by China's top anti-graft agency in May 2014.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Zhang_Zhongsheng"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Previously he served as vice mayor of Lüliang, and before that, magistrate and then party secretary of Zhongyang County, the coal-rich county where he worked for over 34 years.",
+      "source_url": "https://en.wikipedia.org/wiki/Zhang_Zhongsheng",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Zhang was sacked for graft in May 2014 and was sentenced to death with a two-year reprieve for accepting bribes worth 1.04 billion yuan.",
+      "source_url": "https://en.wikipedia.org/wiki/Zhang_Zhongsheng",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_07_asia_002"
+  ],
+  "created_at": "2026-07-08T18:24:07.778163+00:00",
+  "last_updated": "2026-07-08T18:24:21.186585+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Zhongsheng"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Zhongsheng"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q24831561 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q24831561"
+    }
+  ]
+}

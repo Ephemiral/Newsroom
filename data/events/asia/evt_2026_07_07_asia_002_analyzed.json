@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_07_07_asia_002",
     "beat": "asia",
@@ -8,7 +8,129 @@
     "date": "2026-07-07",
     "generated_at": "2026-07-07T05:08:28.626623+00:00",
     "image_attempted_at": "2026-07-07T05:08:59.924562+00:00",
-    "image": null
+    "image": null,
+    "entities": [
+      {
+        "entity_id": "ent_person_yang_youlin",
+        "surfaces": [
+          "Yang Youlin"
+        ],
+        "relevance_to_event": "Former Nanjing official who is the subject of this report; sentenced to death on July 7, 2026, for accepting over 2.2 billion yuan in bribes and related corruption offenses spanning 1993-2023.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_xi_jinping",
+        "surfaces": [
+          "Xi Jinping",
+          "President Xi Jinping"
+        ],
+        "relevance_to_event": "President whose anti-corruption campaign is the broader context in which Yang Youlin's prosecution occurs; the report notes the campaign has investigated millions of officials across China's bureaucracy since his coming to power.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_changzhou_intermediate_people_s_court",
+        "surfaces": [
+          "Changzhou Intermediate People's Court"
+        ],
+        "relevance_to_event": "The court that issued the death sentence against Yang Youlin on July 7, 2026, and determined that his assistance to authorities was insufficient to warrant leniency despite the grave nature of his offenses.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_nanjing_economic_and_technological_development_zone",
+        "surfaces": [
+          "Nanjing Economic and Technological Development Zone",
+          "Nanjing's economic development zone"
+        ],
+        "relevance_to_event": "The government organization where Yang Youlin served as executive deputy director, a position he exploited to accept bribes in exchange for helping private entities secure contracts and business opportunities.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_lai_xiaomin",
+        "surfaces": [
+          "Lai Xiaomin"
+        ],
+        "relevance_to_event": "Former finance official cited as a high-profile precedent; executed in 2021 for accepting approximately 1.8 billion yuan in bribes, demonstrating that death sentences for corruption, though rare, do occur in China.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_li_jianping",
+        "surfaces": [
+          "Li Jianping"
+        ],
+        "relevance_to_event": "Former Inner Mongolia official cited as a recent precedent; executed in 2024 for embezzlement and bribery totaling over 3 billion yuan, illustrating the escalating severity of corruption cases receiving capital sentences.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_zhang_zhongsheng",
+        "surfaces": [
+          "Zhang Zhongsheng"
+        ],
+        "relevance_to_event": "Shanxi province official whose 2018 death sentence for accepting over 1 billion yuan in bribes was modified on appeal to suspended death sentence and life imprisonment in 2021, establishing a relevant precedent for how Yang Youlin's sentence may be subject to change.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_jiangsu_province",
+        "surfaces": [
+          "Jiangsu province"
+        ],
+        "relevance_to_event": "The province where the Changzhou Intermediate People's Court is located and where Yang Youlin held various government positions from 1993 to 2023.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

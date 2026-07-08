@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_07_01_026",
     "beat": "israel_middle_east",
@@ -8,7 +8,150 @@
     "date": "2026-06-30",
     "generated_at": "2026-07-01T19:39:36.308939+00:00",
     "image_attempted_at": "2026-07-06T07:57:02.613026+00:00",
-    "image": null
+    "image": null,
+    "entities": [
+      {
+        "entity_id": "ent_person_steve_witkoff",
+        "surfaces": [
+          "Steve Witkoff"
+        ],
+        "relevance_to_event": "Lead US envoy who traveled to Doha on Tuesday to conduct talks with Qatari mediators on US-Iran negotiations following the four-day strike exchange.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_025"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_jared_kushner",
+        "surfaces": [
+          "Jared Kushner"
+        ],
+        "relevance_to_event": "Senior Trump administration adviser who accompanied Witkoff to Doha for talks with Qatari officials on regional diplomacy and US-Iran relations.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_026"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "Trump",
+          "President Trump"
+        ],
+        "relevance_to_event": "US President who claimed Iran requested a meeting scheduled for Tuesday in Doha, a claim denied by Iranian and Qatari officials; also stated the conflict was 'almost won militarily' and framed US objectives around Iran's denuclearization.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_021",
+            "clm_024",
+            "clm_025",
+            "clm_026"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_kazem_gharibabadi",
+        "surfaces": [
+          "Kazem Gharibabadi"
+        ],
+        "relevance_to_event": "Iran's deputy foreign minister and lead technical negotiator who denied that direct US-Iran meetings were scheduled while confirming Iran would send delegations to Qatar for consultations on the framework deal.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_strait_of_hormuz",
+        "surfaces": [
+          "Strait of Hormuz"
+        ],
+        "relevance_to_event": "Strategic maritime chokepoint carrying 20% of global oil and gas shipments; the central dispute in the four-day strike exchange, with Iran asserting control over the waterway under its interpretation of the MoU.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_013",
+            "clm_014",
+            "clm_015",
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_qatar",
+        "surfaces": [
+          "Qatar",
+          "Qatar's foreign ministry"
+        ],
+        "relevance_to_event": "Primary mediator brokering the US-Iran negotiations; foreign ministry denied that direct US-Iran meetings were scheduled and confirmed it would host separate talks with both parties on implementing the framework deal.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_007",
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "Iran"
+        ],
+        "relevance_to_event": "Party to the US-Iran MoU who denied scheduled direct meetings with the US, claimed frozen asset releases, and asserted control over the Strait of Hormuz while sending delegations to consult with Qatar on the deal's implementation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_us_iran_memorandum_of_understanding",
+        "surfaces": [
+          "memorandum of understanding",
+          "MoU"
+        ],
+        "relevance_to_event": "Framework agreement signed approximately June 17 committing both sides to halt military operations and reopen the Strait of Hormuz, with 60 days to negotiate a final deal on Iran's nuclear program, US sanctions, and a permanent truce; the document at the center of all current negotiations and the dispute triggering the four-day strike exchange.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_010",
+            "clm_011",
+            "clm_012",
+            "clm_016",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

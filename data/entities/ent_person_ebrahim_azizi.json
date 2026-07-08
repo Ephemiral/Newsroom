@@ -1,0 +1,53 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_ebrahim_azizi",
+  "type": "person",
+  "canonical_name": "Ebrahim Azizi",
+  "aliases": [],
+  "wikidata_qid": "Q5331967",
+  "summary": "Ebrahim Azizi is an Iranian politician, who currently serves as a member of the Iranian Parliament representing Tehran, Rey, Shemiranat and Eslamshahr since 2024.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ebrahim_Azizi"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Vice_President_Ebrahim_Azizi_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Vice_President_Ebrahim_Azizi_(cropped).jpg",
+    "credit": "Rouzbeh Jadidoleslam",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Vice President Ebrahim Azizi (cropped).jpg",
+    "fetched_at": "2026-07-08T18:30:23.683522+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Member of the Islamic Consultative Assembly",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q5331967",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_28_040",
+  "appears_in_events": [
+    "evt_2026_06_28_040"
+  ],
+  "created_at": "2026-07-08T18:30:18.672644+00:00",
+  "last_updated": "2026-07-08T18:30:36.556060+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_28_040",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q5331967 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q5331967"
+    }
+  ]
+}

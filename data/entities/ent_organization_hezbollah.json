@@ -1,0 +1,56 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_hezbollah",
+  "type": "organization",
+  "canonical_name": "Hezbollah",
+  "aliases": [
+    "Iranian-backed militant group"
+  ],
+  "wikidata_qid": "Q41053",
+  "summary": "Hezbollah is a Lebanese Shia Islamist political party with an active paramilitary wing that has been banned by the Lebanese government since March 2026, amid Israel's war on Lebanon. Hezbollah's paramilitary wing is the Jihad Council, and its political wing is the Loyalty to the Resistance Bloc party in the Lebanese Parliament.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Hezbollah"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Its armed strength was assessed to be equivalent to that of a medium-sized army in 2016.",
+      "source_url": "https://en.wikipedia.org/wiki/Hezbollah",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_05_31_001",
+  "appears_in_events": [
+    "evt_2026_05_31_001",
+    "evt_2026_06_01_065",
+    "evt_2026_06_01_117"
+  ],
+  "created_at": "2026-07-08T18:25:35.570573+00:00",
+  "last_updated": "2026-07-08T18:27:03.800190+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_05_31_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Hezbollah"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q41053 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q41053"
+    }
+  ]
+}

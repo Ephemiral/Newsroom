@@ -1,0 +1,142 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_winston_peters",
+  "type": "person",
+  "canonical_name": "Winston Peters",
+  "aliases": [],
+  "wikidata_qid": "Q1396178",
+  "summary": "Winston Raymond Peters is a New Zealand politician. He has led the political party New Zealand First since he founded it in 1993, and since November 2023 has served as the 25th minister of foreign affairs.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Winston_Peters"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Winston_Peters%2C_2019.jpg/960px-Winston_Peters%2C_2019.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Winston_Peters,_2019.jpg",
+    "credit": "US Embassy",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Winston Peters, 2019.jpg",
+    "fetched_at": "2026-07-08T18:21:18.110550+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Member of the New Zealand Parliament",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1396178",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Deputy Prime Minister of New Zealand",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1396178",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Foreign Affairs",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1396178",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister for Māori Development",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1396178",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Member of the Privy Council of the United Kingdom",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1396178",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Racing",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1396178",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "A long-serving member of Parliament (MP), Peters was re-elected for a fifteenth time at the 2023 general election, having previously been an MP from 1979 to 1981, 1984 to 2008 and 2011 to 2020.",
+      "source_url": "https://en.wikipedia.org/wiki/Winston_Peters",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "He served as the 13th deputy prime minister of New Zealand from November 2023 to May 2025.",
+      "source_url": "https://en.wikipedia.org/wiki/Winston_Peters",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "This was his third time in the role, previously serving from 1996 to 1998 and 2017 to 2020.",
+      "source_url": "https://en.wikipedia.org/wiki/Winston_Peters",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_06_asia_001"
+  ],
+  "created_at": "2026-07-08T18:21:14.475177+00:00",
+  "last_updated": "2026-07-08T18:21:34.346619+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Winston_Peters"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Winston_Peters"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Winston_Peters"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q1396178 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1396178"
+    }
+  ]
+}

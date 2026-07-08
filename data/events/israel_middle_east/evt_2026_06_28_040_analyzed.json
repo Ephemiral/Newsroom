@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_06_28_040",
     "beat": "israel_middle_east",
@@ -22,7 +22,151 @@
       "file_title": "openverse:78ec5545-c600-4fa2-ba0b-1869d96d0653|Oliver Hazzard Perry Class Frigate - from an 'Island AIr' De Havilland Canada Dash 8",
       "query": "Strait of Hormuz tanker ship",
       "fetched_at": "2026-07-06T09:11:00.991779+00:00"
-    }
+    },
+    "entities": [
+      {
+        "entity_id": "ent_organization_united_states",
+        "surfaces": [
+          "US",
+          "United States",
+          "US Central Command",
+          "CENTCOM"
+        ],
+        "relevance_to_event": "Central actor conducting retaliatory military strikes against Iranian targets in response to attacks on commercial shipping and Iranian strikes on US military positions in Kuwait and Bahrain.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "Iran",
+          "Iranian",
+          "Islamic Revolutionary Guard Corps",
+          "IRGC"
+        ],
+        "relevance_to_event": "Central actor conducting drone and missile attacks on commercial vessels and US military installations, claiming actions constitute 'ceasefire management' rather than violations of the June 17 MOU.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_strait_of_hormuz",
+        "surfaces": [
+          "Strait of Hormuz"
+        ],
+        "relevance_to_event": "Geographic location where the triggering incident occurred (M/V Ever Lovely strike) and focal point of the ceasefire dispute over shipping routes, safe passage guarantees, and freedom of navigation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_005",
+            "clm_006",
+            "clm_014",
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "President Trump",
+          "Trump"
+        ],
+        "relevance_to_event": "US President who publicly characterized Iran's drone attacks, ordered retaliatory strikes, and threatened existential consequences if the conflict resumes.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_ebrahim_azizi",
+        "surfaces": [
+          "Ebrahim Azizi"
+        ],
+        "relevance_to_event": "Iranian parliament official who directly reframed Iran's attack on the cargo ship as 'ceasefire management' and accused the US of violating the agreement during negotiations.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_jd_vance",
+        "surfaces": [
+          "Vice President JD Vance",
+          "JD Vance"
+        ],
+        "relevance_to_event": "Vice President who publicly stated the US honored the ceasefire and warned Iran that 'violence will be met with violence,' reinforcing US position on the MOU dispute.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_m_v_ever_lovely",
+        "surfaces": [
+          "M/V Ever Lovely",
+          "Ever Lovely"
+        ],
+        "relevance_to_event": "Singapore-flagged cargo ship whose strike on June 26 triggered the escalating cycle of tit-for-tat strikes and became the central incident disputed under ceasefire terms.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_kuwait",
+        "surfaces": [
+          "Kuwait"
+        ],
+        "relevance_to_event": "US ally whose military air defenses responded to Iranian ballistic missile and drone attacks, with reports of intercepting two ballistic missiles.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

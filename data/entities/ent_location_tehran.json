@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_tehran",
+  "type": "location",
+  "canonical_name": "Tehran",
+  "aliases": [],
+  "wikidata_qid": "Q3616",
+  "summary": "Tehran is the capital and largest city of Iran. It is also the capital of Tehran province and the administrative center for Tehran County and its Central District.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Tehran"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/North_of_tehran.jpg/960px-North_of_tehran.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:North_of_tehran.jpg",
+    "credit": "Amir Pashaei",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:North of tehran.jpg",
+    "fetched_at": "2026-07-08T18:32:37.902957+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "With a population of around 9 million in the city, and 16.8 million in the metropolitan area, Tehran is the most populous city in Iran and West Asia, the largest metropolitan area in the Middle East and the 24th-most-populous metropolitan area in the world.",
+      "source_url": "https://en.wikipedia.org/wiki/Tehran",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Greater Tehran includes several municipalities, including Eslamshahr, Shahriar, Qods, Malard, Golestan, Varamin, Pakdasht, Qarchak, Nasimshahr, Parand, Pardis, Andisheh, Fardis, Tajrish, and Rey.",
+      "source_url": "https://en.wikipedia.org/wiki/Tehran",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_06_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-08T18:32:34.318824+00:00",
+  "last_updated": "2026-07-08T18:32:46.525590+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Tehran"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Tehran"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q3616 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q3616"
+    }
+  ]
+}

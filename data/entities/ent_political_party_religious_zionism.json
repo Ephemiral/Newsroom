@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_political_party_religious_zionism",
+  "type": "political_party",
+  "canonical_name": "Religious Zionism",
+  "aliases": [
+    "Religious Zionism party"
+  ],
+  "wikidata_qid": "Q2665610",
+  "summary": "The Religious Zionist Party, known as Tkuma until 2021 and officially known as National Union–Tkuma, is a far-right, ultra-nationalist, Jewish supremacist, and religious Zionist political party in Israel. In all the elections since its founding in 1998, the party has joined other factions and competed as part of a united list.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Religious_Zionist_Party"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "leads",
+      "entity_id": "ent_person_bezalel_smotrich",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q2665610"
+    }
+  ],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_01_118",
+  "appears_in_events": [
+    "evt_2026_07_01_118"
+  ],
+  "created_at": "2026-07-08T18:32:00.320634+00:00",
+  "last_updated": "2026-07-08T18:32:12.328298+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_01_118",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q2665610 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q2665610"
+    }
+  ]
+}

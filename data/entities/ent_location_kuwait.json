@@ -1,0 +1,98 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_kuwait",
+  "type": "location",
+  "canonical_name": "Kuwait",
+  "aliases": [],
+  "wikidata_qid": "Q817",
+  "summary": "Kuwait, officially the State of Kuwait, is a country in West Asia. With a coastline of approximately 500 km (311 mi), it is situated at the head of the Persian Gulf in the northeastern edge of the Arabian Peninsula, bordering Iraq to the north and Saudi Arabia to the south.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Kuwait"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q817"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q817"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Kuwait is geographically the closest Gulf country to mainland Iran.",
+      "source_url": "https://en.wikipedia.org/wiki/Kuwait",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The country is a small city-state; most of the population reside in the urban agglomeration of Kuwait City, the capital and largest city.",
+      "source_url": "https://en.wikipedia.org/wiki/Kuwait",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "As of 2024, Kuwait has a population of 4.82 million, of which 1.53 million are Kuwaiti citizens while the remaining 3.29 million are foreign nationals from over 100 countries.",
+      "source_url": "https://en.wikipedia.org/wiki/Kuwait",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_04_066",
+  "appears_in_events": [
+    "evt_2026_06_04_066",
+    "evt_2026_06_28_040"
+  ],
+  "created_at": "2026-07-08T18:29:43.855221+00:00",
+  "last_updated": "2026-07-08T18:30:36.557153+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_04_066",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Kuwait"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Kuwait"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Kuwait"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q817 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q817"
+    }
+  ]
+}

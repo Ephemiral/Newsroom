@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_06_04_017",
     "beat": "israel_middle_east",
@@ -22,7 +22,151 @@
       "file_title": "File:Headquarters of the United Nations, New York City, 20231001 1103 1006.jpg",
       "query": "United Nations headquarters building",
       "fetched_at": "2026-07-06T07:55:29.442221+00:00"
-    }
+    },
+    "entities": [
+      {
+        "entity_id": "ent_organization_united_nations",
+        "surfaces": [
+          "UN",
+          "United Nations"
+        ],
+        "relevance_to_event": "The UN documented and published the Conflict-Related Sexual Violence blacklist report that added Israel and Russia for the first time, citing 31 verified cases against Israeli forces and 310 cases against Russian forces.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_007",
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israel",
+        "surfaces": [
+          "Israel",
+          "Israeli"
+        ],
+        "relevance_to_event": "Israel was added to the UN's Conflict-Related Sexual Violence blacklist for the first time, with 31 verified cases of sexual abuse by Israeli military and security forces documented between 2023-2025.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_005",
+            "clm_006",
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_russia",
+        "surfaces": [
+          "Russia",
+          "Russian"
+        ],
+        "relevance_to_event": "Russia was added to the UN's Conflict-Related Sexual Violence blacklist for the first time, with 310 verified cases of sexual violence by Russian armed and security forces in Ukraine and Russian-occupied territories.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_020",
+            "clm_021",
+            "clm_022",
+            "clm_023",
+            "clm_024"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_antonio_guterres",
+        "surfaces": [
+          "António Guterres",
+          "UN Secretary General",
+          "Guterres"
+        ],
+        "relevance_to_event": "As UN Secretary General, Guterres's office released the report that blacklisted Israel and Russia; Israel's government subsequently cut diplomatic ties with him in response, and Israeli officials accused him of spreading antisemitic lies.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_benjamin_netanyahu",
+        "surfaces": [
+          "Benjamin Netanyahu",
+          "Netanyahu",
+          "Prime Minister"
+        ],
+        "relevance_to_event": "As Israeli Prime Minister, Netanyahu publicly defended alleged perpetrators of sexual abuse at Sde Teiman detention facility, describing them as heroic and calling prosecution attempts criminal; he also announced a defamation lawsuit against the New York Times over sexual abuse survivor testimonies.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_danny_danon",
+        "surfaces": [
+          "Danny Danon"
+        ],
+        "relevance_to_event": "As Israel's ambassador to the UN, Danon announced Israel's decision to cut ties with UN Secretary General Guterres in response to the blacklisting and accused Guterres of spreading antisemitic lies.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_hamas",
+        "surfaces": [
+          "Hamas"
+        ],
+        "relevance_to_event": "Hamas was previously added to the UN's Conflict-Related Sexual Violence blacklist for the October 7 attacks and abuse of hostages in Gaza; the report notes Hamas has not recognized cases of sexual violence or held perpetrators responsible.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_026",
+            "clm_027",
+            "clm_034"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_ukraine",
+        "surfaces": [
+          "Ukraine",
+          "Ukrainian"
+        ],
+        "relevance_to_event": "Ukraine's foreign minister welcomed the UN report on Russian sexual violence as 'a crucial step on the painful road to truth and accountability'; the report also documents 31 verified incidents of conflict-related sexual violence by Ukrainian forces since 2022.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_025",
+            "clm_032"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

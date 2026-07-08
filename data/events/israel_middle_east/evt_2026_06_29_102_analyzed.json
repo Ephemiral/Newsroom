@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_06_29_102",
     "beat": "israel_middle_east",
@@ -22,7 +22,135 @@
       "file_title": "File:0005 FL69382357 01.jpg",
       "query": "Knesset building interior",
       "fetched_at": "2026-07-06T07:56:53.844891+00:00"
-    }
+    },
+    "entities": [
+      {
+        "entity_id": "ent_person_gideon_sa_ar",
+        "surfaces": [
+          "Gideon Sa'ar",
+          "Foreign Minister Sa'ar"
+        ],
+        "relevance_to_event": "Foreign Minister who proposed the government resolution recognizing the Armenian Genocide and publicly characterized it as a moral and historical duty involving approximately 1.5 million deaths.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_004"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israel",
+        "surfaces": [
+          "Israeli government",
+          "Israel's Government"
+        ],
+        "relevance_to_event": "The entity that unanimously voted on June 29, 2026, to approve the resolution recognizing the Armenian Genocide, marking a significant shift from decades of diplomatic restraint on the issue.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_005"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israeli_knesset",
+        "surfaces": [
+          "Knesset"
+        ],
+        "relevance_to_event": "The Israeli parliament whose ratification is required for the government's Armenian Genocide recognition resolution to take full legal effect.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_turkey",
+        "surfaces": [
+          "Turkey"
+        ],
+        "relevance_to_event": "The primary subject of the recognition decision; Turkey denies the Armenian Genocide characterization and has led international resistance to its formal recognition, and condemned Israel's vote.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_007",
+            "clm_008",
+            "clm_009",
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_azerbaijan",
+        "surfaces": [
+          "Azerbaijan"
+        ],
+        "relevance_to_event": "Turkey's close ally that condemned Israel's recognition of the Armenian Genocide as an 'unacceptable distortion of history,' reflecting regional sensitivities around the issue.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_ottoman_empire",
+        "surfaces": [
+          "Ottoman Empire"
+        ],
+        "relevance_to_event": "The historical entity responsible for the systematic mass killing and deportation of Armenian Christians, primarily between 1915 and 1916, which forms the subject matter of the genocide recognition.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_other_armenian_genocide",
+        "surfaces": [
+          "Armenian Genocide"
+        ],
+        "relevance_to_event": "The central subject of Israel's government vote—the mass killings, deportations, and imprisonment of Armenians in the Ottoman Empire's final years, now formally recognized by Israel's government.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_004",
+            "clm_006",
+            "clm_008",
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_gaza_strip",
+        "surfaces": [
+          "Gaza"
+        ],
+        "relevance_to_event": "The location of the war that began in October 2023, which deteriorated Israel-Turkey relations and provided the diplomatic backdrop to the timing of the Armenian Genocide recognition vote.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.5",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_07_08_israel_middle_east_001",
     "beat": "israel_middle_east",
@@ -160,7 +160,8 @@
       "file_title": "File:Ali Khamenei Nowruz message official portrait 1397 02 (cropped).jpg",
       "query": "Ali Khamenei portrait",
       "fetched_at": "2026-07-08T15:06:07.142765+00:00"
-    }
+    },
+    "thread_id": "thr_death_and_funeral_of_iranian_supreme_leader_ali_khamenei"
   },
   "sources": [
     {

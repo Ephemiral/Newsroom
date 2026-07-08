@@ -1,9 +1,10 @@
 import fs from 'fs';
 import path from 'path';
-import { AnalyzedEvent, EntityRecord } from './types';
+import { AnalyzedEvent, EntityRecord, Thread } from './types';
 
 const DATA_DIR = path.join(process.cwd(), '..', 'data', 'events');
 const ENTITIES_DIR = path.join(process.cwd(), '..', 'data', 'entities');
+const THREADS_DIR = path.join(process.cwd(), '..', 'data', 'threads');
 
 /** One record from the persistent entity store, or null if absent/unreadable. */
 export function getEntity(entityId: string): EntityRecord | null {
@@ -25,6 +26,39 @@ export function getEntityMap(entityIds: string[]): Record<string, EntityRecord> 
     if (rec) map[id] = rec;
   }
   return map;
+}
+
+/** One thread (developing-story arc), or null if absent/unreadable. */
+export function getThread(threadId: string): Thread | null {
+  if (!/^thr_[a-z0-9_]+$/.test(threadId)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(path.join(THREADS_DIR, `${threadId}.json`), 'utf-8')) as Thread;
+  } catch {
+    return null;
+  }
+}
+
+/** All threads, most recently active first (developing above dormant). */
+export function getThreads(): Thread[] {
+  let files: string[] = [];
+  try {
+    files = fs.readdirSync(THREADS_DIR).filter((f) => f.startsWith('thr_') && f.endsWith('.json'));
+  } catch {
+    return [];
+  }
+  const threads = files
+    .map((f) => {
+      try {
+        return JSON.parse(fs.readFileSync(path.join(THREADS_DIR, f), 'utf-8')) as Thread;
+      } catch {
+        return null;
+      }
+    })
+    .filter((t): t is Thread => t !== null);
+  const rank = (t: Thread) => (t.status === 'developing' ? 0 : 1);
+  return threads.sort(
+    (a, b) => rank(a) - rank(b) || b.last_updated.localeCompare(a.last_updated),
+  );
 }
 
 export function getEventIds(): string[] {

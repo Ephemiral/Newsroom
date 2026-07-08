@@ -1,0 +1,37 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_south_pacific_nuclear_free_zone",
+  "type": "location",
+  "canonical_name": "South Pacific Nuclear Free Zone",
+  "aliases": [
+    "Treaty of Rarotonga"
+  ],
+  "wikidata_qid": "Q1760687",
+  "summary": "The Treaty of Rarotonga is the common name for the South Pacific Nuclear Free Zone Treaty, which formalises a nuclear-weapon-free zone in the South Pacific. The treaty bans the use, testing, and possession of nuclear weapons within the borders of the zone.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Rarotonga"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_06_asia_001"
+  ],
+  "created_at": "2026-07-08T18:21:07.035561+00:00",
+  "last_updated": "2026-07-08T18:21:34.345356+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q1760687 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1760687"
+    }
+  ]
+}

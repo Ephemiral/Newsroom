@@ -1,0 +1,64 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_bezalel_smotrich",
+  "type": "person",
+  "canonical_name": "Bezalel Smotrich",
+  "aliases": [
+    "Smotrich"
+  ],
+  "wikidata_qid": "Q18759744",
+  "summary": "Bezalel Yoel Smotrich is an Israeli politician and lawyer who has served as the Minister of Finance since 2022. The leader of the Religious Zionist Party, he previously served as a Knesset member for the Jewish Home and Yamina, leaving in 2023 after resigning under the Norwegian Law, allowing him to remain a minister in the government while his seat in the Knesset could be taken by another candidate from his party.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Bezalel_Smotrich"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bezalel_Smotrich.jpg/960px-Bezalel_Smotrich.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Bezalel_Smotrich.jpg",
+    "credit": "Avi Ohayon",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Bezalel Smotrich.jpg",
+    "fetched_at": "2026-07-08T18:27:15.768472+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Knesset member",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q18759744",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Finance",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q18759744",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_04_014",
+  "appears_in_events": [
+    "evt_2026_06_04_014",
+    "evt_2026_07_01_118"
+  ],
+  "created_at": "2026-07-08T18:27:11.787474+00:00",
+  "last_updated": "2026-07-08T18:32:12.323784+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_04_014",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q18759744 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q18759744"
+    }
+  ]
+}

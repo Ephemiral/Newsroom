@@ -1,0 +1,85 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_israeli_defense_force",
+  "type": "organization",
+  "canonical_name": "Israeli Defense Force",
+  "aliases": [
+    "Israel Defense Forces",
+    "Israeli military",
+    "IDF",
+    "Israeli forces"
+  ],
+  "wikidata_qid": "Q58967",
+  "summary": "The Israel Defense Forces, alternatively referred to by the Hebrew-language acronym Tzahal (צה״ל), is the national military of the State of Israel. It consists of three service branches: the Israeli Ground Forces, the Israeli Air Force, and the Israeli Navy.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Israel_Defense_Forces"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/IDF-Arsenal-09.jpg/960px-IDF-Arsenal-09.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:IDF-Arsenal-09.jpg",
+    "credit": "MathKnight",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:IDF-Arsenal-09.jpg",
+    "fetched_at": "2026-07-08T18:25:35.569584+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is the sole military wing of the Israeli security apparatus.",
+      "source_url": "https://en.wikipedia.org/wiki/Israel_Defense_Forces",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The IDF is headed by the chief of the general staff, who is subordinate to the defense minister.",
+      "source_url": "https://en.wikipedia.org/wiki/Israel_Defense_Forces",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_05_31_001",
+  "appears_in_events": [
+    "evt_2026_05_31_001",
+    "evt_2026_06_01_117",
+    "evt_2026_06_04_023",
+    "evt_2026_07_01_118"
+  ],
+  "created_at": "2026-07-08T18:25:31.295973+00:00",
+  "last_updated": "2026-07-08T18:32:12.327659+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_05_31_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Israel_Defense_Forces"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Israel_Defense_Forces"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q58967 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q58967"
+    }
+  ]
+}

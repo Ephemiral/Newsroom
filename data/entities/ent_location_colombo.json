@@ -1,0 +1,93 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_colombo",
+  "type": "location",
+  "canonical_name": "Colombo",
+  "aliases": [],
+  "wikidata_qid": "Q35381",
+  "summary": "Colombo is Sri Lanka's executive and judicial capital, as well as the country's most populous city. It is also the financial centre of the island and a tourist destination.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Colombo"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Colombo_skyline_2024.jpg/960px-Colombo_skyline_2024.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Colombo_skyline_2024.jpg",
+    "credit": "T Chamika",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Colombo skyline 2024.jpg",
+    "fetched_at": "2026-07-08T18:22:36.206162+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The Colombo metropolitan area is estimated to have a population of 5.6 million, and 752,993 within the municipal limits.",
+      "source_url": "https://en.wikipedia.org/wiki/Colombo",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It is the financial centre of the island and a tourist destination.",
+      "source_url": "https://en.wikipedia.org/wiki/Colombo",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It is located on the west coast of the island.",
+      "source_url": "https://en.wikipedia.org/wiki/Colombo",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_asia_003",
+  "appears_in_events": [
+    "evt_2026_07_06_asia_003"
+  ],
+  "created_at": "2026-07-08T18:22:32.428911+00:00",
+  "last_updated": "2026-07-08T18:22:59.389690+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Colombo"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Colombo"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Colombo"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q35381 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q35381"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_hainan",
+  "type": "location",
+  "canonical_name": "Hainan",
+  "aliases": [
+    "Hainan island"
+  ],
+  "wikidata_qid": "Q42200",
+  "summary": "Hainan is an island and the southern-most province of China consisting of the eponymous Hainan Island and various smaller islands in the South China Sea under the province's administration. The name means \"South of the Sea\".",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Hainan"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/A_picture_from_China_every_day_029.jpg/960px-A_picture_from_China_every_day_029.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:A_picture_from_China_every_day_029.jpg",
+    "credit": "Carsten Ullrich from Shanghai, China",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:A picture from China every day 029.jpg",
+    "fetched_at": "2026-07-08T18:23:18.550289+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_07_asia_001"
+  ],
+  "created_at": "2026-07-08T18:23:14.670986+00:00",
+  "last_updated": "2026-07-08T18:23:39.023654+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q42200 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q42200"
+    }
+  ]
+}

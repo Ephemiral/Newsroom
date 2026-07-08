@@ -1,0 +1,46 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_wing_loong",
+  "type": "technology",
+  "canonical_name": "Wing Loong",
+  "aliases": [
+    "Wing Loong series"
+  ],
+  "wikidata_qid": "Q14444224",
+  "summary": "Unmanned aerial vehicle",
+  "summary_sources": [
+    "https://www.wikidata.org/wiki/Q14444224"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Wing_Loong_%283%29.jpg/960px-Wing_Loong_%283%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Wing_Loong_(3).jpg",
+    "credit": "Kalabaha1969",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Wing Loong (3).jpg",
+    "fetched_at": "2026-07-08T18:23:34.308500+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_07_asia_001"
+  ],
+  "created_at": "2026-07-08T18:23:31.268436+00:00",
+  "last_updated": "2026-07-08T18:23:39.027610+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q14444224",
+      "source": "https://www.wikidata.org/wiki/Q14444224"
+    }
+  ]
+}

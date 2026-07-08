@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_06_01_117",
     "beat": "israel_middle_east",
@@ -22,7 +22,152 @@
       "file_title": "File:Beirut skyline, Beirut, Lebanon.jpg",
       "query": "Beirut skyline",
       "fetched_at": "2026-07-06T07:54:53.340802+00:00"
-    }
+    },
+    "entities": [
+      {
+        "entity_id": "ent_person_benjamin_netanyahu",
+        "surfaces": [
+          "Benjamin Netanyahu",
+          "Netanyahu"
+        ],
+        "relevance_to_event": "Prime Minister Netanyahu announced the expansion of Israel's ground operations beyond the security zone in southern Lebanon, citing Hezbollah drone attacks as justification for the escalation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_024"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_hezbollah",
+        "surfaces": [
+          "Hezbollah"
+        ],
+        "relevance_to_event": "Hezbollah is the central opposing force in this conflict; the Israeli strikes target what military officials describe as Hezbollah infrastructure, and Hezbollah responded with rocket and drone fire, with both sides accusing each other of ceasefire violations.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_004",
+            "clm_006",
+            "clm_024",
+            "clm_026",
+            "clm_027"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israeli_defense_force",
+        "surfaces": [
+          "Israel Defense Forces",
+          "IDF",
+          "Israeli forces",
+          "Israeli military"
+        ],
+        "relevance_to_event": "The IDF carried out the intensified strikes on southern Lebanon and Beirut described in this report, issued evacuation orders, and expanded ground operations, characterizing their actions as responses to Hezbollah threats.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016",
+            "clm_017",
+            "clm_026"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_southern_lebanon",
+        "surfaces": [
+          "Lebanon",
+          "southern Lebanon"
+        ],
+        "relevance_to_event": "Lebanon is the country where the strikes occurred and where the ceasefire has been disputed; Lebanese officials accused Israel of violating the agreement and the Lebanese health ministry documented casualties from the strikes.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_011",
+            "clm_021",
+            "clm_023",
+            "clm_024",
+            "clm_025"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_beirut",
+        "surfaces": [
+          "Beirut",
+          "Dahieh"
+        ],
+        "relevance_to_event": "Beirut, specifically the Dahieh neighborhood (Hezbollah's stronghold), was struck on 28 May 2026 in only the second Israeli strike on the capital since the ceasefire, killing a three-month-old baby according to resident reports.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_tyre",
+        "surfaces": [
+          "Tyre"
+        ],
+        "relevance_to_event": "Tyre was heavily targeted on 28 May with at least 11 people killed according to the Lebanese health ministry; the strikes caused widespread damage to homes, businesses, infrastructure, and forced rescue crews to evacuate due to dangerous conditions.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_008",
+            "clm_009",
+            "clm_010",
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "Iran",
+          "Iranian"
+        ],
+        "relevance_to_event": "Iran is mentioned as backing Hezbollah and insisting that any deal must also cover Lebanon, making it a stakeholder in the ceasefire dispute.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_033"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_agnes_dhur",
+        "surfaces": [
+          "Agnes Dhur"
+        ],
+        "relevance_to_event": "As head of the International Committee of the Red Cross delegation in Lebanon, Dhur warned that the escalating hostilities were nearing a 'perilous tipping point' for civilians and creating untenable conditions.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_034"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_07_06_israel_middle_east_001",
     "beat": "israel_middle_east",
@@ -22,7 +22,142 @@
       "file_title": "File:میدان آزادی، میدان شهیاد، برج آزادی، برج شهیاد، تهران Azadi Tower, Azadi Square, Meydea-e Azadi, Meydan-e Shahyad, Tehran province, Iran Flag colors - panoramio (1).jpg",
       "query": "Azadi Square Tehran",
       "fetched_at": "2026-07-06T08:19:00.248862+00:00"
-    }
+    },
+    "entities": [
+      {
+        "entity_id": "ent_person_ali_khamenei",
+        "surfaces": [
+          "Ali Khamenei",
+          "Supreme Leader Ali Khamenei"
+        ],
+        "relevance_to_event": "Supreme Leader whose death in a US-Israeli airstrike on 28 February 2026 prompted the six-day state funeral described in this report; he had served as Iran's supreme leader for approximately 36–37 years before his death.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_mojtaba_khamenei",
+        "surfaces": [
+          "Mojtaba Khamenei"
+        ],
+        "relevance_to_event": "Ali Khamenei's son who was appointed as Iran's new supreme leader but was notably absent from the Sunday morning prayer at the funeral, reportedly due to wounds sustained in the same airstrike that killed his father, while his wife was among the multiple family members who died in the strike.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_017",
+            "clm_018",
+            "clm_019",
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_masoud_pezeshkian",
+        "surfaces": [
+          "Masoud Pezeshkian",
+          "Iranian President Pezeshkian"
+        ],
+        "relevance_to_event": "Iranian President who praised the crowds' behavior at the funeral, described the gathering as a covenant rather than a farewell, accused Israel and Western powers of crimes, and publicly rejected Donald Trump's characterization of the mourners' grief as 'fake tears.'",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_028"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "Donald Trump",
+          "Trump"
+        ],
+        "relevance_to_event": "Former US leader whom Trump characterized the funeral mourners' grief as 'fake tears,' a statement that Iranian President Pezeshkian publicly rejected; the phrase 'Kill Trump' was also chalked on the funeral stage.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "IRGC"
+        ],
+        "relevance_to_event": "Gen. Ahmad Vahidi, commander-in-chief of the IRGC, made his first public appearance since 8 February at the funeral, having previously played a role in crushing January protests and in Iran's asymmetric warfare strategy.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_029"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_tehran",
+        "surfaces": [
+          "Tehran"
+        ],
+        "relevance_to_event": "Capital city where the state funeral began with farewell rites at the Grand Mosalla mosque and included a major procession through the city center on Monday, which authorities estimated drew millions of mourners.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_004",
+            "clm_005",
+            "clm_007",
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_mashhad",
+        "surfaces": [
+          "Mashhad"
+        ],
+        "relevance_to_event": "Khamenei's birthplace where the six-day funeral procession concluded with his burial near the shrine of Imam Reza.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_karbala_and_najaf",
+        "surfaces": [
+          "Karbala",
+          "Najaf",
+          "Iraqi cities of Najaf and Karbala"
+        ],
+        "relevance_to_event": "Shia holy cities in Iraq where the funeral body was carried on Wednesday at the request of Iraqi politicians, as part of the multi-city funeral itinerary.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "thread_id": "thr_death_and_funeral_of_iranian_supreme_leader_ali_khamenei"
   },
   "sources": [
     {

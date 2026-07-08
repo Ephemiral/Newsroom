@@ -1,0 +1,136 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_chuck_schumer",
+  "type": "person",
+  "canonical_name": "Chuck Schumer",
+  "aliases": [
+    "Senate Minority Leader Chuck Schumer"
+  ],
+  "wikidata_qid": "Q380900",
+  "summary": "Charles Ellis Schumer is an American politician serving since 1999 as a United States senator from New York. A member of the Democratic Party, he has led the Senate Democratic Caucus since 2017 and served as Senate majority leader from 2021 to 2025.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Chuck_Schumer"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Chuck_Schumer_official_photo.jpg/960px-Chuck_Schumer_official_photo.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Chuck_Schumer_official_photo.jpg",
+    "credit": "U.S. Senate Photographic Studio/Jeff McEvoy",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Chuck Schumer official photo.jpg",
+    "fetched_at": "2026-07-08T18:27:43.524307+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "United States representative",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q380900",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the New York State Assembly",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q380900",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "United States senator",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q380900",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Majority Leader of the United States Senate",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q380900",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minority Leader of the United States Senate",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q380900",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He has served two stints as Senate minority leader, from 2017 to 2021 and since 2025.",
+      "source_url": "https://en.wikipedia.org/wiki/Chuck_Schumer",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "He became New York's senior senator in 2001, upon Daniel Patrick Moynihan's retirement.",
+      "source_url": "https://en.wikipedia.org/wiki/Chuck_Schumer",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Elected to a fifth term in 2022, Schumer surpassed Moynihan and Jacob K.",
+      "source_url": "https://en.wikipedia.org/wiki/Chuck_Schumer",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_04_014",
+  "appears_in_events": [
+    "evt_2026_06_04_014"
+  ],
+  "created_at": "2026-07-08T18:27:39.312629+00:00",
+  "last_updated": "2026-07-08T18:28:01.905374+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_04_014",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Chuck_Schumer"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Chuck_Schumer"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Chuck_Schumer"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q380900 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q380900"
+    }
+  ]
+}

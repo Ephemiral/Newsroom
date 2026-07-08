@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_07_06_europe_002",
     "beat": "europe",
@@ -8,7 +8,151 @@
     "date": "2026-07-06",
     "generated_at": "2026-07-06T17:34:39.661032+00:00",
     "image_attempted_at": "2026-07-06T17:35:16.560743+00:00",
-    "image": null
+    "image": null,
+    "entities": [
+      {
+        "entity_id": "ent_person_volodymyr_zelensky",
+        "surfaces": [
+          "Zelenskyy",
+          "Ukrainian President Volodymyr Zelenskyy"
+        ],
+        "relevance_to_event": "Ukrainian President who warned of the Russian strike beforehand, called for NATO air defense support, and is positioned as a key negotiator expected to meet Trump at the summit.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_007",
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "Donald Trump",
+          "Trump",
+          "US President Donald Trump"
+        ],
+        "relevance_to_event": "US President meeting Zelenskyy at the NATO summit who claims the war's end is 'much closer than people realise' and maintains direct communications with Putin.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_vladimir_putin",
+        "surfaces": [
+          "Putin"
+        ],
+        "relevance_to_event": "Russian leader whose forces launched the missile and drone attack on Kyiv and who has declined direct negotiations with Zelenskyy, according to NATO officials.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_016",
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_mark_rutte",
+        "surfaces": [
+          "Mark Rutte",
+          "NATO Secretary General Mark Rutte"
+        ],
+        "relevance_to_event": "NATO Secretary General who characterized the Russian strikes as indiscriminate attacks on civilians and stated the summit will focus on defense spending and Ukraine support.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_russia",
+        "surfaces": [
+          "Russia",
+          "Russian"
+        ],
+        "relevance_to_event": "The aggressor nation that launched the 68 missiles and 351 attack drones on Kyiv, the direct subject of the report and central to the conflict discussed at the NATO summit.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_006",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_nato",
+        "surfaces": [
+          "NATO"
+        ],
+        "relevance_to_event": "The alliance holding its annual summit in Ankara where Ukraine's air defense needs and support are central agenda items in response to this Russian attack.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005",
+            "clm_009",
+            "clm_012",
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_kyiv",
+        "surfaces": [
+          "Kyiv"
+        ],
+        "relevance_to_event": "The Ukrainian capital city that was the target of the major Russian missile and drone attack killing at least 22 civilians, the primary focus of this report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_022",
+            "clm_024"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_kostyantynivka",
+        "surfaces": [
+          "Kostyantynivka"
+        ],
+        "relevance_to_event": "A disputed Donetsk region town whose claimed Russian capture is mentioned in the report as part of ongoing ground operations concurrent with the aerial attacks on Kyiv.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "thread_id": "thr_nato_ankara_summit_and_ukraine_air_defense_requests"
   },
   "sources": [
     {

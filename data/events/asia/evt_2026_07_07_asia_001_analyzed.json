@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_07_07_asia_001",
     "beat": "asia",
@@ -8,7 +8,141 @@
     "date": "2026-07-06",
     "generated_at": "2026-07-07T05:05:53.130204+00:00",
     "image_attempted_at": "2026-07-07T05:06:30.087194+00:00",
-    "image": null
+    "image": null,
+    "entities": [
+      {
+        "entity_id": "ent_technology_typhoon_maysak",
+        "surfaces": [
+          "Typhoon Maysak",
+          "Maysak"
+        ],
+        "relevance_to_event": "The primary meteorological event causing the catastrophic flooding, deaths, displacement, and reservoir breaches reported across the affected regions.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_guangxi_region",
+        "surfaces": [
+          "Guangxi region",
+          "Guangxi",
+          "Guangxi province"
+        ],
+        "relevance_to_event": "The southern Chinese province most severely impacted by Maysak's heavy rainfall and flooding, where 480,000 people were evacuated and authorities declared the highest emergency response level.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_007",
+            "clm_008",
+            "clm_011",
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_hainan",
+        "surfaces": [
+          "Hainan",
+          "Hainan island"
+        ],
+        "relevance_to_event": "The southern island province where Typhoon Maysak made its first landfall on July 3, 2026, marking the start of the storm's impact on Chinese territory.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_nanning",
+        "surfaces": [
+          "Nanning"
+        ],
+        "relevance_to_event": "The capital city of Guangxi where at least two people were killed, 55,000 people were affected by floods, 48,000 were evacuated, and three reservoirs failed or breached.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_006",
+            "clm_007",
+            "clm_009",
+            "clm_010",
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_ministry_of_emergency_management",
+        "surfaces": [
+          "Ministry of Emergency Management"
+        ],
+        "relevance_to_event": "The central Chinese authority that raised the national flood response level and coordinated the major operational response, including deploying 1,372 personnel, 140 boats, drones, and allocating 160 million yuan in relief funding.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_017",
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_super_typhoon_bavi",
+        "surfaces": [
+          "Super Typhoon Bavi",
+          "Bavi"
+        ],
+        "relevance_to_event": "A separate severe storm system tracking toward Taiwan and eastern China that threatened to bring additional extreme weather within days of Maysak's impact, creating a sequential typhoon hazard.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_vietnam",
+        "surfaces": [
+          "Vietnam"
+        ],
+        "relevance_to_event": "The country where Typhoon Maysak made a second landfall on July 5 in the border city of Mong Cai, causing localized damage before the storm pushed into China.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_wing_loong",
+        "surfaces": [
+          "Wing Loong"
+        ],
+        "relevance_to_event": "Chinese drone model dispatched by the Ministry of Emergency Management to the disaster area to assist with emergency communications during the Maysak response.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

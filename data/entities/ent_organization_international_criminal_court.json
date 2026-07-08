@@ -1,0 +1,79 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_international_criminal_court",
+  "type": "organization",
+  "canonical_name": "International Criminal Court",
+  "aliases": [
+    "ICC"
+  ],
+  "wikidata_qid": "Q47488",
+  "summary": "The International Criminal Court (ICC) is an intergovernmental organisation and international tribunal seated in The Hague, Netherlands. Established in 2002 under the multilateral Rome Statute, the ICC is the first and only permanent international court with jurisdiction to prosecute individuals for the international crimes of genocide, crimes against humanity, war crimes, and the crime of aggression.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/International_Criminal_Court"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Internationaler_Strafgerichtshof_Den_Haag.jpg/960px-Internationaler_Strafgerichtshof_Den_Haag.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Internationaler_Strafgerichtshof_Den_Haag.jpg",
+    "credit": "Thomas Wolf, www.foto-tw.de",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Internationaler Strafgerichtshof Den Haag.jpg",
+    "fetched_at": "2026-07-08T18:22:08.129919+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The ICC is intended to complement, not replace, national judicial systems; it can exercise its jurisdiction only when national courts are unwilling or unable to prosecute criminals.",
+      "source_url": "https://en.wikipedia.org/wiki/International_Criminal_Court",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It is distinct from the International Court of Justice, an organ of the United Nations that hears disputes between states.",
+      "source_url": "https://en.wikipedia.org/wiki/International_Criminal_Court",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_06_asia_002"
+  ],
+  "created_at": "2026-07-08T18:22:04.263808+00:00",
+  "last_updated": "2026-07-08T18:22:23.126619+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/International_Criminal_Court"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/International_Criminal_Court"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q47488 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q47488"
+    }
+  ]
+}

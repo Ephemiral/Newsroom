@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_06_29_026",
     "beat": "israel_middle_east",
@@ -8,7 +8,143 @@
     "date": "2026-06-29",
     "generated_at": "2026-06-30T06:54:46.749200+00:00",
     "image_attempted_at": "2026-07-06T09:11:16.358517+00:00",
-    "image": null
+    "image": null,
+    "entities": [
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "President Trump",
+          "Trump"
+        ],
+        "relevance_to_event": "Trump announced the scheduled Doha talks on Truth Social and White House officials characterized Iran as having requested the meeting, making him central to the dispute over whether talks were actually planned.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_kazem_gharibabadi",
+        "surfaces": [
+          "Kazem Gharibabadi"
+        ],
+        "relevance_to_event": "As Iran's deputy foreign minister, Gharibabadi denied that technical talks were confirmed and stated Iran's sole authority over mine removal in the Strait of Hormuz, directly contradicting US and French positions.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_abbas_araghchi",
+        "surfaces": [
+          "Abbas Araghchi"
+        ],
+        "relevance_to_event": "As Iran's Foreign Minister, Araghchi claimed Iran would have full oversight of the Strait of Hormuz for 30 days and sole responsibility for administering the waterway under the framework deal.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_emmanuel_macron",
+        "surfaces": [
+          "Macron"
+        ],
+        "relevance_to_event": "Macron announced France and Oman's plan to cooperate on clearing mines from the Strait of Hormuz, creating a direct contradiction with Iran's stated position that only Iran can conduct demining operations.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_strait_of_hormuz",
+        "surfaces": [
+          "Strait of Hormuz"
+        ],
+        "relevance_to_event": "The waterway is the central geographic focus of the military escalation, diplomatic dispute over management authority, shipping route conflicts, and the framework agreement's core negotiations.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008",
+            "clm_009",
+            "clm_014",
+            "clm_015",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_united_states",
+        "surfaces": [
+          "United States",
+          "US"
+        ],
+        "relevance_to_event": "The US conducted military strikes on Iranian targets in response to drone attacks, disputed the characterization of who initiated Doha talks, and claimed no frozen Iranian assets had been released.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_007",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "Iran"
+        ],
+        "relevance_to_event": "Iran initiated the military escalation by striking a tanker, retaliated against US strikes, disputed the Doha talks narrative, and asserted exclusive authority over the Strait of Hormuz and mine removal operations.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_islamabad_memorandum_of_understanding",
+        "surfaces": [
+          "Islamabad MOU",
+          "Islamabad Memorandum of Understanding"
+        ],
+        "relevance_to_event": "This framework agreement signed around June 17–18, 2026 established the 60-day negotiating window and defined competing commitments regarding Iran's nuclear programme, sanctions relief, and the strait's management that both sides are disputing.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "thread_id": "thr_usiran_strait_of_hormuz_negotiations_and_shipping_dispute"
   },
   "sources": [
     {

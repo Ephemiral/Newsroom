@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_06_01_065",
     "beat": "israel_middle_east",
@@ -8,7 +8,145 @@
     "date": "2026-06-01",
     "generated_at": "2026-06-01T21:08:17.799781+00:00",
     "image_attempted_at": "2026-07-06T07:54:38.898301+00:00",
-    "image": null
+    "image": null,
+    "entities": [
+      {
+        "entity_id": "ent_technology_eurosatory",
+        "surfaces": [
+          "Eurosatory",
+          "Eurosatory 2026",
+          "2024 Eurosatory",
+          "2025 Paris Air Show"
+        ],
+        "relevance_to_event": "The world-leading defence exhibition in Paris where France imposed the ban on Israeli government representatives and restricted Israeli weapons displays that is central to this story.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israel_defence_ministry",
+        "surfaces": [
+          "Israel's Defence Ministry",
+          "Israeli Defence Ministry"
+        ],
+        "relevance_to_event": "The Israeli government body that condemned France's ban as 'disgraceful' and halted all defence procurement from France in April 2026 in response to French restrictions.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_004",
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_emmanuel_macron",
+        "surfaces": [
+          "Emmanuel Macron",
+          "Macron"
+        ],
+        "relevance_to_event": "French President whose administration implemented the ban on Israeli officials and weapons displays, and who criticized Israeli military operations in Lebanon and the Iran campaign.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_itamar_ben_gvir",
+        "surfaces": [
+          "Itamar Ben Gvir",
+          "Ben Gvir"
+        ],
+        "relevance_to_event": "Israeli National Security Minister who was barred from entering France approximately one week before the Eurosatory ban, reportedly following footage of him present during detention of flotilla activists.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_france",
+        "surfaces": [
+          "France",
+          "French"
+        ],
+        "relevance_to_event": "The country that imposed the Eurosatory ban on Israeli representatives and weapons displays, and implemented related restrictions on Israeli defence cooperation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_004",
+            "clm_006",
+            "clm_008",
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_hezbollah",
+        "surfaces": [
+          "Hezbollah"
+        ],
+        "relevance_to_event": "Iranian-backed militant group operating along Israel's northern border against which Israeli military operations in Lebanon (that drew French criticism) were directed.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_beaufort_castle",
+        "surfaces": [
+          "Beaufort castle",
+          "medieval Beaufort castle"
+        ],
+        "relevance_to_event": "Medieval castle in Lebanon seized by Israeli forces during operations against Hezbollah, which prompted France to request an emergency UN Security Council meeting.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_isaac_herzog",
+        "surfaces": [
+          "President Isaac Herzog"
+        ],
+        "relevance_to_event": "Israeli President to whom Macron offered in March 2026 for France to host direct Israel-Lebanon talks, before France was subsequently excluded from those negotiations.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

@@ -1,0 +1,37 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_house_of_representatives_of_the_philippines",
+  "type": "organization",
+  "canonical_name": "House of Representatives of the Philippines",
+  "aliases": [
+    "House of Representatives"
+  ],
+  "wikidata_qid": "Q678545",
+  "summary": "The House of Representatives is the lower house of Congress, the bicameral legislature of the Philippines, with the Senate as the upper house. The lower house is commonly referred to as Congress, although the term collectively refers to both houses.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/House_of_Representatives_of_the_Philippines"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_06_asia_002"
+  ],
+  "created_at": "2026-07-08T18:22:00.639111+00:00",
+  "last_updated": "2026-07-08T18:22:23.125522+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q678545 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q678545"
+    }
+  ]
+}

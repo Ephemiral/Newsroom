@@ -1,0 +1,108 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_bahrain",
+  "type": "location",
+  "canonical_name": "Bahrain",
+  "aliases": [
+    "Bahraini"
+  ],
+  "wikidata_qid": "Q398",
+  "summary": "Bahrain, officially the Kingdom of Bahrain, is an island country in West Asia. Situated near the western shore of the Persian Gulf, the country comprises a small archipelago of 33 natural islands and an additional 50 artificial islands, centered on Bahrain Island, which makes up around 80 percent of the country's landmass.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Bahrain"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Manama%2C_Bahrain_Decembre_2014.jpg/960px-Manama%2C_Bahrain_Decembre_2014.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Manama,_Bahrain_Decembre_2014.jpg",
+    "credit": "Wadiia",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Manama, Bahrain Decembre 2014.jpg",
+    "fetched_at": "2026-07-08T18:30:05.757188+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q398"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q398"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Bahrain is situated between Qatar and the northeastern coast of Saudi Arabia, to which it is connected by the King Fahd Causeway.",
+      "source_url": "https://en.wikipedia.org/wiki/Bahrain",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The population is 1,588,670 as of 2024, of whom 739,736 are Bahraini nationals, and 848,934 are expatriates.",
+      "source_url": "https://en.wikipedia.org/wiki/Bahrain",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Bahrain spans some 760 square kilometres (290 sq mi) and is the third-smallest nation in Asia after Maldives and Singapore.",
+      "source_url": "https://en.wikipedia.org/wiki/Bahrain",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_04_066",
+  "appears_in_events": [
+    "evt_2026_06_04_066"
+  ],
+  "created_at": "2026-07-08T18:30:01.141273+00:00",
+  "last_updated": "2026-07-08T18:30:13.377080+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_04_066",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Bahrain"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Bahrain"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Bahrain"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q398 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q398"
+    }
+  ]
+}

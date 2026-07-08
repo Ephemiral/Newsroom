@@ -1,0 +1,84 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_sri_lanka",
+  "type": "location",
+  "canonical_name": "Sri Lanka",
+  "aliases": [],
+  "wikidata_qid": "Q854",
+  "summary": "Sri Lanka, officially the Democratic Socialist Republic of Sri Lanka, formerly known as Ceylon, is an island country in South Asia. It is located in the Indian Ocean, southwest of the Bay of Bengal, and is separated from India by the Gulf of Mannar and the Palk Strait.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Sri_Lanka"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Topography_Sri_Lanka.jpg/960px-Topography_Sri_Lanka.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Topography_Sri_Lanka.jpg",
+    "credit": "National Aeronautics & Space Administration",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Topography Sri Lanka.jpg",
+    "fetched_at": "2026-07-08T18:22:32.427538+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q854"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Sri Lanka shares a maritime border with the Maldives to the southwest and India to the northwest, and lies across the Bay of Bengal from Bangladesh and Myanmar to the northeast and the Andaman and Nicobar Islands of India to the east.",
+      "source_url": "https://en.wikipedia.org/wiki/Sri_Lanka",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Its executive and judicial capital is Colombo, which is also its largest city and the political, financial and cultural centre of the country; neighboring Sri Jayawardenepura Kotte is the legislative capital.",
+      "source_url": "https://en.wikipedia.org/wiki/Sri_Lanka",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_asia_003",
+  "appears_in_events": [
+    "evt_2026_07_06_asia_003"
+  ],
+  "created_at": "2026-07-08T18:22:28.731621+00:00",
+  "last_updated": "2026-07-08T18:22:59.388851+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Sri_Lanka"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Sri_Lanka"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q854 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q854"
+    }
+  ]
+}

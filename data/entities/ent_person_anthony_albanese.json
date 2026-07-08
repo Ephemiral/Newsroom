@@ -1,0 +1,95 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_anthony_albanese",
+  "type": "person",
+  "canonical_name": "Anthony Albanese",
+  "aliases": [
+    "Australian Prime Minister Anthony Albanese"
+  ],
+  "wikidata_qid": "Q335697",
+  "summary": "Anthony Norman Albanese is an Australian politician who has served as the 31st prime minister of Australia since 2022. He has been the leader of the Labor Party since 2019 and the member of parliament (MP) for the New South Wales division of Grayndler since 1996.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Anthony_Albanese"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Anthony_Albanese_portrait_%28re-crop%29.jpg/960px-Anthony_Albanese_portrait_%28re-crop%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Anthony_Albanese_portrait_(re-crop).jpg",
+    "credit": "Australian Government",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Anthony Albanese portrait (re-crop).jpg",
+    "fetched_at": "2026-07-08T18:21:13.912079+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Deputy Prime Minister of Australia",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q335697",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister for Infrastructure and Transport",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q335697",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister for Communications, Urban Infrastructure, Cities and the Arts",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q335697",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Leader of the House",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q335697",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Manager of Opposition Business in the House",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q335697",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the Australian House of Representatives",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q335697",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_06_asia_001"
+  ],
+  "created_at": "2026-07-08T18:21:10.021693+00:00",
+  "last_updated": "2026-07-08T18:21:34.346001+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q335697 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q335697"
+    }
+  ]
+}

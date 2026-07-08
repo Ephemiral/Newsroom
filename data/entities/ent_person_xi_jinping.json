@@ -1,0 +1,95 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_xi_jinping",
+  "type": "person",
+  "canonical_name": "Xi Jinping",
+  "aliases": [
+    "President Xi Jinping"
+  ],
+  "wikidata_qid": "Q15031",
+  "summary": "Xi Jinping is a Chinese politician who is the paramount leader of China. He has served as the general secretary of the Chinese Communist Party (CCP) and chairman of the Party Central Military Commission (CMC) since 2012, the president of China and chairman of the State Central Military Commission since 2013.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Xi_Jinping"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Xi_Jinping_meets_Keir_Starmer_Jan_2026.jpg/960px-Xi_Jinping_meets_Keir_Starmer_Jan_2026.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Xi_Jinping_meets_Keir_Starmer_Jan_2026.jpg",
+    "credit": "Simon Dawson / No 10 Downing Street",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Xi Jinping meets Keir Starmer Jan 2026.jpg",
+    "fetched_at": "2026-07-08T18:23:53.512763+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "General Secretary of the Chinese Communist Party",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q15031",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President of the People's Republic of China",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q15031",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the Politburo of the Chinese Communist Party",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q15031",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Chairman of the Central Military Commission of the Chinese Communist Party",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q15031",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "First Secretary of the Chinese Communist Party",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q15031",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Governor of Fujian",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q15031",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_07_asia_002"
+  ],
+  "created_at": "2026-07-08T18:23:48.932532+00:00",
+  "last_updated": "2026-07-08T18:24:21.183845+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q15031 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q15031"
+    }
+  ]
+}

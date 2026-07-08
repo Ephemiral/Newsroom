@@ -1,0 +1,28 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_agnes_dhur",
+  "type": "person",
+  "canonical_name": "Agnes Dhur",
+  "aliases": [],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_01_117",
+  "appears_in_events": [
+    "evt_2026_06_01_117"
+  ],
+  "created_at": "2026-07-08T18:26:58.686002+00:00",
+  "last_updated": "2026-07-08T18:27:03.804167+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_01_117",
+      "source": null
+    }
+  ]
+}

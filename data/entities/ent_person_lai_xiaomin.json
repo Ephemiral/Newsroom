@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_lai_xiaomin",
+  "type": "person",
+  "canonical_name": "Lai Xiaomin",
+  "aliases": [],
+  "wikidata_qid": "Q16907225",
+  "summary": "Lai Xiaomin was a Chinese politician, business executive and senior economist who served as Chinese Communist Party Committee Secretary and chairman of the board of China Huarong Asset Management from September 2012 to April 2018. He was dismissed for graft on 17 April 2018.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Lai_Xiaomin"
+  ],
+  "image": null,
+  "roles_affiliations": [
+    {
+      "role": "National People's Congress deputy",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q16907225",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_07_asia_002"
+  ],
+  "created_at": "2026-07-08T18:23:59.007246+00:00",
+  "last_updated": "2026-07-08T18:24:21.185712+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q16907225 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q16907225"
+    }
+  ]
+}

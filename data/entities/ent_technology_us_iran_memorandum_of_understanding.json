@@ -1,0 +1,31 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_us_iran_memorandum_of_understanding",
+  "type": "technology",
+  "canonical_name": "US-Iran Memorandum of Understanding",
+  "aliases": [
+    "memorandum of understanding",
+    "MoU"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_01_026",
+  "appears_in_events": [
+    "evt_2026_07_01_026"
+  ],
+  "created_at": "2026-07-08T18:31:50.230380+00:00",
+  "last_updated": "2026-07-08T18:31:55.852677+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_01_026",
+      "source": null
+    }
+  ]
+}

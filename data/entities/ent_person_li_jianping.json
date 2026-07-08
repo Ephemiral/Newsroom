@@ -1,0 +1,84 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_li_jianping",
+  "type": "person",
+  "canonical_name": "Li Jianping",
+  "aliases": [],
+  "wikidata_qid": "Q109768325",
+  "summary": "Li Jianping was a Chinese politician who spent most of his career in Hohhot, capital of Inner Mongolia. He was investigated by the Chinese Communist Party's internal control and anti-graft agency, the Central Commission for Discipline Inspection, in September 2018.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Li_Jianping_(politician%2C_born_1960)"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Previously he had served as secretary of the Party Working Committee of Hohhot Economic and Technological Development Zone.",
+      "source_url": "https://en.wikipedia.org/wiki/Li_Jianping_(politician%2C_born_1960)",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "He embezzled and accepted bribes of more than 3 billion yuan, becoming the \"largest corrupt official\" since the founding of the People's Republic of China in 1949.",
+      "source_url": "https://en.wikipedia.org/wiki/Li_Jianping_(politician%2C_born_1960)",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "His case was classified as the \"largest case so far in the history of corruption in Inner Mongolia\".",
+      "source_url": "https://en.wikipedia.org/wiki/Li_Jianping_(politician%2C_born_1960)",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_07_asia_002"
+  ],
+  "created_at": "2026-07-08T18:24:03.260075+00:00",
+  "last_updated": "2026-07-08T18:24:21.186110+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Li_Jianping_(politician%2C_born_1960)"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Li_Jianping_(politician%2C_born_1960)"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Li_Jianping_(politician%2C_born_1960)"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q109768325 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q109768325"
+    }
+  ]
+}

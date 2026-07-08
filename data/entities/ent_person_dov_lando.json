@@ -1,0 +1,55 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_dov_lando",
+  "type": "person",
+  "canonical_name": "Dov Lando",
+  "aliases": [
+    "Rabbi Dov Lando"
+  ],
+  "wikidata_qid": "Q6637865",
+  "summary": "Dov Lando is the rosh yeshiva of the Slabodka yeshiva of Bnei Brak along with Rabbi Moshe Hillel Hirsch, a rabbi of Chug Chazon Ish, and a member of the directorate of the Board of Yeshivas. In his youth, he studied under Avrohom Yeshaya Karelitz as well as at the yeshivot of Ponevezh and Hebron.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Dov_Lando"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/%D7%94%D7%A8%D7%91_%D7%93%D7%91_%D7%9C%D7%A0%D7%93%D7%95.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:%D7%94%D7%A8%D7%91_%D7%93%D7%91_%D7%9C%D7%A0%D7%93%D7%95.png",
+    "credit": "פיראוס",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:הרב דב לנדו.png",
+    "fetched_at": "2026-07-08T18:28:50.068794+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "rosh yeshiva",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q6637865",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_04_023",
+  "appears_in_events": [
+    "evt_2026_06_04_023"
+  ],
+  "created_at": "2026-07-08T18:28:46.217348+00:00",
+  "last_updated": "2026-07-08T18:29:11.908456+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_04_023",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q6637865 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q6637865"
+    }
+  ]
+}

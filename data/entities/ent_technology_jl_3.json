@@ -1,0 +1,35 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_jl_3",
+  "type": "technology",
+  "canonical_name": "JL-3",
+  "aliases": [],
+  "wikidata_qid": "Q29017844",
+  "summary": "The JL-3 is a Chinese third-generation intercontinental-range submarine-launched ballistic missile (SLBM). It may arm the Type 094 submarine and is expected to arm the future Type 096.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/JL-3"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_06_asia_001"
+  ],
+  "created_at": "2026-07-08T18:21:03.863434+00:00",
+  "last_updated": "2026-07-08T18:21:34.344168+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q29017844 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q29017844"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "thread_schema_version": "0.1",
+  "thread_id": "thr_usiran_strait_of_hormuz_negotiations_and_shipping_dispute",
+  "title": "US–Iran Strait of Hormuz negotiations and shipping dispute",
+  "title_source": "auto",
+  "summary": "The United States and Iran are engaged in negotiations over managing the Strait of Hormuz, shipping fees, and a broader framework agreement covering nuclear issues and sanctions, while military tensions and disputes over diplomatic progress complicate talks.",
+  "status": "developing",
+  "beats": [
+    "israel_middle_east"
+  ],
+  "key_entities": [
+    "ent_organization_iran",
+    "ent_organization_oman",
+    "ent_organization_united_states",
+    "ent_person_abbas_araghchi",
+    "ent_person_donald_trump",
+    "ent_person_emmanuel_macron",
+    "ent_person_kazem_gharibabadi",
+    "ent_technology_islamabad_memorandum_of_understanding"
+  ],
+  "events": [
+    {
+      "cluster_id": "evt_2026_07_01_175",
+      "date": "2026-06-29",
+      "chapter_summary": "Iran and the US signed a memorandum of understanding on June 18, 2026, establishing a 60-day negotiation framework to address Iran's nuclear program, sanctions relief, and the Strait of Hormuz's status, while Iran and Oman proceeded with plans to levy shipping fees through the strait despite US objections.",
+      "link_score": 1.0
+    },
+    {
+      "cluster_id": "evt_2026_06_29_026",
+      "date": "2026-06-29",
+      "chapter_summary": "Following military strikes in the Strait of Hormuz in late June 2026, the US and Iran offered conflicting public statements about whether high-level talks were scheduled in Doha, with President Trump claiming Iran requested a meeting while Iranian officials denied imminent negotiations.",
+      "link_score": 0.534
+    }
+  ],
+  "created_at": "2026-07-08T18:37:20.609018+00:00",
+  "last_updated": "2026-07-08T18:37:24.552753+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Thread created"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Added evt_2026_07_01_175"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Added evt_2026_06_29_026"
+    }
+  ]
+}

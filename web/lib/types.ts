@@ -85,6 +85,8 @@ export interface EventMeta {
   related_events?: { cluster_id: string; title: string }[];
   /** Entity references for this event (schema v0.5); absent on older events. */
   entities?: EventEntity[];
+  /** Thread this event belongs to (schema v0.6); null/absent when unthreaded. */
+  thread_id?: string | null;
 }
 
 export interface ReportParagraph {
@@ -110,6 +112,34 @@ export interface AnalyzedEvent {
   claims: Claim[];
   background: BackgroundPoint[];
   report: Report | null;
+}
+
+// ── Story threads (schema v0.6 event.thread_id + thread store v0.1, STAGE_8) ──
+
+/** One chapter of a thread — an event plus what it added to the story. */
+export interface ThreadEvent {
+  cluster_id: string;
+  date: string;
+  chapter_summary: string;
+  link_score: number;
+}
+
+/** A persistent developing-story arc (data/threads/{thread_id}.json). Always
+ *  holds ≥2 events — a lone report is never surfaced as "developing". */
+export interface Thread {
+  thread_schema_version: string;
+  thread_id: string;
+  title: string;
+  title_source: 'auto' | 'manual';
+  summary: string;
+  status: 'developing' | 'dormant';
+  beats: string[];
+  key_entities: string[];
+  /** Chronological (oldest → newest). */
+  events: ThreadEvent[];
+  created_at: string;
+  last_updated: string;
+  change_log: { date: string; summary_of_change: string }[];
 }
 
 // ── Entity cards (schema v0.5 event block + entity store v0.1, STAGE_7) ──────

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_06_04_062",
     "beat": "israel_middle_east",
@@ -22,7 +22,150 @@
       "file_title": "File:State Department Building headquarters.png",
       "query": "State Department building",
       "fetched_at": "2026-07-06T09:10:48.438420+00:00"
-    }
+    },
+    "entities": [
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "President Trump",
+          "Trump"
+        ],
+        "relevance_to_event": "As US President, Trump holds final approval authority over the ceasefire extension framework and has publicly stated contradictory terms for any deal, directly influencing whether negotiations succeed.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_003",
+            "clm_008",
+            "clm_010",
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_mohammad_bagher_ghalibaf",
+        "surfaces": [
+          "Mohammad-Bagher Ghalibaf",
+          "Iran's parliament speaker"
+        ],
+        "relevance_to_event": "Serving as Iran's top negotiator, Ghalibaf's statements rejecting guarantees and threatening renewed conflict represent Iran's official negotiating position on the framework agreement.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_jd_vance",
+        "surfaces": [
+          "JD Vance",
+          "US Vice President"
+        ],
+        "relevance_to_event": "As US Vice President, Vance publicly characterized the state of negotiations, stating the sides were 'very close' but disagreed on key sticking points including uranium enrichment.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_marco_rubio",
+        "surfaces": [
+          "Marco Rubio",
+          "US Secretary of State"
+        ],
+        "relevance_to_event": "As US Secretary of State, Rubio met with Pakistan's Foreign Minister Mohammad Ishaq Dar regarding the mediation efforts, positioning him in the diplomatic chain of the negotiation process.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_mohammad_ishaq_dar",
+        "surfaces": [
+          "Mohammad Ishaq Dar",
+          "Pakistan's Foreign Minister"
+        ],
+        "relevance_to_event": "As Pakistan's Foreign Minister, Dar served as the official mediator between Tehran and Washington in these ceasefire extension negotiations.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "Iran",
+          "Iranian",
+          "Tehran"
+        ],
+        "relevance_to_event": "Iran is one of two principal parties to the ceasefire extension framework, with its leadership and officials making conflicting claims about the agreement's terms and readiness to sign.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_united_states",
+        "surfaces": [
+          "US",
+          "United States",
+          "Washington"
+        ],
+        "relevance_to_event": "The United States is one of two principal parties to the ceasefire extension framework, with its president and officials disputing Iran's characterization of proposed terms and conditions.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_strait_of_hormuz",
+        "surfaces": [
+          "Strait of Hormuz"
+        ],
+        "relevance_to_event": "Control and governance of the Strait of Hormuz is a core sticking point in the negotiations, with US and Iranian officials making contradictory demands about tolls, access, and mine removal.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006",
+            "clm_008",
+            "clm_012",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

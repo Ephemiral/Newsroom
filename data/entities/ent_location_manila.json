@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_manila",
+  "type": "location",
+  "canonical_name": "Manila",
+  "aliases": [],
+  "wikidata_qid": "Q1461",
+  "summary": "Manila, officially the City of Manila, is the capital and second-most populous city of the Philippines after Quezon City. According to the 2024 census, it has a population of 1,902,590 people.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Manila"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Big_Manila.jpg/960px-Big_Manila.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Big_Manila.jpg",
+    "credit": "Mike Gonzalez (TheCoffee)",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Big Manila.jpg",
+    "fetched_at": "2026-07-08T18:22:12.456935+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Located on the eastern shore of Manila Bay on the island of Luzon, it is classified as a highly urbanized city.",
+      "source_url": "https://en.wikipedia.org/wiki/Manila",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "With 44,935 inhabitants per square kilometer (116,380/sq mi), Manila is one of the world's most densely populated cities proper.",
+      "source_url": "https://en.wikipedia.org/wiki/Manila",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_06_asia_002"
+  ],
+  "created_at": "2026-07-08T18:22:08.130588+00:00",
+  "last_updated": "2026-07-08T18:22:23.127349+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Manila"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Manila"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q1461 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1461"
+    }
+  ]
+}

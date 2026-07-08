@@ -1,0 +1,112 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_gideon_sa_ar",
+  "type": "person",
+  "canonical_name": "Gideon Sa'ar",
+  "aliases": [
+    "Foreign Minister Sa'ar"
+  ],
+  "wikidata_qid": "Q966349",
+  "summary": "Gideon Moshe Sa'ar is an Israeli politician currently serving as Israel's Foreign Minister. Sa'ar was first elected to the Knesset as a member of Likud in 2003, serving until 2014.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Gideon_Sa'ar"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Gideon_Saar_new.jpg/960px-Gideon_Saar_new.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Gideon_Saar_new.jpg",
+    "credit": "שרון גבאי",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Gideon Saar new.jpg",
+    "fetched_at": "2026-07-08T18:31:05.629277+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Knesset member",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q966349",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Cabinet Secretary",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q966349",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Observer of the Parliamentary Assembly of the Council of Europe",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q966349",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of the Interior of Israel",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q966349",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Deputy Prime Minister of Israel",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q966349",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Justice Minister of Israel",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q966349",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "During that period, he served as Education Minister (2009–2013) and Minister of the Interior (2013–2014) under Benjamin Netanyahu's governments.",
+      "source_url": "https://en.wikipedia.org/wiki/Gideon_Sa'ar",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_29_102",
+  "appears_in_events": [
+    "evt_2026_06_29_102"
+  ],
+  "created_at": "2026-07-08T18:31:01.581545+00:00",
+  "last_updated": "2026-07-08T18:31:28.507722+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_29_102",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Gideon_Sa'ar"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q966349 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q966349"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_azerbaijan",
+  "type": "location",
+  "canonical_name": "Azerbaijan",
+  "aliases": [],
+  "wikidata_qid": "Q227",
+  "summary": "Azerbaijan, officially the Republic of Azerbaijan, is a transcontinental landlocked country at the boundary of Western Asia and Eastern Europe. It is a part of the South Caucasus region and is bounded by the Caspian Sea to the east, Russia's republic of Dagestan to the north, Georgia to the northwest, Türkiye and Armenia to the west, and Iran to the south.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Azerbaijan"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Aj-map.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Aj-map.png",
+    "credit": "United States Central Intelligence Agency",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Aj-map.png",
+    "fetched_at": "2026-07-08T18:31:15.915726+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q227"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q227"
+    }
+  ],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_29_102",
+  "appears_in_events": [
+    "evt_2026_06_29_102"
+  ],
+  "created_at": "2026-07-08T18:31:11.488130+00:00",
+  "last_updated": "2026-07-08T18:31:28.513961+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_29_102",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q227 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q227"
+    }
+  ]
+}

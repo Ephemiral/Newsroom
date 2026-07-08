@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_tyre",
+  "type": "location",
+  "canonical_name": "Tyre",
+  "aliases": [],
+  "wikidata_qid": "Q82070",
+  "summary": "Tyre is a city in Lebanon, and one of the oldest continuously inhabited cities in the world. It was one of the earliest Phoenician metropolises and the legendary birthplace of Europa, her brothers Cadmus and Phoenix, and Carthage's founder Dido (Elissa).",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Tyre%2C_Lebanon"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/SubmergedEgyptianHarbour_TyreSour_Lebanon_RomanDeckert04112019.jpg/960px-SubmergedEgyptianHarbour_TyreSour_Lebanon_RomanDeckert04112019.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:SubmergedEgyptianHarbour_TyreSour_Lebanon_RomanDeckert04112019.jpg",
+    "credit": "RomanDeckert",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:SubmergedEgyptianHarbour TyreSour Lebanon RomanDeckert04112019.jpg",
+    "fetched_at": "2026-07-08T18:26:58.683365+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The city has many ancient sites, including the Tyre Hippodrome, and was added as a whole to the list of UNESCO World Heritage Sites in 1984.",
+      "source_url": "https://en.wikipedia.org/wiki/Tyre%2C_Lebanon",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The historian Ernest Renan described it as \"a city of ruins, built out of ruins\".",
+      "source_url": "https://en.wikipedia.org/wiki/Tyre%2C_Lebanon",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_01_117",
+  "appears_in_events": [
+    "evt_2026_06_01_117"
+  ],
+  "created_at": "2026-07-08T18:26:54.266410+00:00",
+  "last_updated": "2026-07-08T18:27:03.802941+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_01_117",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Tyre%2C_Lebanon"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Tyre%2C_Lebanon"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q82070 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q82070"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_05_31_001",
     "beat": "israel_middle_east",
@@ -8,7 +8,146 @@
     "date": "2026-05-28",
     "generated_at": "2026-05-31T14:10:02.116164+00:00",
     "image_attempted_at": "2026-07-06T07:54:13.933154+00:00",
-    "image": null
+    "image": null,
+    "entities": [
+      {
+        "entity_id": "ent_person_benjamin_netanyahu",
+        "surfaces": [
+          "Netanyahu",
+          "Israeli Prime Minister Benjamin Netanyahu",
+          "Benjamin Netanyahu"
+        ],
+        "relevance_to_event": "Netanyahu is the Israeli Prime Minister who publicly announced the directive to expand Israeli military control of Gaza from 60% to 70%, exceeding the October 2025 ceasefire agreement boundaries.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_009",
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israeli_defense_force",
+        "surfaces": [
+          "Israeli military"
+        ],
+        "relevance_to_event": "The IDF is the military organization Netanyahu directed to expand territorial control in Gaza and is conducting the military operations described in the report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_016",
+            "clm_027"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_hamas",
+        "surfaces": [
+          "Hamas",
+          "Hamas-led",
+          "Hamas administration"
+        ],
+        "relevance_to_event": "Hamas's armed wing leadership has been targeted in Israeli strikes since the October 2025 ceasefire, with its armed wing chief killed on May 27, 2026, and senior commanders targeted on May 28, 2026.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_021",
+            "clm_025",
+            "clm_029"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_hezbollah",
+        "surfaces": [
+          "Hezbollah",
+          "Iranian-backed militant group"
+        ],
+        "relevance_to_event": "Hezbollah is an Iranian-backed militant group against which Israel has conducted separate military operations along its northern borders, occupying southern Lebanon as part of Netanyahu's described buffer zone strategy.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_032"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_israel_katz",
+        "surfaces": [
+          "Israeli Defence Minister Israel Katz",
+          "Israel Katz"
+        ],
+        "relevance_to_event": "Israeli Defence Minister Israel Katz announced the plan for voluntary emigration from Gaza following Netanyahu's directive to expand territorial control.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_gaza_strip",
+        "surfaces": [
+          "Gaza",
+          "Gaza Strip"
+        ],
+        "relevance_to_event": "Gaza Strip is the territory at the center of this report, where Netanyahu directed military expansion from 60% to 70% control, exceeding the October 2025 ceasefire agreement's 53% allocation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_006",
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_southern_lebanon",
+        "surfaces": [
+          "southern Lebanon",
+          "Lebanon"
+        ],
+        "relevance_to_event": "Southern Lebanon is territory that Israeli forces have occupied during military operations against Hezbollah, which Netanyahu describes as a buffer zone.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_032"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_yellow_line",
+        "surfaces": [
+          "Yellow Line"
+        ],
+        "relevance_to_event": "The Yellow Line is the demarcation boundary established under the October 2025 ceasefire agreement to mark Israeli-controlled territory at 53% of Gaza; Israel unilaterally moved this boundary deeper into Gaza to claim approximately 64% control.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

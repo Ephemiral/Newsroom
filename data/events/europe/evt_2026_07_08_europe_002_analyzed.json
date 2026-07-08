@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.5",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_07_08_europe_002",
     "beat": "europe",
@@ -181,7 +181,8 @@
       "file_title": "File:NATO Family Photo at the Presidential Palace in Ankara - 2026.jpg",
       "query": "NATO summit Ankara",
       "fetched_at": "2026-07-08T15:22:53.604364+00:00"
-    }
+    },
+    "thread_id": "thr_nato_ankara_summit_and_ukraine_air_defense_requests"
   },
   "sources": [
     {

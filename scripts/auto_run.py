@@ -440,6 +440,8 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
     import anthropic
     from pipeline.run_event import run_pipeline_for_event
     from pipeline.entities.run import attach_entities
+    from pipeline.threading.run import attach_thread
+    from pipeline.threading.store import ThreadStore
     from pipeline.images.run import attach_image
 
     api_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -481,6 +483,19 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
                 attach_entities(analyzed_path, client)
             except Exception:
                 log.exception("Entity stage failed for %s (publishing without entities)", event_id)
+            # Story threading (STAGE_8, schema 0.6) — additive; may also update an
+            # earlier event's thread_id (a new thread's opener), which must ship too.
+            try:
+                tstore = ThreadStore(ROOT / "data" / "threads", ROOT / "data" / "events", ROOT / "data" / "entities")
+                tres = attach_thread(analyzed_path, client, tstore)
+                for mp in tres.get("modified", []):
+                    if mp not in to_commit:
+                        to_commit.append(mp)
+                threads_dir = ROOT / "data" / "threads"
+                if threads_dir.exists() and threads_dir not in to_commit:
+                    to_commit.append(threads_dir)
+            except Exception:
+                log.exception("Threading stage failed for %s (publishing without thread)", event_id)
             try:
                 attach_image(analyzed_path, client)
             except Exception:

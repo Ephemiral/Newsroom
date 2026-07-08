@@ -1,0 +1,119 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_mark_rutte",
+  "type": "person",
+  "canonical_name": "Mark Rutte",
+  "aliases": [
+    "NATO Secretary General Mark Rutte"
+  ],
+  "wikidata_qid": "Q57792",
+  "summary": "Mark Rutte is a Dutch politician who has served as the 14th secretary general of NATO since October 2024. He previously served as prime minister of the Netherlands from 2010 to 2024 and leader of the People's Party for Freedom and Democracy (VVD) from 2006 to 2023.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Mark_Rutte"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mark_Rutte%2C_23.03.23_%28cropped%29.jpg/960px-Mark_Rutte%2C_23.03.23_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Mark_Rutte,_23.03.23_(cropped).jpg",
+    "credit": "European Commission (Christophe Licoppe)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Mark Rutte, 23.03.23 (cropped).jpg",
+    "fetched_at": "2026-07-08T18:25:13.822540+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Prime Minister of the Netherlands",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q57792",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the House of Representatives of the Netherlands",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q57792",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Dutch State Secretary for Social Affairs and Employment",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q57792",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "State Secretary for Education, Culture and Science",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q57792",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "formateur",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q57792",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of General Affairs",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q57792",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [
+    {
+      "type": "employed_by",
+      "entity_id": "ent_organization_nato",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q57792"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Serving a total of almost 14 years, Rutte is the longest-serving prime minister in Dutch history.",
+      "source_url": "https://en.wikipedia.org/wiki/Mark_Rutte",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_europe_002",
+  "appears_in_events": [
+    "evt_2026_07_06_europe_002"
+  ],
+  "created_at": "2026-07-08T18:25:09.269051+00:00",
+  "last_updated": "2026-07-08T18:25:24.881411+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_europe_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Mark_Rutte"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q57792 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q57792"
+    }
+  ]
+}

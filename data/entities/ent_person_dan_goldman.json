@@ -1,0 +1,53 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_dan_goldman",
+  "type": "person",
+  "canonical_name": "Dan Goldman",
+  "aliases": [],
+  "wikidata_qid": "Q74849175",
+  "summary": "Daniel Sachs Goldman is an American politician and lawyer serving as the U.S. representative for New York's 10th congressional district since 2023.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Dan_Goldman"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Daniel_Goldman_Portrait.jpg/960px-Daniel_Goldman_Portrait.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Daniel_Goldman_Portrait.jpg",
+    "credit": "US House",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Daniel Goldman Portrait.jpg",
+    "fetched_at": "2026-07-08T18:27:49.914895+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "United States representative",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q74849175",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_04_014",
+  "appears_in_events": [
+    "evt_2026_06_04_014"
+  ],
+  "created_at": "2026-07-08T18:27:44.066837+00:00",
+  "last_updated": "2026-07-08T18:28:01.906212+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_04_014",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q74849175 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q74849175"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_abbas_araghchi",
+  "type": "person",
+  "canonical_name": "Abbas Araghchi",
+  "aliases": [],
+  "wikidata_qid": "Q7459020",
+  "summary": "Abbas Araghchi is an Iranian diplomat and politician who has served as the foreign minister of Iran since August 2024.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Abbas_Araghchi"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Meeting_with_Foreign_Minister_of_Iran_Abbas_Araghchi.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Meeting_with_Foreign_Minister_of_Iran_Abbas_Araghchi.png",
+    "credit": "kremlin.ru",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Meeting with Foreign Minister of Iran Abbas Araghchi.png",
+    "fetched_at": "2026-07-08T18:30:49.899041+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "ambassador of Iran to Japan",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7459020",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Deputy Minister of Foreign Affairs of Iran",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7459020",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "ambassador of Iran to Finland",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7459020",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Foreign Affairs Minister of Iran",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7459020",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Spokesperson for the Ministry of Foreign Affairs of Iran",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7459020",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_29_026",
+  "appears_in_events": [
+    "evt_2026_06_29_026"
+  ],
+  "created_at": "2026-07-08T18:30:46.040640+00:00",
+  "last_updated": "2026-07-08T18:30:57.790522+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_29_026",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q7459020 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q7459020"
+    }
+  ]
+}

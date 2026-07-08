@@ -1,0 +1,112 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_yair_lapid",
+  "type": "person",
+  "canonical_name": "Yair Lapid",
+  "aliases": [
+    "opposition leader Yair Lapid"
+  ],
+  "wikidata_qid": "Q1396120",
+  "summary": "Yair Lapid is an Israeli politician of the centrist Yesh Atid party and a former journalist who has been the Leader of the Opposition since January 2023, having previously served in that role from 2020 to 2021. He had also previously served as the prime minister of Israel from 1 July to 29 December 2022, the second alternate prime minister and Minister of Foreign Affairs under Prime Minister Naftali Bennett from 2021 to 2022, and also as the Minister of Finance under Prime Minister Benjamin Netanyahu from 2013 to 2014.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Yair_Lapid"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Yair_Lapid_%28D1237-011%29.jpg/960px-Yair_Lapid_%28D1237-011%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Yair_Lapid_(D1237-011).jpg",
+    "credit": "Avi Ohayon",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Yair Lapid (D1237-011).jpg",
+    "fetched_at": "2026-07-08T18:28:45.693917+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Knesset member",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1396120",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Finance",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1396120",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Foreign Affairs, Israel",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1396120",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Alternate Prime Minister of Israel",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1396120",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Strategic Affairs Minister of Israel",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1396120",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Prime Minister of Israel",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1396120",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He is also the leader of Yesh Atid since the party's founding in 2012.",
+      "source_url": "https://en.wikipedia.org/wiki/Yair_Lapid",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_04_023",
+  "appears_in_events": [
+    "evt_2026_06_04_023"
+  ],
+  "created_at": "2026-07-08T18:28:41.065937+00:00",
+  "last_updated": "2026-07-08T18:29:11.907118+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_04_023",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Yair_Lapid"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q1396120 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1396120"
+    }
+  ]
+}

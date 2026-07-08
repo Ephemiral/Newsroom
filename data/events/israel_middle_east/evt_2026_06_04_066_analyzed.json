@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_06_04_066",
     "beat": "israel_middle_east",
@@ -22,7 +22,152 @@
       "file_title": "File:Kuwait airport.jpg",
       "query": "Kuwait International Airport terminal",
       "fetched_at": "2026-07-06T09:10:36.404380+00:00"
-    }
+    },
+    "entities": [
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "Iran",
+          "Iranian"
+        ],
+        "relevance_to_event": "The country that conducted the drone strike on Kuwait International Airport; claimed the attack was justified as a response to US use of Kuwaiti territory for operations against Iran.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_kuwait",
+        "surfaces": [
+          "Kuwait"
+        ],
+        "relevance_to_event": "The country whose airport was attacked; characterized the strike as unprovoked aggression and responded with diplomatic sanctions including expelling Iranian diplomats.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_kuwait_international_airport",
+        "surfaces": [
+          "Kuwait International Airport"
+        ],
+        "relevance_to_event": "The specific target of the Iranian drone strike that killed one person and injured more than 60 others on June 4, 2026.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_united_states",
+        "surfaces": [
+          "US",
+          "United States"
+        ],
+        "relevance_to_event": "Implicated by Iran as using Kuwaiti and Bahraini territory for military operations; involved in broader hostilities with Iran with ongoing stalled negotiations.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_007",
+            "clm_011",
+            "clm_012",
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_us_central_command",
+        "surfaces": [
+          "US Central Command",
+          "CENTCOM"
+        ],
+        "relevance_to_event": "Denied Iran's claim of striking a US navy vessel and reported shooting down three Iranian drones directed at civilian mariners in regional waters.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_013",
+            "clm_014",
+            "clm_015",
+            "clm_016",
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_gulf_of_oman",
+        "surfaces": [
+          "Gulf of Oman"
+        ],
+        "relevance_to_event": "The location where Iran claimed it targeted a US military vessel with a control and command center during the same operational period as the airport strike.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_bahrain",
+        "surfaces": [
+          "Bahrain",
+          "Bahraini"
+        ],
+        "relevance_to_event": "Named by Iran as another country whose territory and infrastructure the US allegedly used to advance military plans against Iran.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_india",
+        "surfaces": [
+          "Indian",
+          "India"
+        ],
+        "relevance_to_event": "The nationality of the one person killed in the Kuwait International Airport attack, prompting condemnation from India's foreign ministry.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

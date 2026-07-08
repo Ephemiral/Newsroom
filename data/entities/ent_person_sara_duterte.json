@@ -1,0 +1,113 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_sara_duterte",
+  "type": "person",
+  "canonical_name": "Sara Duterte",
+  "aliases": [
+    "Vice President Sara Duterte",
+    "Duterte"
+  ],
+  "wikidata_qid": "Q1491004",
+  "summary": "Sara Zimmerman Duterte-Carpio, commonly known as Inday Sara, is a Filipino lawyer and politician who is the 15th and current vice president of the Philippines. She is the third female vice president, the third vice president to come from Mindanao, and the youngest ever Philippine vice president.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Sara_Duterte"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/VPSD_Official_Photo_%28cropped%29.jpg/960px-VPSD_Official_Photo_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:VPSD_Official_Photo_(cropped).jpg",
+    "credit": "Office of the Vice President of the Philippines",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:VPSD Official Photo (cropped).jpg",
+    "fetched_at": "2026-07-08T18:21:43.581405+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "deputy mayor",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1491004",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Mayor of Davao City",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1491004",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Vice President of the Philippines",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1491004",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Secretary of Education",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1491004",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "A daughter of the 16th president Rodrigo Duterte, she previously served as the mayor of Davao City from 2010 to 2013, and from 2016 to 2022.",
+      "source_url": "https://en.wikipedia.org/wiki/Sara_Duterte",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "She was also Davao City's vice mayor from 2007 to 2010.",
+      "source_url": "https://en.wikipedia.org/wiki/Sara_Duterte",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_06_asia_002"
+  ],
+  "created_at": "2026-07-08T18:21:39.499345+00:00",
+  "last_updated": "2026-07-08T18:22:23.122028+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Sara_Duterte"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Sara_Duterte"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q1491004 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1491004"
+    }
+  ]
+}

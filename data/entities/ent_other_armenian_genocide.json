@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_other_armenian_genocide",
+  "type": "other",
+  "canonical_name": "Armenian Genocide",
+  "aliases": [],
+  "wikidata_qid": "Q80034",
+  "summary": "The Armenian genocide was the systematic destruction of the Armenian people and identity in the Ottoman Empire during World War I. Spearheaded by the ruling Committee of Union and Progress (CUP), it was implemented primarily through the mass murder of around one million Armenians during death marches to the Syrian desert and the forced Islamization of others, primarily women and children.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Armenian_genocide"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Ambassador_Morgenthau%27s_Story_p314.jpg/960px-Ambassador_Morgenthau%27s_Story_p314.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ambassador_Morgenthau%27s_Story_p314.jpg",
+    "credit": "Henry Morgenthau",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Ambassador Morgenthau's Story p314.jpg",
+    "fetched_at": "2026-07-08T18:31:24.503324+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_29_102",
+  "appears_in_events": [
+    "evt_2026_06_29_102"
+  ],
+  "created_at": "2026-07-08T18:31:20.315171+00:00",
+  "last_updated": "2026-07-08T18:31:28.515037+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_29_102",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q80034 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q80034"
+    }
+  ]
+}

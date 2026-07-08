@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_kronstadt",
+  "type": "location",
+  "canonical_name": "Kronstadt",
+  "aliases": [],
+  "wikidata_qid": "Q155863",
+  "summary": "Kronstadt is a Russian port city in Kronshtadtsky District of the federal city of Saint Petersburg, located on Kotlin Island, 30 km (19 mi) west of Saint Petersburg, near the head of the Gulf of Finland. It is linked to the former Russian capital by a combination levee-causeway-seagate, the St Petersburg Dam, part of the city's flood defences, which also acts as road access to Kotlin island from the mainland.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Kronstadt"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Naval_Cathedral_of_St_Nicholas_in_Kronstadt_02.jpg/960px-Naval_Cathedral_of_St_Nicholas_in_Kronstadt_02.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Naval_Cathedral_of_St_Nicholas_in_Kronstadt_02.jpg",
+    "credit": "Florstein (Telegram:WikiPhoto.Space)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Naval Cathedral of St Nicholas in Kronstadt 02.jpg",
+    "fetched_at": "2026-07-08T18:24:35.025459+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_06_europe_001"
+  ],
+  "created_at": "2026-07-08T18:24:29.840311+00:00",
+  "last_updated": "2026-07-08T18:25:05.508832+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q155863 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q155863"
+    }
+  ]
+}

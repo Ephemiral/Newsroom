@@ -1,0 +1,50 @@
+{
+  "thread_schema_version": "0.1",
+  "thread_id": "thr_nato_ankara_summit_and_ukraine_air_defense_requests",
+  "title": "NATO Ankara Summit and Ukraine Air Defense Requests",
+  "title_source": "auto",
+  "summary": "Ukraine seeks increased air defense support from NATO allies at their Ankara summit while facing ongoing Russian missile and drone attacks on cities.",
+  "status": "developing",
+  "beats": [
+    "europe"
+  ],
+  "key_entities": [
+    "ent_organization_nato",
+    "ent_organization_russia",
+    "ent_person_donald_trump",
+    "ent_person_mark_rutte",
+    "ent_person_vladimir_putin",
+    "ent_person_volodymyr_zelensky",
+    "ent_technology_patriot_missile_system"
+  ],
+  "events": [
+    {
+      "cluster_id": "evt_2026_07_06_europe_002",
+      "date": "2026-07-06",
+      "chapter_summary": "Russia launched a major missile and drone attack on Kyiv on July 6, 2026, killing at least 22 people, timed days before a NATO summit in Ankara where Ukraine's air defense needs are set to be discussed.",
+      "link_score": 1.0
+    },
+    {
+      "cluster_id": "evt_2026_07_08_europe_002",
+      "date": "2026-07-07",
+      "chapter_summary": "Zelensky met with Trump at the Ankara summit and discussions advanced toward a potential Patriot missile licensing deal for Ukraine, while Russian strikes killed more than 50 civilians in recent attacks on Kyiv.",
+      "link_score": 0.563
+    }
+  ],
+  "created_at": "2026-07-08T18:37:30.547569+00:00",
+  "last_updated": "2026-07-08T18:37:42.950117+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Thread created"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Added evt_2026_07_06_europe_002"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Added evt_2026_07_08_europe_002"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_isaac_herzog",
+  "type": "person",
+  "canonical_name": "Isaac Herzog",
+  "aliases": [
+    "President Isaac Herzog"
+  ],
+  "wikidata_qid": "Q983258",
+  "summary": "Isaac \"Bougie\" Herzog is an Israeli politician who has been serving since 2021 as the president of Israel. He is the first president to have been born in Israel after its Declaration of Independence.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Isaac_Herzog"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Israeli_President_Isaac_Herzog_in_2024_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Israeli_President_Isaac_Herzog_in_2024_(cropped).jpg",
+    "credit": "U.S. Department of State",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Israeli President Isaac Herzog in 2024 (cropped).jpg",
+    "fetched_at": "2026-07-08T18:26:33.284240+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Minister of Welfare and Social Services",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q983258",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Knesset member",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q983258",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President of Israel",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q983258",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Tourism",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q983258",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_01_065",
+  "appears_in_events": [
+    "evt_2026_06_01_065"
+  ],
+  "created_at": "2026-07-08T18:26:29.669066+00:00",
+  "last_updated": "2026-07-08T18:26:37.187075+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_01_065",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q983258 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q983258"
+    }
+  ]
+}

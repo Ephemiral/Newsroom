@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getEvent, getEntityMap } from '@/lib/data';
+import { getEvent, getEntityMap, getThread } from '@/lib/data';
 import OutletCard from '@/components/OutletCard';
 import ClaimSection from '@/components/ClaimSection';
 import BiasLegend from '@/components/BiasLegend';
@@ -48,6 +48,8 @@ export default async function EventPage({ params }: Props) {
 
   // Entity cards (schema v0.5): load store records for this event's entities,
   // plus one hop of connection targets so edges in the panel can navigate.
+  const thread = event.event.thread_id ? getThread(event.event.thread_id) : null;
+
   const eventEntities = event.event.entities ?? [];
   const entityRecords = getEntityMap(eventEntities.map((e) => e.entity_id));
   const connectionIds = Object.values(entityRecords)
@@ -127,8 +129,34 @@ export default async function EventPage({ params }: Props) {
           </div>
         </header>
 
+        {/* Part of a developing story — link to the full thread */}
+        {thread && (
+          <Link href={`/thread/${thread.thread_id}`} style={{
+            display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12,
+            margin: '0 0 32px', padding: '14px 18px',
+            background: '#f2ede4', border: '1px solid #e2d7c2', borderRadius: 4, textDecoration: 'none',
+          }}>
+            <div>
+              <div style={{
+                font: '600 10px/1 var(--font-archivo), system-ui',
+                letterSpacing: '.14em', textTransform: 'uppercase', color: '#b08a4a', marginBottom: 6,
+              }}>
+                Part of a developing story · {thread.events.length} developments
+              </div>
+              <div style={{
+                fontFamily: 'var(--font-spectral), serif', fontSize: 16, lineHeight: 1.4, color: '#141109',
+              }}>
+                {thread.title}
+              </div>
+            </div>
+            <span style={{ font: '500 13px/1 var(--font-archivo), system-ui', color: '#b08a4a', whiteSpace: 'nowrap' }}>
+              See the full thread →
+            </span>
+          </Link>
+        )}
+
         {/* Earlier coverage — developments of an ongoing story link back */}
-        {(event.event.related_events?.length ?? 0) > 0 && (
+        {!thread && (event.event.related_events?.length ?? 0) > 0 && (
           <div style={{
             margin: '0 0 32px', padding: '12px 16px',
             background: '#f2ede4', border: '1px solid #e2d7c2', borderRadius: 4,

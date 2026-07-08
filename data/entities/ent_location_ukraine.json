@@ -3,7 +3,9 @@
   "entity_id": "ent_location_ukraine",
   "type": "location",
   "canonical_name": "Ukraine",
-  "aliases": [],
+  "aliases": [
+    "Ukrainian"
+  ],
   "wikidata_qid": "Q212",
   "summary": "Ukraine is a country in Eastern Europe. It is the second-largest country in Europe after Russia, which borders it to the east and northeast.",
   "summary_sources": [
@@ -59,10 +61,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_08_europe_001",
   "appears_in_events": [
-    "evt_2026_07_08_europe_001"
+    "evt_2026_07_08_europe_001",
+    "evt_2026_06_04_017"
   ],
   "created_at": "2026-07-08T15:18:50.349600+00:00",
-  "last_updated": "2026-07-08T15:18:55.922593+00:00",
+  "last_updated": "2026-07-08T18:28:37.099420+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

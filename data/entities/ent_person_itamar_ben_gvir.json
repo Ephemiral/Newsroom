@@ -1,0 +1,72 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_itamar_ben_gvir",
+  "type": "person",
+  "canonical_name": "Itamar Ben Gvir",
+  "aliases": [
+    "Itamar Ben-Gvir",
+    "Ben Gvir"
+  ],
+  "wikidata_qid": "Q12403861",
+  "summary": "Itamar Ben-Gvir is an Israeli politician and lawyer who has served as the minister of national security since 2022, except for a two-month gap in early 2025. He is the leader of Otzma Yehudit, an Israeli far-right, Kahanist and anti-Arab party which won six seats in the 2022 legislative election and is part of the thirty-seventh government of Israel.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Itamar_Ben-Gvir"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Itamar_Ben_Gvir_3_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Itamar_Ben_Gvir_3_(cropped).jpg",
+    "credit": "אלון נוריאל",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Itamar Ben Gvir 3 (cropped).jpg",
+    "fetched_at": "2026-07-08T18:26:19.361245+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "party leader",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q12403861",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Knesset member",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q12403861",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of National Security of Israel",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q12403861",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_01_065",
+  "appears_in_events": [
+    "evt_2026_06_01_065"
+  ],
+  "created_at": "2026-07-08T18:26:15.226036+00:00",
+  "last_updated": "2026-07-08T18:26:37.185861+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_01_065",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q12403861 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q12403861"
+    }
+  ]
+}

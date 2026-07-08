@@ -1,0 +1,95 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_st_petersburg",
+  "type": "location",
+  "canonical_name": "St Petersburg",
+  "aliases": [
+    "Saint Petersburg"
+  ],
+  "wikidata_qid": "Q656",
+  "summary": "Saint Petersburg, formerly known as Petrograd (Петроград) and later Leningrad (Ленинград), is the second-largest city in Russia, after Moscow, the nation's capital. Situated on the Neva River at the head of the Gulf of Finland on the Baltic Sea, its area of \n1,439 square kilometers (556 sq mi) renders it the smallest administrative division of Russia by area.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Saint_Petersburg"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peter_%26_Paul_fortress_in_SPB_03.jpg/960px-Peter_%26_Paul_fortress_in_SPB_03.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Peter_%26_Paul_fortress_in_SPB_03.jpg",
+    "credit": "Florstein (Telegram:WikiPhoto.Space)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Peter & Paul fortress in SPB 03.jpg",
+    "fetched_at": "2026-07-08T18:24:29.838203+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The city had a population of 5,601,911 residents as of 2021, with more than 6.4 million people living in the metropolitan area.",
+      "source_url": "https://en.wikipedia.org/wiki/Saint_Petersburg",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Saint Petersburg is the fourth-most populous city in Europe, the most populous city on the Baltic Sea, and the world's northernmost city of more than 1 million residents.",
+      "source_url": "https://en.wikipedia.org/wiki/Saint_Petersburg",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "As the former capital of the Russian Empire, and a historically strategic Baltic port, it is governed as a federal city.",
+      "source_url": "https://en.wikipedia.org/wiki/Saint_Petersburg",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_06_europe_001"
+  ],
+  "created_at": "2026-07-08T18:24:25.489203+00:00",
+  "last_updated": "2026-07-08T18:25:05.507228+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Saint_Petersburg"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Saint_Petersburg"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Saint_Petersburg"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q656 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q656"
+    }
+  ]
+}

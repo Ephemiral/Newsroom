@@ -1,0 +1,70 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_steve_witkoff",
+  "type": "person",
+  "canonical_name": "Steve Witkoff",
+  "aliases": [],
+  "wikidata_qid": "Q16189572",
+  "summary": "Steven Charles Witkoff is an American real estate investor and former attorney who is the founder of the Witkoff Group. Since 2025, Witkoff has served as the United States special envoy to the Middle East and special envoy for peace missions.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Steve_Witkoff"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/A_swearing-in_ceremony_for_Senior_Adviser_and_Special_Envoy_Steve_Witkoff%2C_May_6%2C_2025_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:A_swearing-in_ceremony_for_Senior_Adviser_and_Special_Envoy_Steve_Witkoff,_May_6,_2025_(cropped).jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:A swearing-in ceremony for Senior Adviser and Special Envoy Steve Witkoff, May 6, 2025 (cropped).jpg",
+    "fetched_at": "2026-07-08T18:31:36.031377+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "United States Special Envoy for Middle East Peace",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q16189572",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He has also acted as a de facto envoy to Russian president Vladimir Putin.",
+      "source_url": "https://en.wikipedia.org/wiki/Steve_Witkoff",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_01_026",
+  "appears_in_events": [
+    "evt_2026_07_01_026"
+  ],
+  "created_at": "2026-07-08T18:31:32.707585+00:00",
+  "last_updated": "2026-07-08T18:31:55.848603+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_01_026",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Steve_Witkoff"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q16189572 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q16189572"
+    }
+  ]
+}

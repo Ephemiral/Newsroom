@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_ministry_of_emergency_management",
+  "type": "organization",
+  "canonical_name": "Ministry of Emergency Management",
+  "aliases": [],
+  "wikidata_qid": "Q65042431",
+  "summary": "The Ministry of Emergency Management (MEM) is the 24th-ranked constituent department of the State Council of China, responsible for the country's emergency management, work safety, and emergency rescue. It is the result of a merger from emergency management departments in various ministries due to a State Council reform in 2018.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ministry_of_Emergency_Management"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Ministry_of_Emergency_Management_of_China_headquarters_%2820200103162856%29.jpg/960px-Ministry_of_Emergency_Management_of_China_headquarters_%2820200103162856%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ministry_of_Emergency_Management_of_China_headquarters_(20200103162856).jpg",
+    "credit": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Ministry of Emergency Management of China headquarters (20200103162856).jpg",
+    "fetched_at": "2026-07-08T18:23:26.922564+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_07_asia_001"
+  ],
+  "created_at": "2026-07-08T18:23:22.009880+00:00",
+  "last_updated": "2026-07-08T18:23:39.025702+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q65042431 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q65042431"
+    }
+  ]
+}

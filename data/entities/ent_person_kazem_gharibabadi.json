@@ -1,0 +1,63 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_kazem_gharibabadi",
+  "type": "person",
+  "canonical_name": "Kazem Gharibabadi",
+  "aliases": [],
+  "wikidata_qid": "Q16051359",
+  "summary": "Kazem Gharibabadi is an Iranian diplomat and legal expert, who has served as his country's Deputy Foreign Minister for Legal and International Affairs since September 2024. He has previously held a number of senior roles in Iran's legal and diplomatic institutions, including as a key representative in discussions concerning Iran's nuclear program.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Kazem_Gharibabadi"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kazem_Gharib_Abadi_%2801118790%29.jpg/960px-Kazem_Gharib_Abadi_%2801118790%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Kazem_Gharib_Abadi_(01118790).jpg",
+    "credit": "IAEA Imagebank",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Kazem Gharib Abadi (01118790).jpg",
+    "fetched_at": "2026-07-08T18:30:45.525440+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Permanent Representative to the International Atomic Energy Agency",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q16051359",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "ambassador of Iran to the Netherlands",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q16051359",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_29_026",
+  "appears_in_events": [
+    "evt_2026_06_29_026",
+    "evt_2026_07_01_026",
+    "evt_2026_07_01_175"
+  ],
+  "created_at": "2026-07-08T18:30:41.697103+00:00",
+  "last_updated": "2026-07-08T18:32:29.640908+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_29_026",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q16051359 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q16051359"
+    }
+  ]
+}

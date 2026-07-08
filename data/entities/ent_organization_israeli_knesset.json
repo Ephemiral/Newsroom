@@ -1,0 +1,31 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_israeli_knesset",
+  "type": "organization",
+  "canonical_name": "Israeli Knesset",
+  "aliases": [
+    "Knesset"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_04_023",
+  "appears_in_events": [
+    "evt_2026_06_04_023",
+    "evt_2026_06_29_102"
+  ],
+  "created_at": "2026-07-08T18:28:59.799018+00:00",
+  "last_updated": "2026-07-08T18:31:28.512870+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_04_023",
+      "source": null
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_qatar",
+  "type": "organization",
+  "canonical_name": "Qatar",
+  "aliases": [
+    "Qatar's foreign ministry"
+  ],
+  "wikidata_qid": "Q846",
+  "summary": "Qatar, officially the State of Qatar, is a country in West Asia. It occupies the Qatar Peninsula on the northeastern coast of the Arabian Peninsula in the Middle East; it shares its sole land border with Saudi Arabia to the south, with the rest of its territory surrounded by the Persian Gulf.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Qatar"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Skyline_of_Doha_West_Bay.jpg/960px-Skyline_of_Doha_West_Bay.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Doha_West_Bay.jpg",
+    "credit": "Ceslou",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Skyline of Doha West Bay.jpg",
+    "fetched_at": "2026-07-08T18:31:46.525957+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q846"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q846"
+    }
+  ],
+  "facts": [
+    {
+      "text": "The Gulf of Bahrain, an inlet of the Persian Gulf, separates Qatar from nearby Bahrain.",
+      "source_url": "https://en.wikipedia.org/wiki/Qatar",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The capital is Doha, home to over 80% of the country's inhabitants.",
+      "source_url": "https://en.wikipedia.org/wiki/Qatar",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Most of the land area is made up of flat, low-lying desert.",
+      "source_url": "https://en.wikipedia.org/wiki/Qatar",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_01_026",
+  "appears_in_events": [
+    "evt_2026_07_01_026"
+  ],
+  "created_at": "2026-07-08T18:31:41.807843+00:00",
+  "last_updated": "2026-07-08T18:31:55.851697+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_01_026",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Qatar"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Qatar"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Qatar"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q846 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q846"
+    }
+  ]
+}

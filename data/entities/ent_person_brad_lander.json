@@ -1,0 +1,61 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_brad_lander",
+  "type": "person",
+  "canonical_name": "Brad Lander",
+  "aliases": [],
+  "wikidata_qid": "Q15109509",
+  "summary": "Bradford Scott Lander is an American politician and urban planner who is the Democratic party nominee for New York's 10th congressional district, having defeated incumbent representative Dan Goldman in the primary. A progressive, he previously served as New York City comptroller from 2022 until 2025, and before that served on the New York City Council from 2010 to 2021, representing the 39th district, which is partly based in Brooklyn.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Brad_Lander"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Brad_Lander_2010.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Brad_Lander_2010.jpg",
+    "credit": "Assemblyman_Lancman_Joins_Public_Advocate_Bill_de_Blasio_to_Urge_Corporations_to_Disclose_Political_Spending.jpg: lancmanoffice\nderivative work: Delaywaves (talk)",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Brad Lander 2010.jpg",
+    "fetched_at": "2026-07-08T18:27:54.259227+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "New York City Comptroller",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q15109509",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the New York City Council",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q15109509",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_04_014",
+  "appears_in_events": [
+    "evt_2026_06_04_014"
+  ],
+  "created_at": "2026-07-08T18:27:50.414221+00:00",
+  "last_updated": "2026-07-08T18:28:01.906668+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_04_014",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q15109509 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q15109509"
+    }
+  ]
+}

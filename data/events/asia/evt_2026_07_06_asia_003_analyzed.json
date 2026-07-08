@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_07_06_asia_003",
     "beat": "asia",
@@ -22,7 +22,138 @@
       "file_title": "File:Negombo Lagoon (42672733110).jpg",
       "query": "Negombo Prison Sri Lanka",
       "fetched_at": "2026-07-06T20:54:05.131823+00:00"
-    }
+    },
+    "entities": [
+      {
+        "entity_id": "ent_location_negombo_prison",
+        "surfaces": [
+          "Negombo Prison"
+        ],
+        "relevance_to_event": "The facility where the riot occurred; holds approximately 2,400 inmates at roughly four times capacity and was the direct site of the violence that killed 26 people and injured over 100.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_007",
+            "clm_023",
+            "clm_027"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_sri_lanka",
+        "surfaces": [
+          "Sri Lanka"
+        ],
+        "relevance_to_event": "The country where the riot took place; operates a prison system holding 41,250 inmates at four times capacity, with a history of periodic prison violence linked to overcrowding and drug-related conflicts.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_022",
+            "clm_024",
+            "clm_025"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_colombo",
+        "surfaces": [
+          "Colombo"
+        ],
+        "relevance_to_event": "The capital city approximately 35 kilometers south of Negombo Prison; served as the location where 18 of the most seriously wounded were transferred to Colombo National Hospital.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_007",
+            "clm_026"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_harshana_nanayakkara",
+        "surfaces": [
+          "Justice Minister Harshana Nanayakkara"
+        ],
+        "relevance_to_event": "The Justice Minister who visited Negombo Prison, expressed condolences, instructed authorities to investigate, and announced the final death toll of 26.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_sri_lanka_police",
+        "surfaces": [
+          "police",
+          "police riot control squads",
+          "police special forces"
+        ],
+        "relevance_to_event": "Deployed riot control squads and special forces to control the riot; characterized the violence as a clash between inmates from two drug gangs.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_015",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_sri_lankan_armed_forces",
+        "surfaces": [
+          "armed forces",
+          "military",
+          "Sri Lanka Air Force"
+        ],
+        "relevance_to_event": "Requested by police to provide support; placed on standby with armoured vehicles positioned around the prison perimeter after dusk, though did not enter the facility.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_department_of_prisons",
+        "surfaces": [
+          "Department of Prisons"
+        ],
+        "relevance_to_event": "The agency responsible for prison operations and capacity management; officially reports that Negombo Prison holds approximately 2,400 inmates.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_negombo_hospital",
+        "surfaces": [
+          "Negombo Hospital"
+        ],
+        "relevance_to_event": "Received 23 of the bodies from the riot and treated injured inmates and prison staff with gunshot wounds, cuts, and severe bruises.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

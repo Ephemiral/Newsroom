@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_07_06_europe_001",
     "beat": "europe",
@@ -22,7 +22,140 @@
       "file_title": "File:Port of Saint Petersburg 20241124 140907 MP.jpg",
       "query": "St Petersburg port industrial",
       "fetched_at": "2026-07-06T16:00:03.851560+00:00"
-    }
+    },
+    "entities": [
+      {
+        "entity_id": "ent_person_volodymyr_zelensky",
+        "surfaces": [
+          "President Zelenskyy",
+          "Zelenskyy"
+        ],
+        "relevance_to_event": "President of Ukraine who confirmed the drone strikes on St Petersburg and denied Russian claims of capturing Kostiantynivka, characterizing the attacks as 'long-range sanctions' against Russian war financing.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_vladimir_putin",
+        "surfaces": [
+          "Putin"
+        ],
+        "relevance_to_event": "Russian President who received reports of the claimed capture of Kostiantynivka, dismissed strikes on Russian energy as 'not critical,' and was targeted in the St Petersburg attack weeks after a previous strike during an economic conference he was attending.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013",
+            "clm_018",
+            "clm_024",
+            "clm_025",
+            "clm_026"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_st_petersburg",
+        "surfaces": [
+          "St Petersburg"
+        ],
+        "relevance_to_event": "Russian city whose oil terminal was struck by Ukrainian drones on 4 July 2026, described as one of Russia's largest refineries capable of producing 12.5 million tonnes of petroleum annually.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_005",
+            "clm_006",
+            "clm_009",
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_kronstadt",
+        "surfaces": [
+          "Kronstadt"
+        ],
+        "relevance_to_event": "Major Russian Baltic Fleet naval base over 850 km from Ukraine's border that Ukraine claimed to have struck in the overnight attack, constituting a significant escalation in long-range drone operations.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_kostiantynivka",
+        "surfaces": [
+          "Kostiantynivka"
+        ],
+        "relevance_to_event": "Eastern Ukrainian city in Donetsk that is the subject of direct contradictory claims between Russia (claiming capture) and Ukraine (denying capture and maintaining defensive control) as a key settlement in Ukraine's defensive line.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_012",
+            "clm_013",
+            "clm_014",
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_donetsk_region",
+        "surfaces": [
+          "Donetsk"
+        ],
+        "relevance_to_event": "Ukrainian region where Kostiantynivka is located and where Russia claims additional territorial gains; the contested territory is central to the military dispute described in this report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_012",
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_russian_defence_ministry",
+        "surfaces": [
+          "Russian Defence Ministry"
+        ],
+        "relevance_to_event": "Entity that reported intercepting 389-500 Ukrainian drones and missiles, characterized the attacks as attempting to distract from Russian operations, and claimed the capture of five villages across Kharkiv and Donetsk regions.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_ukraine_s_general_staff",
+        "surfaces": [
+          "Ukraine's General Staff"
+        ],
+        "relevance_to_event": "Military command that denied Russian claims of capturing Kostiantynivka and confirmed Ukraine's continued control and active defensive operations in the city.",
+        "relevance_supports": {
+          "claim_ids": [],
+          "source_ids": []
+        },
+        "relevance_grounding": "sources_fallback"
+      }
+    ]
   },
   "sources": [
     {

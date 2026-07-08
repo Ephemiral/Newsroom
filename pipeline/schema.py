@@ -18,7 +18,9 @@ import os
 # 0.4 — optional claim.dispute_type ("actor") for actor disputes (B-16)
 # 0.5 — optional event.entities[] (STAGE_7 entity cards; entity store lives in
 #       data/entities/ with its own ENTITY_SCHEMA_VERSION)
-EVENT_SCHEMA_VERSION = "0.5"
+# 0.6 — optional event.thread_id (STAGE_8 story threading; thread objects live in
+#       data/threads/ with their own THREAD_SCHEMA_VERSION)
+EVENT_SCHEMA_VERSION = "0.6"
 
 
 @dataclass

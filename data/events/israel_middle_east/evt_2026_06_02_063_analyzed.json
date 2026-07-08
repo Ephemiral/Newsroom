@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_06_02_063",
     "beat": "israel_middle_east",
@@ -22,7 +22,69 @@
       "file_title": "File:230315-F-UT528-1015 - Israeli Air Force at Red Flag-Nellis 23-2, 15 Mar, 2023.jpg",
       "query": "Israeli Air Force",
       "fetched_at": "2026-07-06T07:55:15.992966+00:00"
-    }
+    },
+    "entities": [
+      {
+        "entity_id": "ent_person_benjamin_netanyahu",
+        "surfaces": [
+          "Netanyahu",
+          "Israeli Prime Minister Netanyahu"
+        ],
+        "relevance_to_event": "Israeli Prime Minister who made a public statement about the military strike operation targeting Hamas's military wing chief.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_hamas",
+        "surfaces": [
+          "Hamas",
+          "Hamas's military wing"
+        ],
+        "relevance_to_event": "Organization whose military wing chief was killed in the strike; confirmed the death of its own commander, lending credibility to the Israeli operation claim.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israel",
+        "surfaces": [
+          "Israel"
+        ],
+        "relevance_to_event": "Conducted the military strike in Gaza that killed Hamas's military wing chief.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_gaza_strip",
+        "surfaces": [
+          "Gaza"
+        ],
+        "relevance_to_event": "Location where the military strike was conducted by Israel.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

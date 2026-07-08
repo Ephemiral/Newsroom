@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_06_04_014",
     "beat": "israel_middle_east",
@@ -22,7 +22,142 @@
       "file_title": "openverse:1b794cf4-9166-4a55-b2e0-51746970bea0|Israel day parade 2026",
       "query": "Israel Day parade",
       "fetched_at": "2026-07-06T09:11:36.890184+00:00"
-    }
+    },
+    "entities": [
+      {
+        "entity_id": "ent_person_bezalel_smotrich",
+        "surfaces": [
+          "Bezalel Smotrich",
+          "Smotrich"
+        ],
+        "relevance_to_event": "Israeli Finance Minister whose unannounced appearance at the parade sparked the central controversy, drawing condemnation from multiple New York officials and becoming a key flashpoint in the Congressional primary race.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_007",
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_kathy_hochul",
+        "surfaces": [
+          "Kathy Hochul",
+          "Governor Hochul"
+        ],
+        "relevance_to_event": "New York Governor who attended the parade, addressed the crowd, and subsequently issued a statement strongly condemning Smotrich's participation in the event.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_zohran_mamdani",
+        "surfaces": [
+          "Zohran Mamdani",
+          "Mamdani"
+        ],
+        "relevance_to_event": "New York City Mayor who became the first mayor in the parade's 61-year history not to attend, citing opposition to the Israeli government and stating he was 'offended' by Smotrich's participation, calling it 'an affront to everything New York stands for.'",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016",
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_chuck_schumer",
+        "surfaces": [
+          "Chuck Schumer",
+          "Senate Minority Leader Chuck Schumer"
+        ],
+        "relevance_to_event": "U.S. Senate Minority Leader who attended the parade; his office issued a statement reaffirming his longstanding public condemnation of Smotrich's extremism.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_dan_goldman",
+        "surfaces": [
+          "Dan Goldman"
+        ],
+        "relevance_to_event": "Incumbent U.S. Representative for New York's 10th Congressional District who marched in the parade and stated he was 'proud' to do so, becoming a central figure in the Democratic primary debate over the parade.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_025"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_brad_lander",
+        "surfaces": [
+          "Brad Lander"
+        ],
+        "relevance_to_event": "Former New York City Comptroller running for New York's 10th Congressional District who did not march in the parade and argued during the primary debate that Israel is committing genocide and that he will not march alongside Netanyahu government ministers.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_025"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_jewish_community_relations_council_of_new_york",
+        "surfaces": [
+          "Jewish Community Relations Council of New York",
+          "JCRC-NY"
+        ],
+        "relevance_to_event": "Parade organizer that stated it was unaware Smotrich would attend and did not learn of his presence until near the end of the event; decisions about the Israeli delegation were handled by the Israeli consulate.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israel_day_on_fifth_parade",
+        "surfaces": [
+          "Israel Day on Fifth parade",
+          "Israel Day Parade"
+        ],
+        "relevance_to_event": "The 61-year-old annual event on May 31, 2026, that became the central venue for the controversy over Smotrich's unannounced attendance and a flashpoint in the Congressional primary race.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_004",
+            "clm_014",
+            "clm_015",
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

@@ -1,0 +1,47 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_guangxi_region",
+  "type": "location",
+  "canonical_name": "Guangxi region",
+  "aliases": [
+    "Guangxi",
+    "Guangxi province"
+  ],
+  "wikidata_qid": "Q15176",
+  "summary": "Guangxi, officially the Guangxi Zhuang Autonomous Region (GZAR), is an autonomous region of the People's Republic of China, located in South China and bordering Vietnam and the Gulf of Tonkin. Formerly a province, Guangxi became an autonomous region in 1958.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Guangxi"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/1_li_jiang_guilin_yangshuo_2011.jpg/960px-1_li_jiang_guilin_yangshuo_2011.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:1_li_jiang_guilin_yangshuo_2011.jpg",
+    "credit": "chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:1 li jiang guilin yangshuo 2011.jpg",
+    "fetched_at": "2026-07-08T18:23:14.670050+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_07_asia_001"
+  ],
+  "created_at": "2026-07-08T18:23:10.224972+00:00",
+  "last_updated": "2026-07-08T18:23:39.022825+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q15176 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q15176"
+    }
+  ]
+}

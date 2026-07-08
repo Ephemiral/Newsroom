@@ -1,7 +1,7 @@
 # STAGE 8 — Story Threading (Milestone M11)
 
-> **Status: DESIGN — pending G's review. No implementation until approved.**
-> Links event clusters that are chapters of the same ongoing story into a persistent, named, ordered **thread**, so a reader can open "US–Iran negotiations" and follow the whole arc — not just today's snapshot. Threads are a **cross-beat** organizing layer surfaced on their own **"Developing"** tab.
+> **Status: ✅ IMPLEMENTED (2026-07-08, same session as approval).** `pipeline/threading/` live and wired into `auto_run.py`; thread store at `data/threads/`; **"Threads"** tab + `/threads` list + `/thread/[id]` arc + event-page banner shipped. Backfill formed 3 threads (Khamenei funeral, NATO/Ukraine, US–Iran Hormuz) with neutral AI titles. G's approved decisions: tab label **"Threads"**, neutral human-overridable titles, backfill yes. Implementation note: the specific-entity guard was refactored from an IDF *percentile* (which demanded `df=1` and blocked every shared entity) to a **ubiquity cap** (`df ≤ 25% of events`) — see match.py.
+> Links event clusters that are chapters of the same ongoing story into a persistent, named, ordered **thread**, so a reader can open "US–Iran negotiations" and follow the whole arc — not just today's snapshot. Threads are a **cross-beat** organizing layer surfaced on their own **"Threads"** tab.
 
 **Prerequisite reading:** `00_MASTER_DOCUMENT.md`, `STAGE_3_4_ANALYZE_ANNOTATE.md` (JSON contract), `STAGE_7_ENTITIES.md` (entities power the matching), `STAGE_6_FRONTEND.md`.
 **Milestone:** M11. **Phase:** 3.

@@ -1,0 +1,78 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_jared_kushner",
+  "type": "person",
+  "canonical_name": "Jared Kushner",
+  "aliases": [],
+  "wikidata_qid": "Q13628723",
+  "summary": "Jared Corey Kushner is an American businessman, investor, government official and politician. Through his marriage to Ivanka Trump, he is the son-in-law of the 45th and 47th president of the United States Donald Trump.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Jared_Kushner"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Jared_Kushner_2018.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Jared_Kushner_2018.jpg",
+    "credit": "U.S. Embassy Jerusalem",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Jared Kushner 2018.jpg",
+    "fetched_at": "2026-07-08T18:31:41.280780+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Senior Advisor to the President of the United States",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q13628723",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Office of American Innovation",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q13628723",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Kushner has served in both official and informal roles in the first and second Trump administrations.",
+      "source_url": "https://en.wikipedia.org/wiki/Jared_Kushner",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_01_026",
+  "appears_in_events": [
+    "evt_2026_07_01_026"
+  ],
+  "created_at": "2026-07-08T18:31:36.560990+00:00",
+  "last_updated": "2026-07-08T18:31:55.849727+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_01_026",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Jared_Kushner"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q13628723 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q13628723"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_07_06_asia_001",
     "beat": "asia",
@@ -22,7 +22,132 @@
       "file_title": "File:SLBM Comparison.jpg",
       "query": "submarine-launched ballistic missile",
       "fetched_at": "2026-07-06T17:48:09.862093+00:00"
-    }
+    },
+    "entities": [
+      {
+        "entity_id": "ent_organization_people_s_liberation_army_navy",
+        "surfaces": [
+          "China's People's Liberation Army Navy",
+          "PLA Navy"
+        ],
+        "relevance_to_event": "The entity that conducted the submarine-launched missile test on July 6, 2026, which is the central action of this news report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_jl_3",
+        "surfaces": [
+          "JL-3"
+        ],
+        "relevance_to_event": "State-controlled media cited in the report identified this as the likely missile type used in the test, described as China's most advanced submarine-launched missile with intercontinental range.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_south_pacific_nuclear_free_zone",
+        "surfaces": [
+          "South Pacific Nuclear Free Zone"
+        ],
+        "relevance_to_event": "The missile was fired into this zone established by the 1986 Treaty of Rarotonga, raising questions about compliance since China ratified protocols pledging not to test nuclear weapons within it.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_anthony_albanese",
+        "surfaces": [
+          "Anthony Albanese",
+          "Australian Prime Minister Anthony Albanese"
+        ],
+        "relevance_to_event": "Australian Prime Minister whose Pacific diplomatic tour coincided with the missile test and who characterized the Australia-Fiji security agreement as highly significant to Australia's regional engagement.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_winston_peters",
+        "surfaces": [
+          "Winston Peters"
+        ],
+        "relevance_to_event": "New Zealand Foreign Minister who publicly criticized the missile test as an unwelcome development and objected to the short notice period before launch.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_australia",
+        "surfaces": [
+          "Australia",
+          "Canberra"
+        ],
+        "relevance_to_event": "Country that signed the Ocean of Peace Alliance with Fiji on the same day as the test, whose officials expressed concern about China's military buildup and the destabilizing nature of the test.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_008",
+            "clm_009",
+            "clm_015",
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_taiwan",
+        "surfaces": [
+          "Taiwan"
+        ],
+        "relevance_to_event": "Country that was tracking the Chinese naval movements and whose presidential office characterized the test as an attempt to intimidate the international community.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_political_party_ocean_of_peace_alliance",
+        "surfaces": [
+          "Ocean of Peace alliance"
+        ],
+        "relevance_to_event": "Mutual defence pact between Australia and Fiji signed on July 6, 2026, the same day as the missile test, which some sources characterized as intended to counter Chinese influence in the Pacific.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_017",
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

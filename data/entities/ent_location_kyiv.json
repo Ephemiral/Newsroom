@@ -60,10 +60,11 @@
   "first_seen_event": "evt_2026_07_08_europe_001",
   "appears_in_events": [
     "evt_2026_07_08_europe_001",
-    "evt_2026_07_08_europe_002"
+    "evt_2026_07_08_europe_002",
+    "evt_2026_07_06_europe_002"
   ],
   "created_at": "2026-07-08T15:18:48.674321+00:00",
-  "last_updated": "2026-07-08T15:22:48.229477+00:00",
+  "last_updated": "2026-07-08T18:25:24.883655+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

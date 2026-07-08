@@ -1,0 +1,112 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_naftali_bennett",
+  "type": "person",
+  "canonical_name": "Naftali Bennett",
+  "aliases": [
+    "former Prime Minister Naftali Bennett"
+  ],
+  "wikidata_qid": "Q39318",
+  "summary": "Naftali Bennett is an Israeli politician, businessman, and soldier who served as the prime minister of Israel from 2021 to 2022, and as the alternate prime minister from July to November 2022. Bennett has served as the head of Bennett 2026 since 2025; the party is allied with Yesh Atid as part of an alliance called Together.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Naftali_Bennett"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Naftali_Bennett_official_portrait.jpg/960px-Naftali_Bennett_official_portrait.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Naftali_Bennett_official_portrait.jpg",
+    "credit": "Avi Ohayon",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Naftali Bennett official portrait.jpg",
+    "fetched_at": "2026-07-08T18:29:07.341839+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "party leader",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q39318",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Religious Services",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q39318",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Knesset member",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q39318",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Defense of Israel",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q39318",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Prime Minister of Israel",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q39318",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "chief executive officer",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q39318",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Bennett was the leader of the New Right party from 2018 to 2022, having previously led the religious Zionist and far-right political party The Jewish Home between 2012 and 2018.",
+      "source_url": "https://en.wikipedia.org/wiki/Naftali_Bennett",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_04_023",
+  "appears_in_events": [
+    "evt_2026_06_04_023"
+  ],
+  "created_at": "2026-07-08T18:29:02.183425+00:00",
+  "last_updated": "2026-07-08T18:29:11.911868+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_04_023",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Naftali_Bennett"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q39318 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q39318"
+    }
+  ]
+}

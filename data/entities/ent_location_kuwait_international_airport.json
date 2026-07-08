@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_kuwait_international_airport",
+  "type": "location",
+  "canonical_name": "Kuwait International Airport",
+  "aliases": [],
+  "wikidata_qid": "Q527157",
+  "summary": "Kuwait International Airport is an international airport located in the Farwaniya Governorate, Kuwait, 15.5 kilometers (9.6 mi) south of the centre of Kuwait City, spread over an area of 37.7 square kilometres (14.6 sq mi). As of 2025 it is the 12th busiest airport in the Middle East.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Kuwait_International_Airport"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/%D9%85%D8%A8%D9%86%D9%89_%D8%A7%D9%84%D8%B1%D9%83%D8%A7%D8%A8_4_%D9%85%D8%B7%D8%A7%D8%B1_%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA_%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A.jpg/960px-%D9%85%D8%A8%D9%86%D9%89_%D8%A7%D9%84%D8%B1%D9%83%D8%A7%D8%A8_4_%D9%85%D8%B7%D8%A7%D8%B1_%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA_%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%A8%D9%86%D9%89_%D8%A7%D9%84%D8%B1%D9%83%D8%A7%D8%A8_4_%D9%85%D8%B7%D8%A7%D8%B1_%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA_%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A.jpg",
+    "credit": "Faisalalserbel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:مبنى الركاب 4 مطار الكويت الدولي.jpg",
+    "fetched_at": "2026-07-08T18:29:52.126148+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It serves as the primary hub for Kuwait Airways and Jazeera Airways.",
+      "source_url": "https://en.wikipedia.org/wiki/Kuwait_International_Airport",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "A portion of the airport complex is designated as Abdullah Al-Mubarak Air Base, which contains the headquarters of the Kuwait Air Force, as well as the Kuwait Air Force Museum.",
+      "source_url": "https://en.wikipedia.org/wiki/Kuwait_International_Airport",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_04_066",
+  "appears_in_events": [
+    "evt_2026_06_04_066"
+  ],
+  "created_at": "2026-07-08T18:29:47.910049+00:00",
+  "last_updated": "2026-07-08T18:30:13.374405+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_04_066",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Kuwait_International_Airport"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Kuwait_International_Airport"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q527157 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q527157"
+    }
+  ]
+}

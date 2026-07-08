@@ -1,0 +1,89 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_sri_lanka_police",
+  "type": "organization",
+  "canonical_name": "Sri Lanka Police",
+  "aliases": [
+    "Sri Lanka Police Service",
+    "police",
+    "police riot control squads",
+    "police special forces"
+  ],
+  "wikidata_qid": "Q7585941",
+  "summary": "Sri Lanka Police is the civilian national police force of the Democratic Socialist Republic of Sri Lanka. The police force is responsible for enforcing criminal and traffic law, enhancing public safety, maintaining order and keeping the peace throughout Sri Lanka.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Sri_Lanka_Police"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The police force consists of 43 Territorial Divisions, 67 Functional Divisions, 607 Police Stations with more than 84,000 people.",
+      "source_url": "https://en.wikipedia.org/wiki/Sri_Lanka_Police",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The professional head of the police is the Inspector General of Police who reports to the Ministry of Public Security as well as the National Police Commission.",
+      "source_url": "https://en.wikipedia.org/wiki/Sri_Lanka_Police",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The current Inspector General of Police is Priyantha Weerasooriya.",
+      "source_url": "https://en.wikipedia.org/wiki/Sri_Lanka_Police",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_asia_003",
+  "appears_in_events": [
+    "evt_2026_07_06_asia_003"
+  ],
+  "created_at": "2026-07-08T18:22:39.031375+00:00",
+  "last_updated": "2026-07-08T18:22:59.390983+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Sri_Lanka_Police"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Sri_Lanka_Police"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Sri_Lanka_Police"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q7585941 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q7585941"
+    }
+  ]
+}

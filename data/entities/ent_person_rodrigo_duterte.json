@@ -1,0 +1,105 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_rodrigo_duterte",
+  "type": "person",
+  "canonical_name": "Rodrigo Duterte",
+  "aliases": [
+    "former President Rodrigo Duterte",
+    "Sara's father"
+  ],
+  "wikidata_qid": "Q457786",
+  "summary": "Rodrigo Roa Duterte is a Filipino politician who served as the 16th president of the Philippines from 2016 to 2022. He served as mayor of Davao City for three non-consecutive terms between 1988 and 2016.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Rodrigo_Duterte"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/President_Rodrigo_Duterte_portrait_%28half-body_crop%29.jpg/960px-President_Rodrigo_Duterte_portrait_%28half-body_crop%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:President_Rodrigo_Duterte_portrait_(half-body_crop).jpg",
+    "credit": "Government of the Philippines",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:President Rodrigo Duterte portrait (half-body crop).jpg",
+    "fetched_at": "2026-07-08T18:21:52.893188+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Mayor of Davao City",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q457786",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the House of Representatives",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q457786",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President of the Philippines",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q457786",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Duterte is the first Philippine president from Mindanao, and the oldest person to assume office, beginning his term at age 71.",
+      "source_url": "https://en.wikipedia.org/wiki/Rodrigo_Duterte",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Duterte is the chairman of PDP–Laban, the ruling party during his presidency.",
+      "source_url": "https://en.wikipedia.org/wiki/Rodrigo_Duterte",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_06_asia_002"
+  ],
+  "created_at": "2026-07-08T18:21:48.562492+00:00",
+  "last_updated": "2026-07-08T18:22:23.124439+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Rodrigo_Duterte"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Rodrigo_Duterte"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q457786 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q457786"
+    }
+  ]
+}

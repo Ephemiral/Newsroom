@@ -1,0 +1,61 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_nanning",
+  "type": "location",
+  "canonical_name": "Nanning",
+  "aliases": [],
+  "wikidata_qid": "Q179608",
+  "summary": "Nanning is the capital of the Guangxi Zhuang Autonomous Region in southern China. It is known as the \"Green City (绿城)\" because of its abundance of lush subtropical foliage.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Nanning"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Nanning_Seen_from_Longxiang_Tower.jpg/960px-Nanning_Seen_from_Longxiang_Tower.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Nanning_Seen_from_Longxiang_Tower.jpg",
+    "credit": "EditQ",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Nanning Seen from Longxiang Tower.jpg",
+    "fetched_at": "2026-07-08T18:23:22.009153+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Located in the South of Guangxi, Nanning is surrounded by a hilly basin, with a warm, monsoon-influenced humid subtropical climate.",
+      "source_url": "https://en.wikipedia.org/wiki/Nanning",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_07_asia_001"
+  ],
+  "created_at": "2026-07-08T18:23:18.551215+00:00",
+  "last_updated": "2026-07-08T18:23:39.025127+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Nanning"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q179608 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q179608"
+    }
+  ]
+}

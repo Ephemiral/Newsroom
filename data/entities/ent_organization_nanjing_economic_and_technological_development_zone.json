@@ -1,0 +1,54 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_nanjing_economic_and_technological_development_zone",
+  "type": "organization",
+  "canonical_name": "Nanjing Economic and Technological Development Zone",
+  "aliases": [
+    "Nanjing's economic development zone"
+  ],
+  "wikidata_qid": "Q13744044",
+  "summary": "Nanjing Economic and Technological Development Zone is a state-level economic and technological development zone located in the western part of Qixia District, Nanjing, Jiangsu Province, China. It was established on September 18, 1992, and upgraded to a national-level development zone in March 2002 upon approval by the State Council of China.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Nanjing_Economic_and_Technological_Development_Zone"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The zone covers an area of 200 km² and is divided into four main sub-zones: Xinguang, Qixia, Longtan, and LCD Valley.",
+      "source_url": "https://en.wikipedia.org/wiki/Nanjing_Economic_and_Technological_Development_Zone",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_07_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_07_asia_002"
+  ],
+  "created_at": "2026-07-08T18:23:54.660806+00:00",
+  "last_updated": "2026-07-08T18:24:21.185211+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_07_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Nanjing_Economic_and_Technological_Development_Zone"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q13744044 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q13744044"
+    }
+  ]
+}

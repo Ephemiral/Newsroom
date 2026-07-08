@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_06_04_023",
     "beat": "israel_middle_east",
@@ -22,7 +22,139 @@
       "file_title": "File:Knesset front side - 2022.jpg",
       "query": "Israeli parliament chamber",
       "fetched_at": "2026-07-06T07:55:36.267823+00:00"
-    }
+    },
+    "entities": [
+      {
+        "entity_id": "ent_person_benjamin_netanyahu",
+        "surfaces": [
+          "Prime Minister Benjamin Netanyahu",
+          "Netanyahu"
+        ],
+        "relevance_to_event": "Prime Minister who told haredi parties the draft exemption bill lacked coalition support, triggering the coalition crisis; also opposed moving up election dates and sought to control the timing of elections through the coalition's own dissolution bill.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016",
+            "clm_017",
+            "clm_019",
+            "clm_021",
+            "clm_024"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_yair_lapid",
+        "surfaces": [
+          "Yair Lapid",
+          "opposition leader Yair Lapid"
+        ],
+        "relevance_to_event": "Opposition leader who vowed not to form a coalition with haredi parties after elections and criticized Netanyahu's governance, while proposing a united opposition slate.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_027"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_dov_lando",
+        "surfaces": [
+          "Rabbi Dov Lando"
+        ],
+        "relevance_to_event": "Spiritual leader of Degel Hatorah (haredi faction) who instructed his faction's Knesset members to withdraw cooperation with the coalition due to loss of trust in Netanyahu over the draft exemption bill.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_united_torah_judaism",
+        "surfaces": [
+          "United Torah Judaism"
+        ],
+        "relevance_to_event": "Haredi coalition party that announced it would seek to dissolve the Knesset after Netanyahu stated the draft exemption bill lacked sufficient support, directly triggering the coalition crisis.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_shas",
+        "surfaces": [
+          "Shas"
+        ],
+        "relevance_to_event": "Haredi coalition party that pushed for moving up the election date to September to boost ultra-Orthodox voter turnout before the High Holy Days.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israeli_knesset",
+        "surfaces": [
+          "Israeli Knesset",
+          "Knesset"
+        ],
+        "relevance_to_event": "Legislative body that advanced the dissolution bill and attorney general reform bills at the center of this report's events.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_010",
+            "clm_011",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israeli_defense_force",
+        "surfaces": [
+          "Israel Defense Forces",
+          "IDF"
+        ],
+        "relevance_to_event": "Military entity that described an urgent manpower shortage after two years of war, cited by coalition lawmakers opposing the haredi draft exemption as a reason not to support it.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_022",
+            "clm_023"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_naftali_bennett",
+        "surfaces": [
+          "Naftali Bennett",
+          "former Prime Minister Naftali Bennett"
+        ],
+        "relevance_to_event": "Former Prime Minister whom Lapid endorsed as 'the right man to lead' in a proposed united opposition slate, though Liberman declined to back him.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_028"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
   },
   "sources": [
     {

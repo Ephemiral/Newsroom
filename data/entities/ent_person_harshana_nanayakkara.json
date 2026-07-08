@@ -1,0 +1,54 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_harshana_nanayakkara",
+  "type": "person",
+  "canonical_name": "Harshana Nanayakkara",
+  "aliases": [
+    "Justice Minister Harshana Nanayakkara"
+  ],
+  "wikidata_qid": "Q131196351",
+  "summary": "Harshana Nanayakkara is a Sri Lankan former film actor, lawyer, and politician currently serving as the Minister of Justice and National Integration of the Government of Sri Lanka since November 2024. He is a member of the Parliament of Sri Lanka from Colombo Electoral District since November 2024 as a member of the National People's Power.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Harshana_Nanayakkara"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He is also a national executive committee Member of NPP.",
+      "source_url": "https://en.wikipedia.org/wiki/Harshana_Nanayakkara",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_06_asia_003",
+  "appears_in_events": [
+    "evt_2026_07_06_asia_003"
+  ],
+  "created_at": "2026-07-08T18:22:36.206795+00:00",
+  "last_updated": "2026-07-08T18:22:59.390403+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_06_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Harshana_Nanayakkara"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q131196351 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q131196351"
+    }
+  ]
+}

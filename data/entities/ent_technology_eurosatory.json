@@ -1,0 +1,97 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_eurosatory",
+  "type": "technology",
+  "canonical_name": "Eurosatory",
+  "aliases": [
+    "Eurosatory 2026",
+    "2024 Eurosatory",
+    "2025 Paris Air Show"
+  ],
+  "wikidata_qid": "Q1378267",
+  "summary": "Eurosatory is the largest international exhibition for the land and air-land defence and security industry. It is held every two years in the Paris-Nord Villepinte Exhibition Centre, Paris, France.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Eurosatory"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/AMPV.jpg/960px-AMPV.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:AMPV.jpg",
+    "credit": "http://www.rheinmetall-defence.com",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:AMPV.jpg",
+    "fetched_at": "2026-07-08T18:26:12.753283+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "In 2024, it had over 2000 exhibitors from 61 countries, 334 official delegations from 93 countries, and over 75,000 professional visitors from around the world.",
+      "source_url": "https://en.wikipedia.org/wiki/Eurosatory",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It is organised by COGES Events, a subsidiary of GICAT.",
+      "source_url": "https://en.wikipedia.org/wiki/Eurosatory",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Attendance and participation at the exhibition is for professionals only.",
+      "source_url": "https://en.wikipedia.org/wiki/Eurosatory",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_01_065",
+  "appears_in_events": [
+    "evt_2026_06_01_065"
+  ],
+  "created_at": "2026-07-08T18:26:09.055639+00:00",
+  "last_updated": "2026-07-08T18:26:37.184272+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_01_065",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Eurosatory"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Eurosatory"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Eurosatory"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q1378267 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1378267"
+    }
+  ]
+}

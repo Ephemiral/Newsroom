@@ -1,0 +1,108 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_france",
+  "type": "location",
+  "canonical_name": "France",
+  "aliases": [
+    "French"
+  ],
+  "wikidata_qid": "Q142",
+  "summary": "France, officially the French Republic, is a country primarily located in Western Europe. Its overseas regions and territories include French Guiana in South America, Saint Pierre and Miquelon in the North Atlantic, the French West Indies, and many islands in Oceania and the Indian Ocean.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/France"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Paris_from_the_Arc_de_Triomphe%2C_17_October_2019.jpg/960px-Paris_from_the_Arc_de_Triomphe%2C_17_October_2019.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Paris_from_the_Arc_de_Triomphe,_17_October_2019.jpg",
+    "credit": "Pierre Blaché from Paris, France",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Paris from the Arc de Triomphe, 17 October 2019.jpg",
+    "fetched_at": "2026-07-08T18:26:24.604941+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_nato",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q142"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q142"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Metropolitan France shares borders with Belgium and Luxembourg to the north, Germany to the northeast, Switzerland to the east, Italy and Monaco to the southeast, Andorra and Spain to the south, and a maritime border with the United Kingdom to the northwest.",
+      "source_url": "https://en.wikipedia.org/wiki/France",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Its metropolitan area extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea.",
+      "source_url": "https://en.wikipedia.org/wiki/France",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Its 18 integral regions—five of which are overseas—span a combined area of 632,702 km2 (244,288 sq mi), with a total population estimated at over 69.1 million in 2026.",
+      "source_url": "https://en.wikipedia.org/wiki/France",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_01_065",
+  "appears_in_events": [
+    "evt_2026_06_01_065"
+  ],
+  "created_at": "2026-07-08T18:26:19.887101+00:00",
+  "last_updated": "2026-07-08T18:26:37.186157+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_01_065",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/France"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/France"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/France"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q142 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q142"
+    }
+  ]
+}

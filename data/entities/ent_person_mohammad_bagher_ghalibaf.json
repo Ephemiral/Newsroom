@@ -1,0 +1,95 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_mohammad_bagher_ghalibaf",
+  "type": "person",
+  "canonical_name": "Mohammad-Bagher Ghalibaf",
+  "aliases": [
+    "Iran's parliament speaker"
+  ],
+  "wikidata_qid": "Q542074",
+  "summary": "Mohammad Bagher Ghalibaf is an Iranian politician and former Islamic Revolutionary Guard Corps (IRGC) brigadier general, who has served as Speaker of the Parliament of Iran since 2020. As of April 2026, he has been described as handling the strategic matters of Iran.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Mohammad_Bagher_Ghalibaf"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Mohammmad_Bagher_Ghalibaf_2025.jpg/960px-Mohammmad_Bagher_Ghalibaf_2025.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Mohammmad_Bagher_Ghalibaf_2025.jpg",
+    "credit": "Mohsen Ranginkaman",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Mohammmad Bagher Ghalibaf 2025.jpg",
+    "fetched_at": "2026-07-08T18:29:19.632574+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Mayor of Tehran",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q542074",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Speaker of the Islamic Consultative Assembly",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q542074",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Member of the Islamic Consultative Assembly",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q542074",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Chief of Staff",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q542074",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Commander of the Islamic Revolutionary Guard Corps Aerospace Force",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q542074",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Member of the Expediency Discernment Council",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q542074",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_04_062",
+  "appears_in_events": [
+    "evt_2026_06_04_062"
+  ],
+  "created_at": "2026-07-08T18:29:15.898281+00:00",
+  "last_updated": "2026-07-08T18:29:39.638671+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_04_062",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q542074 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q542074"
+    }
+  ]
+}

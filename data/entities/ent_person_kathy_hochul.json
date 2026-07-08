@@ -1,0 +1,79 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_kathy_hochul",
+  "type": "person",
+  "canonical_name": "Kathy Hochul",
+  "aliases": [
+    "Governor Hochul"
+  ],
+  "wikidata_qid": "Q45956",
+  "summary": "Kathleen Mary Courtney Hochul is an American politician and lawyer who has served since 2021 as the 57th governor of New York. A member of the Democratic Party, she is New York's first female governor.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Kathy_Hochul"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Kathy_Hochul%2C_November_2017.jpeg/960px-Kathy_Hochul%2C_November_2017.jpeg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Kathy_Hochul,_November_2017.jpeg",
+    "credit": "KC Kratt",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Kathy Hochul, November 2017.jpeg",
+    "fetched_at": "2026-07-08T18:27:20.483854+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "municipal clerk",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q45956",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "United States representative",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q45956",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Lieutenant Governor of New York",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q45956",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Governor of New York",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q45956",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_04_014",
+  "appears_in_events": [
+    "evt_2026_06_04_014"
+  ],
+  "created_at": "2026-07-08T18:27:16.311004+00:00",
+  "last_updated": "2026-07-08T18:28:01.904241+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_04_014",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q45956 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q45956"
+    }
+  ]
+}

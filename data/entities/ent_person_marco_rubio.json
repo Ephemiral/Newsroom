@@ -1,0 +1,112 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_marco_rubio",
+  "type": "person",
+  "canonical_name": "Marco Rubio",
+  "aliases": [
+    "US Secretary of State"
+  ],
+  "wikidata_qid": "Q324546",
+  "summary": "Marco Antonio Rubio is an American politician, attorney, and diplomat serving as the 72nd United States secretary of state since 2025. He is also the acting national security advisor.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Marco_Rubio"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Official_portrait_of_Secretary_Marco_Rubio.jpg/960px-Official_portrait_of_Secretary_Marco_Rubio.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Secretary_Marco_Rubio.jpg",
+    "credit": "U.S. Department of State",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Official portrait of Secretary Marco Rubio.jpg",
+    "fetched_at": "2026-07-08T18:29:31.864977+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "member of the Florida House of Representatives",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q324546",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "majority leader",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q324546",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Speaker of the Florida House of Representatives",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q324546",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q324546",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "United States senator",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q324546",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "United States Secretary of State",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q324546",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "A member of the Republican Party, Rubio represented Florida in the United States Senate from 2011 to 2025.",
+      "source_url": "https://en.wikipedia.org/wiki/Marco_Rubio",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_06_04_062",
+  "appears_in_events": [
+    "evt_2026_06_04_062"
+  ],
+  "created_at": "2026-07-08T18:29:24.289930+00:00",
+  "last_updated": "2026-07-08T18:29:39.639929+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_06_04_062",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Marco_Rubio"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q324546 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q324546"
+    }
+  ]
+}
