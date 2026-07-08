@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getThread, getEvent } from '@/lib/data';
 import { beatLabel } from '@/lib/beats';
 import CritiqalLogo from '@/components/CritiqalLogo';
+import ThreadAccountability from '@/components/ThreadAccountability';
 
 export const dynamic = 'force-dynamic';
 
@@ -24,6 +25,8 @@ export default async function ThreadPage({ params }: Props) {
 
   // Newest chapter first — readers come for the latest, then scroll back.
   const chapters = [...thread.events].reverse();
+  // Review-gated: only approved accountability flags are shown to readers.
+  const approvedFlags = (thread.accountability ?? []).filter((f) => f.review_status === 'approved');
 
   return (
     <div style={{ background: '#f7f4ee', minHeight: '100vh' }}>
@@ -77,6 +80,9 @@ export default async function ThreadPage({ params }: Props) {
             {thread.events.length} developments · {thread.beats.map(beatLabel).join(' · ')}
           </div>
         </header>
+
+        {/* How the reporting changed — outlet self-contradictions (approved only) */}
+        {approvedFlags.length > 0 && <ThreadAccountability flags={approvedFlags} />}
 
         {/* Timeline — newest first, each chapter a link to the full event */}
         <div style={{ borderLeft: '2px solid #e7e0d4', paddingLeft: 0 }}>

@@ -22,7 +22,7 @@ from pipeline.threading.match import Signature, signature_from_event, build_idf,
 
 log = logging.getLogger(__name__)
 
-THREAD_SCHEMA_VERSION = "0.1"
+THREAD_SCHEMA_VERSION = "0.2"   # 0.2 adds optional accountability[] (STAGE_9)
 DORMANT_AFTER_DAYS = 30
 
 
@@ -99,6 +99,7 @@ class ThreadStore:
             "beats": [],
             "key_entities": [],
             "events": [],
+            "accountability": [],
             "created_at": _now(),
             "last_updated": _now(),
             "change_log": [{"date": _today(), "summary_of_change": "Thread created"}],

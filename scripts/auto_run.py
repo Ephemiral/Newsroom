@@ -442,6 +442,7 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
     from pipeline.entities.run import attach_entities
     from pipeline.threading.run import attach_thread
     from pipeline.threading.store import ThreadStore
+    from pipeline.accountability.run import attach_accountability
     from pipeline.images.run import attach_image
 
     api_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -494,6 +495,14 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
                 threads_dir = ROOT / "data" / "threads"
                 if threads_dir.exists() and threads_dir not in to_commit:
                     to_commit.append(threads_dir)
+                # Accountability (STAGE_9): audit the thread this event extended.
+                # Flags are written review-gated ("auto") and stay hidden until a
+                # human approves — so generation is autonomous, display is not.
+                if tres.get("thread_id"):
+                    try:
+                        attach_accountability(tres["thread_id"], client, tstore)
+                    except Exception:
+                        log.exception("Accountability stage failed for thread %s", tres["thread_id"])
             except Exception:
                 log.exception("Threading stage failed for %s (publishing without thread)", event_id)
             try:

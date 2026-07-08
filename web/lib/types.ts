@@ -124,6 +124,30 @@ export interface ThreadEvent {
   link_score: number;
 }
 
+/** One side of an accountability flag — an outlet's claim at one point. */
+export interface AccountabilityInstance {
+  cluster_id: string;
+  date: string;
+  claim_id: string;
+  source_id: string;
+  text: string;
+  url: string;
+}
+
+/** A flag that an outlet's own reporting reversed across a thread (schema v0.2).
+ *  Review-gated: only `review_status: "approved"` entries are rendered. */
+export interface AccountabilityFlag {
+  id: string;
+  outlet: string;
+  type: 'contradiction' | 'correction' | 'retraction';
+  subject: string;
+  earlier: AccountabilityInstance;
+  later: AccountabilityInstance;
+  note: string;
+  review_status: 'auto' | 'approved' | 'suppressed';
+  detected_at: string;
+}
+
 /** A persistent developing-story arc (data/threads/{thread_id}.json). Always
  *  holds ≥2 events — a lone report is never surfaced as "developing". */
 export interface Thread {
@@ -137,6 +161,8 @@ export interface Thread {
   key_entities: string[];
   /** Chronological (oldest → newest). */
   events: ThreadEvent[];
+  /** Outlet self-contradiction flags (schema v0.2); absent on older threads. */
+  accountability?: AccountabilityFlag[];
   created_at: string;
   last_updated: string;
   change_log: { date: string; summary_of_change: string }[];
