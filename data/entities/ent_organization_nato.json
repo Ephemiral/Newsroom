@@ -1,0 +1,79 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_nato",
+  "type": "organization",
+  "canonical_name": "NATO",
+  "aliases": [
+    "NATO allies"
+  ],
+  "wikidata_qid": "Q7184",
+  "summary": "The North Atlantic Treaty Organization (NATO) is an intergovernmental military alliance between 32 member states. Founded in the aftermath of World War II, NATO was established with the signing of the North Atlantic Treaty in 1949.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/NATO"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/%D0%9D%D0%90%D0%A2%D0%9E_%D0%A1%D0%B0%D0%BC%D0%B8%D1%82_2021_NATO_Summit_2021_-14.06.2021-_%2851245988182%29.jpg/960px-%D0%9D%D0%90%D0%A2%D0%9E_%D0%A1%D0%B0%D0%BC%D0%B8%D1%82_2021_NATO_Summit_2021_-14.06.2021-_%2851245988182%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%90%D0%A2%D0%9E_%D0%A1%D0%B0%D0%BC%D0%B8%D1%82_2021_NATO_Summit_2021_-14.06.2021-_(51245988182).jpg",
+    "credit": "Влада на Република Северна Македонија",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:НАТО Самит 2021 NATO Summit 2021 -14.06.2021- (51245988182).jpg",
+    "fetched_at": "2026-07-08T15:22:42.502028+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The organization serves as a system of collective security and deterrence, whereby its independent members agree to defend each-other from attack by any outside party.",
+      "source_url": "https://en.wikipedia.org/wiki/NATO",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "This is enshrined in Article 5 of the treaty, which states that an armed attack against the territory of one member shall be considered an attack against them all.",
+      "source_url": "https://en.wikipedia.org/wiki/NATO",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_europe_002",
+  "appears_in_events": [
+    "evt_2026_07_08_europe_002"
+  ],
+  "created_at": "2026-07-08T15:22:41.982314+00:00",
+  "last_updated": "2026-07-08T15:22:48.228902+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_europe_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/NATO"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/NATO"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q7184 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q7184"
+    }
+  ]
+}

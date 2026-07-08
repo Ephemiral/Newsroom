@@ -1,0 +1,94 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_kyiv",
+  "type": "location",
+  "canonical_name": "Kyiv",
+  "aliases": [],
+  "wikidata_qid": "Q1899",
+  "summary": "Kyiv, also Kiev, is the capital and most populous city of Ukraine. Located in the north-central part of the country, it straddles both banks of the Dnieper River.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Kyiv"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Kyiv_%28234807751%29.jpeg/960px-Kyiv_%28234807751%29.jpeg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Kyiv_(234807751).jpeg",
+    "credit": "Francisco Anzola",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Kyiv (234807751).jpeg",
+    "fetched_at": "2026-07-08T15:18:49.293262+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "As of January 2022, the population of Kyiv was 2,952,301, making it the seventh-most populous city in Europe.",
+      "source_url": "https://en.wikipedia.org/wiki/Kyiv",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Kyiv is an important industrial, scientific, educational, and cultural center.",
+      "source_url": "https://en.wikipedia.org/wiki/Kyiv",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It is home to high-tech industries, higher education institutions, and historical landmarks.",
+      "source_url": "https://en.wikipedia.org/wiki/Kyiv",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_08_europe_001",
+    "evt_2026_07_08_europe_002"
+  ],
+  "created_at": "2026-07-08T15:18:48.674321+00:00",
+  "last_updated": "2026-07-08T15:22:48.229477+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Kyiv"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Kyiv"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Kyiv"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q1899 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1899"
+    }
+  ]
+}

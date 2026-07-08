@@ -1,0 +1,61 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_interpol",
+  "type": "organization",
+  "canonical_name": "Interpol",
+  "aliases": [],
+  "wikidata_qid": "Q8475",
+  "summary": "The International Criminal Police Organization – INTERPOL (ICPO–INTERPOL), commonly known as Interpol, is an international organization that facilitates worldwide police cooperation and crime control. It is the world's largest international police organization.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Interpol"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/ICPO-Interpol_Lione.JPG/960px-ICPO-Interpol_Lione.JPG",
+    "source_page": "https://commons.wikimedia.org/wiki/File:ICPO-Interpol_Lione.JPG",
+    "credit": "Massimiliano Mariani",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:ICPO-Interpol Lione.JPG",
+    "fetched_at": "2026-07-08T15:18:49.923109+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is headquartered in Lyon, France, with seven regional bureaus worldwide and a National Central Bureau in each of its 196 member states.",
+      "source_url": "https://en.wikipedia.org/wiki/Interpol",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_08_europe_001"
+  ],
+  "created_at": "2026-07-08T15:18:49.294687+00:00",
+  "last_updated": "2026-07-08T15:18:55.922249+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Interpol"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q8475 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q8475"
+    }
+  ]
+}

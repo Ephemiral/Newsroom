@@ -1,0 +1,93 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_crimea",
+  "type": "location",
+  "canonical_name": "Crimea",
+  "aliases": [],
+  "wikidata_qid": "Q7835",
+  "summary": "Crimea is a peninsula in Eastern Europe, on the northern coast of the Black Sea, almost entirely surrounded by the Black Sea and the smaller Sea of Azov. The Isthmus of Perekop connects the peninsula to Kherson Oblast in mainland Ukraine.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Crimea"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Satellite_picture_of_Crimea%2C_Terra-MODIS%2C_05-16-2015.jpg/960px-Satellite_picture_of_Crimea%2C_Terra-MODIS%2C_05-16-2015.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Satellite_picture_of_Crimea,_Terra-MODIS,_05-16-2015.jpg",
+    "credit": "NASA",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Satellite picture of Crimea, Terra-MODIS, 05-16-2015.jpg",
+    "fetched_at": "2026-07-08T15:18:50.348961+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "To the east, the Crimean Bridge, constructed in 2018, spans the Strait of Kerch, linking the peninsula with Krasnodar Krai in Russia.",
+      "source_url": "https://en.wikipedia.org/wiki/Crimea",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The Arabat Spit, located to the northeast, is a narrow strip of land that separates the Syvash lagoons from the Sea of Azov.",
+      "source_url": "https://en.wikipedia.org/wiki/Crimea",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Across the Black Sea to the west lies Romania and to the south is Turkey.",
+      "source_url": "https://en.wikipedia.org/wiki/Crimea",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_08_europe_001"
+  ],
+  "created_at": "2026-07-08T15:18:49.923694+00:00",
+  "last_updated": "2026-07-08T15:18:55.922424+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Crimea"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Crimea"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Crimea"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q7835 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q7835"
+    }
+  ]
+}

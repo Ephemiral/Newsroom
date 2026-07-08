@@ -1,0 +1,113 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_vladimir_putin",
+  "type": "person",
+  "canonical_name": "Vladimir Putin",
+  "aliases": [
+    "Putin",
+    "Russian President Vladimir Putin"
+  ],
+  "wikidata_qid": "Q7747",
+  "summary": "Vladimir Vladimirovich Putin is a Russian politician and former intelligence officer who has served as President of Russia since 2012, having previously served from 2000 to 2008. Putin also served as Prime Minister of Russia from 1999 to 2000 and again from 2008 to 2012.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Vladimir_Putin"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Vladimir_Putin_official_photo_08.jpg/960px-Vladimir_Putin_official_photo_08.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_official_photo_08.jpg",
+    "credit": "Пресс-служба Президента России",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Vladimir Putin official photo 08.jpg",
+    "fetched_at": "2026-07-08T15:22:41.829259+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "President of Russia",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7747",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President of Russia",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7747",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Director of the Federal Security Service",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7747",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Prime Minister of Russia",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7747",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Deputy Chairman of the Government of the Russian Federation",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7747",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Secretary of the Security Council of Russia",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7747",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He has been described as the de facto leader of Russia since 1999.",
+      "source_url": "https://en.wikipedia.org/wiki/Vladimir_Putin",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_europe_002",
+  "appears_in_events": [
+    "evt_2026_07_08_europe_002"
+  ],
+  "created_at": "2026-07-08T15:22:39.636349+00:00",
+  "last_updated": "2026-07-08T15:22:48.228366+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_europe_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Vladimir_Putin"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q7747 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q7747"
+    }
+  ]
+}

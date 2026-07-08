@@ -134,6 +134,16 @@
       "at": "2026-07-08T15:06:07.145538+00:00",
       "event_id": "evt_2026_07_08_israel_middle_east_002",
       "outcome": "published"
+    },
+    "77e1ec380950f2b6": {
+      "at": "2026-07-08T15:16:00.968084+00:00",
+      "event_id": "evt_2026_07_08_europe_001",
+      "outcome": "published"
+    },
+    "120231c73bc67deb": {
+      "at": "2026-07-08T15:19:05.763973+00:00",
+      "event_id": "evt_2026_07_08_europe_002",
+      "outcome": "published"
     }
   }
 }

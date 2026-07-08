@@ -1,0 +1,102 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_russia",
+  "type": "organization",
+  "canonical_name": "Russia",
+  "aliases": [
+    "Russian"
+  ],
+  "wikidata_qid": "Q159",
+  "summary": "Russia, or the Russian Federation, is a country in Eastern Europe and North Asia. It is the largest country in the world, spanning eleven time zones and sharing land borders with fourteen countries.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Russia"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Russia_87.74494E_66.20034N.jpg/960px-Russia_87.74494E_66.20034N.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Russia_87.74494E_66.20034N.jpg",
+    "credit": "Wikimedia Commons",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Russia 87.74494E 66.20034N.jpg",
+    "fetched_at": "2026-07-08T15:22:43.128003+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q159"
+    }
+  ],
+  "facts": [
+    {
+      "text": "With a population of over 140 million, Russia is the most populous country in Europe and the ninth-most populous in the world.",
+      "source_url": "https://en.wikipedia.org/wiki/Russia",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It is a highly urbanised country, with sixteen of its urban areas having more than 1 million inhabitants.",
+      "source_url": "https://en.wikipedia.org/wiki/Russia",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Moscow, the most populous metropolitan area in Europe, is the capital and largest city of Russia, while Saint Petersburg is its second-largest city and a major cultural centre.",
+      "source_url": "https://en.wikipedia.org/wiki/Russia",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_europe_002",
+  "appears_in_events": [
+    "evt_2026_07_08_europe_002"
+  ],
+  "created_at": "2026-07-08T15:22:42.503333+00:00",
+  "last_updated": "2026-07-08T15:22:48.229105+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_europe_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Russia"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Russia"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Russia"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q159 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q159"
+    }
+  ]
+}

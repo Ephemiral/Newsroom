@@ -1,0 +1,999 @@
+{
+  "schema_version": "0.5",
+  "event": {
+    "cluster_id": "evt_2026_07_08_europe_001",
+    "beat": "europe",
+    "title": "Monaco Bomb Suspect Anastasiia Berezovska Found Shot Dead Near Kyiv",
+    "summary": "Anastasiia Berezovska, a 39-year-old Ukrainian woman wanted by Interpol for a parcel bomb attack in Monaco on 29 June 2026 that wounded Ukrainian-born tycoon Vadym Yermolaiev and his family, was found shot dead near Kyiv on the night of 7 July. Two men — including a serving Ukrainian military intelligence (HUR) officer — were detained and charged with her murder, and are also suspected of involvement in the Monaco bombing itself.",
+    "date": "2026-07-07",
+    "generated_at": "2026-07-08T15:18:20.923873+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_anastasiia_berezovska",
+        "surfaces": [
+          "Anastasiia Berezovska"
+        ],
+        "relevance_to_event": "The 39-year-old Ukrainian suspect identified as the perpetrator of the Monaco bomb attack; found shot dead near Kyiv on 7 July, triggering the investigation that led to the detention of two men including a HUR officer.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_vadym_yermolaiev",
+        "surfaces": [
+          "Vadym Yermolaiev"
+        ],
+        "relevance_to_event": "The Ukrainian-born tycoon and target of the Monaco bomb attack on 29 June 2026, who was wounded along with his partner and son; his status as a sanctioned individual and Cypriot citizen living in Monaco provides context for why he may have been targeted.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_main_directorate_of_intelligence",
+        "surfaces": [
+          "HUR",
+          "Main Directorate of Intelligence",
+          "military intelligence service (HUR)"
+        ],
+        "relevance_to_event": "A serving officer from this Ukrainian military intelligence agency was detained and charged with Berezovska's murder and suspected of involvement in the Monaco bombing, raising questions about institutional oversight and whether superiors knew of his financial transfers to the suspect.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_monaco",
+        "surfaces": [
+          "Monaco"
+        ],
+        "relevance_to_event": "The location where the parcel bomb attack occurred on 29 June 2026, injuring Yermolaiev and his family; Monaco authorities issued the Interpol Red Notice for Berezovska and are coordinating with Ukrainian investigators on the case.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_kyiv",
+        "surfaces": [
+          "Kyiv"
+        ],
+        "relevance_to_event": "The location where Berezovska's body was found on the night of 7 July with gunshot wounds; also where the two murder suspects were detained and where searches of the former law enforcement officer's home uncovered a basement room.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_interpol",
+        "surfaces": [
+          "Interpol"
+        ],
+        "relevance_to_event": "Issued a Red Notice for Berezovska the week before her body was found, circulating an international alert for her arrest pending extradition on charges related to the Monaco bombing.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_crimea",
+        "surfaces": [
+          "Crimea"
+        ],
+        "relevance_to_event": "Relevant because Yermolaiev has been subject to Ukrainian sanctions since 2023 allegedly related to business activities in Russian-occupied Crimea, which he denies; this sanctions status may provide context for his targeting.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_ukraine",
+        "surfaces": [
+          "Ukraine"
+        ],
+        "relevance_to_event": "The country where Berezovska returned on 1 July after the Monaco attack, where she was subsequently killed, and where Ukrainian authorities are investigating the bombing and murder, sharing information with Monaco authorities to identify other participants.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_009",
+            "clm_010",
+            "clm_015",
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-08T15:19:05.761455+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Buildings_of_Chief_Directorate_of_Intelligence_of_the_Ministry_of_Defence_of_Ukraine_%28HUR%29_in_Kyiv%2C_2012.jpg/1280px-Buildings_of_Chief_Directorate_of_Intelligence_of_the_Ministry_of_Defence_of_Ukraine_%28HUR%29_in_Kyiv%2C_2012.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Buildings_of_Chief_Directorate_of_Intelligence_of_the_Ministry_of_Defence_of_Ukraine_%28HUR%29_in_Kyiv%2C_2012.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Buildings_of_Chief_Directorate_of_Intelligence_of_the_Ministry_of_Defence_of_Ukraine_(HUR)_in_Kyiv,_2012.jpg",
+      "width": 1200,
+      "height": 774,
+      "caption": "Building of the Chief Directorate of Intelligence (HUR) in Kyiv, Ukraine (file photo)",
+      "credit": "Dimant (Dmitry Trikutko)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Buildings of Chief Directorate of Intelligence of the Ministry of Defence of Ukraine (HUR) in Kyiv, 2012.jpg",
+      "query": "Ukrainian military intelligence HUR",
+      "fetched_at": "2026-07-08T15:19:05.761414+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Deutsche Welle (DW)",
+      "url": "https://www.dw.com/en/ukraine-suspect-in-monaco-bomb-attack-found-dead-near-kyiv/a-77863128?maca=en-rss-en-all-1573-xml-mrss",
+      "author": null,
+      "published_at": "2026-07-07T12:29:00+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/europe/20260707-woman-suspected-in-monaco-bombing-found-shot-dead-near-kyiv-prosecutors-say",
+      "author": "FRANCE 24",
+      "published_at": "2026-07-07T11:12:50+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c5yz3770yg8o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-07T17:58:48+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/woman-suspected-of-monaco-bombing-is-found-dead-in-ukraine-authorities-say",
+      "author": "FRANCE24",
+      "published_at": "2026-07-07T19:27:39+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "The Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUDRUN2FIWkxXN3R4SFVYdUFvdTFOX1R1OURwMUk5YzZKVVFiOEQ4MWFLUUN2RTlmMm5rc0dxeFk3Um1hbVlEbnhNQjJNaGNjVHQwVEF4dmhlcE11QnM5TDF4WHJ1a0lELVZyVGpJRXItY05KSEdveWlzekRFdnYydUJ1eWZMZlRJdUlTUGFoM3htSWEwdWJDUXp0eTgtV1diQmF1bkZOdUpOZWE3?oc=5",
+      "author": null,
+      "published_at": "2026-07-07T09:12:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Telegraph Media Group; control passed to RedBird Capital Partners (US investment firm) in 2025 after the RedBird IMI ownership dispute.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A parcel bomb exploded in the entrance hall of an apartment building in Monaco on 29 June 2026, injuring Vadym Yermolaiev, his partner, and his son.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "monaco_bombing",
+      "rationale": "All five outlets across center, center-left, and center-right bias tiers confirm the bombing on 29 June in Monaco and the wounding of Yermolaiev and family members.",
+      "framing_variants": [
+        {
+          "characterization": "Describes a bomb attack targeting a 'wealthy Ukrainian-born businessman' in Monaco; Yermolaiev, his partner and son were wounded.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Refers to 'last Monday's bomb attack' wounding Yermolaiev, his partner and son.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States a package exploded just after 21:00 on 29 June injuring three people, two seriously, including a 'sanctioned Ukrainian multi-millionaire and his family'; names Yermolaiev and mentions his 13-year-old son.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Briefly notes 'a Monaco bombing.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes 'a bomb plot targeting a Ukrainian tycoon in Monaco.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Two of the three people injured in the Monaco explosion were seriously injured.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "monaco_bombing",
+      "rationale": "Only BBC specifically reported that two of three injured were seriously hurt; other outlets did not break down injury severity.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Three people were injured, two of them seriously.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Monaco's Prince Albert II described the bomb attack as 'an odious act.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "monaco_bombing",
+      "rationale": "Only DW reported Prince Albert II's characterization of the attack.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Prince Albert II calling it 'an odious act.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Anastasiia Berezovska, a 39-year-old Ukrainian woman, was identified as the suspect who planted the Monaco bomb and subsequently became the subject of an Interpol Red Notice issued on charges of attempted murder, placing an explosive device in a public place with criminal intent, and criminal conspiracy.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "suspect_identification",
+      "rationale": "Center (DW, France 24), center-left (BBC), and center-right (The Telegraph) all identify Berezovska by name and confirm the Interpol Red Notice and related charges.",
+      "framing_variants": [
+        {
+          "characterization": "Identifies her as a 39-year-old Ukrainian, a German speaker, who 'last week became the subject of an Interpol Red Notice issued by authorities in Monaco.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Names her as 'Ukrainian citizen Anastasiia Berezovska, wanted by Interpol for the June 29 bombing' on charges including attempted murder and criminal conspiracy.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States Interpol issued a Red Notice on Friday for 'attempted murder, placing an explosive device on a public road with criminal intent and criminal conspiracy.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Refers to 'a woman suspected of involvement in a bomb plot' without naming the specific charges.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Monaco's deputy prosecutor said Berezovska had spent days casing out the residence, was disguised as a man during the attack, fled the principality on foot into France, then traveled by car through Italy and other European countries to Germany.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "suspect_identification",
+      "rationale": "DW (center), France 24 (center), and BBC (center-left) all report the Monaco deputy prosecutor's account of the suspect's disguise, pre-attack surveillance, and escape route.",
+      "framing_variants": [
+        {
+          "characterization": "Notes prosecutors initially mistook her for a man; describes her as a German speaker with a tattoo; says she crossed into France on foot and traveled to Germany via Italy.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Quotes Monaco's deputy prosecutor saying the attacker 'left the principality on foot to nearby France, then fled by car to Germany via several European countries, including Italy.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Cites deputy prosecutor Morgan Raymond saying she 'spent days casing out the residence' and was 'disguised as a man'; reports she was believed to have fled in a hire car to Italy and onwards to Germany.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "German authorities searched an apartment rented by Berezovska in Frankfurt (Hesse), Germany.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "suspect_identification",
+      "rationale": "Both DW (center) and BBC (center-left) confirm German authorities searched Berezovska's rented apartment in Frankfurt/Hesse.",
+      "framing_variants": [
+        {
+          "characterization": "States 'German authorities later confirmed that she had a rented apartment in Frankfurt that they searched.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'special forces searched an apartment rented by a 39-year-old Ukrainian woman \"currently on the run\" in the central state of Hesse on Thursday.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Berezovska returned to Ukraine on 1 July, two days after the Monaco attack on 29 June.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "suspect_identification",
+      "rationale": "Both France 24 (center) and BBC (center-left) confirm Berezovska's return to Ukraine on 1 July.",
+      "framing_variants": [
+        {
+          "characterization": "States she 'returned to Ukraine on July 1.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'Berezovska arrived in Ukraine two days after the attack on 1 July.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Berezovska's body was found near Kyiv late on Monday 7 July, with gunshot wounds to the head; pistol cartridges were found nearby.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "berezovska_death",
+      "rationale": "All five outlets across center, center-left, and center-right confirm the discovery of Berezovska's body near Kyiv on Monday with gunshot wounds to the head.",
+      "framing_variants": [
+        {
+          "characterization": "Reports she 'was found shot dead late on Monday.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States body 'was found near Kyiv close to 11 p.m. local time on Monday' with 'gunshot wounds to the head and pistol cartridges nearby.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports body 'found buried in a forest in the Kyiv region with gunshot wounds to the head.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Briefly states she 'was found dead in Ukraine.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes her as 'shot dead' in brief summary coverage.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Two men were detained and charged in connection with Berezovska's murder: a serving officer of Ukraine's military intelligence service (HUR/Main Directorate of Intelligence) and a former law enforcement officer.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "berezovska_death",
+      "rationale": "DW (center), France 24 (center), and BBC (center-left) all identify both suspects — a current HUR/military intelligence officer and a former law enforcement/police officer — as detained and charged.",
+      "framing_variants": [
+        {
+          "characterization": "Describes 'an employee of Ukraine's military intelligence service (HUR)' detained alongside a 'former law enforcement official.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'two men' detained including 'the employee of Ukraine's military intelligence service (HUR) and a former police officer'; charged with murder.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'a current officer within Ukraine's military intelligence service' and 'a former law enforcement officer'; both charged with 'intentional murder committed by prior conspiracy by a group of persons.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The HUR officer confessed to killing Berezovska together with the other suspect after she arrived in Ukraine.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "berezovska_death",
+      "rationale": "DW, France 24, and BBC all report the HUR officer's confession to the murder committed with the other suspect.",
+      "framing_variants": [
+        {
+          "characterization": "States the HUR employee 'said he killed the woman together with another suspect.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'the HUR employee had confessed to killing 39-year-old Berezovska with the other defendant.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'the intelligence officer subsequently confessed to Berezovska's murder and said he had done so with \"another suspect.\"'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "The HUR officer stated he had not informed his superiors about his contacts with Berezovska, the money transfers to her, or any of his other actions, and said he had acted on his own initiative.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "berezovska_death",
+      "rationale": "Both France 24 and BBC (both citing Ukrainian authorities) report the HUR officer's claim to have acted independently without informing superiors, but both are center or center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Reports officer 'had not informed his superiors about his contacts with Berezovska, the money transfers, or any of his other actions' and 'had acted on his own initiative.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Implicitly conveyed through account of the confession and investigation.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "The two men transferred funds repeatedly to Berezovska's cryptocurrency and bank accounts, leading investigators to suspect them as accomplices in the Monaco bombing as well.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "berezovska_death",
+      "rationale": "France 24 (center) and BBC (center-left) both report the financial transfers linking the two men to Berezovska and connecting them to the Monaco attack investigation.",
+      "framing_variants": [
+        {
+          "characterization": "States the men 'had made repeated transfers to her crypto and bank accounts' and 'are also believed to be involved in the Monaco bombing.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes the men were 'investigated as possible accomplices in the Monaco attack based on information they repeatedly transferred funds to Berezovska's \"crypto and bank accounts.\"'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Two suspects met Berezovska in a car on a highway in the Kyiv region, traveled a distance with her, and then killed her.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "berezovska_death",
+      "rationale": "Only BBC provided this specific account of how the killing took place — meeting her in a car on a highway.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'Two suspects met Berezovska in a car on a highway in the Kyiv region two days later. The victim traveled a certain distance with them, after which she was killed.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "A basement room described as resembling a torture chamber was found during a search of the former law enforcement officer's home in the Kyiv region.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "berezovska_death",
+      "rationale": "France 24 (center) and BBC (center-left) both report the discovery of the basement room described as a torture chamber at the former officer's home.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'a basement room resembling a torture chamber was discovered' at the former law enforcement officer's home.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States the SBU said 'a basement room \"resembling a torture chamber\"' was found; describes its contents including axes, a pickaxe, tarpaulin, and a mat with apparent blood spots.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Ukraine's prosecutor general stated there is no evidence the basement room resembling a torture chamber was connected to Berezovska's case.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "berezovska_death",
+      "rationale": "Only BBC reported the prosecutor general's specific clarification distancing the basement room from the Berezovska murder case.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Ukraine's prosecutor general saying it had 'no evidence' the room had been involved in Berezovska's case.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Ukrainian authorities announced they had shared all information about the case with Monaco authorities and were working to identify others who ordered or participated in the Monaco attack.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "France 24 (center) and BBC (center-left) both report Ukrainian authorities sharing information with Monaco and pursuing further suspects.",
+      "framing_variants": [
+        {
+          "characterization": "States 'All information held by the Ukrainian law enforcement agencies has been shared with Monaco authorities' and agencies are 'working to identify those who ordered the attack.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'Ukrainian authorities had shared all available information with officials in Monaco' and authorities were working to identify 'other suspects.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Vadym Yermolaiev is a Ukrainian-born property/real estate developer who took Cypriot citizenship (renouncing Ukrainian citizenship in 2019) and has been living in Monaco.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "target_profile",
+      "rationale": "DW (center), France 24 (center), and BBC (center-left) all confirm Yermolaiev's Ukrainian origins, Cypriot citizenship, and Monaco residence.",
+      "framing_variants": [
+        {
+          "characterization": "Describes him as a 'Ukrainian-born Cypriot citizen.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Calls him a 'Ukrainian-born property developer' who 'took Cypriot nationality seven years ago.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes him as a 'real estate developer' and 'Cypriot citizen, having renounced his Ukrainian citizenship in 2019' who 'has been living in Monaco.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Forbes magazine named Yermolaiev the 39th richest Ukrainian in 2020 with a reported fortune of $230 million.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "target_profile",
+      "rationale": "Only BBC cited the Forbes ranking and specific wealth figure for Yermolaiev.",
+      "framing_variants": [
+        {
+          "characterization": "States Yermolaiev 'was named the 39th richest Ukrainian by Forbes magazine in 2020, with a reported fortune of $230m.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Yermolaiev has been subject to sanctions imposed by the Ukrainian government since 2023, with Ukrainian media reporting the sanctions relate to his alleged business activities in Russian-occupied Crimea; Yermolaiev denies doing business in Crimea.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "target_profile",
+      "rationale": "Yermolaiev's denial of business activity in Crimea directly contradicts the stated Ukrainian government rationale for the sanctions; all three outlets report both the sanctions and the denial, making this an actor dispute.",
+      "framing_variants": [
+        {
+          "characterization": "States sanctions 'reportedly concerning his business interests in Russian-occupied Crimea,' imposed since 2023.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports sanctions 'were a response to Yermolaiev's alleged business activities in Russian-occupied Crimea'; notes 'Yermolaiev has denied doing business in Crimea.' Also states Crimea was annexed by Russia in 2014.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States Yermolaiev 'has major interests in wine and alcohol in Crimea' and 'has been the subject of sanctions imposed by the government in Kyiv since 2023'; characterizes the 2014 annexation as illegal.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Ukraine's prosecutor general's office announced the discovery of Berezovska's body and the detentions on Tuesday 8 July.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "berezovska_death",
+      "rationale": "Both DW and France 24 (both center-rated) attribute the announcement to Ukraine's prosecutor general's office, but the classification is corroborated as both outlets share the same bias tier.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Ukraine's prosecutor general's office said on Tuesday.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Credits the announcement to Ukrainian authorities, consistent with the prosecutor general's office.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Russia illegally annexed Crimea from Ukraine in 2014, and Ukraine has imposed sanctions on individuals with alleged business ties to the Russian-occupied peninsula following Russia's full-scale invasion of Ukraine in February 2022.",
+      "sources": [
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "Vadym Yermolaiev renounced his Ukrainian citizenship in 2019, took Cypriot nationality, and has been living in Monaco; he was ranked the 39th richest Ukrainian by Forbes in 2020 with an estimated fortune of $230 million.",
+      "sources": [
+        "src_003",
+        "src_002"
+      ]
+    },
+    {
+      "point": "An Interpol Red Notice is an international alert circulated to police worldwide requesting the location and arrest of a wanted person pending extradition; Monaco authorities issued one for Berezovska the week before her body was found.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "Ukraine's military intelligence service (HUR, also referred to as the Main Directorate of Intelligence) is an agency of Ukraine's Ministry of Defence; the involvement of one of its serving officers in both the suspected murder of Berezovska and possible links to the Monaco bombing raises questions about institutional oversight.",
+      "sources": [
+        "src_002",
+        "src_003"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-08T15:18:43.056495+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "A parcel bomb exploded in the entrance hall of an apartment building in Monaco on 29 June 2026, injuring Vadym Yermolaiev, his partner, and his son.",
+        "supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Anastasiia Berezovska, a 39-year-old Ukrainian woman, was identified as the suspect who planted the bomb and subsequently became the subject of an Interpol Red Notice issued on charges of attempted murder, placing an explosive device in a public place with criminal intent, and criminal conspiracy.",
+        "supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Monaco's deputy prosecutor said Berezovska had spent days casing out the residence, was disguised as a man during the attack, fled the principality on foot into France, then traveled by car through Italy and other European countries to Germany. German authorities searched an apartment rented by Berezovska in Frankfurt, Germany.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Berezovska returned to Ukraine on 1 July, two days after the Monaco attack.",
+        "supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Berezovska's body was found near Kyiv late on Monday 7 July, with gunshot wounds to the head; pistol cartridges were found nearby. Ukraine's prosecutor general's office announced the discovery and subsequent detentions on Tuesday 8 July.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Two men were detained and charged in connection with Berezovska's murder: a serving officer of Ukraine's military intelligence service (HUR/Main Directorate of Intelligence) and a former law enforcement officer. The HUR officer confessed to killing Berezovska together with the other suspect after she arrived in Ukraine.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The two men transferred funds repeatedly to Berezovska's cryptocurrency and bank accounts, leading investigators to suspect them as accomplices in the Monaco bombing as well.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Ukrainian authorities announced they had shared all information about the case with Monaco authorities and were working to identify others who ordered or participated in the Monaco attack.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Vadym Yermolaiev is a Ukrainian-born property developer who took Cypriot citizenship — renouncing Ukrainian citizenship in 2019 — and has been living in Monaco.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Center and center-left outlets report that the HUR officer stated he had not informed his superiors about his contacts with Berezovska, the money transfers to her, or any of his other actions, and said he had acted on his own initiative. These accounts come from Ukrainian authorities but have not been independently corroborated across the ideological spectrum.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "A basement room described as resembling a torture chamber was found during a search of the former law enforcement officer's home in the Kyiv region. Center outlets France 24 and BBC reported this discovery, though these same outlets note that Ukraine's prosecutor general stated there is no evidence the basement room was connected to Berezovska's case.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The BBC reported that two suspects met Berezovska in a car on a highway in the Kyiv region, traveled a distance with her, and then killed her. This specific account of how the killing unfolded was not reported by other outlets.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The BBC also reported that two of the three people injured in the Monaco explosion were seriously injured, a level of detail not provided by other outlets covering the attack.",
+        "supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "Deutsche Welle reported that Monaco's Prince Albert II described the bomb attack as 'an odious act,' a characterization not carried by other outlets.",
+        "supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "Yermolaiev has been subject to sanctions imposed by the Ukrainian government since 2023, with Ukrainian media reporting the sanctions relate to his alleged business activities in Russian-occupied Crimea. Yermolaiev denies doing business in Crimea.",
+        "supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "Forbes magazine named Yermolaiev the 39th richest Ukrainian in 2020 with a reported fortune of $230 million, according to the BBC.",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

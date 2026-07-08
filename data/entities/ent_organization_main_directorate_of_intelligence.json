@@ -1,0 +1,31 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_main_directorate_of_intelligence",
+  "type": "organization",
+  "canonical_name": "Main Directorate of Intelligence",
+  "aliases": [
+    "HUR",
+    "military intelligence service (HUR)"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_08_europe_001"
+  ],
+  "created_at": "2026-07-08T15:18:47.679285+00:00",
+  "last_updated": "2026-07-08T15:18:55.921744+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_europe_001",
+      "source": null
+    }
+  ]
+}

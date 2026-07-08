@@ -1,0 +1,32 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_patriot_missile_system",
+  "type": "technology",
+  "canonical_name": "Patriot missile system",
+  "aliases": [
+    "Patriot",
+    "Patriot missiles",
+    "Patriot interceptor missiles"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_europe_002",
+  "appears_in_events": [
+    "evt_2026_07_08_europe_002"
+  ],
+  "created_at": "2026-07-08T15:22:43.130845+00:00",
+  "last_updated": "2026-07-08T15:22:48.229320+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_europe_002",
+      "source": null
+    }
+  ]
+}

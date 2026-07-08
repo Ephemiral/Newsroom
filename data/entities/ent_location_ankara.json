@@ -1,0 +1,47 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_ankara",
+  "type": "location",
+  "canonical_name": "Ankara",
+  "aliases": [
+    "Ankara Province",
+    "Ankara, Turkey"
+  ],
+  "wikidata_qid": "Q2297724",
+  "summary": "Ankara Province is a province and metropolitan municipality of Turkey with the capital city Ankara. Its area is 25,632 km2, and its population is 5,782,285 (2022).",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ankara_Province"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Ankara_districts.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ankara_districts.png",
+    "credit": "No machine-readable author provided. Rarelibra assumed (based on copyright claims).",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Ankara districts.png",
+    "fetched_at": "2026-07-08T15:22:44.077656+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_europe_002",
+  "appears_in_events": [
+    "evt_2026_07_08_europe_002"
+  ],
+  "created_at": "2026-07-08T15:22:43.272844+00:00",
+  "last_updated": "2026-07-08T15:22:48.229695+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_europe_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q2297724 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q2297724"
+    }
+  ]
+}

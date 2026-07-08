@@ -1,0 +1,1125 @@
+{
+  "schema_version": "0.5",
+  "event": {
+    "cluster_id": "evt_2026_07_08_europe_002",
+    "beat": "europe",
+    "title": "NATO Summit in Ankara: Zelensky Seeks Air Defense Support Amid Escalating Russian Strikes",
+    "summary": "Ukrainian President Zelensky addressed NATO allies at their summit in Ankara, Turkey, urgently requesting additional air defense systems as Russia escalated missile and drone attacks on Kyiv. The summit also featured a Trump-Zelensky meeting, discussions of a Patriot missile licensing deal for Ukraine, and broader NATO unity declarations.",
+    "date": "2026-07-07",
+    "generated_at": "2026-07-08T15:22:01.481069+00:00",
+    "related_events": [
+      {
+        "cluster_id": "evt_2026_07_06_europe_002",
+        "title": "Russian Strikes on Kyiv Before NATO Ankara Summit"
+      }
+    ],
+    "entities": [
+      {
+        "entity_id": "ent_person_volodymyr_zelensky",
+        "surfaces": [
+          "Zelensky",
+          "Ukrainian President Zelensky",
+          "Ukrainian President Volodymyr Zelensky"
+        ],
+        "relevance_to_event": "Ukrainian President who addressed the NATO summit in Ankara, urgently requesting additional air defense systems and Patriot interceptor missiles to counter Russian strikes on Ukrainian cities.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_005",
+            "clm_006",
+            "clm_009",
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_vladimir_putin",
+        "surfaces": [
+          "Putin",
+          "Russian President Vladimir Putin"
+        ],
+        "relevance_to_event": "Russian President whom Trump spoke with for 90 minutes around the time of the NATO summit; Russia under his leadership has escalated missile and drone attacks on Ukrainian infrastructure.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_016",
+            "clm_028"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "Trump",
+          "President Trump"
+        ],
+        "relevance_to_event": "US President who met with Zelensky at the summit, announced a Patriot missile licensing deal for Ukraine, spoke with Putin, and made remarks about postwar Ukraine and NATO unity that drew contrasting characterizations.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008",
+            "clm_009",
+            "clm_010",
+            "clm_011",
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_nato",
+        "surfaces": [
+          "NATO",
+          "NATO allies"
+        ],
+        "relevance_to_event": "Military alliance holding the summit in Ankara where members reaffirmed support for Ukraine and discussed increased defense spending and Arctic activities.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_006",
+            "clm_009",
+            "clm_011",
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_russia",
+        "surfaces": [
+          "Russia",
+          "Russian"
+        ],
+        "relevance_to_event": "Country conducting escalated missile and drone attacks on Ukrainian cities and whose forces are engaged in territorial disputes in Donetsk; target of Ukrainian long-range drone strikes on military and energy infrastructure.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_012",
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_patriot_missile_system",
+        "surfaces": [
+          "Patriot",
+          "Patriot missiles",
+          "Patriot missile system",
+          "Patriot interceptor missiles"
+        ],
+        "relevance_to_event": "Air defense system central to Zelensky's appeals for support; the US announced Ukraine would receive manufacturing rights under a licensing deal at the summit.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006",
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_kyiv",
+        "surfaces": [
+          "Kyiv"
+        ],
+        "relevance_to_event": "Ukrainian capital city that Russian missiles struck at least twice in less than a week, killing more than 50 civilians and prompting Zelensky's urgent summit appeal.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_ankara",
+        "surfaces": [
+          "Ankara",
+          "Ankara, Turkey"
+        ],
+        "relevance_to_event": "Turkish city where the NATO summit took place, featuring Zelensky's address, Trump-Zelensky meeting, and declarations of NATO unity and support for Ukraine.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_009",
+            "clm_010",
+            "clm_021",
+            "clm_023"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-08T15:22:53.604406+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/NATO_Family_Photo_at_the_Presidential_Palace_in_Ankara_-_2026.jpg/1280px-NATO_Family_Photo_at_the_Presidential_Palace_in_Ankara_-_2026.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/NATO_Family_Photo_at_the_Presidential_Palace_in_Ankara_-_2026.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:NATO_Family_Photo_at_the_Presidential_Palace_in_Ankara_-_2026.jpg",
+      "width": 1200,
+      "height": 800,
+      "caption": "NATO Family Photo at the Presidential Palace in Ankara, Turkey, July 2026 (file photo)",
+      "credit": "The White House",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:NATO Family Photo at the Presidential Palace in Ankara - 2026.jpg",
+      "query": "NATO summit Ankara",
+      "fetched_at": "2026-07-08T15:22:53.604364+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c9d227e5zj6o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-07T13:24:52+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Fox News",
+      "url": "https://www.foxnews.com/world/zelenskyy-pressures-us-europe-air-defense-assistance-ongoing-war-russia",
+      "author": null,
+      "published_at": "2026-07-06T11:07:56+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Fox Corporation, controlled by the Murdoch family trust.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/europe/20260705-zelensky-warns-of-new-russian-attacks-as-battle-for-kostyantynivka-continues",
+      "author": "FRANCE 24",
+      "published_at": "2026-07-05T20:19:22+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/08/trump-nato-summit-greenland-us-turkey-rutte-marine-le-pen-europe-latest-news-updates",
+      "author": "Jakub Krupa",
+      "published_at": "2026-07-08T15:04:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "The NATO summit took place in Ankara (Turkey), and Zelensky delivered a speech there urging allies to provide air defense systems Ukraine urgently needs.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "All four outlets — spanning right (Fox News), center (France 24), and center-left (BBC, The Guardian) — report Zelensky speaking at the NATO summit in Ankara and calling for air defense support, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Zelensky 'urged allies to deliver the air defence systems Kyiv urgently needs to protect it from escalating Russian attacks'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Zelenskyy 'calling for the U.S. and European allies to emerge from the meeting with strong decisions in support of Ukraine's air defense'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Zelensky issued warnings of new Russian attacks ahead of the summit and was expected to meet Trump there",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Zelensky met Trump at the Ankara summit, with the meeting described as a positive contrast to their 'infamous Oval Office meeting last year'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Zelensky stated that Ukraine can handle most of its defense needs itself but requires partners' determination specifically on air defense.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Both BBC News and Fox News report this specific Zelensky quote, but both are from different ends of the spectrum — center-left and right — giving this cross-spectrum support.",
+      "framing_variants": [
+        {
+          "characterization": "'We are capable of doing everything else ourselves, but when it comes to air defence, we need our partners' determination'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Zelenskyy attributed inability to intercept ballistic missiles to 'insufficient supply of interceptor missiles' and called for allies to act",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Russian missiles struck Kyiv at least twice in less than a week, hitting residential blocks and killing more than 50 civilians in total.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "BBC News (center-left), Fox News (right), and France 24 (center) all report Russian strikes on Kyiv with significant civilian casualties, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "'Russian missiles rained down on the Ukrainian capital twice in less than a week, crashing into blocks of flats and killing more than 50 civilians'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Zelensky's post stated Russia launched 68 missiles and 351 attack drones in one overnight attack on Kyiv",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Moscow struck Kyiv hours after Zelensky's warning, killing 30 people in one attack; at least four killed by drone and missile strikes on Sunday",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Ukraine's air defenses successfully intercepted drones and cruise missiles during recent attacks but failed to intercept any Russian ballistic missiles.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both BBC News (center-left) and Fox News (right) report Ukraine's inability to stop ballistic missiles while successfully blocking other threats, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "'Almost all drones were blocked successfully but Ukraine did not stop a single ballistic missile in that attack'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Zelenskyy stated 'Our warriors performed well today in intercepting drones and cruise missiles, but unfortunately not Russian ballistic missiles'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Zelensky attributed Ukraine's inability to intercept Russian ballistic missiles to an insufficient supply of Patriot interceptor missiles, and called on European allies to transfer their Patriot stockpiles to Ukraine.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "BBC News (center-left) and Fox News (right) both report Zelensky's stated reason for the air defense gap and his call for European Patriot transfers.",
+      "framing_variants": [
+        {
+          "characterization": "'There just aren't enough US-made Patriot air defence missiles in Ukraine to counter them'; Zelensky 'calling on European allies to hand over their own stockpiles'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "'The reason lies in the insufficient supply of interceptor missiles'; 'As long as Patriot missiles remain in our allies' stockpiles'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Zelensky also discussed Ukraine producing its own equivalent to the Patriot air defense system with NATO assistance.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC News mentions Zelensky raising the prospect of Ukraine producing its own Patriot-equivalent system with NATO help.",
+      "framing_variants": [
+        {
+          "characterization": "'Zelensky also talks about Ukraine producing its own equivalent, with Nato help'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Trump indicated the US would give Ukraine the right (a licensing deal) to manufacture Patriot missiles and praised Ukraine's weapons production capabilities.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports Trump's announcement of a Patriot manufacturing licensing deal for Ukraine at the summit.",
+      "framing_variants": [
+        {
+          "characterization": "Trump said 'we'll give them the right to make Patriots. We'll show them how to do it,' acknowledged the process is 'very complex,' and admitted 'we haven't informed the company of that yet'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Trump had not yet informed the Patriot missile manufacturer (Raytheon/RTX) of the licensing deal at the time of his announcement.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports Trump's admission that the defense contractor had not been notified of the arrangement.",
+      "framing_variants": [
+        {
+          "characterization": "Trump stated 'We haven't informed the company of that yet, but that'll work out all right'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Trump met with Zelensky at the NATO summit in Ankara, and the meeting was described as constructive — a positive contrast to their previous contentious Oval Office encounter.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "While multiple outlets anticipated the Trump-Zelensky meeting, only The Guardian reports on its actual conduct and tone, including reference to the prior 'infamous Oval Office meeting.'",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian noted attendees 'even laughing at one point at how far the pair has come since that infamous Oval Office meeting last year'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Trump discussed developing postwar Ukraine and accessing its economic potential at the Ankara summit.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports Trump's comments about Ukraine's postwar economic development potential.",
+      "framing_variants": [
+        {
+          "characterization": "Trump 'talked about his hopes of developing postwar Ukraine and tapping into its tremendous potential'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Trump spoke with Putin by phone for 90 minutes in the days before or during the NATO summit.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only BBC News reports Trump's 90-minute phone call with Putin during the week of the summit.",
+      "framing_variants": [
+        {
+          "characterization": "'He spoke to Putin for 90 minutes by phone this week'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Russia and Ukraine dispute whether Russian forces captured Kostyantynivka in the Donetsk region: Moscow announced its forces had taken the town, while Zelensky stated fighting was continuing and rejected the Russian claim.",
+      "classification": "single_source",
+      "dispute_type": "actor",
+      "claim_group": "territorial_control",
+      "rationale": "France 24 reports both Russia's claim of capturing Kostyantynivka and Zelensky's direct rejection of that claim, making this a clear actor dispute over territorial control.",
+      "framing_variants": [
+        {
+          "characterization": "Moscow announced capture of Kostyantynivka; Zelensky rejected the claim, saying 'Fighting is also continuing for Kostyantynivka'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Kostyantynivka is located in the Donetsk region and had approximately 78,000 inhabitants before Russia's invasion in 2022.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "territorial_control",
+      "rationale": "Only France 24 provides demographic and geographic details about Kostyantynivka.",
+      "framing_variants": [
+        {
+          "characterization": "Described as located in Donetsk region on the way to important hubs, with a pre-war population of about 78,000",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Ukraine has escalated long-range drone attacks against Russia, targeting oil refineries and military infrastructure, causing fuel shortages and power cuts inside Russia.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "BBC News (center-left) and France 24 (center) both report Ukraine's escalating long-range drone campaign against Russian oil and military infrastructure and its domestic effects in Russia.",
+      "framing_variants": [
+        {
+          "characterization": "Ukraine 'stepping up its own long-range drone attacks against Russia, hitting oil refineries and military targets there and causing significant fuel shortages and power cuts'; Russian social media shows queues for petrol",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Kyiv's increased strikes have targeted Russian oil and fuel depots and 'affected ordinary life in Russia'; Zelensky said strikes deliver results 'every single day'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Ukrainian drone strikes have reached as far as Omsk in Siberia (approximately 2,500 km from Ukraine's border), including a confirmed hit on an oil refinery there.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC News reports the specific Omsk refinery strike and notes the drone flew undetected for many hours, illustrating the range of Ukraine's capabilities.",
+      "framing_variants": [
+        {
+          "characterization": "'Confirmed hit on an oil refinery in Omsk, Siberia, 2,500 km from Ukraine's border'; 'the drone must have flown undetected for many hours, which shows how stretched Russia's own air defences actually are'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Ukrainian drones struck an oil terminal in St Petersburg ahead of Putin's economic forum in June, and struck a refinery in Moscow, creating viral explosion videos.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC News reports these specific earlier Ukrainian drone strikes on St Petersburg and Moscow.",
+      "framing_variants": [
+        {
+          "characterization": "'An oil terminal in St Petersburg was hit with drones ahead of Putin's showpiece economic forum in June'; 'strikes on a refinery in Moscow itself, creating explosion videos that went viral'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Ukrainian drones are striking military logistics, oil refineries and power plants in Crimea nearly every day, causing power cuts, fuel and food shortages, and an official state of emergency in the peninsula.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC News reports on the sustained Ukrainian drone campaign targeting Crimea and its resulting domestic disruptions including a state of emergency.",
+      "framing_variants": [
+        {
+          "characterization": "'Ukrainian drones are now hitting military logistics, oil refineries and power plants there almost every day, causing power cuts, fuel and food shortages and an official state of emergency'; a local resident called the situation 'catastrophic'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Moscow's mayor Sergei Sobyanin stated that Russian anti-air defenses intercepted 'most' of approximately 430 Ukrainian drones fired at Moscow overnight.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC News reports Mayor Sobyanin's specific statement about the scale and outcome of the drone attack on Moscow.",
+      "framing_variants": [
+        {
+          "characterization": "'Moscow's mayor Sergei Sobyanin said anti-air defences intercepted \"most\" of the 430 unmanned aerial drones fired by Ukraine towards the capital overnight'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Russia accuses Ukraine of 'terrorism' for striking Russian oil refineries with drones.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC News reports Russia's characterization of Ukrainian drone strikes on oil infrastructure as terrorism.",
+      "framing_variants": [
+        {
+          "characterization": "'Moscow now accuses Kyiv of \"terrorism\" for hitting its oil refineries with drones'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Zelensky warned that Russian intelligence indicated a new massive strike was being prepared ahead of the NATO summit.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "France 24 and BBC News both report Zelensky's warnings of imminent Russian attacks, though both are on the center-left side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "'Intelligence once again has information the Russians are preparing a new massive strike' — Zelensky warned ahead of the NATO summit",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The strikes described as part of Russia's escalating attack pattern in the days surrounding the summit",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "NATO Secretary General Mark Rutte declared the Ankara summit 'tremendously successful,' citing stronger alliance unity, Trump's leadership, increased European and Canadian defense spending, and reaffirmed support for Ukraine.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "BBC News (center-left) and The Guardian (center-left) both report Rutte's positive assessment of the summit, though classification as 'agreed' requires different spectrum sides — here both are center-left, so this is corroborated.",
+      "framing_variants": [
+        {
+          "characterization": "Rutte urged member states to 'pull their weight' and said Kyiv was 'changing the dynamic on the battlefield'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Rutte declared the summit showed 'this alliance is stronger than ever,' with 'a huge sense of unity' and allies 'warmly welcoming Trump's leadership'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Rutte stated that NATO allies reaffirmed 'unwavering support for Ukraine' and committed to continuing to ensure Ukraine gets what it needs, including reaffirming Article 5.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports Rutte's specific language about NATO's 'unwavering support for Ukraine' and Article 5 reaffirmation at the summit's conclusion.",
+      "framing_variants": [
+        {
+          "characterization": "Rutte said allies 'reaffirmed Nato's unwavering support for Ukraine' and commitment to Article 5",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "UK Prime Minister Keir Starmer stated that NATO emerged from the Ankara summit 'stronger and more united,' and reported Trump praised the spirit and unity of the meeting.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports Starmer's post-summit characterization and his account of Trump's closing remarks.",
+      "framing_variants": [
+        {
+          "characterization": "Starmer said NATO emerged 'stronger and more united' and that Trump 'was very pleased to welcome the spirit of the meeting and the unity of the meeting'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Italian Prime Minister Giorgia Meloni stated she does not regret pursuing partnership with Trump, attributing it to her belief in Western unity, while acknowledging recent tensions in the Trump-Meloni relationship.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports Meloni's statements about her relationship with Trump and her stated reasons for pursuing that partnership.",
+      "framing_variants": [
+        {
+          "characterization": "Meloni said 'No, I absolutely don't regret anything I have done' and 'I made that political investment because I believe in the unity of the West,' noting they still share common ground on immigration and opposition to 'woke culture'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "Trump met with Syria's President Ahmed al-Sharaa at the summit and praised Syria's stability and track record.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports Trump's bilateral meeting with Syria's president at the Ankara summit.",
+      "framing_variants": [
+        {
+          "characterization": "Trump met Syria's president Ahmed al-Sharaa, 'praising his track record in Syria, and saying the country has become very stable'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "Spanish Prime Minister Pedro Sánchez characterized US-Spain relations and military cooperation as 'optimal and positive,' despite Trump's recent trade threats against Spain.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports Sánchez's statements about US-Spain relations amid Trump's trade threats.",
+      "framing_variants": [
+        {
+          "characterization": "Sánchez said 'Relations between the United States and Spain are very positive relations' and described military cooperation as 'optimal and positive,' despite Trump's 'latest threat to cut off trade links'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "Trump made critical remarks about the EU at the summit, stating the bloc has 'treated us very badly for years and took advantage,' while referencing 'trillions' in investments.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports Trump's specific critical comments about the EU at the Ankara summit.",
+      "framing_variants": [
+        {
+          "characterization": "Trump stated the EU 'have treated us very badly for years and took advantage,' referencing 'trillions with a t'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_028",
+      "text": "Trump used a 'kids fighting in a park' metaphor that The Guardian characterized as appearing to disregard the distinction between aggressor and victim in the Russia-Ukraine war, and also talked about his personal relationship with Putin.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports and critically frames Trump's metaphor about the war and his references to his personal relationship with Putin.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian noted Trump 'appeared to disregard the pretty fundamental difference between an aggressor and a victim with his kids fighting in a park metaphor' and 'talked about his personal relationship with Putin'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_029",
+      "text": "Rutte stated Trump is 'generally right' on warnings about defending the Arctic, and that NATO has stepped up its activities in the Arctic region.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports Rutte's statements about Trump and NATO activity in the Arctic.",
+      "framing_variants": [
+        {
+          "characterization": "Rutte said 'Trump is generally right on the warnings about the need to defend the Arctic' and that NATO has stepped up activities in the region",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_030",
+      "text": "The next NATO summit will be held in Albania, though the exact timing has not yet been decided.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports Rutte's confirmation that Albania will host the next NATO summit.",
+      "framing_variants": [
+        {
+          "characterization": "Rutte 'confirms it will be in Albania' but noted 'the exact timing is yet to be decided'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_031",
+      "text": "Trump confused Iran with Japan, referring to 'the Islamic Republic of Japan' during the summit.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports this specific verbal error by Trump during the summit.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian noted Trump 'confused Iran with Japan, and talked about the Islamic Republic of Japan'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_032",
+      "text": "Zelensky and senior NATO and EU leaders including South Korean President Lee Jae Myung, European Council President António Costa, and European Commission President Ursula von der Leyen were expected to have dinner with NATO leaders on Tuesday of the summit.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only Fox News (citing Reuters) reports the expected Tuesday dinner with NATO leaders.",
+      "framing_variants": [
+        {
+          "characterization": "Reuters reported these leaders 'are expected to have dinner with NATO leaders on Tuesday'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_033",
+      "text": "Russia has targeted Ukrainian civilian infrastructure, including power stations, for years throughout the conflict.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "BBC News and France 24 both reference Russia's sustained targeting of Ukrainian civilian infrastructure as context for the current conflict, though both are on the center-to-center-left spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "'After years of Russia targeting civilian infrastructure in Ukraine, including power stations in mid-winter'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Russia's invasion described as Europe's worst conflict since World War II, lasting nearly 4.5 years",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-08T15:22:31.874598+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Ukrainian President Volodymyr Zelensky addressed NATO allies at their summit in Ankara, Turkey, urgently requesting additional air defense systems as Russia escalated missile and drone attacks on Ukrainian cities. The appeal came as Russian missiles struck Kyiv at least twice in less than a week, hitting residential blocks and killing more than 50 civilians in total.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Ukraine's air defenses successfully intercepted drones and cruise missiles during recent attacks but failed to intercept any Russian ballistic missiles. Zelensky attributed Ukraine's inability to stop ballistic missiles to an insufficient supply of Patriot interceptor missiles, and called on European allies to transfer their Patriot stockpiles to Ukraine. \"We can handle everything else ourselves,\" he told the summit, \"but on air defense, we need our partners' determination.\"",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Ukraine has escalated long-range drone attacks against Russia, targeting oil refineries and military infrastructure. The campaign has caused fuel shortages and power cuts inside Russia, marking a significant expansion of Ukraine's operational reach beyond its own borders.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Russia has targeted Ukrainian civilian infrastructure, including power stations, for years throughout the conflict. Zelensky warned ahead of the summit that Russian intelligence indicated a new massive strike was being prepared to coincide with the NATO gathering in Ankara.",
+        "supports": {
+          "claim_ids": [
+            "clm_033",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Center-left outlets reported that President Trump met with Zelensky at the Ankara summit, with The Guardian characterizing the encounter as constructive — a positive contrast to their previous contentious Oval Office meeting. During the summit, Trump announced that the US would give Ukraine the right to manufacture Patriot missiles under a licensing deal, praising Ukraine's weapons production capabilities. However, The Guardian noted that Trump had not yet informed the Patriot missile manufacturer, Raytheon/RTX, of the licensing arrangement at the time of his announcement.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "BBC News reported that Trump spoke with Russian President Vladimir Putin by phone for 90 minutes in the days before or during the NATO summit. The Guardian reported that Trump discussed developing postwar Ukraine and accessing its economic potential during the summit, while also making critical remarks about the EU, stating the bloc has \"treated us very badly for years and took advantage,\" while referencing \"trillions\" in investments.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_010",
+            "clm_027"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "BBC News alone reported that Zelensky also discussed Ukraine producing its own equivalent to the Patriot air defense system with NATO assistance, suggesting a longer-term approach to closing Ukraine's air defense gap beyond immediate transfers from allied stockpiles.",
+        "supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "NATO Secretary General Mark Rutte declared the Ankara summit \"tremendously successful,\" citing stronger alliance unity, Trump's leadership, increased European and Canadian defense spending, and reaffirmed support for Ukraine. The Guardian reported that Rutte stated NATO allies reaffirmed \"unwavering support for Ukraine\" and committed to continuing to ensure Ukraine gets what it needs, including reaffirming Article 5. UK Prime Minister Keir Starmer stated that NATO emerged from the summit \"stronger and more united,\" and reported Trump praised the spirit and unity of the meeting.",
+        "supports": {
+          "claim_ids": [
+            "clm_021",
+            "clm_022",
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Guardian reported that Trump used a \"kids fighting in a park\" metaphor that appeared to disregard the distinction between aggressor and victim in the Russia-Ukraine war, and also talked about his personal relationship with Putin. This framing contrasts with the broader summit messaging of unwavering NATO support for Ukraine as the victim of Russian aggression.",
+        "supports": {
+          "claim_ids": [
+            "clm_028"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "BBC News reported that Ukrainian drones have reached as far as Omsk in Siberia — approximately 2,500 kilometers from Ukraine's border — including a confirmed hit on an oil refinery there. The outlet also reported that Ukrainian drones are striking military logistics, oil refineries, and power plants in Crimea nearly every day, causing power cuts, fuel and food shortages, and prompting an official state of emergency in the peninsula. Ukrainian drones also struck an oil terminal in St Petersburg ahead of Putin's economic forum in June, and struck a refinery in Moscow, creating viral explosion videos.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_017",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "BBC News reported that Moscow's mayor Sergei Sobyanin stated Russian anti-air defenses intercepted \"most\" of approximately 430 Ukrainian drones fired at Moscow overnight. Russia accuses Ukraine of \"terrorism\" for striking Russian oil refineries with drones, a characterization Ukraine has not accepted.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "France 24 reported a territorial dispute in the Donetsk region: Moscow announced its forces had captured Kostyantynivka, a town with approximately 78,000 inhabitants before Russia's 2022 invasion, while Zelensky stated fighting was continuing and rejected the Russian claim.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Guardian reported on several bilateral meetings Trump held at the summit. Trump met with Syria's President Ahmed al-Sharaa and praised Syria's stability and track record. Italian Prime Minister Giorgia Meloni stated she does not regret pursuing partnership with Trump, attributing it to her belief in Western unity, while acknowledging recent tensions in the Trump-Meloni relationship. Spanish Prime Minister Pedro Sánchez characterized US-Spain relations and military cooperation as \"optimal and positive,\" despite Trump's recent trade threats against Spain.",
+        "supports": {
+          "claim_ids": [
+            "clm_025",
+            "clm_024",
+            "clm_026"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "The Guardian reported that Rutte stated Trump is \"generally right\" on warnings about defending the Arctic, and that NATO has stepped up its activities in the Arctic region. The next NATO summit will be held in Albania, though the exact timing has not yet been decided.",
+        "supports": {
+          "claim_ids": [
+            "clm_029",
+            "clm_030"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "The Guardian noted that Trump confused Iran with Japan during the summit, referring to \"the Islamic Republic of Japan\" in his remarks. Fox News reported that Zelensky and senior NATO and EU leaders, including South Korean President Lee Jae Myung, European Council President António Costa, and European Commission President Ursula von der Leyen, were expected to have dinner with NATO leaders on Tuesday of the summit.",
+        "supports": {
+          "claim_ids": [
+            "clm_031",
+            "clm_032"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

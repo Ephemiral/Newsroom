@@ -1,0 +1,93 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_ukraine",
+  "type": "location",
+  "canonical_name": "Ukraine",
+  "aliases": [],
+  "wikidata_qid": "Q212",
+  "summary": "Ukraine is a country in Eastern Europe. It is the second-largest country in Europe after Russia, which borders it to the east and northeast.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ukraine"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Maidan_Nezalezhnosti_view.jpg/960px-Maidan_Nezalezhnosti_view.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Maidan_Nezalezhnosti_view.jpg",
+    "credit": "Juan Antonio Segal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Maidan Nezalezhnosti view.jpg",
+    "fetched_at": "2026-07-08T15:18:50.937804+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Ukraine also borders Belarus to the north; Poland and Slovakia to the west; Hungary, Romania and Moldova to the southwest; and the Black Sea and the Sea of Azov to the south and southeast.",
+      "source_url": "https://en.wikipedia.org/wiki/Ukraine",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Kyiv is Ukraine's capital and largest city, followed by Kharkiv, Odesa, and Dnipro.",
+      "source_url": "https://en.wikipedia.org/wiki/Ukraine",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The official language of the country is Ukrainian.",
+      "source_url": "https://en.wikipedia.org/wiki/Ukraine",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_08_europe_001"
+  ],
+  "created_at": "2026-07-08T15:18:50.349600+00:00",
+  "last_updated": "2026-07-08T15:18:55.922593+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ukraine"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ukraine"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ukraine"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q212 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q212"
+    }
+  ]
+}
