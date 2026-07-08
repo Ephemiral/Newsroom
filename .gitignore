@@ -24,5 +24,8 @@ web/out/
 .DS_Store
 Thumbs.db
 
+# LibreOffice lock files (created while TRACKSHEET.xlsx is open; never commit)
+.~lock.*#
+
 # Autonomous-run state and logs (local only)
 data/logs/
