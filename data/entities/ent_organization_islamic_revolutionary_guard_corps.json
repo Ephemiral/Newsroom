@@ -1,0 +1,54 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_islamic_revolutionary_guard_corps",
+  "type": "organization",
+  "canonical_name": "Islamic Revolutionary Guard Corps",
+  "aliases": [
+    "Iran's Revolutionary Guards"
+  ],
+  "wikidata_qid": "Q271110",
+  "summary": "The Islamic Revolutionary Guard Corps (IRGC), also known domestically as Sepah or Pasdaran and internationally as Iranian Revolutionary Guards, is a multi-service primary force of the Iranian Armed Forces. It consists of five service branches: Ground Forces, Aerospace Force, Navy, Quds Force, and Basij.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Islamic_Revolutionary_Guard_Corps"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is led by a commander-in-chief, who is appointed by and reports to the Supreme Leader of Iran.",
+      "source_url": "https://en.wikipedia.org/wiki/Islamic_Revolutionary_Guard_Corps",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_08_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-08T15:08:30.418461+00:00",
+  "last_updated": "2026-07-08T15:08:36.309503+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Islamic_Revolutionary_Guard_Corps"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q271110 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q271110"
+    }
+  ]
+}

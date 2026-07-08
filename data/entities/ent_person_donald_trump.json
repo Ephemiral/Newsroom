@@ -1,0 +1,98 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_donald_trump",
+  "type": "person",
+  "canonical_name": "Donald Trump",
+  "aliases": [
+    "Trump",
+    "US President Donald Trump",
+    "President Trump"
+  ],
+  "wikidata_qid": "Q22686",
+  "summary": "Donald John Trump is an American politician, media personality, and businessman who is the 47th president of the United States. A member of the Republican Party, he served as the 45th president from 2017 to 2021.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Donald_Trump"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%28cropped%29%282%29.jpg/960px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%28cropped%29%282%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025)_(cropped)(2).jpg",
+    "credit": "Daniel Torok",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Official Presidential Portrait of President Donald J. Trump (2025) (cropped)(2).jpg",
+    "fetched_at": "2026-07-08T15:05:47.206055+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "chief executive officer",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q22686",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "president",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q22686",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "director",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q22686",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President-elect of the United States",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q22686",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President of the United States",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q22686",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President-elect of the United States",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q22686",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_08_israel_middle_east_001",
+    "evt_2026_07_08_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-08T15:05:44.929360+00:00",
+  "last_updated": "2026-07-08T15:08:36.308979+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q22686 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q22686"
+    }
+  ]
+}

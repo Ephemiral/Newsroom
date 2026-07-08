@@ -1,0 +1,53 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_mojtaba_khamenei",
+  "type": "person",
+  "canonical_name": "Mojtaba Khamenei",
+  "aliases": [],
+  "wikidata_qid": "Q2919350",
+  "summary": "Mojtaba Hosseini Khamenei is an Iranian cleric and politician who is serving as the third supreme leader of Iran since 2026. A member of the Khamenei family and the second son of second supreme leader Ali Khamenei, he previously served as Vakil of the Supreme Leader during his father's rule from 2008 to 2026.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Mojtaba_Khamenei"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Ayatollah_Sayyid_Mojtaba_Khamenei%2C_10_April_2026_%28cropped%29.jpg/960px-Ayatollah_Sayyid_Mojtaba_Khamenei%2C_10_April_2026_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ayatollah_Sayyid_Mojtaba_Khamenei,_10_April_2026_(cropped).jpg",
+    "credit": "khamenei.ir",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Ayatollah Sayyid Mojtaba Khamenei, 10 April 2026 (cropped).jpg",
+    "fetched_at": "2026-07-08T15:05:44.849145+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Supreme Leader of Iran",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q2919350",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_08_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-08T15:05:42.940222+00:00",
+  "last_updated": "2026-07-08T15:05:59.156638+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q2919350 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q2919350"
+    }
+  ]
+}

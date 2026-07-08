@@ -1,0 +1,71 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_masoud_pezeshkian",
+  "type": "person",
+  "canonical_name": "Masoud Pezeshkian",
+  "aliases": [
+    "Iranian President Masoud Pezeshkian"
+  ],
+  "wikidata_qid": "Q5933752",
+  "summary": "Masoud Pezeshkian is an Iranian politician and heart surgeon who has served as the ninth president of Iran since 2024. A member of the reformist faction, he is the oldest person to serve in this position, taking office at the age of 69.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Masoud_Pezeshkian"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Masoud_Pezeshkian_14040616_%28cropped%29.jpg/960px-Masoud_Pezeshkian_14040616_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Masoud_Pezeshkian_14040616_(cropped).jpg",
+    "credit": "khamenei.ir",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Masoud Pezeshkian 14040616 (cropped).jpg",
+    "fetched_at": "2026-07-08T15:05:49.756563+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Member of the Islamic Consultative Assembly",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q5933752",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Health and Medical Education",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q5933752",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President of Iran",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q5933752",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_08_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-08T15:05:47.331840+00:00",
+  "last_updated": "2026-07-08T15:05:59.156997+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q5933752 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q5933752"
+    }
+  ]
+}

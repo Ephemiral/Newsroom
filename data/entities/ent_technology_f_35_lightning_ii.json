@@ -1,0 +1,98 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_f_35_lightning_ii",
+  "type": "technology",
+  "canonical_name": "F-35 Lightning II",
+  "aliases": [
+    "Lockheed Martin F-35 Lightning II",
+    "F-35 fighter jets",
+    "F-35s",
+    "F-35"
+  ],
+  "wikidata_qid": "Q29261",
+  "summary": "The Lockheed Martin F-35 Lightning II is an American family of single-seat, single-engine, supersonic stealth strike fighters. A multirole combat aircraft designed for air superiority and strike missions, it also has electronic warfare and intelligence, surveillance, and reconnaissance capabilities.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/F-35_at_Edwards.jpg/960px-F-35_at_Edwards.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:F-35_at_Edwards.jpg",
+    "credit": "U.S. Air Force photo/Senior Airman Julius Delos Reyes",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:F-35 at Edwards.jpg",
+    "fetched_at": "2026-07-08T15:08:31.693916+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Lockheed Martin is the prime contractor, with partners Northrop Grumman and BAE Systems.",
+      "source_url": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The aircraft has three main variants: the conventional takeoff and landing F-35A, the short take-off and vertical-landing F-35B, and the catapult-assisted take-off but arrested recovery F-35C.",
+      "source_url": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "With 883 aircraft in service as of 2025, it is the world's fourth-most-numerous military aircraft, and most-numerous stealth aircraft.",
+      "source_url": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_08_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-08T15:08:31.229162+00:00",
+  "last_updated": "2026-07-08T15:08:36.309665+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q29261 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q29261"
+    }
+  ]
+}

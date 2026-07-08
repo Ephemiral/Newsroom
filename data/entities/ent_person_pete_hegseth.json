@@ -1,0 +1,30 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_pete_hegseth",
+  "type": "person",
+  "canonical_name": "Pete Hegseth",
+  "aliases": [
+    "Hegseth"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_08_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-08T15:08:29.547013+00:00",
+  "last_updated": "2026-07-08T15:08:36.308356+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_israel_middle_east_002",
+      "source": null
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_turkey",
+  "type": "location",
+  "canonical_name": "Turkey",
+  "aliases": [],
+  "wikidata_qid": "Q43",
+  "summary": "Turkey, officially the Republic of Türkiye, is a country mainly located in Anatolia in West Asia, with a smaller part called East Thrace in Southeast Europe. It borders the Black Sea to the north; Georgia, Armenia, Azerbaijan, and Iran to the east; Iraq, Syria, and the Mediterranean Sea to the south; and the Aegean Sea, Greece, and Bulgaria to the west.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Turkey"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Ankara_%2816290014657%29.jpg/960px-Ankara_%2816290014657%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ankara_(16290014657).jpg",
+    "credit": "Jorge Franganillo from Barcelona, Spain",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Ankara (16290014657).jpg",
+    "fetched_at": "2026-07-08T15:08:32.431884+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Turkey is home to over 86 million people; most are ethnic Turks, while Kurds are the largest ethnic minority.",
+      "source_url": "https://en.wikipedia.org/wiki/Turkey",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Officially a secular state, Turkey has a Muslim-majority population.",
+      "source_url": "https://en.wikipedia.org/wiki/Turkey",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Ankara is Turkey's capital and second-largest city.",
+      "source_url": "https://en.wikipedia.org/wiki/Turkey",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_08_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-08T15:08:31.694568+00:00",
+  "last_updated": "2026-07-08T15:08:36.310047+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Turkey"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Turkey"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Turkey"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q43 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q43"
+    }
+  ]
+}

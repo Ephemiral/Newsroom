@@ -1,0 +1,1168 @@
+{
+  "schema_version": "0.5",
+  "event": {
+    "cluster_id": "evt_2026_07_08_israel_middle_east_001",
+    "beat": "israel_middle_east",
+    "title": "Funeral Procession for Iran's Supreme Leader Ali Khamenei in Tehran",
+    "summary": "A massive public funeral procession for Iran's assassinated Supreme Leader Ali Khamenei took place in Tehran on Monday, July 7, 2026, drawing millions of mourners along a 10km route through the capital. The ceremonies occurred amid ongoing negotiations between Iran and the United States following a war that began on 28 February 2026.",
+    "date": "2026-07-07",
+    "generated_at": "2026-07-08T15:05:09.288113+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_ali_khamenei",
+        "surfaces": [
+          "Ali Khamenei",
+          "Khamenei"
+        ],
+        "relevance_to_event": "The assassinated Iranian Supreme Leader whose funeral procession is the central subject of this report; killed in US and Israeli airstrikes on February 28, 2026.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_mojtaba_khamenei",
+        "surfaces": [
+          "Mojtaba Khamenei"
+        ],
+        "relevance_to_event": "Ali Khamenei's successor as Supreme Leader who has not appeared publicly since the airstrikes due to reported serious injuries, absent from the funeral ceremonies.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "Trump",
+          "US President Donald Trump"
+        ],
+        "relevance_to_event": "US President whose characterization of funeral mourners' grief as 'fake tears' was rejected by Iranian President Pezeshkian; anti-Trump sentiment was visible throughout the procession.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_masoud_pezeshkian",
+        "surfaces": [
+          "Masoud Pezeshkian",
+          "Iranian President Masoud Pezeshkian"
+        ],
+        "relevance_to_event": "Iran's current President who rejected Trump's claims about fake tears and represents Iran's negotiating leadership in ongoing talks with the United States.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_israel_katz",
+        "surfaces": [
+          "Israel Katz",
+          "Israeli Defence Minister Israel Katz"
+        ],
+        "relevance_to_event": "Israeli Defence Minister who stated that Israel eliminated Khamenei and warned of consequences for any future Iranian leader pursuing plans against Israel.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "Iran",
+          "Iranian"
+        ],
+        "relevance_to_event": "The nation whose Supreme Leader's funeral is being held; currently engaged in negotiations with the United States following a war that began February 28, 2026.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009",
+            "clm_011",
+            "clm_012",
+            "clm_013",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_united_states",
+        "surfaces": [
+          "United States",
+          "US"
+        ],
+        "relevance_to_event": "Country whose airstrikes killed Khamenei and whose president is engaged in ongoing negotiations with Iran mediated by Qatar to end the war.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_004",
+            "clm_009",
+            "clm_011",
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_strait_of_hormuz",
+        "surfaces": [
+          "Strait of Hormuz"
+        ],
+        "relevance_to_event": "Strategic waterway whose reopening was included in the preliminary agreement signed between Iran and the United States to end the war.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-08T15:06:07.142809+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ali_Khamenei_Nowruz_message_official_portrait_1397_02_%28cropped%29.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ali_Khamenei_Nowruz_message_official_portrait_1397_02_%28cropped%29.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ali_Khamenei_Nowruz_message_official_portrait_1397_02_(cropped).jpg",
+      "width": 1183,
+      "height": 1577,
+      "caption": "Ali Khamenei, Supreme Leader of Iran (file photo)",
+      "credit": "khamenei.ir",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Ali Khamenei Nowruz message official portrait 1397 02 (cropped).jpg",
+      "query": "Ali Khamenei portrait",
+      "fetched_at": "2026-07-08T15:06:07.142765+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpbU5CVUVoby01ODEyc3NJSzR4WWVIWFZIMDE3S1BqVmhYRjJyTHc1cEZONzJXQTZIaHpmR3ZWRWpPbWJ0R3NNbnppZ0NmeWJNcDBpSTRR?oc=5",
+      "author": null,
+      "published_at": "2026-07-06T06:20:48+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/video/2026/jul/06/millions-walk-ali-khamenei-coffin-tehran-funeral-procession-video",
+      "author": null,
+      "published_at": "2026-07-06T09:25:19+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/06/iran-tehran-ali-khamenei-funeral-day-four",
+      "author": "Patrick Wintour in Tehran",
+      "published_at": "2026-07-06T18:54:35+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Patrick Wintour is The Guardian's chief political commentator and former editor who has covered UK politics, elections, and international affairs throughout his career.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c07yy3j3nljo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-07T00:46:03+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWTVfcDRmSHBCZDdVemk2a25lRXMyQWt4enAzRl8tLTNSUUpTMEtHUndNVUhSalZQa0F0YW85X25lLVJHUDQtdEtvNHdGYTdiU1R3cks4SHVQek9oZTV0MG13LUdiaDROS2p0aXZhQ3gxWU1JZGg5ZXBuXzdSLW1yS2FPalNsM1VYVTdlZGVQWFdqcHFZQzlfX1YxcXZwLThGajB5aVZ5bElvZ3JQVUHSAbMBQVVfeXFMTVAxazA2NF9EbkZqWk5EV09pR0tRRUdqaFhKVkwxSUc4cElOaXdGaGJ1NzhoRjNoUW5reHdROTc2R3dia29TSzd1RFV1ZFlFMXc0aEkxaVpFUmppNFVsUUZPbkNOSUw3TEZ3dGlvT083YXdvZ1R1SDhxY2JteXRFckdScVNjT2hKWmVELWxzZ1lnV0lQWkR4YWxrR1pyVUY0QVBkeHhqQUIyemFTanlhb3g1b2s?oc=5",
+      "author": null,
+      "published_at": "2026-07-06T10:56:26+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/06/ali-khamenei-funeral-procession-iran-supreme-leader",
+      "author": "Patrick Wintour in Tehran",
+      "published_at": "2026-07-06T17:25:12+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Patrick Wintour is The Guardian's chief political commentator and former editor who has covered UK politics, elections, and international affairs throughout his career.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cdejj44kl70o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-06T18:50:44+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_008",
+      "outlet": "Asharq Al-Awsat",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWEUyQ01salRDVnMyQUU0bkpCRktBdnRkSjhPMlg1aEdBM3dteEpTa2VyOXprb3ZVWlVlNWtjYnBnNmVSNDYtdlQyTUh4Vm5NRTB4V3BqYUxpUi1GVktMQlN1M0QtUThKdnRaWmpxNU9za3Q5ems4OFNZUGJILVZFcWRxN2YzTjlhNlRacGhIby1WLUpZdmkw?oc=5",
+      "author": null,
+      "published_at": "2026-07-07T17:18:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": "Saudi state-aligned",
+      "ownership": "Owned by SRMG (Saudi Research and Media Group), whose principal shareholders are tied to the Saudi royal family. Saudi state-aligned.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A large-scale public funeral procession for Ali Khamenei took place in Tehran.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "funeral_procession",
+      "rationale": "Every source across the spectrum — from left (Al Jazeera) to center-left (Guardian, BBC) to center-right (Ynet, Saudi state-aligned Asharq Al-Awsat) — confirms a major public funeral procession occurred in Tehran, meeting the cross-spectrum threshold for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "Ynet reports the funeral procession occurred in Tehran, lasting 12 hours.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian describes 'a crowd of millions' assembling for the procession.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian reports 'Iranians poured in vast numbers' on the fourth day of mourning.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC describes it as 'one of the largest public gatherings in many years.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Al Jazeera headlines a 'huge crowd' joining the procession.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Guardian reports 'a crowd of millions' assembled on Monday.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC reports 'huge crowds' lining Tehran streets.",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "Saudi state-aligned Asharq Al-Awsat headlines 'huge crowds' filling Tehran.",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_007",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The funeral procession route ran approximately 10km through central Tehran, from an eastern square (variously described as Revolution Square or Imam Hossein Square) to Azadi Square in the west.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "funeral_procession",
+      "rationale": "Multiple sources confirm the 10km route and the Azadi Square terminus; the starting point is variously described as Revolution Square or Imam Hossein Square, but all sources are center-left outlets, so this is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian specifies the route as 'from Revolution Square to Azadi Square.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian describes the route as 'east to west, through Tehran from Revolution Square to Azadi Square.'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC reports 'a 10km route' but does not specify the eastern starting point by name.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "BBC specifies the route as 'from Imam Hossein Square in the east to Azadi Square in the west,' passing through Enghelab (Revolution) Square.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "State media estimated the crowd at millions of mourners.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "funeral_procession",
+      "rationale": "Both center-left (Guardian, BBC) and the broader reporting cluster confirm that state media claimed millions attended; the attribution to state media is consistent across sources spanning the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian attributes the millions estimate directly to state media.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian quotes the figure as 'millions' with quotation marks, signalling state media sourcing.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC explicitly states 'State media reported that millions of mourners filled the main boulevards.'",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "BBC describes 'millions of mourners' slowing the cortège.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_006",
+        "src_007",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Ali Khamenei and members of his family were killed by US and Israeli airstrikes on 28 February 2026.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "khamenei_death",
+      "rationale": "Multiple center-left outlets consistently report the date and attributing the killings to joint US-Israeli airstrikes; no source disputes this factual account, though the framing of responsibility varies slightly.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian refers to 'US and Israeli airstrikes on Iran on 28 February.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC attributes the killings to 'Israeli-American air strikes on 28 February.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The Guardian says Khamenei 'was killed by Israeli bombs in February,' emphasising Israeli agency.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC says he 'was killed on the first day of the war with the US and Israel.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The funeral procession cortège carried five coffins — those of Khamenei, his wife, and other family members killed in the airstrikes — including a small coffin for his 14-month-old granddaughter Zara.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "funeral_procession",
+      "rationale": "Multiple Guardian and BBC articles consistently report five coffins in the procession, naming Khamenei's granddaughter Zara as among those killed; all sources are center-left.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports 'trucks carrying the caskets of Khamenei and those of relatives.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC notes 'five caskets, painted in the green, red and white of Iran's flag,' with the smallest for '14-month-old granddaughter Zara.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The Guardian describes Khamenei's family members' coffins in the procession but does not specify Zara by name.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Khamenei's body lay in state for two days at Tehran's Grand Mosalla mosque before the procession.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "funeral_procession",
+      "rationale": "Three Guardian and BBC articles confirm the two-day lying-in-state at the Grand Mosalla mosque preceding the public procession; all are center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian describes 'a two-day funeral of the supreme leader and members of his family in the Grand Mosalla mosque in Tehran.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian notes the procession followed 'a two-day funeral' at the Grand Mosalla.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC states 'his body lay in state for two days at Tehran's Grand Mosalla mosque.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The funeral ceremonies were scheduled to span six days in total, with processions in Tehran on Monday, Qom on Tuesday, Shia cities in Iraq (Najaf and Karbala), and a final burial at the Imam Reza Shrine in Mashhad on Thursday.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "funeral_procession",
+      "rationale": "Multiple center-left outlets consistently detail the multi-city, multi-day funeral schedule including the Mashhad burial site; all sources are center-left.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian refers to 'the six-day funeral for Khamenei.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC outlines plans for Qom Tuesday, Iraq, and 'the final burial is on Thursday at the sprawling Imam Reza Shrine in Mashhad.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The Guardian notes 'Late on Monday, Khamenei's body arrived in Qom' with processions planned for Tuesday and Iraq.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC confirms Tuesday prayers in Qom and describes Mashhad as 'Iran's holiest city' and Khamenei's birthplace.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Mojtaba Khamenei succeeded Ali Khamenei as Iran's new Supreme Leader.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "iranian_leadership",
+      "rationale": "Three center-left outlets confirm Mojtaba Khamenei's succession as Supreme Leader; no sources dispute this fact.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian identifies him as 'the new supreme leader, Mojtaba Khamenei, the son of the late supreme leader.'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC reports 'Mojtaba, the son who succeeded him as supreme leader.'",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "BBC describes '56-year-old Mojtaba Khamanei' as Iran's third Supreme Leader and notes Iran 'enters a new era.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_006",
+        "src_007",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Mojtaba Khamenei has not appeared in public since the airstrikes; Iranian officials cited security concerns as the reason for his absence from funeral ceremonies, though BBC also reported he was reportedly seriously wounded in the strikes.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "iranian_leadership",
+      "rationale": "Multiple center-left outlets confirm his absence from public view, though they differ slightly on the stated reason — security concerns vs. wounds — making this a nuanced corroborated fact rather than a contested one, as no source flatly contradicts another.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports Iranian officials said his absence was 'not due to wounds' but 'to concerns for his safety,' noting Israeli threats to assassinate him.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC reports he 'has not been seen in public since he was reportedly seriously wounded in the same Israeli air strike' and 'communicates mainly through written statements.'",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "BBC notes he has 'still not been seen in public since the air strikes which killed his father severely injured him,' while Iranian officials point to 'Israel's continuing threats to assassinate him too.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_006",
+        "src_007",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Mojtaba Khamenei's three brothers attended the funeral ceremonies in his absence.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "iranian_leadership",
+      "rationale": "Three center-left outlets confirm that three of Mojtaba Khamenei's brothers were present at the funeral ceremonies.",
+      "framing_variants": [
+        {
+          "characterization": "BBC notes 'the sight of his three brothers at the open-air Grand Musalla mosque compound.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The Guardian states 'his three grieving brothers attended.'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC reports 'Three of Khamenei's sons prayed beside his coffin there on Sunday.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Israeli Defence Minister Israel Katz stated that Ali Khamenei was 'eliminated by Israel' because he had threatened Israel's existence, and warned that any future Iranian leader pursuing plans to destroy Israel would also be killed.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only BBC's second article reports Israel Katz's specific statements about 'elimination' and the warning to future Iranian leaders; no other source in the cluster includes this quote.",
+      "framing_variants": [
+        {
+          "characterization": "BBC directly quotes Katz: 'Ali Khamenei was eliminated by Israel' because he 'threatened its existence,' and warns future leaders will face the same fate.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Iranian President Masoud Pezeshkian rejected US President Donald Trump's characterization of mourners' grief as 'fake tears,' while Trump claimed the tears were fake.",
+      "classification": "corroborated",
+      "dispute_type": "actor",
+      "claim_group": "international_response",
+      "rationale": "Multiple outlets across center-left and center-right-adjacent coverage report both Trump's 'fake tears' claim and Pezeshkian's rebuttal; the dispute is between the two actors (Trump vs. Pezeshkian), not between outlets.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports Pezeshkian 'rebutting US President Donald Trump's claim that these were \"fake tears\".'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The Guardian reports Pezeshkian 'rejecting Trump's claim' and quoting him: 'Tears arise from the pain and sorrow that surges within a person'; also notes Trump's 'fake tears' claim.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC reports Trump 'ordered a joint attack on Iran four months ago' as context for Pezeshkian's pushback.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Anti-Trump sentiment was visible at the procession, with mourners displaying 'Kill Trump' posters and placards, throwing stones at a billboard showing Trump's face, and an Iranian messaging app advising government supporters to use revenge slogans.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "funeral_procession",
+      "rationale": "Multiple center-left outlets describe anti-Trump signage, crowd actions directed at Trump imagery, and coordinated messaging; all sources are center-left.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian notes attendees 'standing in the shade of a bus stop with a Kill Trump poster.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian reports 'Kill Trump' was 'chalked on the stage by the mourners' at Sunday's ceremony.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC reports mourners 'throwing stones at a billboard displaying Trump's face' and 'posters in English singling out Trump as the main target were held high.'",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "BBC reports an Iranian messaging app advised government supporters to use slogans such as 'Our revenge is inevitable.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006",
+        "src_007",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Some funeral attendees expressed a desire for revenge, with some stating 'We came for revenge.'",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "funeral_procession",
+      "rationale": "Both Ynet News (center-right) and The Guardian (center-left) report revenge sentiment among attendees, qualifying this as agreed on cross-spectrum grounds; however, only Ynet provides the direct quote 'We came for revenge.'",
+      "framing_variants": [
+        {
+          "characterization": "Ynet reports some attendees stated 'We came for revenge.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian reports mourners 'throughout the ceremony expressed a desire for revenge and personal grief.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Mourners wore black clothing, carried Iranian flags, red banners symbolising vengeance, pictures of Khamenei, and flags bearing the slogan 'We will rise.'",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "funeral_procession",
+      "rationale": "Two BBC and Guardian articles describe mourner attire and symbolism in compatible terms; both are center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian describes mourners in 'black clothing' carrying flags with 'We will rise' and pictures of Khamenei.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC reports mourners 'waving Iranian flags and red banners symbolising vengeance.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "No deaths occurred during the funeral procession itself, in contrast to previous state-linked funerals in Iran that descended into chaos.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "funeral_procession",
+      "rationale": "Only The Guardian explicitly notes that 'no one was killed' during the procession and contrasts this with the chaos at previous state funerals, including that of a previous supreme leader.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian highlights orderly conduct: 'no one was killed, unlike at previous state-linked funerals that rapidly descended into chaos, including that of the previous supreme leader.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Foreign journalists — reported as over 300 or 'hundreds' — were granted rare visas or access to cover the funeral.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Both BBC and The Guardian confirm rare foreign media access, with The Guardian specifying 'more than 300' journalists; both are center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports 'more than 300 foreign journalists... had been granted rare visas to report on the funeral.'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC notes 'hundreds of foreign journalists given rare access to cover this funeral.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_006",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "BBC's reporting from Tehran was conducted on the condition that none of its material be used on the BBC Persian Service, a restriction that applied to all international media in Iran.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only BBC discloses this editorial restriction on its own coverage; no other source mentions it.",
+      "framing_variants": [
+        {
+          "characterization": "BBC discloses that chief correspondent Lyse Doucet reported from Tehran 'on condition that none of her material is used on the BBC's Persian Service,' noting this applies to all international media in Iran.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Iran and the United States signed a preliminary agreement to end the war less than three weeks before the funeral, including provisions to reopen the Strait of Hormuz and giving both countries two months to reach a final deal covering Iran's nuclear programme, US sanctions, and a permanent truce.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "peace_negotiations",
+      "rationale": "Only BBC's second article provides the specific details of the preliminary agreement, its terms, and the two-month timeline for a final deal.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports the preliminary agreement was signed 'less than three weeks' before the funeral and covers reopening the Strait of Hormuz, nuclear programme, sanctions, and a permanent truce, with a two-month window for finalisation.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Qatar mediated indirect talks between Iranian and US negotiators in Doha, which Qatar said produced 'positive progress'; the next round of talks was scheduled after Khamenei's funeral ceremonies.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "peace_negotiations",
+      "rationale": "Only BBC's second article reports Qatar's mediation role, the 'positive progress' assessment, and the scheduling of the next meeting after the funeral.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports Qatar said negotiations made 'positive progress' following a four-day exchange of strikes, with the next meeting to follow Khamenei's funeral.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Iran's new leadership is negotiating with the United States and seeks relief through easing of sanctions and unfreezing of assets.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "peace_negotiations",
+      "rationale": "Only BBC's first article characterizes Iran's negotiating objectives in terms of sanctions relief and asset unfreezing.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports Iran's new leaders 'must now keep negotiating' for 'badly needed relief through the easing of sanctions and unfreezing of assets.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Iran experienced mass anti-government protests in January, during which thousands of people were reportedly killed in a security forces crackdown.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "domestic_unrest",
+      "rationale": "Multiple center-left outlets report January protests and a deadly security crackdown; the death toll is attributed to public accounts without independent verification in at least one source.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian notes Iran was 'a country that only seven months ago was gripped by street protests' in which 'thousands of people were killed by government security forces.'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "BBC refers to 'January's anti-government protests' and 'the security crackdown which killed many thousands,' noting this is attributed to public opinion.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "BBC reports 'mass protests that swept across the country in January' in which 'thousands of people were killed in a crackdown by security forces.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_006",
+        "src_004",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Iran's inflation was running at approximately 80% at the time of the funeral.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "domestic_unrest",
+      "rationale": "Only BBC's first article provides the specific inflation figure of approximately 80%.",
+      "framing_variants": [
+        {
+          "characterization": "BBC contextualises public discontent by citing 'inflation spiralling at around 80%.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Iran's ruling establishment viewed large turnout at the funeral as a message of strength and a form of political legitimacy, with Qom Friday prayer leader Ayatollah Mohammad Saidi declaring it would be 'another referendum for the Islamic Republic.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "domestic_unrest",
+      "rationale": "Only BBC's second article explicitly reports the ruling establishment's political framing of the funeral and Saidi's referendum statement.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports Iran's ruling establishment 'wants the funeral ceremonies to send a message of strength' and quotes Saidi: large turnouts 'will, in effect, be another referendum for the Islamic Republic.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "Former Iranian president Mahmoud Ahmadinejad attended the procession, in what appeared to be his first major public appearance since the start of the war; three of his bodyguards were reportedly killed in a strike near his home.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "funeral_procession",
+      "rationale": "Only BBC's second article reports Ahmadinejad's attendance and the strike on his home.",
+      "framing_variants": [
+        {
+          "characterization": "BBC notes Ahmadinejad was 'seen at the procession' in what 'appeared to be his first major public appearance since the start of the war,' when 'three of his bodyguards were reportedly killed in a strike near his home.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_007"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-08T15:05:36.841824+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "A massive public funeral procession for Iran's assassinated Supreme Leader Ali Khamenei took place in Tehran on Monday, July 7, 2026, drawing crowds that state media estimated at millions of mourners. The procession followed a 10-kilometer route through central Tehran, from an eastern square to Azadi Square in the west, and was confirmed by outlets across the political spectrum.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_007",
+            "src_008"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Ali Khamenei and members of his family were killed by US and Israeli airstrikes on February 28, 2026. The funeral cortège carried five coffins — those of Khamenei, his wife, and other family members killed in the airstrikes — including a small coffin for his 14-month-old granddaughter Zara.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Khamenei's body had lain in state for two days at Tehran's Grand Mosalla mosque before the public procession. The funeral ceremonies were scheduled to span six days in total, with processions planned for Qom on Tuesday, Shia cities in Iraq including Najaf and Karbala, and a final burial at the Imam Reza Shrine in Mashhad on Thursday.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The funeral took place less than three weeks after Iran and the United States signed a preliminary agreement to end the war that began on February 28, 2026. According to center-left outlet BBC, the agreement included provisions to reopen the Strait of Hormuz and gave both countries two months to reach a final deal covering Iran's nuclear programme, US sanctions, and a permanent truce.",
+        "supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_007"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Qatar mediated indirect talks between Iranian and US negotiators in Doha, which Qatar characterized as producing 'positive progress,' according to BBC reporting. The next round of talks was scheduled to take place after Khamenei's funeral ceremonies concluded.",
+        "supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_007"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The funeral ceremonies occurred amid ongoing negotiations between Iran's new leadership and the United States. BBC reported that Iran's negotiating objectives included relief through easing of sanctions and unfreezing of assets, though this characterization appeared only in center-left coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Iran had experienced mass anti-government protests in January, during which thousands of people were reportedly killed in a security forces crackdown, according to multiple center-left outlets. At the time of the funeral, BBC reported that Iran's inflation was running at approximately 80%.",
+        "supports": {
+          "claim_ids": [
+            "clm_022",
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Mojtaba Khamenei succeeded Ali Khamenei as Iran's new Supreme Leader, a succession confirmed by multiple center-left outlets. However, Mojtaba Khamenei has not appeared in public since the airstrikes. Iranian officials cited security concerns as the reason for his absence from the funeral ceremonies, though BBC also reported he was reportedly seriously wounded in the strikes. Three of his brothers attended the funeral ceremonies in his absence.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Mourners wore black clothing and carried Iranian flags, red banners symbolizing vengeance, pictures of Khamenei, and flags bearing the slogan 'We will rise,' according to center-left reporting. Both center-right Israeli outlet Ynet News and center-left Guardian reported that some funeral attendees expressed a desire for revenge, with Ynet quoting attendees stating 'We came for revenge.'",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Anti-Trump sentiment was visible throughout the procession, according to multiple center-left outlets. Mourners displayed 'Kill Trump' posters and placards, threw stones at a billboard showing Trump's face, and an Iranian messaging app advised government supporters to use revenge slogans.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Iranian President Masoud Pezeshkian rejected US President Donald Trump's characterization of mourners' grief as 'fake tears,' while Trump claimed the tears were fake. The exchange was reported by multiple center-left outlets, which corroborated that both actors made these opposing statements.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Iran's ruling establishment viewed large turnout at the funeral as a message of strength and a form of political legitimacy, according to BBC reporting. Qom Friday prayer leader Ayatollah Mohammad Saidi declared it would be 'another referendum for the Islamic Republic.' This political framing of the funeral's significance appeared only in center-left coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_007"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Israeli Defence Minister Israel Katz stated that Ali Khamenei was 'eliminated by Israel' because he had threatened Israel's existence, and warned that any future Iranian leader pursuing plans to destroy Israel would also be killed, according to BBC. This statement appeared only in center-left coverage and was not reported by other outlets in the sample.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_007"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "Foreign journalists — reported as over 300 or 'hundreds' — were granted rare visas or access to cover the funeral, according to center-left outlets BBC and The Guardian. BBC disclosed that its reporting from Tehran was conducted on the condition that none of its material be used on the BBC Persian Service, a restriction that applied to all international media in Iran.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "Former Iranian president Mahmoud Ahmadinejad attended the procession, in what appeared to be his first major public appearance since the start of the war, according to BBC. The outlet also reported that three of his bodyguards were killed in a strike near his home, though this detail appeared only in center-left coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_007"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "No deaths occurred during the funeral procession itself, in contrast to previous state-linked funerals in Iran that descended into chaos, according to The Guardian. This observation appeared only in center-left coverage and was not reported by other outlets in the sample.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

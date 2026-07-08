@@ -1,0 +1,86 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_iran",
+  "type": "organization",
+  "canonical_name": "Iran",
+  "aliases": [
+    "Iranian"
+  ],
+  "wikidata_qid": "Q794",
+  "summary": "Iran, officially the Islamic Republic of Iran, historically known as Persia, is a country in West Asia. It borders Iraq to the west, Turkey, Azerbaijan, and Armenia to the northwest, the Caspian Sea to the north, Turkmenistan to the northeast, Afghanistan to the east, Pakistan to the southeast, and the Gulf of Oman and the Persian Gulf to the south.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Iran"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "With a population of over 92 million, Iran ranks 17th globally in both geographic size and population.",
+      "source_url": "https://en.wikipedia.org/wiki/Iran",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It is divided into five regions with 31 provinces.",
+      "source_url": "https://en.wikipedia.org/wiki/Iran",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Tehran is the nation's capital and largest city and serves as its primary economic centre.",
+      "source_url": "https://en.wikipedia.org/wiki/Iran",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_08_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-08T15:05:53.944278+00:00",
+  "last_updated": "2026-07-08T15:05:59.157407+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Iran"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Iran"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Iran"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q794 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q794"
+    }
+  ]
+}

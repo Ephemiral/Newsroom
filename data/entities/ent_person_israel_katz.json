@@ -1,0 +1,129 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_israel_katz",
+  "type": "person",
+  "canonical_name": "Israel Katz",
+  "aliases": [
+    "Israeli Defence Minister Israel Katz"
+  ],
+  "wikidata_qid": "Q487304",
+  "summary": "Israel Katz is an Israeli politician and member of the Knesset for Likud currently serving as Minister of Defense and a member of the Security Cabinet of Israel. Katz has been recognized for his role in modernizing Israel's transportation infrastructure, including the expansion of highways, the development of high-speed rail, and reforms to Israel's ports that increased competition and reduced shipping costs.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Israel_Katz"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/%D7%99%D7%A9%D7%A8%D7%90%D7%9C_%D7%9B%D7%A5_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:%D7%99%D7%A9%D7%A8%D7%90%D7%9C_%D7%9B%D7%A5_(cropped).jpg",
+    "credit": "ששון תירם.\nThe original uploader was Yarondvash at Hebrew Wikipedia.\n\n(Original text: צילום: ששון תירם)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:ישראל כץ (cropped).jpg",
+    "fetched_at": "2026-07-08T15:05:53.854338+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Minister of Agriculture and Rural Development",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q487304",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Knesset member",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q487304",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Knesset member",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q487304",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Knesset member",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q487304",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Knesset member",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q487304",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Knesset member",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q487304",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Katz has previously served as Minister of Agriculture, Minister of Transport, Minister of Intelligence, Minister of Energy, Minister of Finance, and twice as Minister of Foreign Affairs.",
+      "source_url": "https://en.wikipedia.org/wiki/Israel_Katz",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "On 5 November 2024, it was announced that he would be nominated by Prime Minister Benjamin Netanyahu as Defense Minister after Yoav Gallant was dismissed.",
+      "source_url": "https://en.wikipedia.org/wiki/Israel_Katz",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_08_israel_middle_east_001",
+    "evt_2026_07_08_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-08T15:05:51.468185+00:00",
+  "last_updated": "2026-07-08T15:08:36.309218+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Israel_Katz"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Israel_Katz"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q487304 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q487304"
+    }
+  ]
+}

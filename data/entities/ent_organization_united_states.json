@@ -1,0 +1,86 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_united_states",
+  "type": "organization",
+  "canonical_name": "United States",
+  "aliases": [
+    "US"
+  ],
+  "wikidata_qid": "Q30",
+  "summary": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal republic consisting of 50 states and a federal capital district, Washington, D.C.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/United_States"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The 48 contiguous states border Canada to the north and Mexico to the south, with the semi-exclave of Alaska in the northwest and the archipelago of Hawaii in the Pacific Ocean.",
+      "source_url": "https://en.wikipedia.org/wiki/United_States",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The United States also asserts sovereignty over five major island territories and various uninhabited islands in Oceania and the Caribbean.",
+      "source_url": "https://en.wikipedia.org/wiki/United_States",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It is a megadiverse country, with the world's third-largest land area and third-largest population, exceeding 341 million.",
+      "source_url": "https://en.wikipedia.org/wiki/United_States",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_08_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-08T15:05:54.492859+00:00",
+  "last_updated": "2026-07-08T15:05:59.157586+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/United_States"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/United_States"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/United_States"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q30 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q30"
+    }
+  ]
+}

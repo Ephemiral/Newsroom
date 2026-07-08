@@ -1,0 +1,112 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_ali_khamenei",
+  "type": "person",
+  "canonical_name": "Ali Khamenei",
+  "aliases": [
+    "Khamenei"
+  ],
+  "wikidata_qid": "Q57336",
+  "summary": "Ali Hosseini Khamenei was an Iranian politician and Shia cleric who served as the second supreme leader of Iran from 1989 until his assassination. A member of the Khamenei family who held the title Ayatollah, he previously served as the third president of Iran from 1981 to 1989.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ali_Khamenei"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ali_Khamenei_Nowruz_message_official_portrait_1397_02.jpg/960px-Ali_Khamenei_Nowruz_message_official_portrait_1397_02.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ali_Khamenei_Nowruz_message_official_portrait_1397_02.jpg",
+    "credit": "khamenei.ir",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Ali Khamenei Nowruz message official portrait 1397 02.jpg",
+    "fetched_at": "2026-07-08T15:05:42.840205+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Supreme Leader of Iran",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q57336",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Member of the Islamic Consultative Assembly",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q57336",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President of Iran",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q57336",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Commander-in-Chief of the Iranian Armed Forces",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q57336",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Chairman of the Expediency Discernment Council",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q57336",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Member of the Assembly of Experts",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q57336",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "His 36-year tenure as supreme leader made him the longest-serving head of state in West Asia at the time of his death.",
+      "source_url": "https://en.wikipedia.org/wiki/Ali_Khamenei",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-08",
+      "last_updated": "2026-07-08",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_08_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_08_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-08T15:05:40.759498+00:00",
+  "last_updated": "2026-07-08T15:05:59.156190+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Entity created from evt_2026_07_08_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ali_Khamenei"
+    },
+    {
+      "date": "2026-07-08",
+      "summary_of_change": "Grounded from Wikidata Q57336 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q57336"
+    }
+  ]
+}

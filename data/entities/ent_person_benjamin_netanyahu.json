@@ -3,7 +3,10 @@
   "entity_id": "ent_person_benjamin_netanyahu",
   "type": "person",
   "canonical_name": "Benjamin Netanyahu",
-  "aliases": [],
+  "aliases": [
+    "Netanyahu",
+    "Prime Minister Netanyahu"
+  ],
   "wikidata_qid": "Q43723",
   "summary": "Benjamin Netanyahu, nicknamed \"Bibi\", is an Israeli politician and diplomat who has served as Prime Minister of Israel since 2022. Having previously held office from 1996 to 1999 and from 2009 to 2021, Netanyahu is Israel's longest-serving prime minister.",
   "summary_sources": [
@@ -74,10 +77,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_07_israel_middle_east_001",
   "appears_in_events": [
-    "evt_2026_07_07_israel_middle_east_001"
+    "evt_2026_07_07_israel_middle_east_001",
+    "evt_2026_07_08_israel_middle_east_002"
   ],
   "created_at": "2026-07-08T13:49:32.305767+00:00",
-  "last_updated": "2026-07-08T13:51:53.028166+00:00",
+  "last_updated": "2026-07-08T15:08:36.308675+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

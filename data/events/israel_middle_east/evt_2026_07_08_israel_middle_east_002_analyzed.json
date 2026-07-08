@@ -1,0 +1,944 @@
+{
+  "schema_version": "0.5",
+  "event": {
+    "cluster_id": "evt_2026_07_08_israel_middle_east_002",
+    "beat": "israel_middle_east",
+    "title": "Hegseth Cancels Israel Visit Amid US-Iran Hostilities and F-35 Turkey Dispute",
+    "summary": "US Defense Secretary Pete Hegseth canceled a planned visit to Israel on Wednesday, July 9, 2026, amid renewed US-Iran military hostilities that included US strikes on Iran and Iranian retaliatory strikes on US allies Bahrain and Kuwait. The visit had also been intended to address Israeli concerns over a possible US sale of F-35 fighter jets to Turkey.",
+    "date": "2026-07-08",
+    "generated_at": "2026-07-08T15:07:59.661980+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_pete_hegseth",
+        "surfaces": [
+          "Pete Hegseth",
+          "Hegseth"
+        ],
+        "relevance_to_event": "US Defense Secretary who canceled his planned visit to Israel on July 9, 2026, due to US-Iran hostilities; was scheduled to address Israeli concerns about the F-35 sale to Turkey and meet with Israeli leadership.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_benjamin_netanyahu",
+        "surfaces": [
+          "Benjamin Netanyahu",
+          "Netanyahu",
+          "Prime Minister Netanyahu"
+        ],
+        "relevance_to_event": "Israeli Prime Minister who was scheduled to meet with Hegseth during the canceled visit; publicly opposed the F-35 sale to Turkey and urged Trump against it.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "Trump",
+          "President Trump"
+        ],
+        "relevance_to_event": "US President attending NATO summit in Turkey; stated he would 'certainly consider' selling F-35s to Turkey and characterized the country as loyal; is reported to be expected to support the sale despite Israeli opposition.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_008",
+            "clm_009",
+            "clm_010",
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_israel_katz",
+        "surfaces": [
+          "Israel Katz"
+        ],
+        "relevance_to_event": "Israeli Defense Minister who was scheduled to meet with Hegseth during the canceled visit to discuss Israeli concerns over the potential F-35 sale to Turkey.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_islamic_revolutionary_guard_corps",
+        "surfaces": [
+          "Iran's Revolutionary Guards"
+        ],
+        "relevance_to_event": "Iranian military entity that claimed responsibility for conducting retaliatory strikes against 85 US military sites in Bahrain and Kuwait in response to US strikes on Iran.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_f_35_lightning_ii",
+        "surfaces": [
+          "F-35 fighter jets",
+          "F-35s",
+          "F-35"
+        ],
+        "relevance_to_event": "Advanced fighter jet at the center of the diplomatic dispute; Israel opposes its sale to Turkey as a threat to its qualitative military edge, while the Trump administration is reportedly considering approving the sale.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007",
+            "clm_008",
+            "clm_009",
+            "clm_010",
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_strait_of_hormuz",
+        "surfaces": [
+          "Strait of Hormuz"
+        ],
+        "relevance_to_event": "Strategic waterway where commercial tankers were struck by projectiles, prompting US military retaliation against Iran that triggered the renewed hostilities leading to Hegseth's visit cancellation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_turkey",
+        "surfaces": [
+          "Turkey"
+        ],
+        "relevance_to_event": "NATO ally being considered for F-35 program readmission despite prior removal in 2020 over S-400 purchases; removed from Hegseth's itinerary as his trip was canceled, though he was attending a NATO summit there with Trump.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_006",
+            "clm_007",
+            "clm_008",
+            "clm_009",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-08T15:08:45.778781+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/F-35_Heritage_Flight_Team_performs_in_Bell_Fort_Worth_Alliance_AirShow.jpg/1280px-F-35_Heritage_Flight_Team_performs_in_Bell_Fort_Worth_Alliance_AirShow.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/F-35_Heritage_Flight_Team_performs_in_Bell_Fort_Worth_Alliance_AirShow.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:F-35_Heritage_Flight_Team_performs_in_Bell_Fort_Worth_Alliance_AirShow.jpg",
+      "width": 1200,
+      "height": 927,
+      "caption": "F-35 Lightning II fighter jet in flight (file photo)",
+      "credit": "Airman 1st Class Alexander Cook",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:F-35 Heritage Flight Team performs in Bell Fort Worth Alliance AirShow.jpg",
+      "query": "F-35 fighter jet",
+      "fetched_at": "2026-07-08T15:08:45.778736+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wSTRzaGRoNlBmMi1nS2t2cnBUSFVoamNSbUFxRmE1QVdwZXBkRVpYUi0tYzJZb3BnUEh2SE9BY0hfUVFIalBKdFNYb2ljd1lnQTdfdnBR?oc=5",
+      "author": null,
+      "published_at": "2026-07-07T19:24:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/report-hegseth-cancels-expected-visit-israel",
+      "author": "Hilal Saki",
+      "published_at": "2026-07-08T11:53:33+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/hegseth-set-to-visit-israel-amid-concerns-over-potential-f-35-sale-to-turkey/",
+      "author": null,
+      "published_at": "2026-07-08T08:10:59+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-901816",
+      "author": "BY IDAN KWELLER AND AMICHAI STEIN",
+      "published_at": "2026-07-08T08:35:56+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Riesling Investment & Technology Ltd, controlled by Israeli investor Eli Azur. Previously owned by Miriam Adelson.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "US Defense Secretary Pete Hegseth canceled a planned visit to Israel on Wednesday.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "hegseth_visit_cancellation",
+      "rationale": "All four outlets reported the cancellation as confirmed fact, with sources spanning center-right (Ynet, Times of Israel, Jerusalem Post) and left (Middle East Eye), satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Briefly noted as 'Hegseth to visit Israel on Wednesday' turning into a cancellation story.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Framed as 'Hegseth cancels expected visit to Israel,' noting it was reported by The Times of Israel citing an Israeli official.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Stated as confirmed fact in the article's opening paragraph, verified by an Israeli official.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reported straightforwardly as a cancellation of a planned visit that was to include meetings with Netanyahu and Katz.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Hegseth was expected to meet with Prime Minister Benjamin Netanyahu and Defense Minister Israel Katz during the visit.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "hegseth_visit_cancellation",
+      "rationale": "Multiple outlets across the left and center-right spectrum reported the planned meetings, with Times of Israel citing an Israeli official and Axios/CNN as additional sourcing.",
+      "framing_variants": [
+        {
+          "characterization": "Cited The Times of Israel and an Israeli official confirming the planned Netanyahu meeting.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Confirmed by an Israeli official; also noted that Axios and CNN reported meetings with both Netanyahu and Katz.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Stated that the visit was meant to include meetings with both Netanyahu and Defense Minister Israel Katz.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The visit would have been Hegseth's first to Israel as Pentagon chief.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "hegseth_visit_cancellation",
+      "rationale": "Only The Times of Israel noted that this would have been Hegseth's first visit to Israel in his role as Defense Secretary.",
+      "framing_variants": [
+        {
+          "characterization": "Noted as an additional detail underscoring the significance of the cancellation.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Hegseth had been set to arrive in Israel from Turkey, where he was attending a NATO summit alongside President Trump.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "hegseth_visit_cancellation",
+      "rationale": "Two center-right outlets both reported that Hegseth was in Ankara for the NATO summit and planned to travel to Israel from there, but no cross-spectrum source confirmed this specific detail.",
+      "framing_variants": [
+        {
+          "characterization": "Stated that Hegseth had been set to arrive in Israel from Turkey.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Described Hegseth as being in Ankara alongside Trump for the NATO summit at the time of cancellation.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The cancellation of the visit occurred against the backdrop of renewed US-Iran hostilities.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "hegseth_visit_cancellation",
+      "rationale": "Left-leaning Middle East Eye and center-right Times of Israel and Jerusalem Post all reported the US-Iran hostilities as the backdrop for the cancellation, establishing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Framed the cancellation as coming 'against the backdrop of renewed hostilities between the US and Iran.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reported that Israel had been informed of the cancellation 'against the backdrop of rising tensions between the US and Iran.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Contextualized the cancellation amid overnight US strikes on Iran and Iranian retaliatory strikes.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The visit was partly intended to ease Israeli concerns over a possible US sale of F-35 fighter jets to Turkey.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "f35_turkey_sale_dispute",
+      "rationale": "Left-leaning Middle East Eye and two center-right outlets all cited the F-35/Turkey issue as a partial rationale for the planned visit, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Described the visit as 'partly intended to ease tensions over a possible US sale of F-35 fighter jets to Turkey,' citing The Times of Israel reports.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Listed easing Israeli concerns over the F-35 Turkey sale as a stated partial purpose of the meeting.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Included the F-35 Turkey concerns among the subjects the visit was meant to address.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Israel believes a US sale of F-35 fighter jets to Turkey would undermine Israel's qualitative military edge and air superiority in the region.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "f35_turkey_sale_dispute",
+      "rationale": "Left-leaning Middle East Eye and center-right Times of Israel both reported Israel's concern about its qualitative military edge, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Stated Israel believes the sale 'could dilute its air superiority in the region.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reported Jerusalem warned the sale 'would undermine Israel's qualitative military edge in the region,' noting US law commits to maintaining that edge.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Prime Minister Netanyahu publicly stated Israel's opposition to the F-35 sale to Turkey and confirmed he urged Trump against it.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "f35_turkey_sale_dispute",
+      "rationale": "Only The Times of Israel reported both Netanyahu's Monday interview statement opposing the sale and his Tuesday confirmation that he urged Trump against it.",
+      "framing_variants": [
+        {
+          "characterization": "Reported Netanyahu's Monday interview opposing the sale and his Tuesday confirmation that he urged Trump against it.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Trump said Tuesday he would 'certainly consider' selling F-35s to Turkey, characterizing Turkey as having been 'much more loyal than other countries,' while Reuters — citing two sources — reported Trump is expected to support the sale.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "f35_turkey_sale_dispute",
+      "rationale": "Only The Times of Israel reported Trump's specific remarks alongside Turkish President Erdogan at the NATO summit and the Reuters sourcing about Trump's expected support for the sale.",
+      "framing_variants": [
+        {
+          "characterization": "Presented Trump's 'certainly consider' quote as still deliberating, while noting Reuters reported Trump is expected to support the sale; also quoted Trump calling Turkey 'much more loyal than other countries.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Trump stated Tuesday that Hegseth was among the officials working on the F-35 program issue.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "f35_turkey_sale_dispute",
+      "rationale": "Only The Times of Israel reported Trump's direct statement naming Hegseth as one of the officials working on the F-35 Turkey issue.",
+      "framing_variants": [
+        {
+          "characterization": "Noted as context connecting Hegseth's planned Israel visit to his role in the F-35 deliberations.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Turkey's leaders have previously likened Israel's conduct in Gaza to that of the Nazis during the Holocaust.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "f35_turkey_sale_dispute",
+      "rationale": "Only The Times of Israel included this historical characterization as background context for Israeli sensitivity to the F-35 Turkey sale.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as context explaining the fraught Israel-Turkey relationship underlying Israeli opposition to the sale.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Turkey was removed from the F-35 program in 2020 over its purchase of Russian S-400 air defense systems, and legal hurdles — including CAATSA sanctions — remain before Turkey could be fully readmitted.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "f35_turkey_sale_dispute",
+      "rationale": "Only The Times of Israel provided detailed background on Turkey's removal from the F-35 program and the legal obstacles to reentry.",
+      "framing_variants": [
+        {
+          "characterization": "Provided historical and legal context on Turkey's F-35 program history, noting CAATSA sanctions as a key remaining hurdle.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Israel has previously worked to prevent F-35 sales to other nearby countries, including Saudi Arabia and the United Arab Emirates.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "f35_turkey_sale_dispute",
+      "rationale": "Only The Times of Israel mentioned Israel's prior efforts to block regional F-35 sales as relevant historical context.",
+      "framing_variants": [
+        {
+          "characterization": "Noted as historical context demonstrating Israel's consistent pattern of opposing F-35 proliferation in the region.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "The US military conducted a new wave of strikes against Iran, described by CENTCOM as 'a series of powerful strikes against Iran to impose heavy costs for targeting and attacking commercial shipping crewed by innocent civilians in an international waterway.'",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "us_iran_military_hostilities",
+      "rationale": "Ynet News and Times of Israel (both center-right) reported the US strikes, and Jerusalem Post provided the CENTCOM characterization; the fact of strikes is cross-referenced by multiple outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Briefly noted 'US strikes Iran' as a headline fact.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Described as 'a new wave of strikes Tuesday against the Iranian regime.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Quoted CENTCOM's formal characterization of the strikes as punishment for attacks on commercial shipping.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Three commercial tankers were struck by projectiles in the Strait of Hormuz/waters of Oman, and the US characterized the strikes on Iran as retaliation for those attacks.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "us_iran_military_hostilities",
+      "rationale": "Three center-right outlets all reported the tanker attacks as the precipitating event for US strikes, but no left-leaning source confirmed this specific claim, limiting it to corroborated.",
+      "framing_variants": [
+        {
+          "characterization": "Briefly described 'Hormuz tanker attacks' as a news item.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Described three tankers 'hit by projectiles in the Strait of Hormuz' as the trigger for the new US strikes.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Described 'a series of attacks carried out by Tehran against three commercial tankers in the waters of Oman, near the Strait of Hormuz' as the stated reason for US strikes.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Iran's top joint military command stated that Iranian armed forces would deliver a 'crushing response' to the US strikes; Iran's Revolutionary Guards claimed they targeted 85 US military sites in Bahrain and Kuwait, stating the action was 'in response to US ceasefire violations.'",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "us_iran_military_hostilities",
+      "rationale": "Two center-right outlets reported Iranian military statements and retaliatory claims, but both are from the same side of the spectrum, limiting this to corroborated.",
+      "framing_variants": [
+        {
+          "characterization": "Quoted Iran's joint military command pledging a 'crushing response' and reported Iranian attacks on Bahrain and Kuwait.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reported the Revolutionary Guards' specific claim of targeting 85 US military sites and their stated justification of responding to 'US ceasefire violations.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Iran's Revolutionary Guards characterized their strikes on US military sites in Bahrain and Kuwait as a response to US ceasefire violations; US CENTCOM characterized its strikes on Iran as retaliation for Iranian attacks on commercial shipping.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "us_iran_military_hostilities",
+      "rationale": "The US and Iran offer mutually exclusive justifications for the exchange of strikes — each characterizes the other as the aggressor — constituting a direct actor dispute over the cause and legitimacy of the hostilities.",
+      "framing_variants": [
+        {
+          "characterization": "Reported both the US strikes on Iran and Iranian retaliatory attacks on Bahrain and Kuwait without adjudicating which side initiated the escalation cycle.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Quoted CENTCOM framing US strikes as punishment for Iranian tanker attacks, and quoted Iran's Revolutionary Guards framing their strikes as a response to 'US ceasefire violations.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Kuwait's military reported sirens due to hostile missile and drone attacks.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "us_iran_military_hostilities",
+      "rationale": "Only the Jerusalem Post specifically reported Kuwait's military siren alert from hostile missile and drone attacks.",
+      "framing_variants": [
+        {
+          "characterization": "Noted as immediate context for the Iranian retaliatory strikes on US military positions in the Gulf.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Iranian state media reported several injuries after US forces launched strikes on Iran.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "us_iran_military_hostilities",
+      "rationale": "Only Jerusalem Post reported Iranian state media's claim of injuries from the US strikes.",
+      "framing_variants": [
+        {
+          "characterization": "Attributed to Iranian state media as a claim, not independently verified.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "US President Trump said he believed the US-Iran memorandum of understanding 'is over.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "us_iran_diplomatic_status",
+      "rationale": "Only The Times of Israel reported Trump's direct statement declaring the memorandum of understanding with Iran to be over.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as a direct Trump quote signaling a definitive break in the diplomatic framework with Iran.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Washington announced it was canceling sanctions relief on Iranian oil sales, which had been a key provision of the US-Iran memorandum of understanding.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "us_iran_diplomatic_status",
+      "rationale": "Only Jerusalem Post reported the specific US policy decision to cancel sanctions relief on Iranian oil sales and its connection to the memorandum of understanding.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as a concrete policy step reversing a diplomatic concession, framed as punishment for Iranian attacks.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "The US stated the cancellation of sanctions relief was intended to punish Iran for the attacks and renew economic pressure on it.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "us_iran_diplomatic_status",
+      "rationale": "Only Jerusalem Post reported Washington's stated justification for canceling the sanctions relief.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as the US government's own stated rationale for the sanctions policy reversal.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Greece is said to be against the F-35 sale to Turkey.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "f35_turkey_sale_dispute",
+      "rationale": "Only The Times of Israel mentioned Greece's reported opposition to the Turkey F-35 sale.",
+      "framing_variants": [
+        {
+          "characterization": "Noted briefly as an additional country opposing the sale alongside Israel.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "A memorandum of understanding between the US and Iran had provided for sanctions relief on Iranian oil sales as part of a diplomatic framework; renewed hostilities put that framework in question.",
+      "sources": [
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Turkey was removed from the US F-35 fighter jet program in 2020 after purchasing Russian S-400 air defense systems, triggering CAATSA sanctions; Turkey had originally joined as a program partner and purchaser.",
+      "sources": [
+        "src_003"
+      ]
+    },
+    {
+      "point": "US law commits Washington to maintaining Israel's qualitative military edge over regional adversaries, a principle Israel invokes when opposing arms sales to neighboring states.",
+      "sources": [
+        "src_003"
+      ]
+    },
+    {
+      "point": "Israel has operated F-35 aircraft for over a decade and has built multiple squadrons, giving it a current technological advantage that it fears would be eroded if Turkey received the same platform.",
+      "sources": [
+        "src_003"
+      ]
+    },
+    {
+      "point": "Israel-Turkey relations are strained; Turkey's leaders have previously likened Israel's conduct in Gaza to Nazi conduct during the Holocaust, deepening Israeli opposition to arms transfers to Ankara.",
+      "sources": [
+        "src_003"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-08T15:08:20.622956+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "US Defense Secretary Pete Hegseth canceled a planned visit to Israel on Wednesday, according to reports from outlets across the political spectrum. Hegseth had been scheduled to meet with Prime Minister Benjamin Netanyahu and Defense Minister Israel Katz during the trip.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The cancellation occurred against the backdrop of renewed US-Iran hostilities. The US military conducted strikes against Iran, and Iran's Revolutionary Guards claimed they targeted 85 US military sites in Bahrain and Kuwait in response.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_014",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The visit had been partly intended to address Israeli concerns over a possible US sale of F-35 fighter jets to Turkey. Israel believes such a sale would undermine its qualitative military edge and air superiority in the region.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Turkey was removed from the F-35 program in 2020 over its purchase of Russian S-400 air defense systems. Legal hurdles — including CAATSA sanctions — remain before Turkey could be fully readmitted to the program. Israel has previously worked to prevent F-35 sales to other nearby countries, including Saudi Arabia and the United Arab Emirates.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Center-right Israeli outlets reported that Hegseth had been set to arrive in Israel from Turkey, where he was attending a NATO summit alongside President Trump. The Times of Israel noted this would have been Hegseth's first visit to Israel as Pentagon chief.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "According to The Times of Israel, Prime Minister Netanyahu publicly stated Israel's opposition to the F-35 sale to Turkey and confirmed he urged Trump against it. Trump said Tuesday he would \"certainly consider\" selling F-35s to Turkey, characterizing Turkey as having been \"much more loyal than other countries.\" Reuters — citing two sources — reported Trump is expected to support the sale.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The Times of Israel reported that Trump stated Hegseth was among the officials working on the F-35 program issue. The outlet also noted as background that Turkey's leaders have previously likened Israel's conduct in Gaza to that of the Nazis during the Holocaust, providing context for Israeli sensitivity to the sale.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Center-right outlets reported that three commercial tankers were struck by projectiles in the Strait of Hormuz and waters of Oman. US Central Command characterized the American strikes against Iran as \"a series of powerful strikes against Iran to impose heavy costs for targeting and attacking commercial shipping crewed by innocent civilians in an international waterway,\" framing the US action as retaliation for the tanker attacks.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Center-right outlets reported that Iran's top joint military command stated Iranian armed forces would deliver a \"crushing response\" to the US strikes. Jerusalem Post reported that Kuwait's military issued sirens due to hostile missile and drone attacks, while Iranian state media reported several injuries after the US strikes.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The Times of Israel reported that Greece is said to be against the F-35 sale to Turkey, indicating regional opposition beyond Israel.",
+        "supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The US and Iran offered mutually exclusive justifications for the exchange of strikes. Iran's Revolutionary Guards characterized their strikes on US military sites in Bahrain and Kuwait as a response to US ceasefire violations. US Central Command characterized its strikes on Iran as retaliation for Iranian attacks on commercial shipping. Each side presented the other as the aggressor in the renewed hostilities.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "According to The Times of Israel, US President Trump said he believed the US-Iran memorandum of understanding \"is over.\" Jerusalem Post reported that Washington announced it was canceling sanctions relief on Iranian oil sales — a key provision of the memorandum — with the US stating the cancellation was intended to punish Iran for the attacks and renew economic pressure.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_021",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}
