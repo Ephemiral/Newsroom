@@ -223,12 +223,13 @@ function Receipt({
 // ── Paragraph card ────────────────────────────────────────────────────────────
 
 function ParagraphCard({
-  para, claimsMap, sourceMap, transparencyMode,
+  para, claimsMap, sourceMap, transparencyMode, isLede,
 }: {
   para: ReportParagraph;
   claimsMap: Record<string, Claim>;
   sourceMap: Record<string, Source>;
   transparencyMode: boolean;
+  isLede?: boolean;
 }) {
   const [expanded, setExpanded] = useState(false);
   const cfg = KIND[para.kind] ?? KIND.background;
@@ -253,10 +254,13 @@ function ParagraphCard({
           )}
         </div>
       )}
-      <p style={{
-        fontFamily: 'var(--font-spectral), serif',
-        fontSize: 16.5, lineHeight: 1.65, color: '#2a2319', margin: 0,
-      }}>
+      <p
+        className={isLede ? 'report-lede' : undefined}
+        style={{
+          fontFamily: 'var(--font-spectral), serif',
+          fontSize: 16.5, lineHeight: 1.65, color: '#2a2319', margin: 0,
+        }}
+      >
         {para.text}
       </p>
       {expanded && transparencyMode && (
@@ -288,6 +292,17 @@ export default function ReportView({ report, claimsMap, sourceMap, image }: Repo
 
   return (
     <section style={{ marginBottom: 48 }}>
+
+      {/* Raised cap on the lede's first letter (baseline-aligned, not a floating drop cap) */}
+      <style>{`
+        .report-lede::first-letter {
+          font-family: var(--font-spectral), serif;
+          font-size: 3.6em;
+          font-weight: 700;
+          line-height: 1;
+          vertical-align: baseline;
+        }
+      `}</style>
 
       {/* Header */}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20, gap: 16, flexWrap: 'wrap' }}>
@@ -356,6 +371,7 @@ export default function ReportView({ report, claimsMap, sourceMap, image }: Repo
                   claimsMap={claimsMap}
                   sourceMap={sourceMap}
                   transparencyMode={transparencyMode}
+                  isLede={i === 0}
                 />
                 {image && i === imageAfterIndex && (
                   <EventImageFigure image={image} />

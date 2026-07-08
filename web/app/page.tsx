@@ -25,7 +25,7 @@ export default async function Home({ searchParams }: HomeProps) {
 
       {/* ── Masthead ─────────────────────────────────────────────────────── */}
       <header style={{ borderBottom: '1px solid #d9cfbd', background: '#f7f4ee' }}>
-        <div style={{ maxWidth: 760, margin: '0 auto', padding: '30px 28px 22px', textAlign: 'center' }}>
+        <div style={{ maxWidth: 960, margin: '0 auto', padding: '30px 48px 22px', textAlign: 'center' }}>
           <div style={{
             font: '600 10px/1 var(--font-archivo), system-ui',
             letterSpacing: '.34em', textTransform: 'uppercase', color: '#b08a4a',
@@ -41,13 +41,10 @@ export default async function Home({ searchParams }: HomeProps) {
           </div>
           <p style={{
             fontFamily: 'var(--font-spectral), serif',
-            fontStyle: 'italic', fontSize: 15, lineHeight: 1.5, color: '#7a6e5c',
+            fontStyle: 'italic', fontSize: 18, fontWeight: 600, lineHeight: 1.5, color: '#7a6e5c',
             margin: 0,
           }}>
-            What outlets agree on, what they contest, and who is behind each story.{' '}
-            <Link href="/about" style={{ color: '#b08a4a', textDecoration: 'underline' }}>
-              How it works
-            </Link>
+            Think critically. Read Critiqal.
           </p>
         </div>
       </header>
@@ -55,15 +52,18 @@ export default async function Home({ searchParams }: HomeProps) {
       {/* ── Theatre tabs ─────────────────────────────────────────────────── */}
       <nav style={{ borderBottom: '1px solid #e7e0d4', background: '#f7f4ee' }}>
         <div style={{
-          maxWidth: 760, margin: '0 auto', padding: '0 28px',
+          maxWidth: 960, margin: '0 auto', padding: '0 48px',
           display: 'flex', gap: 22, overflowX: 'auto',
+          justifyContent: 'space-between',
         }}>
-          {[['', 'All'], ...Object.entries(BEAT_LABELS)].map(([key, label]) => {
-            const active = (key === '' && !activeBeat) || key === activeBeat;
+          {[['', 'All'], ...Object.entries(BEAT_LABELS), ['about', 'About']].map(([key, label]) => {
+            const isAbout = key === 'about';
+            const active = !isAbout && ((key === '' && !activeBeat) || key === activeBeat);
+            const href = isAbout ? '/about' : key ? `/?beat=${key}` : '/';
             return (
               <Link
                 key={key || 'all'}
-                href={key ? `/?beat=${key}` : '/'}
+                href={href}
                 style={{
                   font: `600 12px/1 var(--font-archivo), system-ui`,
                   letterSpacing: '.08em', textTransform: 'uppercase',
@@ -81,7 +81,7 @@ export default async function Home({ searchParams }: HomeProps) {
       </nav>
 
       {/* ── Feed ─────────────────────────────────────────────────────────── */}
-      <div style={{ maxWidth: 760, margin: '0 auto', padding: '8px 28px 80px' }}>
+      <div style={{ maxWidth: 960, margin: '0 auto', padding: '8px 48px 80px' }}>
         {events.length === 0 ? (
           <p style={{ color: '#a3957f', paddingTop: 32 }}>
             No analyzed events in this theatre yet — the pipeline publishes automatically as qualifying coverage appears.
@@ -89,8 +89,6 @@ export default async function Home({ searchParams }: HomeProps) {
         ) : (
           <div>
             {events.map(({ id, event }) => {
-              const agreedCount = event.claims.filter(c => c.classification === 'agreed').length;
-              const contestedCount = event.claims.filter(c => c.classification === 'contested').length;
               return (
                 <Link
                   key={id}
@@ -146,14 +144,6 @@ export default async function Home({ searchParams }: HomeProps) {
                     </span>
                     <Dot />
                     <span>{event.sources.length} outlets</span>
-                    <Dot />
-                    <span style={{ color: '#2f7a4a', fontWeight: 600 }}>{agreedCount} agreed</span>
-                    {contestedCount > 0 && (
-                      <>
-                        <Dot />
-                        <span style={{ color: '#c2682f', fontWeight: 600 }}>{contestedCount} contested</span>
-                      </>
-                    )}
                   </div>
                 </Link>
               );

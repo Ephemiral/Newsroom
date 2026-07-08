@@ -61,7 +61,7 @@ export default async function EventPage({ params }: Props) {
         borderBottom: '1px solid #e1d8c8',
       }}>
         <div style={{
-          maxWidth: 720, margin: '0 auto', padding: '0 28px',
+          maxWidth: 960, margin: '0 auto', padding: '0 28px',
           height: 52, display: 'flex', alignItems: 'center',
           justifyContent: 'space-between',
         }}>
@@ -86,10 +86,10 @@ export default async function EventPage({ params }: Props) {
       </div>
 
       {/* ── Article body ────────────────────────────────────────────────── */}
-      <main style={{ maxWidth: 720, margin: '0 auto', padding: '44px 28px 90px' }}>
+      <main style={{ maxWidth: 960, margin: '0 auto', padding: '24px 28px 90px' }}>
 
         {/* Header */}
-        <header style={{ marginBottom: 32 }}>
+        <header style={{ marginBottom: 20 }}>
           <h1 style={{
             fontFamily: 'var(--font-spectral), serif',
             fontWeight: 600, fontSize: 38, lineHeight: 1.12,
