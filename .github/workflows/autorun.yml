@@ -48,7 +48,7 @@ jobs:
             *) echo "::error::secret does not start with 'sk-ant-' — a prefix/quote/whitespace likely got pasted in.";;
           esac
 
-      - name: Validate API key (fail fast, ~1s)
+      - name: Validate API key & balance (fail fast, ~1s)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -58,9 +58,16 @@ jobs:
             -H "content-type: application/json" \
             -d '{"model":"claude-haiku-4-5-20251001","max_tokens":1,"messages":[{"role":"user","content":"ping"}]}')
           echo "Anthropic API responded HTTP $code"
+          body=$(cat /tmp/anthropic_resp.json)
           if [ "$code" != "200" ]; then
-            echo "::error::Anthropic API rejected the key (HTTP $code). The ANTHROPIC_API_KEY secret value is wrong — re-set it (Settings → Secrets and variables → Actions), pasting ONLY the key with no prefix/quotes/whitespace."
-            cat /tmp/anthropic_resp.json
+            if echo "$body" | grep -qi "credit balance"; then
+              echo "::error::Anthropic API BALANCE EXHAUSTED (HTTP $code) — the account is out of credits. Top up at console.anthropic.com → Plans & Billing. The key is fine; the pipeline resumes automatically once the balance is positive."
+            elif [ "$code" = "401" ]; then
+              echo "::error::Anthropic API rejected the KEY (HTTP 401 invalid x-api-key). The ANTHROPIC_API_KEY secret value is wrong — re-set it (Settings → Secrets and variables → Actions), pasting ONLY the key, no prefix/quotes/whitespace."
+            else
+              echo "::error::Anthropic API call failed (HTTP $code) — see response body below."
+            fi
+            echo "$body"
             exit 1
           fi
 

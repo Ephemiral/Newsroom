@@ -82,10 +82,14 @@ class SystemicError(RuntimeError):
     Distinct from a routine single-event validation rejection, which is silent."""
 
 
-def _is_auth_error(e: Exception) -> bool:
+def _is_systemic_api_error(e: Exception) -> bool:
+    """True for account-level failures that will hit EVERY beat identically —
+    a bad/blocked key, or an exhausted credit balance. These abort the whole
+    cycle immediately instead of erroring once per beat."""
     s = str(e).lower()
     return ("authentication_error" in s or "invalid x-api-key" in s
-            or "401" in s or "permission_error" in s)
+            or "401" in s or "permission_error" in s
+            or "credit balance" in s or "billing" in s)
 
 LOG_DIR = ROOT / "data" / "logs" / "autorun"
 # State is git-tracked (and committed by publish cycles) so that stateless
@@ -403,12 +407,17 @@ def run_cycle(beat: str, max_events: int, dry_run: bool, no_push: bool) -> dict:
                 # record it in the ledger, so it's retried next cycle once fixed.
                 run_log.setdefault("errors", []).append(
                     {"event_id": event_id, "error": str(error_exc)[:300]})
-                if _is_auth_error(error_exc):
-                    # Every beat will hit the same wall — abort now instead of
-                    # burning an hour ingesting the rest.
+                if _is_systemic_api_error(error_exc):
+                    # Every beat will hit the same wall (bad key or no credits) —
+                    # abort now instead of burning an hour ingesting the rest.
+                    msg = str(error_exc)
+                    if "credit balance" in msg.lower() or "billing" in msg.lower():
+                        raise SystemicError(
+                            "Anthropic API balance exhausted — top up at "
+                            "console.anthropic.com → Plans & Billing. " + msg[:120])
                     raise SystemicError(
                         "Anthropic API authentication failed — check the "
-                        "ANTHROPIC_API_KEY secret. " + str(error_exc)[:120])
+                        "ANTHROPIC_API_KEY secret. " + msg[:120])
                 # Non-auth exception: skip this event, keep going.
             else:
                 # A clean False is a routine validation rejection (e.g. the report
