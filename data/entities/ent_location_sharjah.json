@@ -61,10 +61,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_08_asia_001",
   "appears_in_events": [
-    "evt_2026_07_08_asia_001"
+    "evt_2026_07_08_asia_001",
+    "evt_2026_07_09_asia_001"
   ],
   "created_at": "2026-07-08T15:35:12.928329+00:00",
-  "last_updated": "2026-07-08T15:35:20.248291+00:00",
+  "last_updated": "2026-07-09T16:22:59.377663+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

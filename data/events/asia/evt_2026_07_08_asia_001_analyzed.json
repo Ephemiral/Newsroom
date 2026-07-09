@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.5",
+  "schema_version": "0.6",
   "event": {
     "cluster_id": "evt_2026_07_08_asia_001",
     "beat": "asia",
@@ -136,7 +136,8 @@
       }
     ],
     "image_attempted_at": "2026-07-08T15:35:28.362469+00:00",
-    "image": null
+    "image": null,
+    "thread_id": "thr_k2_airways_boeing_737_cargo_plane_crash_in_arabian_sea"
   },
   "sources": [
     {

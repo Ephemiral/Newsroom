@@ -1,0 +1,1150 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_09_asia_001",
+    "beat": "asia",
+    "title": "K2 Airways Boeing 737 Cargo Plane Crashes into Arabian Sea off Pakistan Coast",
+    "summary": "A K2 Airways Boeing 737-400 cargo freighter with five crew members on board crashed into the Arabian Sea on the night of July 8, 2026, after reporting a navigational system problem while en route from Sharjah, UAE, to Karachi. After a 12-hour search, Pakistani naval and maritime forces located the wreckage approximately 53 nautical miles south of Ormara; all five crew members remained missing.",
+    "date": "2026-07-08",
+    "generated_at": "2026-07-09T16:22:22.534995+00:00",
+    "related_events": [
+      {
+        "cluster_id": "evt_2026_07_08_asia_001",
+        "title": "K2 Airways Boeing 737 Cargo Plane Disappears Over Arabian Sea"
+      }
+    ],
+    "entities": [
+      {
+        "entity_id": "ent_organization_k2_airways",
+        "surfaces": [
+          "K2 Airways"
+        ],
+        "relevance_to_event": "The private Pakistani cargo airline that operated the crashed aircraft; the plane was its only asset, making this crash existentially significant to the company.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_015",
+            "clm_019",
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_boeing_737_400",
+        "surfaces": [
+          "Boeing 737-400",
+          "Boeing 737-400 converted freighter"
+        ],
+        "relevance_to_event": "The specific aircraft model involved in the crash; a 27-year-old converted freighter that reported a navigational system problem before rapidly descending and crashing.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_arabian_sea",
+        "surfaces": [
+          "Arabian Sea"
+        ],
+        "relevance_to_event": "The body of water where the aircraft crashed and where wreckage was located 53 nautical miles south of Ormara; recovery efforts face extreme depth challenges (2,500-3,500 meters).",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_009",
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_karachi",
+        "surfaces": [
+          "Karachi"
+        ],
+        "relevance_to_event": "The intended destination of the flight; located approximately 155 nautical miles from where contact was lost and 287 km from the crash site.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_005",
+            "clm_023"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_sharjah",
+        "surfaces": [
+          "Sharjah",
+          "Sharjah, UAE"
+        ],
+        "relevance_to_event": "The departure point of the flight; the aircraft had spent 10 days there for repairs and was awaiting a spare part before the return flight to Karachi.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_shehbaz_sharif",
+        "surfaces": [
+          "Prime Minister Shehbaz Sharif",
+          "Shehbaz Sharif"
+        ],
+        "relevance_to_event": "Pakistan's Prime Minister who directed authorities to speed up search and rescue operations and expressed condolences to the crew's families.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_pakistan_civil_aviation_authority",
+        "surfaces": [
+          "Pakistan Civil Aviation Authority"
+        ],
+        "relevance_to_event": "The government aviation regulator with whom K2 Airways stated it was cooperating in the investigation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_ormara",
+        "surfaces": [
+          "Ormara",
+          "Ormara port"
+        ],
+        "relevance_to_event": "A port town 53 nautical miles north of the crash site; serves as a geographic reference point for wreckage location and recovery operations.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "thread_id": "thr_k2_airways_boeing_737_cargo_plane_crash_in_arabian_sea",
+    "image_attempted_at": "2026-07-09T16:23:17.033023+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/08/boeing-737-cargo-plane-missing-near-karachi",
+      "author": "Agence France-Presse in Karachi",
+      "published_at": "2026-07-08T15:56:38+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcUdpZHpvXzJWNzl4QU15bThIOU9DZFhFeWRERWxkblJVaG9FYWlERzl1NThvZTFmRmRlNXN1NXNHT0Q2RU5MdHpoVjE0dGtCNERaSFNBUkVjQzdEa2U2a24tU0xlX1lTRER0M2hmdDFXQlJUOFBVanQ0UUo5SUkxbThlNkNJSjl2NGxOelpYRWwwSlFpMWNoNEpjem04QlNhQTFDTjQ1RnBmeHBjVnBCQXZB0gG3AUFVX3lxTE83ZkJ6a295UjBZcXlRRkFtTlNjWGo2aWk4ZlcwTk5iRnpzWEVxbEsyRzB2dHFZWlFKNUFBNHkzUEZkZTNzOXVTekNiZXpXX25pMmw2cjdRa0FhTGl4UkVYU2sxRlFwbkRHREU0UHhSVEpSUkh0U241TER5UkdtYlVoUXBMY0hGSWpSbjdybFEyNFlQbmpMZVlPNjJma0JFbmdMY2FyR1RxX3BacXM5Ty1TXzBiNjctZw?oc=5",
+      "author": null,
+      "published_at": "2026-07-08T20:19:17+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbzlnbVRUQjdlMHVDRjBaUnFZX20zTGlsVXlFT2FvVkdPd1BILUhiWF9nbElSTDhNemZWNVFHcnJfQmVhbE9PSFd0VV9LN0IwV25RSTl3eVBzN2daS3pTOFgwR0dJY3pXVjZ1c1hidUxXYkV2RDZMY1A1dHdSVm52dFZUVmF6Mmh1LVVUcFlrRFhWcXdod1V1bjVSVU51ajFrNWNzVTE2ZlTSAa4BQVVfeXFMUGEyWVlIQXRSR21PUzI2TUJPLWxQSDZSMUotNi1VRUdjUURsNXg4bVlTQm1na0x6TkE3ajJBYWdkNlRvTG93QUNNOWNDZ2Iyc05UbFBXSXRtLXRhb1RWUm80VnRVWHZKYW54ZHR0cDliZHlrOXNvZGdyajZqcHhNLWNEUVVpOVltd05kOUF5dmZDLU50czRjUjFrdVRzcmhTaDBwUFhKRHZWM0RGcXBn?oc=5",
+      "author": null,
+      "published_at": "2026-07-08T09:46:32+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/families-of-crew-aboard-crashed-pakistani-cargo-plane-face-agonising-wait",
+      "author": null,
+      "published_at": "2026-07-09T12:42:39+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/pakistani-rescuers-scour-waters-for-cargo-plane-missing-off-karachi-coast",
+      "author": null,
+      "published_at": "2026-07-08T10:12:15+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c5yze1vvlzgo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-08T16:39:15+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/south-asia/pakistani-rescuers-find-wreckage-of-lost-cargo-plane-search-on-for-missing-crew",
+      "author": null,
+      "published_at": "2026-07-08T15:55:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A K2 Airways Boeing 737-400 cargo freighter with five crew members on board crashed into the Arabian Sea on the night of July 8, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "crash_incident",
+      "rationale": "All sources across the political spectrum confirm the crash of a K2 Airways Boeing 737 cargo plane with five crew members into the Arabian Sea on July 8, 2026.",
+      "framing_variants": [
+        {
+          "characterization": "Reports wreckage located after a 12-hour search, identifies it as K2 Airways cargo B737",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes a Pakistani cargo plane that crashed into the sea with a search under way",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports a Boeing cargo plane missing over the Arabian Sea with Pakistan conducting a search",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes a K2 Airways Boeing 737 freighter that 'went down off Pakistan's southern coast'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reports aircraft going missing in the Arabian Sea after reporting a navigational system problem",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States wreckage of a Boeing 737 operated by K2 Airways has been located, with five crew still missing",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Reports wreckage of K2 Airways cargo Boeing 737 recovered 98km south of Ormara port",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The aircraft was flying from Sharjah, UAE, to Karachi when it went missing.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "crash_incident",
+      "rationale": "Sources from center-left and center-right outlets confirm the Sharjah-to-Karachi route; BBC News (center-left) inverted the direction but the discrepancy is a reporting error, not a factual dispute between the actors.",
+      "framing_variants": [
+        {
+          "characterization": "States the plane was 'approaching Karachi from Sharjah in the United Arab Emirates'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports the aircraft was flying 'from Sharjah in the UAE to Karachi'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes the plane as 'en route to Karachi' from Sharjah",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States the plane was 'travelling from Karachi to Sharjah' — an inversion of the route reported by other outlets",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The five crew members comprised two pilots, two engineers, and one support staffer.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "crash_incident",
+      "rationale": "Multiple outlets from center-right and center-left tiers report the same crew breakdown, citing the airline operator.",
+      "framing_variants": [
+        {
+          "characterization": "States 'the five people on board were two pilots, two engineers and one support staffer'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reports 'the crew comprised two pilots, two engineers and one support staffer'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Confirms 'The crew comprised two pilots, two engineers and one support staff member'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The aircraft reported a navigational system problem at approximately 9:18 p.m. Pakistan time, three minutes before radar showed it rapidly descending and communication was lost.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "crash_incident",
+      "rationale": "Sources across center-left and center-right outlets consistently report the navigational issue at 9:18 p.m. and the three-minute interval before radar contact was lost.",
+      "framing_variants": [
+        {
+          "characterization": "States the aircraft was observed 'rapidly descending and with rapid heading change' at 21:21 pm after 'reporting a navigational system issue'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'It reported a navigational problem at 9:18 p.m. Pakistan time'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States 'three minutes later radar systems showed the plane descending rapidly and communication was lost'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports the plane 'rapidly descended and lost contact with air traffic controllers on Tuesday at 21:21 local time'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Confirms 'three minutes later, radar systems showed the plane descending rapidly and communication was lost'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Communication was lost approximately 155 nautical miles (about 287 km) west of Karachi.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "crash_incident",
+      "rationale": "Center-left and center-right outlets agree on the distance of approximately 155 nautical miles west of Karachi when contact was lost.",
+      "framing_variants": [
+        {
+          "characterization": "States 'communication contact was lost about 155 nautical miles west of Karachi'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'The flight was about 155 nautical miles, or about 287 km, west of Karachi at the time'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States 'The flight was about 287km west of Karachi at the time'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Flightradar24 tracking data showed erratic altitude changes — including a steep plunge followed by a rapid climb — before the aircraft entered a catastrophic final dive from approximately 36,550 feet (11 km).",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "crash_incident",
+      "rationale": "Multiple center-right Straits Times articles citing Flightradar24 data describe the same pattern of altitude changes and final dive, corroborated across multiple reports.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'Flightradar24 data showed erratic altitude changes before a steep descent'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes the plane 'plunging about 5,000 feet in less than a minute before soaring about 6,000 feet in 30 seconds' then 'entering a catastrophic dive from 36,550 feet'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports the plane 'plunging about 1.5km in less than a minute before soaring about 1.8km in 30 seconds' then 'entering a catastrophic dive from 11km'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The last transmitted data point placed the aircraft at approximately 1,100 feet (330 m) above sea level with a vertical descent rate of approximately minus 22,400 feet per minute (minus 6.8 km per minute).",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "crash_incident",
+      "rationale": "Two Straits Times articles report the same final data point from Flightradar24, but both are from the same outlet and bias tier.",
+      "framing_variants": [
+        {
+          "characterization": "States last data point placed aircraft at 1,100 feet with vertical rate of minus 22,400 feet per minute",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States last data point placed aircraft at 330m above sea level with vertical rate of minus 6.8km per minute (~400 km/h descent)",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Preliminary flight data indicated a loss of altitude, followed by a climb, and then a second sudden and dramatic loss of altitude.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "crash_incident",
+      "rationale": "Only The Guardian reports this specific characterization of preliminary flight data in these terms, though it is broadly consistent with Flightradar24 data reported elsewhere.",
+      "framing_variants": [
+        {
+          "characterization": "Describes preliminary data as indicating 'a loss of altitude, followed by a climb, and then a second, sudden and dramatic loss of altitude'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "After a 12-hour search, Pakistani navy and maritime security forces located the wreckage 53 nautical miles (98 km) south of Ormara port in the Arabian Sea.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "search_and_rescue",
+      "rationale": "Sources from center-left and center-right outlets consistently confirm the wreckage was found 53 nautical miles south of Ormara after a 12-hour search.",
+      "framing_variants": [
+        {
+          "characterization": "States Pakistan's navy and maritime rescue agency 'successfully located and identified wreckage' in the Arabian Sea off the coast of Ormara after a 12-hour search",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'Wreckage was found 53 nautical miles (98 km) south of Ormara port on Wednesday'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States 'wreckage was recovered from 53 nautical miles south of Ormara, a port town on the coast of the Arabian Sea' after '12-hour search involving air and sea assets'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Reports 'The wreckage of K2 Airways cargo Boeing 737 was recovered 98km south of Ormara port'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "All five crew members remained missing after the wreckage was located.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "search_and_rescue",
+      "rationale": "Left and center-left outlets confirm that the five crew members were still missing after the wreckage was found.",
+      "framing_variants": [
+        {
+          "characterization": "Reports a search operation under way for the crew",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'Five crew members remain missing after the wreckage of a Boeing 737 plane that went missing off the coast of Pakistan has been located'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Describes search continuing for 'the five crew members who were on board'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "The search involved navy vessels, merchant vessels, Pakistan Maritime Security Agency assets, and military aircraft.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "search_and_rescue",
+      "rationale": "Center-left and center-right sources both confirm a multi-asset search operation involving naval, maritime security, and air assets.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'navy and merchant vessels were taking part in the search efforts' supported by military aircraft",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'The Pakistan Navy and Pakistan Maritime Security Agency deployed various air and seaborne assets'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Navy and maritime security teams were continuing to search for the flight recorders after the wreckage was found.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "search_and_rescue",
+      "rationale": "Only The Straits Times (July 9 article) explicitly reports that search teams were specifically looking for the flight data and cockpit voice recorders.",
+      "framing_variants": [
+        {
+          "characterization": "States 'navy and maritime security teams are searching for the flight recorders'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Deep-sea recovery efforts face significant challenges including water depths of 2,500–3,500 metres in parts of the Arabian Sea, strong currents, poor visibility, uneven seabed terrain, and changing sea states.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "search_and_rescue",
+      "rationale": "Only The Straits Times (July 9 article) provides this expert assessment of recovery challenges.",
+      "framing_variants": [
+        {
+          "characterization": "Reports expert assessment that 'strong currents, poor visibility, uneven seabed terrain and changing sea states could complicate efforts to recover submerged wreckage and flight recorders'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Prime Minister Shehbaz Sharif directed authorities to speed up the search and rescue operation and expressed condolences to the families of the crew.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "official_response",
+      "rationale": "Center-left and center-right outlets confirm both the Prime Minister's directive to accelerate the search and his expression of condolences.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Sharif expressed 'deep sorrow, grief and regret over the tragic incident'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States Sharif 'directed authorities to speed up search and rescue operations' and 'expressed his heartfelt condolences to their families'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports Sharif 'directed the authorities to speed up the search' and 'expressed his heartfelt condolences to their families'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "K2 Airways stated it was cooperating with the Pakistan Civil Aviation Authority and other government agencies.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "official_response",
+      "rationale": "Only one Straits Times article explicitly reports K2 Airways' cooperation statement.",
+      "framing_variants": [
+        {
+          "characterization": "Reports K2 Airways 'said it was cooperating with the Pakistan Civil Aviation Authority and other government agencies'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Boeing had not commented on the incident as of the time of reporting.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "official_response",
+      "rationale": "Two Straits Times articles both note Boeing's silence, but they are from the same outlet and bias tier.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Boeing has not yet commented'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States 'Boeing has not yet commented'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "The crashed aircraft was a Boeing 737-400 converted freighter, manufactured in 1999, that previously flew as a passenger plane for Aeroflot and Garuda Indonesia before being converted to cargo configuration in 2012.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "aircraft_details",
+      "rationale": "Center-left and center-right outlets all report the same aircraft history, including prior operators and 2012 conversion date.",
+      "framing_variants": [
+        {
+          "characterization": "Notes the aircraft was 'manufactured in 1999' and 'flew as a passenger plane for Aeroflot and Garuda Indonesia before being converted to a cargo configuration in 2012'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States the 737-400 was 'first delivered as a passenger plane to Russia's Aeroflot in 1999' and 'converted to a freighter in 2012'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Confirms the 737-400 was 'first delivered as a passenger plane to Russia's Aeroflot in 1999' and 'converted to a freighter in 2012'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "The Boeing 737-400 is two generations older than the Boeing 737 MAX and uses engines made by CFM International, jointly owned by GE Aerospace and France's Safran.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "aircraft_details",
+      "rationale": "Two Straits Times articles report the same aircraft generation comparison and engine details, but both are from the same outlet and tier.",
+      "framing_variants": [
+        {
+          "characterization": "Describes the 737-400 as 'two generations older than the 737 MAX' using 'engines made by CFM International, jointly owned by GE Aerospace and France's Safran'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States aircraft is 'two generations older than the 737 MAX' with engines by CFM International, 'jointly owned by GE Aerospace and France's Safran'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The aircraft was K2 Airways' only aircraft, entered service with the carrier in 2024, and had its previous recorded flight on June 28, 2026.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "aircraft_details",
+      "rationale": "Two Straits Times articles confirm these operational details about the aircraft's history with K2 Airways, but both are from the same outlet and tier.",
+      "framing_variants": [
+        {
+          "characterization": "States 'It is K2 Airways' only aircraft', 'entered service with the carrier in 2024', and 'Its previous flight was on June 28, according to Flightradar24 data'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Confirms the aircraft is K2 Airways' only aircraft, entered service in 2024, with previous flight on June 28",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "The aircraft had spent 10 days in Sharjah for repairs after delivering cargo and was awaiting a spare part from the United States before its return flight.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "aircraft_details",
+      "rationale": "Only The Straits Times July 9 article reports the aircraft's 10-day maintenance stay in Sharjah and the wait for a US spare part.",
+      "framing_variants": [
+        {
+          "characterization": "Reports the aircraft 'spent 10 days in Sharjah for repairs after delivering cargo' and was 'awaiting a spare part from the United States before the crew could return'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "K2 Airways is a private cargo airline operating scheduled and charter flights domestically and internationally, and the crashed aircraft was its only plane.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "aircraft_details",
+      "rationale": "Center-left and center-right sources confirm K2 Airways' status as a private cargo airline and that this aircraft was its only plane.",
+      "framing_variants": [
+        {
+          "characterization": "Describes K2 Airways as 'a private cargo airline in Pakistan that operates scheduled and charter flights domestically and internationally'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Identifies the airline as operator and notes 'It is K2 Airways' only aircraft'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Describes it as 'a private cargo plane operated by K2 Airways'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Confirms 'It is K2 Airways' only aircraft'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "The crew member Faisal Jatoi served as co-pilot on the flight and has a wife and two-year-old son.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "crash_incident",
+      "rationale": "Only The Straits Times July 9 article provides personal details about a named crew member.",
+      "framing_variants": [
+        {
+          "characterization": "Names Faisal Jatoi as co-pilot and notes he 'has a wife and two-year-old son'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "This crash would be Pakistan's first fatal aviation accident since 2020, when a Pakistan International Airlines Airbus A320 crashed near Karachi airport, killing 97 people.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "pakistan_aviation_history",
+      "rationale": "Center-left and center-right outlets consistently note this would be Pakistan's first fatal crash since the 2020 PIA Karachi disaster; BBC reports 99 people on board with 97 deaths, while others report 97 killed.",
+      "framing_variants": [
+        {
+          "characterization": "States 'The incident would be Pakistan's first fatal crash since 2020' and that the 2020 PIA A320 crash killed '97 people'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States the 2020 PIA crash killed 'all but two of the 99 people on board', framing it as killing 97 of 99",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Confirms 'The incident would be Pakistan's first fatal crash since 2020' with the PIA A320 'killing 97 people'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Pakistan's aviation sector has a history of several deadly crashes in the past decade, including a period when the EU barred Pakistan's national carrier from its airspace over safety and licensing concerns, a ban that was lifted in 2024.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "pakistan_aviation_history",
+      "rationale": "Only The Guardian provides this broader contextual framing about Pakistan's aviation safety record and the EU ban on PIA.",
+      "framing_variants": [
+        {
+          "characterization": "Notes Pakistan's aviation sector has 'a chequered history with several deadly plane crashes in the past decade' and that the EU barred PIA for four years before lifting the ban in 2024",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "K2 Airways is a small private Pakistani cargo airline whose only aircraft was the crashed Boeing 737-400, which entered service with the carrier in 2024 after being converted from a passenger jet in 2012.",
+      "sources": [
+        "src_005",
+        "src_007",
+        "src_001"
+      ]
+    },
+    {
+      "point": "The Boeing 737-400 is a decades-old aircraft type, two generations older than the current 737 MAX, and the specific plane had previously operated as a passenger aircraft for Aeroflot and Garuda Indonesia.",
+      "sources": [
+        "src_005",
+        "src_007",
+        "src_001"
+      ]
+    },
+    {
+      "point": "Ormara is a port town on Pakistan's southern coast, approximately 360 km (223 miles) west of Karachi.",
+      "sources": [
+        "src_006",
+        "src_007"
+      ]
+    },
+    {
+      "point": "Pakistan's last major fatal aviation accident prior to this incident was in 2020, when a Pakistan International Airlines Airbus A320 crashed while approaching Karachi airport, killing 97 people.",
+      "sources": [
+        "src_005",
+        "src_006",
+        "src_007",
+        "src_001"
+      ]
+    },
+    {
+      "point": "Parts of the Arabian Sea where the wreckage was found have water depths ranging from approximately 2,500 to more than 3,500 metres, posing significant challenges for recovery of the flight recorders.",
+      "sources": [
+        "src_004"
+      ]
+    },
+    {
+      "point": "The aircraft had spent 10 days in Sharjah for repairs and was awaiting a spare part from the United States before its return flight to Karachi, according to The Straits Times.",
+      "sources": [
+        "src_004"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-09T16:22:48.860094+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "A K2 Airways Boeing 737-400 cargo freighter with five crew members on board crashed into the Arabian Sea on the night of July 8, 2026. The aircraft was flying from Sharjah, UAE, to Karachi when it went missing.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The aircraft reported a navigational system problem at approximately 9:18 p.m. Pakistan time, three minutes before radar showed it rapidly descending and communication was lost. Contact was lost approximately 155 nautical miles (about 287 km) west of Karachi.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "After a 12-hour search, Pakistani navy and maritime security forces located the wreckage 53 nautical miles (98 km) south of Ormara port in the Arabian Sea. All five crew members remained missing after the wreckage was located.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The search involved navy vessels, merchant vessels, Pakistan Maritime Security Agency assets, and military aircraft. Prime Minister Shehbaz Sharif directed authorities to speed up the search and rescue operation and expressed condolences to the families of the crew.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_005",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The crashed aircraft was a Boeing 737-400 converted freighter, manufactured in 1999, that previously flew as a passenger plane for Aeroflot and Garuda Indonesia before being converted to cargo configuration in 2012. K2 Airways is a private cargo airline operating scheduled and charter flights domestically and internationally, and the crashed aircraft was its only plane.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_005",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "This crash would be Pakistan's first fatal aviation accident since 2020, when a Pakistan International Airlines Airbus A320 crashed near Karachi airport, killing 97 people.",
+        "supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Center-right outlets reporting Flightradar24 tracking data described erratic altitude changes — including a steep plunge followed by a rapid climb — before the aircraft entered a catastrophic final dive from approximately 36,550 feet (11 km). The last transmitted data point placed the aircraft at approximately 1,100 feet (330 m) above sea level with a vertical descent rate of approximately minus 22,400 feet per minute (minus 6.8 km per minute).",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_005",
+            "src_007"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "The five crew members comprised two pilots, two engineers, and one support staffer, according to center-right and center-left outlets citing the airline operator.",
+        "supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_005",
+            "src_007"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Boeing 737-400 is two generations older than the Boeing 737 MAX and uses engines made by CFM International, jointly owned by GE Aerospace and France's Safran. The aircraft entered service with K2 Airways in 2024, and its previous recorded flight was on June 28, 2026.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_007"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "K2 Airways stated it was cooperating with the Pakistan Civil Aviation Authority and other government agencies. Boeing had not commented on the incident as of the time of reporting.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_007"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "One center-right outlet reported that the aircraft had spent 10 days in Sharjah for repairs after delivering cargo and was awaiting a spare part from the United States before its return flight.",
+        "supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "One center-right outlet reported that navy and maritime security teams were continuing to search for the flight recorders after the wreckage was found. The same outlet noted that deep-sea recovery efforts face significant challenges including water depths of 2,500–3,500 metres in parts of the Arabian Sea, strong currents, poor visibility, uneven seabed terrain, and changing sea states.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "One center-right outlet provided personal details about crew member Faisal Jatoi, who served as co-pilot on the flight and has a wife and two-year-old son.",
+        "supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "One center-left outlet characterized preliminary flight data as indicating a loss of altitude, followed by a climb, and then a second sudden and dramatic loss of altitude — a framing broadly consistent with Flightradar24 data reported by other outlets but presented in distinct narrative terms.",
+        "supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "One center-left outlet provided broader contextual framing about Pakistan's aviation safety record, noting that Pakistan's aviation sector has a history of several deadly crashes in the past decade, including a period when the EU barred Pakistan's national carrier from its airspace over safety and licensing concerns, a ban that was lifted in 2024.",
+        "supports": {
+          "claim_ids": [
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

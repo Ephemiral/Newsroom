@@ -1,0 +1,49 @@
+{
+  "thread_schema_version": "0.2",
+  "thread_id": "thr_k2_airways_boeing_737_cargo_plane_crash_in_arabian_sea",
+  "title": "K2 Airways Boeing 737 Cargo Plane Crash in Arabian Sea",
+  "title_source": "auto",
+  "summary": "A K2 Airways cargo plane carrying five crew members lost contact with air traffic control while flying from Sharjah to Karachi on July 7-8, 2026, after reporting a navigational system problem, with wreckage subsequently located in the Arabian Sea.",
+  "status": "developing",
+  "beats": [
+    "asia"
+  ],
+  "key_entities": [
+    "ent_organization_k2_airways",
+    "ent_organization_pakistan_civil_aviation_authority",
+    "ent_person_shehbaz_sharif",
+    "ent_technology_boeing_737_400",
+    "ent_technology_flightradar24"
+  ],
+  "events": [
+    {
+      "cluster_id": "evt_2026_07_08_asia_001",
+      "date": "2026-07-07",
+      "chapter_summary": "A K2 Airways Boeing 737-400 cargo plane with five crew members disappeared on July 7, 2026, while flying from Sharjah to Karachi after reporting a navigational system problem and entering a rapid descent approximately 155 nautical miles west of Karachi, with wreckage located in the Arabian Sea but crew members remaining missing.",
+      "link_score": 1.0
+    },
+    {
+      "cluster_id": "evt_2026_07_09_asia_001",
+      "date": "2026-07-08",
+      "chapter_summary": "Pakistani naval and maritime forces located the aircraft wreckage approximately 53 nautical miles south of Ormara after a 12-hour search, with all five crew members remaining missing.",
+      "link_score": 0.752
+    }
+  ],
+  "accountability": [],
+  "created_at": "2026-07-09T16:23:02.048281+00:00",
+  "last_updated": "2026-07-09T16:23:03.960162+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Thread created"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Added evt_2026_07_08_asia_001"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Added evt_2026_07_09_asia_001"
+    }
+  ]
+}

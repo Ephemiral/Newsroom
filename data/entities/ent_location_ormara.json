@@ -1,0 +1,79 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_ormara",
+  "type": "location",
+  "canonical_name": "Ormara",
+  "aliases": [
+    "Ormara port"
+  ],
+  "wikidata_qid": "Q1188222",
+  "summary": "Ormara is a town and tehsil in Gwadar District in the Balochistan province of Pakistan. It is a port in the Makran coastal region.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ormara"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Ormara_Bay.JPG/960px-Ormara_Bay.JPG",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ormara_Bay.JPG",
+    "credit": "Bilal Mirza (Billmirza at en.wikipedia)",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Ormara Bay.JPG",
+    "fetched_at": "2026-07-09T16:22:54.975354+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is located 360 kilometres (220 mi) west of Karachi and 230 kilometres (140 mi) east of Gwadar on the Arabian Sea.",
+      "source_url": "https://en.wikipedia.org/wiki/Ormara",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-09",
+      "last_updated": "2026-07-09",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "This port is also mentioned in Periplus of the Erythraean Sea as Oraea.",
+      "source_url": "https://en.wikipedia.org/wiki/Ormara",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-09",
+      "last_updated": "2026-07-09",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_09_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_09_asia_001"
+  ],
+  "created_at": "2026-07-09T16:22:52.185166+00:00",
+  "last_updated": "2026-07-09T16:22:59.378116+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Entity created from evt_2026_07_09_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ormara"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ormara"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikidata Q1188222 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1188222"
+    }
+  ]
+}
