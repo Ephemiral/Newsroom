@@ -5,7 +5,7 @@
 
 **Last updated:** 8 July 2026
 **Owner:** G (GitHub: Ephemiral)
-**Status:** Live (Vercel), fully autonomous. Pipeline runs on GitHub Actions **every 12h** (pre-launch cost control) across 4 beats (Middle East/Europe/Americas/Asia; §15); events carry openly-licensed images; schema v0.4 (actor disputes + state-aligned outlets). Latest handover: `docs/HANDOVER_SESSION_16.md`.
+**Status:** Live (Vercel), fully autonomous. Pipeline runs on GitHub Actions **every 12h** (pre-launch cost control) across 4 beats (Middle East/Europe/Americas/Asia; §15); events carry openly-licensed images, **entity cards, story threads, and accountability tracking**. **Phase 3 complete (8 July 2026): M10 entity cards + M11 story threading + M12 accountability — all live.** Schema **v0.6** (events) + entity store v0.1 + thread schema v0.2. Latest handover: `docs/HANDOVER_SESSION_17.md`.
 
 > **Cost/billing (two separate meters):** GitHub Actions *minutes* (compute) are free on the public repo. Anthropic API *credits* (tokens) are billed per LLM call, identically wherever the code runs — **location does not change API cost, only volume does** (events published × cost/event; Sonnet reconcile+generate dominate; publish-free cycles cost ~$0). Levers to reduce burn: lengthen the cron, `--max-events`, fewer beats, or Sonnet→Haiku on reconcile/generate. Set a monthly spend limit in the Anthropic console so the account can't silently run dry (it did on 7 July → the fast auth-check now reports "BALANCE EXHAUSTED" distinctly from a bad key).
 
@@ -134,6 +134,9 @@ Build in the order the data flows, and prove trust before generating.
 | M7 | Generate | 2 | Report added to JSON, grounded in + linked to annotations |
 | M8 | Toggle UI | 2 | Report-by-default page with per-paragraph expandable receipts |
 | M9 | Validate Phase 2 | 2 | Readers find the synthesis fair; 20–30 events processed |
+| M10 | Entity cards | 3 | Persistent entity store + clickable, tier-labeled, cited background cards (people/orgs/locations/tech) in transparency mode — **Done** (§15c, STAGE_7) |
+| M11 | Story threading | 3 | Developing stories grouped into persistent cross-beat threads on a "Threads" tab — **Done** (§15d, STAGE_8) |
+| M12 | Accountability tracking | 3 | Per-outlet self-contradiction flags across a thread, review-gated — **Done** (§15e, STAGE_9) |
 
 ---
 
@@ -148,6 +151,8 @@ Build in the order the data flows, and prove trust before generating.
 - **`STAGE_5_GENERATE.md`** — report generation (Phase 2).
 - **`STAGE_6_FRONTEND.md`** — Next.js front end + toggle UI.
 - **`STAGE_7_ENTITIES.md`** — entity cards (Phase 3, M10): persistent entity store + clickable, tier-labeled background cards for people/orgs/locations/tech in transparency mode. Implemented 2026-07-08.
+- **`STAGE_8_THREADING.md`** — story threading (Phase 3, M11): developing stories grouped into persistent cross-beat threads on a "Threads" tab, matched on shared entities. Implemented 2026-07-08.
+- **`STAGE_9_ACCOUNTABILITY.md`** — accountability tracking (Phase 3, M12): per-outlet self-contradiction flags across a thread, review-gated. Implemented 2026-07-08.
 
 **Working rhythm:** pick the current milestone from the TRACKSHEET → open that stage's instruction doc → build only that stage against the golden dataset → update the TRACKSHEET (status + change log) → move to the next. Work one stage at a time.
 
