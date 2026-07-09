@@ -1,0 +1,78 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_susan_collins",
+  "type": "person",
+  "canonical_name": "Susan Collins",
+  "aliases": [],
+  "wikidata_qid": "Q22279",
+  "summary": "Susan Margaret Collins is an American politician serving as the senior United States senator for Maine since 1997. A member of the Republican Party, she is Maine's longest-serving member of Congress and the longest-serving Republican woman in the Senate.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Susan_Collins"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Sen_Susan_Collins_official.jpg/960px-Sen_Susan_Collins_official.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Sen_Susan_Collins_official.jpg",
+    "credit": "United States Senate",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Sen Susan Collins official.jpg",
+    "fetched_at": "2026-07-09T04:58:28.565884+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Treasurer and Receiver-General of Massachusetts",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q22279",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "United States senator",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q22279",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Collins has chaired the Senate Appropriations Committee since 2025.",
+      "source_url": "https://en.wikipedia.org/wiki/Susan_Collins",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-09",
+      "last_updated": "2026-07-09",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_09_americas_001",
+  "appears_in_events": [
+    "evt_2026_07_09_americas_001"
+  ],
+  "created_at": "2026-07-09T04:58:23.984713+00:00",
+  "last_updated": "2026-07-09T04:58:38.118398+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Entity created from evt_2026_07_09_americas_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Susan_Collins"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikidata Q22279 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q22279"
+    }
+  ]
+}

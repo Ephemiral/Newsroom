@@ -1,0 +1,72 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_graham_platner",
+  "type": "person",
+  "canonical_name": "Graham Platner",
+  "aliases": [
+    "Platner"
+  ],
+  "wikidata_qid": "Q136001228",
+  "summary": "Graham Cunningham Platner is an American oyster farmer, Marine Corps veteran, and political candidate who is the Democratic nominee for U.S. Senate in the 2026 U.S.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Graham_Platner"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Platner_headshot.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Platner_headshot.jpg",
+    "credit": "MAINEiac4434",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Platner headshot.jpg",
+    "fetched_at": "2026-07-09T04:58:23.725352+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "harbormaster",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q136001228",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Senate election in Maine, challenging incumbent Republican senator Susan Collins.",
+      "source_url": "https://en.wikipedia.org/wiki/Graham_Platner",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-09",
+      "last_updated": "2026-07-09",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_09_americas_001",
+  "appears_in_events": [
+    "evt_2026_07_09_americas_001"
+  ],
+  "created_at": "2026-07-09T04:58:21.027473+00:00",
+  "last_updated": "2026-07-09T04:58:38.117839+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Entity created from evt_2026_07_09_americas_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Graham_Platner"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikidata Q136001228 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q136001228"
+    }
+  ]
+}

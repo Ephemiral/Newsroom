@@ -149,6 +149,11 @@
       "at": "2026-07-08T15:31:59.901640+00:00",
       "event_id": "evt_2026_07_08_asia_001",
       "outcome": "published"
+    },
+    "625cd2f58f7283c1": {
+      "at": "2026-07-09T04:54:17.130821+00:00",
+      "event_id": "evt_2026_07_09_americas_001",
+      "outcome": "published"
     }
   }
 }

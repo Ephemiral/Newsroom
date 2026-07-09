@@ -1,0 +1,68 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_maine",
+  "type": "location",
+  "canonical_name": "Maine",
+  "aliases": [],
+  "wikidata_qid": "Q724",
+  "summary": "Maine is a state in the New England region of the United States, and the northeasternmost state in the contiguous United States. It borders New Hampshire to the west, the Gulf of Maine to the southeast, and the Canadian provinces of New Brunswick and Quebec to the northeast and northwest, and shares a maritime border with Nova Scotia.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Maine"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is the only state to border only one other state.",
+      "source_url": "https://en.wikipedia.org/wiki/Maine",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-09",
+      "last_updated": "2026-07-09",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Maine is the largest state in New England by total area, almost as large as the combined area of the remaining five states.",
+      "source_url": "https://en.wikipedia.org/wiki/Maine",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-09",
+      "last_updated": "2026-07-09",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_09_americas_001",
+  "appears_in_events": [
+    "evt_2026_07_09_americas_001"
+  ],
+  "created_at": "2026-07-09T04:58:32.834738+00:00",
+  "last_updated": "2026-07-09T04:58:38.119180+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Entity created from evt_2026_07_09_americas_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Maine"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Maine"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikidata Q724 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q724"
+    }
+  ]
+}

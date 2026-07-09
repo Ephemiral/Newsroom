@@ -1,0 +1,15 @@
+{
+  "cluster_id": "evt_2026_07_09_americas_001",
+  "beat": "americas",
+  "article_ids": [
+    "art_29331f1c77",
+    "art_32f1c38c1e",
+    "art_86914b1eeb",
+    "art_8ba81c2a84",
+    "art_b133846205"
+  ],
+  "created_at": "2026-07-09T04:54:14.312834+00:00",
+  "method": "auto",
+  "threshold": 0.7,
+  "size": 5
+}

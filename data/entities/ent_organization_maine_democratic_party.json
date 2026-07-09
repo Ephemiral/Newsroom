@@ -1,0 +1,35 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_maine_democratic_party",
+  "type": "organization",
+  "canonical_name": "Maine Democratic Party",
+  "aliases": [],
+  "wikidata_qid": "Q6736346",
+  "summary": "The Maine Democratic Party is the affiliate of the Democratic Party in the U.S. state of Maine.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Maine_Democratic_Party"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_09_americas_001",
+  "appears_in_events": [
+    "evt_2026_07_09_americas_001"
+  ],
+  "created_at": "2026-07-09T04:58:30.426915+00:00",
+  "last_updated": "2026-07-09T04:58:38.118796+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Entity created from evt_2026_07_09_americas_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikidata Q6736346 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q6736346"
+    }
+  ]
+}

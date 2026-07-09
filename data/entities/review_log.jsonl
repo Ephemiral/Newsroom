@@ -83,3 +83,5 @@
 {"kind": "low_confidence_match", "name": "Gaza border communities", "candidates": ["ent_location_gaza_strip"], "event_id": "evt_2026_07_01_118", "at": "2026-07-08T18:32:07.605969+00:00"}
 {"kind": "low_confidence_match", "name": "Oman", "candidates": ["ent_location_gulf_of_oman"], "event_id": "evt_2026_07_01_175", "at": "2026-07-08T18:32:18.864198+00:00"}
 {"kind": "type_conflict", "name": "Tehran", "existing": "ent_organization_iran", "candidate_type": "location", "at": "2026-07-08T18:32:34.318132+00:00"}
+{"kind": "person_grounded", "entity_id": "ent_person_graham_platner", "name": "Graham Platner", "qid": "Q136001228", "context": "Democratic U.S. Senate candidate from Maine who suspended his campaign following sexual assault allegations", "event_id": "evt_2026_07_09_americas_001", "at": "2026-07-09T04:58:23.848272+00:00"}
+{"kind": "person_grounded", "entity_id": "ent_person_susan_collins", "name": "Susan Collins", "qid": "Q22279", "context": "Five-term Republican U.S. Senator from Maine whose seat Democrats sought to flip", "event_id": "evt_2026_07_09_americas_001", "at": "2026-07-09T04:58:28.686264+00:00"}

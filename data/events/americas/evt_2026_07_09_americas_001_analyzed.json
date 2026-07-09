@@ -1,0 +1,1059 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_09_americas_001",
+    "beat": "americas",
+    "title": "Graham Platner Suspends Maine Senate Campaign Amid Sexual Assault Allegations",
+    "summary": "Democrat Graham Platner suspended his campaign for the U.S. Senate seat in Maine on July 9, 2026, following a Politico report in which a former girlfriend alleged he sexually assaulted her in 2021. The suspension came after rapid withdrawal of support from national and state Democratic figures, and left the party scrambling to find a replacement candidate before a state-mandated deadline.",
+    "date": "2026-07-09",
+    "generated_at": "2026-07-09T04:57:52.131706+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_graham_platner",
+        "surfaces": [
+          "Graham Platner",
+          "Platner"
+        ],
+        "relevance_to_event": "The Democrat whose campaign suspension following sexual assault allegations is the central subject of this report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_jenny_racicot",
+        "surfaces": [
+          "Jenny Racicot",
+          "Racicot"
+        ],
+        "relevance_to_event": "The former girlfriend who made the sexual assault allegation against Platner that directly triggered his campaign suspension.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_susan_collins",
+        "surfaces": [
+          "Susan Collins"
+        ],
+        "relevance_to_event": "The five-term Republican incumbent Maine senator whose seat Democrats needed to flip, making the Maine Senate race pivotal to Democratic control of the Senate.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_democratic_senatorial_campaign_committee",
+        "surfaces": [
+          "Democratic Senatorial Campaign Committee",
+          "DSCC"
+        ],
+        "relevance_to_event": "The national Democratic organization that withdrew financial support from the Maine race in response to Platner's allegations, directly affecting the campaign's viability.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_maine_democratic_party",
+        "surfaces": [
+          "Maine Democratic Party"
+        ],
+        "relevance_to_event": "The state party organization responsible for selecting Platner's replacement candidate through a convention and which withdrew its backing of Platner.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_philippine_senate",
+        "surfaces": [
+          "U.S. Senate",
+          "Senate"
+        ],
+        "relevance_to_event": "The body for which Platner was running and whose control by Democrats depends partly on winning the Maine seat at issue in this report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_010",
+            "clm_013",
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_maine",
+        "surfaces": [
+          "Maine"
+        ],
+        "relevance_to_event": "The state where Platner was running for Senate, where the election deadline and replacement selection process are governed by state law, and where the alleged assault occurred.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_005",
+            "clm_008",
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-09T04:58:50.554466+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Graham_Platner_Senate_campaign_headquarters%2C_Ellsworth%2C_Maine.jpg/1280px-Graham_Platner_Senate_campaign_headquarters%2C_Ellsworth%2C_Maine.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Graham_Platner_Senate_campaign_headquarters%2C_Ellsworth%2C_Maine.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Graham_Platner_Senate_campaign_headquarters,_Ellsworth,_Maine.jpg",
+      "width": 1200,
+      "height": 1599,
+      "caption": "Graham Platner's U.S. Senate campaign headquarters in Ellsworth, Maine (file photo)",
+      "credit": "JJonahJackalope",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Graham Platner Senate campaign headquarters, Ellsworth, Maine.jpg",
+      "query": "Graham Platner Maine",
+      "fetched_at": "2026-07-09T04:58:50.554429+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRmFtMVZST1ExeFY5dmVwSTNhaldzTzJ6a3hVZGZBTm5zREo0cUlyLWFydkV5LVNFdGxFRThGZTNWUHA4cllqNl9uWE03WTlnM25ZWnNLR29RenlwQVRsV1NTWEVHZ3FwTkQySnd4SEJUcVVBd2lSb3FkOGtONDhTQlVJUldmOHBZM2tHWGJza3BjcW9OZ0lnelBHRzltM2UyRks1MFhrSjZzWEpUQjVObQ?oc=5",
+      "author": null,
+      "published_at": "2026-07-09T02:18:00+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "The Associated Press is a non-profit cooperative owned by its member newspapers and broadcasters.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c9v229434p2o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-09T02:18:21+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "New York Post",
+      "url": "https://nypost.com/2026/07/08/us-news/maine-dems-planning-convention-for-next-candidate-after-scandal-ridden-graham-platner-drops-out-of-senate-race/",
+      "author": "Daniel Cody",
+      "published_at": "2026-07-09T01:13:44+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by News Corp, controlled by the Murdoch family trust.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c20ylnn8wqgo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-09T03:13:25+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm2004nx8v9o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-08T01:05:26+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Democrat Graham Platner suspended his campaign for the U.S. Senate seat in Maine on the night of July 9, 2026, announcing the decision via an 11-minute video posted to social media.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "campaign_suspension",
+      "rationale": "Multiple outlets spanning center (AP News) and center-left (BBC News) and center-right (New York Post) all confirm the suspension announcement via video, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Describes Platner as planning to withdraw, framing it as a stated intention.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes the campaign as 'suspended,' noting it followed 'a series of scandals.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States Platner 'dropped his bid' in the context of Democrats voting to hold a convention.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports the announcement came via 'recorded video posted on social media' just over 48 hours after the Politico story.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Jenny Racicot, 41, alleged that Platner, after an on-and-off relationship lasting more than two years, entered her home in Maine uninvited in 2021 and sexually assaulted her while appearing very intoxicated; Platner denied the allegation, calling it categorically false and 'the worst thing a person could do.'",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "sexual_assault_allegation",
+      "rationale": "Racicot's allegation and Platner's categorical denial are directly contradictory accounts of the same event, reported across all outlets; this is a classic actor dispute between the accuser and the accused.",
+      "framing_variants": [
+        {
+          "characterization": "Presents both Racicot's account and Platner's denial; notes he called it 'false' and 'not remotely true' in his video.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Frames allegation as Platner having 'drunkenly forced himself on a woman when she asked him to stop'; carries his 'categorically false' denial.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Attributes allegation to an 'ex-girlfriend' and notes Platner 'has denied the allegation.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Details Racicot's account fully, including her reluctance to come forward; notes Platner denied the allegation and called it 'categorically false.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The Politico story containing Racicot's sexual assault allegation was published on Monday, approximately 48 hours before Platner's suspension announcement.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "sexual_assault_allegation",
+      "rationale": "BBC News (center-left) and New York Post (center-right) — along with a second BBC article — all confirm that the Politico publication preceded the suspension by roughly 48 hours, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "States 'the accusation included in a story on Monday in Politico led to the almost instant downfall of his campaign.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes the suspension came 'just a little more than 48 hours after Politico published a story.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reports 'The woman detailed the alleged assault in a series of interviews with Politico, which were published on Monday.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Racicot stated she was reluctant to go public because she did not want to be known as a rape victim, and said she felt compelled to speak after the controversial reaction to the New York Times story about Platner.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "sexual_assault_allegation",
+      "rationale": "Both BBC News articles (center-left) report Racicot's stated reasons for initially staying silent and ultimately coming forward; both sources share the same bias tier.",
+      "framing_variants": [
+        {
+          "characterization": "States she 'did not want to be known as a rape victim' and had spoken to the Times but not gone public with specific claims.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports she 'felt compelled to publicly speak of her experience because of the controversial reaction to a story published by the New York Times.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "A second woman, Lyndsey Fifield, who said she dated Platner from 2013 to 2015, alleged in a Washington Post interview that he repeatedly removed condoms without her consent during sex ('stealthing'), which is illegal in Maine; Platner's campaign called the allegation 'categorically false and politically motivated' and noted Fifield has worked in Republican politics.",
+      "classification": "single_source",
+      "dispute_type": "actor",
+      "claim_group": "sexual_assault_allegation",
+      "rationale": "Only one source reports on Fifield's allegation and the campaign's denial; because the two parties offer directly contradictory accounts it is classified as a contested actor dispute, though it is only a single source.",
+      "framing_variants": [
+        {
+          "characterization": "Presents Fifield's allegation in detail, notes stealthing is illegal in Maine, and carries the campaign's denial and its characterization of Fifield as politically motivated.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Platner stated that his decision to suspend the campaign was not an admission of guilt and that he called the assault allegation false.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "campaign_suspension",
+      "rationale": "Center-left (BBC) and center-right (New York Post) outlets all report Platner's own statements that his suspension was not a guilty plea and that the allegation was false, meeting cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Notes he posted a video saying his decision was 'not an admission of guilt' and called the allegation 'false.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'Platner said he was not stepping down because of the allegation.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States he 'denied the allegation as categorically false on social media.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Platner stated he would not formally file withdrawal paperwork until assured that his replacement would be selected in a transparent and democratic way.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "campaign_suspension",
+      "rationale": "BBC News (center-left) and New York Post (center-right) both report Platner's stated condition for formal withdrawal, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States he would file once his replacement is selected in a 'transparent and democratic' way.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Uses the phrase 'open and democratic' way.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Notes as of Wednesday night Platner had not yet officially submitted paperwork, per the Secretary of State's spokesperson.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Under Maine state law, Platner must officially withdraw by July 13 for a replacement name to appear on the ballot, with a separate state-mandated deadline of July 27 for naming a new nominee.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "campaign_suspension",
+      "rationale": "Sources report two different dates: BBC and one BBC article cite July 13 as the deadline for ballot removal, while the New York Post cites July 27 as the legal deadline to name a replacement; this discrepancy in the legal deadline across sources constitutes a factual inconsistency.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Platner has to officially drop out by 13 July for a replacement name to be put on the ballot.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'Platner must withdraw from the race by 13 July in order for his name to be removed from the state's ballot.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Refers to 'a state-mandated 27 July deadline' for selecting a new nominee.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States 'State law requires Democrats to name a replacement candidate for Platner by July 27.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Within hours of the Politico story's publication, national and state Democrats — including Senators Bernie Sanders, Elizabeth Warren, Cory Booker, Elissa Slotkin, and Representatives Ro Khanna, Ruben Gallego, and Martin Heinrich — withdrew their support or endorsements and called on Platner to drop out.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "democratic_party_response",
+      "rationale": "Center-left (BBC) and center-right (New York Post) outlets both confirm the rapid and broad withdrawal of Democratic support, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Notes Warren, Gallego, Khanna, and Heinrich rescinded endorsements; DSCC and Maine Democratic party ended backing.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'within hours of the interview's publication, his political support evaporated'; names Warren and Sanders among those who withdrew backing.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Lists Warren, Booker, Slotkin, Khanna, Heinrich, Gallego and NYC Mayor Mamdani as calling for withdrawal; DSCC announced it would not invest if Platner remained.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Notes Sanders 'recommended Platner step aside in light of the allegations.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The Democratic Senatorial Campaign Committee announced it would not invest in the Maine Senate race if Platner remained on the ballot, and both the DSCC and Maine Democratic Party ended their backing of Platner.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "democratic_party_response",
+      "rationale": "BBC News (center-left) across multiple articles and one corroborating report all confirm the DSCC's and state party's financial and institutional withdrawal; center-left and center sources provide cross-spectrum breadth.",
+      "framing_variants": [
+        {
+          "characterization": "States DSCC 'provides millions of dollars in support' and that both it and the Maine Democratic party 'ended their backing.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'The national party announced it would no longer help finance his campaign.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Quotes DSCC as saying it 'will not invest in the Maine Senate race if Platner remains on the ballot.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "The Maine Democratic Party announced it would select a new nominee at a convention to be held within two weeks, with hundreds of delegates expected to participate in the choice.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "replacement_candidate_process",
+      "rationale": "Center (AP News/BBC) and center-right (New York Post) outlets both confirm the convention announcement and delegate structure, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States 'The Maine Democratic Party has announced it will select a new nominee at a convention held sometime in the next two weeks'; 'hundreds of delegates will weigh in.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'the state party announced it will select a new nominee at convention held sometime in the next two weeks'; says 'hundreds of delegates would choose Platner's replacement.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reports 'more than 100 state committee members voted to hold a nominating convention if Platner withdrew.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Maine Democratic Party Executive Director Devon Murphy-Anderson accused the Platner campaign of trying to 'manipulate' or put its 'thumb on the scale' of the replacement selection process; Platner's side denied this, saying they sought an open process rather than the coronation of an 'establishment-backed' candidate.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "replacement_candidate_process",
+      "rationale": "The state party chair and the Platner campaign offer directly contradictory characterizations of the campaign's role in the nomination process, constituting an actor dispute reported by multiple BBC articles.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Anderson accusing the Platner campaign of trying to put its 'thumb on the scale'; states the party has 'no role in determining our next Democratic nominee.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States Murphy-Anderson said the campaign was trying to 'manipulate' the process; Platner's side countered they want an 'open process' not an 'establishment-backed' coronation.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "The Maine Senate race is considered pivotal to Democrats' chances of gaining control of the U.S. Senate, requiring the party to flip Susan Collins' seat, hold all existing Democratic seats, and gain additional seats in the November midterm elections.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "electoral_stakes",
+      "rationale": "BBC News (center-left) and AP News (center) reporting all characterize Maine as a must-win for Democrats with consistent electoral math, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States Democrats 'must flip Collins' seat, hold on to all their existing seats and gain three more in the November midterm election.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States Democrats 'have to flip four Republican-held seats while defending all of theirs'; notes Maine is 'widely considered a must-win target.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Calls the race 'one of several pivotal to Democrats eyeing a longshot bid to flip control of the Senate.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Susan Collins is a five-term Republican incumbent senator representing Maine and is the only Republican in Congress representing a state that Democrats won in the 2024 presidential election.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "electoral_stakes",
+      "rationale": "Both BBC News articles (center-left) confirm Collins' five-term status and her unique position as the sole Republican from a state Democrats won in 2024; both sources share the same bias tier.",
+      "framing_variants": [
+        {
+          "characterization": "Describes Collins as 'five-term Senator' and 'the only Republican in Congress representing a state that Democrats won in the 2024 presidential election.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes Collins as having 'beaten back political challenges for three decades.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Platner won the Democratic primary with 72% of the vote, defeating Maine Governor Janet Mills, who had been handpicked by Democratic leaders and suspended her campaign in April due to Platner's popularity.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "electoral_stakes",
+      "rationale": "Both BBC News articles (center-left) report Mills' withdrawal and Platner's 72% primary result; same bias tier.",
+      "framing_variants": [
+        {
+          "characterization": "States Mills 'suspended her campaign' against Platner.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports '72% of Maine's Democrats cast their ballots for him in June's primary'; says Mills 'was handpicked by Democratic leaders as the best chance to unseat Collins' and 'suspended her campaign in April in the face of his momentous popularity.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Platner's candidacy faced a series of prior controversies, including: a chest tattoo resembling a Nazi Totenkopf symbol; offensive Reddit posts in which he suggested sexual assault victims should take more responsibility for themselves; and a New York Times report that he exchanged sexually explicit messages with women while married.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "prior_controversies",
+      "rationale": "Center-left (BBC) and center-right (New York Post) outlets all document the same pattern of prior controversies, satisfying cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Describes tattoo as 'resembling a Nazi symbol,' Reddit posts, and June NYT report on 'sexual messages with other women while married.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Lists 'offensive social media posts,' 'chest tattoo with Nazi connotations,' and 'sexually explicit text messages sent to women after he was married in 2023.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes tattoo as 'a totenkopf, a Nazi symbol'; notes Reddit posts with 'crude remarks about women' and 'sexually explicit texts he sent to other women in 2025.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports tattoo 'resembling a Nazi symbol,' 'online comments he made dismissing rape,' and infidelity stories 'leaked to US news outlets.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Platner explained the tattoo as something he got in Croatia with fellow Marines in 2007 while drinking, said he subsequently covered it up, and denied being a Nazi.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "prior_controversies",
+      "rationale": "Center-left (BBC) and center-right (New York Post) outlets all carry Platner's explanation and denial, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States he 'got the tattoo in Croatia with his fellow Marines in 2007 while drinking' and 'later said he covered up' the tattoo.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'Platner denied being a Nazi' and that a former girlfriend said he referred to it as 'my totenkopf.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports Platner said he covered up what 'appeared to resemble the Totenkopf — German for death's head — used by Nazi forces during World War Two.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "A New York Times story published just before the Maine primary detailed accounts of three former girlfriends accusing Platner of erratic and angry behaviour; former girlfriends also recounted volatile relationships including physical intimidation.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "prior_controversies",
+      "rationale": "Center-left (BBC) and center-right (New York Post) outlets all report the same NYT story and its content, satisfying cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "States 'The Times followed with another report featuring the accounts of three former girlfriends who accused him of erratic and angry behaviour.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes 'Ex-girlfriends also recounted volatile, emotionally wrenching relationships, including physical intimidation.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes 'The report last month detailed the accounts of three former girlfriends who accused him of erratic and angry behaviour' and notes it 'was published just before the primary race.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Platner acknowledged that reports about sexually explicit texts with women outside his marriage were true, and stated he made mistakes at the beginning of his marriage but that he and his wife worked through them.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "prior_controversies",
+      "rationale": "Both BBC News articles (center-left) report Platner's acknowledgement and his statement about his marriage; same bias tier.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'He acknowledged the report was true' and that 'his wife had warned his campaign of the potential scandal.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States he 'acknowledged they were true' and quotes him: 'At the beginning of our marriage, I made mistakes, and Amy held me accountable for them.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Platner was endorsed by Senators Bernie Sanders and Elizabeth Warren, and had built a grass-roots network of more than 15,000 supporters in Maine after entering the race in August of the prior year.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "campaign_suspension",
+      "rationale": "Both BBC News articles (center-left) confirm the endorsements and Platner's grassroots support; same bias tier.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Endorsements from two liberal leaders, Senators Bernie Sanders and Elizabeth Warren, bolstered his candidacy'; describes him as 'an oyster farmer and military veteran' who 'championed progressive policies.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States he 'built a grass-roots network of more than 15,000 supporters in Maine' and was 'championed by liberal stalwarts like Vermont Senator Bernie Sanders and Massachusetts Senator Elizabeth Warren.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Several Democrats expressed interest in or announced candidacy for the replacement nomination, including Dan Kleban (who announced 'I'm in'), former state senator Troy Jackson, economist and state epidemiologist Nirav Shah, and Maine Secretary of State Shenna Bellows.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "replacement_candidate_process",
+      "rationale": "Both BBC News articles (center-left) name the same pool of potential replacement candidates; same bias tier.",
+      "framing_variants": [
+        {
+          "characterization": "Names Kleban ('I'm in'), Shah ('evaluating a run'), Bellows ('still considering'), and Jackson ('exploring options'); notes Dempsey ruled himself out via newspaper op-ed.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Provides background on each candidate: Jackson as 'former Maine Senate leader,' Shah as 'state epidemiologist who gained prominence during Covid,' and Bellows as the 2014 Democratic nominee who lost to Collins.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Actor Patrick Dempsey, known for Grey's Anatomy, ruled out a Senate run in a newspaper opinion piece published Wednesday.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "replacement_candidate_process",
+      "rationale": "Only BBC News reports on Dempsey's op-ed ruling out a Senate bid; no other outlet in the cluster covers this claim.",
+      "framing_variants": [
+        {
+          "characterization": "States Dempsey 'put to rest chatter around a potential bid on Wednesday in a newspaper opinion piece,' writing 'After a lot of thought, I realized the answer is no.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Congressman Eric Swalwell suspended his California gubernatorial campaign and resigned from the House of Representatives in April 2026 after multiple women accused him of sexual misconduct; Swalwell denied the allegations.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "prior_controversies",
+      "rationale": "Only one BBC News article draws the parallel to Eric Swalwell's case; no other outlet in the cluster covers this comparison.",
+      "framing_variants": [
+        {
+          "characterization": "Presents Swalwell as a parallel case, noting he 'dropped out of the race for California governor and resigned from the House of Representatives after multiple women accused him of sexual misconduct' and 'denied the allegations.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-09T04:58:17.676436+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Democrat Graham Platner suspended his campaign for the U.S. Senate seat in Maine on the night of July 9, 2026, announcing the decision via an 11-minute video posted to social media. The suspension came approximately 48 hours after Politico published a story containing a sexual assault allegation against him.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "In his video statement, Platner maintained that his decision to suspend the campaign was not an admission of guilt and that he called the assault allegation false. He stated he would not formally file withdrawal paperwork until assured that his replacement would be selected in a transparent and democratic way.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The Maine Senate race is considered pivotal to Democrats' chances of gaining control of the U.S. Senate, requiring the party to flip Susan Collins' seat, hold all existing Democratic seats, and gain additional seats in the November midterm elections. Collins is a five-term Republican incumbent senator representing Maine and is the only Republican in Congress representing a state that Democrats won in the 2024 presidential election.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Platner had won the Democratic primary with 72% of the vote, defeating Maine Governor Janet Mills, who had been handpicked by Democratic leaders and suspended her campaign in April due to Platner's popularity. He was endorsed by Senators Bernie Sanders and Elizabeth Warren, and had built a grass-roots network of more than 15,000 supporters in Maine after entering the race in August of the prior year.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Within hours of the Politico story's publication, national and state Democrats — including Senators Bernie Sanders, Elizabeth Warren, Cory Booker, Elissa Slotkin, and Representatives Ro Khanna, Ruben Gallego, and Martin Heinrich — withdrew their support or endorsements and called on Platner to drop out. The Democratic Senatorial Campaign Committee announced it would not invest in the Maine Senate race if Platner remained on the ballot, and both the DSCC and Maine Democratic Party ended their backing of Platner.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Platner's candidacy had faced a series of prior controversies, including: a chest tattoo resembling a Nazi Totenkopf symbol; offensive Reddit posts in which he suggested sexual assault victims should take more responsibility for themselves; and a New York Times report that he exchanged sexually explicit messages with women while married. Platner explained the tattoo as something he got in Croatia with fellow Marines in 2007 while drinking, said he subsequently covered it up, and denied being a Nazi.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "A New York Times story published just before the Maine primary detailed accounts of three former girlfriends accusing Platner of erratic and angry behaviour; former girlfriends also recounted volatile relationships including physical intimidation. Platner acknowledged that reports about sexually explicit texts with women outside his marriage were true, and stated he made mistakes at the beginning of his marriage but that he and his wife worked through them.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Center-left outlets reported that Racicot stated she was reluctant to go public because she did not want to be known as a rape victim, and said she felt compelled to speak after the controversial reaction to the New York Times story about Platner. This account of her motivations for coming forward appeared only in BBC News reporting.",
+        "supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Maine Democratic Party announced it would select a new nominee at a convention to be held within two weeks, with hundreds of delegates expected to participate in the choice. Several Democrats expressed interest in or announced candidacy for the replacement nomination, including Dan Kleban (who announced 'I'm in'), former state senator Troy Jackson, economist and state epidemiologist Nirav Shah, and Maine Secretary of State Shenna Bellows.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Outlets reported different dates for the state-mandated deadline governing Platner's withdrawal. Center-left sources cited July 13 as the deadline for ballot removal, while a center-right outlet cited July 27 as the legal deadline to name a replacement. This discrepancy reflects differing interpretations or reporting of Maine's election law requirements.",
+        "supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Center-left outlets reported that actor Patrick Dempsey, known for Grey's Anatomy, ruled out a Senate run in a newspaper opinion piece published Wednesday. This detail of potential replacement candidates appeared only in BBC News coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "A center-left outlet drew a parallel to Congressman Eric Swalwell, who suspended his California gubernatorial campaign and resigned from the House of Representatives in April 2026 after multiple women accused him of sexual misconduct; Swalwell denied the allegations. This comparison to a similar recent case appeared only in BBC News reporting.",
+        "supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Jenny Racicot, 41, alleged that Platner, after an on-and-off relationship lasting more than two years, entered her home in Maine uninvited in 2021 and sexually assaulted her while appearing very intoxicated. Platner denied the allegation, calling it categorically false and 'the worst thing a person could do.' Outlets across the political spectrum reported both Racicot's allegation and Platner's categorical denial.",
+        "supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "A center-left outlet reported that a second woman, Lyndsey Fifield, who said she dated Platner from 2013 to 2015, alleged in a Washington Post interview that he repeatedly removed condoms without her consent during sex ('stealthing'), which is illegal in Maine. Platner's campaign called the allegation 'categorically false and politically motivated' and noted Fifield has worked in Republican politics. This second allegation was reported only by BBC News.",
+        "supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "Maine Democratic Party Executive Director Devon Murphy-Anderson accused the Platner campaign of trying to 'manipulate' or put its 'thumb on the scale' of the replacement selection process. Platner's side denied this, saying they sought an open process rather than the coronation of an 'establishment-backed' candidate. Center-left outlets reported both sides of this dispute over control of the nomination process.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}

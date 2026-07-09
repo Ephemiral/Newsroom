@@ -1,0 +1,70 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_democratic_senatorial_campaign_committee",
+  "type": "organization",
+  "canonical_name": "Democratic Senatorial Campaign Committee",
+  "aliases": [
+    "DSCC"
+  ],
+  "wikidata_qid": "Q587844",
+  "summary": "The Democratic Senatorial Campaign Committee (DSCC) is the Democratic Hill committee for the United States Senate. Its purpose is to elect Democrats to the United States Senate.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Democratic_Senatorial_Campaign_Committee"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The DSCC's current chair is Senator Kirsten Gillibrand of New York, who succeeded Gary Peters of Michigan after the 2024 Senate elections.",
+      "source_url": "https://en.wikipedia.org/wiki/Democratic_Senatorial_Campaign_Committee",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-09",
+      "last_updated": "2026-07-09",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "DSCC's current executive director is Devan Barber.",
+      "source_url": "https://en.wikipedia.org/wiki/Democratic_Senatorial_Campaign_Committee",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-09",
+      "last_updated": "2026-07-09",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_09_americas_001",
+  "appears_in_events": [
+    "evt_2026_07_09_americas_001"
+  ],
+  "created_at": "2026-07-09T04:58:28.686650+00:00",
+  "last_updated": "2026-07-09T04:58:38.118610+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Entity created from evt_2026_07_09_americas_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Democratic_Senatorial_Campaign_Committee"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Democratic_Senatorial_Campaign_Committee"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikidata Q587844 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q587844"
+    }
+  ]
+}
