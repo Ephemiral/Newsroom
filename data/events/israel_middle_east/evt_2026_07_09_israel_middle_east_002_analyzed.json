@@ -1,0 +1,792 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_09_israel_middle_east_002",
+    "beat": "israel_middle_east",
+    "title": "Yair Netanyahu Reportedly Changes Name to Yonatan Hon/Hun",
+    "summary": "Israeli Prime Minister Benjamin Netanyahu's son Yair Netanyahu has legally changed his name to Yonatan Hon (or Hun, per different transliterations), according to a Haaretz report citing Israeli tax records. The new name draws on family heritage from both sides of his family.",
+    "date": "2026-07-09",
+    "generated_at": "2026-07-09T16:02:05.668497+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_benjamin_netanyahu",
+        "surfaces": [
+          "Benjamin Netanyahu",
+          "Netanyahu"
+        ],
+        "relevance_to_event": "Israeli Prime Minister and Yair Netanyahu's father; the name change is directly connected to family naming patterns, with Benjamin himself having used the name Ben Nitai in the United States.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_004",
+            "clm_006",
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_yair_netanyahu",
+        "surfaces": [
+          "Yair Netanyahu",
+          "Yonatan Hon",
+          "Yonatan Hun"
+        ],
+        "relevance_to_event": "The primary subject of the report; he legally changed his name from Yair to Yonatan Hon according to Israeli tax records cited by Haaretz.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_004",
+            "clm_008",
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_avner_netanyahu",
+        "surfaces": [
+          "Avner Netanyahu",
+          "Avi Segal"
+        ],
+        "relevance_to_event": "Yair's brother who also legally changed his name to Avi Segal, establishing a family pattern of name changes documented in the report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_jonathan_netanyahu",
+        "surfaces": [
+          "Yair's uncle",
+          "Benjamin Netanyahu's brother"
+        ],
+        "relevance_to_event": "Yair's uncle and Benjamin Netanyahu's brother, killed in Operation Entebbe in 1976; the first name Yonatan honors this relative according to Times of Israel reporting.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_benzion_netanyahu",
+        "surfaces": [
+          "Benzion",
+          "Benzion Mileikowsky"
+        ],
+        "relevance_to_event": "Benjamin Netanyahu's father who changed his name from Benzion Mileikowsky to Netanyahu, establishing the family's history of name changes cited as context in the report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_operation_entebbe",
+        "surfaces": [
+          "Operation Entebbe"
+        ],
+        "relevance_to_event": "1976 military operation in which Yair's uncle Jonathan Netanyahu was killed; this historical event is referenced as the inspiration for Yair's chosen first name Yonatan.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_international_criminal_court",
+        "surfaces": [
+          "International Criminal Court",
+          "ICC"
+        ],
+        "relevance_to_event": "Issued an arrest warrant against Benjamin Netanyahu; mentioned in left-leaning coverage as contextual background to the Netanyahu family's international movements and name usage patterns.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israel",
+        "surfaces": [
+          "Israel",
+          "Israeli"
+        ],
+        "relevance_to_event": "The jurisdiction where the name change was legally documented in tax records and where name Hebraicization practices among political leaders are established as historical context.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_007",
+            "clm_010",
+            "clm_012",
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-09T16:03:14.671158+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Israeli_identity_card_cover_1.jpg/1280px-Israeli_identity_card_cover_1.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Israeli_identity_card_cover_1.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Israeli_identity_card_cover_1.jpg",
+      "width": 1200,
+      "height": 1703,
+      "caption": "Israeli identity card cover (file photo)",
+      "credit": "Rakoon",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Israeli identity card cover 1.jpg",
+      "query": "Israeli identity documents",
+      "fetched_at": "2026-07-09T16:03:14.671120+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahus-son-yair-adopts-new-name-latest-family-name-change",
+      "author": "Rayhan Uddin",
+      "published_at": "2026-07-09T12:59:45+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Arutz Sheva (Israel National News)",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaQU81WjdfbkNVMFcyeVdhbVd2Zzd5aU9hQ2tSalA0WmdnRDhDdlRuYTdjZ1Q2dEtYbm1xSzFjaG9WcTZxb1hOMlpBbzlLS1RJODJLYUxtTlM3Zw?oc=5",
+      "author": null,
+      "published_at": "2026-07-08T16:58:00+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Operated by a non-profit association registered in the United States. Closely associated with the national-religious settler movement in the West Bank.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/yair-netanyahu-legally-changed-name-to-yonatan-hun-tax-records-show/",
+      "author": null,
+      "published_at": "2026-07-09T09:57:32+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/news/netanyahus-son-yair-adopts-new-name-latest-family-name-change",
+      "author": "MEE staff",
+      "published_at": "2026-07-09T11:20:07+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Yair Netanyahu has legally changed his name to Yonatan Hon/Hun, according to Haaretz reporting citing Israeli tax records.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "name_change_core",
+      "rationale": "All four outlets — spanning left, right, and center-right — report the name change as a fact based on Haaretz's findings. The left-leaning Middle East Eye and center-right Times of Israel both confirm the report, satisfying cross-spectrum agreement. Minor transliteration differences ('Hon' vs. 'Hun') exist across outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Reports the name as 'Yonatan Hon,' attributing the finding to Haaretz.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Notes briefly that Prime Minister Netanyahu's son changed his name, without the specific new name in the available excerpt.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports the name as 'Yonatan Hun,' citing Haaretz and Israeli tax documents.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports the name as 'Yonatan Hon,' attributing the finding to Haaretz.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Tax-withholding approvals issued in December 2024 were filed under the name Yair Netanyahu, while 2025/2026 tax records appeared under the new name Yonatan Hon/Hun with the same identification number and address.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "name_change_core",
+      "rationale": "Both the left-leaning Middle East Eye (two articles) and the center-right Times of Israel report this documentary evidence from Haaretz, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Describes December 2024 tax approvals under the old name and 2025 records under the new name, including a fictional address 'Balfour 0.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Notes that 2026 tax records were filed under the new name with the same ID number and address as 2024 statements filed under the birth name.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Mirrors art_5d2125b1f3: December 2024 approvals under old name; 2026 records under new name with 'Balfour 0' address.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The tax records include a fictional address listed as 'Balfour 0.'",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "name_change_core",
+      "rationale": "Both Middle East Eye articles report the 'Balfour 0' address detail; however, both are from the same left-leaning outlet, so this is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Notes a 'fictional address listed as Balfour 0' alongside the new name in tax documents.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Same detail reported identically.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Yair Netanyahu previously used the surname 'Hoon' or 'Hun' on social media before the official legal name change.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "name_change_core",
+      "rationale": "Both the left-leaning Middle East Eye and center-right Times of Israel confirm his prior social media use of the surname, providing cross-spectrum support.",
+      "framing_variants": [
+        {
+          "characterization": "States he previously identified himself as 'Yair Hoon' on social media.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Notes he 'maintains his original name on social media' but has used 'Hun' in various profiles for several years.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States he previously identified himself as 'Yair Hoon' on social media.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The surname 'Hon/Hoon/Hun' derives from the original family name of Yair's maternal grandfather, Shmuel, before it was Hebraicized to Ben-Artzi.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "family_name_origins",
+      "rationale": "Both left-leaning Middle East Eye articles and the center-right Times of Israel confirm this genealogical detail, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Hoon was the original surname of his mother Sara's father, Shmuel, before the family changed it to Ben Artzi.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'Hun is the original surname of his maternal grandfather, Shmuel Ben-Artzi, who was known as Samuel Hun before he Hebraicized his name.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'Hoon was the original surname of his mother Sara's father, Shmuel, before the family changed it to Ben Artzi.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The first name 'Yonatan' is the name of Yair's uncle, Prime Minister Benjamin Netanyahu's brother, who was killed in 1976 during Operation Entebbe.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "family_name_origins",
+      "rationale": "Only the Times of Israel explicitly identifies the origin of the first name 'Yonatan' and the historical context of Operation Entebbe.",
+      "framing_variants": [
+        {
+          "characterization": "Notes that 'Yonatan is the name of Yair's uncle, the prime minister's brother' and that 'Yonatan (Yoni) Netanyahu was famously killed in 1976 during Operation Entebbe to rescue Israeli hostages held in Uganda.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Official name changes in Israel are legally irreversible for seven years.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "name_change_core",
+      "rationale": "Only the Times of Israel mentions this legal detail about Israeli name-change law.",
+      "framing_variants": [
+        {
+          "characterization": "States as a legal fact that 'Official name changes in Israel are irreversible for seven years.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Yair Netanyahu is 34 years old, is a right-wing activist and podcaster, and has resided in Florida for the past several years.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "yair_netanyahu_background",
+      "rationale": "Only the Times of Israel provides these biographical details about Yair Netanyahu's age, occupation, and residence.",
+      "framing_variants": [
+        {
+          "characterization": "Describes him as '34,' 'a firebrand right-wing activist and podcaster' who 'has resided in Florida for the past several years.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Yair Netanyahu has faced scrutiny over his business links in the United States.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "yair_netanyahu_background",
+      "rationale": "Both Middle East Eye articles report this scrutiny, but both are from the same left-leaning outlet, so this is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "States Yair 'has faced scrutiny over his business links in the US and past controversies tied to the family's relationship with wealthy figures.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Identical framing.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "In 2018, Israeli television broadcast a recording in which Yair Netanyahu appeared to boast outside a strip club that his father had helped advance a multibillion-dollar gas deal benefiting a tycoon.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "yair_netanyahu_background",
+      "rationale": "Only one Middle East Eye article reports this specific 2018 incident.",
+      "framing_variants": [
+        {
+          "characterization": "Presents the 2018 TV broadcast as documented fact, describing Yair as appearing 'to boast outside a strip club.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "The International Criminal Court has issued an arrest warrant against Benjamin Netanyahu over war crimes and crimes against humanity.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "icc_and_legal_context",
+      "rationale": "Both Middle East Eye articles report the ICC arrest warrant; however, both are from the same left-leaning outlet. The framing in both articles includes the phrase 'following the genocide in Gaza,' which reflects a particular editorial position.",
+      "framing_variants": [
+        {
+          "characterization": "States as established fact that the ICC issued the warrant 'over war crimes and crimes against humanity following the genocide in Gaza.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Identical framing, including the characterization of events in Gaza as 'genocide.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Benjamin Netanyahu faces three corruption investigations in Israel.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "icc_and_legal_context",
+      "rationale": "Only one Middle East Eye article mentions the number of corruption investigations against Benjamin Netanyahu.",
+      "framing_variants": [
+        {
+          "characterization": "States as current fact that 'Benjamin Netanyahu himself faces three corruption investigations in Israel.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Yair's brother Avner Netanyahu also legally changed his name to Avi Segal, a name based on the paternal grandmother's original surname, and purchased an apartment in London/Oxford.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "netanyahu_family_name_changes",
+      "rationale": "Both the center-right Times of Israel and the left-leaning Middle East Eye report Avner's name change to Avi Segal. Minor discrepancy exists on location (London vs. Oxford), but both confirm the property purchase.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Avner 'appearing on real estate records in London as Avi Segal' after 'buying an apartment there,' noting Segal was adopted based on his paternal grandmother's maiden name.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports Avner changed his name 'about five years ago to Avi Segal' and 'bought an apartment in Oxford, England, for £502,000 ($672,000) in cash.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Avner Netanyahu stated his name change was prompted by security concerns while studying in London.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "netanyahu_family_name_changes",
+      "rationale": "Only the Times of Israel reports Avner's stated justification for his name change.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes the stated reason directly to Avner: 'the name change was prompted by security concerns as he studied in the British capital.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Segal was the original surname of Tzila, Benjamin Netanyahu's mother, before she married Benzion Netanyahu.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "family_name_origins",
+      "rationale": "Only one Middle East Eye article provides this specific genealogical detail about the origin of the 'Segal' surname.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Segal was the original surname of Tzila, Benjamin Netanyahu's mother and the grandmother of Yair and Avner, before she married Benzion Netanyahu.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Benjamin Netanyahu used a different name — Ben Nitai — when living or studying in the United States in the 1970s–1980s.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "netanyahu_family_name_changes",
+      "rationale": "Both the center-right Times of Israel and the left-leaning Middle East Eye report Benjamin Netanyahu's use of the name Ben Nitai. Minor discrepancy on decade (1970s vs. 1980s) exists between outlets.",
+      "framing_variants": [
+        {
+          "characterization": "States he 'changed his name to Benjamin \"Ben\" Nitai when studying at MIT in the 1970s' and 'had done so to make it easier for Americans to pronounce his name.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States he 'used a different name while living in the United States in the 1980s – Ben Nitai,' adding that 'he had considered settling in America.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Benjamin Netanyahu's stated reason for using the name Ben Nitai was to make his name easier for Americans to pronounce.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "netanyahu_family_name_changes",
+      "rationale": "Only the Times of Israel reports this specific stated justification from Netanyahu; the Middle East Eye instead attributes a different stated reason (considering settling in America).",
+      "framing_variants": [
+        {
+          "characterization": "Attributes to Netanyahu the statement that he changed his name 'to make it easier for Americans to pronounce his name.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Benjamin Netanyahu's father, Benzion, was born Benzion Mileikowsky and changed his surname to Netanyahu.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "netanyahu_family_name_changes",
+      "rationale": "Only one Middle East Eye article reports the detail about Benzion's original surname.",
+      "framing_variants": [
+        {
+          "characterization": "States that 'Netanyahu's father, Benzion Mileikowsky, changed his name to Benzion Netanyahu after moving from Poland to help in the colonisations of historic Palestine by the Zionist movement during the British colonial mandate in the 1920s.' The framing includes the characterization of Jewish immigration as 'colonisation.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Several early Israeli prime ministers were born under different names in Eastern Europe or Mandatory Palestine and Hebraicized their names.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "netanyahu_family_name_changes",
+      "rationale": "Only one Middle East Eye article provides the extended historical context of Israeli leaders' name changes (Ben-Gurion, Sharett, Eshkol, Meir, Shamir, Peres, Barak, Sharon).",
+      "framing_variants": [
+        {
+          "characterization": "Lists multiple Israeli prime ministers' birth names as historical context for the practice of Hebraicizing names, framing the Netanyahu family's name changes as part of a broader tradition.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Yair Netanyahu is the eldest son of Israeli Prime Minister Benjamin Netanyahu and has been a politically active figure, describing himself as a right-wing activist and podcaster. He has resided in Florida for several years.",
+      "sources": [
+        "src_003",
+        "src_001",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Hebraicization of names — adopting Hebrew names in place of diaspora names — was a common practice among early Zionist settlers and Israeli political leaders. Several Israeli prime ministers, including Ben-Gurion, Meir, and Sharon, were born under different names.",
+      "sources": [
+        "src_004"
+      ]
+    },
+    {
+      "point": "Benjamin Netanyahu himself used the name Ben Nitai while in the United States, and his son Avner similarly changed his name to Avi Segal, citing security concerns while studying in London.",
+      "sources": [
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "The International Criminal Court issued an arrest warrant against Benjamin Netanyahu, which the left-leaning Middle East Eye linked editorially to the conflict in Gaza. The warrant is relevant background to questions about the Netanyahu family's international movement and use of different names.",
+      "sources": [
+        "src_001",
+        "src_004"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-09T16:02:25.610810+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Yair Netanyahu, son of Israeli Prime Minister Benjamin Netanyahu, has legally changed his name to Yonatan Hon (or Hun, depending on transliteration), according to a Haaretz report citing Israeli tax records. The name change was documented in official tax filings, with records from December 2024 issued under the name Yair Netanyahu, while 2025 and 2026 tax records appeared under the new name Yonatan Hon with the same identification number and address.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The surname Hon (or Hoon/Hun in alternative transliterations) derives from the original family name of Yair's maternal grandfather, Shmuel, before it was Hebraicized to Ben-Artzi. Yair had previously used variations of the surname 'Hoon' or 'Hun' on social media before making the legal change official.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Yair is not the first member of the Netanyahu family to legally change his name. His brother Avner Netanyahu also changed his name to Avi Segal, adopting a surname based on their paternal grandmother's original family name, and purchased property in the United Kingdom. Benjamin Netanyahu himself used a different name — Ben Nitai — while in the United States during the 1970s and 1980s, and his father Benzion was born Benzion Mileikowsky before changing the family surname to Netanyahu.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The center-right Times of Israel reported that the first name 'Yonatan' honors Yair's uncle, Benjamin Netanyahu's brother, who was killed in 1976 during Operation Entebbe. The outlet also noted that official name changes in Israel are legally irreversible for seven years, and provided biographical details indicating Yair Netanyahu is 34 years old, works as a right-wing activist and podcaster, and has resided in Florida for the past several years.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The left-leaning Middle East Eye reported additional genealogical context, noting that Segal was the original surname of Tzila, Benjamin Netanyahu's mother, before she married Benzion Netanyahu. The outlet also provided extended historical context, noting that several early Israeli prime ministers — including David Ben-Gurion, Moshe Sharett, Levi Eshkol, Golda Meir, Yitzhak Shamir, Shimon Peres, Ehud Barak, and Ariel Sharon — were born under different names in Eastern Europe or Mandatory Palestine and later Hebraicized their names.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The Times of Israel reported that Avner Netanyahu stated his name change was prompted by security concerns while studying in London, while Benjamin Netanyahu said he used the name Ben Nitai to make his name easier for Americans to pronounce. The left-leaning Middle East Eye, by contrast, attributed Benjamin Netanyahu's stated reason for the name change to his considering settling in America at the time.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Left-leaning outlets reported that the tax records included a fictional address listed as 'Balfour 0.' They also noted that Yair Netanyahu has faced scrutiny over his business links in the United States, and referenced a 2018 Israeli television broadcast in which Yair Netanyahu appeared to boast outside a strip club that his father had helped advance a multibillion-dollar gas deal benefiting a tycoon.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "The left-leaning Middle East Eye also reported that the International Criminal Court has issued an arrest warrant against Benjamin Netanyahu over war crimes and crimes against humanity, and noted that the prime minister faces three corruption investigations in Israel. These details were not mentioned in center-right or right-leaning coverage of the name change story.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

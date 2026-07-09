@@ -1,0 +1,1100 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_09_israel_middle_east_001",
+    "beat": "israel_middle_east",
+    "title": "Burial of Iran's Supreme Leader Ayatollah Ali Khamenei in Mashhad",
+    "summary": "Iran buried its slain Supreme Leader Ayatollah Ali Khamenei at the Shrine of Imam Reza in Mashhad on July 10, 2026, following a week-long funeral procession through Tehran, Qom, and the Iraqi shrine cities of Najaf and Karbala. The burial took place amid renewed US-Iran hostilities that threatened a preliminary peace agreement signed three weeks earlier.",
+    "date": "2026-07-09",
+    "generated_at": "2026-07-09T15:59:25.627317+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_ali_khamenei",
+        "surfaces": [
+          "Ayatollah Ali Khamenei",
+          "Khamenei"
+        ],
+        "relevance_to_event": "The deceased Supreme Leader of Iran whose burial on July 10, 2026, in Mashhad is the central event of this report; killed in a February 28 strike that initiated the US-Iran-Israel war.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_005",
+            "clm_007",
+            "clm_010",
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_mojtaba_khamenei",
+        "surfaces": [
+          "Mojtaba Khamenei",
+          "Mojtaba"
+        ],
+        "relevance_to_event": "Ali Khamenei's son proclaimed Supreme Leader one week after his father's death; reportedly seriously wounded in the same February 28 strike and notably absent from all funeral processions despite his new leadership role.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_020",
+            "clm_021",
+            "clm_022",
+            "clm_023",
+            "clm_024"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_mashhad",
+        "surfaces": [
+          "Mashhad"
+        ],
+        "relevance_to_event": "Iran's holiest Shia Muslim city and the location of the Shrine of Imam Reza where Khamenei was buried; also Khamenei's birthplace and the site expected to draw up to 15 million mourners.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_004",
+            "clm_005",
+            "clm_007",
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "Donald Trump",
+          "Trump"
+        ],
+        "relevance_to_event": "US President whose death was called for by funeral mourners in chants and placards, reflecting the hostile US-Iran context of the event.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_benjamin_netanyahu",
+        "surfaces": [
+          "Benjamin Netanyahu",
+          "Netanyahu"
+        ],
+        "relevance_to_event": "Israeli Prime Minister whose death was similarly demanded by funeral mourners, reflecting tensions over the February 28 strike attributed to Israeli-US action.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "IRGC",
+          "Iran's Revolutionary Guards"
+        ],
+        "relevance_to_event": "Iran's military organization whose top commanders attended the funeral processions in Iraq and accused the US of bombing railway infrastructure that disrupted the ceremony timing.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_025"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_shrine_of_imam_reza",
+        "surfaces": [
+          "Shrine of Imam Reza"
+        ],
+        "relevance_to_event": "The 9th-century holy Shia mausoleum in Mashhad where Khamenei was buried; described as Iran's holiest site and Khamenei's stated burial preference.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_masoud_pezeshkian",
+        "surfaces": [
+          "Masoud Pezeshkian",
+          "Iranian President"
+        ],
+        "relevance_to_event": "Iranian President who traveled to Iraq to participate in funeral processions and was physically attacked and heckled by members of the public during Tehran ceremonies.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "thread_id": "thr_death_and_funeral_of_iranian_supreme_leader_ali_khamenei",
+    "image_attempted_at": "2026-07-09T16:00:14.725875+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Imam_Reza_shrine.jpg/1280px-Imam_Reza_shrine.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Imam_Reza_shrine.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Imam_Reza_shrine.jpg",
+      "width": 1200,
+      "height": 735,
+      "caption": "The Shrine of Imam Reza in Mashhad, Iran (file photo)",
+      "credit": "mohammad hosein tabatabaeian",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Imam Reza shrine.jpg",
+      "query": "Shrine of Imam Reza Mashhad",
+      "fetched_at": "2026-07-09T16:00:14.725822+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/people-here-all-seek-revenge-crowds-mass-for-khameneis-burial-banners-call-to-kill-trump/",
+      "author": null,
+      "published_at": "2026-07-09T14:13:21+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/news/khameneis-body-arrives-irans-mashhad-burial-after-week-long-mass-processions",
+      "author": "Ayse Betul",
+      "published_at": "2026-07-09T13:33:10+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYU9VWWlvRk90MVZKTlk3eHNvaC14QWxVVXVxd3V5UDBEOThWbXJYYXBaSW1QWWpYNzZTQUhwajlkUDdTNi1qX0ZMbzRBdy1Jbm9zUGt0amdCSXBnNGJfQ2E5Rm1yMlN4NVRSNFlDb1B6S0hKRWxJSFF2MzE0NnhoN2JHSmFTZ2RsRGJtZWpqTGlMOE44Sk13TjRRQl9IU2JtV1hPRFBzaHpsa0VLVXZ1djdFQdIBuAFBVV95cUxOa3RNSEJHMzRVSDdHZkxBT09mSEliTVRwMHZ4Q2VBdXJkS2ZyRjdNMnl1TGhhV0dwZDd4TDQ0TWE3dlJCb3RvVUstMnh2YjRQaHhhTW5TVGpSQkJXbWxPMUVRTTZieVBkRjdXUHYyVEpQUjhEc2F1N0JPb0liUnpEYjhacXdlZGx4VDFkNTY3Y0VsM00tQzJBMzJrWGtmbzhWXzJYTEVYaEs3STk0TFEwUVZ3NFBjQ2tP?oc=5",
+      "author": null,
+      "published_at": "2026-07-09T11:10:07+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/khameneis-body-arrives-mashhad-burial-after-week-processions",
+      "author": "Rayhan Uddin",
+      "published_at": "2026-07-09T14:07:36+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c5yzm8m4peeo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-09T12:48:15+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cp9le3kjj8eo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-08T14:56:24+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Ayatollah Ali Khamenei's body arrived in Mashhad ahead of burial at the Shrine of Imam Reza, following a week-long funeral procession.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "funeral_proceedings",
+      "rationale": "Multiple outlets spanning left, center-left, and center-right confirmed that Khamenei's body arrived in Mashhad for burial at the Shrine of Imam Reza after a week of funeral processions.",
+      "framing_variants": [
+        {
+          "characterization": "Described as Iran 'burying its slain supreme leader' at 'the country's holiest shrine'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Described as 'after a week-long mass funeral, the body of Iran's Supreme Leader... has arrived in the northeastern city of Mashhad'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Noted 'huge crowds have gathered' marking the end of 'six days of public mourning ceremonies in five cities'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Brief reference to Iran preparing to bury Khamenei after mass funeral processions.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_005",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The plane carrying Khamenei's coffin and those of four family members killed alongside him was escorted by Iranian military jets to Mashhad's Shahid Hasheminejad Airport.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "funeral_proceedings",
+      "rationale": "Multiple outlets confirmed the military jet escort and airport arrival, though all reporting outlets are left or center-left leaning (plus one center-right noting at least one fighter jet), so cross-spectrum breadth is limited.",
+      "framing_variants": [
+        {
+          "characterization": "Reported the plane 'was escorted by Iranian military jets and arrived at Mashhad's Shahid Hasheminejad Airport early on Thursday'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Identical framing to Middle East Eye sister article.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Noted 'a plane carrying the coffins of Ali Khamenei and four other members of his family landed in Mashhad after flying from Iraq'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Noted 'at least one fighter jet accompanied Khamenei's coffin on its journey to Mashhad'.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The burial ceremony was delayed by approximately eight hours from its original scheduled time, with the new start time set for 2pm local time.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "funeral_proceedings",
+      "rationale": "Left-leaning and center-right outlets all confirmed the eight-hour delay and 2pm rescheduled time.",
+      "framing_variants": [
+        {
+          "characterization": "Noted the ceremony 'will now take place at 2pm local time, eight hours later than originally planned'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Identical framing.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reported it 'was originally set to begin on Thursday at 6 a.m.' but was later rescheduled to '2 p.m.' and cited 'ceremonies in Iraq had run late' as the reason.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Iranian officials attributed the burial ceremony delay to ceremonies in Iraq running late and an overwhelming crowd of mourners; others noted the delay coincided with resumed US-Iran air strikes that disrupted the Tehran-Mashhad rail link.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "funeral_proceedings",
+      "rationale": "Iranian state media and officials provided one explanation (crowd size and Iraqi ceremony delays) while multiple outlets noted the timing coincided with US strikes on railway bridges, presenting the official and alternative explanations as incompatible.",
+      "framing_variants": [
+        {
+          "characterization": "Reported Iranian officials 'insist the delay is not linked to the attacks' and state media claims it was 'due to an overwhelming crowd of mourners'; simultaneously noted the delay came 'just hours after the US and Iran resumed air strikes'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Same framing as sister article, presenting both Iranian official denial and contextual timing of US strikes.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Cited organizers as saying delay was because 'ceremonies in Iraq had run late'; separately noted US strikes 'forced the closure of the rail link between Tehran and Mashhad'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Noted the IRGC accused the US of bombing railway bridges 'in an effort to overshadow the funeral'.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_001",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Khamenei's funeral procession passed through Tehran, Qom, and the Iraqi shrine cities of Najaf and Karbala before the burial in Mashhad.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "funeral_proceedings",
+      "rationale": "Left, center-left, and center-right outlets all confirmed the multi-city funeral route including Iraqi shrine cities.",
+      "framing_variants": [
+        {
+          "characterization": "Listed processions through 'Tehran, the Shi'ite Muslim clerical center of Qom, and the Iraqi shrine cities of Najaf and Karbala'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Noted Khamenei's body 'was taken to the Iraqi cities of Najaf and Karbala for funeral processions' before Mashhad.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Described 'six days of public mourning ceremonies in five cities across Iran and neighbouring Iraq'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Detailed the coffin's passage through the mausoleums of Imam Ali in Najaf and Imam Hussein in Karbala.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "More than 2.3 million people reportedly attended the funeral procession in Najaf, according to the Iraqi paramilitary group Hashd al-Shaabi.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "funeral_proceedings",
+      "rationale": "Only Middle East Eye cited this specific attendance figure attributed to Hashd al-Shaabi; other outlets described 'huge crowds' or 'tens of thousands' without this specific number.",
+      "framing_variants": [
+        {
+          "characterization": "Attributed the 2.3 million figure to 'the Iraqi paramilitary group Hashd al-Shaabi'.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Mashhad governor Hassan Hosseini stated he expected 15 million people to attend Khamenei's burial in Mashhad.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "funeral_proceedings",
+      "rationale": "Only Times of Israel reported this specific crowd estimate from the Mashhad governor.",
+      "framing_variants": [
+        {
+          "characterization": "Quoted from state television, noting the governor 'expects 15 million people' to attend.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Iranian President Masoud Pezeshkian and top IRGC commanders traveled to Iraq to participate in the funeral processions.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "funeral_proceedings",
+      "rationale": "Left-leaning Middle East Eye and center-left BBC News both confirmed Pezeshkian and senior Iranian officials traveled to Iraq for the ceremonies.",
+      "framing_variants": [
+        {
+          "characterization": "Stated Pezeshkian and 'top commanders of the Islamic Revolutionary Guard Corps (IRGC) also travelled to Iraq'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reported Pezeshkian and 'other senior Iranian figures flew to Iraq' and were 'welcomed on arrival by Iraqi Prime Minister al-Zaidi'.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "On Monday during the Tehran processions, Iranian President Masoud Pezeshkian and Foreign Minister Abbas Araghchi were heckled, insulted, and physically attacked by members of the public.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "funeral_proceedings",
+      "rationale": "Only Times of Israel reported incidents of physical attacks on senior Iranian officials during the funeral processions.",
+      "framing_variants": [
+        {
+          "characterization": "Described as members of the public 'heckled, insulted, and physically attacked' the officials.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Mourners at Khamenei's funeral displayed placards, banners, and chants calling for the deaths of US President Donald Trump and Israeli Prime Minister Benjamin Netanyahu, including slogans such as 'Kill Trump,' 'Death to America,' and 'I swear by the blood of the supreme leader, Trump, we will kill you.'",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "funeral_proceedings",
+      "rationale": "Left, center-left, and center-right outlets all reported anti-Trump and anti-Israel chants and signage at the funeral, with broadly consistent accounts of the specific slogans.",
+      "framing_variants": [
+        {
+          "characterization": "Detailed specific chants ('Trump, we will kill you'), banners ('We will kill Trump'), a caricature of Trump with a bounty, and a Netanyahu sign reading 'There will be blood'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Noted mourners 'held placards reading Kill Trump' and chanted 'Death to America' and 'I swear by the blood of the supreme leader'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Described 'placards calling for the death of US President Donald Trump' alongside Iranian flags and red banners symbolizing vengeance.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reported chants of 'Death to America' and 'Death to Israel' during Najaf processions.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Mourners waved red flags symbolizing the search for vengeance in Shia Islam.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "funeral_proceedings",
+      "rationale": "Both Times of Israel and BBC News reported the red flags and their Shia symbolic meaning, though both outlets are on adjacent parts of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Described mourners 'waving the red flags that symbolize the search for vengeance in Shia Islam'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Described 'red banners symbolising vengeance'.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "The prayer at Khamenei's Mashhad burial ceremony was to be led by Hossein Noori Hamedani, a 101-year-old conservative ayatollah.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "funeral_proceedings",
+      "rationale": "Only Times of Israel identified this specific religious figure and described his role and political orientation.",
+      "framing_variants": [
+        {
+          "characterization": "Named him as 'a 101-year-old ayatollah' and 'a conservative figure in the Islamic Republic'.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Khamenei's chief of staff Mohammad Mohammadi-Golpaygani stated that Khamenei had himself wished to be buried in Mashhad.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "funeral_proceedings",
+      "rationale": "Both Times of Israel and Middle East Eye reported Khamenei's stated wish to be buried in Mashhad, attributed to his chief of staff.",
+      "framing_variants": [
+        {
+          "characterization": "Cited 'state television' as the source for Golpaygani's statement.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Stated Khamenei 'had explicitly requested to be buried in the city' via the head of his office.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Khamenei will be buried alongside family members — including his infant granddaughter, son-in-law, daughter, and Mojtaba Khamenei's wife Zahra Haddad Adel — who were killed in the same strike.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "funeral_proceedings",
+      "rationale": "Left, center-left, and center-right sources all confirmed that four family members killed in the same strike were being buried alongside Khamenei, with Times of Israel providing the most specific identifications.",
+      "framing_variants": [
+        {
+          "characterization": "Named specifically 'his infant granddaughter, son-in-law, daughter and Mojtaba Khamenei's wife Zahra Haddad Adel'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Referred to 'four family members killed alongside him'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Stated 'Khamenei and several members of his family were killed in an Israeli strike on his residence in Tehran on 28 February'.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "The Shrine of Imam Reza in Mashhad is Iran's holiest Shia Muslim site; Imam Reza is the only one of the twelve Shia imams believed to have been buried in Iran, and the shrine's mausoleum dates to the 9th century.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "historical_and_biographical_context",
+      "rationale": "Left, center-left, and center-right outlets all described the shrine's religious significance and Imam Reza's unique status among Shia imams.",
+      "framing_variants": [
+        {
+          "characterization": "Called it 'Iran's most revered place of worship' and noted Imam Reza is 'the only one of the 12 Shia imams buried in Iran'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Called it 'Iran's holiest Shia Muslim site' and described the mausoleum as dating to the 9th century with 'a towering golden dome and minarets'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Noted it holds 'particular religious significance' for Shia Muslims.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Khamenei was born in Mashhad, studied at seminaries there before moving to Qom, and was appointed supreme leader in 1989 following the death of Ayatollah Ruhollah Khomeini, serving for 37 years.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "historical_and_biographical_context",
+      "rationale": "Only BBC News provided this biographical summary of Khamenei's origins and the full context of his appointment and tenure.",
+      "framing_variants": [
+        {
+          "characterization": "Provided biographical context including birth in Mashhad, seminary education, 1989 appointment, and 37-year tenure.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "During his tenure, Khamenei maintained a firm grip on Iran's politics and armed forces, suppressed domestic challenges sometimes violently, and took consistently hard-line stances toward the US and Israel.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "historical_and_biographical_context",
+      "rationale": "Only BBC News provided this assessment of Khamenei's governance style and foreign policy approach.",
+      "framing_variants": [
+        {
+          "characterization": "Described as 'a firm grip on Iran's politics and its armed forces,' suppressing 'domestic challenges, sometimes violently,' with 'hard-line stances on external matters'.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Khamenei and several family members were killed on February 28 in a strike on his residence in Tehran, which was the first day of Iran's war with the US and Israel.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "khamenei_death_and_succession",
+      "rationale": "Left, center-left, and center-right outlets all confirmed the February 28 date, the strike on his Tehran residence, and that it occurred on the first day of the war.",
+      "framing_variants": [
+        {
+          "characterization": "Referred to 'the February 28 strike that killed Ali Khamenei'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Stated 'Khamenei and several members of his family were killed in an Israeli strike on his residence in Tehran on 28 February,' describing it as 'the first day of Iran's war with the US and Israel'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Referenced 'the same Israeli air strike in Tehran on 28 February that killed his father, his wife and several other family members'.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Described 'a joint US-Israeli military strike' on 28 February.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005",
+        "src_006",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "BBC News and Times of Israel attributed Khamenei's killing to an Israeli strike, while Middle East Eye described it as a joint US-Israeli military strike.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "khamenei_death_and_succession",
+      "rationale": "Outlets differ in attributing the strike solely to Israel versus jointly to the US and Israel, representing an incompatible factual characterization of who carried out the attack.",
+      "framing_variants": [
+        {
+          "characterization": "Called it 'an Israeli strike on his residence in Tehran'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Described it as 'the same Israeli air strike in Tehran on 28 February'.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Did not specify the actor in all references; referenced 'the February 28 strike' and also noted Trump and Netanyahu 'ordered the joint attack on Iran four months ago'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Explicitly called it 'a joint US-Israeli military strike'.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006",
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Mojtaba Khamenei, Ali Khamenei's son, was proclaimed supreme leader by a clerical assembly approximately one week after his father's death.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "khamenei_death_and_succession",
+      "rationale": "Left, center-left, and center-right outlets all confirmed Mojtaba Khamenei's succession as supreme leader following his father's death.",
+      "framing_variants": [
+        {
+          "characterization": "Stated he was 'proclaimed supreme leader by a clerical assembly a week after his father's death'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Described him as 'Iran's newly incumbent supreme leader'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Said he 'succeeded his father as supreme leader'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Called him 'Iran's new Supreme Leader' who 'succeeded his father'.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Mojtaba Khamenei was reportedly seriously wounded in the same February 28 strike and has not appeared in public since, missing all funeral processions including those in Tehran, Qom, and Mashhad.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "khamenei_death_and_succession",
+      "rationale": "Left, center-left, and center-right outlets all reported Mojtaba's injuries in the strike and his complete absence from public view, including the funeral events.",
+      "framing_variants": [
+        {
+          "characterization": "Stated 'he suffered debilitating injuries in that same strike, his face disfigured and limbs badly wounded' and that 'no image, video, or voice recording of him has been issued'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Noted he 'has not participated in any of the public processions' and 'has remained entirely out of public view since taking power'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Said he 'has not been seen in public since he was reportedly seriously wounded in the same attack' and 'did not participate in the funeral ceremonies in Tehran and Qom'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Used 'reportedly seriously wounded' caveat and confirmed 'once again did not make an appearance'.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Senior Tehran sources told Times of Israel that Mojtaba Khamenei is recovering but not yet well enough for public appearances; state security services are limiting his exposure to prevent further US assassination attempts.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "khamenei_death_and_succession",
+      "rationale": "Only Times of Israel cited 'senior sources in Tehran' as the basis for the recovery status and security rationale.",
+      "framing_variants": [
+        {
+          "characterization": "Attributed to 'senior sources in Tehran' and noted security services are 'limiting his exposure in case of more US attacks'.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "According to a New York Times report cited by Middle East Eye, Mojtaba Khamenei's request to attend his father's funeral was denied due to fears he could be assassinated.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "khamenei_death_and_succession",
+      "rationale": "Only Middle East Eye cited this specific New York Times report about a denial of Mojtaba's attendance request.",
+      "framing_variants": [
+        {
+          "characterization": "Cited as a 'New York Times report' with the denial attributed to 'fears that he could be assassinated'.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Mojtaba Khamenei has issued written statements but no image, video, or voice recording of him has been publicly released since he became supreme leader.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "khamenei_death_and_succession",
+      "rationale": "Only Times of Israel specified the distinction between written statements and the complete absence of audio-visual communications from Mojtaba Khamenei.",
+      "framing_variants": [
+        {
+          "characterization": "Stated 'while he has issued written statements, no image, video, or voice recording of him has been issued'.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "The US and Iran resumed air strikes after a short-term truce, with Iran's Revolutionary Guards accusing the US of bombing two railway bridges between Tehran and Mashhad overnight.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "us_iran_hostilities",
+      "rationale": "Left, center-left, and center-right outlets all reported the resumed strikes and the targeting of railway infrastructure, with IRGC attribution cited across sources.",
+      "framing_variants": [
+        {
+          "characterization": "Stated 'the US and Iran resumed air strikes following a short-term truce' and 'US strikes on railway bridges disrupted travel between Tehran and Mashhad'.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005",
+        "src_001"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-09T15:59:52.316533+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Iran buried its slain Supreme Leader Ayatollah Ali Khamenei at the Shrine of Imam Reza in Mashhad on July 10, 2026, following a week-long funeral procession that passed through Tehran, Qom, and the Iraqi shrine cities of Najaf and Karbala. The burial ceremony, originally scheduled for the morning, was delayed by approximately eight hours and began at 2pm local time.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_005",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Khamenei and several family members were killed on February 28 in a strike on his residence in Tehran, on the first day of Iran's war with the US and Israel. Khamenei was buried alongside four family members who died in the same strike — including his infant granddaughter, son-in-law, daughter, and Mojtaba Khamenei's wife Zahra Haddad Adel.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Mojtaba Khamenei, Ali Khamenei's son, was proclaimed supreme leader by a clerical assembly approximately one week after his father's death. However, Mojtaba was reportedly seriously wounded in the same February 28 strike and has not appeared in public since, missing all funeral processions including those in Tehran, Qom, and Mashhad.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The Shrine of Imam Reza in Mashhad is Iran's holiest Shia Muslim site. Imam Reza is the only one of the twelve Shia imams believed to have been buried in Iran, and the shrine's mausoleum dates to the 9th century. Khamenei's chief of staff Mohammad Mohammadi-Golpaygani stated that Khamenei had himself wished to be buried in Mashhad.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "BBC News reported that Khamenei was born in Mashhad, studied at seminaries there before moving to Qom, and was appointed supreme leader in 1989 following the death of Ayatollah Ruhollah Khomeini, serving for 37 years. During his tenure, BBC News noted, Khamenei maintained a firm grip on Iran's politics and armed forces, suppressed domestic challenges sometimes violently, and took consistently hard-line stances toward the US and Israel.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Mourners at Khamenei's funeral displayed placards, banners, and chants calling for the deaths of US President Donald Trump and Israeli Prime Minister Benjamin Netanyahu, including slogans such as 'Kill Trump,' 'Death to America,' and 'I swear by the blood of the supreme leader, Trump, we will kill you.' Mourners waved red flags symbolizing the search for vengeance in Shia Islam.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The plane carrying Khamenei's coffin and those of four family members was escorted by Iranian military jets to Mashhad's Shahid Hasheminejad Airport. Iranian President Masoud Pezeshkian and top IRGC commanders traveled to Iraq to participate in the funeral processions.",
+        "supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Left-leaning Middle East Eye reported that more than 2.3 million people attended the funeral procession in Najaf, according to the Iraqi paramilitary group Hashd al-Shaabi. Center-right Times of Israel reported that Mashhad governor Hassan Hosseini stated he expected 15 million people to attend Khamenei's burial in Mashhad. The outlets differed in their reporting of crowd estimates, with other coverage describing 'huge crowds' or 'tens of thousands' without citing these specific figures.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Center-right Times of Israel reported that the prayer at Khamenei's Mashhad burial ceremony was to be led by Hossein Noori Hamedani, a 101-year-old conservative ayatollah. The outlet also reported that on Monday during the Tehran processions, Iranian President Masoud Pezeshkian and Foreign Minister Abbas Araghchi were heckled, insulted, and physically attacked by members of the public.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The US and Iran resumed air strikes after a short-term truce, with Iran's Revolutionary Guards accusing the US of bombing two railway bridges between Tehran and Mashhad overnight. Iranian officials attributed the burial ceremony delay to ceremonies in Iraq running late and an overwhelming crowd of mourners, while multiple outlets noted the timing coincided with the resumed US strikes that disrupted the Tehran-Mashhad rail link.",
+        "supports": {
+          "claim_ids": [
+            "clm_025",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Outlets differed in their characterization of who carried out the February 28 strike that killed Khamenei. Center-left BBC News and center-right Times of Israel attributed the killing to an Israeli strike, while left-leaning Middle East Eye described it as a joint US-Israeli military strike.",
+        "supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Center-right Times of Israel, citing senior Tehran sources, reported that Mojtaba Khamenei is recovering but not yet well enough for public appearances, and that state security services are limiting his exposure to prevent further US assassination attempts. The outlet also reported that Mojtaba Khamenei has issued written statements but no image, video, or voice recording of him has been publicly released since he became supreme leader.",
+        "supports": {
+          "claim_ids": [
+            "clm_022",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Left-leaning Middle East Eye, citing a New York Times report, stated that Mojtaba Khamenei's request to attend his father's funeral was denied due to fears he could be assassinated.",
+        "supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

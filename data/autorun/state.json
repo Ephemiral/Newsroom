@@ -154,6 +154,16 @@
       "at": "2026-07-09T04:54:17.130821+00:00",
       "event_id": "evt_2026_07_09_americas_001",
       "outcome": "published"
+    },
+    "7a3e53eefdaf9654": {
+      "at": "2026-07-09T15:56:11.803643+00:00",
+      "event_id": "evt_2026_07_09_israel_middle_east_001",
+      "outcome": "published"
+    },
+    "21c578a5ca4df91b": {
+      "at": "2026-07-09T16:00:14.728274+00:00",
+      "event_id": "evt_2026_07_09_israel_middle_east_002",
+      "outcome": "published"
     }
   }
 }

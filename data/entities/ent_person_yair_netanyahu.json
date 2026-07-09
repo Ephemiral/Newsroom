@@ -1,0 +1,54 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_yair_netanyahu",
+  "type": "person",
+  "canonical_name": "Yair Netanyahu",
+  "aliases": [
+    "Yonatan Hon",
+    "Yonatan Hun"
+  ],
+  "wikidata_qid": "Q35086816",
+  "summary": "Yair Netanyahu is an Israeli podcaster and political activist. He is the second child of Benjamin Netanyahu.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Yair_Netanyahu"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Yair_Netanyahu.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Yair_Netanyahu.jpg",
+    "credit": "David Azagury, U.S. Embassy Jerusalem",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Yair Netanyahu.jpg",
+    "fetched_at": "2026-07-09T16:02:35.970506+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "family_of",
+      "entity_id": "ent_person_benjamin_netanyahu",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q35086816"
+    }
+  ],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_09_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_09_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-09T16:02:33.642649+00:00",
+  "last_updated": "2026-07-09T16:03:03.890706+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Entity created from evt_2026_07_09_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikidata Q35086816 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q35086816"
+    }
+  ]
+}

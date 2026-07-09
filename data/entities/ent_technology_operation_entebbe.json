@@ -1,0 +1,79 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_operation_entebbe",
+  "type": "technology",
+  "canonical_name": "Operation Entebbe",
+  "aliases": [
+    "Entebbe raid"
+  ],
+  "wikidata_qid": "Q33933",
+  "summary": "The Entebbe raid, also known as Operation Entebbe and officially codenamed Operation Thunderbolt, was a 1976 Israeli counter-terrorist mission in Uganda. It was launched in response to the hijacking of an international civilian passenger flight operated by Air France between the cities of Tel Aviv and Paris.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Entebbe_raid"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Entebbe_Uganda_Airport_Old_Tower1.jpg/960px-Entebbe_Uganda_Airport_Old_Tower1.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Entebbe_Uganda_Airport_Old_Tower1.jpg",
+    "credit": "Mr. Micha Sender",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Entebbe Uganda Airport Old Tower1.jpg",
+    "fetched_at": "2026-07-09T16:02:53.296652+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "During a stopover in Athens, the aircraft was hijacked by two Palestinian PFLP–EO and two German RZ members, who diverted the flight to Libya and then to Uganda, where they landed at Entebbe International Airport to be joined by other terrorists.",
+      "source_url": "https://en.wikipedia.org/wiki/Entebbe_raid",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-09",
+      "last_updated": "2026-07-09",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Once in Uganda, the group enjoyed support from Ugandan dictator Idi Amin.",
+      "source_url": "https://en.wikipedia.org/wiki/Entebbe_raid",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-09",
+      "last_updated": "2026-07-09",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_09_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_09_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-09T16:02:49.085027+00:00",
+  "last_updated": "2026-07-09T16:03:03.891315+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Entity created from evt_2026_07_09_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Entebbe_raid"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Entebbe_raid"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikidata Q33933 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q33933"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
   "canonical_name": "Masoud Pezeshkian",
   "aliases": [
     "Iranian President Masoud Pezeshkian",
-    "Iranian President Pezeshkian"
+    "Iranian President Pezeshkian",
+    "Iranian President"
   ],
   "wikidata_qid": "Q5933752",
   "summary": "Masoud Pezeshkian is an Iranian politician and heart surgeon who has served as the ninth president of Iran since 2024. A member of the reformist faction, he is the oldest person to serve in this position, taking office at the age of 69.",
@@ -54,10 +55,11 @@
   "first_seen_event": "evt_2026_07_08_israel_middle_east_001",
   "appears_in_events": [
     "evt_2026_07_08_israel_middle_east_001",
-    "evt_2026_07_06_israel_middle_east_001"
+    "evt_2026_07_06_israel_middle_east_001",
+    "evt_2026_07_09_israel_middle_east_001"
   ],
   "created_at": "2026-07-08T15:05:47.331840+00:00",
-  "last_updated": "2026-07-08T18:32:46.523160+00:00",
+  "last_updated": "2026-07-09T16:00:03.927286+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

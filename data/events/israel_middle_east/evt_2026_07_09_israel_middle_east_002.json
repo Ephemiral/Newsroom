@@ -1,0 +1,14 @@
+{
+  "cluster_id": "evt_2026_07_09_israel_middle_east_002",
+  "beat": "israel_middle_east",
+  "article_ids": [
+    "art_5d2125b1f3",
+    "art_81fbf78b8b",
+    "art_9bf72674b2",
+    "art_e7298021fd"
+  ],
+  "created_at": "2026-07-09T15:56:09.973335+00:00",
+  "method": "auto",
+  "threshold": 0.7,
+  "size": 4
+}

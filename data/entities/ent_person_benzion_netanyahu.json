@@ -1,0 +1,103 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_benzion_netanyahu",
+  "type": "person",
+  "canonical_name": "Benzion Netanyahu",
+  "aliases": [
+    "Benzion",
+    "Benzion Mileikowsky"
+  ],
+  "wikidata_qid": "Q818507",
+  "summary": "Benzion Netanyahu was a Polish-born Israeli encyclopedist, historian, and medievalist. Born in Warsaw, he served as a professor of history at Cornell University.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Benzion_Netanyahu"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Benzion_Netanyahu_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Benzion_Netanyahu_(cropped).jpg",
+    "credit": "נועם ערמון - Bamahane photographer",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Benzion Netanyahu (cropped).jpg",
+    "fetched_at": "2026-07-09T16:02:49.084413+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "family_of",
+      "entity_id": "ent_person_benjamin_netanyahu",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q818507"
+    }
+  ],
+  "facts": [
+    {
+      "text": "A scholar of Judaic history, he was also an activist in the Revisionist Zionism movement, who lobbied in the United States to support the creation of the Jewish state.",
+      "source_url": "https://en.wikipedia.org/wiki/Benzion_Netanyahu",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-09",
+      "last_updated": "2026-07-09",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "His field of expertise was the history of the Jews in Spain.",
+      "source_url": "https://en.wikipedia.org/wiki/Benzion_Netanyahu",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-09",
+      "last_updated": "2026-07-09",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "He was an editor of the Hebrew Encyclopedia and assistant to Benjamin Azkin, Ze'ev Jabotinsky's personal secretary.",
+      "source_url": "https://en.wikipedia.org/wiki/Benzion_Netanyahu",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-09",
+      "last_updated": "2026-07-09",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_09_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_09_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-09T16:02:45.576283+00:00",
+  "last_updated": "2026-07-09T16:03:03.891162+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Entity created from evt_2026_07_09_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Benzion_Netanyahu"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Benzion_Netanyahu"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Benzion_Netanyahu"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikidata Q818507 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q818507"
+    }
+  ]
+}

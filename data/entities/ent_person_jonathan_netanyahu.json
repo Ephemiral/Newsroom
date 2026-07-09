@@ -1,0 +1,62 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_jonathan_netanyahu",
+  "type": "person",
+  "canonical_name": "Jonathan Netanyahu",
+  "aliases": [
+    "Yair's uncle",
+    "Benjamin Netanyahu's brother"
+  ],
+  "wikidata_qid": "Q318413",
+  "summary": "Yonatan \"Yoni\" Netanyahu was an Israeli military officer who commanded Sayeret Matkal during the Entebbe raid. The raid was launched in response to the 1976 hijacking of an international civilian passenger flight from Israel to France by Palestinian and German militants, who took control of the aircraft during a stopover in Greece and diverted it to Libya and then to Uganda, where they received support from Ugandan dictator Idi Amin.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Yonatan_Netanyahu"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "family_of",
+      "entity_id": "ent_person_benjamin_netanyahu",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q318413"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Though Israel's counter-terrorist operation was a success, with 102 of the 106 hostages being rescued, Netanyahu was killed in action – the only Israeli soldier killed during the crisis.",
+      "source_url": "https://en.wikipedia.org/wiki/Yonatan_Netanyahu",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-09",
+      "last_updated": "2026-07-09",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_09_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_09_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-09T16:02:40.579694+00:00",
+  "last_updated": "2026-07-09T16:03:03.891030+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Entity created from evt_2026_07_09_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Yonatan_Netanyahu"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikidata Q318413 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q318413"
+    }
+  ]
+}

@@ -12,6 +12,7 @@
     "ent_organization_iran",
     "ent_organization_united_states",
     "ent_person_ali_khamenei",
+    "ent_person_benjamin_netanyahu",
     "ent_person_donald_trump",
     "ent_person_israel_katz",
     "ent_person_masoud_pezeshkian",
@@ -29,10 +30,16 @@
       "date": "2026-07-07",
       "chapter_summary": "A major funeral procession for Khamenei occurred in Tehran on July 7, 2026, with state media estimating millions of mourners along a 10-kilometer route, and took place amid ongoing Iran-U.S. negotiations following the February 28 war.",
       "link_score": 0.659
+    },
+    {
+      "cluster_id": "evt_2026_07_09_israel_middle_east_001",
+      "date": "2026-07-09",
+      "chapter_summary": "Iran conducted Khamenei's burial on July 10, 2026, at the Shrine of Imam Reza in Mashhad, concluding a week-long funeral procession through multiple Iranian and Iraqi cities, while US-Iran tensions threatened a peace agreement negotiated three weeks prior.",
+      "link_score": 0.716
     }
   ],
   "created_at": "2026-07-08T18:37:25.765423+00:00",
-  "last_updated": "2026-07-08T18:37:29.479069+00:00",
+  "last_updated": "2026-07-09T16:00:06.737116+00:00",
   "change_log": [
     {
       "date": "2026-07-08",
@@ -45,6 +52,10 @@
     {
       "date": "2026-07-08",
       "summary_of_change": "Added evt_2026_07_08_israel_middle_east_001"
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Added evt_2026_07_09_israel_middle_east_001"
     }
   ]
 }

@@ -5,7 +5,8 @@
   "canonical_name": "Ali Khamenei",
   "aliases": [
     "Khamenei",
-    "Supreme Leader Ali Khamenei"
+    "Supreme Leader Ali Khamenei",
+    "Ayatollah Ali Khamenei"
   ],
   "wikidata_qid": "Q57336",
   "summary": "Ali Hosseini Khamenei was an Iranian politician and Shia cleric who served as the second supreme leader of Iran from 1989 until his assassination. A member of the Khamenei family who held the title Ayatollah, he previously served as the third president of Iran from 1981 to 1989.",
@@ -90,10 +91,11 @@
   "first_seen_event": "evt_2026_07_08_israel_middle_east_001",
   "appears_in_events": [
     "evt_2026_07_08_israel_middle_east_001",
-    "evt_2026_07_06_israel_middle_east_001"
+    "evt_2026_07_06_israel_middle_east_001",
+    "evt_2026_07_09_israel_middle_east_001"
   ],
   "created_at": "2026-07-08T15:05:40.759498+00:00",
-  "last_updated": "2026-07-08T18:32:46.519677+00:00",
+  "last_updated": "2026-07-09T16:00:03.925730+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

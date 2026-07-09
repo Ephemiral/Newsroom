@@ -3,7 +3,9 @@
   "entity_id": "ent_person_mojtaba_khamenei",
   "type": "person",
   "canonical_name": "Mojtaba Khamenei",
-  "aliases": [],
+  "aliases": [
+    "Mojtaba"
+  ],
   "wikidata_qid": "Q2919350",
   "summary": "Mojtaba Hosseini Khamenei is an Iranian cleric and politician who is serving as the third supreme leader of Iran since 2026. A member of the Khamenei family and the second son of second supreme leader Ali Khamenei, he previously served as Vakil of the Supreme Leader during his father's rule from 2008 to 2026.",
   "summary_sources": [
@@ -35,10 +37,11 @@
   "first_seen_event": "evt_2026_07_08_israel_middle_east_001",
   "appears_in_events": [
     "evt_2026_07_08_israel_middle_east_001",
-    "evt_2026_07_06_israel_middle_east_001"
+    "evt_2026_07_06_israel_middle_east_001",
+    "evt_2026_07_09_israel_middle_east_001"
   ],
   "created_at": "2026-07-08T15:05:42.940222+00:00",
-  "last_updated": "2026-07-08T18:32:46.522086+00:00",
+  "last_updated": "2026-07-09T16:00:03.926144+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

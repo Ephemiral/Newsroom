@@ -1,0 +1,53 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_avner_netanyahu",
+  "type": "person",
+  "canonical_name": "Avner Netanyahu",
+  "aliases": [
+    "Avi Segal"
+  ],
+  "wikidata_qid": "Q55159350",
+  "summary": "Son of Israeli prime minister",
+  "summary_sources": [
+    "https://www.wikidata.org/wiki/Q55159350"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Avner_Netanyahu_2019_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Avner_Netanyahu_2019_(cropped).jpg",
+    "credit": "U.S. Embassy Jerusalem",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Avner Netanyahu 2019 (cropped).jpg",
+    "fetched_at": "2026-07-09T16:02:39.223323+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "family_of",
+      "entity_id": "ent_person_benjamin_netanyahu",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q55159350"
+    }
+  ],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_09_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_09_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-09T16:02:37.322678+00:00",
+  "last_updated": "2026-07-09T16:03:03.890912+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Entity created from evt_2026_07_09_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-09",
+      "summary_of_change": "Grounded from Wikidata Q55159350",
+      "source": "https://www.wikidata.org/wiki/Q55159350"
+    }
+  ]
+}
