@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_irish_aviation_authority",
+  "type": "organization",
+  "canonical_name": "Irish Aviation Authority",
+  "aliases": [],
+  "wikidata_qid": "Q17082137",
+  "summary": "The Irish Aviation Authority (IAA) is a commercial semi-state company in Ireland responsible for the regulation of safety aspects of air travel. Its head office is in The Times Building in Dublin.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Irish_Aviation_Authority"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Summit_of_Mount_Gabriel_-_geograph.org.uk_-_499466.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Summit_of_Mount_Gabriel_-_geograph.org.uk_-_499466.jpg",
+    "credit": "Mike Searle",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Summit of Mount Gabriel - geograph.org.uk - 499466.jpg",
+    "fetched_at": "2026-07-10T15:34:45.667531+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_10_europe_001"
+  ],
+  "created_at": "2026-07-10T15:34:43.204736+00:00",
+  "last_updated": "2026-07-10T15:34:49.535054+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q17082137 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q17082137"
+    }
+  ]
+}

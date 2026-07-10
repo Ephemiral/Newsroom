@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_malta_air",
+  "type": "organization",
+  "canonical_name": "Malta Air",
+  "aliases": [],
+  "wikidata_qid": "Q64555797",
+  "summary": "Malta Air is a low-cost airline that operates from Malta. A wholly owned subsidiary of Ryanair Holdings, the airline operates scheduled flights on behalf of Ryanair.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Malta_Air"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Malta_Air%2C_9H-VUF%2C_Boeing_737-8-200_MAX.jpg/960px-Malta_Air%2C_9H-VUF%2C_Boeing_737-8-200_MAX.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Malta_Air,_9H-VUF,_Boeing_737-8-200_MAX.jpg",
+    "credit": "Anna Zvereva",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Malta Air, 9H-VUF, Boeing 737-8-200 MAX.jpg",
+    "fetched_at": "2026-07-10T15:34:30.209635+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_10_europe_001"
+  ],
+  "created_at": "2026-07-10T15:34:27.950714+00:00",
+  "last_updated": "2026-07-10T15:34:49.534542+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q64555797 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q64555797"
+    }
+  ]
+}

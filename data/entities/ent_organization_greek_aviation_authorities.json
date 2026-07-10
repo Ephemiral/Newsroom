@@ -1,0 +1,30 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_greek_aviation_authorities",
+  "type": "organization",
+  "canonical_name": "Greek Aviation Authorities",
+  "aliases": [
+    "Greek aviation authorities"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_10_europe_001"
+  ],
+  "created_at": "2026-07-10T15:34:45.667900+00:00",
+  "last_updated": "2026-07-10T15:34:49.535156+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_europe_001",
+      "source": null
+    }
+  ]
+}

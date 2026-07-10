@@ -1,0 +1,876 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_10_europe_001",
+    "beat": "europe",
+    "title": "Ryanair Passenger Nearly Sucked Out of Window After Mid-Flight Depressurization Over North Macedonia",
+    "summary": "A Ryanair Boeing 737-800 operating flight FR1879 from Thessaloniki, Greece to Memmingen, Germany made an emergency return to Thessaloniki on Friday after a passenger window broke or became dislodged shortly after takeoff, causing cabin depressurization. A Serbian passenger seated by the window was pulled partially outside the aircraft before fellow passengers and his wife dragged him back inside; he was hospitalized with friction burns but was otherwise in good condition.",
+    "date": "2026-07-10",
+    "generated_at": "2026-07-10T15:33:53.058576+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_organization_ryanair",
+        "surfaces": [
+          "Ryanair"
+        ],
+        "relevance_to_event": "The airline operator that owned and contracted the aircraft for flight FR1879; issued statements describing the window as 'dislodged' but declined to confirm the cause reported by other sources.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_malta_air",
+        "surfaces": [
+          "Malta Air"
+        ],
+        "relevance_to_event": "Ryanair's subsidiary that directly operated flight FR1879 and is the registered operator of the aircraft involved in the incident.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_boeing_737_800",
+        "surfaces": [
+          "Boeing 737-800"
+        ],
+        "relevance_to_event": "The specific aircraft model involved in the depressurization incident; reporting noted it was approximately 18 years old and had made an unexplained early return the previous day.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_thessaloniki",
+        "surfaces": [
+          "Thessaloniki",
+          "Thessaloniki, Greece"
+        ],
+        "relevance_to_event": "The departure airport and location where flight FR1879 returned for an emergency landing after the window failure; also where the affected passenger was hospitalized.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_007",
+            "clm_010",
+            "clm_011",
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_north_macedonia",
+        "surfaces": [
+          "North Macedonia"
+        ],
+        "relevance_to_event": "The geographic location over which the aircraft was flying when the window reportedly broke, according to Greek media and Reuters sources citing engine debris as the cause.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_irish_aviation_authority",
+        "surfaces": [
+          "Irish Aviation Authority"
+        ],
+        "relevance_to_event": "The regulatory authority that stated awareness of the incident and offered assistance to investigating authorities, reflecting oversight of the Malta Air-operated aircraft.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_greek_aviation_authorities",
+        "surfaces": [
+          "Greek aviation authorities"
+        ],
+        "relevance_to_event": "The primary investigative authority opening an investigation into the window failure incident alongside Maltese aviation authorities.",
+        "relevance_supports": {
+          "claim_ids": [],
+          "source_ids": []
+        },
+        "relevance_grounding": "sources_fallback"
+      }
+    ],
+    "image_attempted_at": "2026-07-10T15:35:08.847810+00:00",
+    "image": {
+      "url": "https://live.staticflickr.com/2706/4342583131_2547f31d85_b.jpg",
+      "full_url": "https://live.staticflickr.com/2706/4342583131_2547f31d85_b.jpg",
+      "source_page": "https://www.flickr.com/photos/9998127@N06/4342583131",
+      "width": 1024,
+      "height": 685,
+      "caption": "Boeing 737-800 at Logan Airport (file photo)",
+      "credit": "wbaiv",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "provider": "openverse",
+      "file_title": "openverse:cdee408c-6b59-43c3-867b-27535498625b|Boeing 737-800 Delta 737 NG -800? at Logan",
+      "query": "Boeing 737-800 cockpit",
+      "fetched_at": "2026-07-10T15:35:08.847773+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/europe/20260710-man-nearly-sucked-out-of-detached-window-on-ryanair-flight",
+      "author": "FRANCE 24",
+      "published_at": "2026-07-10T10:05:17+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jul/10/ryanair-passenger-almost-sucked-out-of-shattered-window-during-flight",
+      "author": "Mark Sweney",
+      "published_at": "2026-07-10T14:08:19+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Mark Sweney is The Guardian's media and technology correspondent who covers advertising, media business, and digital industry developments.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Deutsche Welle (DW)",
+      "url": "https://www.dw.com/en/passenger-partly-sucked-from-ryanair-plane-during-flight/a-77909298?maca=en-rss-en-all-1573-xml-mrss",
+      "author": null,
+      "published_at": "2026-07-10T14:15:00+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cgk65knkyzdo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-10T12:31:08+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "The Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ0l5cGVyOWc2enNNdms4eEcxWXBrQWhjYlI2NkhpcjBsTEdVM1c5dU5oeGdFbm1LcDhzVFBHMXdoT2huZE8tX1ZETTNoWHlxVFZvUEE5WGg3WnBicEJMOTlTbm05N1F2QWtIcU14M0dkR214am0xZ0Q2aEhFOHduTUVLLXdGWTJERGJSaWFQNjZHX0YxYm9laXpQTDlnUQ?oc=5",
+      "author": null,
+      "published_at": "2026-07-10T12:03:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Telegraph Media Group; control passed to RedBird Capital Partners (US investment firm) in 2025 after the RedBird IMI ownership dispute.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A Ryanair Boeing 737-800 operating flight FR1879 from Thessaloniki, Greece to Memmingen, Germany made an emergency return to Thessaloniki shortly after takeoff on Friday after a passenger window broke or became dislodged in-flight.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "All five outlets, spanning center to center-right, confirm the emergency return of a Ryanair flight to Thessaloniki due to a window failure, meeting the cross-spectrum threshold for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "Ryanair said a plane was forced into an emergency landing after a window was 'detached'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "A passenger was reportedly almost sucked out after the window shattered in mid-air",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The flight had to return to Thessaloniki after a passenger window broke shortly after takeoff",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Ryanair stated the plane returned 'shortly after take-off when a passenger window dislodged inflight'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "A Ryanair passenger nearly was sucked out of a broken window",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The flight was operated by Ryanair's subsidiary Malta Air.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Two outlets — The Guardian (center-left) and BBC News (center-left) — both report the flight was operated by Malta Air; these are from the same side of the spectrum, so the claim is corroborated rather than agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Operated by the budget airline's subsidiary Malta Air",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Operated by Ryanair's subsidiary Malta Air, registered by Malta Air according to the Irish Aviation Authority",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The aircraft involved was a Boeing 737-800.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "DW (center) and BBC (center-left) both identify the aircraft as a Boeing 737-800; as two center/center-left sources, this is corroborated but not cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "The plane was identified as a Boeing 737-800",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Oxygen masks falling from the ceiling shortly after the Boeing 737 had taken off; believed to have been an 18-year-old plane",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The passenger seated by the window — a Serbian man reported to be in his 60s — was partially pulled outside the aircraft by the pressure difference, with his head and shoulders protruding from the broken window for several minutes.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "passenger_incident",
+      "rationale": "All sources across the spectrum — center, center-left, and center-right — report the Serbian passenger was partially sucked out with his head and shoulders outside the window, qualifying as agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Industry sources said a passenger was partially sucked out; the head and shoulders of one passenger were outside the window",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The man was lifted out of his seat into the plane's slipstream and hung headfirst out of the window; reportedly a 61-year-old Serbian",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The pressure difference pulled the head and shoulders of the man outside the aircraft; Greek media identified him as a Serbian tourist",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Left hanging head first out of the window as far as his shoulders for several minutes; said to be a Serbian citizen in his 60s",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "A Ryanair passenger nearly was sucked out of a broken window",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The passenger's seatbelt, which he had not removed, helped prevent him from being pulled further out of the aircraft.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "passenger_incident",
+      "rationale": "France 24 (center), DW (center), and BBC (center-left) all report the fastened seatbelt helped prevent the passenger from being pulled entirely out; center and center-left sources span sufficient spectrum for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "He hadn't taken off his seat belt, which helped him; other passengers helped pull him in",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The passenger had kept his seat belt fastened, which helped prevent him from being pulled farther out",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Fortunately, he hadn't taken off his seat belt, per a fellow passenger quoted by BBC",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Fellow passengers and the man's wife pulled him back inside the aircraft to safety.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "passenger_incident",
+      "rationale": "Multiple outlets across center and center-left confirm that other passengers — including his wife — pulled the man back inside; center and center-left sources together meet the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Other passengers near the man helped to pull him in",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "His wife 'held him by the legs,' preventing him from being completely sucked out",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Others, including the man's wife, struggled to hold and successfully drag him to safety",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Other passengers on the flight managed to pull him back inside",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The passenger was taken to hospital in Thessaloniki with friction burns (and shock, per some reports) but was otherwise in good condition.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "passenger_incident",
+      "rationale": "All four full-text sources confirm the passenger's hospitalization with friction burns and overall good condition; center and center-left outlets together provide cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Hospitalised with friction burns but otherwise in good condition, authorities said",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Taken to hospital suffering from shock and friction burns from the freezing wind outside the airliner",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Taken to hospital in Thessaloniki with abrasions; otherwise in good condition according to Greek authorities",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "One passenger requested and received medical assistance on the ground in Thessaloniki",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Passengers on the flight described a loud bang, cabin depressurization, screams, and oxygen masks dropping from the ceiling following the window failure.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "passenger_incident",
+      "rationale": "France 24 (center), The Guardian (center-left), DW (center), and BBC (center-left) all report passenger accounts of a loud bang, depressurization, oxygen masks, and screams, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Fellow passenger told Radio Thessaloniki there was a noise like a tyre bursting; they realised there had been a decompression; there were screams; the masks dropped and there was a strong smell",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The shattered window caused oxygen masks to drop from the ceiling as the cabin became depressurised",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Travelers heard a loud bang; oxygen masks dropped from the ceiling",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Media reports quoted passengers describing a loud bang followed by the window breaking; oxygen masks falling from the ceiling; passenger Christina described experiencing decompression and screams",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Greek media and two Reuters sources reported the window was broken by a piece of debris that detached from one of the plane's engines while flying over North Macedonia; Ryanair did not confirm or comment on the cause.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "incident_cause",
+      "rationale": "Greek media, passenger accounts, and two Reuters sources attribute the window failure to engine debris over North Macedonia, while Ryanair's statement described the window as 'dislodged' or 'detached' without identifying a cause — creating a dispute between the actor (Ryanair) and external reporting on causation.",
+      "framing_variants": [
+        {
+          "characterization": "Greek media said the window had been broken by a piece of debris from one of the plane's engines; incident occurred over North Macedonia per Greek media",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "An engine failure resulted in parts smashing the acrylic window, per the report; Ryanair described a window 'dislodged inflight'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Greek media reported an engine piece struck the window over North Macedonia; two sources familiar with the incident gave the same account to Reuters; Ryanair did not identify the cause",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Passengers believed the window was smashed by pieces of the jet's engine; Ryanair has not commented on this",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The aircraft landed normally at Thessaloniki and passengers returned to the terminal.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "France 24 (center), The Guardian (center-left), DW (center), and BBC (center-left) all report Ryanair's statement that the aircraft landed normally and passengers returned to the terminal, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Ryanair said the aircraft landed normally and passengers returned to the terminal",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The aircraft landed normally and passengers returned to the terminal",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The airline said the plane landed normally",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The aircraft landed normally and passengers returned to the terminal",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "A replacement aircraft was arranged to transport remaining passengers to Memmingen, departing Thessaloniki at 9:53 a.m. local time.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "All four full-text outlets confirm Ryanair arranged a replacement aircraft; The Guardian and DW also specify the 9:53 a.m. departure time, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Ryanair said a replacement aircraft was made available to transport remaining passengers to Memmingen",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "A replacement aircraft was arranged to bring passengers to Memmingen, departing Thessaloniki at 9:53 a.m. local time",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Ryanair provided a replacement aircraft departing Thessaloniki at 9:53 a.m. local time (0853 GMT), which later landed in Memmingen",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "A replacement aircraft was arranged to bring passengers to Memmingen several hours later",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "According to FlightRadar24 data, the flight was airborne for just over an hour and reached 16,000 ft before descending back into Thessaloniki.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Only The Guardian cited FlightRadar24 data on the flight's altitude and duration; no other outlet referenced this tracking data.",
+      "framing_variants": [
+        {
+          "characterization": "According to FlightRadar24 data, the flight was airborne for just over an hour and reached 16,000ft before descending into Thessaloniki airport",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "The return flight to Thessaloniki took around 20 minutes after the incident, according to a passenger.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Only DW cited a passenger account placing the return flight duration at approximately 20 minutes.",
+      "framing_variants": [
+        {
+          "characterization": "The return flight to Thessaloniki took around 20 minutes after the incident, according to a passenger",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "The same aircraft had returned to Thessaloniki shortly after taking off for Sarajevo on the Thursday evening before the incident; the reason for that diversion was not immediately clear.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Only DW reported that the same aircraft had made an unexplained return to Thessaloniki the previous evening on a Sarajevo-bound flight.",
+      "framing_variants": [
+        {
+          "characterization": "The same aircraft had returned to Thessaloniki shortly after taking off for Sarajevo on Thursday evening; it was not immediately clear why that flight was diverted",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Greek and Maltese aviation authorities opened an investigation into the incident; the Irish Aviation Authority stated it was aware of the incident and would provide assistance to the investigative authorities.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "regulatory_response",
+      "rationale": "DW (center) and BBC (center-left) both report that authorities opened an investigation; BBC additionally cites the Irish Aviation Authority's statement of awareness and assistance — both from similar spectrum positions, making this corroborated.",
+      "framing_variants": [
+        {
+          "characterization": "Authorities have opened an investigation",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Irish Aviation Authority is aware of the incident; the IAA will provide any requested assistance to the aviation safety investigation authority in Greece and the Maltese Civil Aviation Directorate",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "The aircraft was believed to be approximately 18 years old.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Only BBC reported the approximate age of the aircraft as 18 years old.",
+      "framing_variants": [
+        {
+          "characterization": "Believed to have been an 18-year-old plane",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "In 2018, a passenger died on a Southwest Airlines flight in the United States when debris from a damaged engine broke a window and she was partially sucked out.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Only BBC referenced the 2018 Southwest Airlines fatal window-breach incident as historical context; no other outlet in this cluster mentioned it.",
+      "framing_variants": [
+        {
+          "characterization": "In 2018, a passenger died when debris from a damaged engine caused a window to break on a Southwest Airlines flight in the US; she was partially sucked out",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "In January 2024, a door plug on an Alaska Airlines Boeing 737 Max 9 blew out mid-flight, forcing an emergency landing; no passengers were directly ejected but injuries occurred.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Only The Guardian provided detailed context about the 2024 Alaska Airlines door plug blowout incident as a point of comparison.",
+      "framing_variants": [
+        {
+          "characterization": "In 2024, a cabin panel on an Alaska Airlines Boeing 737 Max 9 blew out mid-flight; the plane was carrying more than 170 passengers and six crew; it was forced to make an emergency landing; seven passengers and one flight attendant suffered minor injuries; the final report confirmed four door bolts had been removed for rivet work and not reinstalled",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "The flight involved (FR1879) was operated not directly by Ryanair but by its subsidiary Malta Air, which is the registered operator of the aircraft according to the Irish Aviation Authority.",
+      "sources": [
+        "src_002",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Ryanair's public statement described the window as 'dislodged' or 'detached' but did not identify a cause; external reporting attributed it to engine debris, a cause Ryanair declined to confirm or deny.",
+      "sources": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Previous incidents in which window or fuselage failures led to passengers being partially or wholly sucked out — including a fatal Southwest Airlines event in 2018 and the Alaska Airlines door-plug blowout in 2024 — provide context for the severity and rarity of such events.",
+      "sources": [
+        "src_002",
+        "src_004"
+      ]
+    },
+    {
+      "point": "According to DW, the same aircraft had made an unexplained early return to Thessaloniki the previous Thursday evening on a flight to Sarajevo, raising questions about whether the aircraft had pre-existing issues.",
+      "sources": [
+        "src_003"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-10T15:34:15.311687+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "A Ryanair Boeing 737-800 operating flight FR1879 from Thessaloniki, Greece to Memmingen, Germany made an emergency return to Thessaloniki shortly after takeoff on Friday after a passenger window broke or became dislodged in-flight. The aircraft landed normally and passengers returned to the terminal.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The passenger seated by the window — a Serbian man reported to be in his 60s — was partially pulled outside the aircraft by the pressure difference, with his head and shoulders protruding from the broken window for several minutes. The passenger's seatbelt, which he had not removed, helped prevent him from being pulled further out of the aircraft. Fellow passengers and the man's wife pulled him back inside the aircraft to safety.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The passenger was taken to hospital in Thessaloniki with friction burns and shock but was otherwise in good condition. Passengers on the flight described hearing a loud bang, experiencing cabin depressurization, seeing oxygen masks drop from the ceiling, and hearing screams following the window failure.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Ryanair arranged a replacement aircraft to transport remaining passengers to Memmingen, departing Thessaloniki at 9:53 a.m. local time.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Greek and Maltese aviation authorities opened an investigation into the incident. The Irish Aviation Authority stated it was aware of the incident and would provide assistance to the investigative authorities.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The cause of the window failure is disputed. Greek media and two Reuters sources reported the window was broken by a piece of debris that detached from one of the plane's engines while flying over North Macedonia. Ryanair described the window as 'dislodged' or 'detached' in its statement but did not confirm or comment on the underlying cause.",
+        "supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Center and center-left outlets reported the flight was operated by Ryanair's subsidiary Malta Air, rather than Ryanair itself.",
+        "supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "BBC News reported the aircraft was believed to be approximately 18 years old. DW reported that the same aircraft had returned to Thessaloniki shortly after taking off for Sarajevo on Thursday evening before the incident, though the reason for that diversion was not immediately clear. No other outlets mentioned either the aircraft's age or the previous day's diversion.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Guardian cited FlightRadar24 data showing the flight was airborne for just over an hour and reached 16,000 feet before descending back into Thessaloniki. DW cited a passenger account placing the return flight duration at approximately 20 minutes after the incident. No other outlets referenced these specific flight details.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "BBC News provided historical context by referencing a 2018 Southwest Airlines incident in the United States in which a passenger died after debris from a damaged engine broke a window and she was partially sucked out. The Guardian referenced a January 2024 incident in which a door plug on an Alaska Airlines Boeing 737 Max 9 blew out mid-flight, forcing an emergency landing; no passengers were directly ejected but injuries occurred. No other outlets in this source set mentioned these precedents.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

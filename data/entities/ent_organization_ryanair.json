@@ -1,0 +1,93 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_ryanair",
+  "type": "organization",
+  "canonical_name": "Ryanair",
+  "aliases": [],
+  "wikidata_qid": "Q170614",
+  "summary": "Ryanair is an Irish ultra-low-cost airline headquartered in Swords, County Dublin, Ireland. It is the largest airline in Europe by scheduled passengers carried, fleet size, and total flights.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ryanair"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Ryanair_Boeing_737-800_EI-EBX.jpg/960px-Ryanair_Boeing_737-800_EI-EBX.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ryanair_Boeing_737-800_EI-EBX.jpg",
+    "credit": "Michael Oldfield",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Ryanair Boeing 737-800 EI-EBX.jpg",
+    "fetched_at": "2026-07-10T15:34:27.950147+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Globally, it is the largest airline by international passengers carried, the third-largest by market capitalisation behind Delta Air Lines and United Airlines, and the fifth-most profitable by net income.",
+      "source_url": "https://en.wikipedia.org/wiki/Ryanair",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "In 2025, the company sold 208 million airline tickets, averaging €70 in total revenue against €62 in costs per ticket sold.",
+      "source_url": "https://en.wikipedia.org/wiki/Ryanair",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It is widely considered to be the cheapest airline operating in Europe.",
+      "source_url": "https://en.wikipedia.org/wiki/Ryanair",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_10_europe_001"
+  ],
+  "created_at": "2026-07-10T15:34:25.574942+00:00",
+  "last_updated": "2026-07-10T15:34:49.534229+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ryanair"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ryanair"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ryanair"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q170614 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q170614"
+    }
+  ]
+}

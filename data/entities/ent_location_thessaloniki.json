@@ -1,0 +1,54 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_thessaloniki",
+  "type": "location",
+  "canonical_name": "Thessaloniki",
+  "aliases": [
+    "Thessaloniki, Greece"
+  ],
+  "wikidata_qid": "Q17151",
+  "summary": "Thessaloniki is the second-largest city in Greece. It is the largest city of Northern Greece, with slightly over one million inhabitants in its metropolitan area, the capital of the geographic region of Macedonia, the administrative region of Central Macedonia and the Decentralized Administration of Macedonia and Thrace.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Thessaloniki"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is also known in Greek as i Symprotévousa, literally \"the co-capital\", a reference to its historical status as the \"co-reigning\" city of the Byzantine Empire alongside Constantinople.",
+      "source_url": "https://en.wikipedia.org/wiki/Thessaloniki",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_10_europe_001"
+  ],
+  "created_at": "2026-07-10T15:34:38.042871+00:00",
+  "last_updated": "2026-07-10T15:34:49.534779+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Thessaloniki"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q17151 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q17151"
+    }
+  ]
+}

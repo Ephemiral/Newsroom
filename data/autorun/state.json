@@ -179,6 +179,11 @@
       "at": "2026-07-10T05:05:13.461914+00:00",
       "event_id": "evt_2026_07_10_asia_002",
       "outcome": "published"
+    },
+    "8a4a1f6113aee156": {
+      "at": "2026-07-10T15:31:43.993471+00:00",
+      "event_id": "evt_2026_07_10_europe_001",
+      "outcome": "published"
     }
   }
 }

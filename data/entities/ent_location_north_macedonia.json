@@ -1,0 +1,103 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_north_macedonia",
+  "type": "location",
+  "canonical_name": "North Macedonia",
+  "aliases": [],
+  "wikidata_qid": "Q221",
+  "summary": "North Macedonia, officially the Republic of North Macedonia, is a landlocked country in Southeast Europe. It shares land borders with Greece to the south, Albania to the west, Bulgaria to the east, Kosovo to the northwest and Serbia to the north.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/North_Macedonia"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q221"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q221"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_nato",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q221"
+    }
+  ],
+  "facts": [
+    {
+      "text": "It constitutes approximately the northern third of the larger geographical region of Macedonia.",
+      "source_url": "https://en.wikipedia.org/wiki/North_Macedonia",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Skopje, the capital and largest city, is home to a quarter of the country's population of over 1.83 million.",
+      "source_url": "https://en.wikipedia.org/wiki/North_Macedonia",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The majority of the residents are ethnic Macedonians, a South Slavic people.",
+      "source_url": "https://en.wikipedia.org/wiki/North_Macedonia",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_10_europe_001"
+  ],
+  "created_at": "2026-07-10T15:34:40.973909+00:00",
+  "last_updated": "2026-07-10T15:34:49.534908+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/North_Macedonia"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/North_Macedonia"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/North_Macedonia"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q221 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q221"
+    }
+  ]
+}

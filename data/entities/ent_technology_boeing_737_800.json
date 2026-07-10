@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_boeing_737_800",
+  "type": "technology",
+  "canonical_name": "Boeing 737-800",
+  "aliases": [],
+  "wikidata_qid": "Q12476717",
+  "summary": "The Boeing 737 Next Generation, commonly abbreviated as 737NG, or 737 Next Gen, is a twin-engined narrow-body aircraft produced by Boeing Commercial Airplanes. Launched in 1993 as the third-generation derivative of the Boeing 737, it has been produced since 1997.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Boeing_737_Next_Generation"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/American_Airlines%2C_Boeing_737-823%28WL%29%2C_N969AN_-_LAX_%2822300501588%29.jpg/960px-American_Airlines%2C_Boeing_737-823%28WL%29%2C_N969AN_-_LAX_%2822300501588%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:American_Airlines,_Boeing_737-823(WL),_N969AN_-_LAX_(22300501588).jpg",
+    "credit": "Eric Salard",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:American Airlines, Boeing 737-823(WL), N969AN - LAX (22300501588).jpg",
+    "fetched_at": "2026-07-10T15:34:38.042532+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_10_europe_001"
+  ],
+  "created_at": "2026-07-10T15:34:32.125024+00:00",
+  "last_updated": "2026-07-10T15:34:49.534665+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q12476717 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q12476717"
+    }
+  ]
+}
