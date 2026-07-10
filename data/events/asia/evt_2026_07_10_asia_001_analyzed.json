@@ -1,0 +1,993 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_10_asia_001",
+    "beat": "asia",
+    "title": "Burial of Iranian Supreme Leader Ali Khamenei in Mashhad",
+    "summary": "Iran buried former Supreme Leader Ayatollah Ali Khamenei at the Shrine of Imam Reza in Mashhad on Friday, July 11, 2026, following a week of funeral processions across Iran and Iraq. Khamenei was killed on February 28, 2026, in US and Israeli airstrikes, with his son Mojtaba Khamenei succeeding him as Supreme Leader but notably absent from public view during the ceremonies.",
+    "date": "2026-07-11",
+    "generated_at": "2026-07-10T05:04:30.213216+00:00",
+    "related_events": [
+      {
+        "cluster_id": "evt_2026_07_09_israel_middle_east_001",
+        "title": "Burial of Iran's Supreme Leader Ayatollah Ali Khamenei in Mashhad"
+      }
+    ],
+    "entities": [
+      {
+        "entity_id": "ent_person_ali_khamenei",
+        "surfaces": [
+          "Ali Khamenei",
+          "Ayatollah Ali Khamenei",
+          "Khamenei"
+        ],
+        "relevance_to_event": "The deceased Supreme Leader whose burial on July 11, 2026, is the central event of this report; he was killed in the February 28, 2026 US-Israeli airstrikes that triggered the broader military conflict described.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_mojtaba_khamenei",
+        "surfaces": [
+          "Mojtaba Khamenei",
+          "Mojtaba"
+        ],
+        "relevance_to_event": "Ali Khamenei's son and successor as Supreme Leader, whose notable absence from the funeral ceremonies and reported injuries from the same February 28 strike are significant elements of the burial narrative.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014",
+            "clm_015",
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "Islamic Revolutionary Guard Corps",
+          "IRGC"
+        ],
+        "relevance_to_event": "An organization whose backing of Mojtaba Khamenei's appointment as Supreme Leader is noted in the report, and which is characterized as the dominant force in Iranian political and strategic thinking during this period.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_025"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_united_states",
+        "surfaces": [
+          "United States",
+          "US"
+        ],
+        "relevance_to_event": "One of the two parties responsible for the February 28, 2026 airstrikes that killed Ali Khamenei and initiated the military conflict that lasted until the June 2026 ceasefire agreement.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_016",
+            "clm_018",
+            "clm_019",
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israel",
+        "surfaces": [
+          "Israel",
+          "Israeli"
+        ],
+        "relevance_to_event": "The co-participant with the United States in the February 28, 2026 airstrikes that killed Ali Khamenei and triggered the broader military conflict described in the report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_018",
+            "clm_023"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_mashhad",
+        "surfaces": [
+          "Mashhad"
+        ],
+        "relevance_to_event": "The location of the Shrine of Imam Reza where Ali Khamenei was buried, and Khamenei's hometown in northeastern Iran where the burial ceremony took place.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_007",
+            "clm_008",
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_strait_of_hormuz",
+        "surfaces": [
+          "Strait of Hormuz"
+        ],
+        "relevance_to_event": "A strategic location cited in the report as an area where Iran maintained control despite the US-Israeli military campaign, and where the conflict involved Iranian attacks on civilian tankers.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_023"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_shrine_of_imam_reza",
+        "surfaces": [
+          "Shrine of Imam Reza"
+        ],
+        "relevance_to_event": "The specific burial site in Mashhad where Ali Khamenei's remains were interred in the memorial hall, described as one of the holiest sites in Shia Islam.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "thread_id": "thr_death_and_funeral_of_iranian_supreme_leader_ali_khamenei",
+    "image_attempted_at": "2026-07-10T05:05:13.459414+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYU9VWWlvRk90MVZKTlk3eHNvaC14QWxVVXVxd3V5UDBEOThWbXJYYXBaSW1QWWpYNzZTQUhwajlkUDdTNi1qX0ZMbzRBdy1Jbm9zUGt0amdCSXBnNGJfQ2E5Rm1yMlN4NVRSNFlDb1B6S0hKRWxJSFF2MzE0NnhoN2JHSmFTZ2RsRGJtZWpqTGlMOE44Sk13TjRRQl9IU2JtV1hPRFBzaHpsa0VLVXZ1djdFQdIBuAFBVV95cUxOa3RNSEJHMzRVSDdHZkxBT09mSEliTVRwMHZ4Q2VBdXJkS2ZyRjdNMnl1TGhhV0dwZDd4TDQ0TWE3dlJCb3RvVUstMnh2YjRQaHhhTW5TVGpSQkJXbWxPMUVRTTZieVBkRjdXUHYyVEpQUjhEc2F1N0JPb0liUnpEYjhacXdlZGx4VDFkNTY3Y0VsM00tQzJBMzJrWGtmbzhWXzJYTEVYaEs3STk0TFEwUVZ3NFBjQ2tP?oc=5",
+      "author": null,
+      "published_at": "2026-07-09T16:53:28+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/irans-khamenei-buried-in-mashhad-four-months-after-us-israeli-strikes-killed-him/articleshow/132300357.cms",
+      "author": "TOI World Desk",
+      "published_at": "2026-07-09T23:34:12+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Bennett, Coleman & Co. (The Times Group), controlled by the Jain family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbTQ1bC1TdENrUHdzekl3MGhnWWp0RVo1UVdoa2pYbkpRWEZGOURRZjN2NUZ5b3ZfS05EVVJDcXUtOWRuUm9yVUNxM2U2N05iNVpZWVBRN0VsMVU0MnBOMTBIUkw3ZmVVYUY5T1ZWVS04bzZOU2ZuQ05nTzZTQk15UkJibmtURkNpZ09EdGVYeVdEdUFuZHpIMnRTdy1DLXRMOTZPNHprUU12MXBFRThrUDN30gG3AUFVX3lxTFBzZGl1bjhwdXRpZVlhNWl2Q1FobkNJanBUcUkwWUlwSFRvcDkyZ3Vhb1luTHVPbGJCUjlMVWpYTWdLaVRjRldnUDQ4WEM2YThNd2lvTlVMelcwR3J1dERJaHBnbUMwM09pQWRMWXo0cUpCQ1BUU0otdk5HcnNlNEw2SjNNSUZ3bW5rajdjcnJLRGRiNFVvaTByR0V5bFc5dnU1Tm5qTlJNa1UwNG15aTRYVkFNd0NQSQ?oc=5",
+      "author": null,
+      "published_at": "2026-07-08T11:45:24+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/iran-bury-slain-leader-ali-khamenei-culmination-funeral-procession",
+      "author": "FRANCE 24",
+      "published_at": "2026-07-09T09:54:46+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3360040/iran-mourners-defiant-khamenei-burial-only-revenge-can-soothe-pain?utm_source=rss_feed",
+      "author": "Agence France-Presse",
+      "published_at": "2026-07-09T22:55:15+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Ayatollah Ali Khamenei was killed on February 28, 2026, in US and Israeli airstrikes.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "khamenei_death",
+      "rationale": "Sources spanning left (Al Jazeera/France 24), center (France 24), and center-right (Times of India) all confirm that Khamenei was killed on February 28 in US and Israeli airstrikes, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Described as 'killed in US and Israeli airstrikes that marked the start of the Middle East conflict on February 28'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Described as killed 'in the strike that killed Ali Khamenei on February 28'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Described as 'killed alongside close family members on the first day of the US-Israeli war against Iran on February 28'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Four of Khamenei's family members were also killed alongside him in the February 28 strike.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "khamenei_death",
+      "rationale": "Both France 24 and South China Morning Post report that family members were killed alongside Khamenei, with France 24 specifying four family members; both outlets share a center-to-center-left rating.",
+      "framing_variants": [
+        {
+          "characterization": "States 'four family members killed alongside him'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States 'killed alongside close family members'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Khamenei ruled Iran for approximately 37 years after being appointed Supreme Leader in 1989, a decade after the Islamic Revolution.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "khamenei_legacy",
+      "rationale": "The Times of India (center-right) and France 24 (center) both cite approximately 37 years of rule, with France 24 additionally noting his 1989 appointment, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Khamenei, who ruled Iran for almost 37 years'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Refers to 'the legacy of Khamenei's 37-year rule' and his 1989 appointment 'a decade after the Islamic revolution'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Khamenei was buried at the Shrine of Imam Reza in Mashhad, specifically in the shrine's memorial hall.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "burial_ceremony",
+      "rationale": "The Times of India (center-right), France 24 (center), and South China Morning Post (center-left) all confirm the burial location as the Shrine of Imam Reza in Mashhad; South China Morning Post specifies the memorial hall within the shrine.",
+      "framing_variants": [
+        {
+          "characterization": "Describes as 'the Imam Reza Shrine in Mashhad, one of the holiest sites in Shia Islam'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States burial at 'the country's holiest shrine in Mashhad'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States the body was buried 'in the memorial hall of the shrine of Imam Reza'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The burial took place on Friday, more than four months after Khamenei's death on February 28.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "burial_ceremony",
+      "rationale": "The Times of India (center-right) and South China Morning Post (center-left) both confirm the Friday burial date; South China Morning Post explicitly notes it was more than four months after his death, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Iran's slain Supreme Leader Ayatollah Ali Khamenei was buried in his hometown of Mashhad early Friday'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'Iran on Friday laid to rest its former supreme leader Ali Khamenei, over four months after his killing in an air strike'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "There is a discrepancy in reporting on the day of burial: France 24 reported the burial occurred on Thursday, while the Times of India and South China Morning Post reported it occurred on Friday.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "burial_ceremony",
+      "rationale": "France 24 published ahead of the burial and refers to Thursday, while both the Times of India and South China Morning Post reported the burial as occurring on Friday; this likely reflects a time-zone or publication-timing discrepancy.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Iran's slain ruler Ayatollah Ali Khamenei on Thursday will be buried' — published the morning before the burial",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States burial occurred 'early Friday'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'Iran on Friday laid to rest' Khamenei",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Mashhad is Khamenei's hometown and is located in northeastern Iran.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "burial_ceremony",
+      "rationale": "France 24 and South China Morning Post both describe Mashhad as Khamenei's home city, with France 24 locating it in northeast Iran; both outlets are center to center-left.",
+      "framing_variants": [
+        {
+          "characterization": "Describes 'The burial in Mashhad in northeast Iran'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Refers to 'his home city of Mashhad in eastern Iran'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Khamenei is only the second Iranian ruler to be buried in Mashhad, following Nader Shah, who was assassinated in 1747 after nearly 11 years in power.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "khamenei_legacy",
+      "rationale": "Only the Times of India provides this historical comparison with Nader Shah; no other outlet in the cluster raises this point.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Khamenei is only the second Iranian ruler to be buried in Mashhad. The first was Nader Shah, who was laid to rest in the city after his assassination in 1747, following nearly 11 years in power'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Funeral processions for Khamenei began the Saturday before the burial and lasted approximately a week, including events in Tehran, Qom, and the Iraqi shrine cities of Najaf and Karbala.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "burial_ceremony",
+      "rationale": "The Times of India (center-right) confirms processions began the previous Saturday; France 24 (center) describes 'a week of mass funeral processions' and names the cities; Al Jazeera (left) reported on events in Iraq, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Funeral processions began last Saturday'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes 'a week of mass funeral processions, rallies and mourning ceremonies' and lists Tehran, Qom, Najaf, and Karbala as locations",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reported 'Funeral events for Iran's slain Supreme Leader Khamenei under way in Iraq'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Iranian authorities shut down streets and closed airspace during the funeral period, and Khamenei's body was transported by air to the shrine due to crowd sizes.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "burial_ceremony",
+      "rationale": "Only the Times of India describes the closure of streets and airspace and the need to transport the body by air due to crowd density; no other source in the cluster corroborates these specific details.",
+      "framing_variants": [
+        {
+          "characterization": "States 'authorities shutting down streets, closing airspace and bringing daily life to a standstill in Tehran and other cities' and that 'Khamenei's body had to be transported by air to the holy shrine'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Khamenei's eldest son Mostafa led the funeral prayers, while three of Khamenei's four sons attended the ceremony.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "burial_ceremony",
+      "rationale": "Only the Times of India provides these specific details about which sons attended and Mostafa's role in leading the prayers.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Khamenei's eldest son, Mostafa, led the funeral prayers' and 'The other three sons attended the funeral'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "State media showed crowds displaying anti-Trump banners during the funeral procession.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "burial_ceremony",
+      "rationale": "Only the Times of India mentions anti-Trump banners displayed during the procession, citing state broadcaster footage.",
+      "framing_variants": [
+        {
+          "characterization": "Notes 'The state broadcaster also showed the crowd displaying anti-Trump banners during the procession'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Mojtaba Khamenei succeeded his father Ali Khamenei as Iran's Supreme Leader, having been proclaimed by a clerical assembly approximately one week after his father's death.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "iranian_succession",
+      "rationale": "The Times of India (center-right), France 24 (center), and South China Morning Post (center-left) all confirm Mojtaba Khamenei as successor; France 24 provides the detail that he was proclaimed by a clerical assembly a week after his father's death.",
+      "framing_variants": [
+        {
+          "characterization": "Identifies Mojtaba as 'his successor as Iran's Supreme Leader'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes 'proclaimed Supreme Leader by a clerical assembly a week after his father's death'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Refers to 'his son and successor Mojtaba Khamenei'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Mojtaba Khamenei was injured in the same February 28 strike that killed his father, with his face disfigured and limbs badly wounded.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "iranian_succession",
+      "rationale": "Only France 24 reports the specific nature and extent of Mojtaba Khamenei's injuries sustained in the February 28 strike.",
+      "framing_variants": [
+        {
+          "characterization": "States 'He suffered debilitating injuries in that same strike, his face disfigured and limbs badly wounded'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Mojtaba Khamenei was notably absent from public view during the funeral ceremonies and had not made any public appearances since the February 28 strike.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "iranian_succession",
+      "rationale": "The Times of India (center-right), France 24 (center), and South China Morning Post (center-left) all note Mojtaba Khamenei's absence from public appearances, providing broad cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States he 'was notably absent from the ceremony'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States he 'has still not made any public appearances' and that 'no image or video or voice recording of him has been issued'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Notes 'no sign of a public appearance by his son and successor Mojtaba Khamenei'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Senior sources in Tehran said Mojtaba Khamenei is recovering from his injuries, while Iranian state security services are limiting his exposure due to concerns about further US attacks; he has communicated only through written statements.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "iranian_succession",
+      "rationale": "Only France 24 reports these specific details about the reasons for Mojtaba Khamenei's absence, including the security rationale and his use of written statements.",
+      "framing_variants": [
+        {
+          "characterization": "Cites 'senior sources in Tehran' saying he is recovering, and reports 'state security services are also trying to limit his exposure in case of more US attacks,' while noting he 'has issued written statements'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Mojtaba Khamenei was appointed Supreme Leader with the backing of the Islamic Revolutionary Guard Corps, which is now seen as the dominant force in Iranian political and strategic thinking.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "iranian_succession",
+      "rationale": "Only France 24 explicitly states that Mojtaba Khamenei's appointment was backed by the Guards and characterizes the IRGC as the dominant force in Iran.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Mojtaba Khamenei was appointed with the backing of the Guards' and describes the IRGC as 'now seen as the dominant force in Iranian political and strategic thinking'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "The United States and Israel conducted military strikes against Iran beginning February 28, prompting Iranian retaliation, and the conflict lasted several months before a ceasefire was reached.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "us_iran_conflict",
+      "rationale": "The Times of India (center-right), France 24 (center), and South China Morning Post (center-left) all confirm a US-Israeli military campaign against Iran beginning February 28 and subsequent Iranian retaliation, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Describes 'US and Israeli airstrikes that marked the start of the Middle East conflict on February 28' and subsequent Iranian retaliation",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Refers to 'a months-long blitz by its strongest enemies the United States and Israel' and 'renewed conflict with the United States'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes 'the first day of the US-Israeli war against Iran on February 28' and 'two days of US and Iranian attacks'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The United States attributed attacks on civilian tankers in the Strait of Hormuz to Iran and conducted two consecutive days of strikes in response; Iran subsequently retaliated.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "us_iran_conflict",
+      "rationale": "Only the Times of India provides this specific sequence — the tanker attacks, US attribution to Iran, the two consecutive days of US strikes, and Iran's retaliation — as a causal chain.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Washington carried out two consecutive days of strikes in response to attacks on civilian tankers in the Strait of Hormuz that it blamed on Tehran,' followed by Iranian retaliation",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Iranian officials reported that US strikes killed 17 people; state media said one US strike targeted a railway line between Tehran and Mashhad.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "us_iran_conflict",
+      "rationale": "Only South China Morning Post reports the Iranian casualty figures from US strikes and the specific railway target, attributing these claims to Iranian officials and state media respectively.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Iranian officials reporting that US strikes killed 17 people' and 'state media saying one targeted a railway line between Tehran and Mashhad'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Iran reported resuming attacks targeting US assets in Kuwait, Bahrain, and Qatar; Jordan's military said it intercepted eight missiles launched from Iran while sirens sounded in Jordan.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "us_iran_conflict",
+      "rationale": "Only South China Morning Post reports Iran's claimed attacks on US assets in the Gulf states and Jordan's missile interception claim.",
+      "framing_variants": [
+        {
+          "characterization": "States 'The Islamic republic said it had resumed attacks targeting US assets in Kuwait, Bahrain and Qatar' and 'the military said it had intercepted eight missiles launched from Iran'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "The United States and Iran signed a Memorandum of Understanding in June to end their conflict, establishing a 60-day ceasefire and roadmap for ongoing negotiations; the agreement was initially drafted on June 14 and officially took effect on June 17.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "us_iran_conflict",
+      "rationale": "Only the Times of India provides this specific detail about the ceasefire agreement, including its terms, drafting date, and effective date.",
+      "framing_variants": [
+        {
+          "characterization": "States 'In June, the two countries signed a Memorandum of Understanding to end their conflict...The agreement established a 60-day ceasefire and roadmap for ongoing negotiations...was initially drafted on June 14...officially took effect on June 17'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Iran survived the US-Israeli military campaign with its grip over the Strait of Hormuz intact, but faces huge internal challenges including economic woes, war damage, and mass protests in which security forces killed thousands of demonstrators.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "iranian_domestic_situation",
+      "rationale": "Only France 24 provides this comprehensive assessment of Iran's post-war internal situation, including the protest suppression death toll and the Strait of Hormuz control.",
+      "framing_variants": [
+        {
+          "characterization": "States Iran 'survived a months-long blitz' with 'its grip over the vital Strait of Hormuz intact' but 'faces huge internal challenges,' including protests 'sparked by anger over the sanctions-throttled economy' in which 'Security forces put down that unrest...by killing thousands of demonstrators'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Analysts assessed that Iran emerged from the war strategically strengthened, despite having suffered widespread physical damage that added to its internal economic woes.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "iranian_domestic_situation",
+      "rationale": "Only France 24 reports this analyst assessment of Iran's strategic position following the conflict.",
+      "framing_variants": [
+        {
+          "characterization": "States 'While analysts see Iran as having emerged from the war strategically strengthened...it has suffered widespread damage that has added to internal economic woes'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "During Khamenei's rule, the role of Iran's elected president and parliament was increasingly marginalized, while the Islamic Revolutionary Guard Corps grew in influence.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "khamenei_legacy",
+      "rationale": "Only France 24 provides this specific characterization of the political changes under Khamenei's rule.",
+      "framing_variants": [
+        {
+          "characterization": "States that Khamenei's efforts 'increasingly marginalised the elected president and parliament' and that 'the Islamic Revolutionary Guard Corps...grew in influence throughout Khamenei's rule'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Ali Khamenei served as Iran's Supreme Leader from 1989 until his death on February 28, 2026, a tenure of approximately 37 years. He was appointed a decade after the 1979 Islamic Revolution.",
+      "sources": [
+        "src_004",
+        "src_002"
+      ]
+    },
+    {
+      "point": "The US-Israeli military campaign against Iran began on February 28, 2026, when Khamenei was killed. A ceasefire memorandum was reportedly signed in June 2026, establishing a 60-day truce and framework for negotiations.",
+      "sources": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ]
+    },
+    {
+      "point": "Mojtaba Khamenei, Ali Khamenei's second eldest son, was proclaimed Supreme Leader by a clerical assembly approximately one week after his father's death. He was reportedly injured in the same strike and had not made any public appearances at the time of the burial.",
+      "sources": [
+        "src_004",
+        "src_002",
+        "src_005"
+      ]
+    },
+    {
+      "point": "The Shrine of Imam Reza in Mashhad is described as one of the holiest sites in Shia Islam. Mashhad is Khamenei's hometown in northeastern Iran.",
+      "sources": [
+        "src_002",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Iran faced significant domestic unrest prior to and during the conflict period, with mass protests sparked by economic grievances reportedly suppressed by security forces at the cost of thousands of lives.",
+      "sources": [
+        "src_004"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-10T05:04:52.644817+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Iran buried former Supreme Leader Ayatollah Ali Khamenei at the Shrine of Imam Reza in Mashhad on Friday, July 11, 2026, more than four months after his death. Khamenei was killed on February 28, 2026, in US and Israeli airstrikes that also claimed the lives of four of his family members.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The burial took place in the memorial hall of the shrine, located in Mashhad — Khamenei's hometown in northeastern Iran. Funeral processions began the Saturday before the burial and lasted approximately a week, including events in Tehran, Qom, and the Iraqi shrine cities of Najaf and Karbala.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_007",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Khamenei's son Mojtaba succeeded him as Iran's Supreme Leader, having been proclaimed by a clerical assembly approximately one week after his father's death. However, Mojtaba Khamenei was notably absent from public view during the funeral ceremonies and had not made any public appearances since the February 28 strike.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The February 28 strike that killed Ali Khamenei triggered a broader military conflict between the United States and Israel on one side and Iran on the other. Iranian retaliation followed the initial strikes, and the conflict lasted several months before a ceasefire was reached.",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Khamenei ruled Iran for approximately 37 years after being appointed Supreme Leader in 1989, a decade after the Islamic Revolution. His tenure reshaped Iran's political structure and regional posture over more than three decades.",
+        "supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Center outlet France 24 reported that Mojtaba Khamenei was injured in the same February 28 strike that killed his father, with his face disfigured and limbs badly wounded. According to senior sources in Tehran cited by France 24, Mojtaba is recovering from his injuries, while Iranian state security services are limiting his exposure due to concerns about further US attacks; he has communicated only through written statements.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "France 24 reported that Mojtaba Khamenei was appointed Supreme Leader with the backing of the Islamic Revolutionary Guard Corps, which is now seen as the dominant force in Iranian political and strategic thinking. The outlet noted that during Ali Khamenei's rule, the role of Iran's elected president and parliament was increasingly marginalized, while the IRGC grew in influence.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Center-right outlet The Times of India reported that Iranian authorities shut down streets and closed airspace during the funeral period, and that Khamenei's body was transported by air to the shrine due to crowd sizes. The outlet also reported that Khamenei's eldest son Mostafa led the funeral prayers, while three of Khamenei's four sons attended the ceremony.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Times of India, citing state broadcaster footage, reported that crowds displayed anti-Trump banners during the funeral procession. The outlet also noted that Khamenei is only the second Iranian ruler to be buried in Mashhad, following Nader Shah, who was assassinated in 1747 after nearly 11 years in power.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Center-right outlet The Times of India reported that the United States attributed attacks on civilian tankers in the Strait of Hormuz to Iran and conducted two consecutive days of strikes in response, which Iran subsequently retaliated against. According to the outlet, the United States and Iran signed a Memorandum of Understanding in June to end their conflict, establishing a 60-day ceasefire and roadmap for ongoing negotiations; the agreement was initially drafted on June 14 and officially took effect on June 17.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Center-left outlet South China Morning Post reported specific casualty and target claims from Iranian sources during the conflict. According to the outlet, Iranian officials reported that US strikes killed 17 people, and state media said one US strike targeted a railway line between Tehran and Mashhad. The outlet also reported that Iran claimed to have resumed attacks targeting US assets in Kuwait, Bahrain, and Qatar, while Jordan's military said it intercepted eight missiles launched from Iran as sirens sounded in Jordan.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Center outlet France 24 assessed that Iran survived the US-Israeli military campaign with its grip over the Strait of Hormuz intact, but faces huge internal challenges including economic woes, war damage, and mass protests in which security forces killed thousands of demonstrators. Despite having suffered widespread physical damage that added to its internal economic woes, analysts cited by France 24 assessed that Iran emerged from the war strategically strengthened.",
+        "supports": {
+          "claim_ids": [
+            "clm_023",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

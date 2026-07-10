@@ -14,10 +14,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_09_israel_middle_east_001",
   "appears_in_events": [
-    "evt_2026_07_09_israel_middle_east_001"
+    "evt_2026_07_09_israel_middle_east_001",
+    "evt_2026_07_10_asia_001"
   ],
   "created_at": "2026-07-09T15:59:58.157530+00:00",
-  "last_updated": "2026-07-09T16:00:03.927166+00:00",
+  "last_updated": "2026-07-10T05:05:00.761988+00:00",
   "change_log": [
     {
       "date": "2026-07-09",

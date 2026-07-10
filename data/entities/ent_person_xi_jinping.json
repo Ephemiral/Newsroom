@@ -4,7 +4,9 @@
   "type": "person",
   "canonical_name": "Xi Jinping",
   "aliases": [
-    "President Xi Jinping"
+    "President Xi Jinping",
+    "Chinese President Xi Jinping",
+    "President Xi"
   ],
   "wikidata_qid": "Q15031",
   "summary": "Xi Jinping is a Chinese politician who is the paramount leader of China. He has served as the general secretary of the Chinese Communist Party (CCP) and chairman of the Party Central Military Commission (CMC) since 2012, the president of China and chairman of the State Central Military Commission since 2013.",
@@ -76,10 +78,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_07_asia_002",
   "appears_in_events": [
-    "evt_2026_07_07_asia_002"
+    "evt_2026_07_07_asia_002",
+    "evt_2026_07_10_asia_002"
   ],
   "created_at": "2026-07-08T18:23:48.932532+00:00",
-  "last_updated": "2026-07-08T18:24:21.183845+00:00",
+  "last_updated": "2026-07-10T05:07:54.353400+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

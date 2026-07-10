@@ -1,0 +1,38 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_fujian_province",
+  "type": "location",
+  "canonical_name": "Fujian Province",
+  "aliases": [
+    "Fujian",
+    "Fujian province"
+  ],
+  "wikidata_qid": "Q15910028",
+  "summary": "Province of the Ming Empire, initially covering present-day Fujian and adjacent islands and eventually covering Chinese settlements on western Taiwan Island",
+  "summary_sources": [
+    "https://www.wikidata.org/wiki/Q15910028"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_10_asia_002"
+  ],
+  "created_at": "2026-07-10T05:07:42.905912+00:00",
+  "last_updated": "2026-07-10T05:07:54.354237+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q15910028",
+      "source": "https://www.wikidata.org/wiki/Q15910028"
+    }
+  ]
+}

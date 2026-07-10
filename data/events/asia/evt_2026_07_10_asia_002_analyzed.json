@@ -1,0 +1,870 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_10_asia_002",
+    "beat": "asia",
+    "title": "Jinjiang Shoe Factory Fire Kills 28 in China's Fujian Province",
+    "summary": "A fire broke out around noon on July 9, 2026, at the Huiteng Footwear factory in Jinjiang, Fujian province, China, killing at least 28 people. Chinese President Xi Jinping called for an all-out rescue effort and strict accountability, while authorities detained company leaders and froze its bank accounts.",
+    "date": "2026-07-09",
+    "generated_at": "2026-07-10T05:07:19.290880+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_xi_jinping",
+        "surfaces": [
+          "Chinese President Xi Jinping",
+          "President Xi"
+        ],
+        "relevance_to_event": "As Chinese President, he publicly characterized the fire as causing major casualties, called for an all-out rescue effort, and demanded strict accountability for those responsible.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_huiteng_footwear_factory",
+        "surfaces": [
+          "Huiteng Footwear factory",
+          "Huiteng factory"
+        ],
+        "relevance_to_event": "The specific facility where the fire broke out on July 9, 2026, killing 28 people; authorities detained its owner and company personnel and froze its bank accounts following the incident.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_jinjiang",
+        "surfaces": [
+          "Jinjiang",
+          "Jinjiang, Fujian province"
+        ],
+        "relevance_to_event": "The city in Fujian province where the Huiteng Footwear Factory is located; known as China's 'shoe capital' producing approximately 20% of the world's athletic shoes, providing geographic and industrial context for the facility.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_013",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_fujian_province",
+        "surfaces": [
+          "Fujian province",
+          "Fujian"
+        ],
+        "relevance_to_event": "The province containing Jinjiang and the Huiteng Footwear Factory where the fire occurred and killed 28 people.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_013",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_shanxi_coal_mine",
+        "surfaces": [
+          "Shanxi"
+        ],
+        "relevance_to_event": "A coal mine in Shanxi province that experienced a blast in May 2026 killing approximately 82 people; cited by President Xi as one of several deadly accidents at production facilities in recent months that prompted calls to draw lessons from major industrial safety incidents.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_hong_kong",
+        "surfaces": [
+          "Hong Kong"
+        ],
+        "relevance_to_event": "Site of a deadly fire in November 2025 that killed 168 people, which prompted China to launch a national fire safety campaign in high-rise buildings several months before the Jinjiang factory fire occurred.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-10T05:08:04.741893+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx2vz51v2pjo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-10T01:12:40+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/politics/article/3360024/28-killed-factory-blaze-heart-chinese-shoe-manufacturing-hub?utm_source=rss_feed",
+      "author": "Xinlu Liang",
+      "published_at": "2026-07-09T13:47:32+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/casualties-reported-after-shoe-factory-fire-in-chinas-fujian-state-media-says",
+      "author": null,
+      "published_at": "2026-07-09T10:17:29+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/07/10/asia-pacific/china-shoe-factory-fire/",
+      "author": null,
+      "published_at": "2026-07-10T02:17:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbDBzVkw4YnY5VmhBd3B3VGtScTQ0a2w1Z3cyS3M4T1d4S2QxVFo0RnQtQUY3YVJuLTFyb0pIV3V3bnNZTkp2LWEzQU5EbnF5NWZaUW1CNjQzMWdsdnJuRWVDZEFEU29FdnZzY05rdUlGV0V6YVlhRGVsS0oxWU13YUNpOVB1RGE3bWdXSXBXajQzYVBDMHA4aGtLN09SYjBYT2lqNVF30gGrAUFVX3lxTE5Vb1k3SkpaRnlkRERScmpKSGpKb3ZaWHFwcUpYTlZCMUhZR3UxbTI2cEh3RGxod2QtamZSNXROZ2ZhMHlUSi0zZEFEdVNfWnJyN19jRXZaTm93QlJuQmRpUHVFbXhCa2doMWRSa2hlRkJkQ0hRYmpqMm93clptTVhwd1czeFRaTFpqVFEwRXAwZlZoVkEzTThoSWE5MnVnMDhMX2tYaTFISC1VVQ?oc=5",
+      "author": null,
+      "published_at": "2026-07-09T21:14:02+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/chinas-xi-airs-workplace-safety-worry-after-shoe-factory-fire-kills-28",
+      "author": null,
+      "published_at": "2026-07-10T01:13:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A fire at the Huiteng Footwear (Huiteng Shoes) factory in Jinjiang, Fujian province, China, killed at least 28 people on July 9, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_incident_facts",
+      "rationale": "All six outlets across the left, center-left, and center-right spectrum consistently report a death toll of at least 28 at the Huiteng factory in Jinjiang on July 9, satisfying the cross-spectrum agreement requirement.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports 'at least 28 people' killed, citing the state news agency.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP states '28 people died' as established fact via Xinhua.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Straits Times says 'at least 28 people' killed, per state media.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Japan Times reports 'at least 28 people were killed,' citing state-run Xinhua.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Al Jazeera uses 'at least 28 people killed' in its headline.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Straits Times (second article) reports '28 people' killed as confirmed.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The fire broke out at approximately noon local time at the Huiteng factory, located on Kaituo Road East in the village of Jiangtou, Chendai township, Jinjiang.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_incident_facts",
+      "rationale": "Multiple outlets across center-left and center-right tiers consistently report the fire began around noon; SCMP provides the most precise address detail. Cross-spectrum coverage confirms the timing.",
+      "framing_variants": [
+        {
+          "characterization": "BBC says 'around noon local time (05:00 BST).'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP specifies '12:04pm' and gives full address.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Straits Times reports 'around noon.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Japan Times reports 'around noon local time.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Of approximately 239–240 people present at the factory when the fire broke out, 213 were evacuated; two of those evacuees later died in hospital, and 26 others initially reported missing were confirmed dead, bringing the total to 28.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_incident_facts",
+      "rationale": "Multiple outlets from center-left and center-right tiers report the same breakdown (239–240 present, 213 evacuated, 2 died in hospital, 26 confirmed dead from missing), confirming cross-spectrum agreement on casualty accounting.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports 'nearly 240 people' present; '213 evacuated'; '2 died in hospital'; '26 found dead.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP says '213 evacuated, two died in hospital, 26 confirmed dead from missing.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Japan Times gives '239 people' present, '213 evacuated,' '2 died after hospital,' '26 missing confirmed dead.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Straits Times (second article) reports 'two died at hospital and 26 others later confirmed dead.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The fire started on the ground floor of the factory, where flammable shoe-making materials and adhesives were stored.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_incident_facts",
+      "rationale": "Outlets from center-left (BBC, Japan Times) and center-right (Straits Times) all cite preliminary findings pointing to flammable materials on the ground floor as the fire's origin, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "BBC notes 'initial reports suggest the fire may have started on the ground floor where flammable materials were stored.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Japan Times states 'preliminary findings indicate the fire started on the ground floor' and that 'shoe-making materials were highly flammable,' with pungent smell causing eye irritation.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Straits Times (second article) says the incident 'happened in a workshop where flammable materials were present.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Large amounts of items had been piled up in the stairwells of the factory, hampering rescue and firefighting efforts.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "fire_incident_facts",
+      "rationale": "Only the Japan Times reports that stairwells were blocked by stored items, impeding emergency operations; no other outlet in the cluster mentions this detail.",
+      "framing_variants": [
+        {
+          "characterization": "Japan Times says firefighters reported 'large amounts of items piled up in the stairwells, hampering rescue and firefighting efforts.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Workers were seen on the rooftop and near windows, apparently trapped as the fire raged on the lower floors.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "fire_incident_facts",
+      "rationale": "Both the Straits Times and Japan Times—both center-right and center-left respectively—report workers visible on the rooftop and near windows, but this appears in only two outlets from adjacent bias tiers, not spanning the full spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Straits Times reports 'people can be seen taking refuge near windows and on the roof of the building.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Japan Times describes 'a dozen or so people, apparently trapped by the blaze, could be seen on the rooftop.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Thick black smoke poured from the burning building during the fire.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "fire_incident_facts",
+      "rationale": "Both the Straits Times and Japan Times describe thick black smoke visibly billowing from the building, though this descriptive detail appears only in these two outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Straits Times notes 'thick black smoke poured out' and 'thick grey smoke billowing from broken windows.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Japan Times describes 'thick black smoke billowing into the sky' in state media videos.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Authorities deployed more than 500 firefighters and rescue personnel to the scene, along with 35 fire engines.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "emergency_response",
+      "rationale": "Center-left outlets (BBC, SCMP) and center-right (Straits Times) all report over 500 personnel deployed, with SCMP and Straits Times also specifying 35 fire engines, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "BBC says 'more than 500 personnel' dispatched and 'hundreds of rescue workers rushed to the scene.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP reports 'over 500 firefighters' and '35 fire engines' sent by Quanzhou fire authorities.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Straits Times notes '183 people and 35 vehicles dispatched' by Ministry of Emergency Management, and 35 fire engines from Quanzhou.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The fire was brought under control and open flames were largely extinguished by approximately 4 p.m. on July 9; firefighting and rescue efforts continued into the evening.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "emergency_response",
+      "rationale": "Both SCMP and Japan Times report the fire was controlled by late afternoon and that operations continued into the evening, but these outlets are both center-left, so this is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "SCMP states 'by late Thursday afternoon the fire had been brought under control.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Japan Times reports 'open flames had largely been extinguished by about 4 p.m.' but 'thick smoke could still be seen' with fire engines continuing to spray water by early evening.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Chinese President Xi Jinping characterized the fire as causing major/heavy casualties, called for an all-out rescue effort, and demanded that those responsible be held strictly accountable.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Outlets spanning left-center and center-right consistently report Xi Jinping's instructions including characterizing casualties as major/heavy, calling for rescue efforts, and demanding accountability, meeting cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "BBC says Xi called the blaze a cause of 'major casualties' and said those responsible must be 'strictly accountable.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP leads with Xi demanding 'a swift inquiry' and accountability as the headline directive.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Straits Times reports Xi said fire resulted in 'heavy human losses,' called for increased rescue, identification of cause, and strict accountability.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Japan Times says Xi 'issued instructions urging an all-out rescue effort' and called for 'strict accountability.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Xi Jinping stated the fire came after a number of deadly accidents at production facilities in China in recent months and called on officials to draw profound lessons from major industrial safety accidents.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Center-left outlets (BBC, Japan Times) and center-right (Straits Times) all report Xi's directive to draw lessons from a pattern of recent industrial accidents, spanning the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "BBC says Xi called on officials to draw 'profound lessons' from 'several major industrial safety accidents' and implement 'rigorous and effective safety measures.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Japan Times reports Xi noted the fire 'came after a number of deadly accidents at production facilities in recent months.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Straits Times (second article) quotes Xi expressing concern about 'multiple major production safety accidents' since the beginning of the year.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Authorities detained the factory company's owner and other relevant personnel, and froze the company's bank accounts.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Outlets from center-left (BBC, SCMP, Japan Times) and center-right (Straits Times) all confirm detentions of company leadership and freezing of accounts, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "BBC says 'a number of people who work for the factory's owners' were detained and 'the firm's bank account was frozen.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP specifies 'police detained the company's owner and several others suspected of bearing responsibility.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Japan Times states 'people in charge of the company and other relevant personnel have been taken into custody' and 'bank accounts frozen.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Straits Times (second article) reports 'company's leaders have been detained' and 'its accounts frozen.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Jinjiang, in Fujian province, is known as China's 'shoe capital' and manufactures approximately 20% of the world's sports/athletic shoes.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "background_context",
+      "rationale": "BBC and Japan Times both cite Jinjiang's 20% global shoe output figure and 'shoe capital' designation; both are center-left outlets, so this is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "BBC says Jinjiang 'reportedly manufactures 20% of the world's sports shoes' and is 'often referred to as China's shoe capital.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Japan Times notes Jinjiang 'manufactured over 1.2 billion pairs of shoes in 2024, accounting for 20% of global output' and is 'often referred to as China's shoe capital.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "China launched a campaign against fire hazards in high-rise buildings in November 2025 following a blaze in Hong Kong that killed 168 people.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "background_context",
+      "rationale": "BBC (center-left) and Straits Times (center-right) both report China's November fire safety campaign triggered by the Hong Kong blaze killing 168, meeting cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "BBC frames the campaign as launched 'after a blaze ripped through several Hong Kong apartment buildings in November, killing 168 people.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Straits Times reports 'China launched a campaign against fire hazards in high-rise buildings in November, after a huge blaze engulfed several tower blocks in Hong Kong, killing 168 people.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "A fire at a residential building in Guangdong province killed 12 people approximately one month after China launched its November fire safety campaign.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "background_context",
+      "rationale": "Only the Straits Times mentions the Guangdong residential fire that killed 12 people as a subsequent incident after the November campaign launch.",
+      "framing_variants": [
+        {
+          "characterization": "Straits Times notes 'a month later, a fire at a residential building in southern China's Guangdong province killed 12 people.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "In May 2026, China experienced several major industrial safety accidents including a coal mine blast in Shanxi killing approximately 82 people (the deadliest since 2009), a mine collapse in Yunnan killing five people, and a fireworks factory blast in Changsha killing at least 37 people.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "background_context",
+      "rationale": "Only the Straits Times (second article) enumerates these three specific prior accidents in May 2026 as context for Xi's safety concerns; no other outlet provides this level of detail.",
+      "framing_variants": [
+        {
+          "characterization": "Straits Times (second article) lists the Shanxi coal blast (~82 dead, deadliest since 2009), Yunnan mine collapse (5 dead), and Changsha fireworks blast (37+ dead) as recent precedents cited in the context of Xi's concerns.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "China's workplace safety record has generally improved in recent years, even as deadly accidents continue to occur.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "background_context",
+      "rationale": "Only the Straits Times (second article) offers the broader assessment that 'China's workplaces have gotten safer in recent years,' providing context not mentioned by other outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Straits Times (second article) states 'China's workplaces have gotten safer in recent years' as general context alongside coverage of the fire.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Quanzhou, the broader city encompassing Jinjiang, has a population of approximately 7.7 million and is a coastal city in Fujian province.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "background_context",
+      "rationale": "Only the Straits Times (second article) provides the population figure of 7.7 million for Quanzhou; other outlets give geographic information without this demographic detail.",
+      "framing_variants": [
+        {
+          "characterization": "Straits Times (second article) describes the fire as occurring in 'the coastal city of Quanzhou, population 7.7 million.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Jinjiang, in Fujian province, is a major footwear manufacturing hub known as China's 'shoe capital,' producing around 20% of the world's sports shoes and over 1.2 billion pairs annually.",
+      "sources": [
+        "src_001",
+        "src_004"
+      ]
+    },
+    {
+      "point": "China launched a national campaign against fire hazards in high-rise buildings in November 2025 following a deadly blaze in Hong Kong that killed 168 people. The Jinjiang fire occurs against a backdrop of several major industrial accidents in 2026, including a coal mine blast in Shanxi killing ~82, a mine collapse in Yunnan killing 5, and a fireworks factory blast in Changsha killing 37+.",
+      "sources": [
+        "src_001",
+        "src_003",
+        "src_006"
+      ]
+    },
+    {
+      "point": "Shoe-making involves highly flammable materials and adhesives, which can cause fires to spread rapidly. The Huiteng factory's stairwells also reportedly had large amounts of stored items, complicating evacuation and rescue.",
+      "sources": [
+        "src_004",
+        "src_006"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-10T05:07:37.751908+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "A fire at the Huiteng Footwear factory in Jinjiang, Fujian province, China, killed at least 28 people on July 9, 2026. The blaze broke out at approximately noon local time at the facility on Kaituo Road East in the village of Jiangtou, Chendai township.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Approximately 239 to 240 people were present at the factory when the fire started. Rescue teams evacuated 213 workers, but two of those evacuees later died in hospital. Twenty-six others initially reported missing were confirmed dead, bringing the total death toll to 28.",
+        "supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The fire started on the ground floor of the factory, where flammable shoe-making materials and adhesives were stored. Thick black smoke poured from the burning building as the fire spread through the lower floors.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Authorities deployed more than 500 firefighters and rescue personnel to the scene, along with 35 fire engines. The fire was brought under control and open flames were largely extinguished by approximately 4 p.m., though firefighting and rescue efforts continued into the evening.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Chinese President Xi Jinping characterized the fire as causing major casualties and called for an all-out rescue effort. He demanded that those responsible be held strictly accountable.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Authorities detained the factory owner and other relevant company personnel, and froze the company's bank accounts following the incident.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Jinjiang, located in Fujian province, is known as China's 'shoe capital' and manufactures approximately 20% of the world's athletic shoes. The Huiteng factory was one of numerous footwear production facilities in the region.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "China launched a campaign against fire hazards in high-rise buildings in November 2025 following a blaze in Hong Kong that killed 168 people. The Jinjiang factory fire occurred several months after this national safety initiative began.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "President Xi stated the fire came after a number of deadly accidents at production facilities in China in recent months and called on officials to draw profound lessons from major industrial safety accidents. In May 2026 alone, China experienced several major incidents including a coal mine blast in Shanxi that killed approximately 82 people—the deadliest since 2009—a mine collapse in Yunnan killing five, and a fireworks factory blast in Changsha killing at least 37.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Center-left outlets reported that workers were seen on the rooftop and near windows, apparently trapped as the fire raged on the lower floors. One outlet noted that large amounts of items had been piled up in the factory's stairwells, hampering rescue and firefighting efforts.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "A center-right outlet reported that approximately one month after the November fire safety campaign launch, a fire at a residential building in Guangdong province killed 12 people, indicating that deadly fires continued despite the national initiative.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "One center-right outlet noted that China's workplace safety record has generally improved in recent years, even as deadly accidents continue to occur, providing broader context for the ongoing industrial safety challenges.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

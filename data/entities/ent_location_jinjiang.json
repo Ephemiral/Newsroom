@@ -1,0 +1,79 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_jinjiang",
+  "type": "location",
+  "canonical_name": "Jinjiang",
+  "aliases": [
+    "Jinjiang, Fujian province"
+  ],
+  "wikidata_qid": "Q128883",
+  "summary": "Jinjiang City is a county-level city under Quanzhou City, Fujian Province, China. It is located in the southeastern part of the province (Minnan), on the right or south bank of the Jin River, across from Quanzhou's urban district of Fengze and Licheng.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Jinjiang%2C_Quanzhou"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Jinjiang_-_panoramio.jpg/960px-Jinjiang_-_panoramio.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Jinjiang_-_panoramio.jpg",
+    "credit": "A J Butler",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Jinjiang - panoramio.jpg",
+    "fetched_at": "2026-07-10T05:07:42.905461+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Jinjiang also borders the Taiwan Strait of the East China Sea to the south, and Quanzhou's other county-cities of Shishi and Nan'an to the east and west, respectively.",
+      "source_url": "https://en.wikipedia.org/wiki/Jinjiang%2C_Quanzhou",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It has an area of 721.7 square kilometres (278.6 sq mi) and a population of 2,061,551 as of 2020.",
+      "source_url": "https://en.wikipedia.org/wiki/Jinjiang%2C_Quanzhou",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_10_asia_002"
+  ],
+  "created_at": "2026-07-10T05:07:40.844275+00:00",
+  "last_updated": "2026-07-10T05:07:54.354056+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Jinjiang%2C_Quanzhou"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Jinjiang%2C_Quanzhou"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q128883 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q128883"
+    }
+  ]
+}
