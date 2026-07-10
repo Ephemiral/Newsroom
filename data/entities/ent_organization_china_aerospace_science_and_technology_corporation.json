@@ -1,0 +1,63 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_china_aerospace_science_and_technology_corporation",
+  "type": "organization",
+  "canonical_name": "China Aerospace Science and Technology Corporation",
+  "aliases": [
+    "CASC"
+  ],
+  "wikidata_qid": "Q2777589",
+  "summary": "The China Aerospace Science and Technology Corporation (CASC) is a main contractor for the Chinese space program. It is state-owned and has subsidiaries which design, develop and manufacture a range of spacecraft, launch vehicles, and ground equipment.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/CASC_Building_%2820211016150951%29.jpg/960px-CASC_Building_%2820211016150951%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:CASC_Building_(20211016150951).jpg",
+    "credit": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:CASC Building (20211016150951).jpg",
+    "fetched_at": "2026-07-10T15:46:29.445636+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It also has a division for strategic and tactical missile systems.",
+      "source_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_asia_003",
+  "appears_in_events": [
+    "evt_2026_07_10_asia_003"
+  ],
+  "created_at": "2026-07-10T15:46:27.063738+00:00",
+  "last_updated": "2026-07-10T15:46:35.826821+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q2777589 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q2777589"
+    }
+  ]
+}

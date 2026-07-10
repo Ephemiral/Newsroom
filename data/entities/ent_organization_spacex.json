@@ -1,0 +1,93 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_spacex",
+  "type": "organization",
+  "canonical_name": "SpaceX",
+  "aliases": [],
+  "wikidata_qid": "Q193701",
+  "summary": "Space Exploration Technologies Corp., doing business as SpaceX, is an American spaceflight, telecommunications, and artificial intelligence company headquartered at the Starbase development site in Starbase, Texas. The company operates 3 divisions: \"Space\", which conducts more orbital launches annually than any other launch provider, including national programs; \"Connectivity\", which operates Starlink, a communications satellite company; and \"Artificial intelligence\", which operates Grok, X, and data centers.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/SpaceX"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Entrance_to_SpaceX_headquarters.jpg/960px-Entrance_to_SpaceX_headquarters.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Entrance_to_SpaceX_headquarters.jpg",
+    "credit": "Bruno Sanchez-Andrade Nuño from Washington, DC, USA",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Entrance to SpaceX headquarters.jpg",
+    "fetched_at": "2026-07-10T15:46:21.954407+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The company is credited with advances in rocket propulsion, reusable launch vehicles, human spaceflight, satellite constellation technology, and is considered to have significantly cheaper and more efficient launch operations compared to NASA.",
+      "source_url": "https://en.wikipedia.org/wiki/SpaceX",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The company's largest customers include NASA, the United States Space Force, and the National Reconnaissance Office.",
+      "source_url": "https://en.wikipedia.org/wiki/SpaceX",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Elon Musk owns 42% of the outstanding shares of SpaceX and controls 85% of the voting power via his super-voting stock.",
+      "source_url": "https://en.wikipedia.org/wiki/SpaceX",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_asia_003",
+  "appears_in_events": [
+    "evt_2026_07_10_asia_003"
+  ],
+  "created_at": "2026-07-10T15:46:19.448743+00:00",
+  "last_updated": "2026-07-10T15:46:35.826309+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/SpaceX"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/SpaceX"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/SpaceX"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q193701 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q193701"
+    }
+  ]
+}

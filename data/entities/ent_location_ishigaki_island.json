@@ -1,0 +1,93 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_ishigaki_island",
+  "type": "location",
+  "canonical_name": "Ishigaki Island",
+  "aliases": [],
+  "wikidata_qid": "Q714339",
+  "summary": "Ishigaki Island  is a Japanese island south-west of Okinawa Hontō and the second-largest island of the Yaeyama Island group, behind Iriomote Island. It is located approximately 411 km (255 mi) south-west of Okinawa Hontō.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ishigaki_Island"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Kabira_Bay_Ishigaki_Island41s3s4500.jpg/960px-Kabira_Bay_Ishigaki_Island41s3s4500.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Kabira_Bay_Ishigaki_Island41s3s4500.jpg",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Kabira Bay Ishigaki Island41s3s4500.jpg",
+    "fetched_at": "2026-07-10T15:49:00.014134+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is within the City of Ishigaki in Okinawa Prefecture.",
+      "source_url": "https://en.wikipedia.org/wiki/Ishigaki_Island",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The city functions as the business and transport center of the archipelago.",
+      "source_url": "https://en.wikipedia.org/wiki/Ishigaki_Island",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The island is served by New Ishigaki Airport, the largest airport in the Yaeyamas.",
+      "source_url": "https://en.wikipedia.org/wiki/Ishigaki_Island",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_asia_004",
+  "appears_in_events": [
+    "evt_2026_07_10_asia_004"
+  ],
+  "created_at": "2026-07-10T15:48:57.820767+00:00",
+  "last_updated": "2026-07-10T15:49:09.039756+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_asia_004",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ishigaki_Island"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ishigaki_Island"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ishigaki_Island"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q714339 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q714339"
+    }
+  ]
+}

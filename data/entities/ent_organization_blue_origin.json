@@ -1,0 +1,93 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_blue_origin",
+  "type": "organization",
+  "canonical_name": "Blue Origin",
+  "aliases": [],
+  "wikidata_qid": "Q885836",
+  "summary": "Blue Origin Enterprises, L.P. is a private American space technology company headquartered in Kent, Washington.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Blue_Origin"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Blue_Origin_BE-4_rocket_engine%2C_sn_103%2C_April_2018_--_LCH4_inlet_side_view%2C_minus_nozzle.jpg/960px-Blue_Origin_BE-4_rocket_engine%2C_sn_103%2C_April_2018_--_LCH4_inlet_side_view%2C_minus_nozzle.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Blue_Origin_BE-4_rocket_engine,_sn_103,_April_2018_--_LCH4_inlet_side_view,_minus_nozzle.jpg",
+    "credit": "N2e",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Blue Origin BE-4 rocket engine, sn 103, April 2018 -- LCH4 inlet side view, minus nozzle.jpg",
+    "fetched_at": "2026-07-10T15:46:27.063204+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The company operates the suborbital New Shepard rocket and the heavy-lift New Glenn rocket.",
+      "source_url": "https://en.wikipedia.org/wiki/Blue_Origin",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "In addition to producing engines for its own rockets, Blue Origin supplies engines for other vehicles, including United Launch Alliance's Vulcan Centaur.",
+      "source_url": "https://en.wikipedia.org/wiki/Blue_Origin",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It is also working on the Blue Moon human lunar lander for NASA's Artemis program, the Blue Ring spacecraft platform, and the Orbital Reef space station in partnership with other organizations.",
+      "source_url": "https://en.wikipedia.org/wiki/Blue_Origin",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_asia_003",
+  "appears_in_events": [
+    "evt_2026_07_10_asia_003"
+  ],
+  "created_at": "2026-07-10T15:46:25.078757+00:00",
+  "last_updated": "2026-07-10T15:46:35.826683+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Blue_Origin"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Blue_Origin"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Blue_Origin"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q885836 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q885836"
+    }
+  ]
+}

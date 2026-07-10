@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_falcon_9",
+  "type": "technology",
+  "canonical_name": "Falcon 9",
+  "aliases": [],
+  "wikidata_qid": "Q249091",
+  "summary": "Falcon 9 is a partially reusable, two-stage-to-orbit, medium-lift launch vehicle designed and manufactured in the United States by SpaceX. The first Falcon 9 launch was on June 4, 2010, and the first Commercial Resupply mission to the International Space Station (ISS) launched on October 8, 2012.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Falcon_9"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Es%27hail-2_Mission_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Es%27hail-2_Mission_(cropped).jpg",
+    "credit": "Official SpaceX Photos",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Es'hail-2 Mission (cropped).jpg",
+    "fetched_at": "2026-07-10T15:46:25.078309+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "In 2020, it became the first commercial rocket to launch humans to orbit.",
+      "source_url": "https://en.wikipedia.org/wiki/Falcon_9",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "With 657 successful flights, Falcon 9 has seen the most launches among active launch vehicles; it is noted for its reliability and high launch cadence, with two in-flight failures, one partial failure and one pre-flight destruction.",
+      "source_url": "https://en.wikipedia.org/wiki/Falcon_9",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_asia_003",
+  "appears_in_events": [
+    "evt_2026_07_10_asia_003"
+  ],
+  "created_at": "2026-07-10T15:46:21.955175+00:00",
+  "last_updated": "2026-07-10T15:46:35.826544+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Falcon_9"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Falcon_9"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q249091 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q249091"
+    }
+  ]
+}

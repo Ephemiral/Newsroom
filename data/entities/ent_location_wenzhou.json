@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_wenzhou",
+  "type": "location",
+  "canonical_name": "Wenzhou",
+  "aliases": [],
+  "wikidata_qid": "Q42635",
+  "summary": "Wenzhou, formerly known as Yongjia, is a prefecture-level city in Zhejiang, China. Situated on the southeastern coast of China, the city sits at the lower reaches and estuary of the Ou River, bordered by the Zhejiang–Fujian Hills to the west and the East China Sea to the east.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Wenzhou"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Vue_g%C3%A9n%C3%A9rale_de_Wenzhou.JPG/960px-Vue_g%C3%A9n%C3%A9rale_de_Wenzhou.JPG",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Vue_g%C3%A9n%C3%A9rale_de_Wenzhou.JPG",
+    "credit": "Pascal3012",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Vue générale de Wenzhou.JPG",
+    "fetched_at": "2026-07-10T15:48:57.820125+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It governs four districts, three county-level cities and five counties, with the municipal office in Lucheng.",
+      "source_url": "https://en.wikipedia.org/wiki/Wenzhou",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Recognised both as one of the 27 core cities of the Yangtze River Delta Economic Zone and one of the five central cities of the Western Taiwan Straits Economic Zone, the city serves as the only junction between the two economic zones.",
+      "source_url": "https://en.wikipedia.org/wiki/Wenzhou",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_asia_004",
+  "appears_in_events": [
+    "evt_2026_07_10_asia_004"
+  ],
+  "created_at": "2026-07-10T15:48:54.992614+00:00",
+  "last_updated": "2026-07-10T15:49:09.039626+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_asia_004",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Wenzhou"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Wenzhou"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q42635 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q42635"
+    }
+  ]
+}

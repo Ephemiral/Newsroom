@@ -1,0 +1,61 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_japan_airlines",
+  "type": "organization",
+  "canonical_name": "Japan Airlines",
+  "aliases": [],
+  "wikidata_qid": "Q213140",
+  "summary": "Japan Airlines (JAL) is a major Japanese airline headquartered in Shinagawa, Tokyo. The airline's main hubs are Tokyo's Narita and Haneda airports, as well as secondary hubs in Osaka's Kansai and Itami airports.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Japan_Airlines"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/JA01WJ_JFK_Climb_Out_31L_JL_A350_1041_A350_1000_Red_Sticker_Beacon_Small.png/960px-JA01WJ_JFK_Climb_Out_31L_JL_A350_1041_A350_1000_Red_Sticker_Beacon_Small.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:JA01WJ_JFK_Climb_Out_31L_JL_A350_1041_A350_1000_Red_Sticker_Beacon_Small.png",
+    "credit": "Mark Bess",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:JA01WJ JFK Climb Out 31L JL A350 1041 A350 1000 Red Sticker Beacon Small.png",
+    "fetched_at": "2026-07-10T15:49:05.485728+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The JAL group comprises Japan Airlines, Hokkaido Air System, J-Air, Japan Air Commuter, Japan Transocean Air and Ryukyu Air Commuter for domestic feeder services, and JAL Cargo for cargo and mail services, as well as low-cost carriers Zipair Tokyo and Jetstar Japan.",
+      "source_url": "https://en.wikipedia.org/wiki/Japan_Airlines",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_asia_004",
+  "appears_in_events": [
+    "evt_2026_07_10_asia_004"
+  ],
+  "created_at": "2026-07-10T15:49:03.182078+00:00",
+  "last_updated": "2026-07-10T15:49:09.039993+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_asia_004",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Japan_Airlines"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q213140 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q213140"
+    }
+  ]
+}

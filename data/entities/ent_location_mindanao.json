@@ -1,0 +1,52 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_mindanao",
+  "type": "location",
+  "canonical_name": "Mindanao",
+  "aliases": [],
+  "wikidata_qid": "Q4294079",
+  "summary": "Mindanao is the second-largest island in the Philippines, after Luzon, and seventh-most populous island in the world. Located in the southern region of the archipelago, the island is part of an island group of the same name that also includes its adjacent islands, notably the Sulu Archipelago.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Mindanao"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "According to the 2020 census, Mindanao had a population of 26,252,442, while the entire island group had an estimated population of 27,384,138 as of 2024.",
+      "source_url": "https://en.wikipedia.org/wiki/Mindanao",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_asia_004",
+  "appears_in_events": [
+    "evt_2026_07_10_asia_004"
+  ],
+  "created_at": "2026-07-10T15:49:00.014588+00:00",
+  "last_updated": "2026-07-10T15:49:09.039890+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_asia_004",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Mindanao"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q4294079 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q4294079"
+    }
+  ]
+}

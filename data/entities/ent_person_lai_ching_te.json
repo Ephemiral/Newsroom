@@ -1,0 +1,86 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_lai_ching_te",
+  "type": "person",
+  "canonical_name": "Lai Ching-te",
+  "aliases": [
+    "Taiwan President Lai Ching-te"
+  ],
+  "wikidata_qid": "Q3847080",
+  "summary": "Lai Ching-te, also known as William Lai, is a Taiwanese politician, physician, and nephrologist who has served as the 8th president of the Republic of China since 2024. A member of the Democratic Progressive Party (DPP), he has been the party's chairman since 2023.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Lai_Ching-te"
+  ],
+  "image": null,
+  "roles_affiliations": [
+    {
+      "role": "Member of the Legislative Yuan",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q3847080",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Mayor of Tainan",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q3847080",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Premier of the Republic of China",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q3847080",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the National Assembly of the Republic of China",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q3847080",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Vice President of the Republic of China",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q3847080",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Chairperson of the Democratic Progressive Party",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q3847080",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_asia_004",
+  "appears_in_events": [
+    "evt_2026_07_10_asia_004"
+  ],
+  "created_at": "2026-07-10T15:48:50.639983+00:00",
+  "last_updated": "2026-07-10T15:49:09.039348+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_asia_004",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q3847080 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q3847080"
+    }
+  ]
+}

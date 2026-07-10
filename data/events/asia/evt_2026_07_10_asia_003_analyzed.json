@@ -1,0 +1,805 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_10_asia_003",
+    "beat": "asia",
+    "title": "China's Long March 10B Makes First Successful Reusable Rocket Booster Recovery",
+    "summary": "On July 10, 2026, China's Long March 10B rocket lifted off from Hainan and successfully recovered its booster on an offshore platform approximately six minutes after stage separation, making China the second nation in history to achieve controlled recovery of an orbital-class rocket booster.",
+    "date": "2026-07-10",
+    "generated_at": "2026-07-10T15:45:57.130487+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_technology_long_march_10b",
+        "surfaces": [
+          "Long March 10B"
+        ],
+        "relevance_to_event": "The primary subject of the report; the rocket that successfully recovered its booster on July 10, 2026, achieving China's first controlled recovery of an orbital-class rocket booster.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_hainan",
+        "surfaces": [
+          "Hainan",
+          "Hainan launch site"
+        ],
+        "relevance_to_event": "The geographic location from which the Long March 10B lifted off on July 10, 2026, at 12:15 pm local time to conduct the successful booster recovery mission.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_spacex",
+        "surfaces": [
+          "SpaceX"
+        ],
+        "relevance_to_event": "Established the technical precedent for reusable orbital-class rocket booster recovery in December 2015 with the Falcon 9, against which China's achievement is measured as the second nation to accomplish this milestone.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_falcon_9",
+        "surfaces": [
+          "Falcon 9"
+        ],
+        "relevance_to_event": "The first reusable orbital-class rocket booster to achieve controlled recovery, serving as the technical benchmark and demonstrating the cost-reduction benefits that motivated China's development of the Long March 10B.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_009",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_blue_origin",
+        "surfaces": [
+          "Blue Origin"
+        ],
+        "relevance_to_event": "Achieved the second precedent for orbital booster landing in November 2025 with the New Glenn, positioning China's success as the third operator globally to achieve this capability.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_china_aerospace_science_and_technology_corporation",
+        "surfaces": [
+          "China Aerospace Science and Technology Corporation",
+          "CASC"
+        ],
+        "relevance_to_event": "Made a failed booster recovery attempt in 2025, contributing to China's iterative path toward the successful Long March 10B recovery in July 2026.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_landspace",
+        "surfaces": [
+          "LandSpace"
+        ],
+        "relevance_to_event": "Made a failed booster recovery attempt in 2025, part of China's broader commercial and state sector efforts to develop reusable rocket technology prior to the July 2026 success.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_long_march_10a",
+        "surfaces": [
+          "Long March 10A"
+        ],
+        "relevance_to_event": "China's first reusable rocket booster recovery attempt in February 2026; completed controlled descent but splashed down beside the platform rather than landing on it, demonstrating progress toward the successful Long March 10B mission.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-10T15:46:46.443645+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/CZ-7_launch_from_Wenchang.jpg/1280px-CZ-7_launch_from_Wenchang.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/CZ-7_launch_from_Wenchang.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CZ-7_launch_from_Wenchang.jpg",
+      "width": 1200,
+      "height": 698,
+      "caption": "Long March 7 rocket launching from Wenchang Space Launch Site, China (file photo)",
+      "credit": "中国新闻社",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:CZ-7 launch from Wenchang.jpg",
+      "query": "Wenchang Space Launch Site",
+      "fetched_at": "2026-07-10T15:46:46.443605+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm2rmmx86pdo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-10T06:44:21+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/07/10/world/china-rocket-booster-recovery/",
+      "author": null,
+      "published_at": "2026-07-10T09:10:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/science/article/3360069/china-recovers-long-march-10b-reusable-rocket-maiden-launch?utm_source=rss_feed",
+      "author": "Victoria Bela,Ling Xin",
+      "published_at": "2026-07-10T04:37:28+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/china-successfully-tests-sea-based-rocket-booster-recovery-system",
+      "author": null,
+      "published_at": "2026-07-10T05:47:40+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "China successfully recovered a reusable orbital-class rocket booster for the first time on July 10, 2026, becoming the second nation in history to achieve this.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "rocket_recovery_milestone",
+      "rationale": "All four outlets — spanning center-left and center-right — confirm this as China's first successful retrieval of an orbital-class rocket booster, satisfying the cross-spectrum requirement for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "Described as 'a major breakthrough for China's space programme'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Framed as 'China's first successful retrieval of an orbital-class rocket'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Described as making China 'only the second nation in history to achieve the controlled recovery of an orbital-class rocket booster'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Called 'China's first successful retrieval of an orbital-class rocket' and a successful test of an 'experimental rocket retrieval system'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The Long March 10B rocket lifted off from the Hainan launch site in southern China at 12:15 pm local time (04:15 GMT) on July 10, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "rocket_recovery_milestone",
+      "rationale": "All four outlets consistently report the 12:15 pm local launch time from Hainan, with minor variation in the site name used (Wenchang space launch site vs. Hainan commercial space launch site), but the facts are consistent across center-left and center-right sources.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes launch time and Hainan location to the China Aerospace Science and Technology Corporation",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'Hainan commercial space launch site' at 12:15 pm",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Cites Xinhua and names the site as 'Wenchang space launch site'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'Hainan commercial space launch site' at 12:15 pm",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Approximately six minutes after stage separation, the Long March 10B's first-stage booster returned vertically and was recovered on an offshore floating platform.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "rocket_recovery_milestone",
+      "rationale": "All four outlets, spanning center-left and center-right, report the same approximately six-minute timeline and vertical recovery on an offshore platform.",
+      "framing_variants": [
+        {
+          "characterization": "'Around six minutes after separating from the rocket's upper stage, its booster returned to Earth vertically and was recovered on a floating platform'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "'About six minutes after separation of its booster and upper stage, the booster returned vertically and was recovered on an offshore platform'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Names the platform as the 'Linghangzhe recovery platform'; notes booster 'returned vertically and was caught'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "'About six minutes after the separation of its booster and upper stage, the booster returned vertically and was recovered on an offshore platform'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The Long March 10B uses 'landing hooks' to catch a net attached to a floating sea platform, a different mechanism from the Falcon 9, which uses deployable legs to land on a ground pad or drone ship.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "technical_specifications",
+      "rationale": "Both BBC News (center-left) and The Straits Times (center-right) describe the hook-and-net mechanism explicitly and contrast it with the Falcon 9's leg-based landing system, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "States that 'landing hooks' catch 'a net attached to a floating platform,' contrasting with Falcon 9's autonomous landing on 'a ground pad or drone ship'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Specifies the Long March 10B 'does not autonomously land on deployable legs on a ground pad or drone ship, using instead landing hooks to catch the net attached to a sea platform'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The Long March 10B is capable of carrying a payload of at least 16 metric tons to low-Earth orbit.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "technical_specifications",
+      "rationale": "Both BBC News (center-left) and The Straits Times (center-right) report the same 16-tonne payload capacity figure, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "'Can carry a payload of at least 16 metric tons to low-Earth orbit'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "'Capable of carrying a payload of at least 16 tonnes to low-earth orbit'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The Long March 10B is 63 metres tall and 5 metres wide.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "technical_specifications",
+      "rationale": "Only the South China Morning Post provides these physical dimensions for the Long March 10B.",
+      "framing_variants": [
+        {
+          "characterization": "Described as a '63-metre (207-foot) tall, 5-metre wide medium-lift rocket'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The Long March 10B's maiden flight also delivered its satellite payload into a predetermined orbit.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "rocket_recovery_milestone",
+      "rationale": "Only the South China Morning Post explicitly reports that the rocket successfully deployed its satellite payload into orbit during this mission.",
+      "framing_variants": [
+        {
+          "characterization": "States the rocket succeeded in 'sending its satellite payload into a predetermined orbit'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The maiden flight validated the Long March 10B's design for first-stage reusability.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "rocket_recovery_milestone",
+      "rationale": "Only the South China Morning Post, citing state broadcaster CCTV, reports this specific validation claim.",
+      "framing_variants": [
+        {
+          "characterization": "State broadcaster cited as saying 'the maiden flight validated the rocket's design for first-stage reusability'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "SpaceX landed a reusable Falcon 9 rocket booster from an orbital flight for the first time in December 2015.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Both BBC News (center-left) and The Straits Times (center-right) cite December 2015 as the date of SpaceX's first Falcon 9 orbital booster recovery.",
+      "framing_variants": [
+        {
+          "characterization": "Cited as a historical comparison point: 'In December 2015, SpaceX landed a reusable Falcon 9 rocket from an orbital flight for the first time'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "'SpaceX landed a Falcon 9 rocket from an orbital flight for the first time in December 2015'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Blue Origin's New Glenn rocket completed an orbital booster landing in November 2025.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Both BBC News (center-left) and The Straits Times (center-right) report Blue Origin's New Glenn orbital landing as occurring in November 2025.",
+      "framing_variants": [
+        {
+          "characterization": "Listed as a second precedent after SpaceX: 'followed by Blue Origin's New Glenn in November 2025'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "'Followed by Blue Origin's New Glenn in November 2025'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "The Falcon 9 now launches approximately 150 times per year, with boosters reused dozens of times.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Both BBC News (center-left) and The Straits Times (center-right) report the ~150 annual Falcon 9 launches and multi-reuse booster capability, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "'The Falcon 9 now launches about 150 times a year with boosters that are capable of being reused dozens of times'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "'SpaceX's Falcon 9 launches around 150 times a year, or roughly three times a week, with its booster reused dozens of times if necessary'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "China made its first attempt at reusable rocket booster recovery in February 2026 using a Long March 10A, which completed a controlled descent but splashed down next to the recovery platform rather than landing on it.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Only BBC News provides details of the February 2026 Long March 10A near-miss recovery attempt.",
+      "framing_variants": [
+        {
+          "characterization": "Describes the February 2026 attempt as 'a controlled descent' that 'splashed down next to a recovery platform,' implying it fell short of full success",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "LandSpace and China Aerospace Science and Technology Corporation made failed booster recovery attempts in 2025.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Only The Straits Times reports the 2025 failed recovery attempts by LandSpace and CASC.",
+      "framing_variants": [
+        {
+          "characterization": "'Two attempts by private Chinese firm LandSpace and state-owned China Aerospace Science and Technology Corporation in 2025 failed to complete the crucial final step of landing and booster recovery'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Shares in China Spacesat and China Satellite Communications each rose by 10% — the maximum daily limit permitted under Chinese financial market regulations — following the news.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "market_reaction",
+      "rationale": "Both BBC News (center-left) and The Straits Times (center-right) report the same 10% daily-limit gain for both firms, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Notes both firms rose 10%, explicitly stating that is 'the daily limit allowed by the country's financial market regulations'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports shares 'hitting their daily limits,' confirming the regulatory cap context",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "China's stated rationale for developing reusable rockets is to lower launch costs for its rapidly expanding commercial satellite constellations.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "policy_and_rationale",
+      "rationale": "Only The Straits Times explicitly states China's commercial cost-reduction rationale for reusable rockets.",
+      "framing_variants": [
+        {
+          "characterization": "'A system of reusable rockets will lower launch costs for China's rapidly expanding commercial satellite constellations'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "The successful recovery is expected to help cut launch costs.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "policy_and_rationale",
+      "rationale": "Both the South China Morning Post and The Straits Times note cost reduction as a key expected benefit, but both are center-left/center-right and echo state-sourced messaging; no additional independent framing qualifies this as 'agreed' beyond what clm_015 already captures.",
+      "framing_variants": [
+        {
+          "characterization": "Cites state broadcaster as saying recovery is 'expected to help cut launch costs'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Frames cost reduction as the explicit commercial rationale for the programme",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "China has spent nearly a decade developing reusable rocket technologies.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "policy_and_rationale",
+      "rationale": "Only The Straits Times reports this characterization of the duration of China's reusable rocket development programme.",
+      "framing_variants": [
+        {
+          "characterization": "'China has spent nearly a decade developing reusable rocket technologies'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "China has eased IPO rules for firms developing reusable rockets to help them raise funding.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "policy_and_rationale",
+      "rationale": "Only The Straits Times reports this government regulatory change supporting private reusable rocket companies.",
+      "framing_variants": [
+        {
+          "characterization": "'China has eased IPO rules for firms developing reusable rockets to help them raise funding'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The Long March 10 family of rockets is being developed to support China's crewed lunar missions before 2030.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "policy_and_rationale",
+      "rationale": "Only The Straits Times reports the Long March 10 family's connection to China's pre-2030 crewed lunar programme.",
+      "framing_variants": [
+        {
+          "characterization": "'As part of the Long March 10 family being developed for China's crewed lunar missions before 2030'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "China plans to reuse the recovered Long March 10B booster stage in another launch by the end of 2026.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "policy_and_rationale",
+      "rationale": "Only The Straits Times reports the specific plan to refly the recovered booster before the end of 2026.",
+      "framing_variants": [
+        {
+          "characterization": "'China plans to use the Long March 10's booster stage again for another launch by the end of 2026'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Reusable rocket technology, pioneered by SpaceX with the Falcon 9 in December 2015, dramatically reduces the cost of access to space by allowing the most expensive component — the booster — to be reflown multiple times. Blue Origin's New Glenn achieved a second precedent in November 2025. China's success makes it only the third operator and second nation to achieve this.",
+      "sources": [
+        "src_001",
+        "src_004"
+      ]
+    },
+    {
+      "point": "The Long March 10B's recovery mechanism differs from SpaceX's: instead of autonomously landing on legs on a pad or drone ship, it uses 'landing hooks' to snag a net on a floating offshore platform, a novel engineering approach.",
+      "sources": [
+        "src_001",
+        "src_004"
+      ]
+    },
+    {
+      "point": "China had experienced prior setbacks in booster recovery: a Long March 10A nearly reached the platform in February 2026 but splashed down beside it, and separate 2025 attempts by LandSpace and CASC both failed at the final landing stage.",
+      "sources": [
+        "src_001",
+        "src_004"
+      ]
+    },
+    {
+      "point": "The Long March 10 family is part of China's broader human spaceflight ambitions, with crewed lunar missions targeted before 2030, and the government has introduced supportive policies such as eased IPO rules for commercial reusable rocket firms.",
+      "sources": [
+        "src_004"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-10T15:46:12.966853+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "On July 10, 2026, China successfully recovered a reusable orbital-class rocket booster for the first time, becoming the second nation in history to achieve this milestone. The Long March 10B rocket lifted off from the Hainan launch site in southern China at 12:15 pm local time (04:15 GMT), and approximately six minutes after stage separation, its first-stage booster returned vertically and was recovered on an offshore floating platform.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The Long March 10B uses a distinct recovery mechanism from other reusable rockets: 'landing hooks' that catch a net attached to the floating sea platform. This differs from SpaceX's Falcon 9, which uses deployable legs to land on a ground pad or drone ship. The Long March 10B is capable of carrying a payload of at least 16 metric tons to low-Earth orbit.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "SpaceX became the first entity to land a reusable rocket booster from an orbital flight in December 2015, establishing the technical feasibility of the approach. The Falcon 9 now launches approximately 150 times per year, with individual boosters reused dozens of times. Blue Origin's New Glenn rocket completed an orbital booster landing more recently, in November 2025.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_011",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "BBC News reported that China made its first attempt at reusable rocket booster recovery in February 2026 using a Long March 10A, which completed a controlled descent but splashed down next to the recovery platform rather than landing on it. The Straits Times separately noted that LandSpace and China Aerospace Science and Technology Corporation made failed booster recovery attempts in 2025.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The South China Morning Post reported that the Long March 10B is 63 metres tall and 5 metres wide, and that the maiden flight delivered its satellite payload into a predetermined orbit while validating the rocket's design for first-stage reusability. These technical details and mission outcomes were cited by the outlet from state broadcaster CCTV.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The Straits Times reported that China's stated rationale for developing reusable rockets is to lower launch costs for its rapidly expanding commercial satellite constellations, and that the successful recovery is expected to help cut launch costs. According to the same outlet, China has spent nearly a decade developing reusable rocket technologies and has eased IPO rules for firms developing reusable rockets to help them raise funding.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016",
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The Straits Times also reported that the Long March 10 family of rockets is being developed to support China's crewed lunar missions before 2030, and that China plans to reuse the recovered Long March 10B booster stage in another launch by the end of 2026.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Shares in China Spacesat and China Satellite Communications each rose by 10% — the maximum daily limit permitted under Chinese financial market regulations — following the news of the successful recovery.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      }
+    ]
+  }
+}

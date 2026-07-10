@@ -1,0 +1,52 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_long_march_10b",
+  "type": "technology",
+  "canonical_name": "Long March 10B",
+  "aliases": [],
+  "wikidata_qid": "Q138306772",
+  "summary": "Long March 10B is an under-development, two-stage, medium-lift partially reusable launch vehicle with a first-stage powered by kerosene and liquid oxygen and a second-stage powered by liquid methane and liquid oxygen. It is the third in the Long March 10 series of rockets and is derived using technologies developed for the Long March 10A.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Long_March_10B"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It will be operated by Chinarocket Co, Ltd, the commercial arm of CALT.",
+      "source_url": "https://en.wikipedia.org/wiki/Long_March_10B",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_asia_003",
+  "appears_in_events": [
+    "evt_2026_07_10_asia_003"
+  ],
+  "created_at": "2026-07-10T15:46:16.391192+00:00",
+  "last_updated": "2026-07-10T15:46:35.825806+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Long_March_10B"
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q138306772 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q138306772"
+    }
+  ]
+}

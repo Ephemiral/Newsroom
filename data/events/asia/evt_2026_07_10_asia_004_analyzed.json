@@ -1,0 +1,873 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_10_asia_004",
+    "beat": "asia",
+    "title": "Typhoon Bavi Approaches Japan, Taiwan, and China",
+    "summary": "Typhoon Bavi, after causing deadly landslides in the southern Philippines, tracked toward Japan's Sakishima Islands, Taiwan, and southeastern China, prompting evacuations, mass flight cancellations, and emergency preparations across the region.",
+    "date": "2026-07-10",
+    "generated_at": "2026-07-10T15:48:24.448184+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_technology_super_typhoon_bavi",
+        "surfaces": [
+          "Typhoon Bavi"
+        ],
+        "relevance_to_event": "The central subject of the report; the tropical cyclone that caused deadly landslides in the Philippines and is tracking toward Japan, Taiwan, and China with maximum sustained winds of 162 km/h.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_sakishima_islands",
+        "surfaces": [
+          "Sakishima Islands"
+        ],
+        "relevance_to_event": "A remote island chain near Taiwan that is part of Okinawa Prefecture and was forecast to experience the typhoon's passage early Saturday morning, July 11, with violent winds and torrential rain.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_lai_ching_te",
+        "surfaces": [
+          "Lai Ching-te",
+          "Taiwan President Lai Ching-te"
+        ],
+        "relevance_to_event": "Taiwan President who publicly warned that despite Typhoon Bavi's weakening, its large storm radius could still bring strong winds and heavy rain to many areas of Taiwan.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_taiwan_semiconductor_manufacturing_company_tsmc",
+        "surfaces": [
+          "TSMC"
+        ],
+        "relevance_to_event": "The world's largest contract chipmaker headquartered in Taiwan, which delayed the release of its June sales data from July 10 to July 13 due to the typhoon's impact on operations.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_wenzhou",
+        "surfaces": [
+          "Wenzhou"
+        ],
+        "relevance_to_event": "A major eastern Chinese coastal city with approximately 10 million residents that was forecast to experience Typhoon Bavi's landfall late July 11 or early July 12.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_ishigaki_island",
+        "surfaces": [
+          "Ishigaki Island"
+        ],
+        "relevance_to_event": "One of the main islands in the Sakishima Islands chain and a popular tourist destination where residents were actively preparing for the typhoon by taping windows and installing windproof nets.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_mindanao",
+        "surfaces": [
+          "Mindanao"
+        ],
+        "relevance_to_event": "The southern Philippines island where Typhoon Bavi triggered two deadly landslides that killed at least 15 people and left six others missing before the storm tracked toward Japan and Taiwan.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_japan_airlines",
+        "surfaces": [
+          "Japan Airlines"
+        ],
+        "relevance_to_event": "A major Japanese airline that cancelled more than 100 flights for July 10 and 11 due to Typhoon Bavi, affecting nearly 20,000 passengers.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-10T15:49:29.369470+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Tropical_Storm_Sepat_Passes_Japan_%28MODIS_2025-06-26%29.jpg/1280px-Tropical_Storm_Sepat_Passes_Japan_%28MODIS_2025-06-26%29.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Tropical_Storm_Sepat_Passes_Japan_%28MODIS_2025-06-26%29.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tropical_Storm_Sepat_Passes_Japan_(MODIS_2025-06-26).jpg",
+      "width": 1200,
+      "height": 937,
+      "caption": "Satellite imagery of a tropical storm approaching Japan (file photo)",
+      "credit": "MODIS Land Rapid Response Team, NASA GSFC",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:Tropical Storm Sepat Passes Japan (MODIS 2025-06-26).jpg",
+      "query": "storm damage coastal Japan",
+      "fetched_at": "2026-07-10T15:49:29.369421+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/c0myengg8nzo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-10T13:40:19+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/07/10/japan/typhoon-bavi-approaches-japan-remote-islands/",
+      "author": null,
+      "published_at": "2026-07-10T09:35:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/japans-southwestern-islands-on-high-alert-as-powerful-typhoon-bavi-approaches",
+      "author": null,
+      "published_at": "2026-07-10T01:27:42+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3360093/super-typhoon-bavi-nears-japans-okinawa-flights-axed-and-noodle-shelves-emptied?utm_source=rss_feed",
+      "author": "Reuters",
+      "published_at": "2026-07-10T07:22:58+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Typhoon Bavi was tracking toward Japan's Sakishima Islands, Taiwan, and southeastern China.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "storm_track_and_forecast",
+      "rationale": "All four outlets across center-left and center-right bias ratings consistently reported Typhoon Bavi's trajectory toward the Sakishima Islands, Taiwan, and southeastern China, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Described as 'a powerful typhoon heading towards Taiwan, parts of Japan and south-eastern China.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reported as approaching 'a remote chain of islands in Japan's southwest' and framed as potentially the region's most destructive storm in years.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reported with specific expected passage close to Sakishima Islands early July 11, per meteorological authorities.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Referred to as 'Super Typhoon Bavi' expected to pass very close to Japan's Sakishima Islands early Saturday morning.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Typhoon Bavi had maximum sustained winds of 162 km/h (100 mph).",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "storm_track_and_forecast",
+      "rationale": "Three outlets — spanning center-left and center-right bias ratings — reported the identical wind speed figure of 162 km/h, meeting the cross-spectrum agreement threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as the maximum sustained wind speed topping out at 162 km/h.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reported identically at 162 km/h.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reported as 162 km/h (100 mph), adding the imperial unit conversion.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Typhoon Bavi was forecast to pass very close to Japan's Sakishima Islands — a remote island chain near Taiwan that is part of Okinawa Prefecture — early on Saturday morning (July 11).",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "storm_track_and_forecast",
+      "rationale": "Three outlets from both center-left and center-right outlets reported this specific forecast detail consistently, constituting cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as a meteorological forecast: 'expected to pass very close to Sakishima Islands… early on Saturday morning.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Specified 'early on July 11, according to meteorological authorities.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Framed as 'Super Typhoon Bavi is expected to pass very close… according to meteorological authorities.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Typhoon Bavi caused devastation in the southern Philippines before moving toward Japan, Taiwan, and China.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "philippines_impact",
+      "rationale": "Two center-left outlets reported prior damage in the Philippines, but no center-right outlet reported this, limiting the claim to same-side corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Described as 'causing devastation in the southern Philippines' before the storm's onward path.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Described specific events: two landslides on Mindanao triggered by heavy rain from Bavi.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Two landslides triggered by Typhoon Bavi's heavy rain on the Philippines' southern island of Mindanao killed at least 15 people and left six others missing.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "philippines_impact",
+      "rationale": "Only The Japan Times reported the specific casualty and missing persons figures from the Mindanao landslides.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as official Philippine figures: 'two landslides triggered by heavy rain driven by Bavi killed at least 15 people' and 'left six others missing.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Authorities warned of violent winds, torrential rain, landslides, and flooding in the regions in the path of Typhoon Bavi.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "storm_track_and_forecast",
+      "rationale": "Both center-left and center-right outlets reported official warnings of severe weather impacts, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Forecast described as 'heavy rains and floods' for Taiwan, Japan, and China.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Listed specific hazards: 'violent winds, torrential rain, landslides and flooding.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Noted Taiwan could see up to 1 meter of rain starting late July 10.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Local residents on Ishigaki Island were taping up windows and draping windproof nets across homes and shops in preparation for the typhoon.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "preparedness_and_response",
+      "rationale": "Two outlets reported this identical scene, but both are center-left, so this is same-side corroboration rather than cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as observable preparatory action by residents.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reported identically and also noted residents stocking up on supplies and emptying supermarket shelves of instant noodles.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "On Ishigaki, residents stocked up on supplies, emptying shelves of instant noodles at a local supermarket; some public beaches, coastal parks, and the local ferry terminal appeared closed.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "preparedness_and_response",
+      "rationale": "Only the South China Morning Post reported these specific preparatory consumer behaviors and facility closures on Ishigaki.",
+      "framing_variants": [
+        {
+          "characterization": "Described as observed consumer behavior and closures signaling the island's preparation for the typhoon.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Japan Airlines cancelled more than 100 flights for July 10 and 11, affecting nearly 20,000 passengers.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "travel_disruptions",
+      "rationale": "Both a center-right and a center-left outlet reported identical figures for Japan Airlines cancellations, meeting the cross-spectrum agreement threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Reported with specific dates: 'more than 100 flights for July 10 and 11, affecting nearly 20,000 passengers.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reported as 'more than 100 flights for Friday and Saturday, affecting nearly 20,000 passengers.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "All Nippon Airways cancelled more than 160 flights through July 12, disrupting travel for roughly 20,000 people.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "travel_disruptions",
+      "rationale": "Both a center-right and a center-left outlet reported identical figures for All Nippon Airways cancellations, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as 'more than 160 flights through July 12, disrupting travel for roughly 20,000 people.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reported as 'more than 160 flights through Sunday, disrupting travel for roughly 20,000 people.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Nearly 900 buildings in Okinawa Prefecture were without power as Typhoon Bavi approached.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "preparedness_and_response",
+      "rationale": "Both a center-right and a center-left outlet reported the same power outage figure for Okinawa Prefecture, meeting cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Specified 'as at 6am Greenwich Mean Time.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Specified 'as of Friday afternoon.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Typhoon Bavi was not expected to make landfall in Taiwan, though some areas could see up to 1 meter of rain starting late July 10.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "storm_track_and_forecast",
+      "rationale": "Only The Straits Times reported the specific forecast that Bavi would not make landfall in Taiwan and the associated rainfall projection of up to 1 meter.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as a meteorological forecast distinguishing between non-landfall and still-severe rainfall impacts.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Taiwan's financial markets closed for the day due to the typhoon, and a large portion of north and east Taiwan was off work.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "preparedness_and_response",
+      "rationale": "Only The Straits Times reported Taiwan's market closure and widespread work stoppages in northern and eastern Taiwan.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as official responses: financial markets closed and workers stood down in affected regions.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "The Taipei government set up stations for residents to collect sandbags ahead of the typhoon.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "preparedness_and_response",
+      "rationale": "Only The Straits Times reported the Taipei government's sandbag distribution measure.",
+      "framing_variants": [
+        {
+          "characterization": "Described as a precautionary flood-mitigation measure by the Taipei city government.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "More than 2,000 people were evacuated in Taiwan, mainly from the mountainous eastern coast, and nearly 29,000 military personnel were placed on standby to assist relief efforts.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "preparedness_and_response",
+      "rationale": "Only The Straits Times reported these specific evacuation and military standby figures for Taiwan.",
+      "framing_variants": [
+        {
+          "characterization": "Cited Taiwan government figures, framing them as preparation for potential widespread impact despite the storm not being forecast to make landfall.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Typhoon Bavi was downgraded to a moderate typhoon after weakening slightly.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "storm_track_and_forecast",
+      "rationale": "Only The Straits Times reported the reclassification of Bavi to a moderate typhoon.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as a meteorological reclassification while noting Taiwan's President warned that the storm's large radius could still bring strong winds and heavy rain to many areas.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Taiwan President Lai Ching-te warned that despite the typhoon's weakening, its large storm radius meant it could still bring strong winds and heavy rain to many areas.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "preparedness_and_response",
+      "rationale": "Only The Straits Times quoted President Lai Ching-te's specific warning about the typhoon's storm radius and potential impact.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as the Taiwanese president's public assessment justifying continued preparedness despite downgrade.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Taiwanese airlines cancelled all flights on July 11 from Taoyuan International Airport; Cathay Pacific cancelled weekend flights between Hong Kong and Taiwan and some flights to Hangzhou, Ningbo, and Fuzhou.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "travel_disruptions",
+      "rationale": "Only The Straits Times reported the full cancellation of Taiwanese airline flights from Taoyuan and Cathay Pacific's cancellations involving Hong Kong and eastern Chinese coastal cities.",
+      "framing_variants": [
+        {
+          "characterization": "Described as a broad shutdown of regional air travel involving Taiwanese carriers and Hong Kong's flagship carrier.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "TSMC delayed the release of its June sales data from July 10 to July 13 due to the typhoon.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "economic_and_corporate_impacts",
+      "rationale": "Only The Straits Times reported TSMC's postponement of its June sales data release as a consequence of the typhoon.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as a corporate decision by 'the world's largest contract chipmaker' reflecting the typhoon's business disruption.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Typhoon Bavi was forecast to make landfall late July 11 or early July 12 near the eastern Chinese city of Wenzhou, which has a population of 10 million.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "storm_track_and_forecast",
+      "rationale": "Only The Straits Times reported the specific forecast landfall location of Wenzhou, China, with the associated timing and population figure.",
+      "framing_variants": [
+        {
+          "characterization": "Provided a specific landfall forecast with timing and demographic context to underscore the potential human impact.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Typhoon Bavi could be the region's most destructive storm in years.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "storm_track_and_forecast",
+      "rationale": "Only The Japan Times included this characterization of Bavi's potential severity relative to recent history.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as a possible outcome based on official assessments: 'what could be the region's most destructive storm in years.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Ishigaki is one of the main islands in the Sakishima Islands chain, which is part of Okinawa Prefecture in Japan's southwest, situated near Taiwan. It is a popular tourist destination.",
+      "sources": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Typhoon Bavi struck the southern Philippines before moving toward Japan and Taiwan, illustrating the storm's trajectory through the western Pacific.",
+      "sources": [
+        "src_001",
+        "src_002"
+      ]
+    },
+    {
+      "point": "TSMC, the world's largest contract chipmaker, is headquartered in Taiwan, and typhoon disruptions to business operations or reporting schedules can have broader economic significance.",
+      "sources": [
+        "src_003"
+      ]
+    },
+    {
+      "point": "Wenzhou, the forecast landfall site in eastern China, is a major coastal city with a population of approximately 10 million people.",
+      "sources": [
+        "src_003"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-10T15:48:41.913596+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Typhoon Bavi tracked toward Japan's Sakishima Islands, Taiwan, and southeastern China, carrying maximum sustained winds of 162 km/h (100 mph). The storm was forecast to pass very close to the Sakishima Islands — a remote island chain near Taiwan that is part of Okinawa Prefecture — early Saturday morning, July 11.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Authorities warned of violent winds, torrential rain, landslides, and flooding in the regions in the path of the typhoon.",
+        "supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The storm caused mass flight cancellations across the region. Japan Airlines cancelled more than 100 flights for July 10 and 11, affecting nearly 20,000 passengers, while All Nippon Airways cancelled more than 160 flights through July 12, disrupting travel for roughly 20,000 people.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Nearly 900 buildings in Okinawa Prefecture were without power as Typhoon Bavi approached.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Center-left outlets reported that Typhoon Bavi caused devastation in the southern Philippines before moving toward Japan, Taiwan, and China. The Japan Times reported that two landslides triggered by the typhoon's heavy rain on the Philippines' southern island of Mindanao killed at least 15 people and left six others missing.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Center-left outlets reported that local residents on Ishigaki Island were taping up windows and draping windproof nets across homes and shops in preparation for the typhoon. The South China Morning Post reported that residents stocked up on supplies, emptying shelves of instant noodles at a local supermarket, and that some public beaches, coastal parks, and the local ferry terminal appeared closed.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The Straits Times reported that Typhoon Bavi was not expected to make landfall in Taiwan, though some areas could see up to 1 meter of rain starting late July 10. The outlet reported that the storm was downgraded to a moderate typhoon after weakening slightly.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "The Straits Times reported that Taiwan President Lai Ching-te warned that despite the typhoon's weakening, its large storm radius meant it could still bring strong winds and heavy rain to many areas. \"Despite the typhoon's weakening, its large storm radius means it could still bring strong winds and heavy rain to many areas\" — Lai Ching-te, President of Taiwan.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Straits Times reported that more than 2,000 people were evacuated in Taiwan, mainly from the mountainous eastern coast, and nearly 29,000 military personnel were placed on standby to assist relief efforts. The Taipei government set up stations for residents to collect sandbags ahead of the typhoon.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The Straits Times reported that Taiwan's financial markets closed for the day due to the typhoon, and a large portion of north and east Taiwan was off work. TSMC delayed the release of its June sales data from July 10 to July 13 due to the typhoon.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The Straits Times reported that Taiwanese airlines cancelled all flights on July 11 from Taoyuan International Airport. Cathay Pacific cancelled weekend flights between Hong Kong and Taiwan and some flights to Hangzhou, Ningbo, and Fuzhou.",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Straits Times reported that Typhoon Bavi was forecast to make landfall late July 11 or early July 12 near the eastern Chinese city of Wenzhou, which has a population of 10 million.",
+        "supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Japan Times characterized Typhoon Bavi as potentially the region's most destructive storm in years.",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

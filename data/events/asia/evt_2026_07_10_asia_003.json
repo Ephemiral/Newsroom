@@ -1,0 +1,14 @@
+{
+  "cluster_id": "evt_2026_07_10_asia_003",
+  "beat": "asia",
+  "article_ids": [
+    "art_0db957a7fe",
+    "art_48cc12444d",
+    "art_895126f606",
+    "art_a94a9eb81c"
+  ],
+  "created_at": "2026-07-10T15:44:17.333354+00:00",
+  "method": "auto",
+  "threshold": 0.7,
+  "size": 4
+}

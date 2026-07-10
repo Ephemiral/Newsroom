@@ -1,0 +1,35 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_landspace",
+  "type": "organization",
+  "canonical_name": "LandSpace",
+  "aliases": [],
+  "wikidata_qid": "Q48772158",
+  "summary": "LandSpace Technology Corporation is a Chinese commercial space launch provider based in Beijing. It was founded in 2015 by Zhang Changwu.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/LandSpace"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_10_asia_003",
+  "appears_in_events": [
+    "evt_2026_07_10_asia_003"
+  ],
+  "created_at": "2026-07-10T15:46:29.446042+00:00",
+  "last_updated": "2026-07-10T15:46:35.826939+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Entity created from evt_2026_07_10_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-10",
+      "summary_of_change": "Grounded from Wikidata Q48772158 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q48772158"
+    }
+  ]
+}
