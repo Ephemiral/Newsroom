@@ -1,0 +1,30 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_indian_embassy_in_vietnam",
+  "type": "organization",
+  "canonical_name": "Indian Embassy in Vietnam",
+  "aliases": [
+    "Indian embassy in Vietnam"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_11_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_11_asia_002"
+  ],
+  "created_at": "2026-07-11T14:37:05.451250+00:00",
+  "last_updated": "2026-07-11T14:37:16.842115+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-11",
+      "summary_of_change": "Entity created from evt_2026_07_11_asia_002",
+      "source": null
+    }
+  ]
+}

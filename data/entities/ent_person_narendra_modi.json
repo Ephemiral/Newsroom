@@ -1,0 +1,119 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_narendra_modi",
+  "type": "person",
+  "canonical_name": "Narendra Modi",
+  "aliases": [
+    "Indian Prime Minister"
+  ],
+  "wikidata_qid": "Q1058",
+  "summary": "Narendra Damodardas Modi is an Indian politician who has served as the prime minister of India since 26 May 2014. Modi was the chief minister of Gujarat from 2001 to 2014 and is the Member of Parliament (MP) for Varanasi.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Narendra_Modi"
+  ],
+  "image": null,
+  "roles_affiliations": [
+    {
+      "role": "Chief Minister of Gujarat",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1058",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Member of the 16th Lok Sabha",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1058",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Prime Minister of India",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1058",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Member of the Gujarat Legislative Assembly",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1058",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Personnel, Public Grievances and Pensions",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1058",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Member of the 17th Lok Sabha",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1058",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He is a member of the Bharatiya Janata Party (BJP) and of the Rashtriya Swayamsevak Sangh (RSS), a right-wing Hindutva paramilitary volunteer organisation.",
+      "source_url": "https://en.wikipedia.org/wiki/Narendra_Modi",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-11",
+      "last_updated": "2026-07-11",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "He is India's third-longest-serving prime minister, and the longest-serving prime minister outside the Indian National Congress.",
+      "source_url": "https://en.wikipedia.org/wiki/Narendra_Modi",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-11",
+      "last_updated": "2026-07-11",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_11_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_11_asia_002"
+  ],
+  "created_at": "2026-07-11T14:37:05.762478+00:00",
+  "last_updated": "2026-07-11T14:37:16.842250+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-11",
+      "summary_of_change": "Entity created from evt_2026_07_11_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-11",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Narendra_Modi"
+    },
+    {
+      "date": "2026-07-11",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Narendra_Modi"
+    },
+    {
+      "date": "2026-07-11",
+      "summary_of_change": "Grounded from Wikidata Q1058 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1058"
+    }
+  ]
+}

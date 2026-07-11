@@ -204,6 +204,11 @@
       "at": "2026-07-11T04:26:12.287646+00:00",
       "event_id": "evt_2026_07_11_asia_001",
       "outcome": "published"
+    },
+    "ceffb62d831f5c9f": {
+      "at": "2026-07-11T14:35:08.902508+00:00",
+      "event_id": "evt_2026_07_11_asia_002",
+      "outcome": "published"
     }
   }
 }

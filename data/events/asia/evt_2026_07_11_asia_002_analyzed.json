@@ -1,0 +1,765 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_11_asia_002",
+    "beat": "asia",
+    "title": "Speedboat Capsizing Near Phu Quoc Kills 15 Indian Tourists",
+    "summary": "A speedboat carrying 32 Indian tourists and crew capsized on July 11, 2026, approximately 400 metres from Hon May Rut Ngoai Island in southern Vietnam, killing 15 people and leaving 21 survivors. Rough seas and strong winds were cited as a likely cause.",
+    "date": "2026-07-11",
+    "generated_at": "2026-07-11T14:36:35.227714+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_location_hon_may_rut_ngoai_island",
+        "surfaces": [
+          "Hon May Rut Ngoai Island"
+        ],
+        "relevance_to_event": "The specific island location approximately 400 metres from which the speedboat capsized on July 11, 2026, making it the precise geographic center of the incident.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_005",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_phu_quoc",
+        "surfaces": [
+          "Phu Quoc"
+        ],
+        "relevance_to_event": "Vietnam's largest island located approximately 10 kilometres north of Hon May Rut Ngoai Island, providing geographic context for the accident location in a popular tourist region.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_an_thoi_archipelago",
+        "surfaces": [
+          "An Thoi Archipelago"
+        ],
+        "relevance_to_event": "The island group containing Hon May Rut Ngoai Island where the speedboat was operating; part of a popular tourist region with common island-hopping boat tours.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_an_thoi_port",
+        "surfaces": [
+          "An Thoi Port"
+        ],
+        "relevance_to_event": "The reported destination port that the speedboat was travelling toward when it capsized, according to The Straits Times account of the vessel's route.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_indian_embassy_in_vietnam",
+        "surfaces": [
+          "Indian embassy in Vietnam"
+        ],
+        "relevance_to_event": "The official institution that published the list of the 32 Indian nationals on board and established emergency response mechanisms to assist affected families following the incident.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_narendra_modi",
+        "surfaces": [
+          "Narendra Modi",
+          "Indian Prime Minister"
+        ],
+        "relevance_to_event": "Indian Prime Minister who, according to BBC News, expressed sorrow over the accident involving Indian nationals in Vietnam.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_le_minh_hung",
+        "surfaces": [
+          "Le Minh Hung",
+          "Vietnamese Prime Minister"
+        ],
+        "relevance_to_event": "Vietnamese Prime Minister who, according to The South China Morning Post, ordered an investigation into the accident's cause and directed authorities to review maritime safety in the affected area.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-11T14:37:25.349483+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Amazing_beach_on_Phu_Quoc_island_Vietnam_%2838647607275%29.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Amazing_beach_on_Phu_Quoc_island_Vietnam_%2838647607275%29.jpg",
+      "source_page": "https://commons.wikimedia.org/w/index.php?curid=65466114",
+      "width": 6000,
+      "height": 4000,
+      "caption": "A beach on Phu Quoc Island, Vietnam (file photo)",
+      "credit": "dronepicr",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "provider": "openverse",
+      "file_title": "openverse:78acc18f-b8d6-4d23-b369-83d44712e283|Amazing beach on Phu Quoc island Vietnam (38647607275)",
+      "query": "Phu Quoc Island Vietnam",
+      "fetched_at": "2026-07-11T14:37:25.349454+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb1FLYUhJek5YX0lyZ1d1R3NhbmRqNmdndHZ6dWdxMDBhMGwwYVhUcmhJNjNmTURMd3JfeEN2LWJlZ0NJdFJpRWJMcTFmU25SZk1mZEl5TUNPZXFLdHo0eERYeUhwYzFNZEFwMkM4UFBrMHAxZ01PM1AtYjVKZm9ySFdKX1VEMlAzdFF6cEdKMkE0ZHNjZ0NHTUE3QXh2UFZQM2dCak4xWdIBrAFBVV95cUxPbzRGNFhhVGNRdlpQOFBCTUhIdEZfRHhUUnU0eE8zNnhFU21pLXdNNDU0c2hzRlQ0TGNKeVlaRHd0bk1oRXExdzd0TmNuVnM5WDRMUmJYLTN3Ul83WVI4cG1IalpJa3EwSkdNZlF4LUJteUVlbHQycURvMHBJZkxEUS03c0VhNVBLaExmdkNva1JzM2hJSHB0bzZ6Y2tMczZNS0V2NkVsVDJ1aEEz?oc=5",
+      "author": null,
+      "published_at": "2026-07-11T11:41:17+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360241/vietnam-tourist-speedboat-capsizes-killing-15-indian-tourists?utm_source=rss_feed",
+      "author": "Associated Press",
+      "published_at": "2026-07-11T14:10:05+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cwyd7x22lp1o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-11T13:44:03+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/boat-carrying-tourists-capsizes-off-vietnams-phu-quoc-island-killing-15",
+      "author": null,
+      "published_at": "2026-07-11T10:11:30+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A speedboat capsized near Hon May Rut Ngoai Island in southern Vietnam on Saturday, July 11, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "All four outlets across left, center-left, and center-right bias tiers report the capsizing as fact, satisfying the cross-spectrum agreement requirement.",
+      "framing_variants": [
+        {
+          "characterization": "Al Jazeera describes it simply as a 'speedboat accident' in southern Vietnam.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP frames it as a 'tourist boat returning from an island trip' that 'capsized on Saturday', citing state media.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC reports a speedboat 'overturned about 400 metres from Hon May Rut Ngoai island in rough sea conditions on Saturday'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times reports the boat 'capsized off Vietnam's southern island of Phu Quoc on July 11'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Fifteen Indian tourists were killed in the speedboat capsizing.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "All four outlets across left, center-left, and center-right report a death toll of 15, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Al Jazeera reports 15 Indian tourists died.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP reports 'killing 15 Indian visitors', citing state media.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC reports 'fifteen people have died'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times reports 'at least 15 Indian tourists died', using qualifying language.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Twenty-one people were rescued or survived the capsizing.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "Three outlets spanning center-left and center-right bias tiers report 21 survivors, meeting the cross-spectrum agreement threshold.",
+      "framing_variants": [
+        {
+          "characterization": "SCMP states 'twenty-one people were rescued'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC reports 'twenty one people were saved'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times states 'twenty-one people survived the accident'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Sources disagree on the number of crew: SCMP and BBC report four crew members, while The Straits Times reports three crew members and one attendant (totalling four non-tourist personnel but categorised differently).",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "All sources agree the boat carried 32 Indian tourists, but SCMP and BBC describe 'four crew members' while The Straits Times specifies 'three crew members and one attendant', producing an incompatible categorisation of the non-tourist personnel.",
+      "framing_variants": [
+        {
+          "characterization": "Reports '32 Indian tourists and four crew members', total 36.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports '32 Indians and four crew were on board'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports '36 people, comprising 32 Indian tourists, three crew members and one attendant'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The speedboat overturned approximately 400 metres from Hon May Rut Ngoai Island.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Three outlets spanning center-left and center-right consistently report the 400-metre distance from the island as the capsizing location.",
+      "framing_variants": [
+        {
+          "characterization": "States it 'overturned about 400 metres (1,310 feet) from Hon May Rut Ngoai Island'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States it 'overturned about 400 metres (1,312 ft) from Hon May Rut Ngoai island'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States it 'overturned about 400m into the sea', describing the boat's route from Hon May Rut Island to An Thoi Port.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The boat was travelling from Hon May Rut Island to An Thoi Port when it capsized.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Only The Straits Times specifies the vessel's route between Hon May Rut Island and An Thoi Port; other outlets describe it as returning from an island trip without naming the destination port.",
+      "framing_variants": [
+        {
+          "characterization": "States the boat 'was travelling from Hon May Rut Island to An Thoi Port when it overturned'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Sea conditions were rough, with strong winds and high waves at the time of the incident.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Three outlets spanning center-left and center-right all report rough seas and strong winds, with BBC attributing the weather as a potential cause cited by a senior official.",
+      "framing_variants": [
+        {
+          "characterization": "Footage showed 'rough seas and strong winds as rescue teams threw life buoys to people in the water'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "A senior Communist official stated 'the speedboat may have capsized due to heavy winds and high waves'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'sea conditions were rough, with large waves in the area at the time'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Many passengers were trapped inside the speedboat, making rescue operations difficult.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "Both SCMP and BBC (both center-left) report that passengers were trapped inside the vessel, complicating rescue; no center-right or right-leaning sources address this specific detail.",
+      "framing_variants": [
+        {
+          "characterization": "States 'the rescue was difficult because many were trapped inside'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports rescuers 'finding many passengers trapped inside the boat'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Nearby boats, border guards, the navy, the coastguard, and other rescue agencies responded to the capsizing.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "Both SCMP and BBC (both center-left) describe a multi-agency rescue response; no center-right outlet provides the same level of detail.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'border guards, the navy, coastguard and other rescue agencies arrived' after nearby boats initially responded.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'several tourist vessels in the area quickly came to the rescue'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Jet skis were used to ferry survivors to shore, where people on the beach provided first aid.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "Only SCMP mentions the use of jet skis and beach-side first aid as part of the rescue response.",
+      "framing_variants": [
+        {
+          "characterization": "States 'jet skis ferried survivors back to shore' and 'people on the beach provided first aid to victims'.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "All deceased victims were recovered from the water.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "Only SCMP explicitly states that all the dead were recovered; other outlets do not confirm this detail.",
+      "framing_variants": [
+        {
+          "characterization": "States 'all the dead were recovered' and 'the injured were taken to hospitals'.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Vietnamese Prime Minister Le Minh Hung ordered an investigation into the cause of the accident and directed authorities to hold those responsible accountable.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Only SCMP reports the Vietnamese prime minister's directive to investigate and pursue accountability; no other outlet in the cluster mentions this.",
+      "framing_variants": [
+        {
+          "characterization": "Reports that PM Le Minh Hung 'ordered an investigation into the cause of the accident' and 'directed authorities to hold those responsible accountable'.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Vietnamese Prime Minister Le Minh Hung asked authorities to review waterway and maritime safety in the accident area and similar areas.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Only SCMP reports this specific safety-review directive from the Vietnamese prime minister.",
+      "framing_variants": [
+        {
+          "characterization": "Reports PM asked authorities to 'review waterway and maritime safety in the area where the accident happened and other similar areas'.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Indian Prime Minister Narendra Modi expressed sorrow over the accident involving Indian nationals in Vietnam.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Only BBC reports Indian PM Modi's public statement of condolence about the boat accident.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports Modi said he was 'extremely saddened to learn about the tragic news of a boat accident involving Indian nationals' in Vietnam.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "The Indian embassy in Vietnam published the list of the 32 Indian nationals on board and established hotlines or emergency response centres to assist affected families.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Both BBC (center-left) and The Straits Times (center-right) report the Indian embassy's active response, though they differ slightly in detail — BBC mentions hotlines and the passenger list, while The Straits Times reports emergency response centres in Ho Chi Minh City and Hanoi.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports the embassy described the incident as 'tragic', published the full passenger list, and set up telephone hotlines 'to provide information and assistance to affected families'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times reports the embassy 'was monitoring the incident and had established emergency response centres in Ho Chi Minh City and Hanoi to assist affected families'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Hon May Rut Ngoai Island is a small island in the An Thoi Archipelago in the Gulf of Thailand, located approximately 10 kilometres south of Phu Quoc, Vietnam's largest island.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Multiple outlets describe the geographic location of the island, with BBC providing the most detail (An Thoi Archipelago, Gulf of Thailand, 10km south of Phu Quoc); the center-right Straits Times does not challenge these details but focuses on Phu Quoc's proximity.",
+      "framing_variants": [
+        {
+          "characterization": "Describes island as 'near Phu Quoc, Vietnam's largest island'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC describes it as 'a tiny island in the An Thoi Archipelago in the Gulf of Thailand' about '10km south of Phu Quoc, Vietnam's largest island', noting it 'attracts many tourists for island-hopping boat tours'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times notes Phu Quoc is 'Vietnam's largest island' and 'one of the country's most popular tourist destinations attracting many Indian visitors in recent years'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Authorities were still working to confirm the exact number of deaths and survivors at the time of reporting.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "Only BBC cites a local Communist official stating that authorities were still confirming the final casualty numbers, adding uncertainty to the toll reported by other outlets.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports a statement from local Communist official Nguyen Tien Hai that 'authorities were still working to confirm the exact number of those who died as well as the survivors'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Phu Quoc is Vietnam's largest island and one of its most popular tourist destinations, attracting a growing number of Indian visitors in recent years. The An Thoi Archipelago to its south is a common destination for island-hopping boat tours.",
+      "sources": [
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "The incident occurred on Saturday, July 11, 2026, with the speedboat returning from an island excursion to Hon May Rut Ngoai Island when it capsized in rough weather.",
+      "sources": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Vietnam's coastline and island waters are frequently subject to strong winds and rough seas, which have been factors in previous maritime accidents in the region.",
+      "sources": [
+        "src_003",
+        "src_004"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-11T14:36:53.601605+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "A speedboat carrying Indian tourists capsized near Hon May Rut Ngoai Island in southern Vietnam on Saturday, July 11, 2026, killing 15 people. The vessel overturned approximately 400 metres from the island in rough seas with strong winds and high waves. Twenty-one people survived the incident.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_005",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Hon May Rut Ngoai Island is a small island in the An Thoi Archipelago in the Gulf of Thailand, located approximately 10 kilometres south of Phu Quoc, Vietnam's largest island. The area is part of a popular tourist region in southern Vietnam.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Center-left outlets reported that many passengers were trapped inside the speedboat when it capsized, complicating rescue operations. The South China Morning Post and BBC News described a multi-agency response involving nearby boats, border guards, the navy, the coastguard, and other rescue agencies. Right-leaning and center-right sources did not provide these operational details.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Only the South China Morning Post reported that jet skis were used to ferry survivors to shore, where people on the beach provided first aid. The same outlet was alone in explicitly stating that all deceased victims were recovered from the water.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The Straits Times alone specified the vessel's route, reporting the boat was travelling from Hon May Rut Island to An Thoi Port when it capsized. Other outlets described the journey more generally as a return trip from an island excursion without naming the destination port.",
+        "supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Sources agreed the speedboat carried 32 Indian tourists but categorized the crew differently. The South China Morning Post and BBC News described four crew members, while The Straits Times specified three crew members and one attendant—totalling four non-tourist personnel but organized under incompatible labels.",
+        "supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The BBC News cited a local Communist Party official stating that authorities were still working to confirm the exact number of deaths and survivors at the time of reporting, introducing some uncertainty around the casualty figures reported elsewhere. No other outlet mentioned this ongoing verification process.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "The Indian embassy in Vietnam published the list of the 32 Indian nationals on board and established emergency response mechanisms to assist affected families. Both center-left and center-right outlets reported this institutional response, though they differed in detail—BBC News mentioned hotlines and the passenger list, while The Straits Times reported emergency response centres in Ho Chi Minh City and Hanoi.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Only BBC News reported that Indian Prime Minister Narendra Modi expressed sorrow over the accident involving Indian nationals in Vietnam. No other outlet in the coverage cluster mentioned this statement.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The South China Morning Post alone reported Vietnamese government responses beyond the immediate rescue. According to that outlet, Vietnamese Prime Minister Le Minh Hung ordered an investigation into the cause of the accident, directed authorities to hold those responsible accountable, and asked for a review of waterway and maritime safety in the accident area and similar locations. No center-right or right-leaning sources mentioned these directives.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

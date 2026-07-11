@@ -1,0 +1,30 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_le_minh_hung",
+  "type": "person",
+  "canonical_name": "Le Minh Hung",
+  "aliases": [
+    "Vietnamese Prime Minister"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_11_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_11_asia_002"
+  ],
+  "created_at": "2026-07-11T14:37:07.646534+00:00",
+  "last_updated": "2026-07-11T14:37:16.842483+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-11",
+      "summary_of_change": "Entity created from evt_2026_07_11_asia_002",
+      "source": null
+    }
+  ]
+}
