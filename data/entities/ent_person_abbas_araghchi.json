@@ -3,7 +3,9 @@
   "entity_id": "ent_person_abbas_araghchi",
   "type": "person",
   "canonical_name": "Abbas Araghchi",
-  "aliases": [],
+  "aliases": [
+    "Iranian Foreign Minister Abbas Araghchi"
+  ],
   "wikidata_qid": "Q7459020",
   "summary": "Abbas Araghchi is an Iranian diplomat and politician who has served as the foreign minister of Iran since August 2024.",
   "summary_sources": [
@@ -66,10 +68,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_06_29_026",
   "appears_in_events": [
-    "evt_2026_06_29_026"
+    "evt_2026_06_29_026",
+    "evt_2026_07_11_israel_middle_east_001"
   ],
   "created_at": "2026-07-08T18:30:46.040640+00:00",
-  "last_updated": "2026-07-08T18:30:57.790522+00:00",
+  "last_updated": "2026-07-11T04:09:37.752551+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

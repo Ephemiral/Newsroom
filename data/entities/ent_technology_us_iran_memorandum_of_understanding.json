@@ -5,7 +5,8 @@
   "canonical_name": "US-Iran Memorandum of Understanding",
   "aliases": [
     "memorandum of understanding",
-    "MoU"
+    "MoU",
+    "US-Iran interim memorandum of understanding"
   ],
   "wikidata_qid": null,
   "summary": null,
@@ -17,10 +18,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_01_026",
   "appears_in_events": [
-    "evt_2026_07_01_026"
+    "evt_2026_07_01_026",
+    "evt_2026_07_11_israel_middle_east_001"
   ],
   "created_at": "2026-07-08T18:31:50.230380+00:00",
-  "last_updated": "2026-07-08T18:31:55.852677+00:00",
+  "last_updated": "2026-07-11T04:09:37.754151+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

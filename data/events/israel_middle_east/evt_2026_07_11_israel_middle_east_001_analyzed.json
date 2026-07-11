@@ -1,0 +1,1129 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_11_israel_middle_east_001",
+    "beat": "israel_middle_east",
+    "title": "US-Iran Military Escalation: Second Round of Strikes and Ceasefire Collapse",
+    "summary": "The United States carried out a second round of strikes against Iran following Iranian attacks on commercial vessels in the Strait of Hormuz, with President Trump declaring the interim memorandum of understanding 'over.' Both sides traded accusations of ceasefire violations as the region's fragile post-war agreement appeared to unravel.",
+    "date": "2026-07-09",
+    "generated_at": "2026-07-11T04:08:41.543867+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "President Trump",
+          "Trump"
+        ],
+        "relevance_to_event": "Trump declared the US-Iran memorandum of understanding 'over' at the NATO summit, ordered the second round of strikes, and made public threats about further military action and a potential blockade of Iranian ports.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008",
+            "clm_013",
+            "clm_014",
+            "clm_015",
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_abbas_araghchi",
+        "surfaces": [
+          "Abbas Araghchi",
+          "Iranian Foreign Minister Abbas Araghchi"
+        ],
+        "relevance_to_event": "Iran's Foreign Minister accused the US Treasury Secretary of violating the memorandum of understanding regarding US force deployments in the region.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_mohammad_bagher_ghalibaf",
+        "surfaces": [
+          "Mohammad Bagher Ghalibaf"
+        ],
+        "relevance_to_event": "Iran's parliamentary speaker and chief negotiator with the US accused the US of breaching the memorandum of understanding through sanctions, military attacks, and violations of Iranian arrangements in the Strait of Hormuz.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_united_states",
+        "surfaces": [
+          "United States",
+          "US"
+        ],
+        "relevance_to_event": "The US carried out two consecutive days of strikes against Iran in response to Iranian attacks on commercial vessels, declaring the ceasefire agreement ended.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "Iran",
+          "Iranian"
+        ],
+        "relevance_to_event": "Iran attacked US military sites in Bahrain and Kuwait and targeted commercial vessels in the Strait of Hormuz, prompting the US strikes and escalation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_strait_of_hormuz",
+        "surfaces": [
+          "Strait of Hormuz"
+        ],
+        "relevance_to_event": "The geographic location where Iranian attacks on commercial vessels occurred and where both sides are disputing safe passage agreements under the memorandum of understanding.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_009",
+            "clm_010",
+            "clm_012",
+            "clm_019",
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_us_central_command",
+        "surfaces": [
+          "US Central Command",
+          "CENTCOM"
+        ],
+        "relevance_to_event": "US Central Command stated it was conducting the strikes at the direction of the Commander in Chief to degrade Iran's ability to threaten freedom of navigation in the Strait of Hormuz.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_030"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_us_iran_memorandum_of_understanding",
+        "surfaces": [
+          "US-Iran interim memorandum of understanding",
+          "memorandum of understanding",
+          "MoU"
+        ],
+        "relevance_to_event": "The June 17 agreement that included a 60-day ceasefire, safe passage provisions, and sanctions relief—the core accord now declared 'over' by Trump and disputed by both sides.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008",
+            "clm_009",
+            "clm_010",
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-11T04:09:45.121263+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/IRGCN_gunner_pointing_his_finger_at_the_U.S._Navy_warship_to_warn_them.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/IRGCN_gunner_pointing_his_finger_at_the_U.S._Navy_warship_to_warn_them.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IRGCN_gunner_pointing_his_finger_at_the_U.S._Navy_warship_to_warn_them.jpg",
+      "width": 1280,
+      "height": 720,
+      "caption": "Iranian Revolutionary Guard Corps Navy gunner near U.S. Navy warship (file photo)",
+      "credit": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:IRGCN gunner pointing his finger at the U.S. Navy warship to warn them.jpg",
+      "query": "naval warship Persian Gulf",
+      "fetched_at": "2026-07-11T04:09:45.121224+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/08/us-carries-out-another-wave-of-strikes-on-iran",
+      "author": "Nadeem Badshah",
+      "published_at": "2026-07-09T02:42:09+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Nadeem Badshah is a reporter for The Guardian who covers crime, policing, and social issues in the UK.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/liveblog-july-11-2026/",
+      "author": null,
+      "published_at": "2026-07-10T23:36:11+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/commentisfree/2026/jul/09/trump-is-bombing-iran-again-and-blundering-again-he-has-no-grasp-of-his-enemy",
+      "author": "Sina Toossi",
+      "published_at": "2026-07-09T09:17:34+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/clyw8w1g409o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-08T18:05:31+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "The US military carried out a second consecutive day of strikes against Iran.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Multiple outlets across center-left (The Guardian, BBC) and center-right (Times of Israel via context) confirm the second-day strikes as fact, meeting cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "States plainly that 'the US military carried out strikes on Iran for a second day.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Frames the strikes as following 'fresh round of US strikes on southern Iran' after Iranian vessel attacks.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports Trump's statements that the US 'hit them very hard last night' and would 'probably hit them hard again tonight.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "US Central Command stated it was conducting additional strikes against Iran at the direction of the Commander in Chief, aimed at degrading Iran's ability to threaten freedom of navigation in the Strait of Hormuz.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both The Guardian and BBC News report the US Central Command statement confirming the strikes and their stated purpose, spanning center-left outlets with consistent factual reporting.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes CENTCOM directly: 'to further degrade their ability to threaten freedom of navigation in the Strait of Hormuz.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports CENTCOM said it launched 'powerful' strikes in response to attacks on three tankers in the Strait of Hormuz.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The US military claimed to have struck 170 Iranian targets in the past 48 hours.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian (opinion piece by Sina Toossi) reports this specific figure; no other outlet in the cluster cites the 170-target claim.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as a US military claim without independent verification: 'the US military claiming to have struck 170 Iranian targets in the past 48 hours.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Explosions were reported late Wednesday at multiple locations in southern Iran, including Bandar Abbas, Sirik, Bushehr province, and Abu Musa Island.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Multiple outlets report explosions at these southern Iranian locations, attributing the information largely to Iranian state media, providing cross-outlet corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes reports to Iranian state media for Bandar Abbas, Sirik, and Bushehr; separately notes Iranian state TV reported explosions on Abu Musa Island.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'explosions were reported across a further three locations in Iran late on Wednesday' without specifying source.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Iranian state media reported eight army members killed in US strikes in Bandar Abbas and Bushehr.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Iranian state media reported that attacks on Bushehr province did not cause damage to the Bushehr nuclear power plant.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian cites Iran's Mehr news agency reporting no damage to the nuclear power plant; no other outlet in the cluster confirms this specific claim.",
+      "framing_variants": [
+        {
+          "characterization": "Reports via Iran's Mehr news agency that the attacks did not damage the Bushehr nuclear power plant.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Iranian state media reported eight members of Iran's army were killed in US strikes in Bandar Abbas and Bushehr.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC News reports the specific casualty figure of eight army members killed, attributed to Iranian state media.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes the death toll to Iranian state media without independent verification.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Trump declared the US-Iran interim memorandum of understanding 'over' at the NATO summit in Ankara.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "All three articles reporting on this event confirm Trump's declaration that the MoU was 'over,' representing cross-outlet agreement across center-left and center-right sources.",
+      "framing_variants": [
+        {
+          "characterization": "States Trump said 'an interim agreement to end the war was over.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports Trump 'said he believed the US-Iran memorandum of understanding was over.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Quotes Trump directly: 'I think it's over,' presenting it as Trump's stated position.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Trump accused Iran of violating the interim deal by attacking commercial ships, while Iran's Foreign Minister and parliamentary speaker accused the US of breaching the memorandum of understanding through sanctions violations and military strikes.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "ceasefire_details",
+      "rationale": "The US and Iran make directly contradictory claims about who violated the MoU: the US points to Iranian attacks on ships, while Iran points to US sanctions moves, military strikes, and alleged violations of the agreement's terms.",
+      "framing_variants": [
+        {
+          "characterization": "Reports both Trump's accusation that Iran violated the deal and Iranian parliamentary speaker Ghalibaf's counter-accusations about US sanctions breaches and attacks in southern Iran.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Iranian Foreign Minister Araghchi claims 'Iran has so far kept its word, unlike the so-called US Treasury Secretary who is violating Para 9 of the MoU.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes Iran asserted the interim ceasefire deal gives it the right to manage Strait traffic, framing its actions as within the agreement.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes multiple US actions — resisting release of frozen assets, revoking oil waiver — as potential US violations alongside Iranian vessel attacks.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The US-Iran memorandum of understanding was signed on 17 June and included 14 points, among them a 60-day ceasefire period for negotiations, safe passage of vessels through the Strait of Hormuz, and the US lifting sanctions on Iran.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Multiple outlets across the spectrum confirm the date, structure, and key terms of the MoU, including the 60-day negotiating window and Strait of Hormuz passage provisions.",
+      "framing_variants": [
+        {
+          "characterization": "Describes the MoU as including 14 points, a 60-day ceasefire, safe passage through the Strait, and US sanctions relief; also notes Iran agreed to 'best efforts for safe passage of commercial vessels with no charge for 60 days.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Notes the MoU was signed on 17 June and references Iran's assertion the deal gives it rights to manage Strait traffic.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States the MoU committed Iran to maintaining the status quo in its nuclear program and included a 60-day negotiation period on nuclear issues.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Tuesday's Iranian attacks on three cargo ships transiting the Strait of Hormuz triggered the most severe exchange of strikes between the US and Iran since the MoU was signed.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both The Guardian and BBC News characterize the Tuesday-Wednesday exchange as the worst since the MoU was signed, providing cross-outlet confirmation of this assessment.",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as 'the most extensive exchange of fire between the two sides since the interim deal was signed last month.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'Tuesday night into Wednesday saw the worst exchange of strikes between the US and Iran since the deal.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Iran attacked US military sites in Bahrain and Kuwait on Wednesday, and targeted them again on Thursday, with Kuwait's military reporting it was actively intercepting incoming drones and missiles.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both The Guardian and BBC News report Iran's attacks on US military sites in Bahrain and Kuwait as stated facts confirmed by Iranian statements and local responses.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Iran attacked US sites in both countries Wednesday and again Thursday, with sirens sounding in Bahrain and Kuwait's military intercepting drones and missiles.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports Iran said it targeted US military sites in Bahrain and Kuwait 'in retaliation.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Iran attacked commercial vessels transiting the southern part of the Strait of Hormuz outside the shipping corridor it had designated, prompting the US strikes.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both Guardian articles report Iran's attacks on commercial vessels as the trigger for US strikes, with one specifically noting the attacks occurred outside Iran's designated shipping corridor; both sources are center-left.",
+      "framing_variants": [
+        {
+          "characterization": "Specifies Iran attacked vessels 'outside the shipping corridor it had designated,' framing this as a violation of Iran's own stated arrangements.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports CENTCOM cited 'attacks on three tankers in the Strait of Hormuz' as justification for strikes.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Trump posted on Truth Social that the strikes were 'in retribution for yesterday's bombing of ships by Iran' and warned 'if it happens again, it will get much worse.'",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Two Guardian articles from different publication times both quote Trump's Truth Social post verbatim, providing corroboration of the direct quote.",
+      "framing_variants": [
+        {
+          "characterization": "Reports the quote as Trump's stated rationale for the second round of strikes.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Quotes the Truth Social post in full as context for Trump's broader escalatory rhetoric.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Trump threatened a new blockade of Iranian ports and suggested the US military might 'just finish the job,' while also saying strikes would not result in 'long-term' military action.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both Guardian articles report Trump's escalatory rhetoric including the blockade threat and 'finish the job' suggestion, alongside his qualification about no long-term action; both are center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Trump suggested the US might 'just finish the job' and said 'anything that happens is going to happen very fast,' while noting strikes would not be long-term.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes Trump as threatening 'renewed military action and even a new blockade of Iranian ports.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Trump said he did not want to 'waste my time' on negotiations with Iran and expressed indifference to further talks, while leaving open the possibility that US negotiators Steve Witkoff and Jared Kushner could continue if they wished.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Only BBC News reports Trump's specific dismissive language about negotiations and his delegation of the decision to Witkoff and Kushner.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Trump said 'I don't care' and 'I don't want to waste my time with them,' while acknowledging negotiators could continue 'if they want.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "The US Treasury revoked a temporary sanctions waiver allowing Iran to export oil.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Three outlets confirm the revocation of Iran's oil export waiver, with one specifically dating it to July 7, representing consistent cross-outlet reporting.",
+      "framing_variants": [
+        {
+          "characterization": "States the US Treasury 'revoked a temporary sanctions waiver for Tehran to export oil.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Dates the action specifically to 7 July and frames it as one of multiple US actions undermining the MoU.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'the US also said it had revoked its temporary suspension of sanctions on Iranian oil sales.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "An unnamed US official told Reuters that the overnight strikes were expected to be larger than those carried out in the first round.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian cites this unnamed US official's prediction about the scale of overnight strikes via Reuters.",
+      "framing_variants": [
+        {
+          "characterization": "Reports via unnamed US official to Reuters that overnight strikes were expected to be bigger than the first round.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Iran's Foreign Minister Abbas Araghchi stated Iran had kept its word under the ceasefire while accusing the US Treasury Secretary of violating Paragraph 9 of the MoU regarding US force deployments in the region.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Both Times of Israel and BBC News report Araghchi's statement about Iranian compliance and US violations, spanning center-right and center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Araghchi directly: 'Iran has so far kept its word, unlike the so-called US Treasury Secretary who is violating Para 9 of the MoU.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes Araghchi 'responded to Trump's comments' though without quoting the specific Paragraph 9 claim.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Iran's parliamentary speaker Mohammad Bagher Ghalibaf, who also serves as Iran's chief negotiator with the US, accused the US of breaching the MoU through sanctions on oil sales, military attacks in southern Iran, and violations of Iranian arrangements in the Strait of Hormuz.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Both The Guardian and BBC News report Ghalibaf's role and his accusations of US MoU violations across center-left outlets, with consistent detail.",
+      "framing_variants": [
+        {
+          "characterization": "Identifies Ghalibaf as 'Iran's parliament speaker' and 'key negotiator in talks over a permanent end to the war.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Names Ghalibaf as 'the country's chief negotiator with the US' and lists three specific breach accusations including oil sanctions, southern Iran attacks, and 'violating Iranian adjustments in the Strait.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Iran told Washington that recent attacks on shipping in the Strait of Hormuz were from 'an errant part of their system,' while a US official assessed that a power struggle between hardliners and pragmatists was unfolding in Iran.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Only the Times of Israel reports both Iran's internal explanation for the shipping attacks and the US official's assessment of an Iranian power struggle.",
+      "framing_variants": [
+        {
+          "characterization": "Presents Iran's 'errant system' explanation and the power struggle assessment as context for why US officials described conversations as 'productive in recent days.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "The United States is demanding that Iran publicly commit to stopping attacks on ships in the Strait of Hormuz and declare all shipping lanes open with no tolls.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Only the Times of Israel reports the specific US demands regarding public Iranian commitments on Strait of Hormuz access and toll-free passage.",
+      "framing_variants": [
+        {
+          "characterization": "Presents these as active US demands, noting Iran 'has adamantly refused to give up control of the strait.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Iran is believed to possess more than 900 pounds of highly enriched uranium, which Trump and other US officials refer to as 'nuclear dust,' and the US is demanding Iran turn over its nuclear materials as a fundamental condition of any deal.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "nuclear_diplomacy",
+      "rationale": "Only the Times of Israel reports the specific quantity of Iran's highly enriched uranium stockpile, the US terminology for it, and the explicit US demand for nuclear material transfer.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes a US official: 'I just want to be clear here that if we don't get the dust, we do not have a deal with Iran,' and notes the US has both military and economic options if Iran refuses.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "CNN obtained satellite imagery, analyzed by the Institute for Science and International Security, suggesting Iran may be trying to rebuild nuclear and missile facilities in potential violation of the MoU, including repair work at Parchin and activity at Pickaxe Mountain.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "nuclear_diplomacy",
+      "rationale": "Only the Times of Israel reports the CNN satellite imagery findings about potential Iranian nuclear facility reconstruction; no other outlet in the cluster covers this.",
+      "framing_variants": [
+        {
+          "characterization": "Presents the satellite imagery as evidence of potential MoU violations, noting the MoU committed Iran to 'maintaining the status quo in its nuclear program.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Trump ordered the US military to be prepared to launch strikes against Iran if the Iranian government carries out or attempts an assassination of the president, framing this against the backdrop of calls for Trump's killing at Khamenei's funeral.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only the Times of Israel reports Trump's specific directive preparing military action in response to any assassination attempt, contextualizing it against the Khamenei funeral.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Trump stated 'Orders have already been given, and the US Military is ready, willing, and able, for a one year period of time, subject to extension, to completely decimate and destroy all areas of Iran.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "NATO Secretary General Mark Rutte described the US strikes as 'absolutely necessary' and said Iran was 'basically violating the ceasefire.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only BBC News reports NATO chief Rutte's characterization of the strikes and his assessment of Iranian ceasefire violations.",
+      "framing_variants": [
+        {
+          "characterization": "Presents Rutte's comments as a NATO endorsement of the US military action and condemnation of Iran.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "A senior adviser to Iran's supreme leader, Ali Akbar Velayati, warned that new US strikes would be met with an 'immediate response,' while Deputy Foreign Minister Kazem Gharibabadi characterized Trump's comments as 'not a sign of strength, but rather an admission of the failure of a policy.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only BBC News reports these specific statements from Velayati and Gharibabadi as part of Iran's official response.",
+      "framing_variants": [
+        {
+          "characterization": "Presents both statements as part of Iran's institutional response to Trump's escalatory rhetoric.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "Senator Bernie Sanders criticized Trump's resumption of strikes, saying it 'won't make America stronger,' will cost more lives and taxpayer dollars, and noting Trump declared the ceasefire 'over' after less than a month.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports Sanders' criticism of the resumed strikes; no other outlet in the cluster covers this domestic political reaction.",
+      "framing_variants": [
+        {
+          "characterization": "Presents Sanders' statement as domestic political opposition to Trump's Iran policy.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_028",
+      "text": "Oil prices rose sharply in response to the escalation, with Brent crude jumping more than 5% to close to $80 a barrel and US stock markets falling.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "economic_impact",
+      "rationale": "Both The Guardian and BBC News report rising oil prices in response to the conflict escalation, with The Guardian providing the specific Brent crude figure.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Brent crude jumped 'more than 5% to close to $80 a barrel' and US stock markets fell.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports oil prices jumped after Trump's comments but notes they 'are still well below the highs seen during the full closure of the strait.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_029",
+      "text": "Global oil inventories remain tight and shipping through the Strait of Hormuz has remained far below prewar levels, with US strategic petroleum reserves substantially depleted.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "economic_impact",
+      "rationale": "Only The Guardian opinion piece by Sina Toossi provides this assessment of the broader energy market context; other articles do not address US petroleum reserve levels.",
+      "framing_variants": [
+        {
+          "characterization": "Frames the tight supply conditions and depleted US reserves as strategic vulnerabilities that increase the stakes of renewed conflict.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_030",
+      "text": "More than 20 US Navy warships were continuing to patrol waters across the Middle East, according to CENTCOM.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC News reports the specific CENTCOM statement about the number of US Navy warships patrolling the region.",
+      "framing_variants": [
+        {
+          "characterization": "Presents the naval deployment as evidence of continued US military posture in the region alongside the strikes.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-11T04:09:29.242903+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "The United States carried out a second consecutive day of strikes against Iran on Wednesday and Thursday, with US Central Command stating it was conducting additional strikes at the direction of the Commander in Chief aimed at degrading Iran's ability to threaten freedom of navigation in the Strait of Hormuz. Explosions were reported late Wednesday at multiple locations in southern Iran, including Bandar Abbas, Sirik, Bushehr province, and Abu Musa Island.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The strikes followed Iranian attacks on commercial vessels transiting the southern part of the Strait of Hormuz outside the shipping corridor Iran had designated. President Trump declared the US-Iran interim memorandum of understanding 'over' at the NATO summit in Ankara. Trump posted on Truth Social that the strikes were 'in retribution for yesterday's bombing of ships by Iran' and warned 'if it happens again, it will get much worse.'",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_007",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Iran attacked US military sites in Bahrain and Kuwait on Wednesday and targeted them again on Thursday, with Kuwait's military reporting it was actively intercepting incoming drones and missiles. Tuesday's Iranian attacks on three cargo ships transiting the Strait of Hormuz triggered what multiple outlets characterized as the most severe exchange of strikes between the US and Iran since the memorandum of understanding was signed.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The US-Iran memorandum of understanding was signed on June 17 and included 14 points, among them a 60-day ceasefire period for negotiations, safe passage of vessels through the Strait of Hormuz, and the US lifting sanctions on Iran. The US Treasury revoked a temporary sanctions waiver allowing Iran to export oil shortly before the escalation.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "President Trump threatened a new blockade of Iranian ports and suggested the US military might 'just finish the job,' while also saying strikes would not result in 'long-term' military action. The escalation sent oil prices sharply higher, with Brent crude jumping more than 5% to close to $80 a barrel and US stock markets falling.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_028"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Iranian Foreign Minister Abbas Araghchi stated Iran had kept its word under the ceasefire while accusing the US Treasury Secretary of violating Paragraph 9 of the MoU regarding US force deployments in the region. Iran's parliamentary speaker Mohammad Bagher Ghalibaf, who also serves as Iran's chief negotiator with the US, accused the US of breaching the MoU through sanctions on oil sales, military attacks in southern Iran, and violations of Iranian arrangements in the Strait of Hormuz.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The Times of Israel reported that Iran told Washington the recent attacks on shipping in the Strait of Hormuz were from 'an errant part of their system,' while a US official assessed that a power struggle between hardliners and pragmatists was unfolding in Iran. This characterization of internal Iranian dynamics appeared only in center-right Israeli coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "The Times of Israel reported that the United States is demanding that Iran publicly commit to stopping attacks on ships in the Strait of Hormuz and declare all shipping lanes open with no tolls. The outlet also reported that Iran is believed to possess more than 900 pounds of highly enriched uranium, which Trump and other US officials refer to as 'nuclear dust,' and that the US is demanding Iran turn over its nuclear materials as a fundamental condition of any deal. No other outlets in the coverage reported these specific US negotiating demands.",
+        "supports": {
+          "claim_ids": [
+            "clm_021",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Times of Israel reported that CNN obtained satellite imagery, analyzed by the Institute for Science and International Security, suggesting Iran may be trying to rebuild nuclear and missile facilities in potential violation of the MoU, including repair work at Parchin and activity at Pickaxe Mountain. This satellite intelligence assessment appeared only in center-right Israeli coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "BBC News reported that President Trump said he did not want to 'waste my time' on negotiations with Iran and expressed indifference to further talks, while leaving open the possibility that US negotiators Steve Witkoff and Jared Kushner could continue if they wished. This characterization of Trump's negotiating posture appeared only in BBC's center-left coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The Guardian reported that the US military claimed to have struck 170 Iranian targets in the past 48 hours, a specific figure that did not appear in other outlets' coverage. The Guardian also cited an unnamed US official telling Reuters that the overnight strikes were expected to be larger than those carried out in the first round. These assessments of strike scale appeared only in center-left coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Iranian state media reported eight members of Iran's army were killed in US strikes in Bandar Abbas and Bushehr, according to BBC News. The Guardian reported separately that Iranian state media said attacks on Bushehr province did not cause damage to the Bushehr nuclear power plant. These casualty and damage assessments from Iranian sources appeared in center-left outlets only.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "BBC News reported that NATO Secretary General Mark Rutte described the US strikes as 'absolutely necessary' and said Iran was 'basically violating the ceasefire.' This characterization of NATO's position appeared only in BBC's coverage. The Guardian reported that Senator Bernie Sanders criticized Trump's resumption of strikes, saying it 'won't make America stronger,' will cost more lives and taxpayer dollars, and noting Trump declared the ceasefire 'over' after less than a month — a domestic political reaction that appeared only in The Guardian's center-left coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_025",
+            "clm_027"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "BBC News reported that a senior adviser to Iran's supreme leader, Ali Akbar Velayati, warned that new US strikes would be met with an 'immediate response,' while Deputy Foreign Minister Kazem Gharibabadi characterized Trump's comments as 'not a sign of strength, but rather an admission of the failure of a policy.' These specific Iranian official responses appeared only in BBC's coverage. The Times of Israel reported that Trump ordered the US military to be prepared to launch strikes against Iran if the Iranian government carries out or attempts an assassination of the president, framing this against the backdrop of calls for Trump's killing at Khamenei's funeral — a directive that appeared only in center-right Israeli coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_026",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "The Guardian's opinion coverage assessed that global oil inventories remain tight and shipping through the Strait of Hormuz has remained far below prewar levels, with US strategic petroleum reserves substantially depleted. BBC News reported that more than 20 US Navy warships were continuing to patrol waters across the Middle East, according to CENTCOM. These assessments of the broader strategic and energy context appeared only in center-left outlets.",
+        "supports": {
+          "claim_ids": [
+            "clm_029",
+            "clm_030"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "The United States and Iran offered contradictory accounts of who violated the interim memorandum of understanding. President Trump accused Iran of violating the deal by attacking commercial ships in the Strait of Hormuz. Iran's Foreign Minister Abbas Araghchi and parliamentary speaker Mohammad Bagher Ghalibaf accused the US of breaching the agreement through the revocation of oil export sanctions, military strikes in southern Iran, and violations of the agreement's terms regarding US force deployments and shipping arrangements in the Strait of Hormuz.",
+        "supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}

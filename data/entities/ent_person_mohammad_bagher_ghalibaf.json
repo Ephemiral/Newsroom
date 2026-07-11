@@ -4,7 +4,8 @@
   "type": "person",
   "canonical_name": "Mohammad-Bagher Ghalibaf",
   "aliases": [
-    "Iran's parliament speaker"
+    "Iran's parliament speaker",
+    "Mohammad Bagher Ghalibaf"
   ],
   "wikidata_qid": "Q542074",
   "summary": "Mohammad Bagher Ghalibaf is an Iranian politician and former Islamic Revolutionary Guard Corps (IRGC) brigadier general, who has served as Speaker of the Parliament of Iran since 2020. As of April 2026, he has been described as handling the strategic matters of Iran.",
@@ -76,10 +77,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_06_04_062",
   "appears_in_events": [
-    "evt_2026_06_04_062"
+    "evt_2026_06_04_062",
+    "evt_2026_07_11_israel_middle_east_001"
   ],
   "created_at": "2026-07-08T18:29:15.898281+00:00",
-  "last_updated": "2026-07-08T18:29:39.638671+00:00",
+  "last_updated": "2026-07-11T04:09:37.752774+00:00",
   "change_log": [
     {
       "date": "2026-07-08",
