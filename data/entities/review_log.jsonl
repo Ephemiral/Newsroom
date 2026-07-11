@@ -98,3 +98,5 @@
 {"kind": "low_confidence_match", "name": "Boeing 737-800", "candidates": ["ent_technology_boeing_737_400"], "event_id": "evt_2026_07_10_europe_001", "at": "2026-07-10T15:34:32.124841+00:00"}
 {"kind": "person_grounded", "entity_id": "ent_person_lai_ching_te", "name": "Lai Ching-te", "qid": "Q3847080", "context": "President of Taiwan warning of continued typhoon dangers despite storm weakening", "event_id": "evt_2026_07_10_asia_004", "at": "2026-07-10T15:48:53.318713+00:00"}
 {"kind": "low_confidence_match", "name": "Taiwan Semiconductor Manufacturing Company (TSMC)", "candidates": ["ent_location_taiwan"], "event_id": "evt_2026_07_10_asia_004", "at": "2026-07-10T15:48:54.838523+00:00"}
+{"kind": "low_confidence_match", "name": "Japan", "candidates": ["ent_organization_japan_airlines"], "event_id": "evt_2026_07_11_asia_001", "at": "2026-07-11T04:29:58.394958+00:00"}
+{"kind": "low_confidence_match", "name": "China", "candidates": ["ent_organization_china_aerospace_science_and_technology_corporation", "ent_organization_people_s_liberation_army_navy"], "event_id": "evt_2026_07_11_asia_001", "at": "2026-07-11T04:30:03.491835+00:00"}

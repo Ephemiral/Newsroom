@@ -3,7 +3,10 @@
   "entity_id": "ent_location_mindanao",
   "type": "location",
   "canonical_name": "Mindanao",
-  "aliases": [],
+  "aliases": [
+    "Philippines",
+    "Philippine"
+  ],
   "wikidata_qid": "Q4294079",
   "summary": "Mindanao is the second-largest island in the Philippines, after Luzon, and seventh-most populous island in the world. Located in the southern region of the archipelago, the island is part of an island group of the same name that also includes its adjacent islands, notably the Sulu Archipelago.",
   "summary_sources": [
@@ -28,10 +31,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_10_asia_004",
   "appears_in_events": [
-    "evt_2026_07_10_asia_004"
+    "evt_2026_07_10_asia_004",
+    "evt_2026_07_11_asia_001"
   ],
   "created_at": "2026-07-10T15:49:00.014588+00:00",
-  "last_updated": "2026-07-10T15:49:09.039890+00:00",
+  "last_updated": "2026-07-11T04:30:09.768346+00:00",
   "change_log": [
     {
       "date": "2026-07-10",

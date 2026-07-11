@@ -3,7 +3,9 @@
   "entity_id": "ent_location_taiwan",
   "type": "location",
   "canonical_name": "Taiwan",
-  "aliases": [],
+  "aliases": [
+    "Taiwanese"
+  ],
   "wikidata_qid": "Q865",
   "summary": "Taiwan, officially the Republic of China (ROC), is a country in East Asia. The main island of Taiwan, also known as Formosa, lies between the East and South China Seas in the northwestern Pacific Ocean, with the People's Republic of China (PRC) to the northwest, Japan to the northeast, and the Philippines to the south.",
   "summary_sources": [
@@ -59,10 +61,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_06_asia_001",
   "appears_in_events": [
-    "evt_2026_07_06_asia_001"
+    "evt_2026_07_06_asia_001",
+    "evt_2026_07_11_asia_001"
   ],
   "created_at": "2026-07-08T18:21:25.427830+00:00",
-  "last_updated": "2026-07-08T18:21:34.347784+00:00",
+  "last_updated": "2026-07-11T04:30:09.768589+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

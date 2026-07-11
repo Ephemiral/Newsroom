@@ -199,6 +199,11 @@
       "at": "2026-07-11T04:05:29.312063+00:00",
       "event_id": "evt_2026_07_11_israel_middle_east_001",
       "outcome": "published"
+    },
+    "1fb3cc4aa9ebe892": {
+      "at": "2026-07-11T04:26:12.287646+00:00",
+      "event_id": "evt_2026_07_11_asia_001",
+      "outcome": "published"
     }
   }
 }
