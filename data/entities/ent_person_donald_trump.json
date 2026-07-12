@@ -6,7 +6,8 @@
   "aliases": [
     "Trump",
     "US President Donald Trump",
-    "President Trump"
+    "President Trump",
+    "US President Trump"
   ],
   "wikidata_qid": "Q22686",
   "summary": "Donald John Trump is an American politician, media personality, and businessman who is the 47th president of the United States. A member of the Republican Party, he served as the 45th president from 2017 to 2021.",
@@ -81,10 +82,11 @@
     "evt_2026_07_01_175",
     "evt_2026_07_06_israel_middle_east_001",
     "evt_2026_07_09_israel_middle_east_001",
-    "evt_2026_07_11_israel_middle_east_001"
+    "evt_2026_07_11_israel_middle_east_001",
+    "evt_2026_07_12_israel_middle_east_001"
   ],
   "created_at": "2026-07-08T15:05:44.929360+00:00",
-  "last_updated": "2026-07-11T04:09:37.752075+00:00",
+  "last_updated": "2026-07-12T04:24:42.766313+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

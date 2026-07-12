@@ -1,0 +1,52 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_cnn",
+  "type": "organization",
+  "canonical_name": "CNN",
+  "aliases": [],
+  "wikidata_qid": "Q48340",
+  "summary": "Cable News Network, Inc. (CNN) is an American multinational news media company and the flagship namesake property of CNN Worldwide, a division of Warner Bros.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/CNN"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Founded on June 1, 1980, by American media proprietor Ted Turner and Reese Schonfeld as a 24-hour cable news channel and headquartered in Atlanta, Georgia, CNN is the first television channel to provide 24-hour news coverage and the first all-news television channel in the United States.",
+      "source_url": "https://en.wikipedia.org/wiki/CNN",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_12_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-12T04:27:05.694530+00:00",
+  "last_updated": "2026-07-12T04:27:24.094989+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/CNN"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikidata Q48340 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q48340"
+    }
+  ]
+}

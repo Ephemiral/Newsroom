@@ -1,0 +1,86 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_mike_huckabee",
+  "type": "person",
+  "canonical_name": "Mike Huckabee",
+  "aliases": [],
+  "wikidata_qid": "Q158813",
+  "summary": "Michael Dale Huckabee is an American politician, diplomat, and Baptist minister serving as the 29th United States ambassador to Israel since 2025. A member of the Republican Party, he served as the 44th governor of Arkansas from 1996 to 2007, and ran for his party's presidential nomination in both 2008 and 2016.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Mike_Huckabee"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Mike_Huckabee_by_Gage_Skidmore_2.jpg/960px-Mike_Huckabee_by_Gage_Skidmore_2.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Mike_Huckabee_by_Gage_Skidmore_2.jpg",
+    "credit": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Mike Huckabee by Gage Skidmore 2.jpg",
+    "fetched_at": "2026-07-12T04:27:18.100236+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Lieutenant Governor of Arkansas",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q158813",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Governor of Arkansas",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q158813",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "United States Ambassador to Israel",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q158813",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He is the father of Sarah Huckabee Sanders, the current governor of Arkansas since 2023 and a former White House press secretary.",
+      "source_url": "https://en.wikipedia.org/wiki/Mike_Huckabee",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_12_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-12T04:27:16.001678+00:00",
+  "last_updated": "2026-07-12T04:27:24.095981+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Mike_Huckabee"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikidata Q158813 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q158813"
+    }
+  ]
+}

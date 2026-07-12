@@ -1,0 +1,28 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_m_v_gfs_galaxy",
+  "type": "technology",
+  "canonical_name": "M/V GFS Galaxy",
+  "aliases": [],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_12_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-12T04:24:32.534159+00:00",
+  "last_updated": "2026-07-12T04:24:42.768189+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_israel_middle_east_001",
+      "source": null
+    }
+  ]
+}

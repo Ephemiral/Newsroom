@@ -1,0 +1,61 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_west_bank",
+  "type": "location",
+  "canonical_name": "West Bank",
+  "aliases": [],
+  "wikidata_qid": "Q36678",
+  "summary": "The West Bank is the larger of the two Palestinian territories that make up Palestine. A landlocked territory located on the western bank of the Jordan River near the coast of the Mediterranean Sea in West Asia's Levant region, it is bordered by Jordan and the Dead Sea to the east, and by Israel to the south, west, and north.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/West_Bank"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Qalandia_checkpoint_-_panoramio_%28535%29.jpg/960px-Qalandia_checkpoint_-_panoramio_%28535%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Qalandia_checkpoint_-_panoramio_(535).jpg",
+    "credit": "L-BBE",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Qalandia checkpoint - panoramio (535).jpg",
+    "fetched_at": "2026-07-12T04:27:19.962685+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Since 1967, the territory has been under Israeli occupation, which is illegal under international law.",
+      "source_url": "https://en.wikipedia.org/wiki/West_Bank",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_12_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-12T04:27:18.180497+00:00",
+  "last_updated": "2026-07-12T04:27:24.096481+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/West_Bank"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikidata Q36678 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q36678"
+    }
+  ]
+}

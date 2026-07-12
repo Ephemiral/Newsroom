@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_sinjil",
+  "type": "location",
+  "canonical_name": "Sinjil",
+  "aliases": [],
+  "wikidata_qid": "Q2909143",
+  "summary": "Sinjil is a Palestinian town northeast of Ramallah in the Ramallah and al-Bireh Governorate of the State of Palestine, in the central West Bank.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Sinjil"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Sinjil4115.JPG/960px-Sinjil4115.JPG",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Sinjil4115.JPG",
+    "credit": "עדירל",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Sinjil4115.JPG",
+    "fetched_at": "2026-07-12T04:27:10.649562+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_12_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-12T04:27:08.809488+00:00",
+  "last_updated": "2026-07-12T04:27:24.095329+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikidata Q2909143 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q2909143"
+    }
+  ]
+}

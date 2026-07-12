@@ -1,0 +1,747 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_12_israel_middle_east_002",
+    "beat": "israel_middle_east",
+    "title": "Israeli Settlers Attack CNN Crew Near West Bank Village of Sinjil",
+    "summary": "On Saturday, July 12, 2026, four Israeli settlers attacked a CNN media crew and accompanying journalists near the West Bank village of Sinjil, wielding rods, stones, and a knife. Israeli police arrested the four suspects, while the incident drew attention to broader settler violence in the West Bank, including a separate incident in the village of Mughayyir and the detention of US Congressman Ro Khanna by settlers.",
+    "date": "2026-07-12",
+    "generated_at": "2026-07-12T04:26:39.321561+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_organization_cnn",
+        "surfaces": [
+          "CNN"
+        ],
+        "relevance_to_event": "CNN crew was directly attacked by four Israeli settlers near Sinjil on July 12, 2026, with their vehicle damaged; the network's characterization of the incident as a 'settler attack' contrasts with Israeli police's description.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_sinjil",
+        "surfaces": [
+          "Sinjil"
+        ],
+        "relevance_to_event": "The West Bank village where the July 12, 2026 attack on the CNN crew occurred; the crew was there to cover the one-year anniversary of Sayfollah Musallet's death.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_004",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_sayfollah_musallet",
+        "surfaces": [
+          "Sayfollah (Saif) Musallet",
+          "Saif Musallet"
+        ],
+        "relevance_to_event": "A 20-year-old Palestinian-American allegedly beaten to death by Israeli settlers in July 2025; the CNN crew was in Sinjil on July 12, 2026 to cover the anniversary of his death, with no suspects arrested according to his family.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_jeremy_diamond",
+        "surfaces": [
+          "Jeremy Diamond"
+        ],
+        "relevance_to_event": "CNN reporter who was part of the crew attacked near Sinjil on July 12, 2026; he had previously reported on Israeli soldiers obstructing journalists at a West Bank outpost earlier in 2026.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_ro_khanna",
+        "surfaces": [
+          "Ro Khanna"
+        ],
+        "relevance_to_event": "US Democratic Congressman who was detained by armed Israeli settlers during a separate West Bank visit earlier in the week; he described settlers with machine guns blocking his group's road and said the IDF sided with the settlers.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_mike_huckabee",
+        "surfaces": [
+          "Mike Huckabee"
+        ],
+        "relevance_to_event": "US Ambassador to Israel who described the July 2025 death of Sayfollah Musallet as a 'criminal and terrorist act,' according to the Jerusalem Post.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israeli_defense_force",
+        "surfaces": [
+          "IDF",
+          "Israeli troops",
+          "Israeli soldiers"
+        ],
+        "relevance_to_event": "Dispatched to the Sinjil scene on July 12, 2026 to secure journalists and apprehend suspects; also involved in the Mughayyir incident and the detention of Congressman Ro Khanna, with competing accounts from IDF and other parties about these events.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_010",
+            "clm_011",
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_west_bank",
+        "surfaces": [
+          "West Bank"
+        ],
+        "relevance_to_event": "Occupied territory where the July 12, 2026 attacks on the CNN crew and separate incidents in Mughayyir occurred; characterized as experiencing elevated settler violence with Shin Bet data showing three times more Palestinian victims of terror attacks than Jewish victims in 2026.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_006",
+            "clm_010",
+            "clm_012",
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-12T04:27:32.182423+00:00",
+    "image": {
+      "url": "https://live.staticflickr.com/8620/16159679946_3aedf8a6e6.jpg",
+      "full_url": "https://live.staticflickr.com/8620/16159679946_3aedf8a6e6.jpg",
+      "source_page": "https://www.flickr.com/photos/94802096@N05/16159679946",
+      "width": 500,
+      "height": 500,
+      "caption": "Israeli settlers and soldiers in Hebron's Old City (file photo)",
+      "credit": "cpt palestine",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "provider": "openverse",
+      "file_title": "openverse:83d502fe-ac57-45b4-9621-50ac5806179f|Fear drives many Palestinians off the streets during the weekly settler tour of Hebron's Old City. These children were c",
+      "query": "Israeli settlers confrontation",
+      "fetched_at": "2026-07-12T04:27:32.182385+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Haaretz (English)",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOSlN3cnQ5ejNnYl9VSm1lWFpoQm5feDVGeXpCSkZEYUV6d0JyVkstdUM2ekp3ckswUW1zb0wxVWZ6S3VRSHpUTDV3TlpyX1dWRlRhM2Nmd3lNWFExc1pNa1VDZnVOMU4wMXYwVURzeTFJUXNCa200NVVYWnNSaFBtVWZmNndmZ0FMdUxKTHpwbWY4WDVmSGcwM0VJLXJscFpaNDVFcjVxcnRQV3VSTmxFbkp3M08zSFNTQ3NPWUpRMEljWXRVQkpBc2Z3Njk0VlVsNXlMaG9zWG9HbW5aZFJ1LUVpczRudDR0ZXRKZ3RpZnBOUVNRdWtuU3R4U2pDX1N1R29ZVlI5OEY?oc=5",
+      "author": null,
+      "published_at": "2026-07-11T19:33:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/4-settlers-detained-for-alleged-attack-on-cnn-crew-in-west-bank-town-of-sinjil/",
+      "author": null,
+      "published_at": "2026-07-11T16:42:08+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/four-settlers-arrested-attacking-cnn-crew-west-bank",
+      "author": "Hilal Saki",
+      "published_at": "2026-07-12T02:07:57+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/article-902170",
+      "author": "BY JERUSALEM POST STAFF",
+      "published_at": "2026-07-11T19:14:13+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Riesling Investment & Technology Ltd, controlled by Israeli investor Eli Azur. Previously owned by Miriam Adelson.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Four Israeli settlers were arrested by Israeli police for attacking or damaging vehicles carrying a CNN media crew and other journalists near the West Bank village of Sinjil.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "settler_attack_on_journalists",
+      "rationale": "All four outlets across the left, center-left, and center-right spectrum confirm that four settlers were arrested in connection with an attack on journalists near Sinjil, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as Israeli settlers attacking foreign reporters in a West Bank Palestinian village.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports that four settlers were 'detained for allegedly attacking a CNN media crew,' using 'allegedly' throughout.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States Israeli police arrested four suspects for 'damaging a vehicle,' while noting CNN described it as an 'attack on its crew by Israeli settlers.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'Israel Police arrested four settlers on Saturday following an alleged attack on a CNN news crew.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The CNN crew was in Sinjil to cover the one-year anniversary of the death of Sayfollah (Saif) Musallet, a 20-year-old Palestinian-American allegedly beaten to death by Israeli settlers in July 2025.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "settler_attack_on_journalists",
+      "rationale": "Both center-right outlets (Times of Israel and Jerusalem Post) report this detail consistently; the claim spans the same bias tier, but the underlying fact is confirmed by two separate outlets with direct quotes attributing it to CNN.",
+      "framing_variants": [
+        {
+          "characterization": "States CNN reporters were in the area 'to visit the site where 20-year-old Palestinian-American Sayfollah Musallet was allegedly beaten to death by settlers on the one-year anniversary of his death.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'the CNN crew was in Sinjil covering the one-year anniversary of Saif Musallet's death,' describing him as 'a Palestinian-American killed by Israeli settlers in July 2025.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The settlers wielded wooden and metal rods and stones, with one settler brandishing a knife and attempting to puncture the tires of CNN's vehicle.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "settler_attack_on_journalists",
+      "rationale": "Outlets from the left (Middle East Eye) and center-right (Times of Israel, Jerusalem Post) all consistently describe the same weapons and tire-puncture attempt, drawing on CNN's account and police reports.",
+      "framing_variants": [
+        {
+          "characterization": "Says 'four settlers wielded rods and stones, with one trying to burst the tires of CNN's vehicle with a knife,' attributing it to CNN.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'the four settlers were wielding wooden and metal rods and stones' and that 'one settler brandished a knife and tried to puncture the tyres of CNN's vehicle.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'settlers were armed with wooden and metal rods, stones, and a knife,' and describes 'smashing the windshield of the vehicle and attempting to puncture the tires.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The settlers blocked the CNN crew's vehicle and a second journalists' vehicle to prevent them from leaving, smashing the windshield of the trailing vehicle and chasing the media teams toward Sinjil.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "settler_attack_on_journalists",
+      "rationale": "Multiple outlets report road-blocking and vehicle damage, with details sourced from CNN's account; all three outlets are reporting consistently but two are center-right, limiting cross-spectrum breadth.",
+      "framing_variants": [
+        {
+          "characterization": "States settlers 'tried to block an exit route and chased the media teams toward Sinjil' and 'smashed the windshield of another vehicle trailing them.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes settlers blocking 'the road with their car and tried to keep the vehicles from moving forward.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Says 'Israeli settlers blocked the crew's vehicle as it sought to leave the area.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Israeli soldiers and police were dispatched to the scene, secured the journalists' passage, apprehended the four suspects, seized their vehicle, took testimony from the media crew, and found clubs and a knife in the suspects' vehicle.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "settler_attack_on_journalists",
+      "rationale": "Outlets from the left (Middle East Eye) and center-right (Times of Israel, Jerusalem Post) all confirm the police and military response and evidence seizure, sourced from official Israeli police statements.",
+      "framing_variants": [
+        {
+          "characterization": "Details that 'Israeli soldiers dispatched to the scene enabled the journalists to pass and apprehended four suspects,' and that 'clubs and a knife were seized' from the vehicle.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'forces from the Samaria Brigade were dispatched to the scene, secured the journalists' passage, and detained four suspects.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'IDF soldiers arriving to assist soon after receiving the incident report' and that police 'uncovered a knife and several clubs following a search of the suspects' vehicle.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "CNN reporter Jeremy Diamond was part of the crew attacked near Sinjil; earlier in 2026, he had reported that an Israeli soldier put his cameraman in a chokehold while troops tried to prevent them from filming at an illegal West Bank outpost.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "settler_attack_on_journalists",
+      "rationale": "Only the Times of Israel reports the earlier chokehold incident involving Jeremy Diamond; no other outlet in the cluster raises this prior incident.",
+      "framing_variants": [
+        {
+          "characterization": "Notes Diamond 'was also part of the crew attacked on Saturday' and recounts that 'soldiers were caught on camera saying the entire West Bank belongs to Jews and that they were avenging the killing of a settler days earlier.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Israeli police described the incident near Sinjil as suspects blocking and causing 'damage' to journalists' vehicles, while CNN described it as a settler attack on its crew.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "settler_attack_on_journalists",
+      "rationale": "Israeli police framed the incident in minimizing terms ('caused damage'), while CNN characterized it as a settler attack; multiple outlets reported both framings, surfacing a dispute between institutional actors over how to characterize the event.",
+      "framing_variants": [
+        {
+          "characterization": "Juxtaposes police language ('caused damage') with CNN's account of an 'attack' involving rods, stones, and a knife.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States police said suspects 'damaged a vehicle,' while noting 'US broadcaster CNN had described it as an attack on its crew by Israeli settlers.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Uses 'alleged attack' while quoting police and CNN separately.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "No suspects have been arrested in connection with the July 2025 killing of Saif Musallet, according to his family.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "background_settler_violence",
+      "rationale": "Only the Jerusalem Post reports this detail from the Musallet family's statement to CNN; no other outlet in the cluster raises the arrest status of the prior killing.",
+      "framing_variants": [
+        {
+          "characterization": "States 'the victim's family telling CNN that no suspects have been arrested thus far' in the Musallet case.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "US Ambassador to Israel Mike Huckabee described the killing of Saif Musallet as a 'criminal and terrorist act.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "background_settler_violence",
+      "rationale": "Only the Jerusalem Post mentions Huckabee's characterization of the Musallet killing; no other outlet in the cluster reports this statement.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Huckabee calling the killing 'a criminal and terrorist act,' providing diplomatic context to the CNN crew's visit.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Palestinian media and the Wafa news agency reported that Israeli settlers and Israeli troops attacked a home in the West Bank village of Mughayyir on Saturday, wounding several people including a man shot in the thigh, two hit by rubber bullets, and a child wounded by a stun grenade.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "separate_west_bank_violence",
+      "rationale": "Only the Times of Israel reports the Mughayyir casualties as described by Palestinian media and Wafa; no other outlet in the cluster covers this specific incident.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Wafa's account that 'settlers and Israeli troops attacked a home in the village, during which a man was shot in the thigh, two others were hit by rubber bullets, and a child was wounded by a stun grenade,' and one person was detained by the IDF.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "The IDF described the Mughayyir incident as a 'confrontation' between Palestinians and Israelis in which Palestinians threw stones, while Palestinian media described it as a settler and troop attack on a home.",
+      "classification": "single_source",
+      "dispute_type": "actor",
+      "claim_group": "separate_west_bank_violence",
+      "rationale": "The IDF and Palestinian media (via Wafa) offer directly contradictory accounts of the Mughayyir incident — one framing it as a mutual confrontation triggered by stone-throwing, the other as a settler and troop attack on a home; only one outlet reports both accounts.",
+      "framing_variants": [
+        {
+          "characterization": "Juxtaposes IDF's account ('confrontation,' stone-throwing, troops entering to 'apprehend suspects,' IDF firing 'to remove the threat') with Wafa's account that 'settlers and Israeli troops attacked a home.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Israel has rarely carried out arrests in instances of settler violence in the West Bank, with indictments and convictions being even less frequent.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "background_settler_violence",
+      "rationale": "Only the Times of Israel explicitly characterizes Israeli enforcement patterns around settler violence in this cluster; no other article makes this analytical claim.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Israel has come under fire for rarely carrying out arrests in instances of settler violence, with indictments and convictions even more infrequent,' framing it as a subject of international criticism.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Shin Bet figures from earlier in 2026 found that three times more Palestinians than Jews were victims of terror attacks in the West Bank.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "background_settler_violence",
+      "rationale": "Only the Times of Israel cites this Shin Bet statistic; no other outlet in the cluster references it.",
+      "framing_variants": [
+        {
+          "characterization": "Cites Shin Bet data to provide statistical context for the relative scale of settler violence against Palestinians.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "US Democratic Congressman Ro Khanna said he was detained by armed Israeli settlers during a West Bank visit earlier in the week, describing settlers armed with machine guns and M4 rifles who blocked his group's road and called the IDF, which he said sided with the settlers.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "us_officials_and_settler_violence",
+      "rationale": "Only the Jerusalem Post reports the Ro Khanna detention incident in this cluster; no other outlet covers it.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Khanna's direct quotes claiming armed settlers detained his group and that 'the IDF is on their side, not on the side of the Americans,' while also noting the IDF said it 'dispersed the settlers and freed Khanna's vehicle entourage.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Khanna described the village he visited as one that Israeli settlers had destroyed, including its school, while the IDF said it intervened to disperse the settlers and free his group.",
+      "classification": "single_source",
+      "dispute_type": "actor",
+      "claim_group": "us_officials_and_settler_violence",
+      "rationale": "Khanna and the IDF offer competing characterizations of the same events: Khanna said the IDF sided with settlers, while the IDF said it intervened to free his group; only one outlet reports both accounts.",
+      "framing_variants": [
+        {
+          "characterization": "Presents both Khanna's claim that 'the IDF is on their side, not on the side of the Americans' and the IDF's statement that soldiers 'dispersed the settlers and freed Khanna's vehicle entourage.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Ro Khanna is a progressive California lawmaker in the US House of Representatives who is weighing a 2028 presidential run.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "us_officials_and_settler_violence",
+      "rationale": "Only the Jerusalem Post provides this biographical and political context about Khanna; no other outlet in the cluster mentions it.",
+      "framing_variants": [
+        {
+          "characterization": "Identifies Khanna as a 'progressive California lawmaker in the US House of Representatives' who 'is weighing a 2028 presidential run,' providing political context for his West Bank visit.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Sayfollah (Saif) Musallet was a 20-year-old Palestinian-American allegedly beaten to death by Israeli settlers in the West Bank in July 2025. US Ambassador Mike Huckabee called it a 'criminal and terrorist act,' and his family told CNN that no suspects have been arrested.",
+      "sources": [
+        "src_002",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Settler violence against Palestinians in the West Bank is a recurring issue. Shin Bet figures from earlier in 2026 found three times more Palestinians than Jews were victims of terror attacks in the West Bank, and Israel has faced criticism for rarely arresting or indicting settlers.",
+      "sources": [
+        "src_002"
+      ]
+    },
+    {
+      "point": "CNN reporter Jeremy Diamond was part of the crew attacked near Sinjil. Earlier in 2026, he had reported that an Israeli soldier placed his cameraman in a chokehold while troops tried to prevent filming at an illegal West Bank outpost, with soldiers caught on camera making inflammatory statements.",
+      "sources": [
+        "src_002"
+      ]
+    },
+    {
+      "point": "The Sinjil area is near Ramallah in the occupied West Bank, a region that has seen elevated settler violence. Saturday attacks are noted to be common during the Jewish Sabbath.",
+      "sources": [
+        "src_002",
+        "src_003"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-12T04:27:02.578303+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Four Israeli settlers were arrested by Israeli police on Saturday after attacking a CNN media crew and other journalists near the West Bank village of Sinjil. The settlers wielded wooden and metal rods and stones, with one brandishing a knife and attempting to puncture the tires of CNN's vehicle. Israeli soldiers and police were dispatched to the scene, secured the journalists' passage, apprehended the four suspects, seized their vehicle, took testimony from the media crew, and found clubs and a knife in the suspects' vehicle.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The CNN crew was in Sinjil to cover the one-year anniversary of the death of Sayfollah (Saif) Musallet, a 20-year-old Palestinian-American allegedly beaten to death by Israeli settlers in July 2025. According to the Jerusalem Post, no suspects have been arrested in connection with Musallet's killing, according to his family. US Ambassador to Israel Mike Huckabee described the killing as a 'criminal and terrorist act,' the Jerusalem Post reported.",
+        "supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The Times of Israel reported that Israel has rarely carried out arrests in instances of settler violence in the West Bank, with indictments and convictions being even less frequent. Shin Bet figures from earlier in 2026 found that three times more Palestinians than Jews were victims of terror attacks in the West Bank, according to the Times of Israel.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The settlers blocked the CNN crew's vehicle and a second journalists' vehicle to prevent them from leaving, smashing the windshield of the trailing vehicle and chasing the media teams toward Sinjil, according to outlets across the spectrum.",
+        "supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The Times of Israel reported that CNN reporter Jeremy Diamond was part of the crew attacked near Sinjil. Earlier in 2026, Diamond had reported that an Israeli soldier put his cameraman in a chokehold while troops tried to prevent them from filming at an illegal West Bank outpost, according to the Times of Israel.",
+        "supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Israeli police and CNN offered different characterizations of the Sinjil incident. Israeli police described it as suspects blocking and causing 'damage' to journalists' vehicles, while CNN described it as a settler attack on its crew.",
+        "supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "In a separate incident on Saturday, Palestinian media and the Wafa news agency reported that Israeli settlers and Israeli troops attacked a home in the West Bank village of Mughayyir, wounding several people including a man shot in the thigh, two hit by rubber bullets, and a child wounded by a stun grenade, according to the Times of Israel.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "The IDF and Palestinian media offered directly contradictory accounts of the Mughayyir incident. The IDF described it as a 'confrontation' between Palestinians and Israelis in which Palestinians threw stones, while Palestinian media described it as a settler and troop attack on a home.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Jerusalem Post reported that US Democratic Congressman Ro Khanna said he was detained by armed Israeli settlers during a West Bank visit earlier in the week. Khanna described settlers armed with machine guns and M4 rifles who blocked his group's road and called the IDF, which he said sided with the settlers. Khanna is a progressive California lawmaker in the US House of Representatives who is weighing a 2028 presidential run, according to the Jerusalem Post.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Khanna and the IDF offered competing characterizations of the detention incident. Khanna described the village he visited as one that Israeli settlers had destroyed, including its school, and said the IDF sided with the settlers. The IDF said it intervened to disperse the settlers and free his group.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      }
+    ]
+  }
+}

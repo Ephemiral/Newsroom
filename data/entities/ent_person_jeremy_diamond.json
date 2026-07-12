@@ -1,0 +1,35 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_jeremy_diamond",
+  "type": "person",
+  "canonical_name": "Jeremy Diamond",
+  "aliases": [],
+  "wikidata_qid": "Q60734610",
+  "summary": "Jeremy Diamond is a French-American journalist who reports for CNN from Jerusalem. He was previously the White House correspondent for CNN.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Jeremy_Diamond"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_12_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-12T04:27:12.251065+00:00",
+  "last_updated": "2026-07-12T04:27:24.095640+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikidata Q60734610 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q60734610"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_ro_khanna",
+  "type": "person",
+  "canonical_name": "Ro Khanna",
+  "aliases": [],
+  "wikidata_qid": "Q7339221",
+  "summary": "Rohit \"Ro\" Khanna is an American politician and attorney serving as the U.S. representative from California's 17th congressional district since 2017.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ro_Khanna"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ro_Khanna%2C_official_portrait%2C_115th_Congress.jpg/960px-Ro_Khanna%2C_official_portrait%2C_115th_Congress.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ro_Khanna,_official_portrait,_115th_Congress.jpg",
+    "credit": "U.S. Congress/Eric Connolly",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Ro Khanna, official portrait, 115th Congress.jpg",
+    "fetched_at": "2026-07-12T04:27:15.876282+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "assistant secretary",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7339221",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7339221",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "United States representative",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q7339221",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "A member of the Democratic Party, he defeated eight-term incumbent Democratic representative Mike Honda in the 2016 general election, after first running for the same seat in 2014.",
+      "source_url": "https://en.wikipedia.org/wiki/Ro_Khanna",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Khanna also served as the deputy assistant secretary in the United States Department of Commerce under President Barack Obama from 2009 to 2011.",
+      "source_url": "https://en.wikipedia.org/wiki/Ro_Khanna",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_12_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-12T04:27:13.787088+00:00",
+  "last_updated": "2026-07-12T04:27:24.095787+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ro_Khanna"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ro_Khanna"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikidata Q7339221 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q7339221"
+    }
+  ]
+}

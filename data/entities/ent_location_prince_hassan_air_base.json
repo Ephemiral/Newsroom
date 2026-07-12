@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_prince_hassan_air_base",
+  "type": "location",
+  "canonical_name": "Prince Hassan Air Base",
+  "aliases": [],
+  "wikidata_qid": "Q7244055",
+  "summary": "Prince Hassan Air Base is a Royal Jordanian Air Force base, located near the town of Safawi, Mafraq Governorate, Jordan, 72.4 miles (100 km) east-northeast of the country's capital Amman.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Prince_Hassan_Air_Base"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Prince_Hassan_Air_Base_Main_Parking_Apron_%28cropped%29.jpg/960px-Prince_Hassan_Air_Base_Main_Parking_Apron_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Prince_Hassan_Air_Base_Main_Parking_Apron_(cropped).jpg",
+    "credit": "United States Armed Forces",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Prince Hassan Air Base Main Parking Apron (cropped).jpg",
+    "fetched_at": "2026-07-12T04:24:32.533750+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_12_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-12T04:24:30.855463+00:00",
+  "last_updated": "2026-07-12T04:24:42.767956+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikidata Q7244055 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q7244055"
+    }
+  ]
+}
