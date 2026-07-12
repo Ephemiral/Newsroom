@@ -3,7 +3,9 @@
   "entity_id": "ent_location_west_bank",
   "type": "location",
   "canonical_name": "West Bank",
-  "aliases": [],
+  "aliases": [
+    "occupied West Bank"
+  ],
   "wikidata_qid": "Q36678",
   "summary": "The West Bank is the larger of the two Palestinian territories that make up Palestine. A landlocked territory located on the western bank of the Jordan River near the coast of the Mediterranean Sea in West Asia's Levant region, it is bordered by Jordan and the Dead Sea to the east, and by Israel to the south, west, and north.",
   "summary_sources": [
@@ -37,10 +39,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_12_israel_middle_east_002",
   "appears_in_events": [
-    "evt_2026_07_12_israel_middle_east_002"
+    "evt_2026_07_12_israel_middle_east_002",
+    "evt_2026_07_12_israel_middle_east_003"
   ],
   "created_at": "2026-07-12T04:27:18.180497+00:00",
-  "last_updated": "2026-07-12T04:27:24.096481+00:00",
+  "last_updated": "2026-07-12T14:20:23.755892+00:00",
   "change_log": [
     {
       "date": "2026-07-12",

@@ -1,0 +1,867 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_12_israel_middle_east_003",
+    "beat": "israel_middle_east",
+    "title": "US Congressman Ro Khanna Detained by Israeli Settlers in West Bank",
+    "summary": "US Democratic Congressman Ro Khanna says he and his delegation were detained for approximately 90 minutes by armed Israeli settlers while visiting the Palestinian hamlet of Khirbet Zanuta in the occupied West Bank. The IDF's account of its own role in the incident differs from Khanna's characterization.",
+    "date": "2026-07-09",
+    "generated_at": "2026-07-12T14:19:50.482855+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_ro_khanna",
+        "surfaces": [
+          "Ro Khanna",
+          "Congressman Ro Khanna"
+        ],
+        "relevance_to_event": "US Democratic Congressman whose detention by armed Israeli settlers while visiting Khirbet Zanuta is the central event of this report; his account of the incident and subsequent statements about the 2028 presidential race are primary focus.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israeli_defense_force",
+        "surfaces": [
+          "IDF",
+          "Israel Defense Forces",
+          "IDF troops"
+        ],
+        "relevance_to_event": "Their disputed role in the detention incident is a key contested element of the story, with Khanna claiming they sided with settlers while the IDF states they dispersed settlers and allowed the delegation to proceed.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_benjamin_netanyahu",
+        "surfaces": [
+          "Prime Minister Netanyahu"
+        ],
+        "relevance_to_event": "Mentioned as the Israeli Prime Minister whose policies during the Gaza war Khanna has criticized and attributes partly to the Democratic Party's 2024 election defeat.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_khirbet_zanuta",
+        "surfaces": [
+          "Khirbet Zanuta",
+          "Palestinian hamlet of Khirbet Zanuta"
+        ],
+        "relevance_to_event": "The Palestinian hamlet that was the destination of Khanna's fact-finding mission and the specific location where the detention by armed settlers occurred.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_006",
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_west_bank",
+        "surfaces": [
+          "West Bank",
+          "occupied West Bank"
+        ],
+        "relevance_to_event": "The occupied territory where the detention incident took place and where the broader context of Israeli settlements and settler violence against Palestinians described in the report occurs.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_004",
+            "clm_011",
+            "clm_013",
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_political_party_democratic_party",
+        "surfaces": [
+          "Democratic Party",
+          "DNC"
+        ],
+        "relevance_to_event": "Khanna's political affiliation and party; cited in report regarding his view that the party's support for Israel contributed to its 2024 election defeat.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_hamas",
+        "surfaces": [
+          "Hamas"
+        ],
+        "relevance_to_event": "Referenced as the organization whose October 2023 attacks on Israel preceded the settler violence against Khirbet Zanuta residents and intensified West Bank restrictions.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_yesh_din",
+        "surfaces": [
+          "Yesh Din"
+        ],
+        "relevance_to_event": "Human rights organization cited in the report as documenting that no Israeli has been indicted for killing a Palestinian since October 2023, relevant to the broader context of accountability in the conflict.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-12T14:20:30.686436+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ro_Khanna%2C_official_portrait%2C_115th_Congress.jpg/1280px-Ro_Khanna%2C_official_portrait%2C_115th_Congress.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Ro_Khanna%2C_official_portrait%2C_115th_Congress.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ro_Khanna,_official_portrait,_115th_Congress.jpg",
+      "width": 1200,
+      "height": 1803,
+      "caption": "U.S. Congressman Ro Khanna (file photo)",
+      "credit": "U.S. Congress/Eric Connolly",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:Ro Khanna, official portrait, 115th Congress.jpg",
+      "query": "Ro Khanna",
+      "fetched_at": "2026-07-12T14:20:30.686395+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c0qyk9jwq9no?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-11T18:00:09+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPemk1Y2lWN29BWVNsNWJNNzFZYVU2ZG94Zmt3R1VyWmVjLVBnOHdEdVFudE1sOGotX0NpTXMyUWhpN2xub2cxUDhXdmhRUURUczNPSmR4RGJPU2xjeDU5V2sxcW5MYWNfaG1ET3VXdGZiUnNnbkFDcW90Z0k5LURYWGgzeVgzNm9ESXVjOGxER3BxVXMyclRZc3dBZHVjU2xQdmxteTlzQ2hCZjhmMTYyZ1BjRm1yVUpOSkE?oc=5",
+      "author": null,
+      "published_at": "2026-07-11T15:00:24+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPWG1sQjBwT05MMXotUmdhdUNic0VEWnpIRktFODBzTHVOcTZnd2JYVWNrTlJUcTNpQ0lzWVRnVW5NQVlUNWtDRmltaU5OdGdFZkkxRHZxM2MwbmVDLS1SSVJrSHA4MjNKMXgwa2M5a2lnOVFZT3BCZHJLOTdKM0FjbWl0V1AzWjJ3U0gtUUdZbWNIRHlkTndaQU5QVkRfT2FMYzFmSHNoNm5KUm1NX3NURnhwRF8zOVoxdUVqeEE4UUJhM1ZoOVg0MHEzeDY4SXVZUy0xVDBHRmk4dnpDMm5FbWN2amRpSHdFRm9QS1h6TmRlVmEwcGE4VlBR?oc=5",
+      "author": null,
+      "published_at": "2026-07-11T13:44:22+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/video-us-congressman-says-israeli-settlers-detained-him-west-bank",
+      "author": "Qazi Zaid",
+      "published_at": "2026-07-12T13:06:29+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Haaretz (English)",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxONnZnYkVRZjBtQmN0bmdfbG5NR2VrSnNUV2RlS0szZzFoX0R5WWNwYXU4RWRLcXJKb1JpNi04Yl9IQ3phMVh1RGVuX3dlMkNTdDJLNndfbUx3QXNmaXNqdEVUTHotbzd0TlpqNUNwaUhWUDNIa0d5eW52OTBHLVZHVVZNUW5KZHhrYlRaTjZZZTUtSk9wdDJtZm11aEtLcXBGMkJ5QlZsTktqejRSWHJFR0hMVWV1V1JBSlBaaVUxN3NIRzI4LTNLWXFNZFpiMzNkckdTRjA3enJfOWlHTXFtdGl1OG1qcG16ZXhlZzRFanBYWDJLVVE?oc=5",
+      "author": null,
+      "published_at": "2026-07-11T12:24:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/11/ro-khanna-congressman-detained-israel-settlers-west-bank",
+      "author": "Marina Dunbar",
+      "published_at": "2026-07-11T17:21:14+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "US Democratic Congressman Ro Khanna says he and his delegation were detained by armed Israeli settlers during a visit to the occupied West Bank.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "detention_incident",
+      "rationale": "All six outlets across the political spectrum — left, center-left, center, and center-right — report that Khanna says he was detained by Israeli settlers in the West Bank, satisfying the cross-spectrum agreement requirement.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports Khanna's account of detention as a stated fact in its own voice.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reuters reports the detention as a fact: 'US Democrat Ro Khanna was detained by Israeli settlers.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "i24 News frames it as a claim made by 'a prominent anti-Israel Democrat,' presenting it as an allegation rather than an established fact.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Middle East Eye presents the detention as Khanna's account, using 'says he and his delegation were detained.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Haaretz reports 'Khanna says West Bank settlers detained him,' attributing it to Khanna's claim.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Guardian reports Khanna's account using 'says,' consistent with other center-left framing.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The detention lasted approximately 90 minutes.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "detention_incident",
+      "rationale": "Both BBC (center-left) and The Guardian (center-left) report the 90-minute duration based on Khanna's account; however, both sources are center-left, so this is corroborated within the same spectrum tier rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "BBC states Khanna 'was detained for 90 minutes.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian quotes Khanna: 'they could make an American congressperson feel powerless for 90 minutes.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Khanna's group was in a van and was surrounded by settlers wielding M4 rifles (described variously as M4 rifles or US-made M4 machine guns).",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "detention_incident",
+      "rationale": "BBC (center-left), Middle East Eye (left), and The Guardian (center-left) all report this detail from Khanna's account; the cross-spectrum requirement is not met as all are left or center-left, making this corroborated.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports 'settlers wielding M4 rifles' surrounding the van.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Middle East Eye describes 'settlers carrying US-made M4 machine guns.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The Guardian reports 'settlers carrying US-made M4 rifles surrounded the group's van.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Khanna's group was visiting the Palestinian hamlet of Khirbet Zanuta in the southern West Bank at the time of the detention.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "detention_incident",
+      "rationale": "BBC (center-left), Middle East Eye (left), and The Guardian (center-left) all identify the location as Khirbet Zanuta; though all are left-leaning, the specific location is also referenced in the IDF's statement as reported in BBC and The Guardian.",
+      "framing_variants": [
+        {
+          "characterization": "BBC describes it as 'the ruins of Khirbet Zanuta.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Middle East Eye describes it as 'the Palestinian hamlet of Khirbet Zanuta' being visited to 'witness the aftermath of settler attacks.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The Guardian identifies it as 'the southern West Bank' area that 'has experienced repeated attacks by Israeli settlers.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Khanna characterizes the IDF as having sided with the settlers and continued the detention when they arrived; the IDF characterizes its troops as having dispersed the settlers and allowed the vehicles to proceed.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "idf_role",
+      "rationale": "Khanna and his aide Cameron Kasky assert the IDF backed up the settlers rather than protecting the delegation; the IDF states its forces dispersed settlers and freed the vehicles. These are directly contradictory accounts of the same event reported across multiple outlets.",
+      "framing_variants": [
+        {
+          "characterization": "BBC presents both accounts: Khanna's statement on X that 'they sided with the settlers and continued our detention,' and the IDF's statement that 'troops dispersed the Israeli civilians and allowed the vehicles to continue on their way.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Middle East Eye leads with Khanna's account that 'Israeli forces sided with the settlers instead of protecting the US delegation,' with settlers and forces 'informed that an American congressman and other US citizens were inside the vehicle.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The Guardian reports Khanna aide Cameron Kasky's statement that 'The IDF showed up to back up the settlers, not the US congressman,' alongside the IDF's account that troops 'responded after receiving a report that settlers were obstructing vehicles.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The IDF said it took action after receiving a report that settlers had blocked vehicles in the area near Khirbet Zanuta.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "idf_role",
+      "rationale": "Both BBC (center-left) and The Guardian (center-left) reproduce the IDF's stated justification for its response; this is corroborated within the same tier.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes the IDF: 'troops and police officers took action after getting a report settlers had blocked vehicles in the area.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian: 'The Israeli military said troops and police responded after receiving a report that settlers were obstructing vehicles near Khirbet Zanuta.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Khanna's group was released after contacting the US Embassy in Jerusalem and Israeli police, who intervened.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "detention_incident",
+      "rationale": "BBC and The Guardian both report that the group's release followed appeals to the US Embassy and intervention by police; both are center-left outlets, making this corroborated within the same tier.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports an aide 'made appeals to the US Embassy in Jerusalem for help' and that they 'were released after a group of police officers intervened.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian states Khanna 'was ultimately able to continue traveling after contacting the US embassy and Israeli police.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Khanna aide Cameron Kasky was present during the detention and posted about it on X.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "detention_incident",
+      "rationale": "Only The Guardian specifically names and quotes Khanna aide Cameron Kasky as an eyewitness who wrote about the incident on X.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian identifies Kasky as an aide who 'wrote on X that he was there when the congressman's group was detained' and quoted his statement that 'The IDF showed up to back up the settlers, not the US congressman.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Khanna's visit to Khirbet Zanuta was described as a fact-finding mission to witness the aftermath of settler attacks on the Palestinian hamlet.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "detention_incident",
+      "rationale": "BBC, Middle East Eye, and The Guardian all describe the purpose of the visit as fact-finding related to settler attacks, though all three outlets are left or center-left.",
+      "framing_variants": [
+        {
+          "characterization": "BBC describes it as 'a fact-finding visit' to 'the ruins of Khirbet Zanuta.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Middle East Eye says the group was visiting 'to witness the aftermath of settler attacks.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The Guardian quotes Khanna: 'We were at a village that Israeli settlers had destroyed – they had destroyed the school, they had destroyed that village.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Residents of Khirbet Zanuta were forced to leave following violent settler raids after the Hamas attacks on Israel in October 2023.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "west_bank_context",
+      "rationale": "Only The Guardian provides this specific background detail about Khirbet Zanuta's displaced residents and the timeline linking it to post-October 2023 settler raids.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian states residents 'were forced to leave in the wake of violent settler raids after the Hamas attacks on Israel in October 2023.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Khanna is a progressive Democratic congressman from California who has been an outspoken critic of the war in Gaza and Israeli settlements in the West Bank.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "khanna_profile",
+      "rationale": "Multiple outlets across the spectrum characterize Khanna's political stance, though they differ in framing — center-right i24 labels him 'anti-Israel' while center-left and left outlets call him a 'critic' or 'outspoken' opponent.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian calls him 'one of the most outspoken critics in the US Congress of the war in Gaza and the occupation of the West Bank.'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Haaretz describes Khanna as an 'Israel critic.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "i24 News characterizes him as 'a prominent anti-Israel Democrat.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_006",
+        "src_005",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Khanna said he is considering running for president in 2028, and stated the trip made him more resolved to consider it.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "khanna_profile",
+      "rationale": "Both BBC and The Guardian report Khanna's presidential aspirations and his statement linking the trip to his resolve, though both are center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "BBC notes Khanna is 'mulling over a presidential run in 2028.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian quotes Khanna: 'I'm strongly considering it' and 'I'm more resolved to consider it after this trip.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "More than 700,000 Israelis reside in approximately 160 settlements in the occupied West Bank and East Jerusalem, established since Israel took control in 1967.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "west_bank_context",
+      "rationale": "Both BBC and The Guardian cite comparable settlement population figures and historical context, though both are center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "BBC states Israel 'built about 160 settlements housing 700,000 Jews since it occupied the West Bank and East Jerusalem during the 1967 Middle East war.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian states 'More than 700,000 Israelis reside in settlements across the occupied West Bank including East Jerusalem' since Israel 'took control of the West Bank in 1967.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Israeli settlements in the West Bank are considered illegal under international law, including by the United Nations.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "west_bank_context",
+      "rationale": "Both BBC and The Guardian state that settlements are illegal under international law; BBC states this as a general fact while The Guardian attributes the position specifically to the United Nations.",
+      "framing_variants": [
+        {
+          "characterization": "BBC states flatly: 'settlements are illegal under international law.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian attributes the position: 'The United Nations considers Israeli settlements in the West Bank to be illegal.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "An estimated 3.3 million Palestinians live in the West Bank and East Jerusalem alongside Israeli settlements.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "west_bank_context",
+      "rationale": "Only BBC provides this demographic figure for the Palestinian population in the West Bank and East Jerusalem.",
+      "framing_variants": [
+        {
+          "characterization": "BBC states 'an estimated 3.3 million Palestinians live alongside them.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "West Bank restrictions that intensified significantly after October 7, 2023 have prevented the territory from developing a self-sustaining economy, and nearly 300,000 Palestinians have lost employment.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "west_bank_context",
+      "rationale": "Only The Guardian provides these economic impact figures and the specific framing about restrictions preventing economic development in the West Bank.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian states 'restrictions imposed there have prevented the territory from developing a self-sustaining economy' and that 'nearly 300,000 Palestinians have lost employment in the West Bank and Israel.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "A June 2026 UN independent international commission of inquiry concluded that Israeli authorities deliberately targeted Palestinian children, resulting in genocide, crimes against humanity, and war crimes in Gaza, and war crimes in the West Bank.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "west_bank_context",
+      "rationale": "Only The Guardian references this UN commission of inquiry report and its conclusions in the context of this event.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian cites 'a UN independent international commission of inquiry' that concluded Israeli forces 'deliberately targeted Palestinian children resulting in genocide, crimes against humanity, and war crimes in the Gaza Strip and war crimes in the West Bank.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "According to human rights organization Yesh Din, no Israeli has been indicted for the killing of a Palestinian since October 2023.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "west_bank_context",
+      "rationale": "Only The Guardian cites Yesh Din data on the absence of Israeli indictments for Palestinian killings since October 2023.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports Yesh Din's data as background context on accountability for settler violence.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Khanna stated that one reason for the Democratic Party's 2024 election defeat was its support for Israel and Prime Minister Netanyahu during the war in Gaza, and that the DNC's postmortem report on the defeat did not mention Gaza.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "khanna_profile",
+      "rationale": "Only The Guardian reports Khanna's political critique of the DNC postmortem and his framing of Democratic losses as linked to Gaza policy.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian quotes Khanna: 'one of the reasons we lost is our blank check to Israel and Netanyahu while they committed genocide in Gaza,' and notes 'The postmortem did not mention Gaza.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "The New York Times first reported Khanna's account of the detention.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "detention_incident",
+      "rationale": "Only The Guardian attributes the initial reporting of Khanna's account to the New York Times.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian states 'The New York Times first reported Khanna's account on Saturday morning.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Khirbet Zanuta is a Palestinian hamlet in the southern West Bank whose residents were forced to flee following violent settler raids in the wake of the Hamas attacks on Israel on October 7, 2023.",
+      "sources": [
+        "src_006",
+        "src_001"
+      ]
+    },
+    {
+      "point": "Israel has established approximately 160 settlements housing over 700,000 Israelis in the occupied West Bank and East Jerusalem since taking control of the territory in the 1967 Middle East war. These settlements are considered illegal under international law.",
+      "sources": [
+        "src_001",
+        "src_006"
+      ]
+    },
+    {
+      "point": "Ro Khanna is a progressive Democratic congressman from California who has been among the most vocal critics of US policy toward Israel in Congress. He has indicated he is considering a 2028 presidential run.",
+      "sources": [
+        "src_006",
+        "src_001",
+        "src_005"
+      ]
+    },
+    {
+      "point": "Settler violence against Palestinians in the West Bank has increased significantly since October 7, 2023. Human rights organization Yesh Din reports that no Israeli has been indicted for the killing of a Palestinian since October 2023.",
+      "sources": [
+        "src_006"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-12T14:20:08.130722+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "US Democratic Congressman Ro Khanna says he and his delegation were detained by armed Israeli settlers during a visit to the occupied West Bank. The incident occurred while Khanna's group was visiting the Palestinian hamlet of Khirbet Zanuta in the southern West Bank, which Khanna described as a fact-finding mission to witness the aftermath of settler attacks on the hamlet.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_004",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "According to Khanna's account, the detention lasted approximately 90 minutes. Khanna's group was in a van and was surrounded by settlers wielding M4 rifles. The group was eventually released after contacting the US Embassy in Jerusalem and Israeli police, who intervened.",
+        "supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_003",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "More than 700,000 Israelis reside in approximately 160 settlements in the occupied West Bank and East Jerusalem, established since Israel took control in 1967. Israeli settlements in the West Bank are considered illegal under international law, including by the United Nations. An estimated 3.3 million Palestinians live in the West Bank and East Jerusalem alongside Israeli settlements.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_006"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Residents of Khirbet Zanuta were forced to leave following violent settler raids after the Hamas attacks on Israel in October 2023, according to left-leaning outlets. West Bank restrictions that intensified significantly after October 7, 2023 have prevented the territory from developing a self-sustaining economy, and nearly 300,000 Palestinians have lost employment, according to reporting from The Guardian.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Khanna is a progressive Democratic congressman from California. Multiple outlets across the political spectrum note his public criticism of the war in Gaza and Israeli settlements in the West Bank, though they characterize his stance differently: left-leaning and center-left sources describe him as an \"outspoken critic,\" while center-right Israeli outlet i24 News labels him \"anti-Israel.\"",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Khanna said he is considering running for president in 2028, and stated the trip made him more resolved to consider it. According to center-left outlets, Khanna stated that one reason for the Democratic Party's 2024 election defeat was its support for Israel and Prime Minister Netanyahu during the war in Gaza, and that the DNC's postmortem report on the defeat did not mention Gaza.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The role of the Israel Defense Forces in the incident is disputed. Khanna and his aide Cameron Kasky assert that when IDF troops arrived, they sided with the settlers and continued the detention rather than protecting the congressional delegation. The IDF, in its statement, characterizes its troops as having dispersed the settlers and allowed the vehicles to proceed after receiving a report that settlers had blocked vehicles in the area near Khirbet Zanuta. These are directly contradictory accounts of the IDF's actions during the same event.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "A June 2026 UN independent international commission of inquiry concluded that Israeli authorities deliberately targeted Palestinian children, resulting in genocide, crimes against humanity, and war crimes in Gaza, and war crimes in the West Bank, according to left-leaning outlets. According to human rights organization Yesh Din, as reported by The Guardian, no Israeli has been indicted for the killing of a Palestinian since October 2023.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

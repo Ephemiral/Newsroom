@@ -1,0 +1,70 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_khirbet_zanuta",
+  "type": "location",
+  "canonical_name": "Khirbet Zanuta",
+  "aliases": [
+    "Palestinian hamlet of Khirbet Zanuta"
+  ],
+  "wikidata_qid": "Q6401765",
+  "summary": "Khirbet Zanuta was a Palestinian Bedouin village in the Hebron Governorate in the southern West Bank, located 20 kilometers south of Hebron. It was ethnically cleansed during the 2023 Gaza war.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Khirbet_Zanuta"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Some farmers remained or returned and the attacks continued.",
+      "source_url": "https://en.wikipedia.org/wiki/Khirbet_Zanuta",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Israeli settlers destroyed the village school and most houses, and the IDF has refused to give its expelled residents permission to rebuild.",
+      "source_url": "https://en.wikipedia.org/wiki/Khirbet_Zanuta",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_israel_middle_east_003",
+  "appears_in_events": [
+    "evt_2026_07_12_israel_middle_east_003"
+  ],
+  "created_at": "2026-07-12T14:20:11.898430+00:00",
+  "last_updated": "2026-07-12T14:20:23.755696+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_israel_middle_east_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Khirbet_Zanuta"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Khirbet_Zanuta"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikidata Q6401765 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q6401765"
+    }
+  ]
+}

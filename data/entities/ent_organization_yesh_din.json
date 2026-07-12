@@ -1,0 +1,52 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_yesh_din",
+  "type": "organization",
+  "canonical_name": "Yesh Din",
+  "aliases": [],
+  "wikidata_qid": "Q1543591",
+  "summary": "Yesh Din, full name Yesh Din: Volunteers for Human Rights, is an Israeli organization working in Israel and in the West Bank. The organization was founded in 2005 by a group of women who previously worked with the organization Machsom Watch.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Yesh_Din"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The purpose of Yesh Din, as reflected in its publications, is to work \"for structural, long-term improvement to human rights in the Occupied Palestinian Territories (OPT)\".",
+      "source_url": "https://en.wikipedia.org/wiki/Yesh_Din",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_israel_middle_east_003",
+  "appears_in_events": [
+    "evt_2026_07_12_israel_middle_east_003"
+  ],
+  "created_at": "2026-07-12T14:20:17.708988+00:00",
+  "last_updated": "2026-07-12T14:20:23.756456+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_israel_middle_east_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Yesh_Din"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikidata Q1543591 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1543591"
+    }
+  ]
+}
