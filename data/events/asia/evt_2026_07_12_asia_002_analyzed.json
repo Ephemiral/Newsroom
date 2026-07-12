@@ -1,0 +1,764 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_12_asia_002",
+    "beat": "asia",
+    "title": "Death of Former Qatari Emir Sheikh Hamad bin Khalifa Al Thani",
+    "summary": "Former Emir of Qatar Sheikh Hamad bin Khalifa Al Thani died on the morning of July 12, 2026, at the age of 74. Qatar declared four days of national mourning, with government work suspended from July 13 to July 19.",
+    "date": "2026-07-12",
+    "generated_at": "2026-07-12T14:42:53.147623+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_sheikh_hamad_bin_khalifa_al_thani",
+        "surfaces": [
+          "Sheikh Hamad bin Khalifa Al Thani",
+          "Former Emir of Qatar Sheikh Hamad bin Khalifa Al Thani",
+          "Sheikh Hamad"
+        ],
+        "relevance_to_event": "The deceased former emir whose death on July 12, 2026, at age 74 is the central subject of this report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_005",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_sheikh_tamim_bin_hamad_al_thani",
+        "surfaces": [
+          "Sheikh Tamim bin Hamad Al Thani"
+        ],
+        "relevance_to_event": "Current emir of Qatar who received power through his father Sheikh Hamad's voluntary abdication in 2013 and continues to rule the country.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_qatar",
+        "surfaces": [
+          "Qatar"
+        ],
+        "relevance_to_event": "The nation-state declaring national mourning and suspending government operations in response to the former emir's death.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_al_jazeera",
+        "surfaces": [
+          "Al Jazeera satellite news network",
+          "Al Jazeera"
+        ],
+        "relevance_to_event": "Satellite news network founded during Sheikh Hamad's tenure, cited as part of Qatar's international expansion and legacy.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_qatar_news_agency",
+        "surfaces": [
+          "Qatar News Agency"
+        ],
+        "relevance_to_event": "Official agency that announced Sheikh Hamad's death but did not provide a cause of death, per the report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_hamas",
+        "surfaces": [
+          "Hamas"
+        ],
+        "relevance_to_event": "Palestinian political organization mentioned in the report as part of Qatar's geopolitical relationships and mediation efforts during Sheikh Hamad's rule.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_muslim_brotherhood",
+        "surfaces": [
+          "Muslim Brotherhood"
+        ],
+        "relevance_to_event": "Regional political organization cited as part of Qatar's diplomatic ties and influence during Sheikh Hamad's tenure.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_harrods",
+        "surfaces": [
+          "Harrods department store",
+          "Harrods"
+        ],
+        "relevance_to_event": "London department store owned by Qatar, cited as evidence of Qatar's international wealth and reach during Sheikh Hamad's era.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-12T14:43:46.300149+00:00",
+    "image": {
+      "url": "https://live.staticflickr.com/5329/7099074201_2dfba91474_b.jpg",
+      "full_url": "https://live.staticflickr.com/5329/7099074201_2dfba91474_b.jpg",
+      "source_page": "https://www.flickr.com/photos/53390373@N06/7099074201",
+      "width": 1024,
+      "height": 681,
+      "caption": "Sheikh Hamad bin Khalifa Al-Thani, Former Emir of Qatar, speaking at the UNCTAD XIII Opening Ceremony (file photo)",
+      "credit": "UNCTAD",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "provider": "openverse",
+      "file_title": "openverse:a6196342-b588-4197-8db6-d89ff72f3ab5|His Highness Sheikh Hamad bin Khalifa Al-Thani, Emir of Qatar speaking at the UNCTAD XIII Opening Ceremony",
+      "query": "Sheikh Hamad bin Khalifa Al Thani",
+      "fetched_at": "2026-07-12T14:43:46.300114+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/qatar-declares-4-days-of-mourning-suspends-public-sector-work-over-death-of-former-emir-sheikh-hamad/articleshow/132344922.cms",
+      "author": "TOI World Desk",
+      "published_at": "2026-07-12T11:47:25+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Bennett, Coleman & Co. (The Times Group), controlled by the Jain family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/qatars-former-emir-sheikh-hamad-bin-khalifa-al-thani-passes-away-at-74/articleshow/132342028.cms",
+      "author": "TOI World Desk",
+      "published_at": "2026-07-12T07:28:53+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Bennett, Coleman & Co. (The Times Group), controlled by the Jain family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU1pjckU4akg2UHI5ak51QjZJNEdCX1RrWXRCNjZnNEdaRnRFbTlSd05DOWVUOFRfSWNhMTl4MHljeGhKN3N2eHJDTUY4ZnBOblF0ZEtoeXBIaGVob3A4Zkl2eEhFR01HVHdfUHd3WHAtdHBLaW1QVDU5UmQ0MFpERG42MzFqcDZVQ3FDeXBYUTVpTC1SMTV0M1RGcndHWWRzejRGSmNJVVphV0E2bVgw0gG0AUFVX3lxTE5LV2UwUV8yOXNLLUVKTVBhQTZyaEMzUzZzNnpFdWFPY3R1YWlIbzQzM3I5TjlMa1VMMmJuYmJfS0d3cFhsWGZaZTlqNWVTZU1wcms1R3J5SVdkWU5BdHVadDRlTFd0RFN1VVh2WFdDX1A2aElzZjRZQ3pDbFRzdXloT2tOR2g5TEZ5YWotSHRLRlJDVXlMQTNUZ1lkck1ZaDYzdnpXcG5qQmNHYzMzdjFVY1ZhYw?oc=5",
+      "author": null,
+      "published_at": "2026-07-12T12:48:09+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSHJJaUEtelZiUVVTQnZLYzVsTUJaVVA5SWJLMFBLakNGcV95VFlhODh2UWwzWTZUbk53MlR6ZzJPR0YteUJRb3BZWjU1dzlmUU1ZWm5wWmg0Xzd3MU9rNkpFTi1CVFZPVmczU2Nxc1hEUnZlWl81WTU3MjVqUHNJYXFhdVNpZWFScDNJYmFOWWhuTHNaYzM1TmJVUlpOTlVPNmZxM29JRC1Cd9IBrwFBVV95cUxOUmpJaWZ3NzVKaTV4TWN6eTJnLVI1bG5pVzZhRWZra3JrVmkyaDJWR1g3QmRJSW5zRllpeU15dENkNVFpTHNhcnJ5bkozb2VTbjVpSGstckhLakxHXzFUUmI4djhiMDdkUUtCUUt2LU96VVEtcXU2U0ZBRkxHR1VyM1ZTM2tMdWZBdzBYTnY5clBwVXBQZmNBR1ZOQkFNcThjc3I0XzNBa2JmNWNwMC1r?oc=5",
+      "author": null,
+      "published_at": "2026-07-12T11:21:09+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3360262/sheikh-hamad-bin-khalifa-al-thani-who-raised-qatars-global-profile-dies-74?utm_source=rss_feed",
+      "author": "Associated Press",
+      "published_at": "2026-07-12T05:39:08+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Former Emir of Qatar Sheikh Hamad bin Khalifa Al Thani died on the morning of July 12, 2026, at the age of 74.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "death_announcement",
+      "rationale": "All five outlets across left, center-left, and center-right bias tiers confirm his death at age 74 on July 12, 2026, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Announced via the Amiri Diwan as occurring on the morning of July 12",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reported by the state-run Qatar News Agency with no cause of death given",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Stated in headline as 'aged 74'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Straightforward factual headline announcement",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Described as the former Emir dying at age 74",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The Qatar News Agency did not provide a cause of death for Sheikh Hamad.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "death_announcement",
+      "rationale": "Only the South China Morning Post noted that no cause of death was provided; no other outlet addressed this point.",
+      "framing_variants": [
+        {
+          "characterization": "Noted matter-of-factly: 'It offered no cause'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Qatar declared four days of national mourning following Sheikh Hamad's death, beginning Sunday, July 12, with national flags flying at half-mast.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "mourning_arrangements",
+      "rationale": "Both Times of India articles (same center-right outlet) confirm the four-day mourning declaration and half-mast flags announced by the Amiri Diwan; no other outlet in this cluster reported these details.",
+      "framing_variants": [
+        {
+          "characterization": "Described as an official government action with flags at half-mast 'in tribute to the former ruler'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Announced by the Amiri Diwan as commencing July 12",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Work at Qatar's ministries, government departments, public bodies, and state institutions was suspended from Monday, July 13, with employees scheduled to resume duties on Sunday, July 19.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "mourning_arrangements",
+      "rationale": "Both Times of India articles report this specific detail about work suspension; it is not mentioned by outlets from other bias tiers in this cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Stated as part of official mourning arrangements with specific dates",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Listed alongside other mourning measures announced by the Amiri Diwan",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Sheikh Hamad ruled Qatar from 1995 to 2013, a period of approximately 18 years.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "legacy_and_tenure",
+      "rationale": "Sources from center-right (Times of India) and center-left (South China Morning Post) all confirm this 18-year tenure spanning 1995–2013, meeting cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Described as 'a period marked by rapid economic growth, infrastructure expansion and a growing international profile'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Described simply as 'after 18 years as emir'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Noted as the period of his rule without additional framing",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "In June 2013, Sheikh Hamad voluntarily transferred power to his son, Sheikh Tamim bin Hamad Al Thani, who was 33 years old at the time.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "legacy_and_tenure",
+      "rationale": "Center-right (Times of India) and center-left (South China Morning Post) outlets all confirm the voluntary nature of the transfer and the successor's identity; the specific month (June) and age (33) are confirmed across these sources.",
+      "framing_variants": [
+        {
+          "characterization": "Described as Sheikh Hamad 'voluntarily' handing power to his son",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Noted Tamim 'was 33 at the time' and that the transfer was 'considered an uncommon move among hereditary rulers in the Gulf region'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Described as 'voluntarily turning over power to his son' after stepping down in June 2013",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Sheikh Hamad's voluntary abdication was considered an uncommon or rare act among hereditary Gulf rulers.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "legacy_and_tenure",
+      "rationale": "Both Times of India articles make this characterization, but it comes only from that single center-right outlet and is not cross-spectrum confirmed.",
+      "framing_variants": [
+        {
+          "characterization": "Called him 'one of the few hereditary Gulf rulers to step down in favour of a successor during his lifetime'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Called it 'an uncommon move among hereditary rulers in the Gulf region'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Qatar adopted its first permanent constitution in 2004 during Sheikh Hamad's tenure.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "legacy_and_tenure",
+      "rationale": "Both Times of India articles confirm this milestone; it is not mentioned by outlets from other bias tiers in this cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as a major event during his reign",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Listed as one of the major milestones during his tenure",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Municipal elections were introduced during Sheikh Hamad's tenure, allowing women to vote and contest seats for the first time.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "legacy_and_tenure",
+      "rationale": "Both Times of India articles confirm this reform; no outlets from other bias tiers reported this specific detail.",
+      "framing_variants": [
+        {
+          "characterization": "Described as a reform during his 18-year tenure",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Listed as a major milestone allowing women to 'vote and contest seats for the first time'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Qatar hosted the 2006 Asian Games in Doha during Sheikh Hamad's tenure.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "legacy_and_tenure",
+      "rationale": "Both Times of India articles list this as a milestone of his reign; it is not reported by other outlets in this cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Listed as a major international event during his reign",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Noted as coinciding with his years in office",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Qatar hosted the 2012 UN Climate Change Conference during Sheikh Hamad's tenure.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "legacy_and_tenure",
+      "rationale": "Both Times of India articles list this as a milestone; it is not reported by other outlets in this cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Listed as a major international event during his reign",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Listed among milestones during his tenure",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Both the Doha Agreement and the Fatah-Hamas Doha Agreement were reached during Sheikh Hamad's tenure.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "legacy_and_tenure",
+      "rationale": "Both Times of India articles cite these diplomatic milestones; no outlets from other bias tiers in this cluster reported them.",
+      "framing_variants": [
+        {
+          "characterization": "Cited as diplomatic milestones of his reign",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Listed among the major milestones during his tenure",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Qatar founded the Al Jazeera satellite news network during Sheikh Hamad's rule.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "legacy_and_tenure",
+      "rationale": "Only the South China Morning Post mentions the founding of Al Jazeera as part of Qatar's legacy under Sheikh Hamad; no other outlet in this cluster reports this.",
+      "framing_variants": [
+        {
+          "characterization": "Described as having 'founded the powerful Al Jazeera satellite news network'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Qatar hosted the 2022 FIFA World Cup, and Sheikh Hamad received applause from Qataris at its opening match.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "legacy_and_tenure",
+      "rationale": "Only the South China Morning Post reports Qatar's hosting of the 2022 FIFA World Cup and Sheikh Hamad's reception at its opening match in the context of this event cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Noted he 'received thunderous applause from Qataris attending its opening match'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Qatar owns the Harrods department store in London.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "legacy_and_tenure",
+      "rationale": "Only the South China Morning Post mentions Harrods ownership as an illustration of Qatar's reach under Sheikh Hamad's legacy.",
+      "framing_variants": [
+        {
+          "characterization": "Listed as an example of Qatar's global asset ownership",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Qatar's political influence extends from North Africa to Afghanistan, and includes close ties to Iran, Hamas, and Egypt's Muslim Brotherhood.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "legacy_and_tenure",
+      "rationale": "Only the South China Morning Post characterizes the geographic and political breadth of Qatar's influence, including these specific relationships, as context for Sheikh Hamad's legacy.",
+      "framing_variants": [
+        {
+          "characterization": "Described Qatar's reach as stretching 'from North Africa to Afghanistan,' with close ties to 'Shiite powerhouse Iran,' 'the Palestinian militant Hamas group,' and 'Egypt's outlawed Muslim Brotherhood'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Sheikh Hamad bin Khalifa Al Thani came to power in Qatar in 1995 and ruled for 18 years, overseeing rapid economic growth, major infrastructure development, and a significant expansion of Qatar's international profile as an energy-rich nation.",
+      "sources": [
+        "src_002",
+        "src_005"
+      ]
+    },
+    {
+      "point": "In 2013, Sheikh Hamad made the unusual decision for a Gulf hereditary ruler to voluntarily abdicate, handing power to his then-33-year-old son Sheikh Tamim bin Hamad Al Thani, who continues to rule Qatar.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_005"
+      ]
+    },
+    {
+      "point": "Qatar used its wealth and diplomatic position during Sheikh Hamad's tenure to build a high international profile, including founding Al Jazeera, hosting major international events, and acting as a mediator in regional conflicts.",
+      "sources": [
+        "src_005",
+        "src_002"
+      ]
+    },
+    {
+      "point": "The Amiri Diwan is Qatar's official royal court office responsible for state announcements, including official declarations of mourning and government measures.",
+      "sources": [
+        "src_001",
+        "src_002"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-12T14:43:09.035502+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Former Emir of Qatar Sheikh Hamad bin Khalifa Al Thani died on the morning of July 12, 2026, at the age of 74. The announcement was confirmed by sources across the political spectrum, from left-leaning outlets to center-right publications.",
+        "supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Sheikh Hamad ruled Qatar from 1995 to 2013, a tenure of approximately 18 years. In June 2013, he voluntarily transferred power to his son, Sheikh Tamim bin Hamad Al Thani, who was 33 years old at the time.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The Qatar News Agency did not provide a cause of death for the former emir, according to coverage by the South China Morning Post.",
+        "supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Qatar declared four days of national mourning following Sheikh Hamad's death, beginning Sunday, July 12, with national flags flying at half-mast. Work at Qatar's ministries, government departments, public bodies, and state institutions was suspended from Monday, July 13, with employees scheduled to resume duties on Sunday, July 19. These mourning arrangements were reported by center-right outlets.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Center-right outlets characterized Sheikh Hamad's voluntary abdication as an uncommon or rare act among hereditary Gulf rulers, emphasizing the significance of his peaceful transfer of power.",
+        "supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Qatar adopted its first permanent constitution in 2004 during Sheikh Hamad's tenure, according to center-right coverage. The same outlets noted that municipal elections were introduced during his rule, allowing women to vote and contest seats for the first time.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Center-right outlets highlighted several major international events hosted by Qatar during Sheikh Hamad's tenure: the 2006 Asian Games in Doha and the 2012 UN Climate Change Conference. Both the Doha Agreement and the Fatah-Hamas Doha Agreement were also reached during his rule, according to these sources.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Center-left coverage emphasized different aspects of Qatar's transformation under Sheikh Hamad, noting that the country founded the Al Jazeera satellite news network during his rule. The same outlet reported that Qatar hosted the 2022 FIFA World Cup, where Sheikh Hamad received applause from Qataris at the opening match.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The South China Morning Post characterized Qatar's reach under Sheikh Hamad's legacy by noting the country's ownership of the Harrods department store in London and describing its political influence as extending from North Africa to Afghanistan, including close ties to Iran, Hamas, and Egypt's Muslim Brotherhood. This framing of Qatar's geopolitical relationships appeared only in center-left coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

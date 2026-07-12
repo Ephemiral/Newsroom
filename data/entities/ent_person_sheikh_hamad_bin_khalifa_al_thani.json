@@ -1,0 +1,74 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_sheikh_hamad_bin_khalifa_al_thani",
+  "type": "person",
+  "canonical_name": "Sheikh Hamad bin Khalifa Al Thani",
+  "aliases": [
+    "Hamad bin Khalifa Al Thani",
+    "Former Emir of Qatar Sheikh Hamad bin Khalifa Al Thani",
+    "Sheikh Hamad"
+  ],
+  "wikidata_qid": "Q57360",
+  "summary": "Hamad bin Khalifa Al Thani is a member of Qatar's royal family, the House of Thani. He was the ruling Emir of Qatar from 1995 until 2013 when he abdicated the throne, handing power to his fourth son Tamim bin Hamad Al Thani, who was born to his second wife, Moza bint Nassir.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Hamad_bin_Khalifa_Al_Thani"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/5th_Global_Forum_Vienna_2013_%288512954534%29_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:5th_Global_Forum_Vienna_2013_(8512954534)_(cropped).jpg",
+    "credit": "Österreichische Außenministerium",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:5th Global Forum Vienna 2013 (8512954534) (cropped).jpg",
+    "fetched_at": "2026-07-12T14:43:14.974990+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Կատարի  Էմիր",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q57360",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The Qatari government refers to him as the Father Emir.",
+      "source_url": "https://en.wikipedia.org/wiki/Hamad_bin_Khalifa_Al_Thani",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_12_asia_002"
+  ],
+  "created_at": "2026-07-12T14:43:12.464851+00:00",
+  "last_updated": "2026-07-12T14:43:34.608201+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Hamad_bin_Khalifa_Al_Thani"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikidata Q57360 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q57360"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_muslim_brotherhood",
+  "type": "organization",
+  "canonical_name": "Muslim Brotherhood",
+  "aliases": [],
+  "wikidata_qid": "Q133207",
+  "summary": "The Society of the Muslim Brothers, better known as the Muslim Brotherhood, is a transnational Sunni Islamist organization founded in Egypt by Islamic scholar, imam and schoolteacher Hassan al-Banna in 1928. Al-Banna's teachings spread far beyond Egypt, influencing various Islamist movements from charitable organizations to political parties.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Muslim_Brotherhood"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_12_asia_002"
+  ],
+  "created_at": "2026-07-12T14:43:23.403457+00:00",
+  "last_updated": "2026-07-12T14:43:34.609431+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikidata Q133207 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q133207"
+    }
+  ]
+}

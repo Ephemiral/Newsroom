@@ -1,0 +1,79 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_harrods",
+  "type": "organization",
+  "canonical_name": "Harrods",
+  "aliases": [
+    "Harrods department store"
+  ],
+  "wikidata_qid": "Q332474",
+  "summary": "Harrods is a luxury department store on Brompton Road in Knightsbridge, London, England. The building was designed by C.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Harrods"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/HarrodsDay.jpg/960px-HarrodsDay.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:HarrodsDay.jpg",
+    "credit": "User:Mikegr",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:HarrodsDay.jpg",
+    "fetched_at": "2026-07-12T14:43:32.005711+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Stephens for Charles Digby Harrod, and opened in 1905; it replaced the first store on the grounds founded by his father Charles Henry Harrod in 1849, which burned down in 1881.",
+      "source_url": "https://en.wikipedia.org/wiki/Harrods",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The store spans 1,100,000 square feet (100,000 m2) of selling space, making it the largest department store in Europe and one of the largest in the world.",
+      "source_url": "https://en.wikipedia.org/wiki/Harrods",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_12_asia_002"
+  ],
+  "created_at": "2026-07-12T14:43:28.429019+00:00",
+  "last_updated": "2026-07-12T14:43:34.609573+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Harrods"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Harrods"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikidata Q332474 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q332474"
+    }
+  ]
+}

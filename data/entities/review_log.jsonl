@@ -113,3 +113,6 @@
 {"kind": "low_confidence_match", "name": "Democratic Party", "candidates": ["ent_organization_maine_democratic_party"], "event_id": "evt_2026_07_12_israel_middle_east_003", "at": "2026-07-12T14:20:16.096828+00:00"}
 {"kind": "type_conflict", "name": "Oman", "existing": "ent_organization_oman", "candidate_type": "location", "at": "2026-07-12T14:24:39.846241+00:00"}
 {"kind": "low_confidence_match", "name": "Oman", "candidates": ["ent_location_gulf_of_oman"], "event_id": "evt_2026_07_12_israel_middle_east_004", "at": "2026-07-12T14:24:42.092383+00:00"}
+{"kind": "person_grounded", "entity_id": "ent_person_sheikh_hamad_bin_khalifa_al_thani", "name": "Sheikh Hamad bin Khalifa Al Thani", "qid": "Q57360", "context": "Former Emir of Qatar who ruled 1995-2013 and died July 12, 2026", "event_id": "evt_2026_07_12_asia_002", "at": "2026-07-12T14:43:15.087900+00:00"}
+{"kind": "type_conflict", "name": "Qatar", "existing": "ent_organization_qatar", "candidate_type": "location", "at": "2026-07-12T14:43:15.212941+00:00"}
+{"kind": "low_confidence_match", "name": "Qatar News Agency", "candidates": ["ent_organization_qatar"], "event_id": "evt_2026_07_12_asia_002", "at": "2026-07-12T14:43:21.733135+00:00"}

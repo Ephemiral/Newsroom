@@ -1,0 +1,70 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_al_jazeera",
+  "type": "organization",
+  "canonical_name": "Al Jazeera",
+  "aliases": [
+    "Al Jazeera satellite news network"
+  ],
+  "wikidata_qid": "Q13477",
+  "summary": "Al Jazeera Arabic is a Qatari state-funded Arabic-language news television network. It is based in Doha and operated by the Al Jazeera Media Network, which also operates Al Jazeera English.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Al_Jazeera_Arabic"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is the largest news network in the Middle East and North Africa region.",
+      "source_url": "https://en.wikipedia.org/wiki/Al_Jazeera_Arabic",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It was founded in 1996 by the then Emir of Qatar Sheikh Hamad bin Khalifa Al Thani.",
+      "source_url": "https://en.wikipedia.org/wiki/Al_Jazeera_Arabic",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_12_asia_002"
+  ],
+  "created_at": "2026-07-12T14:43:17.178902+00:00",
+  "last_updated": "2026-07-12T14:43:34.608916+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Al_Jazeera_Arabic"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Al_Jazeera_Arabic"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikidata Q13477 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q13477"
+    }
+  ]
+}
