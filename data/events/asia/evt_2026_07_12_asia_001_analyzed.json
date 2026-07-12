@@ -1,0 +1,1197 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_12_asia_001",
+    "beat": "asia",
+    "title": "Typhoon Bavi Makes Landfall in Eastern China After Sweeping Through Philippines, Japan, and Taiwan",
+    "summary": "Typhoon Bavi made landfall in China's Zhejiang province late on July 11, 2026, after causing deaths in the Philippines and bringing strong winds and rain to Japan's southern islands and Taiwan. Nearly two million people were evacuated across China ahead of the storm, which was the second typhoon to hit the country in just over a week.",
+    "date": "2026-07-11",
+    "generated_at": "2026-07-12T04:47:36.248363+00:00",
+    "related_events": [
+      {
+        "cluster_id": "evt_2026_07_11_asia_001",
+        "title": "Typhoon Bavi Strikes Philippines, Taiwan, Japan, and China"
+      }
+    ],
+    "entities": [
+      {
+        "entity_id": "ent_technology_super_typhoon_bavi",
+        "surfaces": [
+          "Typhoon Bavi"
+        ],
+        "relevance_to_event": "The central subject of the report; a super typhoon that made landfall in eastern China on July 11, 2026, after causing deaths and injuries across the Philippines, Japan, and Taiwan.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_zhejiang_province",
+        "surfaces": [
+          "Zhejiang province"
+        ],
+        "relevance_to_event": "The primary landfall location where Typhoon Bavi struck late on July 11, 2026, with approximately 1.72 million people evacuated from this province alone.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_mindanao",
+        "surfaces": [
+          "Philippines"
+        ],
+        "relevance_to_event": "An affected nation where at least 17–18 people were killed by the typhoon, primarily through landslides intensified by Typhoon Bavi's monsoon rains, and nearly 11,000 people sought emergency shelter.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_taiwan",
+        "surfaces": [
+          "Taiwan"
+        ],
+        "relevance_to_event": "An affected region where Typhoon Bavi passed north of the island, resulting in 87–134 reported injuries and more than 14,000 evacuations from mountainous and coastal areas.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009",
+            "clm_015",
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_japan",
+        "surfaces": [
+          "Japan"
+        ],
+        "relevance_to_event": "An affected nation where Typhoon Bavi brought strong winds and rain to its southern Sakishima island chain, though no deaths were reported.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_fujian_province",
+        "surfaces": [
+          "Fujian province"
+        ],
+        "relevance_to_event": "A Chinese province that evacuated more than 130,000 people ahead of Typhoon Bavi's landfall and broader storm system impacts.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_typhoon_maysak",
+        "surfaces": [
+          "Typhoon Maysak"
+        ],
+        "relevance_to_event": "The preceding typhoon that struck China within just over a week before Typhoon Bavi, providing context for heightened emergency preparedness across multiple Chinese provinces.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_shanghai",
+        "surfaces": [
+          "Shanghai"
+        ],
+        "relevance_to_event": "A Chinese city whose coastal and high-risk areas evacuated approximately 34,000 people ahead of Typhoon Bavi's arrival and associated storm system impacts.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "thread_id": "thr_typhoon_bavi_impacts_across_western_pacific_region",
+    "image_attempted_at": "2026-07-12T04:48:28.204997+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Typhoon_In-Fa_makes_landfall_in_China_%28MODIS_2021-07-27%29.jpg/1280px-Typhoon_In-Fa_makes_landfall_in_China_%28MODIS_2021-07-27%29.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Typhoon_In-Fa_makes_landfall_in_China_%28MODIS_2021-07-27%29.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Typhoon_In-Fa_makes_landfall_in_China_(MODIS_2021-07-27).jpg",
+      "width": 1200,
+      "height": 1088,
+      "caption": "Typhoon In-fa makes landfall in Zhejiang Province, China (file photo from 2021)",
+      "credit": "MODIS Land Rapid Response Team, NASA GSFC",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:Typhoon In-Fa makes landfall in China (MODIS 2021-07-27).jpg",
+      "query": "Zhejiang province flooding",
+      "fetched_at": "2026-07-12T04:48:28.204961+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONmhKZVUzOHhLaGZlV1JPdVp6a3NyOVpuakMwc3l3N2FPNUk4WmVvYVhUZjM1eDU1ZEJJR21rVDNYcFhvOVY2N0NLSzF5Qmxubk1PSThxeGs0dWt1TDBHUzZkUFE4QmtzcXNsZFJxY1BBSDlNNUZFcUF1MnBEczdQd3NLdEJaQzkyaFRDLUZrdzVNQVdqVVRqVy0tVFFYUFJMeGxmMWJrTENEaFpfdUR30gG0AUFVX3lxTE1RQi1nZ2F4SEdGcHJVbTBjRjdxcTFqYW9HOXNBUm8xd3V3cmZoTFJOZ2NHU2lqejd2c2lWN1FldUs2blVsa19HOUFuRUJ5OFRXU0NEa09tZEdRUGRnZDF1X1hwM1NDSXRhcEhha0RxYS1HS0JSVWhHSXczSHBHUE9JM2JsTkJGV3hoVlRwUy1vVjFuWHVLRmFzZF85RkVUbVJQanRfc0NtRUdWckZsM3hzRmRrcw?oc=5",
+      "author": null,
+      "published_at": "2026-07-11T19:07:33+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/powerful-typhoon-bavi-hits-japans-okinawa-china-braces-for-heavy-rain",
+      "author": null,
+      "published_at": "2026-07-11T01:10:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/china-evacuates-over-one-million-as-typhoon-bavi-nears",
+      "author": null,
+      "published_at": "2026-07-11T09:16:50+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/typhoon-bavi-makes-landfall-in-china-downgraded-to-severe-tropical-storm",
+      "author": null,
+      "published_at": "2026-07-12T02:15:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/c0myengg8nzo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-10T13:40:19+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNckZ1dnY4TDdVLXNTbGo2MHUzZFRwend1TTNiVnhhM0llRWxXa0MtaWFkc1U5MDR3amtEV0gwUW9QcVZGZHluOXV0SzlULWg0eDZzY0picUM4LURRX1pNMEtwMm5tT2VKQ0hkdGp3RDRuNWJXelJvRDNCc2VFS2dJWi05YTU0RHJpdzdjTExkaC1qUE9PaUdZZXpUZ9IBoAFBVV95cUxOXzhueHpoUjgzejQ3ekg4cnN4S0tNZ0syQUpwYWZiWHREb0ZRelhldVdnMVJBY3h0QmhnaUo2emJlTXYyb3hMZWtZbW9rUUNTaDVPOFpUTGZpSFpJdVJvWW8zSmlnQ0hUc2VEVjBPeFotNWUxM04wMktsM2VEWWdBUE5ESmloQzBQSDU1TEZYQUk2d3AtNGVsamE2cGJhVDNr?oc=5",
+      "author": null,
+      "published_at": "2026-07-11T12:25:04+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/northern-china-braces-for-heavy-rains-as-bavi-nears",
+      "author": null,
+      "published_at": "2026-07-10T15:36:31+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_008",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/asia-pacific/20260711-more-than-1-million-evacuated-as-typhoon-bavi-makes-landfall-in-china",
+      "author": "FRANCE 24",
+      "published_at": "2026-07-11T19:44:32+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_009",
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/world/china/typhoon-bavi-makes-landfall-in-eastern-china-over-1-million-evacuated/articleshow/132334802.cms",
+      "author": "TOI World Desk",
+      "published_at": "2026-07-11T17:05:16+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Bennett, Coleman & Co. (The Times Group), controlled by the Jain family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_010",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/thousands-evacuated-as-taiwan-shuts-down-for-typhoon-bavi",
+      "author": null,
+      "published_at": "2026-07-11T01:11:32+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_011",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/politics/article/3360257/thousands-flights-cancelled-typhoon-bavi-hits-eastern-china-bringing-heavy-rains?utm_source=rss_feed",
+      "author": "William Zheng",
+      "published_at": "2026-07-12T03:03:47+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_012",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/typhoon-bavi-batters-east-china-taiwan-reports-134-injured",
+      "author": null,
+      "published_at": "2026-07-12T02:27:02+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_013",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-12T01:22:22+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Typhoon Bavi made landfall in Zhejiang province, eastern China, late on July 11, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "typhoon_path_and_landfall",
+      "rationale": "Multiple outlets spanning left, center-left, center, and center-right consistently report the landfall in Zhejiang province on July 11, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Forecast article noting Bavi was approaching Wenzhou with landfall expected in early hours of July 12",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reported Bavi first made landfall at around 11:20pm on July 11 in Zhejiang province, citing Xinhua",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Confirmed landfall at around 11:20pm on July 11 in Zhejiang province",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reported landfall in the coastal city of Yuhuan in Zhejiang",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Reported landfall in China's eastern Zhejiang province late on Saturday",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Reported Bavi struck Zhejiang's coastal city of Yuhuan around 11:20 p.m.",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "BBC reported first landfall in coastal city of Taizhou on Saturday evening",
+          "source_id": "src_013"
+        },
+        {
+          "characterization": "Reported first landfall in Taizhou, Zhejiang at 11:12pm",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_008",
+        "src_009",
+        "src_012",
+        "src_013",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Sources differ on the precise location of Typhoon Bavi's first landfall: some outlets report it as Yuhuan city, others report it as Taizhou; a second landfall was reported in Yueqing/Wenzhou around midnight.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "typhoon_path_and_landfall",
+      "rationale": "Outlets disagree on whether the first landfall was at Yuhuan or Taizhou; all agree on a second landfall near Wenzhou/Yueqing around midnight, indicating inconsistency in reporting the precise first-strike location.",
+      "framing_variants": [
+        {
+          "characterization": "First landfall in Yuhuan city, Zhejiang at around 11:20pm; second in Yueqing City about 20 minutes later, citing Xinhua",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "First landfall at around 11:20pm in Zhejiang province; second landfall in Yueqing City",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Making landfall in the coastal city of Yuhuan in Zhejiang",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Struck Zhejiang's coastal city of Yuhuan around 11:20 p.m.; second landfall in Yueqing, Wenzhou around midnight",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "BBC reported first landfall in coastal city of Taizhou on Saturday evening; second in Wenzhou around midnight",
+          "source_id": "src_013"
+        },
+        {
+          "characterization": "SCMP reported first landfall in Taizhou, Zhejiang at 11:12pm; second landfall in Wenzhou around midnight",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_008",
+        "src_012",
+        "src_013",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Typhoon Bavi had maximum sustained winds of approximately 144 km/h near its centre at landfall.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "typhoon_intensity",
+      "rationale": "Sources spanning center-left (BBC) to center-right (Straits Times, Times of India) and center (France 24) consistently report 144 km/h as the maximum sustained wind speed at landfall.",
+      "framing_variants": [
+        {
+          "characterization": "144 kmh, equivalent to Category 1 on the Saffir-Simpson Hurricane Wind Scale",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Packing winds of 144 kmh at landfall in Zhejiang",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Maximum sustained winds of 144 kph near its centre",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Packing maximum sustained winds of 144 kmph (89 mph) near its centre",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Weakened from 290 km/h super-typhoon winds to 144 km/h as it moved through the Pacific",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_008",
+        "src_009",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Typhoon Bavi began as a super typhoon and struck Guam and the Northern Mariana Islands around July 6–7 before weakening as it moved westward across the Pacific.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "typhoon_intensity",
+      "rationale": "Multiple center-right (Straits Times) and center-left (BBC) outlets report the typhoon's super-typhoon origin and impact on Guam and Northern Marianas, though all sources are from the same general reporting cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Bavi was downgraded from super typhoon as it moved across the Pacific; hit Guam and Northern Marianas on July 6",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Bavi impacted Guam and the Northern Mariana Islands on Monday as a super typhoon before being downgraded",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Bavi began as a super typhoon with wind speeds of 290 km/h, battering Guam and Northern Mariana Islands last Monday",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Typhoon Bavi's rain band system spanned approximately 1,000 km (roughly the width of France) at its widest point.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "typhoon_intensity",
+      "rationale": "Multiple outlets from the same center-right and center-left spectrum describe the typhoon's vast rain band system using the France comparison, corroborating the scale without cross-spectrum breadth.",
+      "framing_variants": [
+        {
+          "characterization": "Rain bands about the size of France from end to end",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Rain bands approximately the size of France from end to end",
+          "source_id": "src_010"
+        },
+        {
+          "characterization": "Spanning 1,000 km (600 miles) at its widest point, roughly the width of mainland France",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Spans 1,000 km (620 miles) at its widest point, roughly the width of France",
+          "source_id": "src_013"
+        },
+        {
+          "characterization": "Described as the France-sized storm system",
+          "source_id": "src_012"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_010",
+        "src_011",
+        "src_013",
+        "src_012"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Typhoon Bavi was downgraded to a severe tropical storm or tropical storm after making landfall in China, with further weakening expected as it moved inland.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "typhoon_intensity",
+      "rationale": "Outlets from center-left (BBC, France 24) and center-right (Straits Times, Times of India) all report the storm's post-landfall weakening, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Downgraded to a severe tropical storm on July 12; intensity weakened to severe tropical storm levels at around 5am",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Expected to gradually weaken according to China's national weather centre",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Storm would continue moving inland while steadily losing strength",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Weakened by morning to a tropical storm as it pushed inland",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "Weakened to a severe tropical storm; expected to gradually diminish in intensity as it moves north-west",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_008",
+        "src_009",
+        "src_012",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Typhoon Bavi is the most powerful storm to hit China in 2026 and the second typhoon to strike the country within just over a week, following Typhoon Maysak.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "typhoon_path_and_landfall",
+      "rationale": "Multiple outlets report Bavi as the second typhoon to hit China in just over a week, following Maysak; one outlet (Straits Times) also calls it the most powerful storm to hit China this year. All sources are from similar parts of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Bavi is the second typhoon to impact China in just over a week; Maysak made landfall in southern China on July 3",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Bavi is the second typhoon to strike China in just over a week, following Typhoon Maysak",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "The second typhoon to hit the country within a week",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "The most powerful storm to hit the country this year",
+          "source_id": "src_012"
+        }
+      ],
+      "supported_by": [
+        "src_008",
+        "src_009",
+        "src_011",
+        "src_012"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Typhoon Bavi's path took it through Japan's southern Sakishima island chain and past northern Taiwan before making landfall in Zhejiang province.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "typhoon_path_and_landfall",
+      "rationale": "Sources across left (Al Jazeera), center-left (BBC), center (France 24), and center-right (Straits Times, Times of India) all describe the typhoon's route through Japan's islands and past Taiwan before China.",
+      "framing_variants": [
+        {
+          "characterization": "Pummelled Japan's southern Sakishima island chain with heavy rain and violent winds; brushed past northern Taiwan",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Lashed northern Taiwan and Japan's remote southwestern islands",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Lashed northern Taiwan and Japan's remote south-western islands before reaching China",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Heading towards Taiwan, parts of Japan, and south-eastern China",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Previously brought strong winds and rain to Japan's southern islands and Taiwan",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Swept across Japan's southern islands; tracked north of Taiwan before making landfall in Zhejiang",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Hit Japan's southern Sakishima island chain; brushed past northern Taiwan",
+          "source_id": "src_010"
+        },
+        {
+          "characterization": "Passed Taiwan to the north on Saturday, bringing strong wind and driving rain",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "Pummelled a chain of remote Japanese islands; brought heavy rainfall to Taiwan as it brushed past its northern tip",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_008",
+        "src_009",
+        "src_010",
+        "src_012",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Typhoon Bavi was initially forecast to be potentially the largest typhoon to hit Taiwan in more than 30 years, but its strong-wind radius shrank to 350 km before impact, and Taiwan did not receive a direct hit.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "typhoon_path_and_landfall",
+      "rationale": "Multiple center-right and center-left outlets report both the initial alarming forecast for Taiwan and the subsequent reduced threat, corroborating the shift in expectations.",
+      "framing_variants": [
+        {
+          "characterization": "On track on July 10 to be largest typhoon to hit Taiwan in 30+ years; strong-wind radius shrunk to 350 km",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Strong-wind radius was 350 km; Bavi had been downgraded before making landfall",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Taiwan itself did not receive a direct hit from the typhoon",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The total number of people evacuated in China ahead of Typhoon Bavi is reported variously: approximately 1.72 million in Zhejiang alone as of July 11 morning, rising to nearly 2 million or more than 2.4 million in total across all provinces by the time of landfall.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "evacuation_and_displacement",
+      "rationale": "All sources confirm massive evacuations; variation in figures (1.7M–2.4M+) reflects different timestamps and geographic scope of counting rather than a factual dispute. Cross-spectrum agreement exists on the scale.",
+      "framing_variants": [
+        {
+          "characterization": "More than 1.7 million evacuated as Typhoon Bavi makes landfall in China (headline)",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "China evacuated more than 1.8 million people on July 11; 1.7 million in Zhejiang and 100,000+ in Fujian",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Nearly two million people evacuated; 1.72 million by morning of July 11",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Nearly two million in its path; 1.72 million by July 11 morning",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "More than 1.7 million as of Saturday; 1.7 million in Zhejiang by Saturday morning per Xinhua",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "More than 1.7 million from vulnerable areas",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "More than 600,000 on Saturday; more than half a million in Zhejiang and 100,000+ in Fujian per state media",
+          "source_id": "src_010"
+        },
+        {
+          "characterization": "More than 2.4 million evacuated after the typhoon hit",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Nearly 2 million evacuated ahead of Bavi's arrival, mostly in Zhejiang",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "Nearly two million evacuated; more than 1.7 million in Zhejiang, thousands more in neighbouring provinces per state media",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_008",
+        "src_009",
+        "src_010",
+        "src_011",
+        "src_012",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "More than 100,000 people were evacuated in Beijing due to heavy rainfall and flood risks associated with the broader storm system.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "evacuation_and_displacement",
+      "rationale": "Multiple center-right (Straits Times) and center-left (BBC) outlets report approximately 100,000 evacuations in Beijing related to rain and flooding risks from the storm's broader reach.",
+      "framing_variants": [
+        {
+          "characterization": "More than 100,000 people evacuated from homes in Beijing due to flooding risks",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Torrential rain prompted evacuation of more than 100,000 from homes in Beijing",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Close to 100,000 evacuated in Beijing as of Friday afternoon for heavy rainfall preparation",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "Beijing ordered evacuation of 100,000 people to 'avoid risk', officials said",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_007",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Officials stated that the Beijing evacuation was ordered to avoid risk from potential flooding.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "evacuation_and_displacement",
+      "rationale": "Only BBC explicitly attributes the stated rationale ('avoid risk') to Beijing officials for the evacuation order.",
+      "framing_variants": [
+        {
+          "characterization": "Beijing had ordered the evacuation of 100,000 people to 'avoid risk', officials said",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "More than 130,000 people fled their homes in Fujian province due to the typhoon.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "evacuation_and_displacement",
+      "rationale": "Two Straits Times articles (center-right) both report 130,000+ evacuees in Fujian, corroborating the figure, but this does not span the political spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "More than 130,000 people fled their homes in Fujian",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "More than 130,000 people fled their homes in Fujian",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Around 34,000 people were evacuated from Shanghai's coastal and high-risk areas ahead of the typhoon.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "evacuation_and_displacement",
+      "rationale": "Multiple outlets including center (France 24), center-right (Straits Times, Times of India) report the approximately 34,000 Shanghai evacuees, corroborating the figure.",
+      "framing_variants": [
+        {
+          "characterization": "Around 34,000 from Shanghai's coastal areas and high-risk areas",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Around 34,000 from Shanghai's coastal areas and high-risk areas",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Shanghai relocated around 34,000 residents from high-risk areas by noon, per Xinhua",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Shanghai relocated around 34,000 residents from high-risk zones",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_008",
+        "src_009"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "More than 14,000 people were evacuated in Taiwan, mainly from mountainous and coastal areas.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "evacuation_and_displacement",
+      "rationale": "Sources from center-right (Straits Times) and center (France 24) all report Taiwan evacuated more than 14,000 people, with some noting mountainous areas specifically.",
+      "framing_variants": [
+        {
+          "characterization": "More than 14,000 from mainly mountainous areas",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "More than 14,000 people evacuated from homes in Taiwan",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "More than 14,000 from homes in northern Taiwan",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "More than 14,200 evacuated, including from Hualien county and Taichung city",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "Government evacuated more than 14,000 from mainly mountainous areas; most in north and east",
+          "source_id": "src_010"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_008",
+        "src_010"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Nearly 11,000 people across the Philippines fled to emergency shelters due to Typhoon Bavi-related weather.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "evacuation_and_displacement",
+      "rationale": "Multiple center-right and center outlets consistently report approximately 11,000 evacuees in the Philippines, corroborating the figure.",
+      "framing_variants": [
+        {
+          "characterization": "Nearly 11,000 people across the Philippines fled their homes",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Nearly 11,000 people across the archipelago fled their homes",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "About 11,000 villagers moved to 77 emergency shelters mostly in southern Philippine provinces",
+          "source_id": "src_008"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "At least 17–18 people were killed in the Philippines, primarily due to landslides triggered by seasonal monsoon rains that Typhoon Bavi intensified.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualties_and_injuries",
+      "rationale": "Sources spanning left (Al Jazeera via art_1aeb3a88bd), center-left (BBC), center (France 24), and center-right (Straits Times, Times of India) all report deaths in the Philippines from Bavi-intensified monsoon landslides, with minor variation between 17 and 18.",
+      "framing_variants": [
+        {
+          "characterization": "17 people died due to heavy rain from enhanced south-west monsoon worsened by Bavi",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Death toll from landslides and other incidents triggered by Bavi rose to 18",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Death toll from landslides triggered by Bavi rose to 18; most on southern island of Mindanao",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "At least 17 killed; landslide in Malapatan killed 10+; separate slide in Calanogas killed 5",
+          "source_id": "src_008"
+        },
+        {
+          "characterization": "At least 17 people killed, most in landslides triggered by heavy rain",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "17 died due to heavy rains from enhanced southwest monsoon, worsened by Bavi",
+          "source_id": "src_010"
+        },
+        {
+          "characterization": "Landslides triggered by storm killed at least 17 people in the Philippines",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_008",
+        "src_009",
+        "src_010",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Neither Japan nor Taiwan reported any deaths from Typhoon Bavi.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualties_and_injuries",
+      "rationale": "Sources from center-right (Straits Times) and center-left (BBC) both confirm no deaths were reported in Japan or Taiwan from the typhoon, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Japan and Taiwan have not so far reported any deaths from the typhoon",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Japan and Taiwan have not so far reported any deaths from the typhoon",
+          "source_id": "src_010"
+        },
+        {
+          "characterization": "Taiwan reported no deaths; injuries at 134",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "Neither Japan nor Taiwan has reported any deaths",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_010",
+        "src_012",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Taiwan reported between 87 and 134 injuries from Typhoon Bavi, primarily from falls off motorcycles, slipping, or being struck by objects.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "casualties_and_injuries",
+      "rationale": "Multiple outlets report Taiwan injuries; variation in figures (87, 113, 134) reflects different reporting timestamps. The cause of injuries is consistent across sources.",
+      "framing_variants": [
+        {
+          "characterization": "Taiwan's fire department reported 87 people injured; mostly falls from motorcycles/bicycles or struck by objects",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_008",
+        "src_012"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-12T04:48:02.861933+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Typhoon Bavi made landfall in Zhejiang province, eastern China, late on July 11, 2026, with maximum sustained winds of approximately 144 km/h near its center. The storm's path took it through Japan's southern Sakishima island chain and past northern Taiwan before striking the Chinese coast. After making landfall, Bavi was downgraded to a severe tropical storm or tropical storm, with further weakening expected as it moved inland.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_008",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_008",
+            "src_009",
+            "src_010",
+            "src_012",
+            "src_013"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "At least 17–18 people were killed in the Philippines, primarily due to landslides triggered by seasonal monsoon rains that Typhoon Bavi intensified. Nearly 11,000 people across the Philippines fled to emergency shelters due to the typhoon-related weather. Neither Japan nor Taiwan reported any deaths from the storm.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_016",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_008",
+            "src_009",
+            "src_010",
+            "src_012",
+            "src_013"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "More than 14,000 people were evacuated in Taiwan, mainly from mountainous and coastal areas. Taiwan reported between 87 and 134 injuries from Typhoon Bavi, primarily from falls off motorcycles, slipping, or being struck by objects. The variation in injury figures reflects different reporting timestamps as authorities updated their counts.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_008",
+            "src_010",
+            "src_012"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Typhoon Bavi began as a super typhoon and struck Guam and the Northern Mariana Islands around July 6–7 before weakening as it moved westward across the Pacific. At its widest point, the storm's rain band system spanned approximately 1,000 km—roughly the width of France. The typhoon was initially forecast to be potentially the largest to hit Taiwan in more than 30 years, but its strong-wind radius shrank to 350 km before impact, and Taiwan did not receive a direct hit.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_010",
+            "src_011",
+            "src_012",
+            "src_013"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Typhoon Bavi is the most powerful storm to hit China in 2026 and the second typhoon to strike the country within just over a week, following Typhoon Maysak. This context explains the heightened state of emergency preparedness across multiple Chinese provinces as authorities managed back-to-back severe weather events.",
+        "supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_008",
+            "src_009",
+            "src_011",
+            "src_012"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Outlets reported differing figures for the total number of people evacuated in China ahead of Typhoon Bavi, with counts ranging from approximately 1.72 million in Zhejiang province alone as of the morning of July 11 to nearly 2 million or more than 2.4 million across all affected provinces by the time of landfall. The variation in figures reflects different timestamps and whether reports counted only Zhejiang province or included evacuations across multiple provinces including Fujian, Shanghai, and Beijing.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_008",
+            "src_009",
+            "src_010",
+            "src_011",
+            "src_012",
+            "src_013"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Sources differed on the precise location of Typhoon Bavi's first landfall in Zhejiang province, with some outlets reporting it as Yuhuan city and others reporting it as Taizhou. All sources agreed on a second landfall near Yueqing or Wenzhou around midnight, indicating inconsistency in reporting the exact first-strike location while the broader landfall timeline remained consistent.",
+        "supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004",
+            "src_008",
+            "src_011",
+            "src_012",
+            "src_013"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "More than 130,000 people fled their homes in Fujian province due to the typhoon, according to center-right outlets. Around 34,000 people were evacuated from Shanghai's coastal and high-risk areas ahead of the storm. More than 100,000 people were evacuated in Beijing due to heavy rainfall and flood risks associated with the broader storm system, with officials stating the evacuation was ordered to avoid risk from potential flooding.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014",
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004",
+            "src_007",
+            "src_008",
+            "src_009",
+            "src_013"
+          ]
+        },
+        "kind": "agreed"
+      }
+    ]
+  }
+}

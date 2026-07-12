@@ -1,0 +1,61 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_shanghai",
+  "type": "location",
+  "canonical_name": "Shanghai",
+  "aliases": [],
+  "wikidata_qid": "Q8686",
+  "summary": "Shanghai is a provincial-level direct-administered municipality in China. It has a population of 30,050,000 in the urban area as of 2026, thus making it China's most populous city and more broadly the fifth-largest city in the world by population.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Shanghai"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Shanghai_montage.png/960px-Shanghai_montage.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Shanghai_montage.png",
+    "credit": "ASDFGHJ, pontmarcheur (compilations, for proper attribution you have to name the authors of source images",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Shanghai montage.png",
+    "fetched_at": "2026-07-12T04:48:10.642637+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The city is located on the southern estuary of the Yangtze River, with the Huangpu River bisecting the city.",
+      "source_url": "https://en.wikipedia.org/wiki/Shanghai",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_12_asia_001"
+  ],
+  "created_at": "2026-07-12T04:48:08.315419+00:00",
+  "last_updated": "2026-07-12T04:48:13.797319+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Shanghai"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikidata Q8686 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q8686"
+    }
+  ]
+}

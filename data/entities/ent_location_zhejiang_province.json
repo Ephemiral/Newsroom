@@ -1,0 +1,96 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_zhejiang_province",
+  "type": "location",
+  "canonical_name": "Zhejiang Province",
+  "aliases": [
+    "Zhejiang",
+    "Zhejiang province"
+  ],
+  "wikidata_qid": "Q16967",
+  "summary": "Zhejiang is a coastal province in East China. Its capital and largest city is Hangzhou, with other notable cities including Ningbo and Wenzhou.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Zhejiang"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/West_Lake_-_Hangzhou%2C_China.jpg/960px-West_Lake_-_Hangzhou%2C_China.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:West_Lake_-_Hangzhou,_China.jpg",
+    "credit": "Louisa Salazar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:West Lake - Hangzhou, China.jpg",
+    "fetched_at": "2026-07-12T04:48:08.314066+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Zhejiang is bordered by Jiangsu and Shanghai to the north, Anhui to the northwest, Jiangxi to the west and Fujian to the south.",
+      "source_url": "https://en.wikipedia.org/wiki/Zhejiang",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "To the east is the East China Sea, beyond which lies the Ryukyu Islands.",
+      "source_url": "https://en.wikipedia.org/wiki/Zhejiang",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The population of Zhejiang stands at 64.6 million, the 8th largest in China.",
+      "source_url": "https://en.wikipedia.org/wiki/Zhejiang",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-12",
+      "last_updated": "2026-07-12",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_12_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_12_asia_001"
+  ],
+  "created_at": "2026-07-12T04:48:06.169897+00:00",
+  "last_updated": "2026-07-12T04:48:13.795863+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Entity created from evt_2026_07_12_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Zhejiang"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Zhejiang"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Zhejiang"
+    },
+    {
+      "date": "2026-07-12",
+      "summary_of_change": "Grounded from Wikidata Q16967 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q16967"
+    }
+  ]
+}

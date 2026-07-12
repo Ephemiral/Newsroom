@@ -329,6 +329,7 @@
   "senate minority leader chuck schumer": "ent_person_chuck_schumer",
   "senate of the philippines": "ent_organization_philippine_senate",
   "settlement administration": "ent_organization_settlement_administration",
+  "shanghai": "ent_location_shanghai",
   "shanxi": "ent_location_shanxi_coal_mine",
   "shanxi coal mine": "ent_location_shanxi_coal_mine",
   "sharjah": "ent_location_sharjah",
@@ -418,5 +419,7 @@
   "zelensky": "ent_person_volodymyr_zelensky",
   "zelenskyy": "ent_person_volodymyr_zelensky",
   "zhang zhongsheng": "ent_person_zhang_zhongsheng",
+  "zhejiang": "ent_location_zhejiang_province",
+  "zhejiang province": "ent_location_zhejiang_province",
   "zohran mamdani": "ent_person_zohran_mamdani"
 }
