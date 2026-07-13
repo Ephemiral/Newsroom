@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_qeshm_island",
+  "type": "location",
+  "canonical_name": "Qeshm Island",
+  "aliases": [],
+  "wikidata_qid": "Q240719",
+  "summary": "Qeshm is an Iranian island in the Strait of Hormuz of the Persian Gulf, with an area of about 1,500 square kilometres (580 sq mi). Separated from the Iranian mainland by the Clarence Strait, Qeshm is the largest island in the Persian Gulf.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Qeshm_Island"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/QeshmIsland_NASA.jpg/960px-QeshmIsland_NASA.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:QeshmIsland_NASA.jpg",
+    "credit": "NASA image using data provided courtesy of the University of Maryland’s Global Land Cover Facility",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:QeshmIsland NASA.jpg",
+    "fetched_at": "2026-07-13T04:27:41.942372+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The island is part of Qeshm County, Daraghan Province.",
+      "source_url": "https://en.wikipedia.org/wiki/Qeshm_Island",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "There is a hidden missile city underneath the island, which contains various missiles, rockets, and drones.",
+      "source_url": "https://en.wikipedia.org/wiki/Qeshm_Island",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_13_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_13_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-13T04:27:39.471593+00:00",
+  "last_updated": "2026-07-13T04:27:51.354189+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Entity created from evt_2026_07_13_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Qeshm_Island"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Qeshm_Island"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikidata Q240719 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q240719"
+    }
+  ]
+}

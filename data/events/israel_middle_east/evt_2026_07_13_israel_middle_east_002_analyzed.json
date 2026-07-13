@@ -1,0 +1,1084 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_13_israel_middle_east_002",
+    "beat": "israel_middle_east",
+    "title": "US Congressman Ro Khanna Detained by Israeli Settlers in West Bank",
+    "summary": "US Democrat Congressman Ro Khanna was detained by armed Israeli settlers during a fact-finding visit to the occupied West Bank near Khirbet Zanuta on Wednesday, July 9, 2026. The incident drew conflicting accounts from Khanna, the Israeli military, and Israeli officials, and sparked diplomatic controversy.",
+    "date": "2026-07-09",
+    "generated_at": "2026-07-13T04:30:50.554106+00:00",
+    "related_events": [
+      {
+        "cluster_id": "evt_2026_07_12_israel_middle_east_003",
+        "title": "US Congressman Ro Khanna Detained by Israeli Settlers in West Bank"
+      }
+    ],
+    "entities": [
+      {
+        "entity_id": "ent_person_ro_khanna",
+        "surfaces": [
+          "Ro Khanna",
+          "Congressman Ro Khanna",
+          "US Congressman Ro Khanna",
+          "US Democratic Congressman Ro Khanna"
+        ],
+        "relevance_to_event": "US Democratic Congressman who was detained by armed Israeli settlers during a fact-finding visit to the West Bank on July 9, 2026; the detention is the central incident of this report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_benjamin_netanyahu",
+        "surfaces": [
+          "Netanyahu",
+          "Israeli Prime Minister Netanyahu"
+        ],
+        "relevance_to_event": "Israeli Prime Minister who characterized the settlers involved in detaining Khanna as 'juvenile delinquents' not representative of the 'law-abiding' settler community.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_michael_leiter",
+        "surfaces": [
+          "Michael Leiter",
+          "Israeli Ambassador to the US Michael Leiter"
+        ],
+        "relevance_to_event": "Israeli Ambassador to the US who publicly accused Khanna of using the West Bank visit as a political stunt to distract from past associations and promote a potential 2028 presidential run.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_nadav_weiman",
+        "surfaces": [
+          "Nadav Weiman"
+        ],
+        "relevance_to_event": "Director of Breaking the Silence who accompanied Khanna and provided a witness account stating that armed settlers arrived first, were joined by Israeli soldiers, and that settlers appeared to be giving orders to soldiers.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_breaking_the_silence",
+        "surfaces": [
+          "Breaking the Silence"
+        ],
+        "relevance_to_event": "Israeli human rights organization whose director accompanied Khanna on the visit; Israeli officials alleged Khanna worked with this group instead of cooperating with the Israeli government to plan his trip.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_west_bank",
+        "surfaces": [
+          "West Bank",
+          "occupied West Bank",
+          "South Hebron Hills"
+        ],
+        "relevance_to_event": "The occupied Palestinian territory where Congressman Khanna was detained by Israeli settlers during his fact-finding visit on July 9, 2026.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_012",
+            "clm_015",
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_khirbet_zanuta",
+        "surfaces": [
+          "Khirbet Zanuta"
+        ],
+        "relevance_to_event": "The specific Palestinian hamlet near which Khanna was detained by armed Israeli settlers; residents were forced to leave following violent settler raids after October 2023.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_m4",
+        "surfaces": [
+          "M4 rifles"
+        ],
+        "relevance_to_event": "The rifle type carried by the armed Israeli settlers who stopped and detained Congressman Khanna's convoy near Khirbet Zanuta.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-13T04:32:06.722199+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c0qyk9jwq9no?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-11T18:00:09+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/jul/12/ro-khanna-israel-detention-reaction",
+      "author": "Robert Mackey",
+      "published_at": "2026-07-12T20:25:43+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Robert Mackey is a journalist who covers international news and digital media for The Guardian, with expertise in online activism, social media verification, and global conflicts.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPemk1Y2lWN29BWVNsNWJNNzFZYVU2ZG94Zmt3R1VyWmVjLVBnOHdEdVFudE1sOGotX0NpTXMyUWhpN2xub2cxUDhXdmhRUURUczNPSmR4RGJPU2xjeDU5V2sxcW5MYWNfaG1ET3VXdGZiUnNnbkFDcW90Z0k5LURYWGgzeVgzNm9ESXVjOGxER3BxVXMyclRZc3dBZHVjU2xQdmxteTlzQ2hCZjhmMTYyZ1BjRm1yVUpOSkE?oc=5",
+      "author": null,
+      "published_at": "2026-07-11T15:00:24+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1DaVdDb1ZuZWtxbzU1OTY1U3Y1RkpBWUt3Y0toYnEzeWd4b05NVG9BUzZxNGI5R1I4aFJiZjJKeE1iMVBycGlISVh2TnRmZVZjTjNHMXA1QQ?oc=5",
+      "author": null,
+      "published_at": "2026-07-12T20:47:56+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0hJOE1DSUFKUDJUdlp1T0NROUlaVzBuSjJSTzE5NklBdm9DR0l4ejltblQzZnVUaHU0R3B5LXUtR09LSlZRQnM2eFRIT01GNVZUYWd5X09aUmNDckhqY25sTVpGNmRZdjhOaEtPQktZbnFEMUR1U1MxQk83VVZNTEh4WkpHTHl1Nmk5TEhBdm1DWTlMem92SHVTTWhYeGdueGV3NVBxQzlvaGE3Nm51Mk130gG3AUFVX3lxTE85dWhFNUpDb190d0tFVWNCMzI4WlN0VE1KWV94ODFPS21mSktGTVo2S3NtUmtMUTk1TWZQT205MENSS05RRDFXbEtTRUo2Tm4xZ2VERnVyZTNzODEzWWVEdm5ZMHNhaVB6QklKRkhVRWJmN0dvSlJBVFFGZkV0bnhUakEyaHUtMFk5el9vZ3hoMjdqWmp0LXZIVDlSeERwV0hlQndFSkd4b214cUo3TEpKODBrN3U1MA?oc=5",
+      "author": null,
+      "published_at": "2026-07-12T22:11:42+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/11/ro-khanna-congressman-detained-israel-settlers-west-bank",
+      "author": "Marina Dunbar",
+      "published_at": "2026-07-11T17:21:14+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "US Democratic Congressman Ro Khanna was detained by armed Israeli settlers during a visit to the occupied West Bank.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "detention_incident",
+      "rationale": "All six sources across left, center-left, center, and center-right outlets report that Khanna was detained by Israeli settlers in the West Bank, meeting the cross-spectrum threshold for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Khanna's account that he was detained for 90 minutes by armed Israeli settlers",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Cites video evidence posted on social media of settlers and soldiers blocking Khanna's convoy",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reuters reports this straightforwardly as a factual event",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Ynet News (center-right) reports the detention as fact with minimal elaboration",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Al Jazeera frames it as a significant incident involving a US politician and Israeli settlers",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Describes Khanna saying armed settlers detained him during a delegation visit to the southern West Bank",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The detention occurred near Khirbet Zanuta in the South Hebron Hills area of the southern West Bank.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "detention_incident",
+      "rationale": "Multiple outlets across center-left and center sources confirm the location as Khirbet Zanuta / South Hebron Hills, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Describes Khanna visiting 'the ruins of Khirbet Zanuta'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes 'the South Hebron hills, near the village of Zanuta'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Calls Khirbet Zanuta 'a Palestinian hamlet whose residents were forced to leave' after October 2023 settler raids",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The settlers who stopped Khanna's convoy were armed with M4 rifles.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "detention_incident",
+      "rationale": "Sources from center-left (BBC, Guardian) and center outlets consistently report that the settlers carried M4 rifles, per Khanna's account. The Guardian additionally specifies these were US-made.",
+      "framing_variants": [
+        {
+          "characterization": "Reports settlers 'wielding M4 rifles'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Quotes Khanna: 'You had these settlers brandishing M4 [rifles], kicking the tires of our van, laughing at us, mocking at us'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Specifies 'settlers carrying US-made M4 rifles surrounded the group's van'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Khanna stated the detention lasted 90 minutes; in a separate account he described the duration as approximately 20 minutes before IDF arrival further prolonged the detention.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "detention_incident",
+      "rationale": "Multiple center-left outlets report the total detention as 90 minutes (per Khanna), while The Guardian separately quotes Khanna describing 20 minutes before the IDF arrived and further prolonged it; these accounts come from the same side of the spectrum and reflect Khanna's own statements at different points.",
+      "framing_variants": [
+        {
+          "characterization": "States 'detained for 90 minutes'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Quotes Khanna saying 'We were detained for about 20 minutes' before IDF arrived and further detained the group",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Quotes Khanna: 'feel powerless for 90 minutes'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Khanna characterizes the IDF soldiers as siding with the settlers and continuing his detention; the IDF states its troops dispersed the settlers and allowed the vehicles to proceed.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "idf_response",
+      "rationale": "Khanna and witness Nadav Weiman allege IDF soldiers sided with settlers and prolonged the detention; the IDF's own account states troops quickly dispersed civilians and reopened the road. This is a direct actor dispute reported across multiple outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Reports both Khanna's claim that IDF 'sided with the settlers and continued our detention' and the IDF's statement that troops 'dispersed the Israeli civilians and allowed the vehicles to continue'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Quotes Khanna saying IDF soldiers told the translator 'they're on the side of the settlers' and 'further detain us'; also cites IDF's claim that soldiers 'quickly dispersed' civilians and reopened the road; includes Weiman's account that 'settlers were giving the orders not the other way around'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports Khanna's account that the IDF was 'on their side, not on the side of the Americans'; aide Kasky wrote 'The IDF showed up to back up the settlers, not the US congressman'; and Israeli military's statement that troops responded to a report of vehicle obstruction",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Khanna's group was ultimately released after police officers intervened, following appeals to the US Embassy in Jerusalem.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "detention_incident",
+      "rationale": "Two center-left outlets both report that the group was released after appeals to the US Embassy and intervention by police, with consistent accounts from the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "States group 'were released after a group of police officers intervened'; an aide said they 'made appeals to the US Embassy in Jerusalem for help'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports Khanna's group 'were ultimately able to continue traveling after contacting the US embassy and Israeli police'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Khanna posted video of the incident on social media and asked that news of the detention be withheld until after he left Israeli-controlled territory.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "detention_incident",
+      "rationale": "Two Guardian articles (center-left) report that video was posted to social media and that Khanna requested an embargo until he left Israeli-controlled territory.",
+      "framing_variants": [
+        {
+          "characterization": "States Khanna 'posted video evidence on social media' and notes 'Khanna had asked for the news to be held until after he left Israeli-controlled territory'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports aide Cameron Kasky 'wrote on X' about the incident and that the New York Times first reported Khanna's account on Saturday morning",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Khirbet Zanuta is a Palestinian hamlet whose residents were forced to leave following violent settler raids after the October 2023 Hamas attacks on Israel.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "west_bank_context",
+      "rationale": "Only one source explicitly describes the displacement of Khirbet Zanuta's residents in this specific context.",
+      "framing_variants": [
+        {
+          "characterization": "Describes Khirbet Zanuta as 'a Palestinian hamlet whose residents were forced to leave in the wake of violent settler raids after the Hamas attacks on Israel in October 2023'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Netanyahu characterized the settlers who stopped Khanna's vehicle as a small band of 'juvenile delinquents' who are not part of the 'law-abiding' settler community.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "israeli_official_response",
+      "rationale": "Only The Guardian reports Netanyahu's characterization of the settlers as 'juvenile delinquents' separate from the law-abiding settler community.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Netanyahu 'called the armed settlers who stopped the congressman's vehicle as a small band of juvenile delinquents' and 'maintained they are not part of what he called the law-abiding community of Israeli settlers'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Israeli officials claimed Khanna had rejected their effort to shape his itinerary by adding a meeting with former Israeli hostages held in Gaza, and characterized his visit as seeking a political headline rather than understanding the situation.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "israeli_official_response",
+      "rationale": "Only The Guardian reports Israeli officials' characterization of Khanna's motives and their claim that he rejected an itinerary addition.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Israeli officials 'claiming that he had rejected their effort to shape his visit' and quoting them telling the New York Post: 'Congressman Khanna didn't come to understand the situation – he came looking for a headline'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Khanna stated he has met with Israeli hostages and condemned the Hamas attacks of October 7, in response to Israeli officials' claims about his visit.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "israeli_official_response",
+      "rationale": "Only The Guardian reports Khanna's specific rebuttal regarding hostage meetings and condemnation of October 7.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Khanna responding on social media: 'I have met with Israeli hostages and condemned the brutal, terrorist attacks of Oct 7'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Israeli Ambassador to the US Michael Leiter accused Khanna of undertaking the West Bank visit as a political stunt to distract from his past support of Graham Platner — a former Maine US Senate candidate accused of sexual assault — and to promote a potential 2028 presidential run.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "israeli_official_response",
+      "rationale": "Only The Guardian reports Ambassador Leiter's specific accusations about Khanna's motives in detail.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Leiter 'accused Khanna of visiting the West Bank as a political stunt – both to distract from his past support of Graham Platner...and to promote his potential run for the White House in 2028'; notes this theory 'elicited an audible laugh from Face the Nation host Margaret Brennan'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Leiter alleged Khanna worked with the Israeli dissident group Breaking the Silence instead of cooperating with the Israeli government to plan his trip.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "israeli_official_response",
+      "rationale": "Only The Guardian reports Leiter's complaint about Khanna working with Breaking the Silence.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Leiter first complained that Khanna had shunned the Israeli government's effort to help plan his trip, choosing instead to work with dissident groups like Breaking the Silence', described as 'an Israeli human rights group founded by former Israeli soldiers who oppose Israel's six-decade occupation'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Nadav Weiman, director of Breaking the Silence, who accompanied Khanna, stated that armed settlers arrived first, were then joined by Israeli soldiers, and that settlers appeared to be giving orders to the soldiers rather than the reverse.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "detention_incident",
+      "rationale": "Only The Guardian provides Weiman's detailed witness account of the chain of command between settlers and soldiers.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Weiman: 'Armed settlers were the first to arrive, and then, as has become the norm, Israeli soldiers joined them. Together they detained the delegation for over an hour...I saw how the settlers were giving the orders not the other way around'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Amnesty International has characterized Israeli actions in the South Hebron Hills area as a government-backed 'ethnic cleansing campaign'.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "west_bank_context",
+      "rationale": "Only The Guardian references Amnesty International's characterization of the area as subject to an 'ethnic cleansing campaign'.",
+      "framing_variants": [
+        {
+          "characterization": "Describes the area as 'what Amnesty International calls a government-backed ethnic cleansing campaign'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Yinon Levi, an Israeli settler recorded on video apparently firing a fatal shot that killed Palestinian activist Awdah Hathaleen (who had worked on the Oscar-winning documentary No Other Land), was not prosecuted by Israeli authorities despite the video evidence.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "west_bank_context",
+      "rationale": "Only The Guardian reports the Yinon Levi/Awdah Hathaleen case and its connection to a lack of prosecution as background context.",
+      "framing_variants": [
+        {
+          "characterization": "Identifies Levi as 'an Israeli settler who was recorded on video about a year earlier firing what appeared to be a fatal shot that killed a Palestinian activist, Awdah Hathaleen'; notes 'Despite video evidence...Levi was not prosecuted by Israeli authorities'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Khanna has accused Israel of 'genocide'.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "khanna_political_profile",
+      "rationale": "Only Ynet News reports Khanna's use of the term 'genocide', presented with quotation marks.",
+      "framing_variants": [
+        {
+          "characterization": "Notes Khanna has accused Israel of 'genocide', using quotation marks around the term",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Al Jazeera reported that Khanna faced pro-Israel attacks following the detention incident becoming public.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "israeli_official_response",
+      "rationale": "Only Al Jazeera characterizes the Israeli response to Khanna's detention as 'pro-Israel attacks'.",
+      "framing_variants": [
+        {
+          "characterization": "Frames Israeli responses as 'pro-Israel attacks' on Khanna following the detention becoming public",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Khanna is considering a presidential run in 2028.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "khanna_political_profile",
+      "rationale": "Multiple outlets across center-left and center note Khanna's consideration of a 2028 presidential run; one source (The Guardian/center-left) cites his statement that he is 'strongly considering it'.",
+      "framing_variants": [
+        {
+          "characterization": "States Khanna 'is mulling over a presidential run in 2028'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "References 2028 presidential run as context for Ambassador Leiter's accusations",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Quotes Khanna directly: 'I'm strongly considering it' in response to a Reuters question about running for president",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Over 700,000 Israelis live in settlements in the occupied West Bank including East Jerusalem, which are considered illegal under international law.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "west_bank_context",
+      "rationale": "Multiple outlets across center-left and center consistently report the settler population figure (~700,000) and the international law illegality of settlements.",
+      "framing_variants": [
+        {
+          "characterization": "States Israel has 'built about 160 settlements...housing 700,000 Jews' and that 'the settlements are illegal under international law'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'Every Israeli settlement in the occupied West Bank, including East Jerusalem, is illegal under international law'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'More than 700,000 Israelis reside in settlements across the occupied West Bank including East Jerusalem'; 'The United Nations considers Israeli settlements in the West Bank to be illegal'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Israel took control of the West Bank and East Jerusalem during the 1967 Middle East war.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "west_bank_context",
+      "rationale": "Two center-left outlets both report this historical fact, providing corroboration from the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "States Israel occupied the West Bank 'during the 1967 Middle East war'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'Since Israel took control of the West Bank in 1967'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "A June 2026 UN independent international commission of inquiry concluded that Israeli authorities and security forces deliberately targeted Palestinian children, resulting in genocide, crimes against humanity, and war crimes in Gaza, and war crimes in the West Bank.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "west_bank_context",
+      "rationale": "Only The Guardian (center-left) reports the specific findings of this June UN commission of inquiry.",
+      "framing_variants": [
+        {
+          "characterization": "Reports a UN independent commission concluded Israeli forces 'deliberately targeted Palestinian children resulting in genocide, crimes against humanity, and war crimes in the Gaza Strip and war crimes in the West Bank'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "According to human rights organization Yesh Din, no Israeli has been indicted for the killing of a Palestinian since October 2023.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "west_bank_context",
+      "rationale": "Only The Guardian cites Yesh Din data on the absence of Israeli indictments for Palestinian killings since October 2023.",
+      "framing_variants": [
+        {
+          "characterization": "Cites Yesh Din finding that 'no Israeli has been indicted for the killing of a Palestinian since October 2023'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Restrictions on the West Bank intensified significantly after the October 7, 2023 Hamas attacks on Israel, contributing to the loss of employment for nearly 300,000 Palestinians.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "west_bank_context",
+      "rationale": "Only The Guardian provides the specific employment loss figure of 300,000 Palestinians and links it to intensified post-October 2023 restrictions.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Those restrictions intensified significantly after the deadly 7 October 2023 Hamas attacks on Israel' and 'Nearly 300,000 Palestinians have lost employment in the West Bank and Israel'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "Khanna's visit was a fact-finding trip to examine the impact of Israeli occupation and settler activity on Palestinians in the West Bank.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "khanna_political_profile",
+      "rationale": "Two center-left outlets describe the visit as a fact-finding mission focused on Israeli occupation impacts, though Israeli officials disputed the framing of Khanna's motives.",
+      "framing_variants": [
+        {
+          "characterization": "Describes 'a fact-finding visit to look at the impact of Israeli occupation of the area'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes Khanna visiting 'a village that Israeli settlers had destroyed – they had destroyed the school, they had destroyed that village'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "Khanna has been one of the most outspoken critics in the US Congress of the Gaza war and the West Bank occupation, and in May 2026 criticized the Democratic National Committee's postmortem report on the 2024 election for not mentioning Gaza.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "khanna_political_profile",
+      "rationale": "Only The Guardian provides detail on Khanna's broader congressional record on Gaza and his criticism of the DNC postmortem.",
+      "framing_variants": [
+        {
+          "characterization": "Describes Khanna as 'one of the most outspoken critics in the US Congress of the war in Gaza and the occupation of the West Bank' and notes he 'released a video criticizing the Democratic National Committee's incomplete postmortem report...The postmortem did not mention Gaza'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Israel has occupied the West Bank and East Jerusalem since the 1967 Middle East war. More than 700,000 Israeli settlers live in approximately 160 settlements in these territories, which the United Nations considers illegal under international law. Around 3.3 million Palestinians also live in the West Bank.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_006"
+      ]
+    },
+    {
+      "point": "Khirbet Zanuta is a Palestinian hamlet in the South Hebron Hills whose residents were forced to leave following violent Israeli settler raids in the wake of the October 7, 2023 Hamas attacks on Israel.",
+      "sources": [
+        "src_006"
+      ]
+    },
+    {
+      "point": "Settler violence in the West Bank has increased significantly since the October 7, 2023 Hamas attacks on Israel, with restrictions on Palestinian movement intensifying and nearly 300,000 Palestinians losing employment.",
+      "sources": [
+        "src_006"
+      ]
+    },
+    {
+      "point": "Ro Khanna is a progressive California Democratic congressman who has been among the most outspoken critics in Congress of the Gaza war and the Israeli occupation of the West Bank. He is reportedly strongly considering a 2028 presidential run.",
+      "sources": [
+        "src_001",
+        "src_006",
+        "src_002"
+      ]
+    },
+    {
+      "point": "Breaking the Silence is an Israeli human rights organization founded by former Israeli soldiers who oppose Israel's occupation of Palestinian territories seized in 1967. Khanna worked with the group to plan his West Bank visit.",
+      "sources": [
+        "src_002"
+      ]
+    },
+    {
+      "point": "According to human rights organization Yesh Din, no Israeli has been indicted for the killing of a Palestinian since October 2023.",
+      "sources": [
+        "src_006"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-13T04:31:30.274174+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "US Democratic Congressman Ro Khanna was detained by armed Israeli settlers during a visit to the occupied West Bank on Wednesday. The detention occurred near Khirbet Zanuta in the South Hebron Hills area of the southern West Bank, where settlers carrying M4 rifles stopped Khanna's convoy.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Khanna's group was ultimately released after police officers intervened, following appeals to the US Embassy in Jerusalem. Khanna posted video of the incident on social media and requested that news of the detention be withheld until after he left Israeli-controlled territory.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Israel took control of the West Bank and East Jerusalem during the 1967 Middle East war. Over 700,000 Israelis now live in settlements in the occupied West Bank including East Jerusalem, which are considered illegal under international law.",
+        "supports": {
+          "claim_ids": [
+            "clm_021",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_006"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Khanna is considering a presidential run in 2028. Center-left outlets characterized his visit as a fact-finding trip to examine the impact of Israeli occupation and settler activity on Palestinians in the West Bank, though Israeli officials disputed this framing of his motives.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_006"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The duration of the detention itself became a point of emphasis in different accounts. Khanna stated the total detention lasted 90 minutes; in a separate account he described approximately 20 minutes before IDF arrival, after which the detention was further prolonged.",
+        "supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_006"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Center-left outlets reported that Khirbet Zanuta is a Palestinian hamlet whose residents were forced to leave following violent settler raids after the October 2023 Hamas attacks on Israel. This context was not mentioned in center or center-right coverage of the detention incident.",
+        "supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Center-left outlets cited a June 2026 UN independent international commission of inquiry that concluded Israeli authorities and security forces deliberately targeted Palestinian children, resulting in genocide, crimes against humanity, and war crimes in Gaza, and war crimes in the West Bank. This finding was not referenced in center or center-right reporting on the incident.",
+        "supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Center-left outlets reported that according to human rights organization Yesh Din, no Israeli has been indicted for the killing of a Palestinian since October 2023. They also cited the case of Israeli settler Yinon Levi, recorded on video apparently firing a fatal shot that killed Palestinian activist Awdah Hathaleen — who had worked on the Oscar-winning documentary No Other Land — but was not prosecuted despite the video evidence. This background was absent from center and center-right coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_023",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Center-left outlets reported that restrictions on the West Bank intensified significantly after the October 7, 2023 Hamas attacks on Israel, contributing to the loss of employment for nearly 300,000 Palestinians. Amnesty International has characterized Israeli actions in the South Hebron Hills area as a government-backed 'ethnic cleansing campaign'. This framing did not appear in center or center-right sources.",
+        "supports": {
+          "claim_ids": [
+            "clm_024",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Israeli Prime Minister Netanyahu, as reported by center-left outlets, characterized the settlers who stopped Khanna's vehicle as a small band of 'juvenile delinquents' who are not part of the 'law-abiding' settler community. This characterization was not mentioned in other coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Center-left outlets reported that Israeli officials claimed Khanna had rejected their effort to shape his itinerary by adding a meeting with former Israeli hostages held in Gaza, and characterized his visit as seeking a political headline rather than understanding the situation. Khanna stated in response that he has met with Israeli hostages and condemned the Hamas attacks of October 7. This exchange was not covered by center or center-right sources.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Center-left outlets reported that Israeli Ambassador to the US Michael Leiter accused Khanna of undertaking the West Bank visit as a political stunt to distract from his past support of Graham Platner — a former Maine US Senate candidate accused of sexual assault — and to promote a potential 2028 presidential run. Leiter also alleged Khanna worked with the Israeli dissident group Breaking the Silence instead of cooperating with the Israeli government to plan his trip. This diplomatic criticism was not referenced in other coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Center-right Israeli outlet Ynet News reported that Khanna has accused Israel of 'genocide', a characterization not mentioned in center-left or center coverage. Center-left outlets instead noted that Khanna has been one of the most outspoken critics in the US Congress of the Gaza war and the West Bank occupation, and in May 2026 criticized the Democratic National Committee's postmortem report on the 2024 election for not mentioning Gaza. These details were absent from center-right sources.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_026"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "Left-leaning outlet Al Jazeera characterized the Israeli response to Khanna's detention as 'pro-Israel attacks', a framing not used by other sources across the spectrum.",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "Center-left outlets reported that Nadav Weiman, director of Breaking the Silence, who accompanied Khanna, stated that armed settlers arrived first, were then joined by Israeli soldiers, and that settlers appeared to be giving orders to the soldiers rather than the reverse. This witness account was not included in center or center-right coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "Khanna and witness Nadav Weiman characterized the IDF soldiers as siding with the settlers and continuing the detention. The IDF, however, stated that its troops dispersed the settlers and allowed the vehicles to proceed. This represents a direct factual dispute between Khanna's account and the Israeli military's official position.",
+        "supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_006"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}

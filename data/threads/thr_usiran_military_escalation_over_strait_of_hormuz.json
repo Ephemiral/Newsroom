@@ -1,0 +1,53 @@
+{
+  "thread_schema_version": "0.2",
+  "thread_id": "thr_usiran_military_escalation_over_strait_of_hormuz",
+  "title": "US–Iran military escalation over Strait of Hormuz",
+  "title_source": "auto",
+  "summary": "The United States and Iran have engaged in repeated military strikes and counterstrikes amid disputes over shipping traffic through the Strait of Hormuz and the collapse of an interim ceasefire agreement.",
+  "status": "developing",
+  "beats": [
+    "israel_middle_east"
+  ],
+  "key_entities": [
+    "ent_organization_iran",
+    "ent_organization_islamic_revolutionary_guard_corps",
+    "ent_organization_pakistan",
+    "ent_organization_united_states",
+    "ent_organization_us_central_command",
+    "ent_person_abbas_araghchi",
+    "ent_person_donald_trump",
+    "ent_person_mohammad_bagher_ghalibaf",
+    "ent_technology_us_iran_memorandum_of_understanding"
+  ],
+  "events": [
+    {
+      "cluster_id": "evt_2026_07_11_israel_middle_east_001",
+      "date": "2026-07-09",
+      "chapter_summary": "The United States conducted a second round of strikes against Iran on Wednesday and Thursday, with explosions reported at multiple locations including Bandar Abbas and Bushehr province, as President Trump declared an interim memorandum of understanding with Iran 'over.'",
+      "link_score": 1.0
+    },
+    {
+      "cluster_id": "evt_2026_07_13_israel_middle_east_001",
+      "date": "2026-07-13",
+      "chapter_summary": "The U.S. military launched overnight airstrikes targeting Iranian air defense systems, missile capabilities, and small boats near the Strait of Hormuz, which CENTCOM said aimed to degrade Iran's ability to attack commercial shipping in the waterway.",
+      "link_score": 0.457
+    }
+  ],
+  "accountability": [],
+  "created_at": "2026-07-13T04:27:55.399971+00:00",
+  "last_updated": "2026-07-13T04:27:57.247758+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Thread created"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Added evt_2026_07_11_israel_middle_east_001"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Added evt_2026_07_13_israel_middle_east_001"
+    }
+  ]
+}

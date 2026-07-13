@@ -1,0 +1,1074 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_13_israel_middle_east_001",
+    "beat": "israel_middle_east",
+    "title": "US Launches New Wave of Strikes on Iran Amid Strait of Hormuz Standoff",
+    "summary": "The United States military launched a new wave of airstrikes against Iran overnight Sunday into Monday, targeting air defense systems, missile capabilities, and small boats near the Strait of Hormuz. The strikes followed an Iranian attack on a commercial vessel in the strait and Iran's declaration that the waterway was closed, deepening a standoff that has threatened global shipping and frayed an interim US-Iran truce agreement.",
+    "date": "2026-07-13",
+    "generated_at": "2026-07-13T04:26:39.347054+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "President Trump",
+          "Trump"
+        ],
+        "relevance_to_event": "Trump directed the US airstrikes against Iran and publicly characterized them as successful, while also claiming Iran had agreed to a diplomatic deal before attacking a ship.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_008",
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_mohammad_bagher_ghalibaf",
+        "surfaces": [
+          "Mohammad Bagher Ghalibaf"
+        ],
+        "relevance_to_event": "Iran's chief negotiator directly countered Trump's claim about a diplomatic agreement, rejecting the characterization of negotiations and stating 'The era of one-sided deals is OVER.'",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_us_central_command",
+        "surfaces": [
+          "US Central Command",
+          "CENTCOM"
+        ],
+        "relevance_to_event": "CENTCOM coordinated and reported on the US airstrikes, stating they targeted Iranian military capabilities to degrade attacks on shipping and asserting the Strait of Hormuz remained open despite Iranian closure claims.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_003",
+            "clm_005",
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_islamic_revolutionary_guard_corps",
+        "surfaces": [
+          "Iran's Revolutionary Guard Corps",
+          "Revolutionary Guard"
+        ],
+        "relevance_to_event": "The IRGC launched retaliatory strikes on multiple regional countries and declared the Strait of Hormuz closed, representing Iran's military response to the US airstrikes.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_strait_of_hormuz",
+        "surfaces": [
+          "Strait of Hormuz"
+        ],
+        "relevance_to_event": "The strategic waterway is the central flashpoint in this conflict, with Iran claiming closure while the US asserts it remains open; Iranian attacks on commercial shipping there triggered the US response.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_006",
+            "clm_007",
+            "clm_008",
+            "clm_012",
+            "clm_023"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "Iran"
+        ],
+        "relevance_to_event": "Iran is the primary target of US airstrikes and the party claiming to have closed the Strait of Hormuz; the report details Iranian military sites struck, casualties reported, and Iran's diplomatic and military responses.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_qeshm_island",
+        "surfaces": [
+          "Qeshm Island"
+        ],
+        "relevance_to_event": "Iranian state media identified Qeshm Island as one of the specific locations struck by US airstrikes during the overnight Sunday-Monday bombing campaign.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_pakistan",
+        "surfaces": [
+          "Pakistan"
+        ],
+        "relevance_to_event": "Pakistan's Foreign Minister called for deescalation between the US and Iran and has been mediating between the two parties according to reported accounts.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "thread_id": "thr_usiran_military_escalation_over_strait_of_hormuz",
+    "image_attempted_at": "2026-07-13T04:28:12.837105+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg/1280px-An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg",
+      "width": 1200,
+      "height": 795,
+      "caption": "An F/A-18C Hornet launches from an aircraft carrier (file photo)",
+      "credit": "U.S. Navy photo by Photographer's Mate 3rd Class Jonathan Chandler",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:An F-A-18C Hornet launches from the flight deck of the conventionally powered aircraft carrier.jpg",
+      "query": "military aircraft carrier deck",
+      "fetched_at": "2026-07-13T04:28:12.837060+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVlFEMTBmd3hvZzZpVnBYcnNnUlBnQW9DRlkydFVqUTM0S3I2emo0TDczX3NJSGNHdXJqZGJreUhDRDhoYnNUck9vRGVpWEVtMGNnNElfY1lzR0NZakdlSWtTZEExQ2YyWFFKWTNhLXpwbk9HRkF6VGs4V0pLTDRRT013Z3dvc1hZVWthV0x6MzFneHlxei1LZWg5NVNKUE1oV2pfTUNlbkIwNU1tVU14MmhXc1Z2VmNNZnR5Q2thYjFDMWRyaUNJbw?oc=5",
+      "author": null,
+      "published_at": "2026-07-12T16:43:45+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNaWtlV0w3eVpNd1kxc0tFNDJrTHpXRUNlblVUVjUxSzJCQ19QdkxwSEJza182ZGNSTjdkUmNsYUotM3NBU1FBMHYwMm1TUjVqMXV1X1FrM0FWQVVyTlNmdE1XV05WUmF0X0dEdEZXTDVWcWdFZnhYcjVfM2tEM1Q2eGJMckJ6RkdCTU5Ralp4WC01MnZBX0hySC1aaHZnTjZzLVViSXdZend2Rk1YMzR3d2ZOTG9jemhrT1p0Qlhobkp4Zkg2RUVIQW9iUjJtY0FVbl8tdnk1cGdlSExhQWRraEllU2MzYlpGYnYwTVR2T0w?oc=5",
+      "author": null,
+      "published_at": "2026-07-12T03:44:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/us-carries-out-fresh-wave-of-strikes-on-iran-insists-tehran-doesnt-control-strait/",
+      "author": null,
+      "published_at": "2026-07-13T03:17:37+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/2026/07/13/us-launches-more-strikes-on-iran-as-renewed-standoff-over-strait-of-hormuz-intensifies",
+      "author": null,
+      "published_at": "2026-07-13T03:05:27+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-launches-new-strikes-iran-over-strait-hormuz-attacks",
+      "author": "Elis Gjevori",
+      "published_at": "2026-07-12T21:39:12+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/13/us-iran-war-missile-strikes-news-attacks-strait-of-hormuz",
+      "author": "Guardian staff and agencies",
+      "published_at": "2026-07-13T02:39:58+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUERoNERlUmhmZkFzZnVDVkpiakF6NnNXQ2MwMDlfN21MUkYzMWlNenZ0OExOVFlOOHBQZzRjNVR3NFFUREFXV2R5NWs2aVNXQVdBWFFITUdibnJFYUhzc2pFZDJucG9rbHROVk84NnJCRlFkNjRQbjlEdjY4UktZSzhtd0hlYndzQjVKTG1GRjdmdDRLZkZXazEtbDU3TFZLNVk40gGoAUFVX3lxTE02OUxnejNEUVMwVWlhVUdYY3o4c0lOZmtCUTZxNDB2TlRHUkRWREs3aUtBcGRkMF9NcE16QnhreVk2aW5hYlpEVEIwQmZqWWwxaHdwdnFScTFFYXdtcUV4SmRpRk9WQ0I3c2N2dE9NNF9nRjNNYkcwbXBiSnYxU0FDdFFtYkhWOUdhd09rLUtmd1REM2daQnRFY2htS0hjNjN1dXJCWGpqNg?oc=5",
+      "author": null,
+      "published_at": "2026-07-13T00:53:06+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "The US military launched a new wave of strikes against Iran beginning at approximately 2100 GMT on Sunday (overnight into Monday).",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Multiple outlets across the political spectrum — from left (Middle East Eye, Al Jazeera) to center (Reuters, Euronews) to center-right (Times of Israel) — all confirm the new US strike wave, citing CENTCOM's statement on timing.",
+      "framing_variants": [
+        {
+          "characterization": "Reuters reports US strikes on Iranian military infrastructure around the Strait of Hormuz, citing Axios.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Frames as 'a new wave of strikes on Iran into Monday morning,' citing ongoing conflict context.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports CENTCOM's confirmation that strikes began at 2100 GMT Sunday.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Middle East Eye attributes the statement directly to US Central Command.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Guardian leads with this as fact, noting Trump directed the strikes.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Al Jazeera headlines it as 'US launches more strikes on Iran.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "CENTCOM stated the strikes targeted dozens of Iranian military targets including air-defense systems, coastal radar sites, missile and drone capabilities, and small boats.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Sources from the center (Reuters, Euronews), center-right (Times of Israel), and left (Middle East Eye) all report the same CENTCOM statement on the nature and types of targets struck.",
+      "framing_variants": [
+        {
+          "characterization": "Reuters specifies 'missile systems' near the Strait of Hormuz as the primary targets.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Cites CENTCOM: fighter jets, ships, aerial drones, and naval drones used against air defense systems, radar sites, missile/drone equipment, and small boats.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews quotes CENTCOM as hitting 'dozens of targets' including air-defense systems, radar sites, missile and drone capabilities, and small boats.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Middle East Eye focuses on the stated aim to weaken Iran's ability to target ships.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "CENTCOM stated the purpose of the strikes was to degrade Iran's ability to attack international shipping and civilian mariners transiting the Strait of Hormuz.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Euronews (center), Middle East Eye (left), and The Guardian (center-left) all report CENTCOM's stated justification, providing cross-spectrum confirmation of the official US rationale.",
+      "framing_variants": [
+        {
+          "characterization": "Euronews quotes CENTCOM: strikes aimed to 'degrade Iran's ability to continue attacking international shipping flowing through the Strait of Hormuz.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Middle East Eye states the aim was to 'further weaken Tehran's ability to target ships in the Strait of Hormuz.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Guardian quotes CENTCOM's purpose as 'degrading their ability to attack civilian mariners and commercial ships freely transiting the Strait of Hormuz.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "President Trump directed the new US strikes against Iran and used forceful language to describe them, saying the military had 'hit them hard' and 'bombed the hell out of them.'",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both the Times of Israel and The Guardian report Trump's statements and his direction of the strikes, but these are both center-right and center-left outlets, representing the same side of the moderate spectrum without cross-spectrum breadth beyond that pairing.",
+      "framing_variants": [
+        {
+          "characterization": "Times of Israel quotes Trump saying the military had 'hit them hard' and 'bombed the hell out of' Iran; also attributes CENTCOM's statement that Trump directed the strikes.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian quotes Trump: 'We're beating them up,' and attributes CENTCOM's statement that Trump 'directed the strikes to hold Iranian forces accountable.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The US has conducted at least three rounds of airstrikes against Iran during the past week, with CENTCOM reporting more than 300 Iranian military targets struck over three nights, including approximately 140 strikes on Saturday night alone.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Times of Israel, Euronews, and The Guardian all report the cumulative scale of US strikes, drawing on CENTCOM statements, but these outlets cluster in the center to center-right range without full cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'three rounds of airstrikes' in the past week; says the US military 'hit some 140 targets on Sunday.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "References 'approximately 140 strikes the previous night' as context for the new wave.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Cites CENTCOM as saying US forces hit 'more than 300 Iranian military targets over three nights this week,' with 'about 140 strikes on Saturday night.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Iran conducted an attack on a commercial container ship in the Strait of Hormuz over the weekend, setting it ablaze and forcing its crew to abandon ship, with at least one crew member reported missing.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "i24 News (center-right), Times of Israel (center-right), and Euronews (center) all report the Iranian attack on the commercial vessel; this spans the center to center-right range and is further referenced in other sources, providing cross-outlet confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "i24 News attributes the attack to the IRGC attacking 'a ship in the Strait of Hormuz.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Times of Israel describes it as 'an Iranian attack on a container ship in the Strait of Hormuz that set it ablaze and left a crew member missing over the weekend.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews reports the 'Iranian attack early Sunday on a commercial ship in the Strait of Hormuz, whose crew was forced to abandon it after it went up in flames.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Iran's Revolutionary Guard Corps declared the Strait of Hormuz closed until further notice and until the end of American interventions in the region; Iran's Persian Gulf Strait Authority said passage was not currently possible due to what it called illegal US military movements.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "strait_of_hormuz_status",
+      "rationale": "Multiple outlets report Iran's declaration that the strait is closed, with consistent attribution to both the Revolutionary Guard and Iran's Persian Gulf Strait Authority; sources span center-right and center outlets but share the same reporting of the Iranian position.",
+      "framing_variants": [
+        {
+          "characterization": "i24 News quotes the IRGC declaring the strait closed 'until further notice.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Times of Israel reports Iran said the strait was 'closed until calm is restored' and quotes the IRGC statement.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews quotes the Revolutionary Guards: 'the Strait of Hormuz will be closed until further notice and until the end of American interventions in this region.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The Guardian reports Iran's Persian Gulf Strait Authority said 'passage through the strait was not currently possible' due to 'illegal US military movements,' with permits to be issued 'as soon as stability and calm are restored.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Iran's Revolutionary Guard characterized the Strait of Hormuz as closed; the US (CENTCOM) and President Trump asserted it remained open, with CENTCOM stating 'Iran does not control the strait' and that traffic was flowing.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "strait_of_hormuz_status",
+      "rationale": "Iran and the US directly contradict each other on whether the strait is open or closed; multiple outlets across the spectrum report both positions, constituting a clear actor dispute rather than a media framing dispute.",
+      "framing_variants": [
+        {
+          "characterization": "i24 News leads with the IRGC's declaration of closure.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Times of Israel reports both: Iran saying it was closed and CENTCOM countering 'Iran does not control it' and that 'the US military and Trump asserted that the strait remained open.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews presents both sides: Revolutionary Guards statement of closure versus CENTCOM's assertion the strait was 'open to all vessels seeking to lawfully transit' and 'Traffic is flowing.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Middle East Eye reports the Al Jazeera-framed 'standoff deepening' without elaborating on both claims in detail.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Guardian reports Iran's Persian Gulf Strait Authority's closure statement alongside the US position that forces were 'positioned to safeguard freedom of navigation.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "A multinational body overseen by the US Navy reported shipping traffic through the strait was continuing at 'reduced levels,' with CENTCOM stating more than 140 ships had transited in the past week, compared to a pre-war daily baseline of approximately 140 vessels.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "strait_of_hormuz_status",
+      "rationale": "Only the Times of Israel provides this specific combination of data points — the multinational body's 'reduced levels' statement, the CENTCOM figure of 140 ships transited in a week, and the pre-war daily baseline of ~140 vessels.",
+      "framing_variants": [
+        {
+          "characterization": "Times of Israel contextualizes the traffic data to show a dramatic drop from pre-war daily transit of ~140 ships to only ~140 in a full week.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Trump claimed Iran had agreed to a diplomatic deal on Saturday but then, within an hour, launched a drone attack on a ship; Iran's chief negotiator Mohammad Bagher Ghalibaf countered that 'The era of one-sided deals is OVER.'",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "diplomatic_situation",
+      "rationale": "Trump's claim that Iran agreed to a deal and then immediately violated it is directly contradicted by Iran's chief negotiator's public statement rejecting the premise of one-sided deals, constituting an actor dispute over whether a valid agreement existed.",
+      "framing_variants": [
+        {
+          "characterization": "Times of Israel reports Trump's claim that Iran 'agreed to a deal' on Saturday, gave up everything, and then 'within an hour, launched a drone at a ship'; also quotes Ghalibaf posting 'The era of one-sided deals is OVER.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian quotes Ghalibaf's full post: 'The era of one-sided deals is OVER. We told you: keep your word or pay the price. Reality is knocking.' and notes Trump has said he considers the ceasefire over while leaving the door open to more talks.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "An interim US-Iran truce/ceasefire agreement was signed last month, establishing a 60-day period for negotiations toward a permanent end to the war, with the two sides now near the midpoint of that period.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "diplomatic_situation",
+      "rationale": "Times of Israel (center-right), Euronews (center), and The Guardian (center-left) all reference the interim agreement and its 60-day framework, providing cross-spectrum confirmation of its existence and structure.",
+      "framing_variants": [
+        {
+          "characterization": "Times of Israel describes 'the 60-day period of that deal, which was supposed to set up talks for a permanent end to the war,' noting the two sides are 'nearly at the midway point.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews refers to 'an interim agreement between Washington and Tehran aimed at ending their war' as context.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The Guardian calls it 'an interim US-Iranian truce agreement signed last month' aimed at reopening the strait and ending the war 'after a further 60 days of negotiations'; notes Trump has said he considers the ceasefire over.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Iran's foreign ministry stated that the latest US attacks had 'rendered futile' all diplomatic efforts of the past few months and blamed the US for causing 'the return of insecurity in the Strait of Hormuz and disruption of international commercial shipping.'",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "diplomatic_situation",
+      "rationale": "Times of Israel (center-right) and The Guardian (center-left) both report Iran's foreign ministry statement with consistent language, spanning different parts of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Times of Israel reports Iran 'condemned the latest wave of US attacks,' saying they had 'rendered futile all the diplomatic efforts of the last few months.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian quotes Iran's foreign ministry saying attacks 'rendered futile all efforts of the past few months to reduce tension and establish peace in the West Asian region' and accused the US of causing insecurity in the strait by 'interfering in the process of Iran implementing the necessary arrangements.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Talks between Iran and Oman in Muscat on Saturday focused on managing the strait and transit routes but failed to reach a result; Iran attributed the failure to US pressure on Oman.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "diplomatic_situation",
+      "rationale": "Only The Guardian reports the Iran-Oman Muscat talks, their subject matter, failure to reach a result, and Iran's stated reason blaming US pressure.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports Iran-Oman talks in Muscat on Saturday were 'focused on arrangements for managing the strait and transit routes' but 'unable to reach a result' due to 'overt and covert US pressure on Oman,' per Iran's foreign ministry.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Pakistan has been mediating between the US and Iran; Pakistan's Foreign Minister Ishaq Dar called for 'deescalation' in a phone call with Iran's foreign minister on Sunday.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only the Times of Israel reports Pakistan's mediating role and the specific deescalation call between the two foreign ministers.",
+      "framing_variants": [
+        {
+          "characterization": "Times of Israel reports Pakistan as an active mediator and quotes FM Dar: 'Dialogue and diplomacy remain the only viable path to resolving disputes and achieving lasting peace.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "UN Secretary-General António Guterres warned that 'a return to full-scale hostilities would have catastrophic consequences.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only the Times of Israel reports the UN Secretary-General's statement in this cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Times of Israel quotes Guterres warning of 'catastrophic consequences' from a return to full-scale hostilities.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Iran's Revolutionary Guards launched retaliatory strikes on multiple regional countries, reportedly including Jordan, Bahrain, Kuwait, Oman, and Qatar; the UAE said its air defenses engaged Iranian missiles and drones on Sunday.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "regional_escalation",
+      "rationale": "Times of Israel (center-right), Euronews (center), and The Guardian (center-left) all report Iran's retaliatory strikes on regional states and the UAE's air defense engagement, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Times of Israel reports Iran's Revolutionary Guard 'acknowledged it had begun a new round of strikes across the Middle East.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews reports, citing IRNA, that 'Iran's revolutionary guards struck Jordan and Bahrain, and Kuwait.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The Guardian notes Iran's strikes extended to Qatar (not attacked since April) and the UAE (not targeted since early May), and reports Iran's Revolutionary Guards claimed strikes in Jordan, Kuwait, Oman, and Qatar, noting 'claims that were unable to be independently verified.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Kuwait reported three northern land border posts were damaged in an attack on Sunday, and an offshore drilling platform was targeted by a hostile drone, injuring one person.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "regional_escalation",
+      "rationale": "Both Euronews (center) and The Guardian (center-left) report Kuwait's account of the border post damage and offshore platform drone attack, but these outlets are on the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Euronews reports Kuwait confirming three border posts damaged and a drone targeting an offshore platform, injuring one.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The Guardian includes Kuwait's border post damage and offshore platform attack as part of broader regional escalation on Sunday.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Missile alert sirens sounded at dawn Monday in Bahrain, home to the US Navy's 5th Fleet; Bahrain's interior ministry instructed residents to take shelter following attacks.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "regional_escalation",
+      "rationale": "Times of Israel (center-right) and Euronews (center) both report the Bahrain missile alerts and shelter instructions, spanning different parts of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Times of Israel reports 'Missile alert sirens sounded at dawn Monday in Bahrain, home to the US Navy's 5th Fleet.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews adds that Bahrain's interior ministry instructed residents to take shelter following attacks.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Iranian state media reported US strikes hit Qeshm Island, Bandar Abbas, Khuzestan province (near the Iraq border), and Farur island; explosions were also heard in Hajiabad to the north of Bandar Abbas.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Times of Israel (center-right), Euronews (center), and The Guardian (center-left) all report the geographic spread of strikes inside Iran citing Iranian state media, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Times of Israel reports 'strikes targeting large areas across southern and western Iran, including Qeshm island and Bandar Abbas near the strait, and in Khuzestan province bordering Iraq'; adds explosions in Hajiabad.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews adds strikes on Farur island to the east of Qeshm, citing Iranian state media.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The Guardian reports 'missile attacks and explosions around the port cities of Sirik and Bandar Abbas' and Qeshm Island, noting these are 'home to military facilities on the Hormuz strait.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Casualties were reported inside Iran from the strikes: at least one person killed and four wounded at a water pumping station in Mahshahr; one telecommunications worker killed and two wounded on Farur island; a navy officer reported killed by semiofficial Iranian news agencies.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Times of Israel and Euronews both report Iranian civilian and military casualties, drawing on Iranian state and official sources, but these outlets are both in the center-to-center-right range.",
+      "framing_variants": [
+        {
+          "characterization": "Times of Israel reports one killed and four wounded at a Mahshahr water pumping station; a navy officer reportedly killed per semiofficial Iranian agencies; Qeshm governor says military targets struck with no casualties there.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews quotes IRNA: 'one person was martyred and four others were injured' in the Monday morning attack; additionally reports a telecom worker killed and two wounded on Farur island.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Israel remained on the sidelines of the US-Iran fighting, neither joining the US strikes nor becoming a target of Iran's retaliatory strikes as of early Monday morning.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "regional_escalation",
+      "rationale": "Only the Times of Israel specifically notes Israel's non-participation and non-targeting status, likely reflecting its proximity to the story.",
+      "framing_variants": [
+        {
+          "characterization": "Times of Israel notes Israel 'remained on the sidelines' and had 'no part in negotiating the Iran-US memorandum of understanding,' suggesting deliberate Israeli distance from the conflict.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "The conflict has caused global economic shock waves, driving energy prices higher and fueling global inflation; oil prices rose more than 3.5% when futures trading opened Monday in Tokyo, with WTI jumping above $74 a barrel, after having tumbled following the interim agreement announcement.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "economic_impact",
+      "rationale": "Only The Guardian provides detailed economic impact data including the specific oil price movements and the political context of their sensitivity for Trump ahead of US congressional elections.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian contextualizes the renewed fighting's economic stakes: oil prices had fallen after the interim deal but surged 3.5%+ on Monday; notes this is 'politically sensitive for Trump ahead of November's US congressional elections.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Iran has sought to establish a permanent system for collecting fees from vessels transiting the Strait of Hormuz and has warned vessels not to sail without its authorization.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "strait_of_hormuz_status",
+      "rationale": "Times of Israel and The Guardian both report Iran's position on fee collection and transit authorization requirements, but these are on adjacent parts of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Times of Israel reports Iran 'insisting it alone must control the strait and potentially charge vessels for traveling through it.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian reports Iran 'sought to establish a permanent system for collecting fees in the strait' and 'warned vessels not to sail without its authorisation.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-13T04:27:20.553152+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "The United States military launched a new wave of airstrikes against Iran beginning at approximately 2100 GMT on Sunday, extending overnight into Monday. The strikes targeted dozens of Iranian military sites including air-defense systems, coastal radar installations, missile and drone capabilities, and small boats, according to US Central Command. CENTCOM stated the strikes were intended to degrade Iran's ability to attack international shipping and civilian mariners transiting the Strait of Hormuz.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The strikes followed an Iranian attack on a commercial container ship in the Strait of Hormuz over the weekend that set the vessel ablaze and forced its crew to abandon ship, with at least one crew member reported missing. Iranian state media reported the US strikes hit multiple locations inside Iran, including Qeshm Island, Bandar Abbas, Khuzestan province near the Iraq border, and Farur island, with explosions also heard in Hajiabad north of Bandar Abbas.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "An interim US-Iran truce agreement was signed last month, establishing a 60-day period for negotiations toward a permanent end to the conflict. The two sides are now near the midpoint of that period. Iran's foreign ministry stated that the latest US attacks had 'rendered futile' all diplomatic efforts of the past few months and blamed the United States for causing 'the return of insecurity in the Strait of Hormuz and disruption of international commercial shipping.'",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Iran's Revolutionary Guard Corps launched retaliatory strikes on multiple regional countries, reportedly including Jordan, Bahrain, Kuwait, Oman, and Qatar. The United Arab Emirates said its air defenses engaged Iranian missiles and drones on Sunday. Kuwait reported that three northern land border posts were damaged in an attack on Sunday, and an offshore drilling platform was targeted by a hostile drone, injuring one person.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Missile alert sirens sounded at dawn Monday in Bahrain, home to the US Navy's 5th Fleet. Bahrain's interior ministry instructed residents to take shelter following the attacks. Iranian sources reported casualties inside Iran from the US strikes: at least one person killed and four wounded at a water pumping station in Mahshahr, one telecommunications worker killed and two wounded on Farur island, and a navy officer reported killed by semiofficial Iranian news agencies.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "President Trump directed the new strikes against Iran and used forceful language to describe them, saying the military had 'hit them hard' and 'bombed the hell out of them.' The United States has conducted at least three rounds of airstrikes against Iran during the past week, with CENTCOM reporting more than 300 Iranian military targets struck over three nights, including approximately 140 strikes on Saturday night alone.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Iran's Revolutionary Guard Corps declared the Strait of Hormuz closed until further notice and until the end of American interventions in the region. Iran's Persian Gulf Strait Authority said passage was not currently possible due to what it called illegal US military movements. Iran has sought to establish a permanent system for collecting fees from vessels transiting the strait and has warned vessels not to sail without its authorization.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Iran's Revolutionary Guard characterized the Strait of Hormuz as closed. The United States government and CENTCOM asserted it remained open, with CENTCOM stating 'Iran does not control the strait' and that traffic was flowing. President Trump also maintained the strait was open.",
+        "supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "President Trump claimed Iran had agreed to a diplomatic deal on Saturday but then, within an hour, launched a drone attack on a ship. Iran's chief negotiator Mohammad Bagher Ghalibaf countered that 'The era of one-sided deals is OVER,' rejecting Trump's characterization of the diplomatic engagement.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_006"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The Times of Israel reported that a multinational body overseen by the US Navy stated shipping traffic through the strait was continuing at 'reduced levels,' with CENTCOM saying more than 140 ships had transited in the past week, compared to a pre-war daily baseline of approximately 140 vessels.",
+        "supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The Guardian reported that talks between Iran and Oman in Muscat on Saturday focused on managing the strait and transit routes but failed to reach a result. Iran attributed the failure to US pressure on Oman.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Times of Israel reported that Pakistan has been mediating between the United States and Iran. Pakistan's Foreign Minister Ishaq Dar called for 'deescalation' in a phone call with Iran's foreign minister on Sunday.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Times of Israel reported that UN Secretary-General António Guterres warned that 'a return to full-scale hostilities would have catastrophic consequences.'",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "The Times of Israel reported that Israel remained on the sidelines of the US-Iran fighting as of early Monday morning, neither joining the US strikes nor becoming a target of Iran's retaliatory strikes.",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "The Guardian reported that the conflict has caused global economic shock waves, driving energy prices higher and fueling global inflation. Oil prices rose more than 3.5% when futures trading opened Monday in Tokyo, with West Texas Intermediate jumping above $74 a barrel, after having tumbled following the interim agreement announcement.",
+        "supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_pakistan",
+  "type": "organization",
+  "canonical_name": "Pakistan",
+  "aliases": [],
+  "wikidata_qid": "Q843",
+  "summary": "Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia. It is the fifth-most populous country, with a population of over 241.5 million, having the second-largest Muslim population as of 2023.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Pakistan"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Blue_Hour_at_Pakistan_Monument.jpg/960px-Blue_Hour_at_Pakistan_Monument.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Blue_Hour_at_Pakistan_Monument.jpg",
+    "credit": "Muhammad Ashar",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Blue Hour at Pakistan Monument.jpg",
+    "fetched_at": "2026-07-13T04:27:47.062948+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q843"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q843"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Islamabad is the nation's capital, while Karachi is its largest city and financial centre.",
+      "source_url": "https://en.wikipedia.org/wiki/Pakistan",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Pakistan is the 33rd-largest country by area.",
+      "source_url": "https://en.wikipedia.org/wiki/Pakistan",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Bounded by the Arabian Sea on the south, the Gulf of Oman on the southwest, and the Sir Creek on the southeast, it shares land borders with India to the east; Afghanistan to the west; Iran to the southwest; and China to the northeast.",
+      "source_url": "https://en.wikipedia.org/wiki/Pakistan",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_13_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_13_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-13T04:27:44.645671+00:00",
+  "last_updated": "2026-07-13T04:27:51.354364+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Entity created from evt_2026_07_13_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Pakistan"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Pakistan"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Pakistan"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikidata Q843 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q843"
+    }
+  ]
+}

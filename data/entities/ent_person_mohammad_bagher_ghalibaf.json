@@ -78,10 +78,11 @@
   "first_seen_event": "evt_2026_06_04_062",
   "appears_in_events": [
     "evt_2026_06_04_062",
-    "evt_2026_07_11_israel_middle_east_001"
+    "evt_2026_07_11_israel_middle_east_001",
+    "evt_2026_07_13_israel_middle_east_001"
   ],
   "created_at": "2026-07-08T18:29:15.898281+00:00",
-  "last_updated": "2026-07-11T04:09:37.752774+00:00",
+  "last_updated": "2026-07-13T04:27:51.353357+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

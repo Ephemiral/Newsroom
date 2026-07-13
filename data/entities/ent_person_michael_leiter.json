@@ -1,0 +1,30 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_michael_leiter",
+  "type": "person",
+  "canonical_name": "Michael Leiter",
+  "aliases": [
+    "Israeli Ambassador to the US Michael Leiter"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_13_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_13_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-13T04:31:34.442643+00:00",
+  "last_updated": "2026-07-13T04:31:51.578999+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Entity created from evt_2026_07_13_israel_middle_east_002",
+      "source": null
+    }
+  ]
+}
