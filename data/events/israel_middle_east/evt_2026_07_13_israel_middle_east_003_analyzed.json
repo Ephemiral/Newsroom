@@ -1,0 +1,1120 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_13_israel_middle_east_003",
+    "beat": "israel_middle_east",
+    "title": "US–Iran Exchange of Strikes Over Strait of Hormuz",
+    "summary": "Following Iran's attacks on commercial vessels transiting the Strait of Hormuz along an unapproved route, the US struck more than 140 Iranian military targets over the weekend of 12–13 July 2026. Iran retaliated with drone and missile strikes on US bases and allies across the Gulf region, declared the strait closed, and the two sides traded competing claims over control of the waterway while mediators sought to revive a collapsing ceasefire.",
+    "date": "2026-07-12",
+    "generated_at": "2026-07-13T15:37:12.487589+00:00",
+    "related_events": [
+      {
+        "cluster_id": "evt_2026_07_12_israel_middle_east_004",
+        "title": "Iran Closes Strait of Hormuz Amid US-Iran Military Escalation"
+      },
+      {
+        "cluster_id": "evt_2026_07_12_israel_middle_east_001",
+        "title": "US Launches Third Round of Strikes on Iran; Strait of Hormuz Closed"
+      }
+    ],
+    "entities": [
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "President Trump",
+          "Trump"
+        ],
+        "relevance_to_event": "Trump declared the ceasefire over following Iranian strikes, claimed Iran had agreed to a Saturday deal before attacking the MV GFS Galaxy, announced the US would be 'Guardian of the Hormuz Strait' and charge 20% on cargo, and said talks would continue despite the escalation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_011",
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_mojtaba_khamenei",
+        "surfaces": [
+          "Mojtaba Khamenei",
+          "Iran's new Supreme Leader"
+        ],
+        "relevance_to_event": "Iran's new Supreme Leader issued his first public statement since his father's funeral (who was killed in the initial 28 February 2026 US-Israeli strikes), vowing that vengeance for his father's killing was inevitable.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_abbas_araghchi",
+        "surfaces": [
+          "Iran's Foreign Minister Abbas Araghchi",
+          "Abbas Araghchi"
+        ],
+        "relevance_to_event": "Iran's Foreign Ministry spokesperson accused the US of violating the ceasefire deal and contradicted Trump's claim about a Saturday agreement, while also stating that US pressure on Oman has hindered Iran's efforts to establish a joint mechanism with Oman for Strait management.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_strait_of_hormuz",
+        "surfaces": [
+          "Strait of Hormuz"
+        ],
+        "relevance_to_event": "The central geographic location and subject of the crisis, where Iran attacked commercial vessels on an unapproved southern route, leading to US strikes and competing claims over whether the waterway remained open or closed.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_004",
+            "clm_008",
+            "clm_015",
+            "clm_017",
+            "clm_023"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "Iran's IRGC",
+          "IRGC"
+        ],
+        "relevance_to_event": "The IRGC claimed responsibility for retaliatory strikes on US and allied facilities across the Gulf, declared the Strait closed, issued contradictory accounts of the MV GFS Galaxy attack and Strait status, and warned of targeting additional enemy bases if faced with further US attacks.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_006",
+            "clm_009",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_us_central_command",
+        "surfaces": [
+          "US Central Command",
+          "Centcom"
+        ],
+        "relevance_to_event": "Centcom characterized Iran's attack on the MV GFS Galaxy as unprovoked, reported striking over 140 Iranian military targets, contradicted IRGC claims about the Strait being closed, and offered competing accounts of the ceasefire status.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_mv_gfs_galaxy",
+        "surfaces": [
+          "MV GFS Galaxy",
+          "Cypriot-flagged container ship"
+        ],
+        "relevance_to_event": "The Cypriot-flagged container ship attacked by Iran in the Strait of Hormuz, which was disabled and forced its crew to abandon ship with one Indian crew member missing, serving as the immediate trigger for the US military response.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_khatam_al_anbiya_central_headquarters",
+        "surfaces": [
+          "Khatam al-Anbiya Central Headquarters",
+          "Iran's top joint military command"
+        ],
+        "relevance_to_event": "Iran's top joint military command warned regional leaders that cooperation with the US would be considered a threat of war against Iran and blamed the US for any wider regional conflict.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "thread_id": "thr_usiran_military_escalation_over_strait_of_hormuz_2",
+    "image_attempted_at": "2026-07-13T15:38:11.668524+00:00",
+    "image": {
+      "url": "https://live.staticflickr.com/1400/690285497_ada1b75b55_b.jpg",
+      "full_url": "https://live.staticflickr.com/1400/690285497_ada1b75b55_b.jpg",
+      "source_page": "https://www.flickr.com/photos/39735679@N00/690285497",
+      "width": 1024,
+      "height": 698,
+      "caption": "US military aircraft over the Persian Gulf (file photo)",
+      "credit": "pingnews.com",
+      "license": "Public domain 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "openverse",
+      "file_title": "openverse:1e632d98-f2c4-4305-8994-9e97e5b803af|Public Domain: F-117 Flying Over Persian Gulf by Derrick C. Goode USN, 2003 (DOD 030414-F-0365G-002)",
+      "query": "US military base Persian Gulf",
+      "fetched_at": "2026-07-13T15:38:11.668484+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/12/us-and-iran-exchange-strikes-as-tehran-again-says-strait-of-hormuz-is-closed",
+      "author": "Julian Borger in Jerusalem",
+      "published_at": "2026-07-12T18:49:08+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Julian Borger is The Guardian's diplomatic editor and chief foreign affairs correspondent, known for his reporting on international conflicts, nuclear diplomacy, and Middle East affairs.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-11T16:55:57+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wa2ZwdlROcC13ZE1qUWtPZ2lKbVR2OHBEY3hQRElIMjA2WTk0dkJNQlRVcGlsY09VMHdRYkJLNHF4Q1FSOVJiVUl3QjdocnBrQ2ZSRnJn?oc=5",
+      "author": null,
+      "published_at": "2026-07-10T22:25:21+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/iran-fires-warning-shots-at-2-ships-in-strait-of-hormuz-as-clashes-with-us-intensify/",
+      "author": null,
+      "published_at": "2026-07-13T14:21:05+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-12T22:17:40+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTDI4WnJQY1UzQVd1QjZQMXRFUkM2SHdzNV9EYmd2cTQ2a1h3cTN0NTlza0JSMWFlbFhibmY0SnVRSHU0U2ZsRGpoMEhMamd5RXNZUXZRVUJRQnVzVGhtajFJbHdXSUtjNy1iOGpTODU3dG5YLUphaGlYRDRXLUZSdXF2U3laZDhaeTVvalFJbjlGOGJYaTFFdnRuMUJmZXE3U1Z0LTRxaUtiNTNnQnQ2bGdDZEVhUzV4OHdBVlBTSVVBdw?oc=5",
+      "author": null,
+      "published_at": "2026-07-10T21:36:03+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-will-not-let-us-interfere-managing-hormuz",
+      "author": "Fleur Hargreaves",
+      "published_at": "2026-07-13T13:23:58+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "The US military struck more than 140 Iranian military targets on Saturday night and into Sunday morning, including missile and drone sites, naval facilities, ammunition depots, communication networks, and coastal surveillance locations.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Multiple outlets across center-left (BBC, Guardian) and center-right (Times of Israel) tiers consistently report the US struck 140+ Iranian targets with broadly the same list of target types.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes the 140-target figure to Centcom; lists targets as missile/drone sites, naval facilities, ammunition depots, communication networks and surveillance locations.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports Centcom's statement as fact; notes Secretary of Defense Hegseth shared the statement with the comment 'Iran made a poor choice. Now they pay.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Notes a second round of strikes on Sunday evening targeting air defense systems, coastal radar, missile/drone capabilities, and small boats.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reports approximately 90 targets in an earlier reference, but also carries the 140-target figure in relation to the broader exchange.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005",
+        "src_004",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The US stated its strikes were intended to degrade Iran's ability to attack civilian mariners and commercial vessels freely transiting the Strait of Hormuz.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Two center-left outlets both carry Centcom's stated justification for the strikes; no cross-spectrum source disputes the stated rationale.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Centcom directly: strikes were 'to degrade Iran's ability to attack civilian mariners and commercial vessels freely transiting the strait.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Carries Centcom's statement and adds Secretary Hegseth's social media comment as additional framing.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Iran launched wide-ranging retaliatory drone and missile strikes on US bases and allies across the Gulf region on Sunday, targeting facilities in Bahrain, Kuwait, Jordan, Oman, Qatar, and the UAE.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Outlets from center-left (Guardian, BBC) and center-right (Times of Israel) all confirm Iran launched wide-ranging strikes across the region targeting US interests and allied nations.",
+      "framing_variants": [
+        {
+          "characterization": "Describes Iranian strikes as 'apparently aimed at US bases in neighbouring Arab countries'; lists UAE, Qatar, Jordan, Bahrain and Oman.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports UAE, Qatar, Kuwait, Oman and Bahrain all said they responded to Iranian missiles and drones; notes Qatar and UAE had not been attacked since April and May respectively.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Carries specific IRGC claims: targeted US facilities in Bahrain and Kuwait, destroyed radar systems in Oman, hit fuel tanks and ammo depots at Prince Hassan Air Base in Jordan.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States Iran 'responded with strikes on US allies in the Gulf' and that Bahrain's air defenses intercepted and destroyed several attacks.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005",
+        "src_004",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The IRGC declared the Strait of Hormuz closed; the US and Centcom asserted the strait remained open and that traffic was continuing to transit at reduced levels.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "strait_of_hormuz_control",
+      "rationale": "Iran's IRGC declared the strait closed while the US (via Centcom, Trump, and the Joint Maritime Information Center) asserted it remained open with traffic transiting at reduced levels; this is a direct actor dispute reported across all outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Trump: 'Iran does not control the strait. Traffic is flowing.' Also reports IRGC's declaration of closure; notes the US-run Joint Maritime Information Center said traffic was at 'reduced levels.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports Iran 'said it was closed until further notice early on Sunday'; reports Centcom reiterated the strait was open and warned the US military was in position to keep it free-flowing.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Carries both the IRGC's claim of closure and Trump's assertion that the US is 'the Guardian of the Hormuz Strait.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reports US demand that Iran publicly state the strait is open; notes approximately 20% of world oil and LNG passes through it.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Carries Iran's top military command statement that Iran will not allow US intervention in strait management and any unauthorized US transit will be 'strongly confronted.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005",
+        "src_004",
+        "src_002",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Trump declared that the US would be 'the Guardian of the Hormuz Strait,' would charge 20% on all cargo traversing it, and was reinstating the blockade of Iranian ports.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "strait_of_hormuz_control",
+      "rationale": "Both a center-right outlet and a left outlet report Trump's Truth Social declarations about the US assuming guardianship, the 20% cargo charge, and reimposing the Iranian blockade.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Trump's Truth Social post verbatim: 'The USA will be, from this point forward, known as THE GUARDIAN OF THE HORMUZ STRAIT'; also notes 20% cargo charge and blockade reinstatement.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Summarizes Trump's position as the US 'would be paid to run the strait.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Iran's IRGC stated the strait would remain closed until the 'end of US interference' and warned it would target additional enemy bases in the region if faced with further US attacks.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "strait_of_hormuz_control",
+      "rationale": "Two outlets—one center-left and one center-right—both carry the IRGC's stated conditions for the strait's reopening and its threat of escalation.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes IRGC statement directly: strait 'would remain closed until the end of US interference'; would consider targeting 'additional enemy bases in the region.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Carries the IRGC statement that Tehran 'will continue to exercise sovereignty over and management of the Strait of Hormuz.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Iran's top joint military command (Khatam al-Anbiya Central Headquarters) warned regional leaders that any cooperation with the US would be considered a threat of war against Iran, and blamed the US and its allies for any wider regional conflict.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "strait_of_hormuz_control",
+      "rationale": "Only Middle East Eye reports the specific Khatam al-Anbiya Central Headquarters statement warning regional leaders about US cooperation.",
+      "framing_variants": [
+        {
+          "characterization": "Reports statement carried by Iranian state media on Monday warning that regional cooperation with the US constitutes a threat of war and that responsibility for escalation lies with the US and its allies.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Iran attacked the Cypriot-flagged container ship MV GFS Galaxy as it transited the Strait of Hormuz on a southerly route along the Omani shoreline, disabling the vessel and forcing its crew to abandon ship; one Indian crew member remained missing.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "shipping_incidents",
+      "rationale": "Center-left (Guardian, BBC) and center-right (Times of Israel) outlets all confirm the attack on the GFS Galaxy, the crew abandonment, and one missing Indian crew member.",
+      "framing_variants": [
+        {
+          "characterization": "Reports the vessel was 'struck, disabled and its crew forced to take to lifeboats'; Indian government confirmed 10 nationals rescued, one missing.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Centcom called it a 'blatant attack'; vessel was 'unable to continue its journey' due to engine room damage; UKMTO confirmed crew abandoned ship.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Notes Cyprus's Deputy Ministry of Shipping confirmed a crew member still missing; Iranian state TV characterized it as IRGC 'warning shots.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The IRGC said it fired at vessels because they 'disregarded warnings and instructions to correct their course and proceed along the approved route'; Centcom characterized the same attack as a 'blatant' unprovoked strike on a civilian vessel.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "shipping_incidents",
+      "rationale": "The IRGC and Centcom give directly contradictory accounts of whether the attack was a justified warning or an unprovoked assault on a commercial ship.",
+      "framing_variants": [
+        {
+          "characterization": "Carries IRGC statement that vessels 'disregarded warnings'; also notes Iran said the southern (Omani coast) route had not been approved by Iran.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Centcom said the IRGC 'blatantly attacked' a Cyprus-flagged vessel; IRGC characterized it as firing a 'naval cruise missile at a vessel attempting to sail along an unapproved route.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Iranian state TV framed IRGC action as 'warning shots'; Times of Israel notes US and Iranian descriptions are in conflict.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Iran privately told US officials that its earlier attacks on tankers were a mistake and attributed them to a rogue internal group of hardliners trying to undermine negotiations.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "shipping_incidents",
+      "rationale": "Both BBC News articles report the same claim—sourced to senior US officials and US media—that Iran privately acknowledged the tanker attacks were a mistake.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Tehran 'privately acknowledged' to Trump's advisers that the shooting was a mistake; attributes it to 'an errant sect of hardliners.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports US media account that Iran told American officials attacks were 'a mistake and blamed a rogue internal group.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Trump claimed Iran had agreed to a deal on Saturday before subsequently attacking a Cyprus-flagged ship; Iran did not publicly refer to any such talks or deal.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "ceasefire_and_negotiations",
+      "rationale": "Trump asserted a deal was struck on Saturday and that Iran then violated it within an hour; Iran made no public reference to any such agreement, constituting a direct actor dispute.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Trump's claim on NBC Meet the Press: 'They agreed to a deal yesterday, a perfect deal for us. No nuclear, no this, no that'; notes White House provided no further details and Iran did not refer to any talks.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports Trump claimed Iran 'agreed to a deal on Saturday before striking a Cyprus-flagged ship.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Carries Trump's account without independent corroboration; notes Iran's parliamentary speaker Ghalibaf wrote on X that 'the era of one-sided deals is OVER.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Trump declared that the Iranian attacks meant the ceasefire was over, while Iran's Foreign Minister Abbas Araghchi accused the US of violating the ceasefire deal.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "ceasefire_and_negotiations",
+      "rationale": "Trump and Araghchi each accused the other side of breaking the ceasefire; this is a direct actor dispute reported across multiple outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Trump posted 'the Cease Fire is OVER' on Truth Social; also reports Araghchi 'accused the US of violating the deal.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports Trump 'declared the Iranian attacks meant the ceasefire was over'; also carries Araghchi's accusation that the US violated the deal.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Notes Trump 'suggested last week that the interim deal was over'; carries Iran's parliamentary speaker Ghalibaf's statement that 'the era of one-sided deals is OVER.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Despite declaring the ceasefire over, Trump said talks aimed at ending the war would continue, and mediators including Qatar, Pakistan, and Oman were working to revive the ceasefire process.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ceasefire_and_negotiations",
+      "rationale": "Center-left (BBC) and center-right (Times of Israel) outlets all confirm Trump said talks would continue, and all report active mediation efforts by Qatar, Oman, and Pakistan.",
+      "framing_variants": [
+        {
+          "characterization": "Notes a Qatari delegation traveled to Iran on Friday for de-escalation talks; lists JD Vance, Marco Rubio, Steve Witkoff, and Jared Kushner as expected US negotiators.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports Trump said talks would continue and mediators were 'trying to revive the process.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Carries Iran's Foreign Ministry spokesperson statement that Tehran was 'continuing talks with mediators from Qatar, Pakistan and Oman'; notes Pakistan urged de-escalation.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "A US-Iran memorandum of understanding (MoU) was signed on 17 June, extending a ceasefire by 60 days to allow restoration of trade through the Strait and to create space for talks on Iran's nuclear programme and sanctions relief.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ceasefire_and_negotiations",
+      "rationale": "All outlets across center-left and center-right confirm the June ceasefire/MoU and its basic terms; the date of 17 June is provided by the Guardian.",
+      "framing_variants": [
+        {
+          "characterization": "Reports the MoU signed on 17 June extended the ceasefire by 60 days; notes fighting between Israel and Hezbollah continued despite the agreement.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes the deal as one in which Iran would 'give safe passage to commercial ships'; notes it is now 'in jeopardy.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes it as an 'interim ceasefire agreement signed last month, aimed to reopen the Strait and eventually bring a permanent end to the conflict.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Notes 'Iran and the US are nearly halfway through the 60-day interim deal period.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_005",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "The US issued demands through regional mediators that Iran publicly declare the Strait of Hormuz open and pledge to stop attacking commercial ships.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "ceasefire_and_negotiations",
+      "rationale": "Both BBC News articles report the same US demand conveyed through regional mediators; no cross-spectrum outlet disputes this.",
+      "framing_variants": [
+        {
+          "characterization": "States the US demands were conveyed 'through regional mediators on Friday'; specifies two conditions: publicly state the strait is open and stop firing on commercial ships.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Carries Centcom's Sunday reiteration that the strait was open and that the US military was in position to keep it 'free-flowing.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Iran's IRGC claimed to have struck US military facilities in Bahrain and Kuwait, destroyed radar systems in Oman, and hit fuel tanks and ammunition depots at Prince Hassan Air Base in Jordan, including its command centre and MQ-9 drone hangars.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Multiple outlets carry the IRGC's specific strike claims; Bahrain reported intercepting attacks and Jordan reported shooting down four Iranian missiles, providing partial counter-context.",
+      "framing_variants": [
+        {
+          "characterization": "Reports IRGC claims of hitting Bahrain, Kuwait, Oman (radar systems), and Jordan (fuel tanks, ammo depots at Prince Hassan); notes Bahrain said it intercepted and destroyed several attacks.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Carries Iran's claim that its 'first phase' of retaliation hit Prince Hassan Air Base; destroyed command centre and MQ-9 drone hangars.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Carries IRGC claim to have destroyed 'logistical support centres for naval vessels and refuelling facilities for US aircraft carriers at the port of Duqm in Oman'; notes Oman condemned the attack.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Oman condemned Iran's attack on the port of Duqm, which occurred just hours after Oman had hosted an Iranian delegation for talks on security in the Strait of Hormuz.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only the Guardian reports both the condemnation and the striking timing of the attack hours after Iran held talks in Oman.",
+      "framing_variants": [
+        {
+          "characterization": "Notes the diplomatic irony: Oman condemned an attack that occurred 'just hours after the sultanate hosted an Iranian delegation for talks on security in the strait.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Iran's Health Ministry reported 17 people killed and 115 injured in the US strikes on Iran.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC News carries the Iranian Health Ministry casualty figures; other outlets report strikes in specific provinces but do not cite the same aggregate figures.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes figures to Iran's Health Ministry: 17 killed and 115 injured in the US strikes.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "US strikes hit targets in Hormozgan, Khuzestan, Markazi, and Sistan and Baluchestan provinces, with explosions reported near Bandar Abbas and Qeshm Island.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Two outlets carry overlapping Iranian reports of US strike locations in specific provinces and near key coastal cities.",
+      "framing_variants": [
+        {
+          "characterization": "Cites Iranian authorities reporting attacks in Hormozgan, Khuzestan and Markazi; semiofficial media reported Sistan and Baluchestan; Mehr news reported explosions near Bandar Abbas and Qeshm island.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Iran's IRNA news agency said missiles were launched towards Qeshm Island on Sunday afternoon; Centcom announced a second round of strikes at 17:00 ET on Sunday.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "The war began on 28 February 2026 with US and Israeli strikes on Iran, which killed Iran's Supreme Leader Ayatollah Ali Khamenei at his Tehran residence; Iran subsequently attacked Israel and US targets and allies in the Gulf.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "background_and_context",
+      "rationale": "Center-left (BBC, Guardian) and center-right (Times of Israel) all confirm the 28 February start date, the killing of Khamenei, and Iran's subsequent retaliatory attacks.",
+      "framing_variants": [
+        {
+          "characterization": "States the war began on 28 February with US and Israeli attacks; Khamenei 'was killed in an Israeli strike on his residence in Tehran.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes Iran seized control of the strait 'soon after the US-Israel attack on Iran in February.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Provides background that Iran seized control of the strait after the February attack.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Iran's new Supreme Leader Mojtaba Khamenei issued his first public statement since his father's funeral, vowing that vengeance for his father's killing was inevitable and did not depend on any individual's survival.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "background_and_context",
+      "rationale": "Center-left (BBC, Guardian) and center-right (Times of Israel) all report Mojtaba Khamenei's vengeance statement, describing it as his first major public statement since the war began.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes: 'The matter depends neither on my personal existence nor on that of other officials. Whether we are present or not, it will come to pass.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes it as Khamenei's 'first statement since the funeral' and notes he had been 'unseen since the war began.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Identifies Mojtaba Khamenei as 'a senior adviser to Iran's supreme leader' and quotes his characterization of the strait as 'more important than dozens of atomic bombs.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Iran's attack on three commercial vessels earlier in the week—which triggered the current escalation—occurred on the southern route near the Omani coast, which Iran said had not been approved; the Guardian identified this as Iran attacking vessels on a route that violated Iran's control over the strait.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "shipping_incidents",
+      "rationale": "Multiple center-left outlets confirm the initial tanker attacks as the precipitating event; the Guardian provides the specific context of the unapproved southern route.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Iran 'attacked three commercial vessels on Monday night along a southern route next to the Omani coast that the Iranians said they had not approved'; describes this as when the MoU 'started to unravel.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'three commercial tankers were attacked earlier in the week, prompting an exchange of strikes with the US.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes the IRGC said it fired on 'a vessel that was attempting to sail along an unapproved route.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Iran is seeking a joint mechanism with Oman for management of the Strait of Hormuz; Iran's Foreign Ministry spokesperson stated that US pressure on Oman has hindered these efforts.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_and_negotiations",
+      "rationale": "Only the Times of Israel reports Iran's Foreign Ministry spokesperson Baghaei's specific claim about a joint Oman mechanism and US interference with those efforts.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes to Iran's Foreign Ministry spokesperson Esmaeil Baghaei: Iran is seeking a 'joint mechanism with Oman for the Strait of Hormuz' and 'US pressure on Oman has hindered efforts.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-13T15:37:47.743630+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "The United States military struck more than 140 Iranian military targets on Saturday night and into Sunday morning, hitting missile and drone sites, naval facilities, ammunition depots, communication networks, and coastal surveillance locations. Iran launched wide-ranging retaliatory drone and missile strikes on US bases and allies across the Gulf region on Sunday, targeting facilities in Bahrain, Kuwait, Jordan, Oman, Qatar, and the UAE.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The escalation followed Iran's attack on the Cypriot-flagged container ship MV GFS Galaxy as it transited the Strait of Hormuz on a southerly route along the Omani shoreline. The attack disabled the vessel and forced its crew to abandon ship; one Indian crew member remained missing.",
+        "supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Despite declaring the ceasefire over, President Trump said talks aimed at ending the war would continue. Mediators including Qatar, Pakistan, and Oman were working to revive the ceasefire process.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The current crisis emerged against the backdrop of a US-Iran memorandum of understanding signed on 17 June, which extended a ceasefire by 60 days to allow restoration of trade through the Strait and to create space for talks on Iran's nuclear programme and sanctions relief. The attacks on commercial vessels earlier in the week occurred on the southern route near the Omani coast, which Iran said had not been approved.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The war began on 28 February 2026 with US and Israeli strikes on Iran, which killed Iran's Supreme Leader Ayatollah Ali Khamenei at his Tehran residence. Iran subsequently attacked Israel and US targets and allies in the Gulf. Iran's new Supreme Leader Mojtaba Khamenei issued his first public statement since his father's funeral, vowing that vengeance for his father's killing was inevitable and did not depend on any individual's survival.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The US stated its strikes were intended to degrade Iran's ability to attack civilian mariners and commercial vessels freely transiting the Strait of Hormuz. Center-left outlets reported this stated justification; the claim was not disputed by sources across the spectrum.",
+        "supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_005"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Iran's IRGC claimed to have struck US military facilities in Bahrain and Kuwait, destroyed radar systems in Oman, and hit fuel tanks and ammunition depots at Prince Hassan Air Base in Jordan, including its command centre and MQ-9 drone hangars. Bahrain reported intercepting attacks and Jordan reported shooting down four Iranian missiles.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Center-left and center-right outlets reported that US strikes hit targets in Hormozgan, Khuzestan, Markazi, and Sistan and Baluchestan provinces, with explosions reported near Bandar Abbas and Qeshm Island. BBC News reported that Iran's Health Ministry stated 17 people were killed and 115 injured in the US strikes on Iran.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Center-left outlets reported that Iran privately told US officials that its earlier attacks on tankers were a mistake and attributed them to a rogue internal group of hardliners trying to undermine negotiations. This claim was sourced to senior US officials and US media; Iranian authorities did not make this acknowledgment publicly.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Center-left outlets reported that the US issued demands through regional mediators that Iran publicly declare the Strait of Hormuz open and pledge to stop attacking commercial ships. These demands were conveyed as part of ongoing ceasefire negotiations.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "A center-right outlet and a left outlet reported that Trump declared on Truth Social that the US would be 'the Guardian of the Hormuz Strait,' would charge 20% on all cargo traversing it, and was reinstating the blockade of Iranian ports. Iran's IRGC stated the strait would remain closed until the 'end of US interference' and warned it would target additional enemy bases in the region if faced with further US attacks.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_007"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Middle East Eye reported that Iran's top joint military command (Khatam al-Anbiya Central Headquarters) warned regional leaders that any cooperation with the US would be considered a threat of war against Iran, and blamed the US and its allies for any wider regional conflict. No other outlet carried this specific statement.",
+        "supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_007"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Guardian reported that Oman condemned Iran's attack on the port of Duqm, which occurred just hours after Oman had hosted an Iranian delegation for talks on security in the Strait of Hormuz. The Times of Israel reported that Iran is seeking a joint mechanism with Oman for management of the Strait of Hormuz, and that Iran's Foreign Ministry spokesperson stated that US pressure on Oman has hindered these efforts.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "Iran's IRGC and US Central Command offered directly contradictory accounts of whether the Strait of Hormuz remained open. The IRGC declared the Strait of Hormuz closed; the US and Centcom asserted the strait remained open and that traffic was continuing to transit at reduced levels. This dispute was reported across outlets from center-left to center-right and left.",
+        "supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "The IRGC and Centcom gave conflicting accounts of the attack on the MV GFS Galaxy. The IRGC said it fired at vessels because they 'disregarded warnings and instructions to correct their course and proceed along the approved route.' Centcom characterized the same attack as a 'blatant' unprovoked strike on a civilian vessel.",
+        "supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "President Trump and Iran's Foreign Minister offered conflicting accounts of the ceasefire's status. Trump claimed Iran had agreed to a deal on Saturday before subsequently attacking the Cyprus-flagged ship; Iran did not publicly refer to any such talks or deal. Trump declared that the Iranian attacks meant the ceasefire was over, while Iran's Foreign Minister Abbas Araghchi accused the US of violating the ceasefire deal.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}

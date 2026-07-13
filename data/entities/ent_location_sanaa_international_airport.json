@@ -1,0 +1,70 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_sanaa_international_airport",
+  "type": "location",
+  "canonical_name": "Sanaa International Airport",
+  "aliases": [
+    "Sanaa airport"
+  ],
+  "wikidata_qid": "Q1165296",
+  "summary": "Sanaa International Airport is the primary international airport of Yemen located in Sanaa, the capital of Yemen. It serves Sanaa City, as well as the entire population of the northern provinces of Yemen.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Sanaa_International_Airport"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Initially, a small passenger terminal was built in the 1970s.",
+      "source_url": "https://en.wikipedia.org/wiki/Sanaa_International_Airport",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The runway is shared with the large Al-Dailami Air Base.",
+      "source_url": "https://en.wikipedia.org/wiki/Sanaa_International_Airport",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_13_israel_middle_east_004",
+  "appears_in_events": [
+    "evt_2026_07_13_israel_middle_east_004"
+  ],
+  "created_at": "2026-07-13T15:41:02.146658+00:00",
+  "last_updated": "2026-07-13T15:41:19.463750+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Entity created from evt_2026_07_13_israel_middle_east_004",
+      "source": null
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Sanaa_International_Airport"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Sanaa_International_Airport"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikidata Q1165296 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1165296"
+    }
+  ]
+}

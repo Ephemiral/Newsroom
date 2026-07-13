@@ -10,7 +10,8 @@
     "IRGC",
     "Iran's Revolutionary Guards",
     "Iranian Revolutionary Guard Corps",
-    "Iran's Revolutionary Guard"
+    "Iran's Revolutionary Guard",
+    "Iran's IRGC"
   ],
   "wikidata_qid": "Q794",
   "summary": "Iran, officially the Islamic Republic of Iran, historically known as Persia, is a country in West Asia. It borders Iraq to the west, Turkey, Azerbaijan, and Armenia to the northwest, the Caspian Sea to the north, Turkmenistan to the northeast, Afghanistan to the east, Pakistan to the southeast, and the Gulf of Oman and the Persian Gulf to the south.",
@@ -72,10 +73,12 @@
     "evt_2026_07_11_israel_middle_east_001",
     "evt_2026_07_12_israel_middle_east_001",
     "evt_2026_07_12_israel_middle_east_004",
-    "evt_2026_07_13_israel_middle_east_001"
+    "evt_2026_07_13_israel_middle_east_001",
+    "evt_2026_07_13_israel_middle_east_003",
+    "evt_2026_07_13_israel_middle_east_004"
   ],
   "created_at": "2026-07-08T15:05:53.944278+00:00",
-  "last_updated": "2026-07-13T04:27:51.354022+00:00",
+  "last_updated": "2026-07-13T15:41:19.464720+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

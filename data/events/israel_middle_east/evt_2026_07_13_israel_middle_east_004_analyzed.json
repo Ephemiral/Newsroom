@@ -1,0 +1,1079 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_13_israel_middle_east_004",
+    "beat": "israel_middle_east",
+    "title": "Strike on Sanaa Airport Amid Dispute Over Iranian Aircraft Landing in Yemen",
+    "summary": "Yemen's internationally recognized government claimed responsibility for striking the runway at Sanaa International Airport on Monday, July 13, 2026, stating the action was taken to prevent an Iranian aircraft from landing in Houthi-controlled territory. The Houthis attributed the strike to Saudi Arabia, declared the end of a de-escalation phase, and threatened retaliation.",
+    "date": "2026-07-13",
+    "generated_at": "2026-07-13T15:40:31.431770+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_location_sanaa_international_airport",
+        "surfaces": [
+          "Sanaa International Airport",
+          "Sanaa airport"
+        ],
+        "relevance_to_event": "The airport's runway was struck on July 13, 2026, in the central dispute of this story—the internationally recognized government stated the strike aimed to prevent an Iranian aircraft from landing there.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_007",
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_houthis",
+        "surfaces": [
+          "Houthis",
+          "Houthi movement",
+          "Ansar Allah"
+        ],
+        "relevance_to_event": "The Houthis control Sanaa airport and the territory where the Iranian aircraft was attempting to land; they attributed the strike to Saudi Arabia, declared an end to de-escalation, and threatened retaliation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_004",
+            "clm_007",
+            "clm_008",
+            "clm_011",
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_yemen_s_internationally_recognized_government",
+        "surfaces": [
+          "Yemen's internationally recognized government",
+          "Yemeni government",
+          "recognized government"
+        ],
+        "relevance_to_event": "This entity claimed responsibility for the strike on Sanaa airport, stating it was necessary to prevent the Iranian aircraft from landing in Houthi-controlled territory.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_005",
+            "clm_008",
+            "clm_020",
+            "clm_024"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_saudi_arabia",
+        "surfaces": [
+          "Saudi Arabia"
+        ],
+        "relevance_to_event": "The Houthis attributed the strike to Saudi Arabia and threatened retaliation; Saudi Arabia had previously (in early July 2026) allegedly attacked another Iranian plane, escalating tensions before the July 13 strike.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_012",
+            "clm_013",
+            "clm_015",
+            "clm_021",
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "Iran"
+        ],
+        "relevance_to_event": "An Iranian aircraft carrying a Yemeni delegation returning from funeral ceremonies for Iran's Supreme Leader was at the center of the dispute and was the stated target of the runway strike.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_ali_khamenei",
+        "surfaces": [
+          "Ali Khamenei",
+          "Iran's late Supreme Leader Ali Khamenei"
+        ],
+        "relevance_to_event": "The Yemeni delegation that was on the Iranian aircraft had traveled to Iran to attend funeral ceremonies for Iran's late Supreme Leader, making his death the triggering event for the delegation's presence on the disputed flight.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_yahya_saree",
+        "surfaces": [
+          "Yahya Saree"
+        ],
+        "relevance_to_event": "Houthi military spokesman who stated on behalf of the Houthis that the strike would not pass without retribution and declared Saudi Arabia bears full responsibility for consequences.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_strait_of_hormuz",
+        "surfaces": [
+          "Strait of Hormuz"
+        ],
+        "relevance_to_event": "The report notes the Houthis have been involved in attacks on shipping in and around the Strait of Hormuz as part of broader regional tensions, providing context for the Houthis' regional military capabilities relevant to their threatened retaliation.",
+        "relevance_supports": {
+          "claim_ids": [],
+          "source_ids": []
+        },
+        "relevance_grounding": "sources_fallback"
+      }
+    ],
+    "image_attempted_at": "2026-07-13T15:41:28.866420+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sanaa_International_Airport.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sanaa_International_Airport.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sanaa_International_Airport.jpg",
+      "width": 685,
+      "height": 386,
+      "caption": "Sanaa International Airport (file photo)",
+      "credit": "The New Arab Staff",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Sanaa International Airport.jpg",
+      "query": "Sanaa International Airport",
+      "fetched_at": "2026-07-13T15:41:28.866378+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-closes-all-airports-until-further-notice-after-sanaa-attack",
+      "author": "Fleur Hargreaves",
+      "published_at": "2026-07-13T14:02:42+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/yemens-saudi-backed-army-bombs-houthi-held-sanaa-airport-to-block-iranian-plane/",
+      "author": null,
+      "published_at": "2026-07-13T13:40:07+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/news/houthis-say-saudi-arabia-hit-sanaa-airport-declare-end-truce",
+      "author": "MEE and agencies",
+      "published_at": "2026-07-13T14:04:25+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-military-target-airport-runway-stop-iranian-plane-landing",
+      "author": "Fleur Hargreaves",
+      "published_at": "2026-07-13T11:41:01+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OODFzQktJaWRPQ1lHcGlqdTBFTFlqOU5EaHJuTm5hTWlyNHRJMGVpc01tRGtqOTA2ZU1fX21xTGZPSlJmY3J0UHVGZEp5Um15VUhrSUF3?oc=5",
+      "author": null,
+      "published_at": "2026-07-13T11:12:57+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A strike targeted the runway at Sanaa International Airport on Monday, July 13, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "All five sources across left and center-right outlets confirm that a strike occurred at Sanaa airport, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Yemen's defence ministry said its armed forces 'targeted the runway' at Sanaa International Airport.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Yemen's internationally recognized government 'said it struck Sanaa airport Monday.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Aden-based government said its forces 'carried out a strike on Sanaa airport.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Houthis alleged that Saudi Arabia 'carried out air strikes on Sanaa International Airport.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Houthis accused Saudi Arabia of striking Sanaa airport.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Yemen's internationally recognized government claimed responsibility for the strike on Sanaa airport; the Houthis attributed the strike to Saudi Arabia.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "military_operations",
+      "rationale": "The Yemeni government claimed ownership of the strike, while the Houthis attributed it to Saudi Arabia — a direct actor dispute reported across all sources.",
+      "framing_variants": [
+        {
+          "characterization": "States the attack 'was claimed by the Yemeni government' and that the Houthis 'blamed [it] on Saudi Arabia.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reports the internationally recognized government claimed the strike while 'the Houthis blamed the government's Saudi backers for the attack.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports the Houthis alleged 'Saudi Arabia carried out air strikes,' with no attribution to the recognized government.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States the Aden-based government said its forces carried out the strike.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Leads with Houthis accusing Saudi Arabia of the strike.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The stated purpose of the strike on Sanaa airport was to prevent an Iranian aircraft from landing there.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both left-leaning (Middle East Eye) and center-right (Times of Israel, Ynet) outlets confirm the government's stated rationale of blocking an Iranian plane, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Describes the stated purpose as 'to prevent an Iranian aircraft from landing there.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The government said it 'had wanted to prevent an Iranian plane from landing in the Yemeni capital.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Yemen's defence ministry stated the runway was targeted 'to prevent an Iranian plane from landing.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The alleged strike was described as 'aimed at blocking an Iranian plane.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The Yemeni defense ministry stated it had exhausted diplomatic efforts to persuade Iran and the Houthis to stop what it described as Iranian aircraft violating Yemeni airspace before resorting to the strike.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both sources report the government's claim of prior diplomatic efforts, but both are from the same cluster of coverage (one center-right, one left), with the defense minister's quote appearing in the Times of Israel and echoed in context by Middle East Eye.",
+      "framing_variants": [
+        {
+          "characterization": "The defense minister 'said it had exhausted diplomatic efforts to persuade Iran and the Houthis to stop what he described as Iranian aircraft violating Yemeni airspace.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes the government's failure to convince the Houthi delegation to board a Yemenia flight instead, as the immediate trigger.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The Yemeni government failed to convince the Houthi delegation returning from Iran to board a Yemenia flight instead of an Iranian aircraft.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only the Times of Israel reported this specific detail about the failed attempt to redirect the delegation to a Yemenia flight.",
+      "framing_variants": [
+        {
+          "characterization": "States the strike came 'after it failed to convince the Houthi delegation that went to Tehran for the funeral of Iran's slain supreme leader to board a Yemenia flight instead.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The Yemeni defense minister said government forces would respond to any hostile aircraft violating Yemen's airspace 'by all available means' and held Iran responsible.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only the Times of Israel reported the defense minister's specific warning about future responses and the direct attribution of responsibility to Iran.",
+      "framing_variants": [
+        {
+          "characterization": "Defense minister said forces would respond to hostile aircraft violations 'by all available means' and 'held Iran responsible.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The Yemeni defense ministry accused the Houthis of preventing Yemeni national aircraft from landing at Sanaa airport while insisting on allowing an Iranian plane to violate Yemeni territory.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "This specific accusation from the Yemeni defense ministry appears only in the Times of Israel.",
+      "framing_variants": [
+        {
+          "characterization": "Defense ministry accused the Houthis of blocking Yemeni aircraft 'while insisting on allowing an Iranian plane to violate Yemeni territory.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Whether the Iranian aircraft successfully landed in Yemen is disputed: the Houthis claimed the plane landed safely; the recognized government did not confirm a successful landing.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "military_operations",
+      "rationale": "The Houthis claimed the Iranian plane landed, with footage shown of an aircraft arriving at Hodeidah Airport; the recognized government made no such acknowledgment, representing an actor dispute over the outcome of the strike.",
+      "framing_variants": [
+        {
+          "characterization": "Reports that 'the Houthis claimed later that the Iranian plane had landed in Yemen,' quoting their transportation minister, but notes they 'did not specify where the plane landed.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'separate footage later showed an Iranian aircraft landing safely at Hodeidah Airport on the Red Sea coast,' characterizing it as the same flight.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The Houthi transportation minister stated the Iranian plane landed carrying medical patients and stranded citizens, accompanied by the official Yemeni delegation.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both Middle East Eye and Times of Israel reported the Houthi transportation minister's statement, though both sources note the Houthis did not specify landing location; both articles are covering the same Houthi broadcast.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Houthi broadcaster al-Masirah: 'The Iranian plane has landed on the homeland's soil, carrying a number of medical patients and stranded citizens' accompanied by 'the official delegation of the Republic of Yemen.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes footage of the aircraft landing at Hodeidah Airport and contextualizes it as the Houthi delegation's return from Iran's supreme leader's funeral.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "A Yemeni delegation had traveled to Iran to attend funeral ceremonies for Iran's late Supreme Leader Ali Khamenei.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Both the center-right Times of Israel and left-leaning Middle East Eye confirm the delegation's trip to Iran for the supreme leader's funeral, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Describes 'the Houthi delegation that went to Tehran for the funeral of Iran's slain supreme leader.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'a Yemeni delegation returned from Iran, where it had attended funeral ceremonies for Iran's late Supreme Leader Ali Khamenei,' and notes footage of Houthi media official Nasr al-Din Amer aboard the Mahan Air flight.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "The Houthis declared the end of Yemen's de-escalation phase following the strike on Sanaa airport.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Multiple outlets across left and center-right tiers report the Houthis' declaration ending the de-escalation phase, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States the Houthis 'declared the end of the country's de-escalation phase on Sunday.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Houthi military spokesman Yahya Saree 'accused Saudi Arabia of ending the de-escalation phase.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Yahya Saree 'accused Saudi Arabia of ending the de-escalation phase.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Houthi military spokesman Yahya Saree stated the strike on Sanaa airport would not pass without retribution and that Saudi Arabia bears full responsibility for the consequences.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Left-leaning Middle East Eye and center-right Times of Israel both report Saree's threat of retaliation, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Saree said Saudi Arabia bears 'full responsibility for the consequences of its aggression' and 'this aggression will not go unanswered or unpunished.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Saree stated 'The targeting of Sanaa Airport ends the de-escalation phase' and 'will not pass without retribution.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports Saree accused Saudi Arabia of ending the de-escalation phase.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "The Houthi foreign ministry characterized the strike as a Saudi declaration of war and stated Saudi Arabia bears full responsibility for any consequences.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only Middle East Eye reported the specific statement from the Houthi foreign ministry characterizing the strike as Saudi Arabia 'announcing the start of the war.'",
+      "framing_variants": [
+        {
+          "characterization": "The Houthi foreign ministry stated 'Saudi Arabia has announced the start of the war' and 'bears full responsibility for it and for any consequences of this step.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "The Houthis described the strike as a violation of Yemen's sovereignty and a breach of the 2022 ceasefire agreement.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Only Middle East Eye reported the Houthis' specific characterization of the strike as a sovereignty violation and breach of the 2022 ceasefire.",
+      "framing_variants": [
+        {
+          "characterization": "The Houthis described the strike as 'carried out without any justification,' a 'violation of Yemen's sovereignty,' and a 'breach of the 2022 ceasefire agreement.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "The Houthis threatened to strike Saudi airports and vital assets if Saudi Arabia attempted to attack another Iranian plane.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Both the Times of Israel and Middle East Eye reported the Houthi threat against Saudi airports, though both are referencing the same earlier Houthi statement from before July 13.",
+      "framing_variants": [
+        {
+          "characterization": "'The rebels had threatened at the time to hit Saudi airports and vital assets should Riyadh attempt to attack it again.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports the Houthis warned they would target Saudi infrastructure if another Iranian aircraft was attacked.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "There was no immediate comment from Saudi authorities regarding the allegations or the reported strike.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Both center-right Times of Israel and left-leaning Middle East Eye noted the absence of any Saudi response, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "'There was no immediate response from Saudi Arabia to the accusations.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "'There was no immediate comment from Saudi authorities regarding the allegations or the reported strike.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Yemen's civil aviation authority ordered the closure of all airports to air traffic until further notice following the strike.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only Middle East Eye reported the civil aviation authority's order closing all Yemeni airports until further notice.",
+      "framing_variants": [
+        {
+          "characterization": "'Yemen's civil aviation authority has ordered the closure of all its airports to air traffic until further notice.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Yemen's Information Minister Moammar al-Eryani accused the Houthis of detaining an ICRC aircraft at Sanaa airport and holding its pilot and co-pilot.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Both the Times of Israel and Middle East Eye reported the information minister's accusation about the detained ICRC aircraft and crew, though no Houthi response was reported and both sources are covering the same official statement.",
+      "framing_variants": [
+        {
+          "characterization": "States the information minister 'said the Houthis were detaining an aircraft belonging to the International Committee of the Red Cross at Sanaa airport' and 'holding its pilot and co-pilot.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Yemen's Information Minister Moammar al-Eryani 'accused the Houthis of detaining an International Committee of the Red Cross aircraft at Sanaa airport' and 'holding its pilot and co-pilot.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Rashad al-Alimi, leader of Yemen's Saudi-backed Aden-based governing council, stated on Monday that he would not expand confrontation with the Houthis, arguing that doing so would serve Iran's objective of dragging Yemen into wars.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only Middle East Eye reported Rashad al-Alimi's statement about not expanding the confrontation and its stated rationale.",
+      "framing_variants": [
+        {
+          "characterization": "Al-Alimi said 'he would not expand his confrontation with the Houthis' as 'that would achieve Iran's objective of dragging Yemen and its people into wars.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "The strike on Sanaa airport represents the biggest escalation in years between Yemen's internationally recognized government and the Houthis.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only the Times of Israel characterized the event as 'the biggest escalation in years' between the two parties.",
+      "framing_variants": [
+        {
+          "characterization": "Described the event as occurring 'in the biggest escalation in years between authorities and the Iran-backed rebels.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "The latest escalation raised the prospect of renewed Houthi attacks on Saudi Arabia after years of relative calm.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Only the Times of Israel raised the prospect of renewed Houthi attacks on Saudi Arabia as a potential consequence of the escalation.",
+      "framing_variants": [
+        {
+          "characterization": "'The latest escalation raised the specter of renewed Houthi attacks on Saudi Arabia after years of relative calm.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Earlier in July 2026, the Houthis had accused Saudi Arabia of attacking an Iranian plane that had previously landed in and departed from Sanaa.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Both the Times of Israel and Middle East Eye reported this earlier incident as context for the July 13 escalation.",
+      "framing_variants": [
+        {
+          "characterization": "'Tensions had been rising for days, after the Houthis accused Saudi Arabia earlier this month of attacking an Iranian plane that landed in Sanaa and took off carrying the delegation.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Contextualizes the current strike within a broader pattern of tensions over Iranian aircraft access to Sanaa.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "The Houthis are part of Iran's 'Axis of Resistance' and have positioned themselves as a regional ally of Tehran in confrontations with the United States and Israel.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only Middle East Eye explicitly identified the Houthis as part of Iran's Axis of Resistance and described their regional positioning.",
+      "framing_variants": [
+        {
+          "characterization": "'The Houthis are part of Iran's Axis of Resistance along with Hezbollah in Lebanon and allied armed factions in Iraq' and 'have positioned themselves as a regional ally of Tehran in confrontations with the United States and Israel.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "The Houthis seized Sanaa more than a decade ago, forcing the internationally recognized government to relocate to the southern port of Aden, where it retains the backing of Saudi Arabia and other Gulf states.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "territorial_control",
+      "rationale": "Multiple outlets across the political spectrum confirm the historical fact of Houthi control of Sanaa and the government's relocation to Aden with Gulf state backing.",
+      "framing_variants": [
+        {
+          "characterization": "States the Houthis 'seized the capital' and 'forced the internationally recognized government to relocate to the south,' which 'operates from the southern port of Aden' and 'retains the backing of Saudi Arabia and other Gulf states.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes Sanaa as 'under the control of the Iran-aligned Houthi group' and the Yemeni government as operating 'out of Aden in southern Yemen' and 'backed by Saudi Arabia and other Gulf states.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes 'Yemen's Aden-based governing council, which is backed by Saudi Arabia.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "A UN-backed truce between Saudi Arabia and the Houthis, reached in 2022, sharply reduced cross-border attacks and opened the door to negotiations aimed at ending Yemen's war.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Only Middle East Eye provided this specific description of the 2022 UN-backed truce and its effects on the conflict.",
+      "framing_variants": [
+        {
+          "characterization": "Describes 'a UN-backed truce that sharply reduced cross-border attacks' and 'opened the door to negotiations aimed at ending Yemen's long-running war.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Yemen has been engulfed in civil war for more than a decade, with the Iran-aligned Houthi movement (Ansar Allah) controlling Sanaa and much of northern Yemen, while the internationally recognized government operates from Aden in the south with Saudi and Gulf state backing.",
+      "sources": [
+        "src_002",
+        "src_004",
+        "src_001"
+      ]
+    },
+    {
+      "point": "A UN-backed ceasefire reached in 2022 sharply reduced cross-border attacks between Saudi Arabia and the Houthis and opened dialogue toward a peace settlement, creating a period of relative calm that the July 13 strike appears to have disrupted.",
+      "sources": [
+        "src_003",
+        "src_002"
+      ]
+    },
+    {
+      "point": "Tensions escalated in the days before July 13 after the Houthis accused Saudi Arabia of attacking an Iranian plane that had previously landed in and departed from Sanaa, and the Houthis warned they would target Saudi airports if such attacks continued.",
+      "sources": [
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "The Iranian aircraft at the center of the dispute was carrying a Houthi delegation returning from funeral ceremonies for Iran's Supreme Leader Ali Khamenei, who had died and was being mourned during this period.",
+      "sources": [
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "The Houthis are part of Iran's 'Axis of Resistance' and have been involved in broader regional tensions, including attacks on shipping in and around the Strait of Hormuz and confrontations with the United States and Israel.",
+      "sources": [
+        "src_003"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-13T15:40:55.095439+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "A strike targeted the runway at Sanaa International Airport on Monday, July 13, 2026. The stated purpose of the strike was to prevent an Iranian aircraft from landing there.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "A Yemeni delegation had traveled to Iran to attend funeral ceremonies for Iran's late Supreme Leader Ali Khamenei. The delegation was returning to Yemen when the airport strike occurred.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Following the strike, the Houthis declared the end of Yemen's de-escalation phase. Houthi military spokesman Yahya Saree stated the strike would not pass without retribution and that Saudi Arabia bears full responsibility for the consequences.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "There was no immediate comment from Saudi authorities regarding the allegations or the reported strike.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The Houthis seized Sanaa more than a decade ago, forcing the internationally recognized government to relocate to the southern port of Aden, where it retains the backing of Saudi Arabia and other Gulf states. Yemen's civil war has divided the country between Houthi-controlled territory in the north and areas controlled by the internationally recognized government.",
+        "supports": {
+          "claim_ids": [
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Earlier in July 2026, the Houthis had accused Saudi Arabia of attacking an Iranian plane that had previously landed in and departed from Sanaa. The Houthis had threatened to strike Saudi airports and vital assets if Saudi Arabia attempted to attack another Iranian plane.",
+        "supports": {
+          "claim_ids": [
+            "clm_022",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Center-right Israeli outlets characterized the strike as the biggest escalation in years between Yemen's internationally recognized government and the Houthis. The Times of Israel noted the incident raised the prospect of renewed Houthi attacks on Saudi Arabia after years of relative calm.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Left-leaning outlets identified the Houthis as part of Iran's 'Axis of Resistance' and described their regional positioning as allies of Tehran in confrontations with the United States and Israel. Middle East Eye reported that a UN-backed truce between Saudi Arabia and the Houthis, reached in 2022, had sharply reduced cross-border attacks and opened the door to negotiations aimed at ending Yemen's war.",
+        "supports": {
+          "claim_ids": [
+            "clm_023",
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Houthis characterized the strike as a violation of Yemen's sovereignty and a breach of the 2022 ceasefire agreement, according to left-leaning outlets. The Houthi foreign ministry characterized the strike as a Saudi declaration of war, stating Saudi Arabia bears full responsibility for any consequences.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Center-right Israeli outlets reported that the Yemeni defense ministry stated it had exhausted diplomatic efforts to persuade Iran and the Houthis to stop what it described as Iranian aircraft violating Yemeni airspace before resorting to the strike. According to these sources, the Yemeni government failed to convince the Houthi delegation returning from Iran to board a Yemenia flight instead of an Iranian aircraft.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The Times of Israel reported that the Yemeni defense ministry accused the Houthis of preventing Yemeni national aircraft from landing at Sanaa airport while insisting on allowing an Iranian plane to violate Yemeni territory. The defense minister warned that government forces would respond to any hostile aircraft violating Yemen's airspace 'by all available means' and held Iran responsible.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Left-leaning outlets reported that Rashad al-Alimi, leader of Yemen's Saudi-backed Aden-based governing council, stated on Monday that he would not expand confrontation with the Houthis, arguing that doing so would serve Iran's objective of dragging Yemen into wars. Middle East Eye also reported that Yemen's civil aviation authority ordered the closure of all airports to air traffic until further notice following the strike.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Yemen's Information Minister Moammar al-Eryani accused the Houthis of detaining an ICRC aircraft at Sanaa airport and holding its pilot and co-pilot. No Houthi response to this accusation was reported.",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "Yemen's internationally recognized government claimed responsibility for the strike on Sanaa airport, while the Houthis attributed the strike to Saudi Arabia. Both positions were reported across left-leaning and center-right outlets, representing a direct dispute over who conducted the operation.",
+        "supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "Whether the Iranian aircraft successfully landed in Yemen is disputed. The Houthis claimed the plane landed safely, with the Houthi transportation minister stating the aircraft carried medical patients and stranded citizens accompanied by the official Yemeni delegation. The Houthis showed footage of an aircraft arriving at Hodeidah Airport. The recognized government made no such acknowledgment of a successful landing.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}

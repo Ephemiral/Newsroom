@@ -1,0 +1,54 @@
+{
+  "thread_schema_version": "0.2",
+  "thread_id": "thr_usiran_military_escalation_over_strait_of_hormuz_2",
+  "title": "US–Iran military escalation over Strait of Hormuz",
+  "title_source": "auto",
+  "summary": "The United States and Iran have exchanged multiple rounds of military strikes over control of the Strait of Hormuz, with Iran declaring the waterway closed and attacking commercial vessels and US military targets in the region, while the US has conducted strikes on Iranian military facilities.",
+  "status": "developing",
+  "beats": [
+    "israel_middle_east"
+  ],
+  "key_entities": [
+    "ent_organization_iran",
+    "ent_organization_khatam_al_anbiya_central_headquarters",
+    "ent_organization_oman",
+    "ent_organization_united_states",
+    "ent_organization_us_central_command",
+    "ent_person_abbas_araghchi",
+    "ent_person_donald_trump",
+    "ent_person_mojtaba_khamenei",
+    "ent_person_pete_hegseth",
+    "ent_technology_mv_gfs_galaxy"
+  ],
+  "events": [
+    {
+      "cluster_id": "evt_2026_07_12_israel_middle_east_004",
+      "date": "2026-07-12",
+      "chapter_summary": "Iran's Islamic Revolutionary Guard Corps has declared the Strait of Hormuz closed until further notice, following a third round of US strikes that hit 140-149 Iranian military targets and effectively ending a ceasefire agreement from June.",
+      "link_score": 1.0
+    },
+    {
+      "cluster_id": "evt_2026_07_13_israel_middle_east_003",
+      "date": "2026-07-12",
+      "chapter_summary": "The US struck more than 140 Iranian military targets over the weekend of July 12–13, 2026, hitting missile and drone sites, naval facilities, and other infrastructure, prompting Iran to retaliate with drone and missile strikes on US bases and allied facilities across Bahrain, Kuwait, Jordan, Oman, Qatar, and the UAE.",
+      "link_score": 0.452
+    }
+  ],
+  "accountability": [],
+  "created_at": "2026-07-13T15:38:02.009699+00:00",
+  "last_updated": "2026-07-13T15:38:04.120426+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Thread created"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Added evt_2026_07_12_israel_middle_east_004"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Added evt_2026_07_13_israel_middle_east_003"
+    }
+  ]
+}

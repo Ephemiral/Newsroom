@@ -1,0 +1,70 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_khatam_al_anbiya_central_headquarters",
+  "type": "organization",
+  "canonical_name": "Khatam al-Anbiya Central Headquarters",
+  "aliases": [
+    "Iran's top joint military command"
+  ],
+  "wikidata_qid": "Q27627591",
+  "summary": "The Khatam al-Anbiya Central Headquarters is the operational headquarters of the Islamic Republic of Iran Armed Forces. It coordinates operations for the General Staff.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Khatam_al-Anbiya_Central_Headquarters"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is tasked with planning and coordinating joint military operations within the Iranian forces.",
+      "source_url": "https://en.wikipedia.org/wiki/Khatam_al-Anbiya_Central_Headquarters",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Its official spokesperson is Ebrahim Zolfaghari.",
+      "source_url": "https://en.wikipedia.org/wiki/Khatam_al-Anbiya_Central_Headquarters",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_13_israel_middle_east_003",
+  "appears_in_events": [
+    "evt_2026_07_13_israel_middle_east_003"
+  ],
+  "created_at": "2026-07-13T15:37:51.888384+00:00",
+  "last_updated": "2026-07-13T15:37:59.211781+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Entity created from evt_2026_07_13_israel_middle_east_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Khatam_al-Anbiya_Central_Headquarters"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Khatam_al-Anbiya_Central_Headquarters"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikidata Q27627591 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q27627591"
+    }
+  ]
+}

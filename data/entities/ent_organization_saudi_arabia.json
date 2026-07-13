@@ -1,0 +1,106 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_saudi_arabia",
+  "type": "organization",
+  "canonical_name": "Saudi Arabia",
+  "aliases": [],
+  "wikidata_qid": "Q851",
+  "summary": "Saudi Arabia, officially the Kingdom of Saudi Arabia (KSA), is a country in West Asia. Located in the centre of the Middle East, it covers the bulk of the Arabian Peninsula and has a land area of about 2,150,000 km2 (830,000 sq mi), making it the fifth-largest country in Asia, the largest in the Middle East, and the twelfth-largest in the world.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Saudi_Arabia"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Arabian_Desert.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Arabian_Desert.jpg",
+    "credit": "Pfly",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Arabian Desert.jpg",
+    "fetched_at": "2026-07-13T15:41:08.467180+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q851"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q851"
+    }
+  ],
+  "facts": [
+    {
+      "text": "It is bordered by the Red Sea to the west; Jordan, Iraq, and Kuwait to the north; the Arabian Gulf, Bahrain, Qatar and the United Arab Emirates to the east; Oman to the southeast; and Yemen to the south.",
+      "source_url": "https://en.wikipedia.org/wiki/Saudi_Arabia",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The Gulf of Aqaba in the northwest separates Saudi Arabia from Egypt and Israel.",
+      "source_url": "https://en.wikipedia.org/wiki/Saudi_Arabia",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Saudi Arabia is the only country with a coastline along both the Red Sea and the Arabian Gulf, and most of its terrain consists of arid desert, lowland, steppe, and mountains.",
+      "source_url": "https://en.wikipedia.org/wiki/Saudi_Arabia",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_13_israel_middle_east_004",
+  "appears_in_events": [
+    "evt_2026_07_13_israel_middle_east_004"
+  ],
+  "created_at": "2026-07-13T15:41:06.096131+00:00",
+  "last_updated": "2026-07-13T15:41:19.464517+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Entity created from evt_2026_07_13_israel_middle_east_004",
+      "source": null
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Saudi_Arabia"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Saudi_Arabia"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Saudi_Arabia"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikidata Q851 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q851"
+    }
+  ]
+}

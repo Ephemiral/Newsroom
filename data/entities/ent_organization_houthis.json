@@ -1,0 +1,96 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_houthis",
+  "type": "organization",
+  "canonical_name": "Houthis",
+  "aliases": [
+    "Houthi movement",
+    "Ansar Allah"
+  ],
+  "wikidata_qid": "Q3042087",
+  "summary": "The Houthis, officially known as Ansar Allah, is a Zaydi revivalist and Shia Islamist political and military organization that emerged from Yemen in the 1990s. It is predominantly made up of Zaydis, whose namesake leadership is drawn largely from the al-Houthi family.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Houthis"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Houthis_protest_against_airstrikes_2.png/960px-Houthis_protest_against_airstrikes_2.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Houthis_protest_against_airstrikes_2.png",
+    "credit": "Henry Ridgwell (VOA)",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Houthis protest against airstrikes 2.png",
+    "fetched_at": "2026-07-13T15:41:06.001009+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The group has been a central player in Yemen's civil war, drawing widespread international condemnation for its human rights abuses, including targeting civilians and using child soldiers.",
+      "source_url": "https://en.wikipedia.org/wiki/Houthis",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The movement is designated as a terrorist organization by some countries.",
+      "source_url": "https://en.wikipedia.org/wiki/Houthis",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The Houthis are backed by Iran, and they are widely considered part of the Iranian-led \"Axis of Resistance\".",
+      "source_url": "https://en.wikipedia.org/wiki/Houthis",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_13_israel_middle_east_004",
+  "appears_in_events": [
+    "evt_2026_07_13_israel_middle_east_004"
+  ],
+  "created_at": "2026-07-13T15:41:04.351152+00:00",
+  "last_updated": "2026-07-13T15:41:19.464117+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Entity created from evt_2026_07_13_israel_middle_east_004",
+      "source": null
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Houthis"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Houthis"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Houthis"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikidata Q3042087 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q3042087"
+    }
+  ]
+}

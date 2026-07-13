@@ -1,0 +1,53 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_yahya_saree",
+  "type": "person",
+  "canonical_name": "Yahya Saree",
+  "aliases": [],
+  "wikidata_qid": "Q123819200",
+  "summary": "Yahya Qasim Saree is a Yemeni military officer who serves as the spokesperson for the Supreme Political Council-led Yemeni Armed Forces, a renegade faction of Yemen's armed forces aligned with Ansar Allah. He frequently appears in military statements made by the Yemeni Armed Forces, most notably on the attacks targeting Israel-linked vessels passing through the Red Sea and Bab-el-Mandeb Strait.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Yahya_Saree"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/2026.2025_Yahya_Saree_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2026.2025_Yahya_Saree_(cropped).jpg",
+    "credit": "(Wasfi Akab), World News — Yahya Qasim Sare'e is a brigadier general and military spokesperson since 2018 for the Yemeni Armed Forces (SPC), an offshoot closely related with the Houthi movement (or more formally Ansar Allah.) He frequently appears in military statements made by the Yemeni Armed Forces most notably on the attacks targeting Zionist linked vessels passing through the Red Sea and Bab-el-Mandeb Strait. His statements are broadcast primarily via Al-Masirah TV, his Telegram channel, and his Twitter account, which was established on January 15, 2021.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:2026.2025 Yahya Saree (cropped).jpg",
+    "fetched_at": "2026-07-13T15:41:14.769939+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "spokesperson",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q123819200",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_13_israel_middle_east_004",
+  "appears_in_events": [
+    "evt_2026_07_13_israel_middle_east_004"
+  ],
+  "created_at": "2026-07-13T15:41:08.468846+00:00",
+  "last_updated": "2026-07-13T15:41:19.465258+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Entity created from evt_2026_07_13_israel_middle_east_004",
+      "source": null
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikidata Q123819200 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q123819200"
+    }
+  ]
+}
