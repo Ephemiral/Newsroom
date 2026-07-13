@@ -1,0 +1,92 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_south_korea",
+  "type": "organization",
+  "canonical_name": "South Korea",
+  "aliases": [
+    "Seoul"
+  ],
+  "wikidata_qid": "Q884",
+  "summary": "South Korea, officially the Republic of Korea (ROK), is a country in East Asia. It constitutes the southern half of the Korean Peninsula and borders North Korea along the Korean Demilitarized Zone, with the Yellow Sea to the west and the Sea of Japan to the east.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/South_Korea"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Seoul_%28175734251%29.jpeg/960px-Seoul_%28175734251%29.jpeg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Seoul_(175734251).jpeg",
+    "credit": "Joon Kyu Park",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Seoul (175734251).jpeg",
+    "fetched_at": "2026-07-13T04:55:18.389873+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q884"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q884"
+    }
+  ],
+  "facts": [
+    {
+      "text": "South Korea claims to be the sole legitimate government of the entire peninsula and adjacent islands.",
+      "source_url": "https://en.wikipedia.org/wiki/South_Korea",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It has a population of about 52 million, of which half live in the Seoul metropolitan area, the ninth most populous metropolitan area in the world, with other major cities being Busan, Daegu, and Incheon.",
+      "source_url": "https://en.wikipedia.org/wiki/South_Korea",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_13_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_13_asia_002"
+  ],
+  "created_at": "2026-07-13T04:55:15.244983+00:00",
+  "last_updated": "2026-07-13T04:55:29.910771+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Entity created from evt_2026_07_13_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/South_Korea"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/South_Korea"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikidata Q884 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q884"
+    }
+  ]
+}

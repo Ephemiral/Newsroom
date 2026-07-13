@@ -1,0 +1,61 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_bangkok",
+  "type": "location",
+  "canonical_name": "Bangkok",
+  "aliases": [],
+  "wikidata_qid": "Q1861",
+  "summary": "Bangkok, known in Thai as Krung Thep Maha Nakhon and colloquially as Krung Thep, is the capital and most populous city of Thailand. The city occupies 1,568.7 square kilometres (605.7 sq mi) in the Chao Phraya River delta in central Thailand and has an estimated population of 9.1 million people as of 2024, 15.9% of the country's population.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Bangkok"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Temple_of_the_Emerald_of_buddha_or_Wat_Phra_Kaew_%28cropped%29.jpg/960px-Temple_of_the_Emerald_of_buddha_or_Wat_Phra_Kaew_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Temple_of_the_Emerald_of_buddha_or_Wat_Phra_Kaew_(cropped).jpg",
+    "credit": "Preecha.MJ",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Temple of the Emerald of buddha or Wat Phra Kaew (cropped).jpg",
+    "fetched_at": "2026-07-13T04:52:59.638404+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Over 17.4 million people live within the surrounding Bangkok Metropolitan Region as of the 2021 estimate, making Bangkok a megacity and an extreme primate city, dwarfing Thailand's other urban centres in both size and importance to the national economy.",
+      "source_url": "https://en.wikipedia.org/wiki/Bangkok",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_13_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_13_asia_001"
+  ],
+  "created_at": "2026-07-13T04:52:57.467442+00:00",
+  "last_updated": "2026-07-13T04:53:01.648861+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Entity created from evt_2026_07_13_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Bangkok"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikidata Q1861 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1861"
+    }
+  ]
+}

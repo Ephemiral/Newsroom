@@ -1,0 +1,37 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_northern_limit_line",
+  "type": "location",
+  "canonical_name": "Northern Limit Line",
+  "aliases": [
+    "NLL"
+  ],
+  "wikidata_qid": "Q482854",
+  "summary": "The Northern Limit Line or North Limit Line is a disputed maritime demarcation line in the Yellow (West) Sea between the Democratic People's Republic of Korea (DPRK) in the north, and the Republic of Korea (ROK) in the south. This line of military control acts as the de facto maritime boundary between North and South Korea.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Northern_Limit_Line"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_13_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_13_asia_002"
+  ],
+  "created_at": "2026-07-13T04:55:18.391576+00:00",
+  "last_updated": "2026-07-13T04:55:29.910906+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Entity created from evt_2026_07_13_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikidata Q482854 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q482854"
+    }
+  ]
+}

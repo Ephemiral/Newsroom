@@ -1,0 +1,829 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_13_asia_002",
+    "beat": "asia",
+    "title": "South Korean Navy Sailor Missing Near Northern Limit Line; Body Recovered After Seoul Requests North Korean Help",
+    "summary": "A South Korean navy seaman apprentice went missing on July 12, 2026, while on patrol near the Northern Limit Line (NLL), the de facto maritime border with North Korea. South Korea's unification ministry asked North Korea to assist in the search on humanitarian grounds; the sailor's body was recovered by a South Korean patrol boat early on July 13 before North Korea provided any response.",
+    "date": "2026-07-12",
+    "generated_at": "2026-07-13T04:54:47.605535+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_lee_jae_myung",
+        "surfaces": [
+          "President Lee Jae Myung"
+        ],
+        "relevance_to_event": "President of South Korea who took office in June 2025 with a dovish approach toward North Korea; his administration's diplomatic overtures to North Korea went unanswered in this incident.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_ahn_gyu_back",
+        "surfaces": [
+          "Ahn Gyu-back"
+        ],
+        "relevance_to_event": "South Korea's Defence Minister who instructed officials to make every effort to rescue the missing sailor and coordinate the search operation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_xi_jinping",
+        "surfaces": [
+          "Chinese President Xi Jinping"
+        ],
+        "relevance_to_event": "Chinese President who recently hosted a summit with North Korea; mentioned as context for North Korea's deepening international ties and absence of denuclearization discussions.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_north_korea",
+        "surfaces": [
+          "North Korea"
+        ],
+        "relevance_to_event": "The neighboring state across the Northern Limit Line whose waters the missing sailor may have drifted into; did not respond to South Korea's humanitarian request for assistance in the search.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_011",
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_south_korea",
+        "surfaces": [
+          "South Korea",
+          "Seoul"
+        ],
+        "relevance_to_event": "The nation whose navy sailor went missing and whose unification ministry requested North Korean cooperation; recovered the sailor's body and launched the search operation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_004",
+            "clm_006",
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_northern_limit_line",
+        "surfaces": [
+          "Northern Limit Line",
+          "NLL"
+        ],
+        "relevance_to_event": "The de facto maritime border where the South Korean sailor was patrolling when he went missing on July 12, 2026.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_donghae_naval_base",
+        "surfaces": [
+          "Donghae Naval Base"
+        ],
+        "relevance_to_event": "South Korean east coast naval base where the frigate carrying the recovered sailor's body was scheduled to arrive on July 13, 2026.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_geojin",
+        "surfaces": [
+          "Geojin"
+        ],
+        "relevance_to_event": "The location reference point from which the sailor's body was recovered approximately 52 kilometers to the east on July 13, 2026.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-13T04:55:40.349575+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/12nm_hypothetical_Territorial_Sea_compared_with_Northern_Limit_Line%2C_North_Korea.jpg/1280px-12nm_hypothetical_Territorial_Sea_compared_with_Northern_Limit_Line%2C_North_Korea.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/12nm_hypothetical_Territorial_Sea_compared_with_Northern_Limit_Line%2C_North_Korea.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:12nm_hypothetical_Territorial_Sea_compared_with_Northern_Limit_Line,_North_Korea.jpg",
+      "width": 1200,
+      "height": 856,
+      "caption": "Map showing the Northern Limit Line between North and South Korea (file photo)",
+      "credit": "US Government",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:12nm hypothetical Territorial Sea compared with Northern Limit Line, North Korea.jpg",
+      "query": "Northern Limit Line Korea",
+      "fetched_at": "2026-07-13T04:55:40.349531+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/south-korea-asks-north-korea-for-help-with-finding-missing-seaman-near-border",
+      "author": null,
+      "published_at": "2026-07-12T12:56:43+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/south-korean-navy-recovers-body-of-seaman-missing-near-north-korean-border",
+      "author": null,
+      "published_at": "2026-07-12T23:31:48+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3360308/south-korean-sailor-missing-patrol-found-dead-near-north-korea-sea-border?utm_source=rss_feed",
+      "author": "Agence France-Presse",
+      "published_at": "2026-07-13T02:46:17+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/south-korea-asks-north-to-help-search-for-missing-navy-sailor",
+      "author": null,
+      "published_at": "2026-07-12T10:36:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/07/12/asia-pacific/south-korea-north-missing-sailor/",
+      "author": null,
+      "published_at": "2026-07-12T12:01:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A South Korean navy seaman apprentice went missing on the morning of July 12, 2026, while a vessel was on patrol near the Northern Limit Line off South Korea's eastern coast.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "missing_sailor_incident",
+      "rationale": "All five sources — spanning center-left and center-right outlets — report the same core facts about the sailor's disappearance, including date, location, and patrol context.",
+      "framing_variants": [
+        {
+          "characterization": "Reports the seaman went missing 'while on coast guard duty on the East Sea'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States the sailor 'failed to report for duty on the morning of July 12 while the vessel was on patrol near the NLL'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes the sailor 'failed to report for duty on Sunday morning' during patrol operations",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Specifies the sailor went missing 'on the morning of July 12 while a vessel was on patrol off South Korea's eastern coast near the Northern Limit Line'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes the sailor conducting a 'security mission in the East Sea' who went missing on the morning of July 12",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The missing sailor held the rank of seaman apprentice.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "missing_sailor_incident",
+      "rationale": "Three sources across center-right and center-left outlets independently confirm the sailor's rank as seaman apprentice.",
+      "framing_variants": [
+        {
+          "characterization": "States matter-of-factly that 'the sailor holds the rank of seaman apprentice'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Includes rank as a military identification detail",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Attributes the rank identification to Yonhap News Agency",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "South Korean authorities feared the sailor may have drifted north across the Northern Limit Line into North Korean waters.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "missing_sailor_incident",
+      "rationale": "All five sources — across center-left and center-right outlets — report that the possibility of the sailor having drifted north of the NLL was the stated concern driving the search and the request to North Korea.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes the ministry: 'it seems there is a possibility of being drifted north across the Northern Limit Line'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States Seoul asked for help 'after fears that the individual might have drifted across the NLL'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Frames it as 'fears the individual might have drifted across the border'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes the sailor as 'believed to have drifted across the de facto inter-Korean maritime border'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States the sailor 'is believed to have drifted north of the NLL'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "South Korea's unification ministry sent a request to North Korea on July 12, 2026, asking for cooperation in the search and the sailor's return on humanitarian grounds.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "inter_korean_diplomatic_request",
+      "rationale": "All five sources across center-left and center-right outlets confirm that South Korea formally asked North Korea for help on July 12, with at least one source explicitly noting the humanitarian framing.",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as 'seeking North Korea's help'; notes the request was relayed via text message to reporters due to the lack of an active inter-Korean communication line",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'Seoul had asked North Korea on July 12 to help search for the sailor'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes 'Seoul had asked North Korea on Sunday to help search for the sailor'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Frames it as a 'formal diplomatic request' to 'help search for and return' the sailor",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Explicitly quotes the ministry invoking 'humanitarian grounds' for the cooperation request",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The request to North Korea was communicated via a text message to reporters because there is no active inter-Korean communication line.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "inter_korean_diplomatic_request",
+      "rationale": "Only one source explains the specific mechanism by which the request was transmitted and contextualizes the absence of a direct inter-Korean communication channel.",
+      "framing_variants": [
+        {
+          "characterization": "Notes the unusual method: 'the request was sent via a text message to reporters because there is no active communication line with the North'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "South Korea's Defence Minister Ahn Gyu-back instructed officials to make every effort to rescue the missing serviceman as quickly and safely as possible.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "missing_sailor_incident",
+      "rationale": "Two sources — one center-right and one center-left — both quote the Defence Minister's directive using near-identical language.",
+      "framing_variants": [
+        {
+          "characterization": "Presents it as a directive from defence ministry leadership",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Presents it as a direct instruction from the Defense Minister",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Authorities launched a search operation involving 10 ships and aircraft.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "search_and_recovery",
+      "rationale": "Two sources from different outlets — one center-right and one center-left — both report the search involved 10 ships and aircraft, using nearly identical language.",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as 'a large search involving 10 ships and aircraft'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes it as 'a large search involving 10 ships and aircraft'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "A South Korean patrol boat found the sailor's body at approximately 5:58am on July 13, about 52 kilometers east of Geojin.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "search_and_recovery",
+      "rationale": "Two sources — one center-right and one center-left — both confirm the same precise time and location for the discovery of the sailor's body.",
+      "framing_variants": [
+        {
+          "characterization": "Reports the patrol boat found the sailor 'at approximately 5.58am on Monday (4.58am Singapore time), about 52km east of Geojin'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports the patrol boat found the sailor 'at 5.58am on Monday, about 52km (32 miles) east of Geojin'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The sailor's body was transferred to a frigate due to arrive at Donghae Naval Base on South Korea's east coast on July 13.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "search_and_recovery",
+      "rationale": "Both the center-right Straits Times and the center-left South China Morning Post report the same details about the body's transfer and planned destination.",
+      "framing_variants": [
+        {
+          "characterization": "States the body 'was transferred to another frigate, which was due to arrive later on July 13 at Donghae Naval Base'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'the body was transferred to another frigate, which was due to arrive later on Monday at Donghae Naval Base'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Civilian police and military investigators will jointly investigate the circumstances of the sailor's disappearance and cause of death.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "search_and_recovery",
+      "rationale": "Two sources from different outlets across center-right and center-left confirm the joint investigation plan using nearly identical language.",
+      "framing_variants": [
+        {
+          "characterization": "States the cause of death and circumstances 'would be jointly investigated by civilian police and military investigators'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States the same joint investigative arrangement in identical terms",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "North Korea did not respond to South Korea's request for help in the search.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "inter_korean_diplomatic_request",
+      "rationale": "Three sources — two center-right and one center-left — all note the absence of any response from North Korea, with the two later articles confirming no updates had been received by July 13.",
+      "framing_variants": [
+        {
+          "characterization": "Notes that 'the North Korean embassy in London did not immediately respond to a Reuters' request for comment'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States plainly: 'There have been no updates from North Korea'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'There have been no updates from North Korea' in response to Seoul's request",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "President Lee Jae Myung took office in June 2025 and has pursued a dovish approach toward North Korea, seeking dialogue and confidence-building measures in contrast to his predecessor's hawkish policy.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "inter_korean_relations_context",
+      "rationale": "Four sources across center-right and center-left outlets consistently describe Lee's policy orientation and the contrast with his predecessor, with multiple sources providing the June 2025 start date.",
+      "framing_variants": [
+        {
+          "characterization": "States the administration 'has sought to ease tensions with Pyongyang since taking office last year' without specifying the exact date",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Notes Lee 'has taken a dovish approach to North Korea since taking office in June 2025' and describes it as 'in stark contrast to his predecessor's hawkish policy'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes Lee as pursuing 'dialogue and confidence-building measures' and the shift as 'in stark contrast to his predecessor's hawkish policy'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Frames Lee's approach as a response to 'years of strained relations'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "North Korea has not responded to South Korea's repeated diplomatic overtures under President Lee's administration.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "inter_korean_relations_context",
+      "rationale": "Four sources across center-right and center-left outlets consistently note North Korea's non-responsiveness to Seoul's overtures under the Lee administration.",
+      "framing_variants": [
+        {
+          "characterization": "States Seoul's 'repeated overtures for dialogue have been rebuffed by North Korea'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Notes 'Pyongyang, however, has not responded to Seoul's repeated overtures'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Frames it as an assessment of North Korea's diplomatic responsiveness",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes Pyongyang's non-response as the consistent backdrop to Lee's engagement efforts",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "North Korea declared South Korea a 'hostile nation' in 2024.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "inter_korean_relations_context",
+      "rationale": "Only one source in this cluster mentions North Korea's 2024 declaration designating South Korea a hostile nation.",
+      "framing_variants": [
+        {
+          "characterization": "Cites the hostile nation declaration as context for why overtures have been rebuffed",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "North Korea is deepening ties with Russia and recently hosted Chinese President Xi Jinping for a summit.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "inter_korean_relations_context",
+      "rationale": "Three sources — two center-right and one center-left — all cite North Korea's deepening ties with Russia and the Xi Jinping summit as contextual backdrop, with two also noting the summit made no mention of denuclearization.",
+      "framing_variants": [
+        {
+          "characterization": "Mentions both the Moscow ties and the Xi summit as context for North Korea's foreign policy orientation",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes that 'official reports of the summit made no mention of denuclearisation'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Pairs the Moscow ties and Xi summit as evidence of North Korea's foreign policy direction, noting the absence of denuclearization language in summit reports",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "The Northern Limit Line (NLL) is the de facto maritime border between South Korea and North Korea on the east coast. It is not formally recognized by North Korea but serves as the operational boundary for South Korean naval patrols.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_005"
+      ]
+    },
+    {
+      "point": "There is currently no active direct communication line between the two Koreas, which is why South Korea had to relay its request through unconventional means such as messaging reporters.",
+      "sources": [
+        "src_001"
+      ]
+    },
+    {
+      "point": "President Lee Jae Myung took office in June 2025 after defeating a conservative predecessor, representing a policy shift toward engagement with Pyongyang following years of strained inter-Korean relations.",
+      "sources": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ]
+    },
+    {
+      "point": "North Korea designated South Korea a 'hostile nation' in 2024, a move that has complicated prospects for inter-Korean dialogue.",
+      "sources": [
+        "src_001"
+      ]
+    },
+    {
+      "point": "North Korea has been expanding its diplomatic ties with Russia and China, including a recent summit with Chinese President Xi Jinping, with official summit reports notably omitting any reference to denuclearization.",
+      "sources": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-13T04:55:04.270902+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "A South Korean navy seaman apprentice went missing on the morning of July 12, 2026, while a vessel was on patrol near the Northern Limit Line off South Korea's eastern coast. South Korean authorities feared the sailor may have drifted north across the de facto maritime border into North Korean waters.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "South Korea's Defence Minister Ahn Gyu-back instructed officials to make every effort to rescue the missing serviceman as quickly and safely as possible. Authorities launched a search operation involving 10 ships and aircraft.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "South Korea's unification ministry sent a request to North Korea on July 12, asking for cooperation in the search and the sailor's return on humanitarian grounds. North Korea did not respond to the request.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "A South Korean patrol boat found the sailor's body at approximately 5:58am on July 13, about 52 kilometers east of Geojin. The body was transferred to a frigate due to arrive at Donghae Naval Base on South Korea's east coast on July 13. Civilian police and military investigators will jointly investigate the circumstances of the sailor's disappearance and cause of death.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The Northern Limit Line is the de facto maritime border between North and South Korea along the eastern coast, where the missing sailor was patrolling when he disappeared. The proximity to this boundary raised concerns that the sailor could have drifted into North Korean waters, prompting Seoul's request for assistance.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "President Lee Jae Myung took office in June 2025 and has pursued a dovish approach toward North Korea, seeking dialogue and confidence-building measures in contrast to his predecessor's hawkish policy. However, North Korea has not responded to South Korea's repeated diplomatic overtures under President Lee's administration.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "North Korea is deepening ties with Russia and recently hosted Chinese President Xi Jinping for a summit. The summit made no mention of denuclearization, according to center-right and center-left outlets reporting on the broader diplomatic context.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "One center-right outlet reported that the request to North Korea was communicated via a text message to reporters because there is no active inter-Korean communication line, highlighting the absence of direct channels between the two governments.",
+        "supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "One center-right outlet noted that North Korea declared South Korea a 'hostile nation' in 2024, providing additional context for Pyongyang's silence in response to Seoul's humanitarian appeal.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

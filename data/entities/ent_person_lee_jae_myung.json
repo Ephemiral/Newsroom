@@ -1,0 +1,88 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_lee_jae_myung",
+  "type": "person",
+  "canonical_name": "Lee Jae Myung",
+  "aliases": [
+    "President Lee Jae Myung"
+  ],
+  "wikidata_qid": "Q12612463",
+  "summary": "Lee Jae Myung is a South Korean politician and lawyer who has served as the 14th president of South Korea since 2025. A member of the Democratic Party of Korea (DPK), he was the party's leader while serving as member of the National Assembly for Gyeyang B from 2022 to 2025.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Lee_Jae_Myung"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/President_Lee_Jae-myung_2025_%28cropped%29.jpg/960px-President_Lee_Jae-myung_2025_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:President_Lee_Jae-myung_2025_(cropped).jpg",
+    "credit": "Republic of  Korea from Seoul, Republic of Korea",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:President Lee Jae-myung 2025 (cropped).jpg",
+    "fetched_at": "2026-07-13T04:55:09.270168+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "President of South Korea",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q12612463",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Member of the National Assembly of South Korea",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q12612463",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Governor of Gyeonggi Province",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q12612463",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Lee previously served as governor of Gyeonggi from 2018 to 2021 and as mayor of Seongnam from 2010 to 2018.",
+      "source_url": "https://en.wikipedia.org/wiki/Lee_Jae_Myung",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_13_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_13_asia_002"
+  ],
+  "created_at": "2026-07-13T04:55:07.373356+00:00",
+  "last_updated": "2026-07-13T04:55:29.909859+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Entity created from evt_2026_07_13_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Lee_Jae_Myung"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikidata Q12612463 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q12612463"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_chadchart_sittipunt",
+  "type": "person",
+  "canonical_name": "Chadchart Sittipunt",
+  "aliases": [
+    "Bangkok governor"
+  ],
+  "wikidata_qid": "Q16307757",
+  "summary": "Chadchart Sittipunt is a Thai politician, engineer, and professor who is the Governor-elect of Bangkok after winning the 2026 Bangkok gubernatorial election. He was the Governor of Bangkok from 2022 to 2026.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Chadchart_Sittipunt"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/BMA_Expo_2023_-_Chadchart_Sittipunt_%E0%B8%8A%E0%B8%B1%E0%B8%8A%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_%E0%B8%AA%E0%B8%B4%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C_-_img_04.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:BMA_Expo_2023_-_Chadchart_Sittipunt_%E0%B8%8A%E0%B8%B1%E0%B8%8A%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_%E0%B8%AA%E0%B8%B4%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C_-_img_04.jpg",
+    "credit": "Chainwit.",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:BMA Expo 2023 - Chadchart Sittipunt ชัชชาติ สิทธิพันธุ์ - img 04.jpg",
+    "fetched_at": "2026-07-13T04:52:57.111269+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "associate professor",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q16307757",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He previously was Minister of Transport from 2012 to 2014.",
+      "source_url": "https://en.wikipedia.org/wiki/Chadchart_Sittipunt",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_13_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_13_asia_001"
+  ],
+  "created_at": "2026-07-13T04:52:53.639218+00:00",
+  "last_updated": "2026-07-13T04:53:01.648648+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Entity created from evt_2026_07_13_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Chadchart_Sittipunt"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikidata Q16307757 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q16307757"
+    }
+  ]
+}

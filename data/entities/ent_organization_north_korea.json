@@ -1,0 +1,84 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_north_korea",
+  "type": "organization",
+  "canonical_name": "North Korea",
+  "aliases": [],
+  "wikidata_qid": "Q423",
+  "summary": "North Korea, officially the Democratic People's Republic of Korea (DPRK), is a country in East Asia. It constitutes the northern half of the Korean Peninsula and borders China and Russia to the north at the Yalu (Amnok) and Tumen rivers, and South Korea to the south at the Korean Demilitarized Zone (DMZ).",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/North_Korea"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Jinrichengsquare.JPG/960px-Jinrichengsquare.JPG",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Jinrichengsquare.JPG",
+    "credit": "Xiehechaotian",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Jinrichengsquare.JPG",
+    "fetched_at": "2026-07-13T04:55:15.243242+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q423"
+    }
+  ],
+  "facts": [
+    {
+      "text": "The country's western border is formed by the Yellow Sea, while its eastern border is defined by the Sea of Japan.",
+      "source_url": "https://en.wikipedia.org/wiki/North_Korea",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Pyongyang is the capital and largest city.",
+      "source_url": "https://en.wikipedia.org/wiki/North_Korea",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_13_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_13_asia_002"
+  ],
+  "created_at": "2026-07-13T04:55:12.658248+00:00",
+  "last_updated": "2026-07-13T04:55:29.910583+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Entity created from evt_2026_07_13_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/North_Korea"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/North_Korea"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikidata Q423 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q423"
+    }
+  ]
+}

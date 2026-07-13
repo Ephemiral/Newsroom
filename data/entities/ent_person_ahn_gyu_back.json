@@ -1,0 +1,70 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_ahn_gyu_back",
+  "type": "person",
+  "canonical_name": "Ahn Gyu-back",
+  "aliases": [],
+  "wikidata_qid": "Q16168735",
+  "summary": "Ahn Gyu-back is a South Korean politician who has served as the minister of national defense since 2025. A member of the Democratic Party of Korea (DPK), he has been a member of the National Assembly for Dongdaemun, Seoul, since 2012, and previously served as a party list member from 2008 to 2012.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ahn_Gyu-back"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/2026_Ahn_Gyu-back_%28_%EC%95%88%EA%B7%9C%EB%B0%B1_%29_%28cropped%29.jpg/960px-2026_Ahn_Gyu-back_%28_%EC%95%88%EA%B7%9C%EB%B0%B1_%29_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2026_Ahn_Gyu-back_(_%EC%95%88%EA%B7%9C%EB%B0%B1_)_(cropped).jpg",
+    "credit": "Arlington National Cemetery",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:2026 Ahn Gyu-back ( 안규백 ) (cropped).jpg",
+    "fetched_at": "2026-07-13T04:55:12.483589+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Member of the National Assembly of South Korea",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q16168735",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Ahn is the first civilian defense minister in 64 years and the fifth civilian defense minister since 1948.",
+      "source_url": "https://en.wikipedia.org/wiki/Ahn_Gyu-back",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-13",
+      "last_updated": "2026-07-13",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_13_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_13_asia_002"
+  ],
+  "created_at": "2026-07-13T04:55:09.442752+00:00",
+  "last_updated": "2026-07-13T04:55:29.910207+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Entity created from evt_2026_07_13_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ahn_Gyu-back"
+    },
+    {
+      "date": "2026-07-13",
+      "summary_of_change": "Grounded from Wikidata Q16168735 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q16168735"
+    }
+  ]
+}
