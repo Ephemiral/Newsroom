@@ -3,7 +3,9 @@
   "entity_id": "ent_location_bangkok",
   "type": "location",
   "canonical_name": "Bangkok",
-  "aliases": [],
+  "aliases": [
+    "northern Bangkok"
+  ],
   "wikidata_qid": "Q1861",
   "summary": "Bangkok, known in Thai as Krung Thep Maha Nakhon and colloquially as Krung Thep, is the capital and most populous city of Thailand. The city occupies 1,568.7 square kilometres (605.7 sq mi) in the Chao Phraya River delta in central Thailand and has an estimated population of 9.1 million people as of 2024, 15.9% of the country's population.",
   "summary_sources": [
@@ -37,10 +39,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_13_asia_001",
   "appears_in_events": [
-    "evt_2026_07_13_asia_001"
+    "evt_2026_07_13_asia_001",
+    "evt_2026_07_14_asia_003"
   ],
   "created_at": "2026-07-13T04:52:57.467442+00:00",
-  "last_updated": "2026-07-13T04:53:01.648861+00:00",
+  "last_updated": "2026-07-14T15:04:18.602886+00:00",
   "change_log": [
     {
       "date": "2026-07-13",
