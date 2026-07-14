@@ -1,0 +1,104 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_gadi_eisenkot",
+  "type": "person",
+  "canonical_name": "Gadi Eisenkot",
+  "aliases": [
+    "Eisenkot"
+  ],
+  "wikidata_qid": "Q796885",
+  "summary": "Gadi Eisenkot, also spelt Eizenkot, is an Israeli general and politician. A member of the Yashar party, he served from 2015 to 2019 as the 21st chief of staff of the Israel Defense Forces and from 2023 to 2024 as a minister without portfolio in Israel's unity government.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Gadi_Eisenkot"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Gadi_Eisenkot_1.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Gadi_Eisenkot_1.jpg",
+    "credit": "Elad Malka",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Gadi Eisenkot 1.jpg",
+    "fetched_at": "2026-07-14T04:01:50.313856+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Military Secretary to the Prime Minister",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q796885",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Chief of the General Staff",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q796885",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Knesset member",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q796885",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Eisenkot, who grew up in Eilat, pursued maritime studies and later served in the IDF's Golani Brigade.",
+      "source_url": "https://en.wikipedia.org/wiki/Gadi_Eisenkot",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-14",
+      "last_updated": "2026-07-14",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "in history from Tel Aviv University and a post-graduate degree in political science from Haifa University.",
+      "source_url": "https://en.wikipedia.org/wiki/Gadi_Eisenkot",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-14",
+      "last_updated": "2026-07-14",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_14_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_14_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-14T04:01:47.870465+00:00",
+  "last_updated": "2026-07-14T04:02:08.716780+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Entity created from evt_2026_07_14_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Gadi_Eisenkot"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Gadi_Eisenkot"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikidata Q796885 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q796885"
+    }
+  ]
+}

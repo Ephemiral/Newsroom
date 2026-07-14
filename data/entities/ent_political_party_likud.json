@@ -1,0 +1,91 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_political_party_likud",
+  "type": "political_party",
+  "canonical_name": "Likud",
+  "aliases": [],
+  "wikidata_qid": "Q187009",
+  "summary": "Likud, officially known as Likud – National Liberal Movement, is a major right-wing political party in Israel. It was founded in 1973 by Menachem Begin and Ariel Sharon in an alliance with several right-wing parties.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Likud"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "leads",
+      "entity_id": "ent_person_benjamin_netanyahu",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q187009"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Likud's landslide victory in the 1977 elections was a major turning point in the country's political history, marking the first time the left had lost power.",
+      "source_url": "https://en.wikipedia.org/wiki/Likud",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-14",
+      "last_updated": "2026-07-14",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "In addition, it was the first time in Israel that a right-wing party received the most votes.",
+      "source_url": "https://en.wikipedia.org/wiki/Likud",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-14",
+      "last_updated": "2026-07-14",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "After ruling the country for most of the 1980s, the party lost the Knesset election in 1992.",
+      "source_url": "https://en.wikipedia.org/wiki/Likud",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-14",
+      "last_updated": "2026-07-14",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_14_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_14_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-14T04:01:50.507704+00:00",
+  "last_updated": "2026-07-14T04:02:08.717216+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Entity created from evt_2026_07_14_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Likud"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Likud"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Likud"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikidata Q187009 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q187009"
+    }
+  ]
+}
