@@ -284,6 +284,16 @@
       "at": "2026-07-14T04:24:25.131738+00:00",
       "event_id": "evt_2026_07_14_asia_002",
       "outcome": "published"
+    },
+    "1e0d8fb2bfeac1ef": {
+      "at": "2026-07-14T14:36:06.109672+00:00",
+      "event_id": "evt_2026_07_14_israel_middle_east_002",
+      "outcome": "published"
+    },
+    "58500e404c930c82": {
+      "at": "2026-07-14T14:41:47.472667+00:00",
+      "event_id": "evt_2026_07_14_israel_middle_east_003",
+      "outcome": "published"
     }
   }
 }

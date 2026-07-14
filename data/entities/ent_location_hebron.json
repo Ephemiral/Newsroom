@@ -1,0 +1,93 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_hebron",
+  "type": "location",
+  "canonical_name": "Hebron",
+  "aliases": [],
+  "wikidata_qid": "Q168225",
+  "summary": "Hebron is a city in the southern West Bank, Palestine, and the capital of the Hebron Governorate, which is the largest in the West Bank. It is located 30 kilometers (19 mi) south of Jerusalem.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Hebron"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/BTS_Hebron_Tour_280215_24.jpg/960px-BTS_Hebron_Tour_280215_24.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:BTS_Hebron_Tour_280215_24.jpg",
+    "credit": "Oren Rozen",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:BTS Hebron Tour 280215 24.jpg",
+    "fetched_at": "2026-07-14T14:44:35.125526+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The population inside in the city limits is 201,063, while the adjacent metropolitan area within the governorate is home to over 700,000 people.",
+      "source_url": "https://en.wikipedia.org/wiki/Hebron",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-14",
+      "last_updated": "2026-07-14",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Hebron spans across an area of 74.1 square kilometers (28.6 sq mi).",
+      "source_url": "https://en.wikipedia.org/wiki/Hebron",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-14",
+      "last_updated": "2026-07-14",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It is the third largest city in the country after Gaza and East Jerusalem.",
+      "source_url": "https://en.wikipedia.org/wiki/Hebron",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-14",
+      "last_updated": "2026-07-14",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_14_israel_middle_east_003",
+  "appears_in_events": [
+    "evt_2026_07_14_israel_middle_east_003"
+  ],
+  "created_at": "2026-07-14T14:44:31.897695+00:00",
+  "last_updated": "2026-07-14T14:44:39.108503+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Entity created from evt_2026_07_14_israel_middle_east_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Hebron"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Hebron"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Hebron"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikidata Q168225 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q168225"
+    }
+  ]
+}

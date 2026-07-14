@@ -4,7 +4,8 @@
   "type": "person",
   "canonical_name": "Isaac Herzog",
   "aliases": [
-    "President Isaac Herzog"
+    "President Isaac Herzog",
+    "Herzog"
   ],
   "wikidata_qid": "Q983258",
   "summary": "Isaac \"Bougie\" Herzog is an Israeli politician who has been serving since 2021 as the president of Israel. He is the first president to have been born in Israel after its Declaration of Independence.",
@@ -60,10 +61,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_06_01_065",
   "appears_in_events": [
-    "evt_2026_06_01_065"
+    "evt_2026_06_01_065",
+    "evt_2026_07_14_israel_middle_east_003"
   ],
   "created_at": "2026-07-08T18:26:29.669066+00:00",
-  "last_updated": "2026-07-08T18:26:37.187075+00:00",
+  "last_updated": "2026-07-14T14:44:39.107125+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

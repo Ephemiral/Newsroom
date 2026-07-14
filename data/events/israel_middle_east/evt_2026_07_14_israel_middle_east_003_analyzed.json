@@ -1,0 +1,810 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_14_israel_middle_east_003",
+    "beat": "israel_middle_east",
+    "title": "Israeli Defense Minister Katz Requests Presidential Pardon for Elor Azaria",
+    "summary": "Israeli Defense Minister Israel Katz submitted a formal request to President Isaac Herzog on July 14, 2026, seeking a pardon and expungement of the criminal record of Elor Azaria, a former soldier convicted of manslaughter for killing an incapacitated Palestinian man in Hebron in 2016. The Israeli military opposed the request, while the president's office said it was awaiting additional opinions before proceeding.",
+    "date": "2026-07-14",
+    "generated_at": "2026-07-14T14:44:05.664386+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_israel_katz",
+        "surfaces": [
+          "Israeli Defense Minister Israel Katz",
+          "Defense Minister Katz"
+        ],
+        "relevance_to_event": "As Defense Minister, Katz formally submitted the pardon request to President Herzog on July 14, 2026, making him the primary government actor driving this pardon attempt.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_isaac_herzog",
+        "surfaces": [
+          "President Isaac Herzog",
+          "Herzog"
+        ],
+        "relevance_to_event": "As President, Herzog received the formal pardon request and must make the final decision on whether to grant it, after consulting required opinions from military officials.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_elor_azaria",
+        "surfaces": [
+          "Elor Azaria",
+          "Azaria"
+        ],
+        "relevance_to_event": "The central subject of the pardon request—a former soldier convicted of manslaughter for killing al-Sharif in 2016, whose criminal record expungement is being sought.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_gadi_eisenkot",
+        "surfaces": [
+          "Gadi Eisenkot"
+        ],
+        "relevance_to_event": "As former IDF Chief of Staff, Eisenkot oversaw Azaria's prosecution and commuted his sentence; he is now a political opposition figure, giving renewed electoral significance to the pardon request.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_benjamin_netanyahu",
+        "surfaces": [
+          "Netanyahu"
+        ],
+        "relevance_to_event": "The Times of Israel reported that political analysts suggested the Azaria pardon could be used as a political card by Netanyahu ahead of Likud primaries and national elections.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_abdel_fattah_al_sharif",
+        "surfaces": [
+          "Abdel Fattah al-Sharif",
+          "al-Sharif"
+        ],
+        "relevance_to_event": "The Palestinian man shot and killed by Azaria in Hebron on March 24, 2016; the victim whose death is the subject of this pardon request.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israeli_defense_force",
+        "surfaces": [
+          "Israeli military",
+          "IDF",
+          "Israeli army"
+        ],
+        "relevance_to_event": "The IDF formally opposes the pardon request, citing Azaria's lack of remorse and absence of new circumstances warranting reconsideration of prior presidential decisions.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007",
+            "clm_008",
+            "clm_009",
+            "clm_011",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_hebron",
+        "surfaces": [
+          "Hebron"
+        ],
+        "relevance_to_event": "The West Bank city where the March 24, 2016 incident occurred in which Azaria shot the incapacitated al-Sharif.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-14T14:44:48.724257+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Isaac_Herzog_2023.jpg/1280px-Isaac_Herzog_2023.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Isaac_Herzog_2023.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Isaac_Herzog_2023.jpg",
+      "width": 1200,
+      "height": 798,
+      "caption": "Israeli President Isaac Herzog in 2023 (file photo)",
+      "credit": "Υπουργείο Εξωτερικών",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Isaac Herzog 2023.jpg",
+      "query": "Israeli President Isaac Herzog",
+      "fetched_at": "2026-07-14T14:44:48.724218+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/news/israel-defence-minister-katz-seeks-pardon-soldier-who-killed-palestinian",
+      "author": "MEE staff",
+      "published_at": "2026-07-14T12:41:05+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/article-902441",
+      "author": "BY SARAH BEN-NUN AND SHIR PERETS",
+      "published_at": "2026-07-14T10:00:30+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Riesling Investment & Technology Ltd, controlled by Israeli investor Eli Azur. Previously owned by Miriam Adelson.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/katz-seeks-pardon-for-soldier-who-killed-subdued-palestinian-stabber-idf-opposed/",
+      "author": null,
+      "published_at": "2026-07-14T09:13:53+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Independent, privately held. Founded by David Horovitz; no disclosed majority external owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcmQ5cEJ2d1A2ZWwtbWpXNXdFcEowXzBtTTA4Y0xodmpCYVVWd1VCd3Z6bE5CalNUOUVxUEZ0T1pPNUFKci1nSkRkY0NIZzdXQWYwUHd1VVNMajN2d3ZXYmhYMkZzODJtdnZHOTU0d3AwWlA3c1Z3UmNnWXNuemVhZ2h2YWQwU015bXVpamowOThqVXppZ015a2VlVjBLYW5VdldtZUFsejAxc2p3cnAtMVNVSG8?oc=5",
+      "author": null,
+      "published_at": "2026-07-14T07:39:34+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-defence-minister-seeks-pardon-soldier-who-killed-palestinian",
+      "author": "Elis Gjevori",
+      "published_at": "2026-07-14T13:51:44+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Israeli Defense Minister Israel Katz submitted a formal pardon request to President Isaac Herzog on behalf of Elor Azaria on July 14, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "pardon_request",
+      "rationale": "All five sources — spanning left (Middle East Eye) and center-right (Jerusalem Post, Times of Israel, i24 News) — confirm that Katz submitted a pardon request to Herzog, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Reports it as a request from the defence minister, noting it comes in a broader context of alleged impunity for Israeli soldiers.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes it as a formal submission occurring '10 years after the infamous Hebron shooting.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes the timing ahead of Likud primaries and a national election.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Brief factual statement that Katz sought a presidential pardon.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reports the defence minister's request with emphasis on Azaria's conviction for killing an incapacitated Palestinian.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The pardon request specifically seeks expungement of Azaria's criminal record, not a reduction of his sentence.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "pardon_request",
+      "rationale": "Sources from both left (Middle East Eye) and center-right (Jerusalem Post, Times of Israel) confirm the request is specifically for expungement of Azaria's criminal record.",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as 'the official erasure of Azaria's criminal records.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States the request 'is specifically to expunge his criminal record.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes Azaria's criminal record would be automatically cleared in 2032 if not expedited, contextualizing the urgency of the request.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes it as seeking 'an expungement, or the official erasure of Azaria's criminal records.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Katz stated that requiring soldiers to pay a heavy price for actions in combat sends a negative message to those serving in dangerous conditions, and described Azaria as an outstanding soldier with no prior criminal record.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "pardon_request",
+      "rationale": "Both articles reporting Katz's stated reasoning are from the same bias tier (left and center-right respectively share this detail), but the framing rationale is reported by multiple outlets consistently.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Katz saying it 'sends a negative message to our sons and daughters who are sent to face danger and serve in combat units and dangerous places.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports Katz described Azaria as 'an outstanding soldier' who 'had no criminal record prior to this incident' and acted under 'highly intense and stressful conditions.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "This pardon request is the third submitted on Azaria's behalf; a prior request by then-Defense Minister Avigdor Lieberman was rejected by then-President Reuven Rivlin in November 2017, and another was submitted in 2022 but never fully actualized.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "pardon_request",
+      "rationale": "Both a left-leaning outlet (Middle East Eye) and a center-right outlet (Jerusalem Post) report the history of prior pardon attempts and Rivlin's rejection, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Describes Rivlin's rejection of the 'excessively lenient' sentence lightening without detailing Rivlin's stated reasoning.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Quotes Rivlin's stated reasoning that 'an additional lightening of your sentence would harm the resilience of the IDF and the State of Israel' and notes this is now the 'third pardon request.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Azaria was convicted of manslaughter on January 4, 2017, for killing Abdel Fattah al-Sharif — an incapacitated Palestinian man — in Hebron on March 24, 2016, approximately 11 minutes after al-Sharif had been shot and subdued following an alleged stabbing attack on Israeli soldiers.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "azaria_conviction",
+      "rationale": "Sources from both left (Middle East Eye) and center-right (Jerusalem Post, Times of Israel) consistently report the conviction, date, victim's name, location, and the 11-minute timeline, constituting cross-spectrum agreement on the core facts.",
+      "framing_variants": [
+        {
+          "characterization": "Emphasizes al-Sharif was 'lying wounded and motionless on the ground' and describes the stabbing as 'alleged.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes the stabbing as a confirmed 'stabbing attack against an IDF soldier' and notes Azaria 'shot him in the head.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes al-Sharif as 'a Palestinian who had stabbed an Israeli soldier' and states Azaria killed him 'some 11 minutes after he had been shot and subdued.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes the stabbing as 'an alleged stabbing attempt' and emphasizes al-Sharif was 'lying wounded and motionless on the ground.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Azaria was originally sentenced to 18 months in prison; his sentence was subsequently commuted to 14 months by then-IDF Chief of Staff Gadi Eisenkot, and a military parole board further trimmed the sentence, resulting in Azaria serving approximately nine months and being released in May 2018.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "azaria_conviction",
+      "rationale": "Both left-leaning and center-right outlets confirm the original 18-month sentence, the commutation by Eisenkot, and the early release, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "States Azaria 'was released after 14 months by Gadi Eisenkot,' without detailing the parole board's role.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Details that Eisenkot commuted the sentence to 14 months in September 2017, a parole board trimmed it by a third, and Azaria 'was officially released on May 10, 2018, after serving nine of the 14-month sentence.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States Azaria 'served nine months of an 18-month prison term.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States the soldier 'was released after 14 months by Gadi Eisenkot, the former Israeli chief of staff.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The Israeli military (IDF) opposes the pardon request, stating it should not be granted.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_opposition",
+      "rationale": "Both left-leaning (Middle East Eye) and center-right (Jerusalem Post, Times of Israel) outlets confirm the IDF's opposition to the pardon, establishing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Reports that IDF Chief of Staff Eyal Zamir and Personnel Directorate Chief Dado Bar Kalifa 'sent a letter stating that the request should not be granted.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'the IDF's position is contrary to [Katz's]' and that 'its position was formulated after consultation with the military prosecution, the manpower directorate and the chief of staff.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports the military 'said it did not support the request' and that the letter opposing the pardon was signed by Col. Alon Laniado, Zamir's assistant.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The IDF's stated reasons for opposing the pardon include Azaria's failure to express remorse nearly a decade after conviction, the absence of new circumstances justifying a change from prior presidential decisions, and the absence of concrete personal circumstances of significant weight.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_opposition",
+      "rationale": "Two outlets — one left-leaning and one center-right — report the IDF's stated reasoning, but the detailed enumeration of grounds comes primarily from the Times of Israel, with Middle East Eye providing partial corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Notes Azaria has 'no remorse whatsoever' for his crime, citing this as part of the opposition rationale.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Enumerates three grounds from the opposition letter: lack of remorse, absence of new circumstances, and absence of concrete personal circumstances of significant weight; notes the position was 'based on the opinion of the deputy military advocate general.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "President Herzog's office confirmed receiving Katz's pardon request and stated it is awaiting additional required opinions from the IDF Chief of Staff, Military Advocate General, and Personnel Directorate chief before proceeding.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "pardon_request",
+      "rationale": "Left-leaning and center-right outlets consistently report that the president's office confirmed receipt but is awaiting further opinions before acting.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes the president's office: 'The Office of the President is awaiting the remaining opinions required to proceed with handling the request.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States Herzog 'would need to wait to receive additional recommendations before proceeding with the request.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Specifies the three officials whose opinions are required: IDF Chief of Staff Zamir, Military Advocate General Ofir, and Personnel Directorate chief Bar Kalifa.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Confirms the president's office received the request and is awaiting remaining opinions.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Katz's pardon request move came ahead of the Likud party's primaries and an upcoming national election, with analysts suggesting the Azaria case could be used as a political card by Netanyahu.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "political_context",
+      "rationale": "Only the Times of Israel explicitly links the pardon request to the timing of Likud primaries and cites political analyst Gayil Talshir's assessment of its electoral significance.",
+      "framing_variants": [
+        {
+          "characterization": "Notes the move 'came ahead of the Likud party's primaries and the upcoming national election' and quotes political scientist Gayil Talshir describing the case as 'a card he holds up his sleeve' to sway voters who oppose prosecuting soldiers for abusing terrorists.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "The pardon request has renewed attention on former IDF Chief of Staff Gadi Eisenkot, who oversaw Azaria's prosecution and whose decision was criticized by the far right; Eisenkot is now a political figure leading Netanyahu in polls as preferred premier.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "political_context",
+      "rationale": "Only the Times of Israel reports on Eisenkot's current political standing, the far-right criticism he faced, and the polling data showing him leading Netanyahu.",
+      "framing_variants": [
+        {
+          "characterization": "Frames the pardon request as reopening the Azaria case in a way that could disadvantage Eisenkot politically, noting he 'denounced Azaria's actions as violating the law and against the spirit of the IDF' and was 'attacked at the time by some on the far right.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "The Biden administration placed a visa ban on Azaria in 2024, citing efforts to promote accountability for acts of violence against Palestinians in the West Bank by Israeli extremists.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only the Times of Israel reports the 2024 Biden administration visa ban on Azaria and the stated justification for it.",
+      "framing_variants": [
+        {
+          "characterization": "Notes the visa ban occurred 'eight years after the 2016 incident' and was framed by the Biden administration as part of 'a broader effort to promote accountability for acts of violence against Palestinians in the West Bank by Israeli extremists.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Azaria has never expressed remorse for his actions and has always insisted he behaved correctly; he has also participated in protests supporting soldiers accused of beating Palestinian suspects.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "azaria_conviction",
+      "rationale": "Both a left-leaning outlet (Middle East Eye) and a center-right outlet (Times of Israel) confirm Azaria's lack of remorse and his continued insistence on his own correctness, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States Azaria has 'no remorse whatsoever' for his crime.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States Azaria 'has always insisted he behaved correctly in the shooting' and has 'gone on to protest in support of soldiers accused of beating Palestinian suspects.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Azaria's stated reason for seeking the pardon is that his criminal record makes it difficult for him to integrate into society and the workforce, and he highlighted the passage of time since the incident.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "pardon_request",
+      "rationale": "Two center-right outlets (Jerusalem Post, Times of Israel) report Azaria's stated personal justification for the pardon request, but no left-leaning source separately elaborates this point.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Azaria 'highlighted the passage of time' and sought to have his record 'wiped because it is making it difficult for him to integrate smoothly into society and into the workforce.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes Azaria's criminal record would be automatically cleared in 2032 if not expedited, implying urgency in his personal rationale.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Middle East Eye contextualized the pardon request by noting it came less than three months after the Israeli army approved the return to duty of soldiers accused of torturing and raping a Palestinian detainee.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "political_context",
+      "rationale": "Only Middle East Eye frames the pardon request within the broader context of alleged impunity for Israeli soldiers accused of abusing Palestinian detainees.",
+      "framing_variants": [
+        {
+          "characterization": "States 'the request comes less than three months after the army approved the return of the Israeli soldiers accused of torturing and raping Palestinian detainee back to duty,' framing the pardon as part of a pattern.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "The incident in which Azaria killed al-Sharif exposed deep rifts in Israeli society over the army's activities in the West Bank.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "political_context",
+      "rationale": "Only the Times of Israel explicitly characterizes the 2016 incident as having exposed deep societal divisions within Israel over the army's West Bank activities.",
+      "framing_variants": [
+        {
+          "characterization": "Describes the incident as having 'exposed deep rifts in Israeli society over the army's activities in the West Bank.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Elor Azaria was a conscript soldier who in March 2016 shot and killed Abdel Fattah al-Sharif, a Palestinian man who had been shot and was lying incapacitated on the ground in Hebron following an alleged stabbing attack on Israeli soldiers. The killing was captured on video and sparked widespread debate in Israel.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_005"
+      ]
+    },
+    {
+      "point": "Azaria was convicted of manslaughter in January 2017, sentenced to 18 months, and released after serving approximately nine months. A prior pardon request was rejected by then-President Rivlin in November 2017.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_005"
+      ]
+    },
+    {
+      "point": "The case became a major political flashpoint in Israel, with supporters viewing Azaria as a soldier unfairly prosecuted for a split-second battlefield decision, and critics viewing his prosecution as essential for upholding military discipline and the rule of law.",
+      "sources": [
+        "src_003",
+        "src_001"
+      ]
+    },
+    {
+      "point": "Gadi Eisenkot, who was IDF Chief of Staff at the time of the incident and oversaw Azaria's prosecution, is now a political figure and opposition candidate reportedly leading Netanyahu in polling as preferred premier, giving the pardon request renewed electoral significance.",
+      "sources": [
+        "src_003",
+        "src_002"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-14T14:44:23.871754+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Israeli Defense Minister Israel Katz submitted a formal request to President Isaac Herzog on July 14, 2026, seeking a pardon and expungement of the criminal record for Elor Azaria, a former soldier convicted of manslaughter. The request specifically seeks to erase Azaria's criminal record entirely, rather than simply reducing his sentence. This marks the third pardon attempt on Azaria's behalf; a previous request by then-Defense Minister Avigdor Lieberman was rejected by then-President Reuven Rivlin in November 2017, and another was submitted in 2022 but never fully actualized.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "President Herzog's office confirmed receiving Katz's pardon request and stated it is awaiting additional required opinions from the IDF Chief of Staff, Military Advocate General, and Personnel Directorate chief before proceeding. The Israeli military opposes the pardon request, stating it should not be granted.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Azaria was convicted of manslaughter on January 4, 2017, for killing Abdel Fattah al-Sharif, an incapacitated Palestinian man, in Hebron on March 24, 2016. The shooting occurred approximately 11 minutes after al-Sharif had been shot and subdued following an alleged stabbing attack on Israeli soldiers. Azaria was originally sentenced to 18 months in prison; his sentence was subsequently commuted to 14 months by then-IDF Chief of Staff Gadi Eisenkot, and a military parole board further trimmed the sentence, resulting in Azaria serving approximately nine months and being released in May 2018.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Azaria has never expressed remorse for his actions and has always insisted he behaved correctly. He has also participated in protests supporting soldiers accused of beating Palestinian suspects.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Defense Minister Katz argued that requiring soldiers to pay a heavy price for actions in combat sends a negative message to those serving in dangerous conditions, and described Azaria as an outstanding soldier with no prior criminal record. Azaria himself cited the passage of time since the incident and stated that his criminal record makes it difficult for him to integrate into society and the workforce.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The IDF's stated reasons for opposing the pardon include Azaria's failure to express remorse nearly a decade after conviction, the absence of new circumstances justifying a change from prior presidential decisions, and the absence of concrete personal circumstances of significant weight.",
+        "supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Center-right Israeli outlet The Times of Israel reported that the pardon request came ahead of the Likud party's primaries and an upcoming national election, with political analyst Gayil Talshir suggesting the Azaria case could be used as a political card by Netanyahu. The outlet also noted that the request has renewed attention on former IDF Chief of Staff Gadi Eisenkot, who oversaw Azaria's prosecution and whose decision was criticized by the far right; Eisenkot is now a political figure leading Netanyahu in polls as preferred premier.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "The Times of Israel also reported that the Biden administration placed a visa ban on Azaria in 2024, citing efforts to promote accountability for acts of violence against Palestinians in the West Bank by Israeli extremists. The outlet characterized the 2016 incident as having exposed deep rifts in Israeli society over the army's activities in the West Bank.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Left-leaning outlet Middle East Eye contextualized the pardon request by noting it came less than three months after the Israeli army approved the return to duty of soldiers accused of torturing and raping a Palestinian detainee, framing the request within broader concerns about alleged impunity for Israeli soldiers accused of abusing Palestinian detainees.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

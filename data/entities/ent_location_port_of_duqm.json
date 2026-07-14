@@ -1,0 +1,95 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_port_of_duqm",
+  "type": "location",
+  "canonical_name": "Port of Duqm",
+  "aliases": [
+    "port of Duqm"
+  ],
+  "wikidata_qid": "Q4703759",
+  "summary": "The Port of Duqm, also known as Duqm Port, is a seaport and road terminal located at Duqm in the Al Wusta governorate of Oman. Duqm Port, integrated in the Special Economic Zone at Duqm (SEZAD), and located 550 kilometres south of capital Muscat, is equipped with a ship repair yard and dry dock facility.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Duqm_Port"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/%D9%85%D9%8A%D9%86%D8%A7%D8%A1_%D8%A7%D9%84%D8%AF%D9%82%D9%85.jpg/960px-%D9%85%D9%8A%D9%86%D8%A7%D8%A1_%D8%A7%D9%84%D8%AF%D9%82%D9%85.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:%D9%85%D9%8A%D9%86%D8%A7%D8%A1_%D8%A7%D9%84%D8%AF%D9%82%D9%85.jpg",
+    "credit": "Meshal humaid Ali Almoqbali",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:ميناء الدقم.jpg",
+    "fetched_at": "2026-07-14T14:41:27.941706+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Overlooking the Arabian Sea and the Indian Ocean, the Port of Duqm is a joint-venture between ASYAD Ports and Consortium Antwerp Port.",
+      "source_url": "https://en.wikipedia.org/wiki/Duqm_Port",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-14",
+      "last_updated": "2026-07-14",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Although operating since 2012, it was not officially opened until 4 February 2022 by Mr.",
+      "source_url": "https://en.wikipedia.org/wiki/Duqm_Port",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-14",
+      "last_updated": "2026-07-14",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Asa'ad bin Tariq Al Said, Deputy Prime Minister for International Relations and Cooperation Affairs and Personal Representative of His Majesty the Sultan of Oman.",
+      "source_url": "https://en.wikipedia.org/wiki/Duqm_Port",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-14",
+      "last_updated": "2026-07-14",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_14_israel_middle_east_002",
+  "appears_in_events": [
+    "evt_2026_07_14_israel_middle_east_002"
+  ],
+  "created_at": "2026-07-14T14:41:22.147658+00:00",
+  "last_updated": "2026-07-14T14:41:31.453948+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Entity created from evt_2026_07_14_israel_middle_east_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Duqm_Port"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Duqm_Port"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Duqm_Port"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikidata Q4703759 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q4703759"
+    }
+  ]
+}

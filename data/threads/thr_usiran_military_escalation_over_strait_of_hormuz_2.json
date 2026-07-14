@@ -32,11 +32,17 @@
       "date": "2026-07-12",
       "chapter_summary": "The US struck more than 140 Iranian military targets over the weekend of July 12–13, 2026, hitting missile and drone sites, naval facilities, and other infrastructure, prompting Iran to retaliate with drone and missile strikes on US bases and allied facilities across Bahrain, Kuwait, Jordan, Oman, Qatar, and the UAE.",
       "link_score": 0.452
+    },
+    {
+      "cluster_id": "evt_2026_07_14_israel_middle_east_002",
+      "date": "2026-07-12",
+      "chapter_summary": "The US has announced a naval blockade of Iranian ports and implemented a 20% charge on cargo transiting the Strait of Hormuz, while launching strikes against over 140 Iranian military targets across multiple consecutive nights.",
+      "link_score": 0.557
     }
   ],
   "accountability": [],
   "created_at": "2026-07-13T15:38:02.009699+00:00",
-  "last_updated": "2026-07-13T15:38:04.120426+00:00",
+  "last_updated": "2026-07-14T14:41:34.524066+00:00",
   "change_log": [
     {
       "date": "2026-07-13",
@@ -49,6 +55,10 @@
     {
       "date": "2026-07-13",
       "summary_of_change": "Added evt_2026_07_13_israel_middle_east_003"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Added evt_2026_07_14_israel_middle_east_002"
     }
   ]
 }

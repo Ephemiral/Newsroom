@@ -1,0 +1,30 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_abdel_fattah_al_sharif",
+  "type": "person",
+  "canonical_name": "Abdel Fattah al-Sharif",
+  "aliases": [
+    "al-Sharif"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_14_israel_middle_east_003",
+  "appears_in_events": [
+    "evt_2026_07_14_israel_middle_east_003"
+  ],
+  "created_at": "2026-07-14T14:44:30.010934+00:00",
+  "last_updated": "2026-07-14T14:44:39.108093+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Entity created from evt_2026_07_14_israel_middle_east_003",
+      "source": null
+    }
+  ]
+}

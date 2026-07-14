@@ -10,7 +10,8 @@
     "Israeli forces",
     "Israeli troops",
     "Israeli soldiers",
-    "IDF troops"
+    "IDF troops",
+    "Israeli army"
   ],
   "wikidata_qid": "Q58967",
   "summary": "The Israel Defense Forces, alternatively referred to by the Hebrew-language acronym Tzahal (צה״ל), is the national military of the State of Israel. It consists of three service branches: the Israeli Ground Forces, the Israeli Air Force, and the Israeli Navy.",
@@ -61,10 +62,11 @@
     "evt_2026_06_04_023",
     "evt_2026_07_01_118",
     "evt_2026_07_12_israel_middle_east_002",
-    "evt_2026_07_12_israel_middle_east_003"
+    "evt_2026_07_12_israel_middle_east_003",
+    "evt_2026_07_14_israel_middle_east_003"
   ],
   "created_at": "2026-07-08T18:25:31.295973+00:00",
-  "last_updated": "2026-07-12T14:20:23.755182+00:00",
+  "last_updated": "2026-07-14T14:44:39.108241+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

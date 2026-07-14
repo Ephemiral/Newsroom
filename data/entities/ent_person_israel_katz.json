@@ -4,7 +4,9 @@
   "type": "person",
   "canonical_name": "Israel Katz",
   "aliases": [
-    "Israeli Defence Minister Israel Katz"
+    "Israeli Defence Minister Israel Katz",
+    "Israeli Defense Minister Israel Katz",
+    "Defense Minister Katz"
   ],
   "wikidata_qid": "Q487304",
   "summary": "Israel Katz is an Israeli politician and member of the Knesset for Likud currently serving as Minister of Defense and a member of the Security Cabinet of Israel. Katz has been recognized for his role in modernizing Israel's transportation infrastructure, including the expansion of highways, the development of high-speed rail, and reforms to Israel's ports that increased competition and reduced shipping costs.",
@@ -69,10 +71,11 @@
   "appears_in_events": [
     "evt_2026_07_08_israel_middle_east_001",
     "evt_2026_07_08_israel_middle_east_002",
-    "evt_2026_05_31_001"
+    "evt_2026_05_31_001",
+    "evt_2026_07_14_israel_middle_east_003"
   ],
   "created_at": "2026-07-08T15:05:51.468185+00:00",
-  "last_updated": "2026-07-08T18:26:04.985564+00:00",
+  "last_updated": "2026-07-14T14:44:39.106617+00:00",
   "change_log": [
     {
       "date": "2026-07-08",
