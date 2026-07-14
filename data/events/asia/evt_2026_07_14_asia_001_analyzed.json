@@ -1,0 +1,1292 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_14_asia_001",
+    "beat": "asia",
+    "title": "Bangkok Bar Fire at Rong Beer Na Lat Phrao Kills Dozens",
+    "summary": "A fire broke out late on July 12, 2026 at the Rong Beer Na Lat Phrao bar and restaurant in Bangkok's Chatuchak district, killing at least 28–30 people and injuring more than 70. Preliminary investigations pointed to an electrical short circuit near the stage as the likely cause, with obstructed emergency exits, flammable interior materials, and a power outage cited as factors that worsened the death toll.",
+    "date": "2026-07-12",
+    "generated_at": "2026-07-14T04:23:30.636373+00:00",
+    "related_events": [
+      {
+        "cluster_id": "evt_2026_07_13_asia_001",
+        "title": "Bangkok Bar Fire at Rong Beer Na Lat Phrao Kills 27"
+      }
+    ],
+    "entities": [
+      {
+        "entity_id": "ent_location_rong_beer_na_lat_phrao",
+        "surfaces": [
+          "Rong Beer Na Lat Phrao bar and restaurant",
+          "Rong Beer Na Lat Phrao"
+        ],
+        "relevance_to_event": "The bar and restaurant where the fire occurred on July 12, 2026, killing 28–30 people and injuring over 70; the subject venue of this incident.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_anutin_charnvirakul",
+        "surfaces": [
+          "Prime Minister Anutin Charnvirakul",
+          "Charnvirakul"
+        ],
+        "relevance_to_event": "Thailand's Prime Minister who visited the fire scene, warned of no leniency for law-breaking, and received an account of the fire from a performing musician at the venue.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_chadchart_sittipunt",
+        "surfaces": [
+          "Bangkok Governor Chadchart Sittipunt"
+        ],
+        "relevance_to_event": "Bangkok Governor who reported the venue had only two fire exits (contradicting the operator's claim of four), a key finding in the preliminary investigation.",
+        "relevance_supports": {
+          "claim_ids": [],
+          "source_ids": []
+        },
+        "relevance_grounding": "sources_fallback"
+      },
+      {
+        "entity_id": "ent_location_chatuchak",
+        "surfaces": [
+          "Bangkok's Chatuchak district",
+          "Chatuchak district"
+        ],
+        "relevance_to_event": "The Bangkok district where Rong Beer Na Lat Phrao is located; the district office announced a 30-day closure order for the building housing the bar.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_thailand_justice_ministry",
+        "surfaces": [
+          "Justice Ministry"
+        ],
+        "relevance_to_event": "The agency that announced victim compensation: 300,000 baht per deceased and up to 80,000 baht for medical costs per injured person.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_bangkok_metropolitan_administration",
+        "surfaces": [
+          "Bangkok's Metropolitan Administration"
+        ],
+        "relevance_to_event": "The authority that announced it is reviewing regulations on fire-retardant materials in entertainment venues and restaurants in response to the fire.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_other_santika_club_fire",
+        "surfaces": [
+          "Santika club fire"
+        ],
+        "relevance_to_event": "A 2009 nightclub fire in Thailand cited in the report as the deadliest bar or nightclub fire in Thailand for approximately two decades prior to this 2026 incident.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-14T04:24:25.128693+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Emergency-exit_door_in_NL-LI_2026.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Emergency-exit_door_in_NL-LI_2026.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Emergency-exit_door_in_NL-LI_2026.jpg",
+      "width": 1280,
+      "height": 1719,
+      "caption": "Emergency exit door (file photo)",
+      "credit": "Kaap bij Sneeuw",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Emergency-exit door in NL-LI 2026.jpg",
+      "query": "emergency exit door blocked",
+      "fetched_at": "2026-07-14T04:24:25.128657+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/blocked-exits-faulty-wiring-thailand-probes-bangkok-bar-fire-that-killed-28",
+      "author": null,
+      "published_at": "2026-07-13T08:59:32+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/live-fire-in-bangkok-pub-kills-dozens-how-it-happened",
+      "author": null,
+      "published_at": "2026-07-13T00:05:49+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYTZhQWFtWHREY0M0RGwwNVQ4ejNMd1ZaR2lkeHdrYkhLbkljRW9pMld0TXh6a0N2UXc3Zm1CeGMtalB6ZGVlakVnajVWUkR2YlRYVlM4d0ZXcDFLWEdWS1R5Y1lacFlNc283MUo4VWJKV0QwMVhjTGwzSHVLQzFyY1RGbmp5RjI5eUlETk0yTDRDVHVaMU1QQnlLNG10WUMwUEo2dXR6VG1IOGfSAbABQVVfeXFMTWFpelJ2eW9kZFFleThNNHZLRTJnd014ckViTl9ac29tVVcyZlVKRXo2VmVmYi15NFphV3EwQ1BBdzFYTkZtNUo5U2ZqN3JtYl85emozZjZEbjFsWGMxYzc3cDNvNDBEQlhnaVcwOWtQN0NtdVRCZXhzV1dTeUFLTzlBM2kxNFoybHJ5LUEzVTFtS0pEU0RyOEwzRVdjaVhBQzZjTzJ2bHNmd05vRnFicDU?oc=5",
+      "author": null,
+      "published_at": "2026-07-12T20:49:00+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/clyrd9nwn9wo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-13T04:58:01+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c24yev53q06o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-13T15:04:36+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/at-least-27-people-killed-in-fire-at-bangkok-pub",
+      "author": "FRANCE24",
+      "published_at": "2026-07-13T08:54:23+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/no-way-out-survivors-describe-deadly-bangkok-bar-inferno",
+      "author": null,
+      "published_at": "2026-07-13T11:35:27+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_008",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/bangkok-bar-blaze-some-other-significant-fatal-fires-in-thailand",
+      "author": null,
+      "published_at": "2026-07-13T02:35:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_009",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/bar-fire-in-bangkoks-chatuchak-district-kills-at-least-27-people",
+      "author": null,
+      "published_at": "2026-07-12T19:46:46+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_010",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/12/at-least-27-killed-in-blaze-at-bangkok-pub-thai-officials-say",
+      "author": "Natasha May in Bangkok and agencies",
+      "published_at": "2026-07-13T12:05:27+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_011",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/clyxyzlp9p2o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-14T03:47:41+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_012",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/c9v2w1eg4jpo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-13T01:16:36+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_013",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/video/2026/jul/13/bangkok-fire-pub-thailand-video",
+      "author": null,
+      "published_at": "2026-07-13T09:26:05+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_014",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/thai-bandmates-recount-chaos-of-deadly-bangkok-bar-fire-as-death-toll-rises-to-at-least-32",
+      "author": null,
+      "published_at": "2026-07-13T22:30:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_015",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/video/2026/jul/13/thai-prime-minister-visits-site-of-bangkok-pub-fire-that-killed-at-least-27-people-video",
+      "author": null,
+      "published_at": "2026-07-13T03:06:52+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_016",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/heartbroken-but-hopeful-bangkok-bar-fire-leaves-families-searching-desperately-for-loved-ones",
+      "author": null,
+      "published_at": "2026-07-13T13:45:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_017",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUzRseVpBZ0JvSldKZXhxek92QjlsWk82cmlEbWYtaDVlLTFDUVFOVkN4T21YX3JJYTJRNGpMUmh1Q1QzYUE2Q2RTaWxNaWsyWkF2TF9OaldJUmJKT215WmNQaTk1WFdvc0N1OXpUdTViWnZjYnVrc2xLd203R2JzLWJoZzRxX0t2aVRiYmlWamljenhzbEFDWtIBngFBVV95cUxQYVpKR1ItRmMtcU1XZXl2NHJobWhhTUliMl9ZUVdLejhYdGNETXA0RG9KTl90c085NUp5MzdmQ1g1Q0gtTGNmTUdwVWpDck50S3BlUHJPc0QxNktVY1JlQVc1ZWhXZktFZlNWemZ3TGt4RVFQMzRqOUMzaXI3cGFweVVRaVdTN0FmWW1ua2JQM0dwR3BPdjI2aU4ydHVQdw?oc=5",
+      "author": null,
+      "published_at": "2026-07-13T16:51:53+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_018",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/asia-pacific/20260712-bangkok-pub-fire-kills-27-thailand",
+      "author": "FRANCE 24",
+      "published_at": "2026-07-12T22:41:01+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A fire broke out at the Rong Beer Na Lat Phrao bar and restaurant in the Chatuchak district of Bangkok late on July 12, 2026, at approximately 11–midnight.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_incident_basics",
+      "rationale": "All sources across left, center-left, center, and center-right outlets confirm the fire's location, venue name, and approximate timing on the night of July 12.",
+      "framing_variants": [
+        {
+          "characterization": "Fire broke out at around 11pm on July 12 at Rong Beer Na Lat Phrao bar",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Fire broke out at exactly 11:57pm on July 12",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Fire occurred at a bar in the popular Chatuchak district",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Fire broke out just after midnight local time on Monday",
+          "source_id": "src_012"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_007",
+        "src_009",
+        "src_010",
+        "src_011",
+        "src_012",
+        "src_013",
+        "src_014",
+        "src_015",
+        "src_016",
+        "src_017",
+        "src_018",
+        "src_003",
+        "src_008"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The death toll from the fire stood at between 27 and at least 32 people, with figures varying by outlet and update time; the most widely reported early toll was 27–28 dead.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "fire_incident_basics",
+      "rationale": "Sources consistently report between 27 and 32 deaths, with discrepancies reflecting updates over time rather than contradictory factual claims; the figure rose as the event unfolded. The range is corroborated across all outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Al Jazeera reported 27 killed",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Straits Times reported at least 28 killed",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC reported at least 30 dead in a later update",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Straits Times cited Bangkok Post reporting at least 32 dead in latest update",
+          "source_id": "src_014"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_007",
+        "src_009",
+        "src_010",
+        "src_011",
+        "src_012",
+        "src_013",
+        "src_014",
+        "src_015",
+        "src_016",
+        "src_017",
+        "src_018"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "More than 70 people were injured in the fire; approximately 22–25 were in critical or intensive condition.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_incident_basics",
+      "rationale": "Sources from left (Al Jazeera), center-left (BBC, Guardian), center (France 24), and center-right (Straits Times) all consistently report more than 70 injured and roughly 22–25 in critical condition, confirming cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "73 injured",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Some 71 people were injured; 25 critically as of Monday evening",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "More than 70 injured",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "25 critically injured",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_007",
+        "src_009",
+        "src_010",
+        "src_011",
+        "src_014",
+        "src_016",
+        "src_018",
+        "src_013",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "This is Thailand's deadliest bar or nightclub fire in approximately two decades, since the 2009 Santika club fire.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_incident_basics",
+      "rationale": "Multiple outlets across center-right and center-left tiers characterize the fire as the deadliest such incident in Thailand in roughly 20 years, representing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Thailand's worst blaze in a bar in almost two decades",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Deadliest such incident in Thailand in 20 years",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Deadliest fire in Thailand in nearly two decades",
+          "source_id": "src_016"
+        },
+        {
+          "characterization": "Described by officials as the deadliest in Bangkok in recent years",
+          "source_id": "src_013"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_016",
+        "src_010",
+        "src_013"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Preliminary investigations by Bangkok's disaster administration suggested the fire was caused by an electrical short circuit in a ceiling air conditioner, though no official cause had been confirmed.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_cause_investigation",
+      "rationale": "Sources from center-left (BBC, Guardian) and center-right (Straits Times) along with center (France 24) all report the same preliminary finding of a ceiling air conditioner short circuit, with the caveat that no official determination had been made.",
+      "framing_variants": [
+        {
+          "characterization": "Preliminary investigations suggest electrical short circuit in air conditioner; no official cause given",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Initial assessment from disaster administration: electrical short circuit in ceiling air conditioner",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Preliminary investigations suggest blaze caused by short circuit in air conditioner, which cut power throughout bar",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Disaster administration initial assessment cited electrical short circuit",
+          "source_id": "src_018"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005",
+        "src_007",
+        "src_009",
+        "src_010",
+        "src_011",
+        "src_018",
+        "src_016"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "A musician performing at the bar told the Prime Minister that the fire involved 'smoke from a circuit breaker near the stage, followed by the power going out and an explosion.'",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_cause_investigation",
+      "rationale": "Multiple outlets from center-left and center-right tiers report the same eyewitness musician account conveyed via the Prime Minister, corroborating the sequence of smoke, power failure, and explosion near the stage.",
+      "framing_variants": [
+        {
+          "characterization": "PM cited musicians describing smoke from a circuit breaker near stage, power going out, and explosion",
+          "source_id": "src_018"
+        },
+        {
+          "characterization": "Musician said there was a 'fire at a cutout switch'",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "Musician told PM there was 'blasting and everybody tried to flee from smoke and flames'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Eyewitness band member observed smoke from electrical circuit on wall behind stage",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_012",
+        "src_018",
+        "src_009",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The fire started near the front stage area of the bar and spread rapidly, cutting power and filling the venue with smoke.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_cause_investigation",
+      "rationale": "Outlets across the political spectrum consistently report that the fire originated near the stage and spread rapidly while filling the venue with smoke, based on survivor and official accounts.",
+      "framing_variants": [
+        {
+          "characterization": "Blaze started near the stage, spread rapidly, cut power and engulfed room with smoke",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Fire started at front stage section and spread rapidly based on survivor accounts",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Pub rapidly filled with smoke just before midnight forcing patrons to back of venue",
+          "source_id": "src_015"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005",
+        "src_009",
+        "src_010",
+        "src_011",
+        "src_015",
+        "src_018",
+        "src_016",
+        "src_018"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Police are investigating possible negligence including issues with electrical wiring, obstructed emergency exits, and use of flammable or combustible decorative materials.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_cause_investigation",
+      "rationale": "Sources from left (Al Jazeera), center-left (BBC, Guardian) and center-right (Straits Times) all report that police are examining negligence across multiple potential factors: electrical wiring, exits, and flammable materials.",
+      "framing_variants": [
+        {
+          "characterization": "Police stated issues with fire exits, overloaded wiring, and use of flammable materials",
+          "source_id": "src_007"
+        },
+        {
+          "characterization": "Authorities investigating negligence; survivors reported locked doors and missing exit signage",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Police examining electrical wiring, whether decorations fuelled fire, and exit obstruction",
+          "source_id": "src_016"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_007",
+        "src_011",
+        "src_016",
+        "src_004",
+        "src_010",
+        "src_018"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The bar's ceiling was covered in combustible polyurethane or acoustic foam material, and the stage was decorated with highly flammable materials such as plastic flowers, which may have facilitated the rapid spread of the fire.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_cause_investigation",
+      "rationale": "Center-left BBC and center-right Straits Times both report that fire safety experts and the Bangkok governor identified combustible foam ceilings and flammable decorations as contributors to rapid fire spread.",
+      "framing_variants": [
+        {
+          "characterization": "Bangkok governor said flammable interior decorations on ceiling may have facilitated rapid spread",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Fire safety expert found stage decorated with plastic flowers and ceiling plastered with combustible foam",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Person seeking missing friend described ceiling made of foam to absorb sound",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Bar had low ceiling and combustible polyurethane foam decorations per structural engineer",
+          "source_id": "src_016"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_011",
+        "src_009",
+        "src_016"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The bar was registered as a 'restaurant with live music' rather than an 'entertainment venue,' and was therefore not legally required to use fire-retardant materials.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "fire_cause_investigation",
+      "rationale": "Only BBC's later follow-up article raises the specific regulatory classification distinction and its consequence for fire-retardant requirements; no other source in the cluster makes this specific claim.",
+      "framing_variants": [
+        {
+          "characterization": "Bar registered as 'restaurant with live music' not 'entertainment venue,' exempting it from fire-retardant material requirements",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Investigators are also examining unverified reports that customers were prevented from leaving the venue until they had paid their bills.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "fire_cause_investigation",
+      "rationale": "Only the Straits Times (citing The Nation) reports this unverified claim; no other source in the cluster mentions it.",
+      "framing_variants": [
+        {
+          "characterization": "Investigators examining unverified reports patrons were prevented from leaving until they paid bills",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_009"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Most of the victims who died were found in or near the toilets/restrooms at the rear of the venue.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_incident_basics",
+      "rationale": "National police chief, Bangkok governor, Prime Minister and first responders — reported across center-left and center-right outlets — all consistently state most victims were found in the bathrooms at the back of the venue.",
+      "framing_variants": [
+        {
+          "characterization": "National police chief: most who died were found in the toilets",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Most victims' bodies found in rear restroom per disaster prevention official",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "PM: most victims ran to the back toward toilets with no exit",
+          "source_id": "src_018"
+        },
+        {
+          "characterization": "Patrons ran to back near bathrooms and became trapped",
+          "source_id": "src_015"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_005",
+        "src_009",
+        "src_010",
+        "src_015",
+        "src_016",
+        "src_018"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Smoke inhalation was identified as the likely primary cause of death among victims.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_incident_basics",
+      "rationale": "Bangkok Governor and initial findings cited across center-left (BBC) and center-right (Straits Times) outlets consistently identify smoke as the main cause of death.",
+      "framing_variants": [
+        {
+          "characterization": "Bangkok governor: smoke was likely the main cause of death",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Initial findings suggest majority of victims died from smoke inhalation",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Firefighter noted smoke had engulfed 100% of venue; most survivors were choking",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_009",
+        "src_016",
+        "src_018"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Emergency exits at the bar were obstructed; one exit was blocked by a shelf (allowing only one person at a time to pass), beer crates blocked another, and a table blocked a third. A fire safety expert also found the door near the restrooms was locked.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "venue_safety",
+      "rationale": "Multiple officials (Bangkok governor, national police chief) and an independent fire safety expert — reported by both center-left and center-right outlets — consistently identified obstructed or locked exits as a critical safety failure.",
+      "framing_variants": [
+        {
+          "characterization": "One exit obstructed by shelf allowing only one person at a time",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Governor: beer crates blocked one exit, table blocked the other",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Fire safety expert: door near restrooms was locked; entrance doors partially obstructed by furniture",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Survivors reported doors being locked and lack of emergency exit signage",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_007",
+        "src_009",
+        "src_011",
+        "src_016"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "The venue's Facebook page claimed four fire exits and a capacity of more than 300 people; the Bangkok governor reported only two fire exits, one near the kitchen, and waiters estimated approximately 300 customers inside when the fire broke out.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "venue_safety",
+      "rationale": "The venue's own Facebook page claimed four fire exits, while Bangkok's governor reported only two, creating a direct factual contradiction between the venue operator and official investigators.",
+      "framing_variants": [
+        {
+          "characterization": "Governor reported two fire exits; venue's Facebook page claimed four fire exits and capacity over 300",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Bar was a licensed restaurant in a single-storey building that had passed April inspection",
+          "source_id": "src_016"
+        }
+      ],
+      "supported_by": [
+        "src_009",
+        "src_016"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "The bar had passed a fire safety inspection in April 2026, but initial inquiries found 'blind spots' without visible fire escape routes according to the Prime Minister.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "venue_safety",
+      "rationale": "Multiple Straits Times articles report both the April inspection pass and the PM's subsequent observation of blind spots, though all sources are center-right, limiting this to corroborated.",
+      "framing_variants": [
+        {
+          "characterization": "Governor confirmed it passed April inspection; PM said initial inquiries found blind spots without visible fire escape route",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Bar passed inspection in April; PM found blind spots without visible fire escape route",
+          "source_id": "src_016"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_009",
+        "src_016"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "The bar building is approximately 50 years old and the venue was operating in a single-storey concrete structure.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "venue_safety",
+      "rationale": "Two Straits Times articles report the 50-year-old building and single-storey structure, but both are from the same center-right outlet, limiting classification to corroborated.",
+      "framing_variants": [
+        {
+          "characterization": "Police investigating electrical wiring in 50-year-old building",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Licensed restaurant operating in a single-storey concrete building that is 50 years old",
+          "source_id": "src_016"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_016"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "The venue had previously experienced power outages due to electrical problems, and the owner's previous pub in Yasothon province was also destroyed by fire in December 2019 with no casualties.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "venue_safety",
+      "rationale": "Only BBC's follow-up article and one Straits Times article report the prior electrical outages and the owner's previous pub fire; both are reported primarily in BBC's later investigation piece.",
+      "framing_variants": [
+        {
+          "characterization": "Owner's previous Yasothon pub destroyed by fire in December 2019 during the day with no casualties",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Venue had power outages in the past due to electrical problems",
+          "source_id": "src_014"
+        }
+      ],
+      "supported_by": [
+        "src_011",
+        "src_014"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Bangkok's Metropolitan Administration announced it is reviewing regulations governing fire-retardant materials in entertainment venues and restaurants following the fire.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "official_response",
+      "rationale": "Only BBC's later follow-up article reports this regulatory review announcement; no other outlet in the cluster mentions it.",
+      "framing_variants": [
+        {
+          "characterization": "Bangkok's Metropolitan Administration reviewing regulations on materials in entertainment venues and restaurants",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "The Chatuchak district office announced that the building housing the bar would be closed for 30 days.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "official_response",
+      "rationale": "Two BBC articles (both center-left) report the 30-day closure order, but no center-right or other-spectrum sources confirm it, limiting classification to corroborated.",
+      "framing_variants": [
+        {
+          "characterization": "Chatuchak district office announced 30-day closure of the building",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Prime Minister Anutin Charnvirakul visited the fire scene and warned 'there will be no leniency if any laws have been broken.'",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "official_response",
+      "rationale": "The PM's visit and zero-tolerance statement are confirmed across center-left (BBC, Guardian) and center-right (Straits Times) outlets, establishing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "PM warned no leniency if laws broken; noted blind spots without visible fire escape route",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "PM attended scene and confirmed 27 bodies recovered",
+          "source_id": "src_012"
+        },
+        {
+          "characterization": "PM visited site in early hours of Monday",
+          "source_id": "src_010"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_009",
+        "src_010",
+        "src_012",
+        "src_015",
+        "src_016",
+        "src_018"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Compensation was announced for victims' families: the Justice Ministry pledged 300,000 baht per deceased victim and up to 80,000 baht for medical costs per injured person; separately, authorities announced 29,300 baht for families of deceased and 4,000 baht for hospitalized survivors.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "official_response",
+      "rationale": "Two separate compensation announcements with different figures are reported: one from the Justice Ministry (Straits Times) and one from authorities (BBC). Both outlets report compensation but with different amounts, suggesting multiple parallel schemes.",
+      "framing_variants": [
+        {
+          "characterization": "Justice Ministry official pledged 300,000 baht per deceased victim and 80,000 baht medical costs per injured",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Authorities said families of deceased given 29,300 baht; hospitalized survivors given 4,000 baht",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Police announced at approximately 2am on July 13 via social media that the fire had been brought under control; firefighters reportedly contained the blaze in about half an hour.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_incident_basics",
+      "rationale": "Center-left (BBC) and center (France 24) along with center-right (Straits Times) all confirm the approximately 30-minute timeline and the 2am police social media announcement.",
+      "framing_variants": [
+        {
+          "characterization": "Thai national police posted on social media at around 2am that fire was 'brought under control'",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Firefighters reportedly brought flames under control in about half an hour",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Thai national police said fire brought under control around 2:00am Monday (1900 GMT)",
+          "source_id": "src_018"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_009",
+        "src_018"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-14T04:23:58.015336+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "A fire broke out at the Rong Beer Na Lat Phrao bar and restaurant in Bangkok's Chatuchak district late on July 12, 2026, at approximately 11pm to midnight. The blaze killed between 27 and 32 people — figures varied across outlets as the event unfolded and victims succumbed to injuries — and injured more than 70, with approximately 22 to 25 in critical or intensive condition. This was Thailand's deadliest bar or nightclub fire in approximately two decades, since the 2009 Santika club fire.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_007",
+            "src_010",
+            "src_011",
+            "src_013",
+            "src_016",
+            "src_017",
+            "src_018"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The fire started near the front stage area of the bar and spread rapidly, cutting power and filling the venue with smoke. Police announced at approximately 2am on July 13 via social media that the fire had been brought under control; firefighters reportedly contained the blaze in about half an hour. Most of the victims who died were found in or near the toilets at the rear of the venue. Smoke inhalation was identified as the likely primary cause of death.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_012",
+            "clm_013",
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_005",
+            "src_009",
+            "src_010",
+            "src_011",
+            "src_015",
+            "src_016",
+            "src_018"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Preliminary investigations by Bangkok's disaster administration suggested the fire was caused by an electrical short circuit in a ceiling air conditioner, though no official cause had been confirmed. A musician performing at the bar told Prime Minister Anutin Charnvirakul that the fire involved smoke from a circuit breaker near the stage, followed by the power going out and an explosion.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_005",
+            "src_007",
+            "src_009",
+            "src_010",
+            "src_011",
+            "src_012",
+            "src_016",
+            "src_018"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The bar's ceiling was covered in combustible polyurethane or acoustic foam material, and the stage was decorated with highly flammable materials such as plastic flowers, which may have facilitated the rapid spread of the fire. Police are investigating possible negligence including issues with electrical wiring, obstructed emergency exits, and use of flammable or combustible decorative materials.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_007",
+            "src_009",
+            "src_010",
+            "src_011",
+            "src_016",
+            "src_018"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Emergency exits at the bar were obstructed: one exit was blocked by a shelf allowing only one person at a time to pass, beer crates blocked another, and a table blocked a third. A fire safety expert also found the door near the restrooms was locked. These obstructions trapped patrons as smoke filled the venue.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_007",
+            "src_009",
+            "src_011",
+            "src_016"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Prime Minister Anutin Charnvirakul visited the fire scene and warned \"there will be no leniency if any laws have been broken.\" Compensation was announced for victims' families: the Justice Ministry pledged 300,000 baht per deceased victim and up to 80,000 baht for medical costs per injured person; separately, authorities announced 29,300 baht for families of deceased and 4,000 baht for hospitalized survivors.",
+        "supports": {
+          "claim_ids": [
+            "clm_021",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_009",
+            "src_010",
+            "src_012",
+            "src_015",
+            "src_016",
+            "src_018"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The venue's Facebook page claimed four fire exits and a capacity of more than 300 people. However, Bangkok Governor Chadchart Sittipunt reported only two fire exits, one near the kitchen. Waiters estimated approximately 300 customers were inside when the fire broke out. The discrepancy between the venue's self-reported exit count and the governor's finding represents a direct factual dispute between the operator and official investigators.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_009",
+            "src_016"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Center-right Straits Times articles reported that the bar had passed a fire safety inspection in April 2026, but Prime Minister Charnvirakul's initial inquiries found \"blind spots\" without visible fire escape routes. The same outlets noted that the bar building is approximately 50 years old and the venue was operating in a single-storey concrete structure.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_009",
+            "src_016"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Center-left BBC News reported in a later investigation that the bar was registered as a \"restaurant with live music\" rather than an \"entertainment venue,\" and was therefore not legally required to use fire-retardant materials. This regulatory classification may explain why flammable decorative materials were present despite the April safety inspection.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_011"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Center-right Straits Times, citing Thai outlet The Nation, reported that investigators are examining unverified reports that customers were prevented from leaving the venue until they had paid their bills. No other outlet in the coverage confirmed or mentioned this claim.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_009"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Center-left BBC News and one Straits Times article reported that the venue had previously experienced power outages due to electrical problems. The same BBC investigation found that the owner's previous pub in Yasothon province was also destroyed by fire in December 2019, though that earlier blaze resulted in no casualties.",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_011",
+            "src_014"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Center-left BBC News reported that the Chatuchak district office announced the building housing the bar would be closed for 30 days. The same outlet also reported that Bangkok's Metropolitan Administration announced it is reviewing regulations governing fire-retardant materials in entertainment venues and restaurants following the fire.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_005",
+            "src_011"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

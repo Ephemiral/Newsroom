@@ -4,7 +4,8 @@
   "type": "location",
   "canonical_name": "Chatuchak",
   "aliases": [
-    "Chatuchak district"
+    "Chatuchak district",
+    "Bangkok's Chatuchak district"
   ],
   "wikidata_qid": "Q1019658",
   "summary": "Chatuchak is one of the 50 districts (khet) of Bangkok, Thailand. The district is bounded by seven other districts : Lak Si, Bang Khen, Lat Phrao, Huai Khwang, Din Daeng, Phaya Thai, and Bang Sue.",
@@ -27,10 +28,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_13_asia_001",
   "appears_in_events": [
-    "evt_2026_07_13_asia_001"
+    "evt_2026_07_13_asia_001",
+    "evt_2026_07_14_asia_001"
   ],
   "created_at": "2026-07-13T04:52:49.425485+00:00",
-  "last_updated": "2026-07-13T04:53:01.648336+00:00",
+  "last_updated": "2026-07-14T04:24:15.548212+00:00",
   "change_log": [
     {
       "date": "2026-07-13",

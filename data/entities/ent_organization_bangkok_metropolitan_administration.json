@@ -1,0 +1,70 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_bangkok_metropolitan_administration",
+  "type": "organization",
+  "canonical_name": "Bangkok Metropolitan Administration",
+  "aliases": [
+    "Bangkok's Metropolitan Administration"
+  ],
+  "wikidata_qid": "Q4855218",
+  "summary": "The Bangkok Metropolitan Administration (BMA) is the local government of Bangkok, which includes the capital of Thailand. The government is composed of two branches: the executive and the legislative.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Bangkok_Metropolitan_Administration"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The administration's roles are to formulate and implement policies to manage Bangkok.",
+      "source_url": "https://en.wikipedia.org/wiki/Bangkok_Metropolitan_Administration",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-14",
+      "last_updated": "2026-07-14",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Its purview includes transport services, urban planning, waste management, housing, roads and highways, security services, and the environment.",
+      "source_url": "https://en.wikipedia.org/wiki/Bangkok_Metropolitan_Administration",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-14",
+      "last_updated": "2026-07-14",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_14_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_14_asia_001"
+  ],
+  "created_at": "2026-07-14T04:24:07.619929+00:00",
+  "last_updated": "2026-07-14T04:24:15.548597+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Entity created from evt_2026_07_14_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Bangkok_Metropolitan_Administration"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Bangkok_Metropolitan_Administration"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikidata Q4855218 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q4855218"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_hangzhou",
+  "type": "location",
+  "canonical_name": "Hangzhou",
+  "aliases": [],
+  "wikidata_qid": "Q4970",
+  "summary": "Hangzhou is the capital and most populous city of Zhejiang province, China, situated at the intersection of the southern terminus of the Grand Canal and the head of Hangzhou Bay. Renowned as one of the Eight Ancient Capitals of China, Hangzhou is celebrated for its cultural heritage and its West Lake.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Hangzhou"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Huanglong_%26_Broken_Bridge_-_Hangzhou_City_%26_West_Lake_near_Broken_Bridge.jpg/960px-Huanglong_%26_Broken_Bridge_-_Hangzhou_City_%26_West_Lake_near_Broken_Bridge.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Huanglong_%26_Broken_Bridge_-_Hangzhou_City_%26_West_Lake_near_Broken_Bridge.jpg",
+    "credit": "User:CatOnMars",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Huanglong & Broken Bridge - Hangzhou City & West Lake near Broken Bridge.jpg",
+    "fetched_at": "2026-07-14T04:27:45.036632+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_14_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_14_asia_002"
+  ],
+  "created_at": "2026-07-14T04:27:42.305633+00:00",
+  "last_updated": "2026-07-14T04:27:59.377196+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Entity created from evt_2026_07_14_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikidata Q4970 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q4970"
+    }
+  ]
+}

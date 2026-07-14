@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_beijing",
+  "type": "location",
+  "canonical_name": "Beijing",
+  "aliases": [],
+  "wikidata_qid": "Q956",
+  "summary": "Beijing, previously romanized as Peking, is the capital city of China. With more than 22 million residents, it is the world's most populous national capital city, as well as China's second-largest city by urban area, after Shanghai.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Beijing"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29.jpg/960px-Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Beijing_CBD_with_B-5906_approaching_(20211016171955).jpg",
+    "credit": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Skyline of Beijing CBD with B-5906 approaching (20211016171955).jpg",
+    "fetched_at": "2026-07-14T04:27:55.177344+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is located in Northern China, and is governed as a provincial-level direct-administered municipality with 16 municipal districts.",
+      "source_url": "https://en.wikipedia.org/wiki/Beijing",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-14",
+      "last_updated": "2026-07-14",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Beijing is mostly surrounded by Hebei Province and neighbors Tianjin Municipality to the southeast; together, the three divisions form the Jing-Jin-Ji cluster.",
+      "source_url": "https://en.wikipedia.org/wiki/Beijing",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-14",
+      "last_updated": "2026-07-14",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_14_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_14_asia_002"
+  ],
+  "created_at": "2026-07-14T04:27:52.232607+00:00",
+  "last_updated": "2026-07-14T04:27:59.378184+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Entity created from evt_2026_07_14_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Beijing"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Beijing"
+    },
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Grounded from Wikidata Q956 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q956"
+    }
+  ]
+}

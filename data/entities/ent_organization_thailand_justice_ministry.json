@@ -1,0 +1,30 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_thailand_justice_ministry",
+  "type": "organization",
+  "canonical_name": "Thailand Justice Ministry",
+  "aliases": [
+    "Justice Ministry"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_14_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_14_asia_001"
+  ],
+  "created_at": "2026-07-14T04:24:05.745476+00:00",
+  "last_updated": "2026-07-14T04:24:15.548400+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-14",
+      "summary_of_change": "Entity created from evt_2026_07_14_asia_001",
+      "source": null
+    }
+  ]
+}

@@ -4,7 +4,8 @@
   "type": "person",
   "canonical_name": "Anutin Charnvirakul",
   "aliases": [
-    "Prime Minister Anutin Charnvirakul"
+    "Prime Minister Anutin Charnvirakul",
+    "Charnvirakul"
   ],
   "wikidata_qid": "Q16139757",
   "summary": "Anutin Charnvirakul is a Thai politician and businessman who has served as the 32nd prime minister of Thailand since September 2025. He has also been the leader of the Bhumjaithai Party since 2012 and a member of the House of Representatives since 2019.",
@@ -76,10 +77,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_13_asia_001",
   "appears_in_events": [
-    "evt_2026_07_13_asia_001"
+    "evt_2026_07_13_asia_001",
+    "evt_2026_07_14_asia_001"
   ],
   "created_at": "2026-07-13T04:52:51.586401+00:00",
-  "last_updated": "2026-07-13T04:53:01.648486+00:00",
+  "last_updated": "2026-07-14T04:24:15.547730+00:00",
   "change_log": [
     {
       "date": "2026-07-13",
