@@ -1,0 +1,1149 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_15_asia_001",
+    "beat": "asia",
+    "title": "Bangkok Bar Fire at Rong Beer Na Lat Phrao Kills At Least 30",
+    "summary": "A fire broke out at the Rong Beer Na Lat Phrao bar and restaurant in Bangkok's Chatuchak district late on July 12, 2026, killing at least 30 people and injuring more than 70. Authorities suspect an electrical short circuit in a ceiling air conditioner triggered the blaze, which spread rapidly due to flammable decorative and acoustic materials, with investigators examining obstructed exits and the venue's licensing status.",
+    "date": "2026-07-12",
+    "generated_at": "2026-07-15T04:17:13.972090+00:00",
+    "related_events": [
+      {
+        "cluster_id": "evt_2026_07_14_asia_001",
+        "title": "Bangkok Bar Fire at Rong Beer Na Lat Phrao Kills Dozens"
+      },
+      {
+        "cluster_id": "evt_2026_07_14_asia_003",
+        "title": "Bangkok Bar Fire at Rong Beer Na Lat Phrao Kills 30"
+      }
+    ],
+    "entities": [
+      {
+        "entity_id": "ent_location_rong_beer_na_lat_phrao",
+        "surfaces": [
+          "Rong Beer Na Lat Phrao"
+        ],
+        "relevance_to_event": "The bar and restaurant where the fire occurred on July 12, 2026, killing at least 30 people; the central location under investigation for safety violations, regulatory licensing discrepancies, and structural failures that contributed to the high death toll.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_bangkok",
+        "surfaces": [
+          "Bangkok",
+          "Bangkok's Chatuchak district"
+        ],
+        "relevance_to_event": "The city where the fire occurred in the Chatuchak district; Bangkok authorities are conducting investigations, reviewing regulations, and implementing new safety inspection protocols in response to the incident.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_005",
+            "clm_018",
+            "clm_022",
+            "clm_023",
+            "clm_024"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_chadchart_sittipunt",
+        "surfaces": [
+          "Bangkok Governor Chadchart Sittipunt",
+          "Chadchart Sittipunt"
+        ],
+        "relevance_to_event": "Bangkok Governor who announced the establishment of an investigative committee to determine regulatory changes needed and vowed to conduct more random safety checks in response to the fire.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_bangkok_metropolitan_administration",
+        "surfaces": [
+          "Bangkok Metropolitan Administration"
+        ],
+        "relevance_to_event": "The government body that conducted the April 2026 safety inspection that cleared the venue three months before the fire; now reviewing regulations on decorative materials and entertainment venue definitions following the disaster.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_024"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_santika_nightclub",
+        "surfaces": [
+          "Santika nightclub"
+        ],
+        "relevance_to_event": "A Bangkok nightclub that experienced a deadly fire in 2009 killing at least 65 people; cited as Thailand's deadliest fire in nearly two decades before the Rong Beer Na Lat Phrao incident, with prior investigations uncovering corruption and safety violations.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_027"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_thotsakan",
+        "surfaces": [
+          "Thotsakan"
+        ],
+        "relevance_to_event": "Thai indie band performing live at the venue at the time of the fire; the band lost two members in the incident.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_chatuchak",
+        "surfaces": [
+          "Chatuchak district"
+        ],
+        "relevance_to_event": "The Bangkok district location of Rong Beer Na Lat Phrao where the fire broke out on July 12, 2026.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-15T04:18:12.784968+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Bangkok_Chatuchak_Market_1.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Bangkok_Chatuchak_Market_1.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bangkok_Chatuchak_Market_1.jpg",
+      "width": 1028,
+      "height": 684,
+      "caption": "Chatuchak Market in Bangkok's Chatuchak district (file photo)",
+      "credit": "Mr.Peerapong Prasutr",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Bangkok Chatuchak Market 1.jpg",
+      "query": "Bangkok Chatuchak district",
+      "fetched_at": "2026-07-15T04:18:12.784914+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/clyxyzlp9p2o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-14T03:47:41+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/deadly-bangkok-blaze-exposes-enforcement-gaps-despite-existing-safety-laws",
+      "author": null,
+      "published_at": "2026-07-14T13:30:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/how-flammable-decor-and-lax-rules-turned-bangkok-pub-into-a-death-trap",
+      "author": null,
+      "published_at": "2026-07-14T08:30:38+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/07/14/asia-pacific/bangkok-pub-fire-focus/",
+      "author": null,
+      "published_at": "2026-07-14T09:18:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/bangkok-governor-vows-tighter-regulations-as-pub-fire-death-toll-rises-to-30",
+      "author": null,
+      "published_at": "2026-07-14T06:26:03+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/bangkok-bar-fire-families-claim-bodies-as-death-toll-rises-to-30",
+      "author": null,
+      "published_at": "2026-07-14T06:25:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A fire broke out at the Rong Beer Na Lat Phrao bar and restaurant in Bangkok's Chatuchak district late on July 12, 2026, during a live music performance.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_incident_overview",
+      "rationale": "All six sources, spanning center-left and center-right outlets, confirm the fire's location, timing, and setting during a live music event.",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as 'the deadly inferno at a Bangkok bar late on Sunday'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Calls it 'the horrific fire that tore through Rong Beer Na Lat Phrao bar and restaurant in Bangkok's Chatuchak district late on July 12'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports the fire 'erupted at 11:57pm local time on July 12'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes the scene vividly: 'At first, only thick smoke billowed out of the front entrance of the bar in northern Bangkok. It was around midnight.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States the fire occurred 'close to midnight on Sunday' at 'the Rong Beer Na Lat Phrao pub in the city's northern Chatuchak area'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States the fire occurred 'late on the evening of July 12 during a live music performance'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The fire killed at least 30 people and injured more than 70, including 24 in critical condition.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_incident_overview",
+      "rationale": "Sources from both center-left and center-right outlets consistently report these casualty figures, with minor variations in injury counts (70+ vs. 75) reflecting different reporting times.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'at least 30 people dead' and 'more than 70 people are injured, 24 of them critically'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'at least 30 people' killed, 'more than 70 injured, including 24 in critical condition'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports '30 deaths' and '75 are injured, 24 of them critically'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'death toll climbed to 30' with '24 people in critical condition'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports 'death toll at 30', '75 people injured', '24 in critical condition'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "As of Tuesday morning (July 14), 27 of the deceased victims had been identified; three had not yet been named.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "fire_incident_overview",
+      "rationale": "Both the BBC and The Straits Times report partial identification of victims, though both are from overlapping or same-spectrum outlets (center-left and center-right), with consistent figures.",
+      "framing_variants": [
+        {
+          "characterization": "Reports '27 of the deceased victims have been identified, authorities said'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'Three of the dead have yet to be named, officials said'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Three people who were hospitalised after the fire subsequently died by Tuesday.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "fire_incident_overview",
+      "rationale": "Only one outlet explicitly reports that three hospitalized individuals subsequently died, distinguishing this from the overall death toll.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Three people hospitalised after the fire had since died, according to officials'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Bangkok Governor Chadchart Sittipunt stated that most victims likely died from smoke inhalation.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "fire_incident_overview",
+      "rationale": "Only one source attributes the cause of death specifically to smoke inhalation, citing the Bangkok Governor directly.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'Bangkok Governor Chadchart Sittipunt said shortly after the blaze that most of the victims had likely died of smoke inhalation'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Many victims were found in the restrooms at the end of the bar, where experts believe they tried to flee but could not escape.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "fire_incident_overview",
+      "rationale": "Only the BBC reports the specific finding that victims were concentrated in the restrooms and attributes an expert assessment of their attempted escape.",
+      "framing_variants": [
+        {
+          "characterization": "States 'First responders found many of the victims in the restrooms at the end of the bar, from where experts believe they tried to flee – but couldn't'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The fire spread rapidly within seconds, with witnesses reporting an intense horizontal plume of fire and thick black smoke.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "fire_incident_overview",
+      "rationale": "Multiple sources describe the extreme rapidity of the fire's spread based on survivor accounts and social media video, though both are center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Describes 'an intense horizontal plume of fire gushed out of the doorway leading to the street' within seconds, based on social media video",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States 'Survivors have described the stage being engulfed in flames within seconds'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Witnesses reported seeing smoke inside the venue before midnight, lights going out, followed by an explosion and intense flames.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "fire_incident_overview",
+      "rationale": "Only one outlet provides this specific sequence of events described by witnesses.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'Several witnesses have said they saw smoke inside before midnight and the lights went out, followed by an explosion and intense flames'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Preliminary investigations suggest the fire was caused by an electrical short circuit in a ceiling air conditioner, which quickly cut power throughout the bar.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_cause",
+      "rationale": "Sources from both center-left (BBC) and center-right (The Straits Times) outlets consistently report this as the preliminary finding from authorities.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Preliminary investigations suggest the blaze was caused by a short circuit in an air conditioner, which quickly cut power throughout the bar'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Says fire was 'probably sparked by an electrical short circuit in a ceiling air-conditioner, the authorities said'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'an electrical short circuit in a ceiling air conditioner could have triggered the fire'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports 'an electrical short circuit in a ceiling air conditioner could have triggered the fire in the pub'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The venue was decorated with highly flammable materials including plastic flowers, artificial trees, green grass-like ceiling coverings, black acoustic foam panels, and combustible foam on the ceiling.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "fire_cause",
+      "rationale": "Sources from both center-left and center-right outlets consistently describe flammable decorative and acoustic materials as a major factor in the fire's rapid spread.",
+      "framing_variants": [
+        {
+          "characterization": "States 'the stage was decorated using highly flammable materials such as plastic flowers' and 'the ceiling was plastered with combustible foam'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Notes 'All three venues had installed PU foam, a highly flammable material' and that 'burning PU foam releases highly toxic smoke'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes 'highly flammable acoustic material and decorations, including artificial trees and flowers' and 'a green grass-like material covering the ceiling above the stage, as well as black acoustic foam panels'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Notes police investigating 'the use of flammable materials for stage decorations and soundproofing'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "The burning decorative foam produced highly toxic black smoke containing carbon monoxide and cyanide.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "fire_cause",
+      "rationale": "Two Straits Times articles (same outlet, center-right) report the toxic composition of smoke from burning polyurethane/acoustic foam, but no cross-spectrum confirmation exists.",
+      "framing_variants": [
+        {
+          "characterization": "States the foam 'produced black smoke containing carbon monoxide and cyanide'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Notes 'burning PU foam releases highly toxic smoke' and spreads 'within three or four minutes'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Multiple emergency exits were obstructed by furniture, tables, and beer crates; the door near the restrooms was locked; and a door that was formerly an exit had been bolted.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "safety_violations",
+      "rationale": "Sources from both center-left (BBC) and center-right (The Straits Times) report obstructed and locked exits as key safety failures identified in the investigation.",
+      "framing_variants": [
+        {
+          "characterization": "Fire safety expert found 'the door near the restrooms was locked' and 'the two doors at the entrance were partially obstructed by furniture and other objects'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'multiple emergency exits were obstructed by tables and beer crates' and 'a door that was once an exit was bolted'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Notes 'Police are investigating whether exits were obstructed'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports 'Police are investigating whether exits were obstructed and the use of flammable materials for stage decorations and soundproofing'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Survivors and a prior visitor reported that doors were locked, emergency exit signage was absent or poorly marked, and the layout involved a winding route to the restrooms.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "safety_violations",
+      "rationale": "Both BBC and The Straits Times report survivor and visitor accounts of locked doors and inadequate exit signage, though both are from different spectrum sides, this claim is more specifically about the survivor/visitor accounts rather than the investigation findings.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'survivors reported doors being locked' and 'the lack of signage demarcating emergency exits'; a prior visitor described having to navigate 'a winding route' to the bathroom and 'exits were not well marked'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "A preliminary inspection identified 'apparent safety shortcomings, including what appeared to be the absence of emergency exit signs, emergency lighting and a fire alarm system'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "The venue lacked emergency exit signs, emergency lighting, and a fire alarm system, according to a preliminary inspection.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "safety_violations",
+      "rationale": "Only The Straits Times specifically reports these three missing safety systems as identified in a preliminary inspection by building safety expert Wasawat Kitsiriteeraphak.",
+      "framing_variants": [
+        {
+          "characterization": "Wasawat Kitsiriteeraphak, former president of the Building Inspector Association, 'identified several apparent safety shortcomings, including what appeared to be the absence of emergency exit signs, emergency lighting and a fire alarm system'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "The bar was registered as a 'restaurant with live music' rather than an entertainment venue, which meant it was not required to meet stricter regulatory standards including the use of fire-retardant materials and smoke ventilation systems.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "licensing_and_regulation",
+      "rationale": "Sources from both center-left (BBC) and center-right (The Straits Times) consistently report the licensing discrepancy and its regulatory implications.",
+      "framing_variants": [
+        {
+          "characterization": "States the bar was registered as 'restaurant with live music' rather than 'entertainment venue' and 'was therefore not required to use fire-retardant materials'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'Rong Beer Na Lat Phrao was operating with only a restaurant licence despite functioning as an entertainment venue'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes 'the venue, like others in Bangkok, had been registered as a restaurant' while its 'operations resembled an entertainment establishment' with different requirements, leading to lack of 'smoke ventilation systems'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Raises 'questions over whether it was authorised to host live music' and reports licence was under scrutiny",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Operating as an entertainment venue without proper licensing can result in penalties of up to one year's imprisonment and/or a fine of 60,000 baht under Thailand's Entertainment Places Act.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "licensing_and_regulation",
+      "rationale": "Only The Straits Times specifies the legal penalties under the Entertainment Places Act for operating without the proper licence.",
+      "framing_variants": [
+        {
+          "characterization": "States 'there could be penalties of up to one year's imprisonment and/or a fine of 60,000 baht (S$2,300) under the Entertainment Places Act'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "The location of Rong Beer Na Lat Phrao falls outside designated zoning areas for pub establishments.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "licensing_and_regulation",
+      "rationale": "Only one outlet reports that the venue's location violates zoning restrictions for pub establishments.",
+      "framing_variants": [
+        {
+          "characterization": "States 'the location falls outside designated zoning areas for such establishments'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "The Bangkok Metropolitan Administration (BMA) stated that Rong Beer Na Lat Phrao had passed a building safety inspection in April 2026, approximately three months before the fire.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "licensing_and_regulation",
+      "rationale": "Multiple sources from both center-left and center-right outlets confirm that the venue had recently passed a safety inspection, raising questions about inspection effectiveness.",
+      "framing_variants": [
+        {
+          "characterization": "States the BMA 'told ST that Rong Beer Na Lat Phrao had passed a building inspection in April, just three months before the fire'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes the pub 'underwent a safety inspection in April'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'the pub, which underwent a safety inspection in April'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports the pub 'underwent a safety inspection in April'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Under the Building Control Act, operators making unauthorised alterations or maintaining unsafe escape routes could face up to three months' imprisonment and/or a fine of up to 60,000 baht.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "licensing_and_regulation",
+      "rationale": "Only The Straits Times specifies the legal penalties under the Building Control Act for safety violations.",
+      "framing_variants": [
+        {
+          "characterization": "States 'operators who make unauthorised alterations, maintain unsafe escape routes or otherwise breach approved building plans could face up to three months' imprisonment and/or a fine of up to 60,000 baht'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Thai authorities are investigating potential negligence and have identified the fire's origin near the stage; Thai indie band Thotsakan was performing at the time and lost two members in the fire.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "fire_incident_overview",
+      "rationale": "Both BBC and The Straits Times confirm the ongoing investigation into negligence and the band's presence, though the band's losses are reported only by BBC.",
+      "framing_variants": [
+        {
+          "characterization": "Frames as 'Thai authorities are investigating if negligence was what led to the deadly inferno'; the fire 'originated near the stage'; band 'lost two members to the tragedy'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports police investigating 'whether exits were obstructed and the use of flammable materials for stage decorations and soundproofing'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Police had interviewed 34 people as of Tuesday and stated that charges would be considered after facts and evidence were gathered; the pub owner was being treated in an intensive care unit.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "investigation_and_response",
+      "rationale": "Two Straits Times articles consistently report the same investigation progress details, though both are from the same outlet.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Police said 34 people had been interviewed so far' and 'charges would be considered after facts and evidence had been gathered'; 'The owner is among those being treated in an intensive care unit'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports the same interview count, charges approach, and owner's ICU status",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Bangkok Governor Chadchart Sittipunt announced the establishment of an investigative committee to determine what rules should be changed and vowed to conduct more random safety checks.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "investigation_and_response",
+      "rationale": "Two Straits Times articles report the same quote and commitment from the Bangkok Governor, though both are from the same outlet.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes the governor: 'We've set up a committee to investigate the truth, what should be improved and what rules should be changed' and 'We will do more random checks'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports the same committee announcement and random checks pledge from the governor",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Bangkok's Metropolitan Administration is reviewing regulations governing decorative materials in entertainment venues and restaurants, and plans to review the definition of entertainment establishments.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "investigation_and_response",
+      "rationale": "Both BBC (center-left) and The Straits Times (center-right) report the BMA's regulatory review as a response to the fire.",
+      "framing_variants": [
+        {
+          "characterization": "States BMA 'is reviewing regulations governing the materials allowed in the construction and decoration of entertainment venues and restaurants alike'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports Bangkok city authorities 'plan to review multiple regulations, including the use of decorative materials and the definition of entertainment establishments'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "The Bangkok Metropolitan Administration has identified 14 establishments for inspection following the fire and does not maintain official statistics on building violations in the city.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "investigation_and_response",
+      "rationale": "Only The Straits Times reports these specific details about the BMA's post-fire inspection plans and its lack of violation statistics.",
+      "framing_variants": [
+        {
+          "characterization": "States the BMA identified '14 establishments already identified for inspection' and 'does not maintain official statistics on the number of such violations in the city'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "The pub posted an apology on its Facebook page and stated it was cooperating fully with the investigation.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "investigation_and_response",
+      "rationale": "Only one outlet reports the pub's public statement on social media.",
+      "framing_variants": [
+        {
+          "characterization": "States 'The pub on its Facebook page apologised over the fire and said it was cooperating fully with the investigation'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "The Bangkok bar fire is the deadliest such fire in Thailand in nearly two decades.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Two Straits Times articles (same outlet) characterize the fire as the deadliest in Thailand in nearly two decades, but no cross-spectrum confirmation exists.",
+      "framing_variants": [
+        {
+          "characterization": "Explicitly states 'The Bangkok bar blaze is the deadliest such fire in Thailand in nearly two decades'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Calls it 'one of the deadliest in recent years in Thailand'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "A fire at the Santika nightclub in Bangkok in 2009 killed at least 65 people and injured about 200; an investigation uncovered corruption and safety violations.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Sources from both center-left and center-right outlets reference the 2009 Santika fire as historical context, with consistent casualty figures.",
+      "framing_variants": [
+        {
+          "characterization": "References 'The Santika nightclub fire in 2009' as sharing similar safety shortcomings and resulting in 'numerous fatalities'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'a 2009 blaze at another Bangkok nightclub that killed at least 65'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States '65 people died and about 200 were injured in a New Year's Eve blaze at a packed Bangkok club in 2009' and 'an investigation uncovered corruption and safety violations'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-15T04:17:51.211682+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "A fire broke out at the Rong Beer Na Lat Phrao bar and restaurant in Bangkok's Chatuchak district late on July 12, 2026, during a live music performance. The blaze killed at least 30 people and injured more than 70, with 24 in critical condition.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Preliminary investigations suggest the fire was caused by an electrical short circuit in a ceiling air conditioner, which quickly cut power throughout the bar. The venue was decorated with highly flammable materials including plastic flowers, artificial trees, green grass-like ceiling coverings, black acoustic foam panels, and combustible foam on the ceiling, which allowed the fire to spread rapidly.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Multiple emergency exits were obstructed by furniture, tables, and beer crates. The door near the restrooms was locked, and a door that was formerly an exit had been bolted. These safety failures are central to the investigation into how the death toll became so high.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The bar was registered as a 'restaurant with live music' rather than an entertainment venue, which meant it was not required to meet stricter regulatory standards including the use of fire-retardant materials and smoke ventilation systems. This licensing discrepancy is now a key focus of the investigation.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The Bangkok bar fire is the deadliest such fire in Thailand in nearly two decades. A fire at the Santika nightclub in Bangkok in 2009 killed at least 65 people and injured about 200; an investigation uncovered corruption and safety violations.",
+        "supports": {
+          "claim_ids": [
+            "clm_026",
+            "clm_027"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Center-left and center-right outlets reported that the fire spread rapidly within seconds, with witnesses reporting an intense horizontal plume of fire and thick black smoke. Center-right sources specifically noted that the burning decorative foam produced highly toxic black smoke containing carbon monoxide and cyanide.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "As of Tuesday morning (July 14), 27 of the deceased victims had been identified; three had not yet been named. Authorities are investigating potential negligence and have identified the fire's origin near the stage. Thai indie band Thotsakan was performing at the time and lost two members in the fire.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "The Bangkok Metropolitan Administration stated that Rong Beer Na Lat Phrao had passed a building safety inspection in April 2026, approximately three months before the fire. This revelation has raised questions about the effectiveness of current inspection protocols.",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Bangkok's Metropolitan Administration is reviewing regulations governing decorative materials in entertainment venues and restaurants, and plans to review the definition of entertainment establishments. Bangkok Governor Chadchart Sittipunt announced the establishment of an investigative committee to determine what rules should be changed and vowed to conduct more random safety checks.",
+        "supports": {
+          "claim_ids": [
+            "clm_023",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Police had interviewed 34 people as of Tuesday and stated that charges would be considered after facts and evidence were gathered. The pub owner was being treated in an intensive care unit.",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Center-right outlets reported that survivors and a prior visitor described doors as locked, emergency exit signage as absent or poorly marked, and the layout as involving a winding route to the restrooms. Only The Straits Times, a center-right outlet, reported that the venue lacked emergency exit signs, emergency lighting, and a fire alarm system, according to a preliminary inspection.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Only center-right outlets reported specific legal frameworks governing the violations. Operating as an entertainment venue without proper licensing can result in penalties of up to one year's imprisonment and/or a fine of 60,000 baht under Thailand's Entertainment Places Act. Under the Building Control Act, operators making unauthorised alterations or maintaining unsafe escape routes could face up to three months' imprisonment and/or a fine of up to 60,000 baht.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Only The Straits Times, a center-right outlet, reported that the location of Rong Beer Na Lat Phrao falls outside designated zoning areas for pub establishments, adding another layer of regulatory violation to the investigation.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "Only The Straits Times reported that the Bangkok Metropolitan Administration has identified 14 establishments for inspection following the fire and does not maintain official statistics on building violations in the city. Only one outlet reported that the pub posted an apology on its Facebook page and stated it was cooperating fully with the investigation.",
+        "supports": {
+          "claim_ids": [
+            "clm_024",
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "Only individual outlets reported certain specific details about the fire and its victims. Bangkok Governor Chadchart Sittipunt stated that most victims likely died from smoke inhalation. Many victims were found in the restrooms at the end of the bar, where experts believe they tried to flee but could not escape. Three people who were hospitalised after the fire subsequently died by Tuesday.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "Only one outlet reported the detailed sequence of events described by witnesses: smoke was seen inside the venue before midnight, lights went out, followed by an explosion and intense flames.",
+        "supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}
