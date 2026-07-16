@@ -1,0 +1,868 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_16_asia_003",
+    "beat": "asia",
+    "title": "Two Boats Carrying Over 500 Rohingya Feared Capsized Off Myanmar",
+    "summary": "The UN's IOM and UNHCR issued a joint statement on July 16, 2026, warning that two boats carrying more than 500 people — mainly Rohingya refugees — may have capsized off Myanmar's coast since late June, with over 500 people feared dead. The incidents have not been officially confirmed.",
+    "date": "2026-07-16",
+    "generated_at": "2026-07-16T15:07:46.626257+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_organization_international_organization_for_migration",
+        "surfaces": [
+          "IOM",
+          "International Organization for Migration"
+        ],
+        "relevance_to_event": "IOM co-issued the joint statement on July 16, 2026 warning of the two capsized boats and is a primary agency tracking Rohingya sea movements and casualty figures.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_unhcr",
+        "surfaces": [
+          "UNHCR",
+          "refugee agency"
+        ],
+        "relevance_to_event": "UNHCR co-issued the joint statement on July 16, 2026 warning of the two capsized boats and is a primary agency tracking Rohingya sea movements; also acknowledged Bangladesh's hosting of Rohingya refugees.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_myanmar",
+        "surfaces": [
+          "Myanmar",
+          "Myanmar's coast"
+        ],
+        "relevance_to_event": "Myanmar's Rakhine State is the origin point of the two boats that reportedly capsized, and armed conflict there is cited as a primary driver of Rohingya desperation to undertake dangerous sea crossings.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_004",
+            "clm_006",
+            "clm_015",
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_rakhine_state",
+        "surfaces": [
+          "Rakhine State",
+          "Myanmar's Rakhine State"
+        ],
+        "relevance_to_event": "The two boats departed from this Myanmar state in late June 2026; it is experiencing armed conflict and is home to the Rohingya population attempting the sea crossings.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_cox_s_bazar",
+        "surfaces": [
+          "Cox's Bazar",
+          "Bangladesh's Cox's Bazar"
+        ],
+        "relevance_to_event": "Bangladesh refugee camp where more than one million Rohingya refugees live; some passengers on the capsized boats reportedly traveled from this camp before attempting the sea crossing.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_bangladesh",
+        "surfaces": [
+          "Bangladesh"
+        ],
+        "relevance_to_event": "Host country for over one million Rohingya refugees in camps; the joint UN statement acknowledged Bangladesh's years-long contribution to hosting this population, and the worsening humanitarian situation in refugee camps there is cited as a factor driving sea crossing attempts.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009",
+            "clm_012",
+            "clm_015",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_ayeyarwady",
+        "surfaces": [
+          "Ayeyarwady"
+        ],
+        "relevance_to_event": "Myanmar coastal area where one of the two boats, reportedly carrying around 280 people, is believed to have sunk on July 8, 2026.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_other_rohingya",
+        "surfaces": [
+          "Rohingya",
+          "Rohingya Muslim refugees",
+          "Rohingya refugees"
+        ],
+        "relevance_to_event": "The Rohingya are the ethnic and religious minority group that comprised the majority of the estimated 500+ people on the two capsized boats; they are fleeing persecution and armed conflict in Myanmar's Rakhine State.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_009",
+            "clm_010",
+            "clm_011",
+            "clm_012",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-16T15:08:57.586385+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/16/hundreds-of-refugees-feared-dead-after-two-suspected-shipwrecks-off-myanmar-un",
+      "author": "Agence France-Presse",
+      "published_at": "2026-07-16T07:22:41+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360768/rohingya-refugees-among-over-500-feared-dead-after-myanmar-boats-capsize?utm_source=rss_feed",
+      "author": "Agence France-Presse",
+      "published_at": "2026-07-16T05:20:05+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/over-500-feared-dead-in-two-suspected-shipwrecks-off-myanmar-un",
+      "author": null,
+      "published_at": "2026-07-16T03:30:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/07/16/asia-pacific/myanmar-shipwrecks-500-dead-un/",
+      "author": null,
+      "published_at": "2026-07-16T06:20:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMzVZVTNpcWZTSmhCajFoTUNKSkJmbThoSnpTUkZmWGRLSXJYTFpVNjdLTTUtb2l0alFPYXMySTBCdkxOTVFUUEhRSDBNTG9aNDUwSjMwM2pPZXl2UE43UWRuZXBtQmNKcHJlTGc2UjRCN3Z6NTNHLTVsMkxTZzFDbUpUVk9JaEhPMkVTMEZjYjhYazRUNkJSSk1kdVpSdDdETWo1LS1kT2JwWFZuZGJlRtIBtgFBVV95cUxOakE1dlZoV3dUcnQ4alp0SU80Ulh1Y0QzbjVLRkwxaGl2TEtsVUlwV2N4bXh4X0h4ZUEwVUpORDJyQ3o4bzZBSE1Pc3B3dHhWTlJSR3ktaDRLaHhuNnZZUUFOeF9sQ0ZDdHRhYzRKdUxQbVRQRzBkZEpicF9DelNmc0dwTXFHVmN2UzdVRlFZSTViOFVielFuODFleVFPMXNmbktZZFpFX0puajZSNlFmdHBpNjRzZw?oc=5",
+      "author": null,
+      "published_at": "2026-07-16T10:03:44+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "More than 500 people are feared dead following reports of two large shipwrecks off Myanmar since late June 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "shipwreck_incident",
+      "rationale": "All five outlets across left, center-left, and center-right bias tiers report the same figure of more than 500 feared dead, meeting the cross-spectrum threshold for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian frames it as UN agencies voicing alarm at reports that two boats may have capsized.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP frames it as the UN warning that more than 500 people were feared dead from two large shipwrecks.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times frames it as over 500 people feared dead following UN-reported shipwrecks.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Japan Times frames it as a UN warning about two large shipwrecks with more than 500 feared dead.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Al Jazeera frames it as more than 500 feared dead after reports of boats capsizing off Myanmar.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The UN's International Organization for Migration (IOM) and the refugee agency UNHCR issued a joint statement about the incidents.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Sources from center-left and center-right outlets all confirm that IOM and UNHCR jointly issued the statement, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian identifies both agencies as having 'voiced alarm' in the joint statement.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP cites the joint statement as expressing alarm at reports of capsizing.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times attributes the warning to IOM and UNHCR acting jointly.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Japan Times identifies the agencies and notes they 'voiced alarm in a joint statement'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The two vessels departed from Myanmar's Rakhine State in late June 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "shipwreck_incident",
+      "rationale": "Center-left and center-right outlets all report this preliminary information consistently, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian describes Rakhine state as 'war-torn' in characterizing the departure point.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP similarly describes Rakhine as 'war-torn' in reporting the departure.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times reports the departure as 'preliminary information'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Japan Times describes Rakhine State as 'war-torn' and notes the late June departure.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The boats carried mainly members of Myanmar's Rohingya Muslim minority.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "shipwreck_incident",
+      "rationale": "Multiple outlets across center-left and center-right tiers report the passenger composition consistently, satisfying the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian describes the Rohingya as Myanmar's 'mostly Muslim' minority.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP uses nearly identical wording, describing them as 'mostly Muslim Rohingya minority'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times identifies them as 'mainly members of the country's mostly Muslim Rohingya minority'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Japan Times describes the passengers as 'mainly members of the country's mostly Muslim Rohingya minority'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "One of the boats was believed to have been carrying around 250 people and lost contact shortly after departure.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "shipwreck_incident",
+      "rationale": "Both center-left and center-right outlets report this figure and detail consistently, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian states the boat 'lost contact shortly after departure', with no further details on its fate.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP reports the same detail about lost contact shortly after departure.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times reports it identically, noting the boat 'lost contact shortly after departure'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "A second boat, reportedly carrying around 280 people, is believed to have sunk off Myanmar's Ayeyarwady coast on July 8, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "shipwreck_incident",
+      "rationale": "Center-left and center-right outlets all report this detail about the second vessel consistently, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports the boat is 'believed to have sunk' on 8 July off the Ayeyarwady coast.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP reports the same, specifying July 8 and the Ayeyarwady coast location.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times reports identically, using the same date and location.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The incidents and casualty figures have not been officially confirmed.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "shipwreck_incident",
+      "rationale": "Two center-left outlets both note the unconfirmed status of the incidents and figures, but no center-right source explicitly flags this caveat, limiting it to corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian quotes the UN statement directly: 'the incidents and casualty figures have yet to be officially confirmed'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP similarly notes the incidents remain unconfirmed.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Some passengers on the boats had reportedly travelled from refugee camps in Bangladesh's Cox's Bazar.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Two center-left outlets report this detail, but no center-right source confirms it independently, limiting the classification to corroborated.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian notes some passengers 'reportedly travelled from the huge camps in Bangladesh's Cox's Bazar'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP uses identical language about passengers reportedly from Cox's Bazar camps.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "More than one million Rohingya refugees live in camps in Bangladesh's Cox's Bazar.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Both center-left and center-right outlets cite this population figure, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian describes conditions in Cox's Bazar as 'squalid'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP similarly describes the camps as 'squalid conditions'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times reports the same population figure with 'squalid conditions'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Nearly 900 Rohingya refugees were reported missing or dead at sea in the northern Indian Ocean in 2025.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "One center-left (The Guardian) and one center-right (The Straits Times) outlet both cite this UNHCR statistic, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian cites 'nearly 900 Rohingya refugees were reported missing or dead at sea in the northern Indian Ocean last year alone'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times similarly references 'nearly 900 Rohingya refugees were reported missing or dead at sea in the northern Indian Ocean in 2025 alone'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "More than 6,500 Rohingya attempted perilous sea crossings in the northern Indian Ocean in 2025.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "One center-left and one center-right outlet both cite this UNHCR figure, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian presents this as context for the scale of the 2025 sea crossing attempts.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times similarly uses this figure as statistical context.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Nearly 300 people have been reported missing or to have lost their lives in the Andaman Sea and Bay of Bengal so far in 2026, including Rohingya refugees and Bangladeshi nationals.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "One center-left and one center-right outlet both cite this 2026 figure from the UN statement, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian frames this as a figure the current tragedy would 'add to'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times presents it as broader context for the year's casualties.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "The journeys took place outside the regular sailing season, when maritime conditions are typically more hazardous.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "shipwreck_incident",
+      "rationale": "One center-left (The Guardian) and one center-right (The Straits Times) outlet both report this point from the UN statement, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian quotes the UN agencies directly on the off-season timing.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times similarly attributes this assessment to the UN statement.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Recent torrential rain and flooding across the region have further increased risks associated with sea movements.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "shipwreck_incident",
+      "rationale": "One center-left and one center-right outlet both report this point from the UN statement, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian notes the UN statement cited recent flooding as a compounding risk factor.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times similarly attributes this risk assessment to the UN agencies.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Escalating conflict and a worsening humanitarian situation in Myanmar, combined with limited assistance and opportunities in refugee camps in Bangladesh, contribute to increasing numbers of people attempting dangerous sea crossings.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "One center-left and one center-right outlet both attribute this dual-cause explanation to the UN agencies, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian presents both Myanmar conflict and Bangladesh camp conditions as joint contributing factors cited by the UN.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times similarly frames both factors as UN-cited drivers of sea crossings.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Smuggling and trafficking networks exploit the desperation of people seeking safety and are involved in operating vessels used for Rohingya sea crossings.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "One center-left and one center-right outlet both report this characterization from the UN statement and additional context, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian quotes the UN statement citing 'smuggling and trafficking networks, which continue to exploit the desperation of people seeking safety'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times describes 'rickety boats often operated by trafficking networks' and cites the UN call for action against such networks.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "IOM and UNHCR called for enhanced search and rescue efforts, access to asylum and protection, and actions against smuggling and trafficking networks.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Straits Times explicitly itemizes these three specific UN calls to action; other outlets reference the statement without breaking down these specific demands.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times lists the three specific calls from IOM and UNHCR as distinct action items.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "IOM and UNHCR acknowledged Bangladesh's generosity in hosting Rohingya refugees for many years.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Two outlets — both center-left and center-right — report this acknowledgment from the UN statement, but as both come from the same region of the spectrum (center-left and center-right are adjacent), cross-spectrum breadth is marginal; classified as corroborated given the specificity of this detail.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian describes the UN agencies as having 'hailed' Bangladesh for its remarkable generosity.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times quotes the agencies acknowledging Bangladesh's 'remarkable generosity'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Myanmar's Rakhine State is experiencing armed conflict.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Multiple outlets describe Rakhine State as 'war-torn', but this is embedded characterization rather than a separately sourced factual claim, and all sources are reporting the same UN framing.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian describes Rakhine as 'war-torn Myanmar's Rakhine state'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "SCMP uses the same 'war-torn' descriptor for Rakhine.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times describes Rakhine State similarly as 'war-torn'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Japan Times also uses the 'war-torn' descriptor for Rakhine State.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "The Rohingya are a mostly Muslim ethnic minority in Myanmar who have faced decades of persecution and statelessness. Hundreds of thousands fled to Bangladesh, particularly to Cox's Bazar, following a major military crackdown in 2017.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "Rohingya refugees undertake perilous sea voyages across the Andaman Sea and Bay of Bengal every year, often aboard overcrowded and unseaworthy vessels, seeking better conditions in countries such as Malaysia and Indonesia.",
+      "sources": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Armed conflict in Myanmar's Rakhine State has intensified in recent years, worsening the humanitarian situation and increasing displacement pressures on Rohingya communities.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "The UN's IOM and UNHCR are the primary international agencies tracking Rohingya sea movements and issuing warnings about fatalities. Their figures are based on reports and are often unconfirmed due to lack of official verification.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-16T15:08:00.763239+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "More than 500 people are feared dead following reports that two boats carrying mainly Rohingya Muslim refugees capsized off Myanmar's coast since late June 2026. The UN's International Organization for Migration (IOM) and the refugee agency UNHCR issued a joint statement about the incidents, which have not been officially confirmed. The vessels departed from Myanmar's Rakhine State in late June, outside the regular sailing season when maritime conditions are typically more hazardous.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_007",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "One of the boats was believed to have been carrying around 250 people and lost contact shortly after departure. A second boat, reportedly carrying around 280 people, is believed to have sunk off Myanmar's Ayeyarwady coast on July 8, 2026. Recent torrential rain and flooding across the region have further increased risks associated with sea movements.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The Rohingya are a Muslim minority from Myanmar's Rakhine State, which is experiencing armed conflict. More than one million Rohingya refugees live in camps in Bangladesh's Cox's Bazar, where some passengers on the boats had reportedly travelled from. Bangladesh has hosted Rohingya refugees for many years, a contribution that IOM and UNHCR acknowledged in their joint statement.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_008",
+            "clm_009",
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The incidents fit a pattern of increasing perilous sea crossings in the region. Nearly 900 Rohingya refugees were reported missing or dead at sea in the northern Indian Ocean in 2025, when more than 6,500 Rohingya attempted such crossings. So far in 2026, nearly 300 people have been reported missing or to have lost their lives in the Andaman Sea and Bay of Bengal, including Rohingya refugees and Bangladeshi nationals.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The UN agencies attributed the increasing numbers of people attempting dangerous sea crossings to escalating conflict and a worsening humanitarian situation in Myanmar, combined with limited assistance and opportunities in refugee camps in Bangladesh. They noted that smuggling and trafficking networks exploit the desperation of people seeking safety and are involved in operating vessels used for Rohingya sea crossings.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The Straits Times reported that IOM and UNHCR called for enhanced search and rescue efforts, access to asylum and protection, and actions against smuggling and trafficking networks. Other outlets referenced the UN statement without specifying these particular demands.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_myanmar",
+  "type": "location",
+  "canonical_name": "Myanmar",
+  "aliases": [
+    "Myanmar's coast"
+  ],
+  "wikidata_qid": "Q836",
+  "summary": "Myanmar, officially the Republic of the Union of Myanmar and also referred to as Burma, is a country in northwest Southeast Asia. It is the largest country by area in Mainland Southeast Asia and has a population of about 55 million.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Myanmar"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/%40HaNgryBam.jpg/960px-%40HaNgryBam.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:@HaNgryBam.jpg",
+    "credit": "Wine Su11",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:@HaNgryBam.jpg",
+    "fetched_at": "2026-07-16T15:08:17.032806+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q836"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q836"
+    }
+  ],
+  "facts": [
+    {
+      "text": "It is bordered by India and Bangladesh to the northwest, China to the northeast, Laos and Thailand to the east and southeast, and the Andaman Sea and the Bay of Bengal to the south and southwest.",
+      "source_url": "https://en.wikipedia.org/wiki/Myanmar",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-16",
+      "last_updated": "2026-07-16",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The country's capital city is Naypyidaw, while its largest city is Yangon.",
+      "source_url": "https://en.wikipedia.org/wiki/Myanmar",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-16",
+      "last_updated": "2026-07-16",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_16_asia_003",
+  "appears_in_events": [
+    "evt_2026_07_16_asia_003"
+  ],
+  "created_at": "2026-07-16T15:08:14.066115+00:00",
+  "last_updated": "2026-07-16T15:08:40.769258+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Entity created from evt_2026_07_16_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Myanmar"
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Myanmar"
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikidata Q836 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q836"
+    }
+  ]
+}

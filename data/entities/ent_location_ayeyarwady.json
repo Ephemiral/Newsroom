@@ -1,0 +1,37 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_ayeyarwady",
+  "type": "location",
+  "canonical_name": "Ayeyarwady",
+  "aliases": [
+    "Ayeyarwady Region"
+  ],
+  "wikidata_qid": "Q47047",
+  "summary": "Ayeyarwady Region is a region of Myanmar, occupying the delta region of the Ayeyarwady River. It is bordered by the Rakhine State to the northwest, the Bago Region to the north, Bago Region and Yangon Region to the east, and the Bay of Bengal to the south and west.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ayeyarwady_Region"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_16_asia_003",
+  "appears_in_events": [
+    "evt_2026_07_16_asia_003"
+  ],
+  "created_at": "2026-07-16T15:08:26.332210+00:00",
+  "last_updated": "2026-07-16T15:08:40.769853+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Entity created from evt_2026_07_16_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikidata Q47047 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q47047"
+    }
+  ]
+}

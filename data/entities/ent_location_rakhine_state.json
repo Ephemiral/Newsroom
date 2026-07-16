@@ -1,0 +1,86 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_rakhine_state",
+  "type": "location",
+  "canonical_name": "Rakhine State",
+  "aliases": [
+    "Myanmar's Rakhine State"
+  ],
+  "wikidata_qid": "Q233838",
+  "summary": "Rakhine State, formerly known as Arakan State, is a first-level administrative division in Myanmar (Burma). Situated on the western coast, it is bordered by Chin State to the north, Magway Region, Bago Region and Ayeyarwady Region to the east, the Bay of Bengal to the west and the Chattogram Division of Bangladesh to the northwest.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Rakhine_State"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The north–south Arakan Mountains or Rakhine Yoma separate Rakhine State from central Myanmar.",
+      "source_url": "https://en.wikipedia.org/wiki/Rakhine_State",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-16",
+      "last_updated": "2026-07-16",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Off the coast of Rakhine State there are some fairly large islands such as Ramree, Cheduba and Myingun.",
+      "source_url": "https://en.wikipedia.org/wiki/Rakhine_State",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-16",
+      "last_updated": "2026-07-16",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Rakhine State has an area of 36,762 square kilometres (14,194 sq mi) and its capital is Sittwe.",
+      "source_url": "https://en.wikipedia.org/wiki/Rakhine_State",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-16",
+      "last_updated": "2026-07-16",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_16_asia_003",
+  "appears_in_events": [
+    "evt_2026_07_16_asia_003"
+  ],
+  "created_at": "2026-07-16T15:08:17.034133+00:00",
+  "last_updated": "2026-07-16T15:08:40.769417+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Entity created from evt_2026_07_16_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Rakhine_State"
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Rakhine_State"
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Rakhine_State"
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikidata Q233838 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q233838"
+    }
+  ]
+}

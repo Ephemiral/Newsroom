@@ -1,0 +1,47 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_unhcr",
+  "type": "organization",
+  "canonical_name": "UNHCR",
+  "aliases": [
+    "Office of the United Nations High Commissioner for Refugees",
+    "refugee agency"
+  ],
+  "wikidata_qid": "Q132551",
+  "summary": "The Office of the United Nations High Commissioner for Refugees (UNHCR) is a United Nations agency mandated to aid and protect refugees, forcibly displaced communities, and stateless people, and to assist in their voluntary repatriation, local integration or resettlement to a third country. It is headquartered in Geneva, Switzerland, and has 20,305 staff working in 136 countries as of December 2023.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/United_Nations_High_Commissioner_for_Refugees"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/UNHCR-geneveNov2013.jpg/960px-UNHCR-geneveNov2013.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:UNHCR-geneveNov2013.jpg",
+    "credit": "Milliped",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:UNHCR-geneveNov2013.jpg",
+    "fetched_at": "2026-07-16T15:08:14.065342+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_16_asia_003",
+  "appears_in_events": [
+    "evt_2026_07_16_asia_003"
+  ],
+  "created_at": "2026-07-16T15:08:11.155093+00:00",
+  "last_updated": "2026-07-16T15:08:40.769102+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Entity created from evt_2026_07_16_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikidata Q132551 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q132551"
+    }
+  ]
+}
