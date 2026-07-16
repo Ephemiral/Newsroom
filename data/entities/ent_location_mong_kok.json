@@ -1,0 +1,38 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_mong_kok",
+  "type": "location",
+  "canonical_name": "Mong Kok",
+  "aliases": [
+    "Mong Kok District",
+    "Mong Kok district"
+  ],
+  "wikidata_qid": "Q11087265",
+  "summary": "Hong Kong is administratively divided into 18 districts. Each district has a district council.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Districts_of_Hong_Kong"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_16_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_16_asia_001"
+  ],
+  "created_at": "2026-07-16T04:21:17.286003+00:00",
+  "last_updated": "2026-07-16T04:21:25.128462+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Entity created from evt_2026_07_16_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikidata Q11087265 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q11087265"
+    }
+  ]
+}

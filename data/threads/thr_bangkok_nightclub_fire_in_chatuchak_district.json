@@ -1,0 +1,48 @@
+{
+  "thread_schema_version": "0.2",
+  "thread_id": "thr_bangkok_nightclub_fire_in_chatuchak_district",
+  "title": "Bangkok nightclub fire in Chatuchak district",
+  "title_source": "auto",
+  "summary": "A fire at a Bangkok bar and restaurant in the Chatuchak district on July 12, 2026, killed at least 30 people and injured more than 70, with investigations examining the cause and safety conditions.",
+  "status": "developing",
+  "beats": [
+    "asia"
+  ],
+  "key_entities": [
+    "ent_organization_bangkok_metropolitan_administration",
+    "ent_organization_santika_nightclub",
+    "ent_organization_thotsakan",
+    "ent_person_chadchart_sittipunt"
+  ],
+  "events": [
+    {
+      "cluster_id": "evt_2026_07_15_asia_001",
+      "date": "2026-07-12",
+      "chapter_summary": "A fire at the Rong Beer Na Lat Phrao bar in Bangkok's Chatuchak district on July 12, 2026, killed at least 30 people and injured over 70, with authorities suspecting an electrical short circuit in a ceiling air conditioner as the cause and investigating obstructed exits and the venue's licensing compliance.",
+      "link_score": 1.0
+    },
+    {
+      "cluster_id": "evt_2026_07_16_asia_002",
+      "date": "2026-07-12",
+      "chapter_summary": "Investigators determined an electrical short circuit in a ceiling air conditioner caused the fire, with contributing factors including flammable décor, blocked exits, and the venue's misclassification as a restaurant rather than an entertainment venue, while the death toll rose to 32 by July 15.",
+      "link_score": 0.678
+    }
+  ],
+  "accountability": [],
+  "created_at": "2026-07-16T04:25:25.328976+00:00",
+  "last_updated": "2026-07-16T04:25:32.876393+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Thread created"
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Added evt_2026_07_15_asia_001"
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Added evt_2026_07_16_asia_002"
+    }
+  ]
+}

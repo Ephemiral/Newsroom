@@ -1,0 +1,96 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_chris_tang",
+  "type": "person",
+  "canonical_name": "Chris Tang",
+  "aliases": [
+    "Tang Ping-keung"
+  ],
+  "wikidata_qid": "Q48914413",
+  "summary": "Chris Tang Ping-keung is a Hong Kong law enforcement administrator who has been serving as the Secretary for Security of Hong Kong since June 2021. Tang joined the Hong Kong Police Force in 1987 immediately after his graduation from the Chinese University of Hong Kong with a Bachelor of Social Science in social work.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Chris_Tang"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Tang_Ping-keung_20191122.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Tang_Ping-keung_20191122.png",
+    "credit": "中國新聞網",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Tang Ping-keung 20191122.png",
+    "fetched_at": "2026-07-16T04:21:17.171150+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Commissioner of Police",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q48914413",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Secretary for Security",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q48914413",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He previously served as the Commissioner of Police of Hong Kong from 2019 to 2021, Deputy Commissioner of Police (Operations) in 2018, and Director of Operations of the Hong Kong Police Force from 2016 to 2018.",
+      "source_url": "https://en.wikipedia.org/wiki/Chris_Tang",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-16",
+      "last_updated": "2026-07-16",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Tang is sanctioned by the US government, as he is included in the Specially Designated Nationals and Blocked Persons list, pursuant to the Hong Kong Autonomy Act of 2020 - Public Law 116-149.",
+      "source_url": "https://en.wikipedia.org/wiki/Chris_Tang",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-16",
+      "last_updated": "2026-07-16",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_16_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_16_asia_001"
+  ],
+  "created_at": "2026-07-16T04:21:09.800613+00:00",
+  "last_updated": "2026-07-16T04:21:25.128000+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Entity created from evt_2026_07_16_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Chris_Tang"
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Chris_Tang"
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikidata Q48914413 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q48914413"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_have_a_nice_stay",
+  "type": "organization",
+  "canonical_name": "Have A Nice Stay",
+  "aliases": [],
+  "wikidata_qid": "Q113501811",
+  "summary": "Independent bookstore in Hong Kong",
+  "summary_sources": [
+    "https://www.wikidata.org/wiki/Q113501811"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/%E3%80%8C%E7%95%99%E4%B8%8B%E3%80%8D%E6%BC%82%E6%9B%B8.jpg/960px-%E3%80%8C%E7%95%99%E4%B8%8B%E3%80%8D%E6%BC%82%E6%9B%B8.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:%E3%80%8C%E7%95%99%E4%B8%8B%E3%80%8D%E6%BC%82%E6%9B%B8.jpg",
+    "credit": "Andy Li",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:「留下」漂書.jpg",
+    "fetched_at": "2026-07-16T04:21:03.785420+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_16_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_16_asia_001"
+  ],
+  "created_at": "2026-07-16T04:21:01.850622+00:00",
+  "last_updated": "2026-07-16T04:21:25.127261+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Entity created from evt_2026_07_16_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikidata Q113501811",
+      "source": "https://www.wikidata.org/wiki/Q113501811"
+    }
+  ]
+}

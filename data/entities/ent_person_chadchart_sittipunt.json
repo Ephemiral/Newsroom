@@ -5,7 +5,8 @@
   "canonical_name": "Chadchart Sittipunt",
   "aliases": [
     "Bangkok governor",
-    "Bangkok Governor Chadchart Sittipunt"
+    "Bangkok Governor Chadchart Sittipunt",
+    "Bangkok's governor Chadchart Sittipunt"
   ],
   "wikidata_qid": "Q16307757",
   "summary": "Chadchart Sittipunt is a Thai politician, engineer, and professor who is the Governor-elect of Bangkok after winning the 2026 Bangkok gubernatorial election. He was the Governor of Bangkok from 2022 to 2026.",
@@ -52,10 +53,11 @@
     "evt_2026_07_13_asia_001",
     "evt_2026_07_14_asia_001",
     "evt_2026_07_14_asia_003",
-    "evt_2026_07_15_asia_001"
+    "evt_2026_07_15_asia_001",
+    "evt_2026_07_16_asia_002"
   ],
   "created_at": "2026-07-13T04:52:53.639218+00:00",
-  "last_updated": "2026-07-15T04:18:03.731964+00:00",
+  "last_updated": "2026-07-16T04:25:22.376431+00:00",
   "change_log": [
     {
       "date": "2026-07-13",

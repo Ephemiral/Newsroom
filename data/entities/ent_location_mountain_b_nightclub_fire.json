@@ -1,0 +1,71 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_mountain_b_nightclub_fire",
+  "type": "location",
+  "canonical_name": "Mountain B nightclub fire",
+  "aliases": [
+    "Mountain B fire",
+    "Mountain B"
+  ],
+  "wikidata_qid": "Q113449657",
+  "summary": "On 5 August 2022 at 1:00 AM ICT, a fire broke out at Mountain B, a nightclub located on the Sukhumvit Road in Phlu Ta Luang sub-district, Sattahip District, Chonburi Province, Thailand. The fire began at 1 am ICT and caused 13 immediate deaths.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Mountain_B_nightclub_fire"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Out of the 38 people injured, seven later died in hospital, bringing the total death toll to 20.",
+      "source_url": "https://en.wikipedia.org/wiki/Mountain_B_nightclub_fire",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-16",
+      "last_updated": "2026-07-16",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "In October 2022, another victim died in the hospital; she was the 25th death related to the fire.",
+      "source_url": "https://en.wikipedia.org/wiki/Mountain_B_nightclub_fire",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-16",
+      "last_updated": "2026-07-16",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_16_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_16_asia_002"
+  ],
+  "created_at": "2026-07-16T04:25:14.652272+00:00",
+  "last_updated": "2026-07-16T04:25:22.377257+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Entity created from evt_2026_07_16_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Mountain_B_nightclub_fire"
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Mountain_B_nightclub_fire"
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikidata Q113449657 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q113449657"
+    }
+  ]
+}

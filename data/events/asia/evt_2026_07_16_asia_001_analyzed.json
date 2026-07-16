@@ -1,0 +1,1039 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_16_asia_001",
+    "beat": "asia",
+    "title": "Hong Kong Police Raid Two Independent Bookstores, Arrest Five People",
+    "summary": "On July 15, 2026, Hong Kong's National Security Department raided Have A Nice Stay and Greenfield Book Store in the Mong Kok district, arresting five people on suspicion of selling publications with seditious intent. The operation, triggered by a customs referral about books shipped from overseas, marked the third such crackdown on independent booksellers in Hong Kong in 2026.",
+    "date": "2026-07-15",
+    "generated_at": "2026-07-16T04:20:22.528195+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_organization_hong_kong_national_security_department",
+        "surfaces": [
+          "Hong Kong's National Security Department",
+          "National Security Department"
+        ],
+        "relevance_to_event": "Government agency that conducted the July 15, 2026 raids on the two bookstores and made arrests based on allegations of seditious publications.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_have_a_nice_stay",
+        "surfaces": [
+          "Have A Nice Stay"
+        ],
+        "relevance_to_event": "One of the two independent bookstores raided on July 15, 2026; founded in 2022 by former journalists and stocking books on democracy and authoritarianism; announced closure on July 14, one day before the raid.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_007",
+            "clm_008",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_greenfield_book_store",
+        "surfaces": [
+          "Greenfield Book Store"
+        ],
+        "relevance_to_event": "The second independent bookstore raided on July 15, 2026 in Mong Kok district; stocks books on literature, history, philosophy, and other subjects from Hong Kong and Taiwan.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_015",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_lam_wing_kee",
+        "surfaces": [
+          "Lam Wing-kee"
+        ],
+        "relevance_to_event": "Former owner of Causeway Bay Books who died in July 2026; his case from 2015-2016 drew international attention to vulnerabilities faced by Hong Kong booksellers under national security enforcement.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_jimmy_lai",
+        "surfaces": [
+          "Jimmy Lai"
+        ],
+        "relevance_to_event": "Pro-democracy media tycoon whose biography was allegedly among publications seized during the March 2026 raid on Book Punch bookstore; sentenced to 20 years in prison in his national security case.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_chris_tang",
+        "surfaces": [
+          "Chris Tang"
+        ],
+        "relevance_to_event": "Hong Kong's secretary for security who stated the government would not establish a banned books list and defended national security laws as crucial for stability.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_lai_ching_te",
+        "surfaces": [
+          "Taiwan President Lai Ching-te"
+        ],
+        "relevance_to_event": "Taiwan President who posted on Facebook on July 16, 2026, stating that independent bookstores are important spaces for safeguarding thought, in apparent response to the raids.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_mong_kok",
+        "surfaces": [
+          "Mong Kok district",
+          "Mong Kok"
+        ],
+        "relevance_to_event": "District in Hong Kong where both raided bookstores — Have A Nice Stay and Greenfield Book Store — are located.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-16T04:21:34.662874+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Have_A_Nice_Stay_interior-202208.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Have_A_Nice_Stay_interior-202208.jpg",
+      "source_page": "https://commons.wikimedia.org/w/index.php?curid=121651067",
+      "width": 3024,
+      "height": 3024,
+      "caption": "Interior of Have A Nice Stay bookstore, Mong Kok, Hong Kong (file photo)",
+      "credit": "小文人",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "openverse",
+      "file_title": "openverse:91b88149-3d95-434a-81ab-8dcb3845841c|Have A Nice Stay interior-202208",
+      "query": "Hong Kong bookstore interior",
+      "fetched_at": "2026-07-16T04:21:34.662840+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/16/hong-kong-bookstore-bookshop-raids-arrests",
+      "author": "Guardian staff and agencies",
+      "published_at": "2026-07-16T01:27:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/hong-kong-police-arrest-five-over-seditious-books",
+      "author": null,
+      "published_at": "2026-07-16T02:50:56+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/hong-kong-police-raid-independent-bookstore-run-by-former-journalists",
+      "author": null,
+      "published_at": "2026-07-15T14:34:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360688/hong-kong-police-raid-2-indie-bookstores-arrest-several-over-national-security?utm_source=rss_feed",
+      "author": "Jess Ma",
+      "published_at": "2026-07-15T11:27:37+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/07/16/asia-pacific/politics/hong-kong-raid-bookstore/",
+      "author": null,
+      "published_at": "2026-07-15T22:06:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cq61660qpdpo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-15T16:51:07+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Hong Kong's National Security Department raided two independent bookstores — Have A Nice Stay and Greenfield Book Store — in the Mong Kok district on July 15, 2026, and arrested five people.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "police_operations",
+      "rationale": "All six sources — spanning center-left and center-right outlets — consistently report the raids and five arrests, meeting the cross-spectrum threshold for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as authorities raiding two bookstores and arresting five people on suspicion of selling 'allegedly seditious publications'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Frames it as national security police arresting five booksellers on suspected charges of 'doing an act with seditious intention'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports AFP reporters directly observed officers from the National Security Department at Have A Nice Stay",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes national security police searching both shops and arresting five people",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Frames it as 'the latest in a string of crackdowns on independent bookshops'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports five people 'suspected of selling and displaying books deemed seditious' were arrested",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The five people arrested were two men aged 37 and 57, and three women aged between 30 and 59.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "police_operations",
+      "rationale": "Three outlets spanning center-left and center-right consistently report the same demographic breakdown of those arrested.",
+      "framing_variants": [
+        {
+          "characterization": "Lists both men's ages and women's age range directly from the police statement",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Provides identical demographic breakdown citing police",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States the demographic breakdown and ties it to the charge of 'acting with seditious intent'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "AFP reporters witnessed officers from the National Security Department lead a woman in handcuffs from Have A Nice Stay bookshop into a police van and remove several boxes of materials.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "police_operations",
+      "rationale": "Multiple center-left outlets independently cite AFP reporters as eyewitnesses to the same scene; no center-right source corroborates the eyewitness detail directly, so this does not qualify as cross-spectrum 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "Cites AFP reporters as direct observers of the handcuffed woman and box seizures",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Specifically notes officers' vests were labelled 'NSD' for National Security Department",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports officers led a woman in handcuffs to a van and took several boxes",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Describes reporters 'saw officers leading a woman in handcuffs from the Have A Nice Stay bookshop into a van'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The raids were triggered after Hong Kong's Customs and Excise Department intercepted a batch of books deemed to have seditious intent in an overseas shipment to Hong Kong and referred the case to the National Security Department.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "police_operations",
+      "rationale": "Sources across center-left and center-right outlets consistently report the customs referral as the stated trigger for the operation, satisfying the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Reports customs officials referred the case after discovering seditious books in a consignment from overseas",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Quotes police statement that a 'batch of books with seditious intention was intercepted inside a consignment shipped to Hong Kong from overseas'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States the Customs and Excise Department referred the overseas shipment case to the national security department",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes police being 'alerted to books with seditious intention found in a shipment from overseas'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Notes books were seized 'from both shops' following the overseas shipment alert",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Police alleged that the seized publications contained content inciting hatred against Hong Kong's government, judiciary, and law enforcement agencies.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "police_operations",
+      "rationale": "Both center-left and center-right sources report the same police characterization of the publications' alleged content, confirming cross-spectrum agreement on what police claimed.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes the characterization to police, using 'allegedly' to maintain distance from the claim",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Quotes police statement directly: publications 'incited hatred against Hong Kong's government, the judiciary, and law enforcement agencies'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Lists three targets of alleged hatred — government, judiciary, law enforcement — citing police",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Frames it as 'authorities said the publications incited hatred' using quotation marks around the word 'hatred'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The five arrestees are suspected of violating Hong Kong's national security legislation by 'acting with seditious intent', an offense punishable by up to seven years in prison.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "legal_framework",
+      "rationale": "Multiple sources across the spectrum report both the specific charge and the maximum sentence, with center-left and center-right outlets concurring.",
+      "framing_variants": [
+        {
+          "characterization": "States the offense is 'punishable with up to seven years in prison' and cites TVB for the seditious intent charge",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Links the demographic details of the arrested group directly to the charge and the seven-year maximum sentence",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "States charge is 'doing an act with seditious intent' per police",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes suspicion of 'doing an act with seditious intention' per government statement",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006",
+        "src_004",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Have A Nice Stay bookshop was founded in 2022 by a group of former journalists and stocks literature on democracy, authoritarianism, and media literacy.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "bookstore_profiles",
+      "rationale": "Two outlets — both center-left — report the same founding year and subject matter; no center-right source independently corroborates these details, so this is corroborated rather than agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Notes founding in 2022 'by a group of former journalists under an increasingly constrained media environment' and describes books on 'media literacy, democratic development and authoritarianism'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes founding in 2022 by former journalists 'stocking literature on democracy, authoritarianism and media literacy'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Have A Nice Stay bookshop announced on July 14, 2026, that it would close on August 30, citing financial losses and uncertainty about what content might be considered legally problematic — described as an 'elusive red line'.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "bookstore_profiles",
+      "rationale": "Center-left and center-right outlets all report the closure announcement with the same stated reasons, meeting the cross-spectrum threshold for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "Notes 'financial difficulties and an elusive red line were among the factors' per social media post",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports announcement was made on July 14 citing 'financial losses and an elusive red line over what books may be considered problematic'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Frames closure as citing 'the social environment and its financial situation' and quotes the 'elusive red line' directly",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States closure announced 'a day before' the raid, citing 'financial reasons' and 'an elusive red line over what material is considered problematic'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The July 2026 raids were the third round of police action against independent bookstores in Hong Kong in 2026, following arrests at Book Punch in March and Hunter bookstore in June.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "pattern_of_enforcement",
+      "rationale": "Both center-left and center-right outlets identify these as the third raids and consistently name the prior targeted stores, satisfying the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as 'the third round of arrests linked to independent bookstores after similar operations in March and June'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'the raid is the third conducted on independent booksellers in 2026', naming Book Punch (March) and Hunter (June)",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "References the June arrests as a 'separate case' in the same enforcement context",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'there have been two other raids on bookshops in Hong Kong in 2026', citing four arrested at Book Punch and two at Hunter",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_002",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Four workers at Book Punch bookstore were arrested in March 2026 on suspicion of selling seditious publications, including the biography of Jimmy Lai.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "pattern_of_enforcement",
+      "rationale": "Multiple center-left sources report the March arrests at Book Punch; the detail about the Jimmy Lai biography appears only in The Guardian, but the broader arrest fact is corroborated across same-spectrum outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Names Book Punch and notes charges included the biography of 'former pro-democracy media tycoon Jimmy Lai, who was sentenced to 20 years in prison'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'four employees from Book Punch' arrested for selling seditious publications",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'four were arrested from Book Punch in March'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Two workers at Hunter bookstore were arrested in June 2026 on suspicion of selling seditious publications; persons arrested in earlier 2026 rounds were later released on bail.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "pattern_of_enforcement",
+      "rationale": "Multiple center-left sources report the June arrests at Hunter; The Guardian adds the detail that all earlier arrestees were released on bail, which is not cross-spectrum confirmed.",
+      "framing_variants": [
+        {
+          "characterization": "States two booksellers arrested in June on suspicion of selling seditious publications and receiving funds from foreign political organisations; notes all March and June arrestees 'later released on bail'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Names Hunter bookstore and states two employees were arrested in June",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'two workers were arrested at the Hunter store in June'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Hong Kong's independent bookstore sector has declined since Beijing imposed sweeping national security legislation on the city in 2020, after which many bookstores that offered a broader range of political and social titles closed.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "legal_framework",
+      "rationale": "Both The Straits Times and The Guardian describe the sector's decline in the context of the 2020 national security law, but both are center-right and center-left respectively — this spans the spectrum and could be agreed, however the characterization of 'decline' is an analytical claim reported by only two outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Describes the 'once-flourishing independent bookstore industry' as having 'dwindled since Beijing imposed sweeping national security legislation on the city in 2020'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes that 'following political changes after anti-government protests in 2019, independent bookstores have been operating in an even more challenging environment'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Hong Kong enacted its own national security law in 2024, in addition to legislation imposed by Beijing in 2020 following the 2019 pro-democracy protests.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "legal_framework",
+      "rationale": "Two center-right Straits Times articles consistently report both the 2024 home-grown law and the 2020 Beijing-imposed legislation as distinct instruments; no center-left source provides the same level of precision on the dual legislative framework.",
+      "framing_variants": [
+        {
+          "characterization": "Notes 'the home-grown security law was enacted in 2024' as separate from legislation 'imposed by Beijing after pro-democracy protests paralysed the financial hub in 2019'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'Beijing imposed sweeping national security legislation on the city in 2020'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Hong Kong authorities stated that national security laws are crucial for the city's stability; Hong Kong's secretary for security Chris Tang said the government would not establish a banned books list, calling such a list pointless to implement.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "legal_framework",
+      "rationale": "Only The Guardian reports Chris Tang's specific statement about not creating a banned books list and his reasoning; no other outlet in this cluster cites this official position.",
+      "framing_variants": [
+        {
+          "characterization": "Presents Tang's statement as context for understanding enforcement, noting authorities say security laws are for stability while simultaneously declining to enumerate prohibited titles",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Neither Have A Nice Stay nor Greenfield Book Store was participating in the 2026 Hong Kong Book Fair, which opened on the same day as the raids.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "bookstore_profiles",
+      "rationale": "Only BBC News reports the timing coincidence with the Hong Kong Book Fair opening and the absence of both raided shops from the fair.",
+      "framing_variants": [
+        {
+          "characterization": "Presents the Book Fair timing as contextually significant, noting 'neither business is attending this year's Hong Kong Book Fair, which opened on Wednesday'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Greenfield Book Store stocks books from Hong Kong and Taiwan covering literature, history, philosophy, art, sociology, and self-improvement.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "bookstore_profiles",
+      "rationale": "Only BBC News provides this specific description of Greenfield's inventory, drawn from the shop's own self-description.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes the bookshop's own description of its stock to provide context for the raid",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Amnesty International stated that the raids reflect a 'chilling reality' in which people can be criminalized for books on their shelf, and that regulatory ambiguity about 'red lines' has caused self-censorship and fear among booksellers and writers.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only BBC News carries Amnesty International's response to the raids in this cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Amnesty International directly, framing the raids as evidence of a society where booksellers face criminal liability due to vague legal standards, with self-censorship as a result",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Human Rights Watch researcher Yalkun Uluyol called on democratic governments to press Hong Kong authorities to release the arrested booksellers.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Straits Times reports the Human Rights Watch statement and the researcher's specific call to action.",
+      "framing_variants": [
+        {
+          "characterization": "Cites Yalkun Uluyol as a 'China researcher at Human Rights Watch' calling for international diplomatic pressure to free the booksellers",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Taiwan President Lai Ching-te posted on Facebook on July 16, 2026, stating that every independent bookstore is 'an important space for safeguarding thought'.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Straits Times reports the Taiwan president's Facebook response to the arrests.",
+      "framing_variants": [
+        {
+          "characterization": "Presents Lai Ching-te's statement as an international political response to the Hong Kong enforcement action",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Lam Wing-kee, owner of Causeway Bay Books — which became internationally known after four affiliated staff disappeared in late 2015 and Lam revealed in 2016 that he had been held by Chinese authorities — died earlier in July 2026.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Only The Guardian reports Lam Wing-kee's recent death and provides the historical detail about his 2016 detention revelation and the 2015 disappearances.",
+      "framing_variants": [
+        {
+          "characterization": "Uses Lam's death and story as context to illustrate the long history of pressure on Hong Kong booksellers, noting the international headlines his 2016 revelations generated",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Beijing promised that Hong Kong would maintain Western-style civil liberties for 50 years after its return to China in 1997.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Only The Guardian explicitly references the 'one country, two systems' promise and its 50-year guarantee as background context.",
+      "framing_variants": [
+        {
+          "characterization": "Frames the promise as background for evaluating current enforcement actions, implying a contrast between the commitment and present reality",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Hong Kong was returned to China in 1997 under a 'one country, two systems' framework, under which Beijing promised to preserve Western-style civil liberties for 50 years.",
+      "sources": [
+        "src_001"
+      ]
+    },
+    {
+      "point": "Beijing imposed sweeping national security legislation on Hong Kong in 2020 following pro-democracy protests in 2019; Hong Kong subsequently enacted its own home-grown national security law in 2024.",
+      "sources": [
+        "src_003",
+        "src_002",
+        "src_001"
+      ]
+    },
+    {
+      "point": "The 'seditious publications' offense under Hong Kong's national security legislation carries a maximum prison sentence of seven years.",
+      "sources": [
+        "src_003",
+        "src_006"
+      ]
+    },
+    {
+      "point": "The Causeway Bay Books case — in which five affiliated booksellers disappeared in 2015 and owner Lam Wing-kee revealed in 2016 that he had been held by Chinese authorities — drew international attention to the vulnerability of Hong Kong booksellers.",
+      "sources": [
+        "src_001"
+      ]
+    },
+    {
+      "point": "Have A Nice Stay, one of the raided bookshops, was founded in 2022 by former journalists under what the outlet describes as an 'increasingly constrained media environment', stocking books on democracy, authoritarianism, and media literacy.",
+      "sources": [
+        "src_003",
+        "src_006"
+      ]
+    },
+    {
+      "point": "Jimmy Lai, the former pro-democracy media tycoon whose biography was allegedly among books seized during the March 2026 Book Punch raid, was sentenced to 20 years in prison in his national security case.",
+      "sources": [
+        "src_001"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-16T04:20:56.803382+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "On July 15, 2026, Hong Kong's National Security Department raided two independent bookstores — Have A Nice Stay and Greenfield Book Store — in the Mong Kok district, arresting five people. The arrested individuals comprised two men aged 37 and 57, and three women aged between 30 and 59.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The raids were triggered after Hong Kong's Customs and Excise Department intercepted a batch of books deemed to have seditious intent in an overseas shipment to Hong Kong and referred the case to the National Security Department. Police alleged that the seized publications contained content inciting hatred against Hong Kong's government, judiciary, and law enforcement agencies.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The five arrestees are suspected of violating Hong Kong's national security legislation by 'acting with seditious intent', an offense punishable by up to seven years in prison.",
+        "supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The July 2026 raids were the third round of police action against independent bookstores in Hong Kong in 2026, following arrests at Book Punch in March and Hunter bookstore in June.",
+        "supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Hong Kong enacted its own national security law in 2024, in addition to legislation imposed by Beijing in 2020 following the 2019 pro-democracy protests. The 2020 legislation followed Beijing's promise that Hong Kong would maintain Western-style civil liberties for 50 years after its return to China in 1997.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Center-left outlets reported that AFP journalists witnessed officers from the National Security Department lead a woman in handcuffs from Have A Nice Stay bookshop into a police van and remove several boxes of materials during the operation.",
+        "supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Have A Nice Stay bookshop announced on July 14, 2026 — one day before the raids — that it would close on August 30, citing financial losses and uncertainty about what content might be considered legally problematic, described as an 'elusive red line'. The bookshop was founded in 2022 by a group of former journalists and stocks literature on democracy, authoritarianism, and media literacy, according to center-left outlets.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "The BBC reported that Greenfield Book Store stocks books from Hong Kong and Taiwan covering literature, history, philosophy, art, sociology, and self-improvement. Neither Have A Nice Stay nor Greenfield Book Store was participating in the 2026 Hong Kong Book Fair, which opened on the same day as the raids.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Center-left outlets reported that four workers at Book Punch bookstore were arrested in March 2026 on suspicion of selling seditious publications, including the biography of Jimmy Lai. Two workers at Hunter bookstore were arrested in June 2026 on the same suspicion, and persons arrested in the earlier 2026 rounds were later released on bail.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Both center-left and center-right outlets described a decline in Hong Kong's independent bookstore sector since Beijing imposed sweeping national security legislation on the city in 2020, after which many bookstores that offered a broader range of political and social titles closed.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The Guardian reported that Hong Kong's secretary for security Chris Tang said the government would not establish a banned books list, calling such a list pointless to implement, while stating that national security laws are crucial for the city's stability.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The BBC quoted Amnesty International stating that the raids reflect a 'chilling reality' in which people can be criminalized for books on their shelf, and that regulatory ambiguity about 'red lines' has caused self-censorship and fear among booksellers and writers.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Straits Times reported that Human Rights Watch researcher Yalkun Uluyol called on democratic governments to press Hong Kong authorities to release the arrested booksellers. The same outlet reported that Taiwan President Lai Ching-te posted on Facebook on July 16, 2026, stating that every independent bookstore is 'an important space for safeguarding thought'.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "The Guardian reported that Lam Wing-kee, owner of Causeway Bay Books — which became internationally known after four affiliated staff disappeared in late 2015 and Lam revealed in 2016 that he had been held by Chinese authorities — died earlier in July 2026.",
+        "supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

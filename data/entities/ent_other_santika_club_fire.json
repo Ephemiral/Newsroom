@@ -7,7 +7,8 @@
     "Santika Club fire",
     "Santika club fire",
     "Santika club",
-    "Bangkok's Santika club"
+    "Bangkok's Santika club",
+    "Santika Club"
   ],
   "wikidata_qid": "Q1151804",
   "summary": "A fireworks accident and nightclub fire occurred on 1 January 2009 in the Santika Club in Ekkamai, Watthana, Bangkok, where New Year's celebrations were taking place. 67 people were killed and another 222 injured when fire swept through the club during the New Year's celebration as the band \"Burn\" was playing.",
@@ -31,10 +32,11 @@
   "first_seen_event": "evt_2026_07_14_asia_001",
   "appears_in_events": [
     "evt_2026_07_14_asia_001",
-    "evt_2026_07_14_asia_003"
+    "evt_2026_07_14_asia_003",
+    "evt_2026_07_16_asia_002"
   ],
   "created_at": "2026-07-14T04:24:09.491651+00:00",
-  "last_updated": "2026-07-14T15:04:18.603991+00:00",
+  "last_updated": "2026-07-16T04:25:22.377049+00:00",
   "change_log": [
     {
       "date": "2026-07-14",

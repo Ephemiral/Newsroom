@@ -1,0 +1,31 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_bangkok_entertainment_zones",
+  "type": "location",
+  "canonical_name": "Bangkok entertainment zones",
+  "aliases": [
+    "Bangkok's three designated entertainment zones",
+    "three designated entertainment zones"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_16_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_16_asia_002"
+  ],
+  "created_at": "2026-07-16T04:25:18.780191+00:00",
+  "last_updated": "2026-07-16T04:25:22.377861+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Entity created from evt_2026_07_16_asia_002",
+      "source": null
+    }
+  ]
+}

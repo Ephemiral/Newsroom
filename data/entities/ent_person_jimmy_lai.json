@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_jimmy_lai",
+  "type": "person",
+  "canonical_name": "Jimmy Lai",
+  "aliases": [],
+  "wikidata_qid": "Q1447095",
+  "summary": "Lai Chee-ying, also known as Jimmy Lai, is a Hong Kong businessman, politician, and political prisoner. He founded the clothing retailer Giordano, the media company Next Digital, and the newspaper Apple Daily.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Jimmy_Lai"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/%E9%BB%8E%E6%99%BA%E8%8B%B1%E5%9C%A8%E7%BE%8E%E5%9B%BD%E6%99%BA%E5%BA%93_%281%29_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:%E9%BB%8E%E6%99%BA%E8%8B%B1%E5%9C%A8%E7%BE%8E%E5%9B%BD%E6%99%BA%E5%BA%93_(1)_(cropped).jpg",
+    "credit": "美国之音莉雅",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:黎智英在美国智库 (1) (cropped).jpg",
+    "fetched_at": "2026-07-16T04:21:09.799940+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He is one of the main contributors to Hong Kong's pro-democracy camp, especially to the Democratic Party.",
+      "source_url": "https://en.wikipedia.org/wiki/Jimmy_Lai",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-16",
+      "last_updated": "2026-07-16",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "A British citizen since 1994, he was imprisoned in 2020 and his business operations shuttered under pressure from the Chinese government.",
+      "source_url": "https://en.wikipedia.org/wiki/Jimmy_Lai",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-16",
+      "last_updated": "2026-07-16",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_16_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_16_asia_001"
+  ],
+  "created_at": "2026-07-16T04:21:06.768313+00:00",
+  "last_updated": "2026-07-16T04:21:25.127781+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Entity created from evt_2026_07_16_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Lai"
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Lai"
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Grounded from Wikidata Q1447095 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1447095"
+    }
+  ]
+}
