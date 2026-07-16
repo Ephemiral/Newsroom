@@ -15,7 +15,10 @@
     "ent_organization_united_states",
     "ent_organization_us_central_command",
     "ent_person_abbas_araghchi",
+    "ent_person_ali_khamenei",
     "ent_person_donald_trump",
+    "ent_person_marco_rubio",
+    "ent_person_mohammad_bagher_ghalibaf",
     "ent_person_mojtaba_khamenei",
     "ent_person_pete_hegseth",
     "ent_technology_mv_gfs_galaxy"
@@ -38,11 +41,17 @@
       "date": "2026-07-12",
       "chapter_summary": "The US has announced a naval blockade of Iranian ports and implemented a 20% charge on cargo transiting the Strait of Hormuz, while launching strikes against over 140 Iranian military targets across multiple consecutive nights.",
       "link_score": 0.557
+    },
+    {
+      "cluster_id": "evt_2026_07_16_israel_middle_east_001",
+      "date": "2026-07-14",
+      "chapter_summary": "The US reimposed a comprehensive naval blockade on all Iranian ports and coastal areas in mid-July 2026, and Trump briefly proposed imposing a 20% toll on Strait of Hormuz shipping before reversing the policy within hours.",
+      "link_score": 0.49
     }
   ],
   "accountability": [],
   "created_at": "2026-07-13T15:38:02.009699+00:00",
-  "last_updated": "2026-07-14T14:41:34.524066+00:00",
+  "last_updated": "2026-07-16T14:49:22.938087+00:00",
   "change_log": [
     {
       "date": "2026-07-13",
@@ -59,6 +68,10 @@
     {
       "date": "2026-07-14",
       "summary_of_change": "Added evt_2026_07_14_israel_middle_east_002"
+    },
+    {
+      "date": "2026-07-16",
+      "summary_of_change": "Added evt_2026_07_16_israel_middle_east_001"
     }
   ]
 }

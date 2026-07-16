@@ -1,0 +1,1063 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_16_israel_middle_east_001",
+    "beat": "israel_middle_east",
+    "title": "US-Iran Escalation: Naval Blockade, Strikes, and Hormuz Toll Dispute",
+    "summary": "In mid-July 2026, the United States re-imposed a naval blockade on Iran and launched multiple rounds of military strikes, while Trump briefly proposed a 20% toll on Strait of Hormuz shipping before reversing the policy within hours. Iran countered with strikes on US military facilities and commercial shipping across the region, as an interim ceasefire agreement continued to collapse.",
+    "date": "2026-07-14",
+    "generated_at": "2026-07-16T14:48:34.771127+00:00",
+    "related_events": [
+      {
+        "cluster_id": "evt_2026_07_13_israel_middle_east_001",
+        "title": "US Launches New Wave of Strikes on Iran Amid Strait of Hormuz Standoff"
+      }
+    ],
+    "entities": [
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "Trump"
+        ],
+        "relevance_to_event": "Trump announced the naval blockade on Iran, proposed and then retracted a 20% Strait of Hormuz toll within five hours, promised additional military strikes, and offered alternative trade deals with Gulf allies.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_024"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "Iran",
+          "Tehran"
+        ],
+        "relevance_to_event": "Iran is the subject of the US naval blockade and military strikes; Iran's IRGC conducted retaliatory strikes on US facilities and commercial shipping, and the conflict originated with the February 2026 assassination of Iran's supreme leader.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_007",
+            "clm_009",
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_strait_of_hormuz",
+        "surfaces": [
+          "Strait of Hormuz"
+        ],
+        "relevance_to_event": "The strait is central to the dispute: Iran closed it earlier in the war, Trump proposed a 20% toll for transit, the ceasefire agreement included Iran's commitment to safe passage, and the strait is a key unresolved issue in ongoing negotiations.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004",
+            "clm_006",
+            "clm_007",
+            "clm_011",
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_ali_khamenei",
+        "surfaces": [
+          "Ayatollah Ali Khamenei"
+        ],
+        "relevance_to_event": "Khamenei's assassination by US-Israeli airstrikes in February 2026 triggered the conflict that escalated to the July blockade and military strikes described in this report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_marco_rubio",
+        "surfaces": [
+          "Secretary of State Marco Rubio"
+        ],
+        "relevance_to_event": "As Secretary of State, Rubio declared that no country is allowed to charge tolls on international waterways under existing law, creating a contradiction with Trump's subsequently proposed 20% Hormuz toll.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_abbas_araghchi",
+        "surfaces": [
+          "Abbas Araghchi"
+        ],
+        "relevance_to_event": "This entity is not mentioned in the provided report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_024"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_mohammad_bagher_ghalibaf",
+        "surfaces": [
+          "Mohammad Bagher Ghalibaf"
+        ],
+        "relevance_to_event": "This entity is not mentioned in the provided report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_027"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "thread_id": "thr_usiran_military_escalation_over_strait_of_hormuz_2",
+    "image_attempted_at": "2026-07-16T14:49:33.955288+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBiWWpWSnJrallmX05rZW5uSUgyRjVPUV9Na2RDZWhFMUlwT29ra2ZIUC1JdGZzYVp3b3V5U2VoNVFlUl96RGRra2YxWWlGS05DTkJhNk13?oc=5",
+      "author": null,
+      "published_at": "2026-07-15T04:25:53+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/13/us-iran-war-missile-strikes-news-attacks-strait-of-hormuz",
+      "author": "Peter Beaumont Senior international correspondent",
+      "published_at": "2026-07-13T18:26:41+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Peter Beaumont is a senior international correspondent for The Guardian who has covered major conflicts and geopolitical events across the Middle East, Africa, and other regions throughout his career.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/14/us-strikes-iran-bahrain-jordan-uae-tankers",
+      "author": "William Christou in Beirut",
+      "published_at": "2026-07-14T16:50:54+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/04/maritime-and-port-workers-how-is-the-middle-east-conflict-affecting-you",
+      "author": "Guardian community team",
+      "published_at": "2026-07-14T15:21:35+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/crele3r8j19o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-14T23:17:27+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Donald Trump announced the reimposition of a US naval blockade on Iran, covering all of Iran's ports, oil terminals, and coastal areas, applicable to all vessel traffic regardless of flag.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "blockade_and_hormuz_policy",
+      "rationale": "Multiple outlets across center-left (The Guardian, BBC News) and center-right (Ynet News) confirm Trump reimposed the naval blockade on Iran, meeting the cross-spectrum threshold for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "Described as a reimposition, with Trump simultaneously threatening to 'take control' of the Strait of Hormuz.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reported as both a threat and an announcement — Trump 'threatened to take control' and 'announced the reimposition.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "BBC framed it as a 'resumption' of an American naval blockade on Iranian shipping, announced via Truth Social.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Ynet reported the strait remains open but Iran faces a blockade, implying blockade is on Iranian ports rather than the strait itself.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The US Joint Maritime Information Center announced blockade enforcement would begin on Tuesday, 14 July 2026 at 20:00 GMT, with non-compliant vessels subject to interception, diversion, capture, and force; neutral transit to or from non-Iranian destinations would not be impeded.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "blockade_and_hormuz_policy",
+      "rationale": "Only The Guardian's July 13 article provides the specific enforcement timeline, procedures, and exception for neutral transit from the Joint Maritime Information Center statement.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as an official advisory with precise enforcement details: interception, diversion, capture, and possible use of force for non-compliant vessels.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Trump proposed a 20% toll or tariff on all cargoes/vessels transiting the Strait of Hormuz, framing it as reimbursement for US security provision.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "blockade_and_hormuz_policy",
+      "rationale": "All four sources across center-left and center-right confirm Trump's 20% toll proposal, satisfying the cross-spectrum threshold for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "Described as a 'demand' for a '20% tariff on all cargoes shipped through the key maritime passage.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reported as a 'demand' for '20% tariff on all cargoes shipped through the strait.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "BBC described it as requiring 'all vessels transiting the Strait of Hormuz — including those of US allies — must pay a 20% fee to reimburse the US.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Ynet briefly noted Trump's warning about total destruction alongside the toll context.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Trump retracted the 20% Strait of Hormuz toll proposal approximately five hours before it was due to take effect, citing productive conversations with Middle East leadership, and instead offered trade and investment deals with Gulf allies for safe passage.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "blockade_and_hormuz_policy",
+      "rationale": "Both The Guardian (July 14) and BBC News confirm Trump reversed the toll proposal, with BBC noting the alternative offer of trade and investment deals; these outlets span center-left sources but the factual reversal is independently reported in detail by both.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian framed it as Trump 'backed down from a threat,' made while meeting Iraqi PM Ali al-Zaidi, with the blockade on Iranian ports to continue.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC described it as Trump 'abandoned that proposal completely,' offering instead 'trade and investment deals' with Gulf allies implying safe passage in return.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Trump's proposed 20% Hormuz toll contradicted the prior stated US policy position: Secretary of State Marco Rubio had recently declared that no country is allowed to charge tolls or fees on an international waterway under existing international law.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "blockade_and_hormuz_policy",
+      "rationale": "Both The Guardian and BBC News highlight the contradiction between Trump's toll demand and Rubio's prior statements, drawing on center-left and center-left sources that nonetheless independently surface the same policy inconsistency.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian emphasized the contradiction explicitly, quoting Rubio: 'No country is allowed to charge tolls or fees on an international waterway. That's existing international law.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC noted that 'just last month, US Secretary of State Marco Rubio had condemned an Iranian plan to charge fees on shipping through Hormuz' using the same legal argument.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Trump suggested the US should be known as the 'Guardian of the Strait of Hormuz,' stated the US would 'probably run it,' and said the US should be reimbursed for controlling the waterway.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "blockade_and_hormuz_policy",
+      "rationale": "Both Guardian articles (center-left) report Trump's 'guardian' framing and reimbursement claim; no cross-spectrum corroboration is present.",
+      "framing_variants": [
+        {
+          "characterization": "Quoted Trump from Truth Social calling for the US to be 'Guardian of the Strait of Hormuz,' and from Fox News saying 'We're going to keep the strait, and we'll probably run it.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Referenced Iran's Foreign Minister responding directly to Trump's 'guardian' claim by asserting Tehran would be the guardian 'for ever.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Iran's IRGC and foreign ministry both asserted Iran's sovereignty and management over the Strait of Hormuz; the US asserted it would take control and act as guardian of the strait.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "blockade_and_hormuz_policy",
+      "rationale": "The US and Iran make directly contradictory claims about who has authority over the Strait of Hormuz; all four sources reporting the dispute confirm both actors' positions.",
+      "framing_variants": [
+        {
+          "characterization": "Reported IRGC spokesperson Mohebi saying Tehran would 'continue to exercise sovereignty over and management of the strait of Hormuz,' while Trump said the US would 'probably run it.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Quoted Iran's FM Araghchi saying Tehran would be the guardian 'for ever,' set against Trump's 'guardian of the strait' framing.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC noted Iran 'has been intent on asserting a role in overseeing shipping in Hormuz,' contrasting with Trump's toll and guardian proposals.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Ynet briefly noted the strait remains open while Iran faces a blockade, implying contested control.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The International Maritime Organization stated it stands firmly against charging fees for passage through straits used for international navigation and that there is no legal basis for mandatory tolls on strait transit.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian's July 13 article reports the IMO's legal position and its statement that it was awaiting more information about Trump's proposal.",
+      "framing_variants": [
+        {
+          "characterization": "The IMO described as a UN agency, stating it 'stands firmly against charging fees for passage' and finding 'no legal basis' for the toll.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The US launched multiple consecutive nights of military strikes against Iran targeting air defence systems, coastal radar sites, missile and drone capabilities, small boats, and port cities including Bushehr and Bandar Abbas.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "The Guardian (two articles, center-left) and BBC News (center-left) all confirm ongoing US strikes against Iran across multiple nights, with consistent detail on target categories and locations.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as 'third consecutive night of strikes,' with Sunday's strikes using aircraft, naval vessels, and drones against air defence, radar, missiles, drone capabilities, and small boats; explosions heard on Qeshm Island and Bandar Abbas Monday morning.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Described Tuesday's operation as a 'five-hour operation' hitting targets across Iran including Bushehr and Bandar Abbas, stated to be aimed at degrading Iran's ability to attack commercial shipping.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC described strikes as part of 'a flurry of new US military strikes on targets across Iran' accompanying the blockade resumption announcement.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The US military stated its strikes were intended to degrade Iran's ability to attack commercial shipping.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian's July 14 article (art_a8dce6f0d5) cites the US military's stated justification for its Tuesday strikes.",
+      "framing_variants": [
+        {
+          "characterization": "Reported that the US military 'shared videos of strikes that it said were meant to degrade Iran's ability to attack commercial shipping.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Iran's IRGC conducted retaliatory strikes targeting US military facilities in Bahrain, Kuwait, Jordan (Prince Hassan airbase), and Qatar, and claimed to have destroyed radar systems in Oman; Iran also attacked two UAE-associated tankers in the Strait of Hormuz.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both Guardian articles corroborate Iranian strikes across multiple countries and commercial shipping attacks; they span the center-left tier but are independently reported in detail.",
+      "framing_variants": [
+        {
+          "characterization": "IRGC claimed to have targeted US facilities in Bahrain and Kuwait, destroyed radar systems in Oman, hit fuel tanks and ammunition depots at Prince Hassan airbase in Jordan, all 'in response to American strikes.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reported Iran targeted Bahrain (home of US Navy fifth fleet), Jordan (hosting US air force assets), and two UAE-associated tankers in the strait; Bahrain accused Iran of targeting civilians.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "The IRGC stated its strikes were conducted in response to American strikes against Iran.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian's July 13 article explicitly records the IRGC's stated justification for its retaliatory strikes.",
+      "framing_variants": [
+        {
+          "characterization": "Reported the IRGC framed its strikes as direct retaliation 'in response to American strikes.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Bahrain, Kuwait, and Jordan each reported intercepting Iranian projectiles or missiles; Bahrain accused Iran of targeting civilians after explosions were heard in Manama.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian's July 14 article (art_a8dce6f0d5) provides the specific interception reports from Bahrain, Kuwait, and Jordan and Bahrain's civilian-targeting accusation.",
+      "framing_variants": [
+        {
+          "characterization": "Reported Bahrain intercepted 'several attacks,' Kuwait intercepted 'hostile projectiles,' and Jordan intercepted 'four missiles from Iran'; Bahrain separately accused Iran of targeting civilians.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "US attacks on Iran killed at least 28 people since the previous week according to an Agence France-Presse tally; one Indian seafarer was killed and ten others were seriously wounded by Iranian attacks on two tankers.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Only The Guardian's July 14 article reports both the AFP casualty count from US strikes and the Indian seafarer casualties from Iranian tanker attacks.",
+      "framing_variants": [
+        {
+          "characterization": "Cited AFP tally of at least 28 killed by US strikes; separately reported one Indian killed and ten wounded in Iranian tanker attacks, prompting India to summon Iran's deputy ambassador.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Thousands of people have been killed in the conflict, mainly in Iran and Lebanon.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Only The Guardian's July 13 article provides this broader casualty assessment for the overall conflict.",
+      "framing_variants": [
+        {
+          "characterization": "Stated without attribution as a general fact: 'Thousands of people have been killed, mainly in Iran and Lebanon.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "India's foreign ministry lodged a strong protest with Iran and summoned its deputy ambassador following Iranian attacks that killed one Indian seafarer and seriously wounded ten others on two tankers.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian's July 14 article reports India's diplomatic protest and the summoning of Iran's deputy ambassador.",
+      "framing_variants": [
+        {
+          "characterization": "Reported India's foreign ministry 'lodging a strong protest with Iran' and summoning its deputy ambassador in response to Indian seafarer casualties.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "The EU Aviation Safety Agency issued a warning for airlines on Tuesday to avoid flying over the airspace of Bahrain, Kuwait, Qatar, the UAE, and above the Gulf of Oman, citing unpredictable military developments.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian's July 14 article reports the EU aviation safety warning and its stated justification.",
+      "framing_variants": [
+        {
+          "characterization": "Reported the EASA warning as a response to 'unpredictable military developments' creating a risk to civil aviation.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Oil prices rose sharply in response to the blockade and escalation: Brent crude rose more than 3% on Monday according to one report; another report described a nearly 10% single-day jump on Monday — the biggest one-day increase in six years — with crude reaching a four-week high above $86 a barrel on Tuesday.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "economic_impact",
+      "rationale": "All three Guardian and BBC sources confirm oil price increases, though they report different figures (3% vs. nearly 10%) likely reflecting different measurement points or days; current prices remain below the war-period peak of nearly $120/barrel.",
+      "framing_variants": [
+        {
+          "characterization": "Reported 'Brent crude oil prices rose more than 3% on Monday,' noting they 'remained well below peaks reached earlier in the conflict.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reported crude reached 'a four-week high of more than $86 a barrel on Tuesday,' still below the wartime peak of 'nearly $120 a barrel.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC reported oil 'jumped nearly 10%' on Monday after Trump's Truth Social post, describing it as 'the biggest one-day increase in six years.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The interim ceasefire — a memorandum of understanding setting out a 60-day negotiation period toward a permanent end to the war — has largely collapsed, with the two sides making little progress on key issues including the strait, Iran's nuclear programme, and regional matters.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "ceasefire_and_negotiations",
+      "rationale": "The Guardian and BBC News consistently describe the collapse of the interim deal and stalled negotiations, with the two countries roughly halfway through the 60-day window; sources span center-left outlets independently confirming the same assessment.",
+      "framing_variants": [
+        {
+          "characterization": "Described as a 'near-total collapse of an interim ceasefire,' with the deal having 'devolved into a series of attacks over the strait of Hormuz'; Iran and US 'in theory nearly halfway through the 60-day period.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reported the two countries 'almost halfway through the 60-day period set out by the MoU,' making 'little progress on key matters such as the strait, Iran's disputed nuclear programme and regional issues.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC described 'nearly a month of on-again, off-again negotiations' and the MOU as 'intentionally vague, leaving much up to later negotiation,' with both sides claiming it as a victory.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "The MOU was intentionally vague, included Iran's commitment to safe passage of commercial vessels at no charge, billions in promised investment in Iran, and an end to international sanctions; both the US and Iran claimed the agreement as a victory for their side.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_and_negotiations",
+      "rationale": "Only BBC News provides the specific terms of the MOU including the safe passage provision, investment promise, sanctions relief, and the dual-victory framing.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reported the MOU's terms in detail, noting it was 'intentionally vague' and that 'both Americans and Iranians claimed [it] as a victory for their side.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "The war began in February with the assassination of Iran's then supreme leader Ayatollah Ali Khamenei in US-Israeli airstrikes, and has since spread across the region with Iran attacking US bases in multiple countries.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_and_negotiations",
+      "rationale": "Only The Guardian's July 13 article explicitly states the war's origin event — the assassination of Khamenei — and the regional spread of Iranian attacks on US bases.",
+      "framing_variants": [
+        {
+          "characterization": "Described the war as beginning 'in February with the assassination of Iran's then supreme leader, Ayatollah Ali Khamenei, in US-Israeli airstrikes,' with Iran subsequently attacking US bases in multiple countries.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Iran closed the Strait of Hormuz during the war, prompting the US to impose a naval blockade on Iranian ships; a subsequent MOU was supposed to reopen the strait.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "ceasefire_and_negotiations",
+      "rationale": "Both Guardian (July 14) and BBC News describe Iran's effective closure of the strait and the US blockade response as historical context for the current dispute, from the same center-left tier.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian stated 'Iran in effect closed it during the four-month war with the US' and 'the US imposed a naval blockade of Iranian ships in response.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC noted the first blockade 'helped pressure the Iranians to the negotiating table and paved the way for the memorandum of understanding.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Iran's IRGC accused the US of endangering global oil and gas supplies and warned that any US moves in the strait would be 'strongly contested'; IRGC spokesperson Hossein Mohebi said Washington 'must be held accountable.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian's July 13 article reports the IRGC's specific warnings and Mohebi's quoted statements.",
+      "framing_variants": [
+        {
+          "characterization": "Reported IRGC accused the US of 'jeopardising global oil and gas supplies,' with Mohebi quoted saying Washington 'seriously endangered the security of the world's oil and gas supply and must be held accountable.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Iran's Foreign Minister Abbas Araghchi responded to Trump's toll proposal by saying '20% is of course too much. We will be fair,' and asserted Tehran would be the guardian of the strait 'for ever.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian's July 14 article quotes Araghchi's specific response to Trump's toll proposal and his claim of permanent Iranian guardianship of the strait.",
+      "framing_variants": [
+        {
+          "characterization": "Araghchi's response framed as a sardonic counter-offer, directly challenging Trump's 'guardian' framing with Iran's own permanent claim.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "UN Secretary-General António Guterres warned that a return to full-scale hostilities would have 'catastrophic consequences.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian's July 13 article reports Guterres's warning about catastrophic consequences from renewed full-scale hostilities.",
+      "framing_variants": [
+        {
+          "characterization": "Guterres's statement presented as a direct quote warning of catastrophic consequences from escalation.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "Trump promised at least two more rounds of strikes on Iran, told Hugh Hewitt the US would 'hit them very hard tonight and hit them hard tomorrow,' and said Iran had 'nothing going, other than they have big mouths.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian's July 13 article reports Trump's Hugh Hewitt interview quotes and his promise of additional strikes.",
+      "framing_variants": [
+        {
+          "characterization": "Presented Trump's statements as bravado, quoting him dismissing Iran's military capability while promising imminent continued strikes.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "Iran's top negotiator Mohammad Bagher Ghalibaf posted on social media: 'The era of one-sided deals is OVER. We told you: keep your word or pay the price. Reality is knocking.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_and_negotiations",
+      "rationale": "Only The Guardian's July 13 article reports Ghalibaf's social media post characterizing the breakdown in negotiations.",
+      "framing_variants": [
+        {
+          "characterization": "Ghalibaf's post presented as Iran's negotiating position hardening, rejecting what it characterizes as one-sided US demands.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-16T14:49:11.904527+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "In mid-July 2026, US President Donald Trump announced the reimposition of a naval blockade on Iran, covering all of Iran's ports, oil terminals, and coastal areas, and applying to all vessel traffic regardless of flag. The blockade marked a sharp escalation in the months-long standoff between Washington and Tehran following a February conflict that had killed thousands across the region.",
+        "supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004",
+            "src_005",
+            "src_001"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Trump proposed a 20% toll or tariff on all cargoes and vessels transiting the Strait of Hormuz, framing it as reimbursement for US security provision in the critical waterway. The proposal, which drew immediate international attention, would have applied to all commercial shipping passing through the strait, through which roughly a fifth of global oil supplies transit.",
+        "supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004",
+            "src_005",
+            "src_001"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The conflict's origins trace to February 2026, when the war began with the assassination of Iran's then supreme leader Ayatollah Ali Khamenei in US-Israeli airstrikes. The fighting has since spread across the region, with Iran attacking US military bases in multiple countries. An interim ceasefire — a memorandum of understanding setting out a 60-day negotiation period toward a permanent end to the war — has largely collapsed, with the two sides making little progress on key issues including control of the strait, Iran's nuclear programme, and broader regional matters. The countries were roughly halfway through the 60-day window as the latest escalation unfolded.",
+        "supports": {
+          "claim_ids": [
+            "clm_021",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Iran had closed the Strait of Hormuz during the earlier phase of the war, prompting the US to impose a naval blockade on Iranian ships. The subsequent memorandum of understanding was supposed to reopen the strait and included Iran's commitment to safe passage of commercial vessels at no charge, billions in promised investment in Iran, and an end to international sanctions. Both the US and Iran claimed the agreement as a victory for their side, but the intentionally vague terms left key disputes unresolved.",
+        "supports": {
+          "claim_ids": [
+            "clm_022",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Trump retracted the 20% Strait of Hormuz toll proposal approximately five hours before it was due to take effect. Citing productive conversations with Middle East leadership, he instead offered trade and investment deals with Gulf allies in exchange for guaranteeing safe passage through the waterway. The reversal came after the toll had drawn criticism from international maritime authorities and regional partners.",
+        "supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Center-left outlets highlighted that Trump's proposed 20% Hormuz toll contradicted the administration's own stated policy position: Secretary of State Marco Rubio had recently declared that no country is allowed to charge tolls or fees on an international waterway under existing international law. The same sources reported that Trump suggested the US should be known as the 'Guardian of the Strait of Hormuz,' stated the US would 'probably run it,' and said the US should be reimbursed for controlling the waterway.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The US launched multiple consecutive nights of military strikes against Iran targeting air defence systems, coastal radar sites, missile and drone capabilities, small boats, and port cities including Bushehr and Bandar Abbas. Center-left outlets reported these operations began in the days leading up to the blockade announcement and continued through mid-July.",
+        "supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Iran's Islamic Revolutionary Guard Corps conducted retaliatory strikes targeting US military facilities in Bahrain, Kuwait, Jordan's Prince Hassan airbase, and Qatar, and claimed to have destroyed radar systems in Oman. Iranian forces also attacked two UAE-associated tankers in the Strait of Hormuz. These operations were reported by center-left sources covering the escalation.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Oil prices rose sharply in response to the blockade and escalation. Center-left outlets reported varying figures for the increase: one account described Brent crude rising more than 3% on Monday, while another reported a nearly 10% single-day jump on Monday — the biggest one-day increase in six years — with crude reaching a four-week high above $86 a barrel on Tuesday. These prices remained below the war-period peak of nearly $120 per barrel.",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The Guardian reported that the US Joint Maritime Information Center announced blockade enforcement would begin on Tuesday, 14 July 2026 at 20:00 GMT, with non-compliant vessels subject to interception, diversion, capture, and the use of force. The announcement specified that neutral transit to or from non-Iranian destinations would not be impeded.",
+        "supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The Guardian reported that the US military stated its strikes were intended to degrade Iran's ability to attack commercial shipping, while Iran's IRGC stated its strikes were conducted in response to American attacks against Iran. The same outlet reported that Trump promised at least two more rounds of strikes on Iran, telling radio host Hugh Hewitt the US would 'hit them very hard tonight and hit them hard tomorrow,' and said Iran had 'nothing going, other than they have big mouths.'",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_012",
+            "clm_026"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Guardian reported that Bahrain, Kuwait, and Jordan each reported intercepting Iranian projectiles or missiles, with Bahrain accusing Iran of targeting civilians after explosions were heard in Manama. According to an Agence France-Presse tally cited by the same outlet, US attacks on Iran killed at least 28 people since the previous week, while one Indian seafarer was killed and ten others were seriously wounded by Iranian attacks on two tankers.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Guardian reported that thousands of people have been killed in the conflict, mainly in Iran and Lebanon, though no specific breakdown of casualties by country or party was provided.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "The Guardian reported that India's foreign ministry lodged a strong protest with Iran and summoned its deputy ambassador following Iranian attacks that killed one Indian seafarer and seriously wounded ten others on two tankers. The same outlet reported that the EU Aviation Safety Agency issued a warning for airlines on Tuesday to avoid flying over the airspace of Bahrain, Kuwait, Qatar, the UAE, and above the Gulf of Oman, citing unpredictable military developments.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "The Guardian reported that the International Maritime Organization stated it stands firmly against charging fees for passage through straits used for international navigation and that there is no legal basis for mandatory tolls on strait transit. The organization said it was awaiting more information about Trump's proposal.",
+        "supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "The Guardian reported that Iran's IRGC accused the US of endangering global oil and gas supplies and warned that any US moves in the strait would be 'strongly contested.' IRGC spokesperson Hossein Mohebi said Washington 'must be held accountable.' The same outlet reported that Iran's Foreign Minister Abbas Araghchi responded to Trump's toll proposal by saying '20% is of course too much. We will be fair,' and asserted Tehran would be the guardian of the strait 'for ever.'",
+        "supports": {
+          "claim_ids": [
+            "clm_023",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p17",
+        "text": "The Guardian reported that UN Secretary-General António Guterres warned that a return to full-scale hostilities would have 'catastrophic consequences.' The same outlet reported that Iran's top negotiator Mohammad Bagher Ghalibaf posted on social media: 'The era of one-sided deals is OVER. We told you: keep your word or pay the price. Reality is knocking.'",
+        "supports": {
+          "claim_ids": [
+            "clm_025",
+            "clm_027"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p18",
+        "text": "The United States and Iran advanced directly contradictory claims about who has authority over the Strait of Hormuz. Iran's IRGC and foreign ministry both asserted Iran's sovereignty and management over the strait, while the US asserted it would take control and act as guardian of the waterway. Outlets across the political spectrum — including center-left sources The Guardian and BBC News, and center-right Israeli outlet Ynet News — all confirmed that both actors made these opposing claims.",
+        "supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005",
+            "src_001"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}
