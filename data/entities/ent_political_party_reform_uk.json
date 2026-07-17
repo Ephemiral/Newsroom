@@ -1,0 +1,68 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_political_party_reform_uk",
+  "type": "political_party",
+  "canonical_name": "Reform UK",
+  "aliases": [],
+  "wikidata_qid": "Q104721252",
+  "summary": "Reform UK, also known as the Reform Party, is a right-wing populist and far-right political party in the United Kingdom. It has seven members of Parliament in the House of Commons, two members of the London Assembly, thirty-four members of the Senedd, seventeen members of the Scottish Parliament, one police and crime commissioner, and controls twenty-six local councils.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Reform_UK"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is to the right of the Conservative Party.",
+      "source_url": "https://en.wikipedia.org/wiki/Reform_UK",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Nigel Farage has been leader of Reform UK since June 2024.",
+      "source_url": "https://en.wikipedia.org/wiki/Reform_UK",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_17_europe_001"
+  ],
+  "created_at": "2026-07-17T14:36:17.668795+00:00",
+  "last_updated": "2026-07-17T14:36:39.318631+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Reform_UK"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Reform_UK"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q104721252 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q104721252"
+    }
+  ]
+}

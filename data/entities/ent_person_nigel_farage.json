@@ -1,0 +1,96 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_nigel_farage",
+  "type": "person",
+  "canonical_name": "Nigel Farage",
+  "aliases": [
+    "Farage"
+  ],
+  "wikidata_qid": "Q318471",
+  "summary": "Nigel Paul Farage is a British politician who has been Leader of Reform UK since 2024. He served as a member of the European Parliament (MEP) for South East England from 1999 until the United Kingdom's withdrawal from the European Union (EU) in 2020, and as a Member of Parliament (MP) for Clacton from 2024 to 2026.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Nigel_Farage"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Nigel_Farage_%2845718080574%29_%28cropped%29.jpg/960px-Nigel_Farage_%2845718080574%29_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Nigel_Farage_(45718080574)_(cropped).jpg",
+    "credit": "Gage Skidmore from Peoria, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Nigel Farage (45718080574) (cropped).jpg",
+    "fetched_at": "2026-07-17T14:36:24.417905+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Member of the European Parliament",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q318471",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Leader of the UK Independence Party",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q318471",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the 59th Parliament of the United Kingdom",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q318471",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Crown Steward and Bailiff of the Manor of Northstead",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q318471",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He was the leader of the UK Independence Party (UKIP) from 2006 to 2009 and from 2010 to 2016.",
+      "source_url": "https://en.wikipedia.org/wiki/Nigel_Farage",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_17_europe_001"
+  ],
+  "created_at": "2026-07-17T14:36:21.786728+00:00",
+  "last_updated": "2026-07-17T14:36:39.318809+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Nigel_Farage"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q318471 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q318471"
+    }
+  ]
+}

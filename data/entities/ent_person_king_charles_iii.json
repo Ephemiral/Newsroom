@@ -1,0 +1,95 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_king_charles_iii",
+  "type": "person",
+  "canonical_name": "King Charles III",
+  "aliases": [
+    "Charles III"
+  ],
+  "wikidata_qid": "Q43274",
+  "summary": "Charles III is King of the United Kingdom and the 14 other Commonwealth realms.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Charles_III"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/King_Charles_III_2025-09-17_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_2025-09-17_(cropped).jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:King Charles III 2025-09-17 (cropped).jpg",
+    "fetched_at": "2026-07-17T14:36:27.315838+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "member of the House of Lords",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q43274",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Prince of Wales",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q43274",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Member of the Privy Council of the United Kingdom",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q43274",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "heir apparent",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q43274",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Monarch of the United Kingdom",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q43274",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "monarch of Saint Kitts and Nevis",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q43274",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_17_europe_001"
+  ],
+  "created_at": "2026-07-17T14:36:24.581444+00:00",
+  "last_updated": "2026-07-17T14:36:39.319033+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q43274 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q43274"
+    }
+  ]
+}

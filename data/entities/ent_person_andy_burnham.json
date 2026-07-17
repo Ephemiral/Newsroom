@@ -1,0 +1,144 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_andy_burnham",
+  "type": "person",
+  "canonical_name": "Andy Burnham",
+  "aliases": [
+    "Burnham"
+  ],
+  "wikidata_qid": "Q269909",
+  "summary": "Andrew Murray Burnham is a British politician who has served as the Member of Parliament (MP) for Makerfield since June 2026. A member of the Labour and Co-operative Party, he was Mayor of Greater Manchester from 2017 to 2026.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Andy_Burnham"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Official_portrait_of_Andy_Burnham_MP_2026_%28cropped_3x4%29.jpg/960px-Official_portrait_of_Andy_Burnham_MP_2026_%28cropped_3x4%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Andy_Burnham_MP_2026_(cropped_3x4).jpg",
+    "credit": "House of Commons",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Official portrait of Andy Burnham MP 2026 (cropped 3x4).jpg",
+    "fetched_at": "2026-07-17T14:36:11.611272+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Shadow Secretary of State for Health and Social Care",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q269909",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Shadow Secretary of State for Education",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q269909",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Secretary of State for Health and Social Care",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q269909",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Secretary of State for Culture, Media and Sport",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q269909",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Chief Secretary to the Treasury",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q269909",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the 56th Parliament of the United Kingdom",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q269909",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "From 2001 to 2017 he was MP for Leigh and held several cabinet positions, lastly Secretary of State for Health from 2009 to 2010 under Gordon Brown.",
+      "source_url": "https://en.wikipedia.org/wiki/Andy_Burnham",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Burnham identifies as a socialist associated with Labour's soft left faction, and his political ideology is often described as \"Manchesterism\".",
+      "source_url": "https://en.wikipedia.org/wiki/Andy_Burnham",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "As the only candidate standing in the 2026 Labour Party leadership election, Burnham is expected to become Labour leader on 17 July and Prime Minister on 20 July 2026.",
+      "source_url": "https://en.wikipedia.org/wiki/Andy_Burnham",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_17_europe_001"
+  ],
+  "created_at": "2026-07-17T14:36:08.755262+00:00",
+  "last_updated": "2026-07-17T14:36:39.317597+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Andy_Burnham"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Andy_Burnham"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Andy_Burnham"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q269909 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q269909"
+    }
+  ]
+}

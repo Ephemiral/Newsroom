@@ -1,0 +1,95 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_political_party_labour_party",
+  "type": "political_party",
+  "canonical_name": "Labour Party",
+  "aliases": [
+    "Labour"
+  ],
+  "wikidata_qid": "Q9630",
+  "summary": "The Labour Party, commonly Labour, is a political party in the United Kingdom. It sits on the centre-left of the left–right political spectrum, and has been described as an alliance of democratic socialists, social democrats and trade unionists.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Labour_Party_(UK)"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Keir_Starmer%2C_2020_Labour_Party_leadership_election_hustings%2C_Bristol_1.jpg/960px-Keir_Starmer%2C_2020_Labour_Party_leadership_election_hustings%2C_Bristol_1.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Keir_Starmer,_2020_Labour_Party_leadership_election_hustings,_Bristol_1.jpg",
+    "credit": "Rwendland",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Keir Starmer, 2020 Labour Party leadership election hustings, Bristol 1.jpg",
+    "fetched_at": "2026-07-17T14:36:17.668008+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It has been the governing party since the 2024 general election.",
+      "source_url": "https://en.wikipedia.org/wiki/Labour_Party_(UK)",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Keir Starmer was elected Leader of the Labour Party in 2020 and Prime Minister of the United Kingdom in 2024 until June 2026 when he resigned, though he will continue to lead the United Kingdom until the 2026 Labour Party leadership election, where the new party leader will be elected and become prime minister.",
+      "source_url": "https://en.wikipedia.org/wiki/Labour_Party_(UK)",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "There have been twelve Labour governments and seven Labour prime ministers.",
+      "source_url": "https://en.wikipedia.org/wiki/Labour_Party_(UK)",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_17_europe_001"
+  ],
+  "created_at": "2026-07-17T14:36:14.630959+00:00",
+  "last_updated": "2026-07-17T14:36:39.318400+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Labour_Party_(UK)"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Labour_Party_(UK)"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Labour_Party_(UK)"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q9630 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q9630"
+    }
+  ]
+}
