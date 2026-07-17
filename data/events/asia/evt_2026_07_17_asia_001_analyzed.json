@@ -1,0 +1,1041 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_17_asia_001",
+    "beat": "asia",
+    "title": "Japan Revises Imperial House Law to Address Succession Crisis",
+    "summary": "Japan's parliament enacted a revised Imperial House Law on July 17, 2026, allowing males aged 15 or older from 11 former branch families to be adopted into the imperial family and permitting female members to retain royal status after marrying commoners, while maintaining the existing male-only succession rule.",
+    "date": "2026-07-17",
+    "generated_at": "2026-07-17T04:20:34.556772+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_emperor_naruhito",
+        "surfaces": [
+          "Emperor Naruhito"
+        ],
+        "relevance_to_event": "Current emperor with only three male heirs eligible to succeed him, making him central to the succession crisis that prompted the law revision.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008",
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_crown_prince_fumihito",
+        "surfaces": [
+          "Crown Prince Fumihito"
+        ],
+        "relevance_to_event": "Aged 60, one of only three male heirs currently eligible to succeed Emperor Naruhito, representing a critical link in the succession line addressed by the revision.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_prince_hisahito",
+        "surfaces": [
+          "Prince Hisahito"
+        ],
+        "relevance_to_event": "Aged 19, the youngest of three eligible male heirs; former Imperial Household Agency chief assessed the monarchy as 'extremely unstable' after him due to the male-only succession rule.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_021",
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_sanae_takaichi",
+        "surfaces": [
+          "Sanae Takaichi",
+          "Prime Minister Sanae Takaichi"
+        ],
+        "relevance_to_event": "Prime Minister who championed the revision; her defense of male-only imperial succession while being the first female PM adds contextual irony to the law change.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_princess_aiko",
+        "surfaces": [
+          "Princess Aiko"
+        ],
+        "relevance_to_event": "Emperor Naruhito's 24-year-old daughter ineligible to become emperor solely because she is a woman, exemplifying the succession constraints the revised law maintains.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_023"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_political_party_liberal_democratic_party",
+        "surfaces": [
+          "Liberal Democratic Party",
+          "LDP"
+        ],
+        "relevance_to_event": "Party that won a landslide February 2026 election victory under Takaichi, weakening opposition and enabling parliamentary talks to resume and ultimately pass the revision.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_imperial_house_law",
+        "surfaces": [
+          "Imperial House Law"
+        ],
+        "relevance_to_event": "The 1947 law being revised in this report; the revision modifies adoption eligibility and female retention of status while maintaining the male-only succession rule.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_japan",
+        "surfaces": [
+          "Japan"
+        ],
+        "relevance_to_event": "The nation whose parliament enacted the revised Imperial House Law on July 17, 2026, affecting governance of the world's oldest continuous monarchy.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_007",
+            "clm_011",
+            "clm_012",
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-17T04:21:51.384510+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Imperial_Palace_Tokyo_Panorama.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Imperial_Palace_Tokyo_Panorama.jpg",
+      "source_page": "https://commons.wikimedia.org/w/index.php?curid=471121",
+      "width": 2821,
+      "height": 914,
+      "caption": "Tokyo Imperial Palace (file photo)",
+      "credit": "Chris 73",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "provider": "openverse",
+      "file_title": "openverse:3ab904f7-cae1-476c-a7b8-f592b6f17d90|Imperial Palace Tokyo Panorama",
+      "query": "Imperial Palace Tokyo",
+      "fetched_at": "2026-07-17T04:21:51.384471+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3360871/japan-changes-rules-save-shrinking-monarchy-bars-female-emperors?utm_source=rss_feed",
+      "author": "Kyodo",
+      "published_at": "2026-07-17T03:12:15+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/explainer-what-are-the-changes-to-japans-imperial-family-law",
+      "author": null,
+      "published_at": "2026-07-17T03:56:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/asia-pacific/20260717-japan-imperial-succession-law-female-emperor-ban",
+      "author": "FRANCE 24",
+      "published_at": "2026-07-17T03:32:26+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/japan-revises-law-on-imperial-succession-but-woman-emperor-still-barred",
+      "author": null,
+      "published_at": "2026-07-17T03:36:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Japan's parliament enacted a revised Imperial House Law on July 17, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "legislative_action",
+      "rationale": "All four outlets across center-left, center, and center-right tiers confirm the parliamentary enactment on this date, meeting the cross-spectrum threshold for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "Frames it as Japan changing rules 'to save shrinking monarchy'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes it as 'changes to Japan's Imperial House Law enacted by Parliament on July 17'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Calls it a 'historic revision to the 19th century Imperial House Law'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'Japan's Parliament approved on July 17 a revised Imperial House Law'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The revised Imperial House Law allows the imperial family to adopt males aged 15 or older descended through the male line from 11 former branch families.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "succession_rule_changes",
+      "rationale": "All four outlets across the political spectrum report this provision consistently, satisfying the cross-spectrum agreement threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Described as one of two substantive changes permitting adoption of males aged 15 and over from former branch families",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States males must be aged 15 or older and descended through the male line; adopted males themselves barred from becoming emperor but their male-line descendants eligible",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes it as allowing 'unmarried male descendants, aged 15 or older, of distant imperial relatives — but only of paternal lineage — to be adopted into the royal family'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes it as a key provision permitting adoption of males aged 15 and over from former branch families descended through the male line",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The revised Imperial House Law allows female members of the imperial family to retain their imperial status after marrying commoners, but their spouses and children will not become members of the imperial family.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "succession_rule_changes",
+      "rationale": "All four outlets across center-left, center, and center-right tiers confirm this provision and its limitation regarding spouses and children.",
+      "framing_variants": [
+        {
+          "characterization": "Described as one of two substantive changes allowing female members to retain imperial status after marrying commoners",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Notes women will be entitled to the same annual allowance as male members (30.5 million yen for fiscal 2026) and their spouses and children will not become imperial family members",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes five single princesses, including Aiko and Kako, may be affected; spouses and children wouldn't be accepted as royals",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States female members retaining imperial status will also be listed on the Basic Resident Register like most Japanese people; spouses and children remain commoners",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The revised Imperial House Law retains the male-only succession rule, meaning women and those descended from an emperor through the female line remain ineligible to ascend the throne.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "succession_rule_changes",
+      "rationale": "All four outlets across the political spectrum consistently report that the revision does not open the throne to women or female-line descendants.",
+      "framing_variants": [
+        {
+          "characterization": "Frames it as the law keeping 'the long-standing male-only succession system' despite public support for female emperors",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'The law will not pave the way for women or people descended from an emperor through the female line to ascend the Chrysanthemum Throne'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States the legislation 'keeps the ban on female emperors' and 'only paternal-lineage men can become emperor'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes the revised law as 'retaining the longstanding male-only succession system'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Adopted male members themselves are barred from becoming emperor, but their male-line descendants are eligible to ascend the throne.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "succession_rule_changes",
+      "rationale": "Two center-left and center-right outlets both report this specific nuance of the adoption provision; no cross-spectrum outlet contradicts it, but coverage is limited to two outlets from adjacent tiers.",
+      "framing_variants": [
+        {
+          "characterization": "States 'male descendants of those adopted into the imperial family could ascend the Chrysanthemum Throne'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Explicitly states adopted members would be barred from becoming emperor but their male-line descendants would be eligible",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The revision aims to ensure the long-term sustainability of the imperial family as the number of its members continues to decline.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "legislative_action",
+      "rationale": "Two center-right outlet articles from The Straits Times both frame the revision's purpose as ensuring long-term sustainability of the shrinking imperial family.",
+      "framing_variants": [
+        {
+          "characterization": "States the revision 'aims to ensure the long-term sustainability of the world's oldest hereditary monarchy as the number of imperial family members continues to decline'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Contextualizes the revision against Japan having only three male heirs and 51 former branch members removed in 1947",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The imperial family currently has 16 members — five men and 11 women — and Japan has only three male heirs eligible to succeed Emperor Naruhito.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "imperial_family_demographics",
+      "rationale": "All four outlets across the political spectrum report the 16-member total and the existence of only three male heirs, with center and center-right outlets specifying the five men/11 women breakdown.",
+      "framing_variants": [
+        {
+          "characterization": "Notes 'the current 16-member imperial family' and 'Japan has only three male heirs to Emperor Naruhito'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'The family now has 16 members – five men and 11 women' and identifies the three heirs by name and age",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'there are 16 adults in the imperial family' with 'only five… are men' and notes 'there are no children'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'the current 16-member imperial family' and 'Japan has only three male heirs to Emperor Naruhito'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The three male heirs eligible to succeed Emperor Naruhito are his younger brother Crown Prince Fumihito (aged 60), his nephew Prince Hisahito (aged 19), and his uncle Prince Hitachi (aged 90).",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "imperial_family_demographics",
+      "rationale": "Both the center and center-right outlets identify the same three heirs with the same ages, satisfying the cross-spectrum agreement requirement.",
+      "framing_variants": [
+        {
+          "characterization": "Lists all three heirs with ages and family relationships; notes Prince Hitachi is 90",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes Crown Prince Akishino 'is only six years younger than the emperor' and 'has reportedly said he would be too old to serve'; Prince Hisahito is 'the first such boy to be born in four decades'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Opinion polls show broad public support for allowing women to ascend the throne, including a May Kyodo News poll showing 83 per cent of respondents in favour and 13.1 per cent opposed.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "public_opinion",
+      "rationale": "Three outlets spanning center and center-right tiers all reference strong public support for female emperors; the specific Kyodo poll figures appear in both Straits Times articles.",
+      "framing_variants": [
+        {
+          "characterization": "States 'opinion polls suggest a female emperor has strong public support' without citing specific figures",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "References 'opinion polls showing broad public support for allowing women to ascend the Chrysanthemum Throne'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Cites specific Kyodo News poll: 83% in favour, 13.1% opposed to allowing female emperors",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Prime Minister Sanae Takaichi and other conservatives, including members of the Liberal Democratic Party, argue that the male bloodline is 'the only source of the emperor's authority and legitimacy' and want to preserve the tradition of male paternal-line succession.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "political_positions",
+      "rationale": "All four outlets across center-left, center, and center-right tiers report the conservative position on preserving male-line succession, with the France 24 article providing the direct quote on authority and legitimacy.",
+      "framing_variants": [
+        {
+          "characterization": "Frames the LDP and Japan Innovation Party as having been 'criticised for their apparent push to preserve the tradition of male and paternal-line imperial succession'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'many conservatives, including members of Prime Minister Sanae Takaichi's Liberal Democratic Party, want to preserve the tradition of limiting succession to males descended from an emperor through the male line'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Directly quotes Takaichi and conservatives insisting the male bloodline is 'the only source of the emperor's authority and legitimacy'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Notes the conservative ruling coalition led by Takaichi pursued the revision while retaining the male-only succession system",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Sanae Takaichi is the first woman to serve as Japan's Prime Minister.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "political_positions",
+      "rationale": "Only one outlet explicitly notes that Takaichi is Japan's first female prime minister, though other articles identify her as PM without this characterization.",
+      "framing_variants": [
+        {
+          "characterization": "Describes Takaichi as 'the first woman to lead Japan as premier'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "The 11 former branch families lost their imperial status in 1947 under US occupation following Japan's defeat in World War II; 51 members renounced royal status, partly to ease the postwar financial burden on the monarchy.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Three outlets across center and center-right tiers confirm the 1947 stripping of imperial status under US occupation; the France 24 article adds the financial rationale.",
+      "framing_variants": [
+        {
+          "characterization": "States the 11 former branch families were 'stripped of their imperial status in 1947 under the US occupation following Japan's defeat in World War II'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States '51 members from 11 branch families renounced their royal status in 1947, mainly to ease the postwar financial burden on the monarchy'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'a total of 51 members of the 11 former branches were removed from the imperial family' under the 1947 law that 'took effect while Japan was under US occupation'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "The 11 former branch families and the current emperor share a common male-line ancestor dating back approximately 600 years, and members of these families are separated from the current emperor by 36 to 38 degrees of kinship.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Two outlets from different bias tiers — center-right Straits Times and center France 24 — both report the 600-year common ancestor and the degree of genealogical separation.",
+      "framing_variants": [
+        {
+          "characterization": "States the families share 'a common male-line ancestor dating back around 600 years' and are 'separated by 36 to 38 degrees of kinship'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States they are 'at least 36 generations removed from Naruhito' and 'split from a common male-line ancestor 600 years ago'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "The original Imperial House Law dates to 1947, replacing an 1890 law that first stipulated paternal-line male succession and was enacted when Japan promoted patriarchal systems.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Three outlets including center-left, center-right, and center confirm the 1947 law's origins; France 24 adds the 1890 antecedent and its historical context.",
+      "framing_variants": [
+        {
+          "characterization": "Refers to 'the 1947 law' without further historical elaboration",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes it as 'the 1947 Imperial House Law' aimed at ensuring 'long-term sustainability of the world's oldest hereditary monarchy'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes 'paternal-line male succession was stipulated for the first time in the 1890 Imperial House Law, when Japan promoted patriarchal systems' and 'that law was largely carried over to the current 1947 version'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Among the 126 monarchs in Japan's history, eight women have occupied the throne across 10 reigns, but all belonged to the male imperial line; the last female monarch was Empress Gosakuramachi, who ruled from 1762 to 1770.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Two outlets from different bias tiers — center-right Straits Times and center France 24 — both confirm the eight female monarchs in Japanese history and the last female reign.",
+      "framing_variants": [
+        {
+          "characterization": "States 'among the 126 monarchs in Japan's history, eight women have occupied the throne across 10 reigns' including Empress Suiko and Empress Jito; 'all belonged to the male imperial line'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'there have been eight female monarchs' and 'the last was Empress Gosakuramachi, who ruled from 1762 to 1770'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Cross-party parliamentary talks began in January 2022 but made little progress due to disagreements over allowing men from former branch families to be adopted into the imperial family; a breakthrough came when the LDP under Takaichi won a landslide election victory in February 2026, weakening the opposition and enabling the resumption of talks.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "legislative_action",
+      "rationale": "Two center-right Straits Times articles corroborate this legislative history; no outlets from other bias tiers provide contradicting or confirming information on this specific timeline.",
+      "framing_variants": [
+        {
+          "characterization": "Details the January 2022 start of talks, the stalling over adoption disagreements, and the February 2026 LDP landslide that 'weakened the opposition and paved the way for the resumption of cross-party talks'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes the LDP-JIP coalition included a pledge to revise the Imperial House Law in their agreement signed October 20, and Takaichi expressed her intention to fulfil this pledge during the current Diet session",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "The two major changes enacted were originally proposed in 2021 by a government panel, and a 2017 non-binding parliamentary resolution urged the government to address the challenges of ensuring stable imperial succession.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "legislative_action",
+      "rationale": "Both Straits Times articles corroborate the government panel origin and the 2017 parliamentary resolution, but no cross-spectrum confirmation is available.",
+      "framing_variants": [
+        {
+          "characterization": "References 'a government panel' that put forward recommendations on ensuring sufficient imperial family members",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States the two changes 'were originally proposed in 2021 by a government panel' and describes the 2017 resolution that did not address female succession",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Opposition lawmakers criticized the revision for insufficient parliamentary deliberations.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "political_positions",
+      "rationale": "Only one outlet specifically reports criticism from opposition lawmakers regarding the adequacy of parliamentary deliberations on the revision.",
+      "framing_variants": [
+        {
+          "characterization": "States the revision 'faced criticism from opposition lawmakers for insufficient parliamentary deliberations'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The revised law provides for a review of the imperial succession system roughly every 30 years if necessary.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "succession_rule_changes",
+      "rationale": "Both Straits Times articles confirm the 30-year review provision, but the claim is limited to a single outlet's two articles.",
+      "framing_variants": [
+        {
+          "characterization": "States 'the revised law provides for a review roughly every 30 years if necessary'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'the new imperial system established under the revised law will be reviewed every 30 years if necessary'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Princess Aiko is Emperor Naruhito's 24-year-old daughter and is ineligible to be emperor because she is a woman; Princess Mako previously renounced her royal status.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "imperial_family_demographics",
+      "rationale": "Only France 24 provides specific information about Princess Aiko's age, ineligibility, and Princess Mako's renunciation of royal status in this cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Notes 'Emperor Naruhito's 24-year-old daughter' Princess Aiko 'is ineligible because she is a woman'; also mentions 'Mako renounced her royal status'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Former Imperial Household Agency chief Shingo Haketa assessed that the monarchy after Prince Hisahito is 'extremely unstable,' noting the male-only system historically relied on concubines producing half the emperors until the practice ended under Emperor Taisho approximately 100 years ago.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "imperial_family_demographics",
+      "rationale": "Only France 24 reports Haketa's assessment and the historical context regarding concubines; no other outlet in the cluster cites this source or this argument.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes former Imperial Household Agency chief Haketa saying 'the monarchy after Hisahito is extremely unstable' and explains the system 'only worked in the past because concubines produced half the emperors until about 100 years ago'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "A 2005 government proposal to allow female monarchs was scrapped following the birth of Prince Hisahito.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Only France 24 reports the 2005 proposal and its withdrawal following Prince Hisahito's birth.",
+      "framing_variants": [
+        {
+          "characterization": "States 'there was a government proposal in 2005 to allow female monarchs, but it was scrapped following Hisahito's birth'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Empress Masako, a Harvard-educated former diplomat and commoner, developed a stress-induced mental condition after Princess Aiko's birth, apparently over criticism for not producing a male heir.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "imperial_family_demographics",
+      "rationale": "Only France 24 reports Empress Masako's health condition and its apparent cause in this article cluster.",
+      "framing_variants": [
+        {
+          "characterization": "States Empress Masako 'developed a stress-induced mental condition' after Aiko's birth, 'apparently over criticism for not producing a male heir'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Female members who retain imperial status under the revision will be listed on the Basic Resident Register, the same as most Japanese people.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "succession_rule_changes",
+      "rationale": "Only one Straits Times article mentions the administrative detail of the Basic Resident Register requirement for female members retaining imperial status.",
+      "framing_variants": [
+        {
+          "characterization": "States female members retaining imperial status 'will also be listed on the Basic Resident Register, the same as most Japanese people'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "In 2017, Japan cleared the way for the first abdication of an emperor in two centuries, which generated momentum for addressing imperial succession challenges.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "historical_context",
+      "rationale": "Only The Straits Times (art_3e02a3ba6f) explicitly links the 2017 abdication legislation to the momentum for broader succession reform.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Momentum began to build in 2017, when Japan cleared the way for the first abdication of an emperor in two centuries'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "The Imperial House Law has governed Japanese imperial succession since 1947, replacing an 1890 law that first codified paternal-line male succession. Under both laws, only males descended from the emperor through the male line can ascend the throne.",
+      "sources": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-17T04:21:11.875263+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Japan's parliament enacted a revised Imperial House Law on July 17, 2026, marking a significant change to the rules governing the world's oldest continuous monarchy. The revision allows the imperial family to adopt males aged 15 or older descended through the male line from 11 former branch families that lost their imperial status in 1947. These adopted members themselves cannot become emperor, but their male-line descendants will be eligible to ascend the throne.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The law also allows female members of the imperial family to retain their imperial status after marrying commoners, though their spouses and children will not become members of the imperial family. Despite these changes, the revision retains the male-only succession rule, meaning women and those descended from an emperor through the female line remain ineligible to ascend the throne.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The imperial family currently has 16 members — five men and 11 women — with only three male heirs eligible to succeed Emperor Naruhito. These three are his younger brother Crown Prince Fumihito, aged 60, his nephew Prince Hisahito, aged 19, and his uncle Prince Hitachi, aged 90. The dwindling number of potential heirs has created what experts describe as a succession crisis.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The 11 former branch families eligible for adoption lost their imperial status in 1947 under US occupation following Japan's defeat in World War II, when 51 members renounced royal status partly to ease the postwar financial burden on the monarchy. These families and the current emperor share a common male-line ancestor dating back approximately 600 years, with members separated from Emperor Naruhito by 36 to 38 degrees of kinship.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The current Imperial House Law dates to 1947, replacing an 1890 law that first stipulated paternal-line male succession and was enacted when Japan promoted patriarchal systems. Among the 126 monarchs in Japan's history, eight women have occupied the throne across 10 reigns, though all belonged to the male imperial line. The last female monarch was Empress Gosakuramachi, who ruled from 1762 to 1770.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Prime Minister Sanae Takaichi and other conservatives, including members of the Liberal Democratic Party, argue that the male bloodline is \"the only source of the emperor's authority and legitimacy\" and want to preserve the tradition of male paternal-line succession. This position stands in stark contrast to public sentiment: opinion polls show broad support for allowing women to ascend the throne, including a May Kyodo News poll showing 83 percent of respondents in favor and 13.1 percent opposed.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Center-right outlets frame the revision as aiming to ensure the long-term sustainability of the imperial family as the number of its members continues to decline. The two major changes enacted were originally proposed in 2021 by a government panel, and a 2017 non-binding parliamentary resolution urged the government to address the challenges of ensuring stable imperial succession.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Center-right outlets report that cross-party parliamentary talks began in January 2022 but made little progress due to disagreements over allowing men from former branch families to be adopted into the imperial family. A breakthrough came when the LDP under Takaichi won a landslide election victory in February 2026, weakening the opposition and enabling the resumption of talks. The revised law provides for a review of the imperial succession system roughly every 30 years if necessary.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "One center-right outlet noted that Sanae Takaichi is the first woman to serve as Japan's Prime Minister, a detail that adds irony to her defense of male-only imperial succession. The same outlet reported that opposition lawmakers criticized the revision for insufficient parliamentary deliberations.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "France 24 provided specific details about the imperial family's current composition, noting that Princess Aiko, Emperor Naruhito's 24-year-old daughter, is ineligible to be emperor because she is a woman, and that Princess Mako previously renounced her royal status. The outlet also reported that female members who retain imperial status under the revision will be listed on the Basic Resident Register, the same as most Japanese people.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "France 24 quoted former Imperial Household Agency chief Shingo Haketa assessing that the monarchy after Prince Hisahito is \"extremely unstable.\" Haketa noted that the male-only system historically relied on concubines producing half the emperors until the practice ended under Emperor Taisho approximately 100 years ago, a historical context not mentioned by other outlets in this coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "France 24 also reported that a 2005 government proposal to allow female monarchs was scrapped following the birth of Prince Hisahito, illustrating how the existence of a male heir has previously derailed attempts at succession reform. The outlet added that Empress Masako, a Harvard-educated former diplomat and commoner, developed a stress-induced mental condition after Princess Aiko's birth, apparently over criticism for not producing a male heir.",
+        "supports": {
+          "claim_ids": [
+            "clm_022",
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "One center-right outlet explicitly linked the 2017 legislation that cleared the way for the first abdication of an emperor in two centuries to the momentum for addressing broader imperial succession challenges, a connection not drawn by other sources in this coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

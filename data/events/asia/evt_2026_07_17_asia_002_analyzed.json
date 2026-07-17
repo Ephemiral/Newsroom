@@ -1,0 +1,1018 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_17_asia_002",
+    "beat": "asia",
+    "title": "Xi Jinping Addresses World AI Conference in Shanghai, Calls for International Cooperation",
+    "summary": "Chinese President Xi Jinping spoke at the opening of the 2026 World Artificial Intelligence Conference (WAIC) in Shanghai on July 17, calling for international cooperation in AI development and opposing the dominance of any single country. The conference also saw the signing of a 29-country intergovernmental AI cooperation agreement and the launch of several new Chinese AI products.",
+    "date": "2026-07-17",
+    "generated_at": "2026-07-17T04:24:19.851115+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_xi_jinping",
+        "surfaces": [
+          "Xi Jinping",
+          "Xi"
+        ],
+        "relevance_to_event": "As President of China, Xi delivered the opening address calling for international AI cooperation and establishing a 'people-centric' governance approach, positioning this speech as a signal that AI has become central to China's geopolitical strategy.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_018",
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_wang_yi",
+        "surfaces": [
+          "Wang Yi"
+        ],
+        "relevance_to_event": "As Chinese Foreign Minister, Wang Yi signed the intergovernmental AI cooperation agreement with 29 countries on behalf of China, formally establishing the World Artificial Intelligence Cooperation Organization.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_world_artificial_intelligence_conference",
+        "surfaces": [
+          "World Artificial Intelligence Conference",
+          "WAIC"
+        ],
+        "relevance_to_event": "WAIC is the flagship annual event where Xi made his speech, attracting over 1,000 Chinese tech firms and international leaders; the conference showcased approximately 3,000 AI products and served as the venue for announcing new Chinese AI capabilities.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_006",
+            "clm_007",
+            "clm_008",
+            "clm_015",
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_world_artificial_intelligence_cooperation_organization",
+        "surfaces": [
+          "World Artificial Intelligence Cooperation Organization"
+        ],
+        "relevance_to_event": "This intergovernmental organization was formally established through a 29-country agreement signed during the conference period, headquartered in Shanghai, representing Xi's call for international cooperation materialized into institutional form.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_shanghai",
+        "surfaces": [
+          "Shanghai"
+        ],
+        "relevance_to_event": "The geographic host city of both the 2026 WAIC and the headquarters of the newly established World Artificial Intelligence Cooperation Organization, making it the physical center of the event and the new AI cooperation framework.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_united_states",
+        "surfaces": [
+          "United States",
+          "US",
+          "Washington"
+        ],
+        "relevance_to_event": "The report frames US export controls on advanced semiconductors and AI models as the geopolitical backdrop against which Xi's call for international cooperation and China's accelerated AI development must be understood.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007",
+            "clm_009",
+            "clm_010",
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_kimi_k3",
+        "surfaces": [
+          "Kimi K3"
+        ],
+        "relevance_to_event": "A flagship AI model released by Chinese startup Moonshot AI during WAIC on July 17, showcased as evidence of Chinese AI capabilities reportedly rivalling top US offerings.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_deepseek",
+        "surfaces": [
+          "DeepSeek"
+        ],
+        "relevance_to_event": "Cited as an example of Chinese AI companies releasing powerful models at low cost, driving global adoption and challenging US AI dominance, illustrating the competitive context of the conference.",
+        "relevance_supports": {
+          "claim_ids": [],
+          "source_ids": []
+        },
+        "relevance_grounding": "sources_fallback"
+      }
+    ],
+    "image_attempted_at": "2026-07-17T04:25:29.800036+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Shanghai_International_Conference_Center%2C_Huangpu_River_and_the_Bund.jpg/1280px-Shanghai_International_Conference_Center%2C_Huangpu_River_and_the_Bund.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Shanghai_International_Conference_Center%2C_Huangpu_River_and_the_Bund.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Shanghai_International_Conference_Center,_Huangpu_River_and_the_Bund.jpg",
+      "width": 1200,
+      "height": 816,
+      "caption": "Shanghai International Conference Center, venue for major international conferences in Shanghai",
+      "credit": "Daniel Case",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Shanghai International Conference Center, Huangpu River and the Bund.jpg",
+      "query": "Shanghai conference center",
+      "fetched_at": "2026-07-17T04:25:29.800001+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/chinas-xi-says-ai-should-not-be-dominated-by-one-country",
+      "author": null,
+      "published_at": "2026-07-17T03:40:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/tech/policy/article/3360858/chinas-xi-jinping-addresses-world-ai-conference-us-tech-rivalry-heats?utm_source=rss_feed",
+      "author": "SCMP Reporters",
+      "published_at": "2026-07-17T02:01:07+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/asia-pacific/20260717-china-s-xi-urges-global-cooperation-on-ai-warns-against-single-country-dominance",
+      "author": "FRANCE 24",
+      "published_at": "2026-07-17T03:19:21+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/07/17/asia-pacific/china-ai-rise-xi-jinping/",
+      "author": null,
+      "published_at": "2026-07-17T01:14:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Xi Jinping spoke at the opening of the 2026 World Artificial Intelligence Conference (WAIC) in Shanghai on July 17.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "conference_overview",
+      "rationale": "All four outlets across center-left, center, and center-right confirm Xi's attendance and speech at WAIC, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Reported straightforwardly as Xi making a statement at WAIC's opening.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Xi's personal attendance 'elevated the conference's profile' and signalled AI as a cornerstone of geopolitical strategy.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Described as Xi making remarks at a major conference in Shanghai.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Framed as Xi's 'debut' at the event, where he is expected to make his case for China's role in AI governance.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Xi Jinping stated that AI development should not be dominated by a single country and called for international cooperation, saying it should be 'a symphony of international cooperation' rather than 'a solo performance by a single country.'",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "xi_speech_positions",
+      "rationale": "Sources across center-left, center, and center-right all report this core message from Xi's speech, with multiple outlets citing the same direct quote.",
+      "framing_variants": [
+        {
+          "characterization": "Quoted Xi directly: 'AI development should not be a solo performance by a single country, but a symphony of international cooperation.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reported Xi calling for greater international cooperation on AI development and governance.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Led with Xi's call as the main news: 'Artificial intelligence should not be dominated by a single country.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Framed as Xi using the conference to assert China's claim to shaping AI's global rules.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Xi Jinping stated that countries should jointly oppose overstretching the national security concept in AI or placing one country's security over that of others.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "xi_speech_positions",
+      "rationale": "Two outlets from different bias tiers (center-right and center) both cite this direct quote from Xi's speech.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as Xi's call to oppose security-based restrictions on AI, in context of US and EU restrictions on Chinese tech.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reported as a direct quote alongside Xi's broader call for international cooperation.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Xi Jinping called for laws, regulations, technological monitoring, early warning, and emergency response systems to ensure AI remains under human control, and advocated a 'people-centric' approach to AI governance.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "xi_speech_positions",
+      "rationale": "Both a center-right and a center outlet report these specific governance proposals from Xi's speech, including the direct quote.",
+      "framing_variants": [
+        {
+          "characterization": "Quoted Xi calling for measures 'to ensure AI is always under human control,' alongside a 'people-centric' approach.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reported each element—laws, monitoring, early warning, emergency response—and noted Xi's call for a 'people-centric' approach.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Chinese state media and officials framed China's openness on AI as an antidote to global restrictions, with People's Daily warning against an 'AI Iron Curtain' and contrasting an 'oil mindset' that hoards data with a 'water' approach treating AI as a public good.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "xi_speech_positions",
+      "rationale": "Only The Japan Times specifically reports on the People's Daily's 'AI Iron Curtain' warning and the oil/water framing metaphor used by Chinese state media.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as a preview of Xi's expected position, noting that state media 'cast China's openness as the antidote to a world of walls' and the Communist Party's flagship mouthpiece warned against an 'AI Iron Curtain.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The WAIC is described as China's largest or most important annual event for the AI industry, lasting four days and drawing more than 1,000 Chinese tech firms along with officials, researchers, and industry figures, with around 3,000 products on display.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "conference_overview",
+      "rationale": "Center-right, center-left, and center outlets all confirm the conference's scale and significance, though they use slightly different superlatives ('most important annual event' vs. 'China's largest annual event').",
+      "framing_variants": [
+        {
+          "characterization": "Called 'the most important annual event for understanding the direction of China's AI industry,' quoting analyst Poe Zhao; reported four-day format with 1,000+ firms and ~3,000 products.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Described as 'China's largest annual event for the AI industry.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Confirmed four-day format, 1,000+ firms, and ~3,000 products including semiconductor systems and an autonomous-app smartphone.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The WAIC previously attracted high-profile international figures including Elon Musk and Jack Ma as attendees.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "conference_overview",
+      "rationale": "Only The Japan Times mentions the conference's history of attracting Elon Musk and Jack Ma.",
+      "framing_variants": [
+        {
+          "characterization": "Noted as context establishing the event's significance and international profile.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "UN Secretary-General António Guterres, Cambodia's Prime Minister Hun Manet, and Thailand's Deputy Prime Minister Anutin Charnvirakul are attending WAIC.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "conference_overview",
+      "rationale": "Both a center-right and a center outlet confirm these international leaders' attendance at WAIC.",
+      "framing_variants": [
+        {
+          "characterization": "Listed as notable attendees at the conference.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Identified as leaders attending WAIC.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "On July 16, Chinese Foreign Minister Wang Yi and representatives from 29 countries—including Russia, Pakistan, and Indonesia—signed an agreement establishing an intergovernmental AI cooperation group called the World Artificial Intelligence Cooperation Organization, headquartered in Shanghai, aimed at ensuring the 'healthy and orderly' development of AI.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_ai_governance",
+      "rationale": "Both the center-right Straits Times and the center France 24 confirm the agreement's signing, the 29 countries involved, named signatories, the organization's headquarters, and its stated mission.",
+      "framing_variants": [
+        {
+          "characterization": "Reported the signing on July 16, naming Russia, Pakistan, and Indonesia among the 29 countries, and describing the organization's aim to promote consultation and collaboration.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reported the Thursday signing with the same details including headquarters in Shanghai and the 'healthy and orderly' development goal.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The United States and European Union have imposed restrictions on Chinese tech imports citing national security concerns, while Washington also maintains strict export controls on advanced semiconductors and restricts overseas access to top AI models.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "us_china_tech_competition",
+      "rationale": "Multiple outlets from different bias tiers confirm these US and EU policy measures as factual context for Xi's speech.",
+      "framing_variants": [
+        {
+          "characterization": "Cited as the context against which Xi's call to oppose overstretching the national security concept is set.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Presented as US measures that accelerated Beijing's drive for tech self-reliance.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Stated factually that restrictions are imposed 'citing national security concerns,' with a note that tussles over AI lab access have raised questions about who controls top technology.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Chinese AI models are catching up to the most powerful US offerings while attracting global users with lower costs.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "us_china_tech_competition",
+      "rationale": "All four outlets across the spectrum confirm that Chinese AI models are competitive and attractive on cost, though with varying degrees of emphasis.",
+      "framing_variants": [
+        {
+          "characterization": "Described as Chinese models catching up in performance and attracting global users with lower costs.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Framed as evidence of AI becoming a cornerstone of China's geopolitical strategy.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Presented as factual context for Xi's speech: 'Chinese AI firms challenge US rivals.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Described as giving Xi 'new bragging rights and a stronger claim to shaping the technology's global rules.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Chinese AI models' share of U.S. firms' AI usage on the OpenRouter marketplace is nearing 60%.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "us_china_tech_competition",
+      "rationale": "Only The Japan Times cites this specific OpenRouter marketplace statistic about Chinese AI models' market penetration.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as evidence of Chinese AI winning over companies worldwide, with usage nearing a 'record 60%' on OpenRouter.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "The United States retains a clear lead in advanced chips, frontier computing infrastructure, and the most capital-intensive model development, while China is the US's closest and most comprehensive AI competitor.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "us_china_tech_competition",
+      "rationale": "Both the center-right Straits Times and center France 24 cite analyst Poe Zhao of Hello China Tech for this assessment, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Attributed to Poe Zhao of Hello China Tech, presenting a nuanced picture of US leadership alongside China's competitive position.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Same attribution to Poe Zhao, framing the US lead as context for understanding the competitive landscape.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Beijing-based startup Moonshot AI released a new flagship model called Kimi K3 on July 17, with performance reportedly rivalling some of the best US AI offerings.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "chinese_ai_products",
+      "rationale": "Both the center-right Straits Times and center France 24 confirm the Kimi K3 release and its reported performance level.",
+      "framing_variants": [
+        {
+          "characterization": "Reported Kimi K3's release as evidence of Chinese AI catching up, noting it 'could reportedly rival some of the best, if not top, US offerings.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Described as a 'powerful new flagship model' whose 'performance could reportedly rival some of the best US offerings.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Huawei's Atlas 950 'supernode,' an AI architecture for learning and reasoning, and MiniMax's M3 model—described as the first mass-produced phone equipped with an autonomous AI agent—were among products showcased at WAIC.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "chinese_ai_products",
+      "rationale": "Both the center-right Straits Times and center France 24 report on these specific products displayed at WAIC.",
+      "framing_variants": [
+        {
+          "characterization": "Mentioned Huawei's Atlas 950 as an AI architecture for learning and reasoning, and noted MiniMax's M3 model on display.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Described the Atlas 950 similarly and called MiniMax's M3 'the first mass-produced phone equipped with an autonomous AI agent.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "AI has become a strategic pillar of China's industrial policy, driven by state investment aimed at building a domestic ecosystem from chip production to consumer use.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "china_ai_policy",
+      "rationale": "Both the center-right Straits Times and center France 24 confirm this characterization of China's AI industrial policy.",
+      "framing_variants": [
+        {
+          "characterization": "Stated as fact that AI is a 'strategic pillar' driven by state investment to build a domestic ecosystem.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reported similarly, noting the goal spans 'from chip production to consumer use.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Daily consumption of AI 'tokens' in China has increased a thousandfold over the past two years, according to state media citing officials.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "china_ai_policy",
+      "rationale": "Both the center-right Straits Times and center France 24 report this statistic, with France 24 noting it comes from state media citing officials.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as a measure of China's AI adoption growth.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Attributed to 'state media citing officials,' adding a sourcing caveat.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "The Chinese AI market was valued at 1.2 trillion yuan (approximately $177 billion) in 2025 and is expected to grow more than 30 percent in 2026, according to official data.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "china_ai_policy",
+      "rationale": "Both center-right and center outlets report these market figures, with France 24 attributing them to official data.",
+      "framing_variants": [
+        {
+          "characterization": "Presented the yuan figure with a Singapore dollar conversion (S$228 billion).",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Presented with a US dollar conversion ($177 billion) and attributed to official data.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "China has more generative AI patent filings than any other country, with the World Intellectual Property Organization recording more than 43,000 such filings from China between 2024 and 2025.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "china_ai_policy",
+      "rationale": "Both the center-right Straits Times and center France 24 cite WIPO data confirming China's lead in generative AI patents.",
+      "framing_variants": [
+        {
+          "characterization": "Cited as evidence of China's AI innovation pace.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Attributed directly to WIPO with the specific filing count.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "A growing number of international companies, such as Siemens in 2026, are adopting Chinese open-source AI models, attracted by their performance, lower cost, and ability to be customized.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "china_ai_policy",
+      "rationale": "Both the center-right Straits Times and center France 24 confirm international corporate adoption of Chinese open-source AI models, citing Siemens as an example.",
+      "framing_variants": [
+        {
+          "characterization": "Contrasted with US giants such as OpenAI and Anthropic that operate closed systems.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Described as a 'growing number of companies abroad' adopting Chinese models.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "The growing power of Chinese AI models has stirred security concerns in both Washington and Beijing.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "us_china_tech_competition",
+      "rationale": "Only The Japan Times specifically characterizes Chinese AI advancement as generating security alarm in both capitals simultaneously.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as a dual concern: 'their growing power stirs security alarm in Washington and Beijing alike.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Xi Jinping's personal attendance at WAIC signalled that AI development has become both a technological imperative and a cornerstone of China's geopolitical strategy.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "xi_speech_positions",
+      "rationale": "Only the South China Morning Post explicitly interprets Xi's attendance in terms of geopolitical strategy, calling it an elevation of the conference's profile.",
+      "framing_variants": [
+        {
+          "characterization": "Described Xi's personal attendance as a signal that AI is 'a cornerstone of China's geopolitical strategy,' not merely a tech matter.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "The main theme of WAIC is the transition from AI models to systems that can be deployed at scale in everyday life, with AI agents taking centre stage.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "conference_overview",
+      "rationale": "Only France 24 reports this specific thematic framing of the conference, attributed to analyst Zhao of Hello China Tech.",
+      "framing_variants": [
+        {
+          "characterization": "Attributed to Hello China Tech's Zhao: 'The main theme will be the transition from AI models to systems that can be deployed at scale in everyday life,' with AI agents described as tools for conversing, managing software, and performing complex tasks.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Beijing has accelerated its drive for technological self-reliance in response to US export controls and access restrictions.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "china_ai_policy",
+      "rationale": "Only the South China Morning Post explicitly frames China's self-reliance drive as a response to US restrictions.",
+      "framing_variants": [
+        {
+          "characterization": "Stated that as 'Washington maintains strict export controls on advanced semiconductors' and 'restricts overseas access to top AI models, Beijing has accelerated its drive for tech self-reliance.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "The World Artificial Intelligence Conference (WAIC) is China's flagship annual AI industry event, held in Shanghai, bringing together over 1,000 Chinese tech firms, officials, researchers, and international leaders to showcase the state of China's AI sector.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "The United States has imposed export controls on advanced semiconductors and restricted overseas access to top AI models, while both the US and EU have cited national security concerns in restricting Chinese tech imports, creating a backdrop of technological rivalry for Xi's call for international cooperation.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Chinese AI companies such as DeepSeek have released powerful models at low cost, challenging the dominance of US AI firms and driving rapid adoption globally, including among US companies.",
+      "sources": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "China leads the world in generative AI patent filings, according to WIPO, and its AI market—valued at 1.2 trillion yuan in 2025—is growing rapidly, underpinned by heavy state investment.",
+      "sources": [
+        "src_001",
+        "src_003"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-17T04:24:56.557870+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Chinese President Xi Jinping spoke at the opening of the 2026 World Artificial Intelligence Conference (WAIC) in Shanghai on July 17, calling for international cooperation in AI development. In his address, Xi stated that AI advancement should be \"a symphony of international cooperation\" rather than \"a solo performance by a single country,\" emphasizing that no single nation should dominate the field.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Xi called for countries to jointly oppose what he characterized as overstretching the national security concept in AI or placing one country's security above that of others. He advocated for laws, regulations, technological monitoring, early warning systems, and emergency response mechanisms to ensure AI remains under human control, proposing a \"people-centric\" approach to AI governance.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The four-day WAIC, described as China's largest annual event for the AI industry, drew more than 1,000 Chinese tech firms along with officials, researchers, and industry figures, with around 3,000 products on display. International attendees included UN Secretary-General António Guterres, Cambodia's Prime Minister Hun Manet, and Thailand's Deputy Prime Minister Anutin Charnvirakul.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "On July 16, the day before the conference opened, Chinese Foreign Minister Wang Yi and representatives from 29 countries—including Russia, Pakistan, and Indonesia—signed an agreement establishing the World Artificial Intelligence Cooperation Organization, an intergovernmental AI cooperation group headquartered in Shanghai. The organization aims to ensure the \"healthy and orderly\" development of AI.",
+        "supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "AI has become a strategic pillar of China's industrial policy, driven by state investment aimed at building a domestic ecosystem spanning chip production to consumer use. According to official data, the Chinese AI market was valued at 1.2 trillion yuan (approximately $177 billion) in 2025 and is expected to grow more than 30 percent in 2026.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "China leads globally in generative AI patent filings, with the World Intellectual Property Organization recording more than 43,000 such filings from China between 2024 and 2025. State media cited officials reporting that daily consumption of AI \"tokens\" in China has increased a thousandfold over the past two years.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Xi's speech came against a backdrop of US and EU restrictions on Chinese tech imports citing national security concerns. Washington maintains strict export controls on advanced semiconductors and restricts overseas access to top AI models. The United States retains a clear lead in advanced chips, frontier computing infrastructure, and the most capital-intensive model development, while China is the US's closest and most comprehensive AI competitor, according to analyst Poe Zhao of Hello China Tech.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Chinese AI models are catching up to the most powerful US offerings while attracting global users with lower costs. A growing number of international companies, such as Siemens in 2026, are adopting Chinese open-source AI models, drawn by their performance, lower cost, and ability to be customized.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Among new products showcased at WAIC, Beijing-based startup Moonshot AI released its flagship model Kimi K3 on July 17, with performance reportedly rivalling some of the best US AI offerings. Huawei displayed its Atlas 950 \"supernode,\" an AI architecture for learning and reasoning, while MiniMax unveiled its M3 model—described as the first mass-produced phone equipped with an autonomous AI agent.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The South China Morning Post, owned by Alibaba Group, characterized Xi's personal attendance at WAIC as signalling that AI development has become both a technological imperative and a cornerstone of China's geopolitical strategy, representing an elevation of the conference's profile.",
+        "supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "France 24 reported that the main theme of WAIC is the transition from AI models to systems that can be deployed at scale in everyday life, with AI agents taking centre stage, according to analyst Zhao of Hello China Tech.",
+        "supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Japan Times, a center-left outlet, reported that Chinese AI models' share of U.S. firms' AI usage on the OpenRouter marketplace is nearing 60%, and characterized the growing power of Chinese AI models as stirring security concerns in both Washington and Beijing.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Japan Times also noted that Chinese state media and officials framed China's openness on AI as an antidote to global restrictions, with People's Daily warning against an \"AI Iron Curtain\" and contrasting an \"oil mindset\" that hoards data with a \"water\" approach treating AI as a public good.",
+        "supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "The South China Morning Post framed Beijing's accelerated drive for technological self-reliance explicitly as a response to US export controls and access restrictions.",
+        "supports": {
+          "claim_ids": [
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

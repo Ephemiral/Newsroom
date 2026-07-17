@@ -1,0 +1,46 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_princess_aiko",
+  "type": "person",
+  "canonical_name": "Princess Aiko",
+  "aliases": [
+    "Aiko, Princess Toshi"
+  ],
+  "wikidata_qid": "Q743509",
+  "summary": "Aiko, Princess Toshi  is a member of the Imperial House of Japan. She is the only child of Emperor Naruhito and Empress Masako.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Aiko%2C_Princess_Toshi"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Princess_Aiko_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Princess_Aiko_(cropped).jpg",
+    "credit": "外務省",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Princess Aiko (cropped).jpg",
+    "fetched_at": "2026-07-17T04:21:28.526543+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_17_asia_001"
+  ],
+  "created_at": "2026-07-17T04:21:26.043748+00:00",
+  "last_updated": "2026-07-17T04:21:38.211960+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q743509 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q743509"
+    }
+  ]
+}

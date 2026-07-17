@@ -1,0 +1,88 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_emperor_naruhito",
+  "type": "person",
+  "canonical_name": "Emperor Naruhito",
+  "aliases": [
+    "Naruhito"
+  ],
+  "wikidata_qid": "Q217096",
+  "summary": "Naruhito is Emperor of Japan. He acceded to the Chrysanthemum Throne on 1 May 2019 following the abdication of his father, Akihito.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Naruhito"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Emperor_Naruhito_20250611_%2854582524056%2C_cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Emperor_Naruhito_20250611_(54582524056,_cropped).jpg",
+    "credit": "Presidencia de Guatemala",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Emperor Naruhito 20250611 (54582524056, cropped).jpg",
+    "fetched_at": "2026-07-17T04:21:18.332768+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Emperor of Japan",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q217096",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Crown Prince of Japan",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q217096",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "heir apparent",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q217096",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He is the 126th monarch, according to the traditional order of succession.",
+      "source_url": "https://en.wikipedia.org/wiki/Naruhito",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_17_asia_001"
+  ],
+  "created_at": "2026-07-17T04:21:16.093162+00:00",
+  "last_updated": "2026-07-17T04:21:38.210894+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Naruhito"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q217096 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q217096"
+    }
+  ]
+}

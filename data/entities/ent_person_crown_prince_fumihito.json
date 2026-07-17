@@ -1,0 +1,80 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_crown_prince_fumihito",
+  "type": "person",
+  "canonical_name": "Crown Prince Fumihito",
+  "aliases": [
+    "Fumihito, Crown Prince of Japan"
+  ],
+  "wikidata_qid": "Q311174",
+  "summary": "Fumihito, Crown Prince Akishino  is the heir presumptive to the Japanese throne. He is the younger brother of Emperor Naruhito, and the younger son of Emperor Emeritus Akihito and Empress Emerita Michiko.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Fumihito%2C_Crown_Prince_of_Japan"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Fumihito%2C_Crown_Prince_Akishino_%2854751644693%2C_cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Fumihito,_Crown_Prince_Akishino_(54751644693,_cropped).jpg",
+    "credit": "Foto: Isaac Castillo / Presidencia de la República del Ecuador",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Fumihito, Crown Prince Akishino (54751644693, cropped).jpg",
+    "fetched_at": "2026-07-17T04:21:21.133918+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "crown prince",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q311174",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "heir presumptive",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q311174",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Since his marriage in June 1990, he has had the title Prince Akishino  and has headed the Akishino branch of the Imperial House of Japan.",
+      "source_url": "https://en.wikipedia.org/wiki/Fumihito%2C_Crown_Prince_of_Japan",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_17_asia_001"
+  ],
+  "created_at": "2026-07-17T04:21:18.444199+00:00",
+  "last_updated": "2026-07-17T04:21:38.211299+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Fumihito%2C_Crown_Prince_of_Japan"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q311174 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q311174"
+    }
+  ]
+}

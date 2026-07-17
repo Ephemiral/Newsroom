@@ -1,0 +1,28 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_imperial_house_law",
+  "type": "technology",
+  "canonical_name": "Imperial House Law",
+  "aliases": [],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_17_asia_001"
+  ],
+  "created_at": "2026-07-17T04:21:34.033009+00:00",
+  "last_updated": "2026-07-17T04:21:38.212320+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_asia_001",
+      "source": null
+    }
+  ]
+}

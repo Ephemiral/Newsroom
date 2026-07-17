@@ -1,0 +1,68 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_deepseek",
+  "type": "organization",
+  "canonical_name": "DeepSeek",
+  "aliases": [],
+  "wikidata_qid": "Q131577453",
+  "summary": "Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., doing business as DeepSeek, is a Chinese artificial intelligence (AI) company that develops large language models (LLMs). Based in Hangzhou, Zhejiang, DeepSeek is owned and funded by High-Flyer, a Chinese hedge fund.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/DeepSeek"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "DeepSeek was founded in July 2023 by Liang Wenfeng, who serves as the CEO for both of the companies.",
+      "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The company launched an eponymous chatbot alongside its DeepSeek-R1 model in January 2025.",
+      "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_17_asia_002"
+  ],
+  "created_at": "2026-07-17T04:25:09.160900+00:00",
+  "last_updated": "2026-07-17T04:25:16.263918+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/DeepSeek"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/DeepSeek"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q131577453 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q131577453"
+    }
+  ]
+}

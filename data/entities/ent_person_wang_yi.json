@@ -1,0 +1,93 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_wang_yi",
+  "type": "person",
+  "canonical_name": "Wang Yi",
+  "aliases": [],
+  "wikidata_qid": "Q701801",
+  "summary": "Wang Yi is a Chinese diplomat and politician who is the director of the Central Committee Foreign Affairs Commission Office of the Chinese Communist Party (CCP) and Minister of Foreign Affairs.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Wang_Yi"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Jake_Sullivan_and_Wang_Yi_met_in_Bangkok_%282024%29_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Jake_Sullivan_and_Wang_Yi_met_in_Bangkok_(2024)_(cropped).jpg",
+    "credit": "Office of U.S. National Security Advisor",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Jake Sullivan and Wang Yi met in Bangkok (2024) (cropped).jpg",
+    "fetched_at": "2026-07-17T04:25:02.881531+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Minister of Foreign Affairs of the People's Republic of China",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q701801",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Director of the Taiwan Affairs Office of the Chinese Conmunist Party",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q701801",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "State councillor",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q701801",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Vice-minister of Foreign Affairs of the People's Republic of China",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q701801",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "ambassador of the People's Republic of China to Japan",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q701801",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Director-General of the Department of Asian Affairs",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q701801",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_17_asia_002"
+  ],
+  "created_at": "2026-07-17T04:25:00.685320+00:00",
+  "last_updated": "2026-07-17T04:25:16.262642+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q701801 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q701801"
+    }
+  ]
+}

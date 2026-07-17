@@ -1,0 +1,63 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_prince_hisahito",
+  "type": "person",
+  "canonical_name": "Prince Hisahito",
+  "aliases": [
+    "Prince Hisahito of Akishino"
+  ],
+  "wikidata_qid": "Q844333",
+  "summary": "Prince Hisahito of Akishino  is a member of the Imperial House of Japan. He is the youngest child and only son of Crown Prince Fumihito and Crown Princess Kiko, and the nephew of Emperor Naruhito.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Prince_Hisahito_of_Akishino"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/%E6%82%A0%E4%BB%81%E8%A6%AA%E7%8E%8B%E6%AE%BF%E4%B8%8B.jpg/960px-%E6%82%A0%E4%BB%81%E8%A6%AA%E7%8E%8B%E6%AE%BF%E4%B8%8B.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:%E6%82%A0%E4%BB%81%E8%A6%AA%E7%8E%8B%E6%AE%BF%E4%B8%8B.jpg",
+    "credit": "リニー1佐",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:悠仁親王殿下.jpg",
+    "fetched_at": "2026-07-17T04:21:23.729713+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He is second in the line of succession to the Japanese throne behind his father.",
+      "source_url": "https://en.wikipedia.org/wiki/Prince_Hisahito_of_Akishino",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_17_asia_001"
+  ],
+  "created_at": "2026-07-17T04:21:21.248785+00:00",
+  "last_updated": "2026-07-17T04:21:38.211515+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Prince_Hisahito_of_Akishino"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q844333 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q844333"
+    }
+  ]
+}

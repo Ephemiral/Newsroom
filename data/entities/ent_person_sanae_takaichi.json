@@ -1,0 +1,112 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_sanae_takaichi",
+  "type": "person",
+  "canonical_name": "Sanae Takaichi",
+  "aliases": [
+    "Prime Minister Sanae Takaichi"
+  ],
+  "wikidata_qid": "Q1705028",
+  "summary": "Sanae Takaichi  is a Japanese politician who has been Prime Minister of Japan and President of the Liberal Democratic Party (LDP) since October 2025. She is the first woman to hold either of these positions in Japanese history.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Sanae_Takaichi"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Official_portrait_of_Sanae_Takaichi%2C_Prime_Minister_of_Japan_%28HD%29.jpg/960px-Official_portrait_of_Sanae_Takaichi%2C_Prime_Minister_of_Japan_%28HD%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Sanae_Takaichi,_Prime_Minister_of_Japan_(HD).jpg",
+    "credit": "Immediate source: MOFA/Japanese Embassy to South Africa, probable source: Cabinet Public Affairs Office",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Official portrait of Sanae Takaichi, Prime Minister of Japan (HD).jpg",
+    "fetched_at": "2026-07-17T04:21:25.881553+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "member of the House of Representatives of Japan",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1705028",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of State for Gender Equality and Social Affairs",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1705028",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of State for Food Safety",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1705028",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of State for Okinawa and Northern Territories Affairs",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1705028",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of State for Science and Technology Policy",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1705028",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Internal Affairs and Communications",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1705028",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "A member of the House of Representatives from 1993 to 2003 and since 2005, she also held ministerial posts during the premierships of Shinzo Abe and Fumio Kishida.",
+      "source_url": "https://en.wikipedia.org/wiki/Sanae_Takaichi",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_17_asia_001"
+  ],
+  "created_at": "2026-07-17T04:21:23.730450+00:00",
+  "last_updated": "2026-07-17T04:21:38.211705+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Sanae_Takaichi"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q1705028 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1705028"
+    }
+  ]
+}

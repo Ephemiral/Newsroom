@@ -1,0 +1,79 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_political_party_liberal_democratic_party",
+  "type": "political_party",
+  "canonical_name": "Liberal Democratic Party",
+  "aliases": [
+    "LDP"
+  ],
+  "wikidata_qid": "Q232595",
+  "summary": "The Liberal Democratic Party, also known as Jimintō (自民党), is a major conservative and nationalist political party in Japan. Since its foundation in 1955, the LDP has been in power almost continuously—a period known as the 1955 System—except from 1993 to 1996, and again from 2009 to 2012.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Liberal_Democratic_Party_(Japan)"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Presidential_election_speech_of_the_Liberal_Democratic_Party_in_Nagano.jpg/960px-Presidential_election_speech_of_the_Liberal_Democratic_Party_in_Nagano.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Presidential_election_speech_of_the_Liberal_Democratic_Party_in_Nagano.jpg",
+    "credit": "TTTNIS",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Presidential election speech of the Liberal Democratic Party in Nagano.jpg",
+    "fetched_at": "2026-07-17T04:21:34.032294+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Sanae Takaichi has served as president of the LDP since 4 October 2025.",
+      "source_url": "https://en.wikipedia.org/wiki/Liberal_Democratic_Party_(Japan)",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "She heads a coalition government with the Japan Innovation Party (JIP) since 21 October 2025.",
+      "source_url": "https://en.wikipedia.org/wiki/Liberal_Democratic_Party_(Japan)",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_17_asia_001"
+  ],
+  "created_at": "2026-07-17T04:21:30.321149+00:00",
+  "last_updated": "2026-07-17T04:21:38.212128+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Liberal_Democratic_Party_(Japan)"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Liberal_Democratic_Party_(Japan)"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q232595 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q232595"
+    }
+  ]
+}
