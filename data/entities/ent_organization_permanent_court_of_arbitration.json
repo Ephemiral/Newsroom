@@ -1,0 +1,47 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_permanent_court_of_arbitration",
+  "type": "organization",
+  "canonical_name": "Permanent Court of Arbitration",
+  "aliases": [
+    "2016 arbitration ruling",
+    "2016 Hague arbitration ruling"
+  ],
+  "wikidata_qid": "Q1045198",
+  "summary": "The Permanent Court of Arbitration (PCA) is an intergovernmental organization headquartered at the Peace Palace, in The Hague, The Netherlands, which was built to house the PCA.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Permanent_Court_of_Arbitration"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/International_Court_of_Justice_HQ_2006.jpg/960px-International_Court_of_Justice_HQ_2006.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:International_Court_of_Justice_HQ_2006.jpg",
+    "credit": "International Court of Justice; originally uploaded by Yeu Ninje at en.wikipedia.",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:International Court of Justice HQ 2006.jpg",
+    "fetched_at": "2026-07-17T14:52:59.448906+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_asia_004",
+  "appears_in_events": [
+    "evt_2026_07_17_asia_004"
+  ],
+  "created_at": "2026-07-17T14:52:57.031539+00:00",
+  "last_updated": "2026-07-17T14:53:07.832569+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_asia_004",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q1045198 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1045198"
+    }
+  ]
+}

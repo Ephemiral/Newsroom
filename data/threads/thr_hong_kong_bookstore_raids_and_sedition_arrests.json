@@ -1,0 +1,53 @@
+{
+  "thread_schema_version": "0.2",
+  "thread_id": "thr_hong_kong_bookstore_raids_and_sedition_arrests",
+  "title": "Hong Kong bookstore raids and sedition arrests",
+  "title_source": "auto",
+  "summary": "Hong Kong national security police have conducted raids on independent bookstores and arrested individuals on suspicion of selling publications deemed seditious under national security law.",
+  "status": "developing",
+  "beats": [
+    "asia"
+  ],
+  "key_entities": [
+    "ent_organization_greenfield_book_store",
+    "ent_organization_have_a_nice_stay",
+    "ent_organization_hong_kong_national_security_department",
+    "ent_organization_hong_kong_police",
+    "ent_person_chris_tang",
+    "ent_person_jimmy_lai",
+    "ent_person_lai_ching_te",
+    "ent_person_lam_wing_kee",
+    "ent_technology_hong_kong_national_security_law_2024"
+  ],
+  "events": [
+    {
+      "cluster_id": "evt_2026_07_16_asia_001",
+      "date": "2026-07-15",
+      "chapter_summary": "Hong Kong's National Security Department raided two independent bookstores in Mong Kok on July 15, 2026, arresting five people (two men and three women) on suspicion of selling seditious publications, following a customs referral about overseas book shipments.",
+      "link_score": 1.0
+    },
+    {
+      "cluster_id": "evt_2026_07_17_asia_003",
+      "date": "2026-07-15",
+      "chapter_summary": "Police raided two specific bookstores—Have A Nice Stay and Greenfield Book Store in Mong Kok/Prince Edward—and arrested five individuals (two men and three women aged 30-59), who were released on bail two days later pending investigation.",
+      "link_score": 0.605
+    }
+  ],
+  "accountability": [],
+  "created_at": "2026-07-17T14:49:35.477417+00:00",
+  "last_updated": "2026-07-17T14:49:38.688594+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Thread created"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Added evt_2026_07_16_asia_001"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Added evt_2026_07_17_asia_003"
+    }
+  ]
+}

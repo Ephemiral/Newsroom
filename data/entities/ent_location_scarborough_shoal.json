@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_scarborough_shoal",
+  "type": "location",
+  "canonical_name": "Scarborough Shoal",
+  "aliases": [],
+  "wikidata_qid": "Q628716",
+  "summary": "Scarborough Shoal, also known as Panacot, Bajo de Masinloc, Huangyan Island, Minzhu Jiao, and Panatag Shoal, is a coral atoll/reef with an inner lagoon and several rocks above high tide, located between Macclesfield Bank to the west and Luzon to the east. Luzon is 220 kilometres (119 nmi) away and the nearest landmass.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Scarborough_Shoal"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Scarborough_Shoal_Landsat.jpg/960px-Scarborough_Shoal_Landsat.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Scarborough_Shoal_Landsat.jpg",
+    "credit": "NASA",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Scarborough Shoal Landsat.jpg",
+    "fetched_at": "2026-07-17T14:52:57.030961+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_asia_004",
+  "appears_in_events": [
+    "evt_2026_07_17_asia_004"
+  ],
+  "created_at": "2026-07-17T14:52:54.569599+00:00",
+  "last_updated": "2026-07-17T14:53:07.832430+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_asia_004",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q628716 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q628716"
+    }
+  ]
+}

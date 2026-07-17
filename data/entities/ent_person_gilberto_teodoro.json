@@ -1,0 +1,81 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_gilberto_teodoro",
+  "type": "person",
+  "canonical_name": "Gilberto Teodoro",
+  "aliases": [
+    "Gilbert Teodoro",
+    "Philippine Defence Secretary Gilberto Teodoro"
+  ],
+  "wikidata_qid": "Q1396192",
+  "summary": "Gilberto Eduardo Gerardo Cojuangco Teodoro Jr., nicknamed Gibo, is a Filipino lawyer, politician, and business executive who has served as the 23rd secretary of national defense under President Bongbong Marcos since 2023. He served in the same post from 2007 to 2009 under President Gloria Macapagal Arroyo.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Gilbert_Teodoro"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Gates_Teodoro_Press_Conference_090601_cropped4.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Gates_Teodoro_Press_Conference_090601_cropped4.jpg",
+    "credit": "Gates_Teodoro_Press_Conference_090601_cropped3.jpg: DoD photo by U.S. Air Force Master Sgt. Jerry Morrison.\nOriginal uploader was Rizalninoynapoleon at en.wikipedia\n\nderivative work: Magalhães (talk)",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Gates Teodoro Press Conference 090601 cropped4.jpg",
+    "fetched_at": "2026-07-17T14:52:47.899688+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "member of the House of Representatives",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1396192",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Secretary of National Defense",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1396192",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He was the nominee of Arroyo's Lakas–Kampi in the 2010 presidential election, which he lost to his second cousin, Benigno Aquino III.",
+      "source_url": "https://en.wikipedia.org/wiki/Gilbert_Teodoro",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_asia_004",
+  "appears_in_events": [
+    "evt_2026_07_17_asia_004"
+  ],
+  "created_at": "2026-07-17T14:52:42.081398+00:00",
+  "last_updated": "2026-07-17T14:53:07.832031+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_asia_004",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Gilbert_Teodoro"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q1396192 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1396192"
+    }
+  ]
+}

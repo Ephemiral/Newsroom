@@ -1,0 +1,983 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_17_asia_004",
+    "beat": "asia",
+    "title": "China Daily AI Monkey Video Sparks Philippine Diplomatic Protest",
+    "summary": "Chinese state media outlet China Daily posted an AI-generated video on July 10, 2026, depicting a monkey in Filipino attire, prompting the Philippines to file a formal diplomatic protest on July 17 and demand removal of the content. The incident occurred against a backdrop of heightened South China Sea tensions and coincided with Philippine commemorations of the 10th anniversary of the 2016 arbitration ruling.",
+    "date": "2026-07-17",
+    "generated_at": "2026-07-17T14:52:06.424882+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_location_mindanao",
+        "surfaces": [
+          "Philippines",
+          "Manila",
+          "Philippine"
+        ],
+        "relevance_to_event": "The Philippines filed the formal diplomatic protest on July 17, 2026, demanded removal of the video, and is the nation whose sovereignty and dignity were targeted by the AI-generated content.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_007",
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_china",
+        "surfaces": [
+          "China",
+          "Beijing",
+          "Chinese"
+        ],
+        "relevance_to_event": "China's state media outlet posted the offensive video, and China's government declined to comment while refusing to remove the content despite Philippine demands.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_china_daily",
+        "surfaces": [
+          "China Daily"
+        ],
+        "relevance_to_event": "China Daily is the Chinese state media outlet that created and posted the AI-generated monkey video on July 10, 2026, the central subject of the diplomatic dispute.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_005",
+            "clm_006",
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_gilberto_teodoro",
+        "surfaces": [
+          "Gilberto Teodoro",
+          "Philippine Defence Secretary Gilberto Teodoro"
+        ],
+        "relevance_to_event": "Philippine Defence Secretary Teodoro publicly denounced the video as 'contemptible propaganda,' and had previously been sanctioned by China in June 2026 for criticizing China's South China Sea activities.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_south_china_sea",
+        "surfaces": [
+          "South China Sea"
+        ],
+        "relevance_to_event": "The disputed maritime region is the primary subject of the video's mockery and is the geographic context for escalating tensions between Manila and Beijing.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_004",
+            "clm_005",
+            "clm_015",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_scarborough_shoal",
+        "surfaces": [
+          "Scarborough Shoal"
+        ],
+        "relevance_to_event": "This contested shoal was referenced in the video's depiction of the arbitration award being discarded, and China installed a floating barrier there in June 2026, contributing to the backdrop of heightened tensions.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_permanent_court_of_arbitration",
+        "surfaces": [
+          "Permanent Court of Arbitration",
+          "2016 arbitration ruling",
+          "2016 Hague arbitration ruling"
+        ],
+        "relevance_to_event": "The 2016 ruling by this tribunal determined China's South China Sea claims lack legal basis; the video mocked this ruling by depicting a sheet bearing 'South China Sea arbitration award' being thrown into the sea.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_spratly_islands",
+        "surfaces": [
+          "Spratly Islands"
+        ],
+        "relevance_to_event": "These contested islands are part of the South China Sea dispute that the video targeted, and their geographic proximity to the Philippines underscores Manila's legal claims.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-17T14:53:18.957675+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/People%27s_Daily_Headquarters_2015_September.jpg/1280px-People%27s_Daily_Headquarters_2015_September.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/People%27s_Daily_Headquarters_2015_September.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:People%27s_Daily_Headquarters_2015_September.jpg",
+      "width": 1200,
+      "height": 1800,
+      "caption": "People's Daily Headquarters in Beijing (file photo)",
+      "credit": "Morio",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:People's Daily Headquarters 2015 September.jpg",
+      "query": "China Daily building Beijing",
+      "fetched_at": "2026-07-17T14:53:18.957637+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cj632307934o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-17T02:37:45+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/17/philippines-china-racist-monkeys-video",
+      "author": "Reuters",
+      "published_at": "2026-07-17T04:50:28+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/philippines-condemns-chinese-state-medias-racist-video-depicting-filipinos-as-monkeys",
+      "author": null,
+      "published_at": "2026-07-16T22:46:03+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/philippine-coast-guard-condemns-racism-in-chinese-maritime-dispute-video",
+      "author": null,
+      "published_at": "2026-07-16T12:01:02+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "China Daily, a Chinese state media outlet, posted an AI-generated video on its Facebook page on July 10, 2026, depicting a monkey dressed in a traditional Filipino barong shirt.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "china_daily_video_content",
+      "rationale": "All four outlets, spanning center-left (BBC News, The Guardian) and center-right (The Straits Times), consistently report the same core fact about China Daily's video, its AI-generated nature, and the July 10 posting date.",
+      "framing_variants": [
+        {
+          "characterization": "Describes China Daily posting 'an AI-generated video featuring a monkey in a Filipino shirt' without applying an explicit racial label to the video itself.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian explicitly labels the video 'racist' and describes it as depicting 'Filipinos as monkeys,' foregrounding the racial dimension.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times reports the video as posted 'by state-run China Daily' and quotes the Philippines' diplomatic protest framing it as 'racist.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times (earlier article) describes the video as approximately one minute long and provides technical detail, noting it is a 'racist video by Chinese state media.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The video portrayed the monkey being directed by arms bearing US and Japanese flags on what to sing, being called 'stupid,' pulling a sheet of lyrics bearing the words 'South China Sea arbitration award,' and then being thrown into the sea and blasted by a vessel's water cannon.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "china_daily_video_content",
+      "rationale": "Three outlets across center-left and center-right tiers provide consistent and detailed descriptions of the video's narrative content, including the US/Japan arms, the insult, the arbitration lyrics, and the water cannon scene.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian describes the monkey as 'being directed by arms representing the US and Japan on what to sing,' emphasizing the puppet imagery.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times reproduces the same narrative arc and directly quotes the lyrics element.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times (earlier article) adds that the arms place the monkey in a 'catapult' before launching it into the water cannon, and notes the water cannon is a tool previously used by the Chinese coast guard against Filipino sailors.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The video remained on China Daily's Facebook page at the time of BBC News's reporting.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "china_daily_video_content",
+      "rationale": "Only BBC News explicitly noted the video's continued presence on China Daily's Facebook page at the time of writing; other outlets did not confirm or deny this at the same moment.",
+      "framing_variants": [
+        {
+          "characterization": "Notes the video 'remains on China Daily's Facebook page at time of writing,' implying China had not complied with the takedown demand.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The video was posted on July 10, coinciding with Philippine events marking the 10th anniversary of the 2016 South China Sea arbitration ruling.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "china_daily_video_content",
+      "rationale": "Multiple outlets spanning center-left and center-right tiers note the deliberate or coincidental timing of the video relative to Philippine anniversary commemorations.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian explicitly frames the timing as 'coinciding with Philippine events marking the 10th anniversary,' implying intentionality.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times notes the Philippines marked the anniversary on July 12 and links the video's July 10 posting to this context.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times (earlier article) similarly connects the video to the anniversary marking.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "China Daily has posted a series of clips and cartoons on Facebook in recent weeks mocking the Philippines' actions in the South China Sea, including depictions of Manila as a clown and a snake.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "china_daily_video_content",
+      "rationale": "Only BBC News reported on the broader pattern of China Daily clips and cartoons beyond the monkey video, including the specific clown and snake depictions.",
+      "framing_variants": [
+        {
+          "characterization": "BBC News frames the monkey clip as part of a sustained propaganda campaign by China Daily on Facebook.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The Philippines lodged a formal diplomatic protest with China on July 17, 2026 over the China Daily video.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "philippine_response",
+      "rationale": "Multiple outlets from center-left and center-right tiers confirm the Philippines filed a formal diplomatic protest on July 17.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times specifies the exact date and describes it as a 'diplomatic protest' over a 'racist' video.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian frames it as a demand that the video be taken down, citing the foreign ministry's statement.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC News refers to the Philippines' 'rebuke' and notes Chinese authorities had not responded.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Foreign Undersecretary Leo Herrera-Lim conveyed the Philippines' objection to the Chinese Ambassador to Manila, Jing Quan, in a meeting on July 16, and the Philippine embassy in Beijing wrote to China Daily's editor-in-chief demanding immediate takedown of the material.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "philippine_response",
+      "rationale": "Only The Straits Times provided these specific diplomatic procedural details, including the names of the officials involved and the parallel embassy-level communication.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times details the two-track diplomatic approach: a face-to-face meeting with the ambassador and a written demand to the editor-in-chief.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The Philippines demanded that China Daily take down the video, stressing that such content is inconsistent with the mutual respect expected between states.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "philippine_response",
+      "rationale": "Both The Guardian (center-left) and The Straits Times (center-right) report the Philippine demand for takedown using nearly identical language about mutual respect between states.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian quotes Manila demanding the video be taken down.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times directly quotes the demand stressing 'mutual respect expected between states.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The Philippine foreign ministry stated that the depiction of Filipinos as monkeys in the video is 'deeply offensive, distressing, and unacceptable.'",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "philippine_response",
+      "rationale": "Two Straits Times and Guardian articles report the Philippine foreign ministry's characterization, but both lean center-left or center-right without spanning a broader spectrum in corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian quotes the foreign ministry directly: 'We draw a firm line at the depiction of Filipinos as monkeys.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times reports the Philippines' description of the video as offensive and inconsistent with state-to-state respect.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Philippine Defence Secretary Gilberto Teodoro denounced the video as 'contemptible propaganda' and stated it exposed 'the weakness of a government that resorts to racism, threats and manufactured hatred.'",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "philippine_response",
+      "rationale": "Both The Guardian (center-left) and The Straits Times (center-right) directly quote Teodoro's condemnation using the same language, confirming cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian quotes Teodoro's 'contemptible propaganda' label.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times quotes both the 'contemptible propaganda' label and the fuller statement about governmental weakness.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Philippine Coast Guard spokesman Rear-Admiral Jay Tarriela publicly condemned the video as racist on July 16, sharing it on social media platform X and stating 'Filipinos are not monkeys.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "philippine_response",
+      "rationale": "Only the earlier Straits Times article reported Tarriela's specific July 16 social media condemnation with this direct quote.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times frames Tarriela as the first prominent Philippine official to publicly blast the video as racist, citing his direct quote on X.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "China's Foreign Ministry declined to comment on the video, stating it 'does not represent the official position,' while the Chinese embassy in Manila did not respond to media requests for comment.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "chinese_response",
+      "rationale": "Multiple outlets from center-left and center-right tiers report China's refusal to comment, with The Straits Times providing the specific Foreign Ministry quote about the video not representing official policy.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times quotes the Foreign Ministry as saying the video 'does not represent the official position.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian notes the Chinese embassy 'did not immediately respond to a request for comment.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times (earlier article) notes calls to the Chinese embassy were not immediately returned.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Chinese authorities have not responded to the Philippines' formal rebuke over the video.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "chinese_response",
+      "rationale": "BBC News alone explicitly characterized the absence of a Chinese official response to the formal Philippine rebuke as a notable fact at the time of publication.",
+      "framing_variants": [
+        {
+          "characterization": "BBC News frames the lack of Chinese response as significant, implying the diplomatic demand was being ignored.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "The Philippines issued a joint statement on July 12 — the 10th anniversary of the 2016 Hague arbitration ruling — signed by 13 other countries including Japan and the United States, calling the ruling legally binding.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "arbitration_ruling_anniversary",
+      "rationale": "Both Straits Times articles (center-right) consistently report the joint statement, its 14-country composition, and the July 12 anniversary date. While both are from the same outlet, the facts are also consistent with background references in other articles.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times notes the Philippines marked July 12 as the 10th anniversary and issued the joint statement calling the ruling legally binding.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times (earlier article) similarly reports the joint statement and its 14-country signatories.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "The 2016 Permanent Court of Arbitration ruling determined that China's expansive claims over most of the South China Sea have no legal basis under international law; Beijing rejects the ruling as invalid and argues the tribunal lacked jurisdiction.",
+      "classification": "agreed",
+      "dispute_type": "actor",
+      "claim_group": "arbitration_ruling_anniversary",
+      "rationale": "All four outlets report both the content of the 2016 ruling and Beijing's rejection of it; this is an actor dispute between the Philippines/international tribunal and China, reported consistently across the political spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "BBC News states the ruling found China's claims had 'no legal basis under international law' and that 'Beijing has ignored the ruling, saying the tribunal lacks jurisdiction.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian says the ruling 'invalidated China's sweeping claims' and that 'Beijing rejects the ruling.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times states the ruling found Beijing's claim 'without legal basis' and that Beijing 'has repeatedly said the 2016 ruling was invalid.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times (earlier article) reports Beijing labelled the Philippines' joint anniversary statement a 'distortion of the facts' aimed at vilifying China, while also affirming the ruling's legal finding.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Beijing labeled the Philippines' July 12 joint anniversary statement a 'distortion of the facts' aimed at vilifying China.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "arbitration_ruling_anniversary",
+      "rationale": "Only the earlier Straits Times article reported Beijing's specific characterization of the joint statement as a 'distortion of the facts.'",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times quotes Beijing's rejection of the joint statement in strong terms, framing it as a deliberate vilification campaign.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "In June 2026, China sanctioned Philippine Defence Secretary Gilberto Teodoro — barring him and his immediate family from visiting China's mainland, Hong Kong, and Macau — after he criticized China's activities in the South China Sea.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "broader_ph_china_tensions",
+      "rationale": "All four outlets, spanning center-left and center-right, consistently report the June sanctions on Teodoro and their scope, confirming this as cross-spectrum agreed fact.",
+      "framing_variants": [
+        {
+          "characterization": "BBC News describes the sanctions as barring Teodoro 'and his immediate family' from mainland China, Hong Kong, and Macau.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian lists the sanctions among a series of recent bilateral tensions, framing them as escalatory.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Straits Times notes China sanctioned Teodoro 'after he criticised China's activities in the South China Sea,' emphasizing his criticism as the stated trigger.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times (earlier article) similarly links the sanctions to Teodoro's criticism of China.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "In June 2026, China installed a floating barrier at the entrance to Scarborough Shoal, which was later removed after the Philippines filed formal diplomatic protests.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "broader_ph_china_tensions",
+      "rationale": "Both BBC News (center-left) and The Guardian (center-left) report the floating barrier installation and its removal following Philippine protests; the claim is cross-outlet corroborated within the center-left tier, though not cross-spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "BBC News states Beijing 'installed a floating barrier at the entrance to the Scarborough Shoal' and that it 'was removed after the Philippines filed formal diplomatic protests.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian describes the barrier as being 'at the entrance of the hotly contested Scarborough Shoal' and notes it was 'later removed after Philippine protests.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The Chinese Coast Guard routinely uses high-pressure water cannons against Philippine vessels in the disputed shoals, causing damage and injuries.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "broader_ph_china_tensions",
+      "rationale": "BBC News and The Straits Times both note the Chinese coast guard's use of water cannons against Philippine vessels as established context, though both reports are broadly consistent and not disputed by any source.",
+      "framing_variants": [
+        {
+          "characterization": "BBC News calls it a 'routine' practice that 'has led to damage and injuries.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times contextualizes the water cannon imagery in the video by noting the tool has been 'previously employed by the Chinese coast guard in encounters with Filipino sailors and fishermen.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "In January 2026, China filed a diplomatic protest after Philippine Coast Guard spokesman Rear-Admiral Jay Tarriela posted a photo of himself giving a speech with comical images of Chinese President Xi Jinping in the background.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "broader_ph_china_tensions",
+      "rationale": "Both Straits Times articles (center-right) report this January incident as precedent for bilateral diplomatic disputes over social media imagery, but both are from the same outlet.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times presents the January incident as a comparable precedent to the current Philippines protest, establishing a pattern of tit-for-tat diplomatic complaints.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times (earlier article) includes the same January incident as background context, noting the same Tarriela is now condemning the China Daily video.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "The Spratly Islands and Scarborough Shoal are located approximately 100 miles (160 km) from the Philippines and approximately 500 miles from China.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "broader_ph_china_tensions",
+      "rationale": "Only BBC News provided these specific geographic distance figures for the disputed islands relative to the two countries.",
+      "framing_variants": [
+        {
+          "characterization": "BBC News uses the distances to underscore the Philippines' proximity to the disputed features versus China's relative distance, implicitly supporting the Philippine legal position.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "The South China Sea dispute: China claims almost the entirety of the South China Sea, overlapping with claims by the Philippines, Vietnam, Malaysia, Brunei, and Taiwan. The Spratly Islands and Scarborough Shoal are key contested features.",
+      "sources": [
+        "src_001",
+        "src_004"
+      ]
+    },
+    {
+      "point": "The 2016 Permanent Court of Arbitration ruling: An international tribunal ruled in favor of the Philippines, concluding China's expansive South China Sea claims have no legal basis under international law. China has consistently rejected the ruling as invalid and refuses to recognize the tribunal's jurisdiction.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "China Daily is a Chinese state-run newspaper and media outlet whose social media content, while not always reflecting official government positions per the Foreign Ministry, is closely associated with Chinese state messaging.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Relations between Manila and Beijing have been increasingly tense, marked by repeated maritime confrontations, Chinese coast guard water cannon use against Philippine vessels, and reciprocal diplomatic protests over perceived insults.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-17T14:52:32.587715+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "On July 10, 2026, China Daily, a Chinese state media outlet, posted an AI-generated video on its Facebook page depicting a monkey dressed in a traditional Filipino barong shirt. The video portrayed the monkey being directed by arms bearing US and Japanese flags on what to sing, being called 'stupid,' pulling a sheet of lyrics bearing the words 'South China Sea arbitration award,' and then being thrown into the sea and blasted by a vessel's water cannon.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The video was posted on July 10, coinciding with Philippine events marking the 10th anniversary of the 2016 South China Sea arbitration ruling. On July 17, 2026, the Philippines lodged a formal diplomatic protest with China over the video and demanded that China Daily take it down, stressing that such content is inconsistent with the mutual respect expected between states.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_006",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Philippine Defence Secretary Gilberto Teodoro denounced the video as 'contemptible propaganda' and stated it exposed 'the weakness of a government that resorts to racism, threats and manufactured hatred.' China's Foreign Ministry declined to comment on the video, stating it 'does not represent the official position,' while the Chinese embassy in Manila did not respond to media requests for comment.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The 2016 Permanent Court of Arbitration ruling determined that China's expansive claims over most of the South China Sea have no legal basis under international law. Beijing rejects the ruling as invalid and argues the tribunal lacked jurisdiction. The dispute over the ruling's legitimacy remains unresolved, with the Philippines and its allies treating it as binding international law while China continues to dismiss it.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The video incident occurred against a backdrop of escalating tensions between Manila and Beijing. In June 2026, China sanctioned Philippine Defence Secretary Gilberto Teodoro — barring him and his immediate family from visiting China's mainland, Hong Kong, and Macau — after he criticized China's activities in the South China Sea.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Center-left outlets BBC News and The Guardian reported that China installed a floating barrier at the entrance to Scarborough Shoal in June 2026, which was later removed after the Philippines filed formal diplomatic protests. This incident added to a pattern of confrontations in the disputed waters.",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "BBC News and The Straits Times noted that the Chinese Coast Guard routinely uses high-pressure water cannons against Philippine vessels in the disputed shoals, causing damage and injuries. This tactic has become a regular feature of maritime confrontations between the two countries.",
+        "supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "BBC News reported that China Daily has posted a series of clips and cartoons on Facebook in recent weeks mocking the Philippines' actions in the South China Sea, including depictions of Manila as a clown and a snake. The monkey video was part of this broader pattern of social media content targeting Philippine positions.",
+        "supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Straits Times reported that Foreign Undersecretary Leo Herrera-Lim conveyed the Philippines' objection to Chinese Ambassador to Manila Jing Quan in a meeting on July 16, and that the Philippine embassy in Beijing wrote to China Daily's editor-in-chief demanding immediate takedown of the material. These diplomatic channels operated in parallel to the formal July 17 protest.",
+        "supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The Straits Times reported that on July 16, Philippine Coast Guard spokesman Rear-Admiral Jay Tarriela publicly condemned the video as racist on social media platform X, sharing it and stating 'Filipinos are not monkeys.' His statement preceded the formal diplomatic protest by one day.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The Straits Times noted that the video incident echoed a previous diplomatic dispute: in January 2026, China filed a diplomatic protest after Philippine Coast Guard spokesman Rear-Admiral Jay Tarriela posted a photo of himself giving a speech with comical images of Chinese President Xi Jinping in the background. The July 2026 incident reversed the pattern, with the Philippines protesting Chinese imagery.",
+        "supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Straits Times reported that the Philippines issued a joint statement on July 12 — the 10th anniversary of the 2016 Hague arbitration ruling — signed by 13 other countries including Japan and the United States, calling the ruling legally binding. The statement underscored Manila's effort to rally international support for the tribunal's decision.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Straits Times reported that Beijing labeled the Philippines' July 12 joint anniversary statement a 'distortion of the facts' aimed at vilifying China. This response reflected China's broader rejection of international efforts to legitimize the 2016 arbitration ruling.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "BBC News provided geographic context for the dispute, noting that the Spratly Islands and Scarborough Shoal are located approximately 100 miles (160 km) from the Philippines and approximately 500 miles from China. This proximity underlies Manila's claims that the territories fall within its exclusive economic zone.",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "BBC News reported that the video remained on China Daily's Facebook page at the time of its reporting, despite the Philippine demand for takedown. Chinese authorities had not responded to the Philippines' formal rebuke over the video.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_south_china_sea",
+  "type": "location",
+  "canonical_name": "South China Sea",
+  "aliases": [],
+  "wikidata_qid": "Q37660",
+  "summary": "The South China Sea is a marginal sea of the Western Pacific Ocean. It is bounded in the north by South China, in the west by the Indochinese Peninsula, in the east by the islands of Taiwan and northwestern Philippines, and in the south by Borneo, eastern Sumatra, and the Bangka Belitung Islands, encompassing an area of around 3,500,000 km2 (1,400,000 sq mi).",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/South_China_Sea"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Mar_de_China_Meridional_-_BM_WMS_2004.jpg/960px-Mar_de_China_Meridional_-_BM_WMS_2004.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Mar_de_China_Meridional_-_BM_WMS_2004.jpg",
+    "credit": "Serg!o",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Mar de China Meridional - BM WMS 2004.jpg",
+    "fetched_at": "2026-07-17T14:52:54.568820+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It communicates with the East China Sea via the Taiwan Strait, the Philippine Sea via the Luzon Strait, the Sulu Sea via the straits around Palawan, the Java Sea via the Karimata and Bangka Straits, and directly with the Gulf of Thailand.",
+      "source_url": "https://en.wikipedia.org/wiki/South_China_Sea",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Additionally, the Gulf of Tonkin is part of the South China Sea.",
+      "source_url": "https://en.wikipedia.org/wiki/South_China_Sea",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-17",
+      "last_updated": "2026-07-17",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_asia_004",
+  "appears_in_events": [
+    "evt_2026_07_17_asia_004"
+  ],
+  "created_at": "2026-07-17T14:52:50.114075+00:00",
+  "last_updated": "2026-07-17T14:53:07.832243+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_asia_004",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/South_China_Sea"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/South_China_Sea"
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q37660 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q37660"
+    }
+  ]
+}

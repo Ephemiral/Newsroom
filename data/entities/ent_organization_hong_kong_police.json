@@ -1,0 +1,48 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_hong_kong_police",
+  "type": "organization",
+  "canonical_name": "Hong Kong Police",
+  "aliases": [
+    "Hong Kong Police Force",
+    "Hong Kong national security police",
+    "Hong Kong police"
+  ],
+  "wikidata_qid": "Q25859",
+  "summary": "The Hong Kong Police Force (HKPF) is the primary law enforcement, investigative agency, and largest disciplined service under the Security Bureau of Hong Kong.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Hong_Kong_Police_Force"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/2014.09.27_%E6%B7%BB%E7%BE%8E%E9%81%93-DSC_3541_%2815356074086%29.jpg/960px-2014.09.27_%E6%B7%BB%E7%BE%8E%E9%81%93-DSC_3541_%2815356074086%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2014.09.27_%E6%B7%BB%E7%BE%8E%E9%81%93-DSC_3541_(15356074086).jpg",
+    "credit": "Doctor Ho",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:2014.09.27 添美道-DSC 3541 (15356074086).jpg",
+    "fetched_at": "2026-07-17T14:49:24.304531+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_17_asia_003",
+  "appears_in_events": [
+    "evt_2026_07_17_asia_003"
+  ],
+  "created_at": "2026-07-17T14:49:20.099570+00:00",
+  "last_updated": "2026-07-17T14:49:30.692214+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Entity created from evt_2026_07_17_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-07-17",
+      "summary_of_change": "Grounded from Wikidata Q25859 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q25859"
+    }
+  ]
+}
