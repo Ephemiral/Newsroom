@@ -162,3 +162,6 @@
 {"kind": "low_confidence_match", "name": "China Daily", "candidates": ["ent_location_china"], "event_id": "evt_2026_07_17_asia_004", "at": "2026-07-17T14:52:39.400457+00:00"}
 {"kind": "person_grounded", "entity_id": "ent_person_gilberto_teodoro", "name": "Gilberto Teodoro", "qid": "Q1396192", "context": "Philippine Defence Secretary who denounced the video and was sanctioned by China in June 2026", "event_id": "evt_2026_07_17_asia_004", "at": "2026-07-17T14:52:48.066520+00:00"}
 {"kind": "low_confidence_match", "name": "South China Sea", "candidates": ["ent_location_china"], "event_id": "evt_2026_07_17_asia_004", "at": "2026-07-17T14:52:50.113854+00:00"}
+{"kind": "type_conflict", "name": "Iran", "existing": "ent_organization_iran", "candidate_type": "location", "at": "2026-07-18T03:58:49.788066+00:00"}
+{"kind": "type_conflict", "name": "United States", "existing": "ent_organization_united_states", "candidate_type": "location", "at": "2026-07-18T03:58:51.765699+00:00"}
+{"kind": "low_confidence_match", "name": "United States", "candidates": ["ent_organization_us_central_command"], "event_id": "evt_2026_07_18_israel_middle_east_001", "at": "2026-07-18T03:58:53.641886+00:00"}

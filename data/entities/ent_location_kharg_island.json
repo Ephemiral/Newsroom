@@ -1,0 +1,61 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_kharg_island",
+  "type": "location",
+  "canonical_name": "Kharg Island",
+  "aliases": [],
+  "wikidata_qid": "Q913355",
+  "summary": "Kharg Island, also spelled Khark Island and often referred to as the \"Forbidden Island\", is a continental island of Iran in the Persian Gulf. The island is 25 kilometres (16 mi) off the coast of Iran and 660 kilometres (410 mi) northwest of the Strait of Hormuz.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Kharg_Island"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Khalk.jpg/960px-Khalk.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Khalk.jpg",
+    "credit": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Khalk.jpg",
+    "fetched_at": "2026-07-18T03:58:57.982229+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Administered by the adjacent coastal Bushehr Province, Kharg Island provides a sea port for the export of up to 90% of Iran's oil products, as well as supplying storage for up to 30 million barrels of oil.",
+      "source_url": "https://en.wikipedia.org/wiki/Kharg_Island",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-18",
+      "last_updated": "2026-07-18",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_18_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_18_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-18T03:58:55.877996+00:00",
+  "last_updated": "2026-07-18T03:59:06.229399+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Entity created from evt_2026_07_18_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Kharg_Island"
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikidata Q913355 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q913355"
+    }
+  ]
+}

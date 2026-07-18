@@ -1,0 +1,1019 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_18_israel_middle_east_001",
+    "beat": "israel_middle_east",
+    "title": "U.S. Conducts Seventh Night of Strikes on Iran Amid Hormuz Escalation",
+    "summary": "The U.S. military carried out its seventh consecutive night of airstrikes against Iran on July 17–18, 2026, targeting military infrastructure, while Iran retaliated against U.S. bases and Gulf state facilities. Fighting intensified around the Strait of Hormuz, where shipping has largely halted and both sides advance competing narratives about civilian casualties and infrastructure damage.",
+    "date": "2026-07-18",
+    "generated_at": "2026-07-18T03:58:21.649255+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_organization_us_central_command",
+        "surfaces": [
+          "U.S. Central Command",
+          "Centcom"
+        ],
+        "relevance_to_event": "CENTCOM coordinated and executed the seven consecutive nights of airstrikes, issued statements about target selection and casualty claims, and managed the naval blockade of Iranian ports.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_004",
+            "clm_005",
+            "clm_025"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "IRGC",
+          "Islamic Revolutionary Guard Corps"
+        ],
+        "relevance_to_event": "The IRGC claimed responsibility for retaliatory strikes on U.S. regional bases and threatened escalation; the U.S. military identified IRGC facilities at Chabahar port as targets for facilitating attacks on shipping.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_011",
+            "clm_021",
+            "clm_027"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_strait_of_hormuz",
+        "surfaces": [
+          "Strait of Hormuz"
+        ],
+        "relevance_to_event": "The strategic waterway is the central focus of the escalation, with both sides imposing competing restrictions on shipping, mine and tanker incidents, and competing transit protocols that have halted approximately one-fifth of global oil and LNG supplies.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_006",
+            "clm_007",
+            "clm_011",
+            "clm_022",
+            "clm_023"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_united_states",
+        "surfaces": [
+          "U.S.",
+          "United States",
+          "U.S. military"
+        ],
+        "relevance_to_event": "The U.S. initiated and sustained the seven-night airstrike campaign, reimposed a naval blockade, and disputed Iranian claims about civilian casualties and retaliatory strike success.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_kharg_island",
+        "surfaces": [
+          "Kharg Island"
+        ],
+        "relevance_to_event": "U.S. airstrikes struck Iran's main oil export terminal at Kharg Island according to Iranian state media reports.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_028"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_hormozgan_province",
+        "surfaces": [
+          "Hormozgan province"
+        ],
+        "relevance_to_event": "U.S. airstrikes hit bridges in this province; Iranian provincial authorities reported at least seven people killed from the strikes.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_chabahar_port",
+        "surfaces": [
+          "Chabahar port"
+        ],
+        "relevance_to_event": "The U.S. military struck a tower at this port facility, stating it was used by the IRGC to coordinate attacks on vessels in the Strait of Hormuz.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "thread_id": "thr_usiran_military_escalation_over_strait_of_hormuz",
+    "image_attempted_at": "2026-07-18T03:59:20.900282+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Haaretz (English)",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOUEsxM2pGdDd5TDJBMzVaUmZRa24tUHNkemh3QktpNzRsZXoyeHZNdzVtd3pxNlRBREUxdzB1cmQ2eEFjSFVoM2kwSEZtdkZ3SmxRZE4yeU9waXJBT0lSc2U0aXdhQ1VXRzlZTmh2OXlMN0RTcW02Z2ZyVkJraEtGbVVfODlyRW5RaTRhRHlndDd6TWI1SXJGbFp1akNFOHg1TE1nRENLdklQX09aS1NCWURoR0tOaU1SZjhwRmVDWGhNQlFYZlRfR3ZZMkc5c0MtSFdtbVZrdzU0cjl4Vk5mUWh6ZWkwTWR0VGt1aGZfZUZFeTdidW1nRmZ1bkNjaWZ4THFld2hvMHNFdw?oc=5",
+      "author": null,
+      "published_at": "2026-07-18T00:00:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-18T03:02:01+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-us-military-completes-seventh-consecutive-wave-strikes-iran",
+      "author": "Hilal Saki",
+      "published_at": "2026-07-18T02:32:32+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/17/us-launches-seventh-night-of-iran-strikes-as-hormuz-conflict-escalates",
+      "author": "William Christou and agencies",
+      "published_at": "2026-07-17T20:52:38+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IMTNqRWxjUnNabFVucUhZYS10c2xRQzVRLUNMemJCeHU1VTR3VmhsWWZfazRTUmtHaThLLThVWkF0bHB6cDFwV2F0LVE3MV9iSXdtdmVJN3o?oc=5",
+      "author": null,
+      "published_at": "2026-07-17T20:07:27+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcU5Ec2J3b2lDc21BVGR3cWYxV185VjZLdk9tTzlndk5Tc3hPblNOQXVZY3hrYjU3bW9Mek9yZXVFV2tUV2d1NThXTnZ5SkhucHh4X3VPTlkxdk9SX2FlTndvTWRRUnB4ak01QmFWVzQ2RzVaYk1pWU1VMElXRW5jaFM5czAzR2VWeF9neExJZlgwaDhvV2pJbWh4LWV1bWJ5bnRRZmVyckRhNFNwNkVjdEJGdlFYbHc4d2FBTEx0U0ZsRFVaT1RIUmNNWHlrdw?oc=5",
+      "author": null,
+      "published_at": "2026-07-17T02:30:00+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "The U.S. military carried out strikes against Iran on the seventh consecutive night (July 17–18, 2026).",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "All six outlets across left, center-left, center, and center-right report this as established fact, providing strong cross-spectrum agreement. Note: Reuters (art_df9c84ece9), published earlier, described it as the sixth consecutive night, likely reflecting a timing difference in publication.",
+      "framing_variants": [
+        {
+          "characterization": "Haaretz headlines 'U.S. Strikes Iran for Seventh Night,' framing it as ongoing escalation.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC states the US military 'said it carried out the seventh night of strikes' since Trump declared the ceasefire 'over.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Middle East Eye reports 'US military completes seventh consecutive wave of strikes on Iran.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian leads with 'seventh consecutive night of strikes on Iran' as fighting escalated over the Strait of Hormuz.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Ynet News reports 'US military launches fresh Iran strikes for seventh consecutive night.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reuters, published earlier on July 17, described it as 'marking 6th consecutive night of attacks,' reflecting an earlier publication time.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "U.S. Central Command stated the strikes targeted Iranian surveillance sites, military logistics infrastructure, underground weapons storage facilities, and maritime capabilities.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Multiple outlets across center-left (BBC, Guardian) and left (Middle East Eye) all cite the same Centcom statement about targets, providing cross-spectrum corroboration of the U.S. military's stated account.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes Centcom: forces 'hit surveillance sites, military logistics infrastructure, underground weapons storage, and maritime capabilities.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Middle East Eye reports Centcom 'struck Iranian surveillance sites, military logistics infrastructure, underground weapons storage facilities and maritime assets.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Guardian reports Centcom said strikes were designed to 'continue degrading Iranian military capabilities.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "U.S. forces employed fighter aircraft, aerial drones, warships, and other assets in the strikes.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both BBC and Middle East Eye report the same Centcom statement about assets used, but both are rated center-left or left, so this does not reach cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes Centcom: 'U.S. forces employed fighter aircraft, aerial drones, and warships in addition to other assets.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Middle East Eye states 'US forces used fighter aircraft, drones, warships and other military assets in the operation.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "U.S. Central Command ended the seventh night of strikes at 21:30 ET (02:30 BST) after several hours.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC reports the specific end time for the strikes as stated by Centcom.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports Centcom said it 'had ended its strikes at 21:30 ET (02:30 BST) after several hours.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The IRGC claimed two oil tankers exploded in the Strait of Hormuz after hitting mines; U.S. Central Command dismissed the claim as false.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "military_operations",
+      "rationale": "Both the IRGC's claim and Centcom's direct rebuttal are reported by BBC and The Guardian; the dispute is between the two actors, not between outlets.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports both the IRGC claim—amplified by Iran's state-run Fars agency—that two tankers 'exploded and caught fire while passing through a mined route south of the Strait of Hormuz,' and Centcom's rebuttal posted on X: 'Like most IRGC claims, this is false.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian reports the IRGC said 'two oil tankers had hit mines in Hormuz and exploded' and that 'the US military said that claim was false.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Shipping traffic in the Strait of Hormuz has largely stopped amid continuing U.S.–Iranian strikes.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Both BBC (center-left) and The Guardian (center-left) report the dramatic reduction in Hormuz shipping, and the broader claim is consistent across sources. The two outlets represent different titles, though both are center-left; however, combined with the factual basis of cross-outlet reporting, this is treated as corroborated.",
+      "framing_variants": [
+        {
+          "characterization": "BBC states 'Shipping traffic in the vital Strait of Hormuz has largely stopped amid the continuing tit-for-tat strikes by US and Iranian forces.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian notes 'Shipping in the waterway has been drastically reduced over the last few days as violence escalated,' adding that most ships still transiting used the Iranian route.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The Strait of Hormuz normally accounts for about one-fifth of the world's oil and liquefied natural gas supplies.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Both BBC and The Guardian cite this widely established figure for the strait's share of global energy supply, but both are center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "BBC: 'The strait normally accounts for about one-fifth of the world's oil and liquefied natural gas supplies.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian: the strait 'handled about a fifth of the world's oil and gas supply before the war.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Explosions were reported in multiple Iranian cities, including Yazd, Sirik, Ahvaz, and at Qeshm island and the port of Bandar Abbas.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "BBC and The Guardian both report explosions in Iranian cities, citing Iranian state media, though the specific cities mentioned differ slightly between reports. Both outlets are center-left.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports 'Explosions were heard in the central city of Yazd and at Qeshm island and the port of Bandar Abbas,' citing Iranian state media.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian reports 'Iranian media reported explosions heard or strikes carried out in the cities of Sirik, Ahvaz and Yazd.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "U.S. airstrikes hit bridges in Iran's Hormozgan province, with at least seven people reported killed, according to Iranian provincial authorities and state TV.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "BBC (center-left) and The Guardian (center-left) both report the bridge strikes and the seven-person death toll from Iranian sources. The claim is cross-outlet corroborated, though both lean center-left; the casualty figure originates from Iranian state/provincial sources.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports 'Provincial authorities in Hormozgan province said seven people were killed in the attacks' and that BBC Verify confirmed footage of damage to Gariveh Bridge.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian states 'US airstrikes hit bridges in Iran's southern Hormozgan province, killing at least seven people, Iranian state TV reported,' noting the bridges were a key transit point for Bandar Abbas.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The U.S. denied Iranian claims that its forces struck civilian infrastructure in Iran, including bridges, a train station, and an airport; the U.S. stated it struck exclusively military targets.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "military_operations",
+      "rationale": "Both BBC and The Guardian report Iran's claims of civilian infrastructure strikes and the U.S. denial; the dispute is between the two actors, with a White House spokesperson asserting strikes were 'exclusively on military targets.'",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports the U.S. denied 'Tehran's earlier claims that its forces hit civilian infrastructure in Iran, including bridges, a train station and an airport,' and quotes a White House spokesperson saying strikes were 'carried out exclusively on military targets, including military logistics infrastructure.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian reports the attacks 'appeared to be the follow-through of Donald Trump's promise to expand strikes against Iran, including the targeting of infrastructure and power plants,' and notes human rights experts said strikes on civilian infrastructure not used for military purposes 'could constitute a war crime.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "U.S. airstrikes brought down a tower at Chabahar port; the U.S. military stated the tower was used by the IRGC to facilitate attacks on vessels in the Strait of Hormuz.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian reports the Chabahar port tower strike and the U.S. military's stated justification for it.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian states 'US airstrikes brought down a tower in Chabahar port on the Gulf of Oman that the US military claimed the IRGC used to facilitate attacks on vessels in the strait of Hormuz.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "The U.S. also targeted electrical infrastructure and Iranshahr airport.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian reports U.S. strikes on electrical infrastructure and Iranshahr airport.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian states 'The US also targeted key electrical infrastructure and Iranshahr airport.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Iran's energy ministry told citizens to reduce electricity and air conditioning use after U.S. strikes put strain on the power grid; the ministry cited 'extreme heat and attacks on power infrastructure' in the south.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Only The Guardian reports the Iranian energy ministry's advisory to citizens and its statement about extreme heat and infrastructure attacks.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports 'Iran's energy ministry told citizens to reduce their use of electricity and air conditioning after the power grid came under strain due to US strikes on energy facilities,' quoting the ministry on 'extreme heat and attacks on power infrastructure.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Renewed U.S. strikes had killed at least 38 people and wounded more than 400 in Iran by Friday morning, according to Iran's health ministry spokesperson.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Only The Guardian cites Iran's health ministry spokesperson Hossein Kermanpour on the cumulative casualty figure for renewed strikes.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports 'Renewed US strikes had killed at least 38 people and wounded more than 400 in Iran by Friday morning,' attributing this to Iran's health ministry spokesperson.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Human rights experts have stated that strikes on civilian infrastructure not being used for military purposes could constitute a war crime.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian cites human rights experts on the potential war crimes characterization of civilian infrastructure strikes.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian notes as expert opinion: 'Strikes on civilian infrastructure not being used for military purposes could constitute a war crime, human rights experts have said.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Iran's armed forces claimed to have attacked multiple U.S. military facilities in Kuwait, Bahrain, Jordan, and — for the first time — Syria; the U.S. denied these claims.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "military_operations",
+      "rationale": "Both BBC and The Guardian report Iran's claims of attacking U.S. facilities across multiple Gulf countries and the U.S. denial; this is a direct actor dispute over whether these attacks occurred.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports 'Iran's armed forces claimed to have attacked multiple US military facilities across the Gulf region in Kuwait, Bahrain, Jordan and – for the first time – Syria,' and that 'the US denied' these claims.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian reports 'The Iranian military responded to US strikes by targeting Bahrain, Kuwait, Jordan, Oman and Qatar,' noting Qatar 'had been mostly spared from Iranian retaliation in the recent rounds of violence.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Jordan's armed forces said they intercepted 10 Iranian missiles fired into Jordanian airspace overnight, with no casualties or damage.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both BBC and The Guardian report the Jordanian military's statement about the interception of Iranian missiles, citing Jordanian sources. Both are center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports 'Jordan's armed forces said it had intercepted 10 Iranian missiles fired into its airspace overnight' with 'no casualties or damage.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian includes Jordan among the countries targeted by the Iranian military in response to U.S. strikes.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Several American service members were reportedly injured during Iranian attacks on two Jordanian bases over the past week, according to sources cited by CBS News.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Only BBC, citing its U.S. partner CBS News, reports that several American service members were injured at Jordanian bases.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports 'Sources have told the BBC's US partner CBS News that several American service members were injured during Iranian attacks on two Jordanian bases over the past week.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Iranian strikes on Kuwait hit a power and desalination plant, damaging the water facility and injuring Kuwaiti soldiers; Kuwaiti officials were working to restore operations.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Both BBC (center-left) and The Guardian (center-left) report Iranian strikes damaging Kuwait's power and desalination infrastructure, with both citing Kuwaiti authorities. Cross-outlet confirmation from two established titles.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports 'Kuwaiti officials said Iranian drone strikes had injured a number of their soldiers' and that 'a power plant and water desalination stations had also been damaged.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian reports 'Iranian strikes hit a power and desalination plant, damaging the water facility,' and notes Kuwait 'relies on desalinated water for about 90% of its drinking water.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Qatari authorities said falling debris from intercepted Iranian missiles wounded a child.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Only The Guardian reports the Qatari casualty from intercepted missile debris.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports 'Qatari authorities said falling debris wounded a child as air defences intercepted missiles,' noting Qatar had been mostly spared in recent rounds of violence.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "The IRGC threatened a 'devastating price' for countries hosting U.S. bases if American attacks against infrastructure continued.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Both BBC and The Guardian report the IRGC's threat directed at host nations of U.S. bases, citing the same IRGC statement. Both are center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports the IRGC warned of 'a devastating price' for nations hosting U.S. bases if strikes on civilian infrastructure continued.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian quotes the IRGC statement directly: 'The American enemy and the hosts of its bases in the region should know that crossing red lines and attacking civilians and civilian infrastructure will have a very severe and devastating price to pay.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "The current round of U.S.–Iran fighting has entered its seventh day, undermining an interim deal that was meant to keep the Strait of Hormuz open and create space for permanent ceasefire negotiations.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Both BBC and The Guardian frame the conflict as having damaged an interim agreement aimed at keeping the strait open, with both noting it had been seven days since peace talks collapsed.",
+      "framing_variants": [
+        {
+          "characterization": "BBC notes 'Friday marks one week of nightly US attacks since peace talks with Iran collapsed' and that 'tensions over the future of the Strait of Hormuz hampered efforts to broker a permanent ceasefire.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "The Guardian states the fighting 'further undermined the interim deal between Iran and the US, which was meant to keep the strait open and give room for negotiations to lead to a permanent truce,' adding that 'both sides interpreted the deal differently.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Iran shut the Strait of Hormuz; the U.S. reimposed its blockade of Iranian ports and ships on Wednesday.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "The Guardian, BBC, and Middle East Eye all report the Iranian closure of the strait and U.S. imposition of a naval blockade, though all lean center-left or left.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian states 'Iran has shut the strait and the US reimposed its blockade of Iranian ports and ships on Wednesday.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "BBC frames the closure as contributing to shipping traffic that 'has largely stopped.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Middle East Eye reports Centcom is 'fully enforcing a naval blockade against Iranian ports.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "The U.S. and Iran advanced competing plans for ships to transit the Strait of Hormuz; Iran attacked some ships that followed the U.S. route.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Only The Guardian reports the competing transit plans and Iran's attacks on ships using the U.S.-designated route.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports 'Washington and Tehran advanced competing plans for ships to transit the strait, with Iran attacking some ships that took the US route.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "U.S. forces boarded a ship in the Gulf of Oman on Thursday as part of the renewed blockade; Centcom said it had redirected three commercial vessels trying to run the blockade since it took effect at 8pm GMT on Tuesday.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Only The Guardian reports the ship boarding and the redirecting of three vessels trying to breach the blockade.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports Centcom 'had redirected three commercial vessels trying to run the blockade since it took effect at 8pm GMT on Tuesday' and that 'US forces boarded a ship in the Gulf of Oman on Thursday.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "A U.S. aircraft fired on and disabled an unladen oil tanker that tried to break the blockade the previous day (Wednesday).",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Only The Guardian reports that a U.S. aircraft fired on and disabled a tanker attempting to breach the blockade on Wednesday.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian states 'a US aircraft fired on and disabled an unladen oil tanker that tried to break the blockade' on Wednesday.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "Iran's Tasnim news agency reported that a Thai-flagged ship was targeted in the Strait of Hormuz on Friday after allegedly ignoring warnings and attempting to pass without IRGC navy permission.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian cites Iran's Tasnim agency on the targeting of the Thai-flagged vessel.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports 'Iran's Tasnim news agency had earlier cited an informed source as saying that a Thai-flagged ship was targeted in the strait of Hormuz on Friday after it allegedly ignored warnings and attempted to pass without permission from Iran's Revolutionary Guards navy.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_028",
+      "text": "Iranian state media reported that the U.S. struck an empty oil tanker docked at Kharg Island, Iran's main oil export terminal.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian reports Iranian state media's claim about the strike on the docked tanker at Kharg Island.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian notes 'Iranian state media also said the US struck an oil tanker that was empty and docked at Kharg Island, Iran's main oil export terminal on the strait.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-18T03:58:45.860782+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "The U.S. military carried out strikes against Iran on the seventh consecutive night, July 17–18, 2026, as a weeklong air campaign reached its second week. U.S. Central Command stated the strikes targeted Iranian surveillance sites, military logistics infrastructure, underground weapons storage facilities, and maritime capabilities. U.S. forces employed fighter aircraft, aerial drones, warships, and other assets in the operations, which ended at 21:30 ET after several hours.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Explosions were reported across multiple Iranian cities, including Yazd, Sirik, Ahvaz, Qeshm island, and the port of Bandar Abbas. U.S. airstrikes hit bridges in Iran's Hormozgan province, with at least seven people reported killed according to Iranian provincial authorities and state television. The Guardian also reported strikes on a tower at Chabahar port, which the U.S. military said was used by the IRGC to facilitate attacks on vessels in the Strait of Hormuz, as well as targets including electrical infrastructure and Iranshahr airport.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_009",
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The current round of fighting has entered its seventh day, undermining an interim deal that was meant to keep the Strait of Hormuz open and create space for permanent ceasefire negotiations. Iran shut the Strait of Hormuz, while the U.S. reimposed a naval blockade of Iranian ports and ships on Wednesday. The strait normally accounts for about one-fifth of the world's oil and liquefied natural gas supplies.",
+        "supports": {
+          "claim_ids": [
+            "clm_022",
+            "clm_023",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Shipping traffic in the Strait of Hormuz has largely stopped amid the continuing U.S.–Iranian strikes. The U.S. and Iran advanced competing plans for ships to transit the strait; Iran attacked some ships that followed the U.S. route. U.S. forces boarded a ship in the Gulf of Oman on Thursday as part of the renewed blockade, and Centcom said it had redirected three commercial vessels trying to run the blockade since it took effect at 8pm GMT on Tuesday. A U.S. aircraft fired on and disabled an unladen oil tanker that tried to break the blockade on Wednesday.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_024",
+            "clm_025",
+            "clm_026"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The IRGC claimed two oil tankers exploded in the Strait of Hormuz after hitting mines; U.S. Central Command dismissed the claim as false. The dispute reflects the competing narratives emerging from both sides about the nature and scope of military operations in the strait.",
+        "supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Iran's Tasnim news agency reported that a Thai-flagged ship was targeted in the Strait of Hormuz on Friday after allegedly ignoring warnings and attempting to pass without IRGC navy permission. Iranian state media also reported that the U.S. struck an empty oil tanker docked at Kharg Island, Iran's main oil export terminal.",
+        "supports": {
+          "claim_ids": [
+            "clm_027",
+            "clm_028"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The U.S. and Iran advanced sharply different accounts of what infrastructure was struck and whether civilian facilities were hit. Iran claimed U.S. forces struck civilian infrastructure including bridges, a train station, and an airport; the U.S. denied these claims, with a White House spokesperson stating strikes were 'exclusively on military targets.' The dispute centers on the characterization of the same infrastructure — whether it served military or civilian purposes.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Left-leaning outlets reported human rights experts stating that strikes on civilian infrastructure not being used for military purposes could constitute a war crime. Iran's health ministry spokesperson said renewed U.S. strikes had killed at least 38 people and wounded more than 400 in Iran by Friday morning. Iran's energy ministry told citizens to reduce electricity and air conditioning use after U.S. strikes put strain on the power grid, citing 'extreme heat and attacks on power infrastructure' in the south.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_014",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Iran launched retaliatory strikes across the region. Iran's armed forces claimed to have attacked multiple U.S. military facilities in Kuwait, Bahrain, Jordan, and — for the first time — Syria; the U.S. denied these claims. The dispute reflects fundamentally different accounts of whether Iranian attacks on U.S. regional bases occurred.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Jordan's armed forces said they intercepted 10 Iranian missiles fired into Jordanian airspace overnight, with no casualties or damage. However, several American service members were reportedly injured during Iranian attacks on two Jordanian bases over the past week, according to sources cited by CBS News.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Iranian strikes on Kuwait hit a power and desalination plant, damaging the water facility and injuring Kuwaiti soldiers; Kuwaiti officials were working to restore operations. Qatari authorities said falling debris from intercepted Iranian missiles wounded a child.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Islamic Revolutionary Guard Corps threatened a 'devastating price' for countries hosting U.S. bases if American attacks against infrastructure continued. The warning was directed at regional states that have allowed U.S. forces to operate from their territory during the current escalation.",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      }
+    ]
+  }
+}

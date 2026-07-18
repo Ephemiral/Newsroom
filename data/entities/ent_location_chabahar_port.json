@@ -1,0 +1,63 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_chabahar_port",
+  "type": "location",
+  "canonical_name": "Chabahar Port",
+  "aliases": [
+    "Chabahar port"
+  ],
+  "wikidata_qid": "Q7231108",
+  "summary": "Chabahar Port is a seaport located in Chabahar in southeastern Iran, on the Gulf of Oman. It serves as Iran's only oceanic port, and consists of two separate ports named Shahid Kalantari and Shahid Beheshti, each of which has five berths.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Chabahar_Port"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/%D9%85%D8%AD%D9%88%D8%B7%D9%87_%D8%B4%D9%87%DB%8C%D8%AF%DA%A9%D9%84%D8%A7%D9%86%D8%AA%D8%B1%DB%8C.jpg/960px-%D9%85%D8%AD%D9%88%D8%B7%D9%87_%D8%B4%D9%87%DB%8C%D8%AF%DA%A9%D9%84%D8%A7%D9%86%D8%AA%D8%B1%DB%8C.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AD%D9%88%D8%B7%D9%87_%D8%B4%D9%87%DB%8C%D8%AF%DA%A9%D9%84%D8%A7%D9%86%D8%AA%D8%B1%DB%8C.jpg",
+    "credit": "Amohammadid",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:محوطه شهیدکلانتری.jpg",
+    "fetched_at": "2026-07-18T03:59:02.051250+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is only about 170 kilometres west of the Pakistani port of Gwadar.",
+      "source_url": "https://en.wikipedia.org/wiki/Chabahar_Port",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-18",
+      "last_updated": "2026-07-18",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_18_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_18_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-18T03:58:59.729100+00:00",
+  "last_updated": "2026-07-18T03:59:06.229782+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Entity created from evt_2026_07_18_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Chabahar_Port"
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikidata Q7231108 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q7231108"
+    }
+  ]
+}

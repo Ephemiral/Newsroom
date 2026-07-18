@@ -1,0 +1,46 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_hormozgan_province",
+  "type": "location",
+  "canonical_name": "Hormozgan Province",
+  "aliases": [
+    "Hormozgan province"
+  ],
+  "wikidata_qid": "Q633659",
+  "summary": "Hormozgan province is one of the 31 provinces of Iran. Its capital is the city of Bandar Abbas.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Hormozgan_province"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Khezr_Beach%2C_Hormoz_Island%2C_Persian_Gulf%2C_Iran%2C_02-09-2008.jpg/960px-Khezr_Beach%2C_Hormoz_Island%2C_Persian_Gulf%2C_Iran%2C_02-09-2008.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Khezr_Beach,_Hormoz_Island,_Persian_Gulf,_Iran,_02-09-2008.jpg",
+    "credit": "Hamed Saber",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Khezr Beach, Hormoz Island, Persian Gulf, Iran, 02-09-2008.jpg",
+    "fetched_at": "2026-07-18T03:58:59.728497+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_18_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_18_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-18T03:58:57.982841+00:00",
+  "last_updated": "2026-07-18T03:59:06.229618+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Entity created from evt_2026_07_18_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikidata Q633659 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q633659"
+    }
+  ]
+}

@@ -349,6 +349,11 @@
       "at": "2026-07-17T14:49:48.429142+00:00",
       "event_id": "evt_2026_07_17_asia_004",
       "outcome": "published"
+    },
+    "9046f86e194c2d67": {
+      "at": "2026-07-18T03:55:36.867863+00:00",
+      "event_id": "evt_2026_07_18_israel_middle_east_001",
+      "outcome": "published"
     }
   }
 }

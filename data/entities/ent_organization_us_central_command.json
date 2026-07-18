@@ -6,7 +6,8 @@
   "aliases": [
     "United States Central Command",
     "CENTCOM",
-    "Centcom"
+    "Centcom",
+    "U.S. Central Command"
   ],
   "wikidata_qid": "Q1476046",
   "summary": "The United States Central Command is one of the eleven unified combatant commands of the United States Department of Defense. It was established in 1983, taking over the previous responsibilities of the Rapid Deployment Joint Task Force (RDJTF).",
@@ -23,10 +24,11 @@
     "evt_2026_06_04_066",
     "evt_2026_07_11_israel_middle_east_001",
     "evt_2026_07_13_israel_middle_east_001",
-    "evt_2026_07_13_israel_middle_east_003"
+    "evt_2026_07_13_israel_middle_east_003",
+    "evt_2026_07_18_israel_middle_east_001"
   ],
   "created_at": "2026-07-08T18:29:54.121778+00:00",
-  "last_updated": "2026-07-13T15:37:59.211456+00:00",
+  "last_updated": "2026-07-18T03:59:06.228110+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

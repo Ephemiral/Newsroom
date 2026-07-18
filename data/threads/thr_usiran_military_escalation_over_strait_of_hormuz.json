@@ -31,11 +31,17 @@
       "date": "2026-07-13",
       "chapter_summary": "The U.S. military launched overnight airstrikes targeting Iranian air defense systems, missile capabilities, and small boats near the Strait of Hormuz, which CENTCOM said aimed to degrade Iran's ability to attack commercial shipping in the waterway.",
       "link_score": 0.457
+    },
+    {
+      "cluster_id": "evt_2026_07_18_israel_middle_east_001",
+      "date": "2026-07-18",
+      "chapter_summary": "The U.S. military conducted its seventh consecutive night of airstrikes against Iran on July 17–18, 2026, targeting surveillance sites, logistics infrastructure, weapons storage, and maritime capabilities, as the weeklong campaign entered its second week.",
+      "link_score": 0.481
     }
   ],
   "accountability": [],
   "created_at": "2026-07-13T04:27:55.399971+00:00",
-  "last_updated": "2026-07-13T04:27:57.247758+00:00",
+  "last_updated": "2026-07-18T03:59:09.177257+00:00",
   "change_log": [
     {
       "date": "2026-07-13",
@@ -48,6 +54,10 @@
     {
       "date": "2026-07-13",
       "summary_of_change": "Added evt_2026_07_13_israel_middle_east_001"
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Added evt_2026_07_18_israel_middle_east_001"
     }
   ]
 }
