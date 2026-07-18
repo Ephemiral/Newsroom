@@ -1,0 +1,95 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_gansu_province",
+  "type": "location",
+  "canonical_name": "Gansu province",
+  "aliases": [
+    "Gansu"
+  ],
+  "wikidata_qid": "Q42392",
+  "summary": "Gansu is a province in Northwestern China. Its capital and largest city is Lanzhou, in the southeastern part of the province.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Gansu"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Labrang_Monastery%2C_Xiahe%2C_Gansu%2C_China.jpg/960px-Labrang_Monastery%2C_Xiahe%2C_Gansu%2C_China.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Labrang_Monastery,_Xiahe,_Gansu,_China.jpg",
+    "credit": "Ariel Steiner",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Labrang Monastery, Xiahe, Gansu, China.jpg",
+    "fetched_at": "2026-07-18T04:18:16.023628+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The seventh-largest administrative district by area at 453,700 square kilometres (175,200 sq mi), Gansu lies between the Tibetan and Loess plateaus and borders Xinjiang and Qinghai to the west, Sichuan to the south, Shaanxi to the east, and Inner Mongolia, Ningxia and Mongolia's Govi-Altai Province to the north.",
+      "source_url": "https://en.wikipedia.org/wiki/Gansu",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-18",
+      "last_updated": "2026-07-18",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The Yellow River passes through the southern part of the province.",
+      "source_url": "https://en.wikipedia.org/wiki/Gansu",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-18",
+      "last_updated": "2026-07-18",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Part of Gansu's territory is located in the Gobi Desert.",
+      "source_url": "https://en.wikipedia.org/wiki/Gansu",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-18",
+      "last_updated": "2026-07-18",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_18_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_18_asia_001"
+  ],
+  "created_at": "2026-07-18T04:18:14.406298+00:00",
+  "last_updated": "2026-07-18T04:18:22.931969+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Entity created from evt_2026_07_18_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Gansu"
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Gansu"
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Gansu"
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikidata Q42392 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q42392"
+    }
+  ]
+}

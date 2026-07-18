@@ -1,0 +1,46 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_pengshui_miao_and_tujia_autonomous_county",
+  "type": "location",
+  "canonical_name": "Pengshui Miao and Tujia Autonomous County",
+  "aliases": [
+    "Pengshui County"
+  ],
+  "wikidata_qid": "Q1378017",
+  "summary": "Pengshui Miao and Tujia Autonomous County is an autonomous county for the Miao and Tujia people located in southeastern Chongqing, China, bordering Guizhou province to the south and southwest and Hubei province to the northeast. It is 270 kilometres (170 mi) away from downtown Chongqing.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Pengshui_Miao_and_Tujia_Autonomous_County"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Wulingshan_Bridge-1.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Wulingshan_Bridge-1.jpg",
+    "credit": "Glabb",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Wulingshan Bridge-1.jpg",
+    "fetched_at": "2026-07-18T04:18:04.342942+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_18_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_18_asia_001"
+  ],
+  "created_at": "2026-07-18T04:18:02.015051+00:00",
+  "last_updated": "2026-07-18T04:18:22.930595+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Entity created from evt_2026_07_18_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikidata Q1378017 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1378017"
+    }
+  ]
+}

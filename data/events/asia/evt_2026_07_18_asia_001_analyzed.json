@@ -1,0 +1,1018 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_18_asia_001",
+    "beat": "asia",
+    "title": "Chongqing Landslide, Pengshui County, July 2026",
+    "summary": "A landslide struck Pengshui Miao and Tujia Autonomous County in Chongqing municipality, southwestern China, on the morning of July 17, 2026, killing at least eight people and leaving 34 missing. Authorities had issued an emergency warning and begun evacuating residents roughly an hour before the main slide, and more than 800 rescuers were deployed to the site.",
+    "date": "2026-07-17",
+    "generated_at": "2026-07-18T04:17:33.605284+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_location_pengshui_miao_and_tujia_autonomous_county",
+        "surfaces": [
+          "Pengshui Miao and Tujia Autonomous County",
+          "Pengshui County"
+        ],
+        "relevance_to_event": "The specific location where the July 17, 2026 landslide occurred, killing at least 8 people and leaving 34 missing.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_chongqing",
+        "surfaces": [
+          "Chongqing",
+          "Chongqing municipality"
+        ],
+        "relevance_to_event": "The municipality in southwestern China where Pengshui County is located and where the landslide disaster took place.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_xi_jinping",
+        "surfaces": [
+          "Xi Jinping",
+          "President Xi Jinping"
+        ],
+        "relevance_to_event": "President of China who called for scientific search and rescue operations, locating trapped persons, and identifying geological disaster risks following the landslide.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_li_qiang",
+        "surfaces": [
+          "Li Qiang",
+          "Premier Li Qiang"
+        ],
+        "relevance_to_event": "Premier of China who directed authorities to treat injured persons, relocate affected residents, and prevent secondary disasters in response to the landslide.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_ministry_of_emergency_management",
+        "surfaces": [
+          "Ministry of Emergency Management",
+          "China's Ministry of Emergency Management"
+        ],
+        "relevance_to_event": "Government agency that activated a Level II national emergency response for the geological disaster and allocated 50 million yuan in relief funds; also dispatched rescue personnel and equipment to the site.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014",
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_china_s_ministry_of_finance",
+        "surfaces": [
+          "Ministry of Finance"
+        ],
+        "relevance_to_event": "Government agency that jointly allocated 50 million yuan (approximately US$7.4 million) in disaster relief funds for the landslide response.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_wujiang_river",
+        "surfaces": [
+          "Wujiang River"
+        ],
+        "relevance_to_event": "River along which Pengshui County is situated; the report notes residential buildings were destroyed as debris collapsed onto riverside homes.",
+        "relevance_supports": {
+          "claim_ids": [],
+          "source_ids": []
+        },
+        "relevance_grounding": "sources_fallback"
+      },
+      {
+        "entity_id": "ent_location_gansu_province",
+        "surfaces": [
+          "Gansu province",
+          "Gansu"
+        ],
+        "relevance_to_event": "Location of a separate landslide that occurred less than two weeks before the Pengshui event, killing 21 people and burying 33, establishing a pattern of geological disasters in southwestern China during the rainy season.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-18T04:18:35.191133+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Oso_Mudslide_22_March_2014_Mountain_view.jpg/1280px-Oso_Mudslide_22_March_2014_Mountain_view.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Oso_Mudslide_22_March_2014_Mountain_view.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Oso_Mudslide_22_March_2014_Mountain_view.jpg",
+      "width": 1200,
+      "height": 900,
+      "caption": "Search and rescue operations in mountainous terrain following a landslide (file photo)",
+      "credit": "U.S. Navy",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:Oso Mudslide 22 March 2014 Mountain view.jpg",
+      "query": "landslide mountain rescue",
+      "fetched_at": "2026-07-18T04:18:35.191099+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/landslide-buries-residents-in-southwest-chinas-chongqing",
+      "author": null,
+      "published_at": "2026-07-17T06:26:15+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/landslide-in-china-kills-8-at-least-34-missing-officials",
+      "author": null,
+      "published_at": "2026-07-18T00:15:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/world/china/watch-deadly-landslide-strikes-china-dozens-remain-missing/articleshow/132465086.cms",
+      "author": "Prisha Patnaik",
+      "published_at": "2026-07-17T16:40:42+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Bennett, Coleman & Co. (The Times Group), controlled by the Jain family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/politics/article/3360928/rescuers-southwest-china-race-extreme-weather-reach-residents-trapped-landslide?utm_source=rss_feed",
+      "author": "William Zheng",
+      "published_at": "2026-07-17T08:00:19+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVEJkVGNkd1RKSDVuMnNNSHJLblBDd28wT3BDOUk4Q0hwaDlDb2dLQnhJWjBWc2VmV25HRXJNdFV5VTBFQmcyZWo1TkRfejR3dF8xVmF5V3ljeHRZaGZNYW1GdGFDTlZYN3doSTBUX3FLX2l5eFZvR3daem5uYW5xZktQTHBycWNQcjcyRXljWEl1Y3RvY1BCNjNHRXVnWlQzcUdFUTdLdUh4RDhUVkHSAbMBQVVfeXFMT05vN0g0MU1rTTdSQ2d3ZEpQbU1tTWk2Z2FsWHNFR05CbnlBeF9VU3pXZTZrQW9vcGg2ejhfRDh1d0hwTHZJSnQ2bTFYUjJtWVhpYWpIR0w0cF8wbUJoMEpWTk85dy1KRFl4Z0YxYnh5akxzdUVwdzNKVi1JdXZYNEItX2ptSDY2SDEzODhxMzdNeTZTWGpacDNvYndNd0h3cG9YNzdnbTlxdmhJLVVGRnMzbHc?oc=5",
+      "author": null,
+      "published_at": "2026-07-17T16:57:21+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A landslide struck Pengshui Miao and Tujia Autonomous County in Chongqing municipality, southwestern China, on the morning of July 17, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "landslide_event",
+      "rationale": "All five outlets across left, center-left, and center-right ratings confirm the basic event, location, and date, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Described as 'a county in the south-western Chinese city of Chongqing' with unknown buried persons",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Described as 'a landslide in south-west China' in Chongqing's Pengshui County",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Described as a rain-triggered landslide in Pengshui Miao and Tujia Autonomous County",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Located specifically in Hanjia subdistrict of Chongqing's Pengshui Miao and Tujia autonomous county",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Briefly noted as 'a landslide in China's Chongqing'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The landslide occurred at approximately 9:08–9:10 a.m. local time.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "landslide_event",
+      "rationale": "Three center-right outlets report the time as 9:08 a.m. or 9:10 a.m., which are effectively the same figure given rounding; all come from the same bias tier, but the minor variance is a rounding difference, not a contradiction.",
+      "framing_variants": [
+        {
+          "characterization": "States 9:08 a.m. local time",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'around 9.10am local time'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'around 9.08 am'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The landslide killed at least eight people.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "Sources spanning left (Al Jazeera), center-left (SCMP), and center-right (Straits Times, Times of India) all report at least eight deaths, meeting the cross-spectrum threshold for 'agreed.'",
+      "framing_variants": [
+        {
+          "characterization": "Reports eight killed among 18 rescued, confirmed at a press conference by county leader",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'at least eight people are dead' with two of 18 rescued having serious injuries",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports '8 deaths recorded' as of Friday night",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Headline figure: 'Eight killed'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "At least 34 people were reported missing following the landslide.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "The figure of 34 missing is consistently reported by outlets across left, center-left, and center-right bias tiers, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Reports '34 missing' attributed to local authorities",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States '34 remain missing'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States '34 additional people are still missing' as of Friday night",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States 'at least 34 missing'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Eighteen people were rescued from the disaster; eight of those 18 were pronounced dead.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "Three outlets report the figure of 18 rescued, with two also noting that eight were pronounced dead among them; all are center-left or center-right, so no cross-spectrum breadth.",
+      "framing_variants": [
+        {
+          "characterization": "County leader Ren Xujiang told a press conference 18 were rescued; eight of those were pronounced dead",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States '18 people had been rescued,' two with serious injuries",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States '18 people had been rescued as of Friday night'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Nine people had been pulled from the rubble at an earlier point in the rescue operation, none in life-threatening condition.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "Only The Straits Times' earlier article (citing Xinhua) reported this intermediate rescue figure; later reports settled on 18 rescued total.",
+      "framing_variants": [
+        {
+          "characterization": "Cited Xinhua: nine pulled from rubble, none in life-threatening condition — an early-stage figure before the full count was available",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Community officials spotted sporadic rockfalls around 8 a.m. local time, approximately one hour before the main landslide, and issued an emergency warning.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "early_warning_and_evacuation",
+      "rationale": "Center-right (Straits Times, Times of India) and center-left (SCMP) outlets all report the 8 a.m. warning from community officials, spanning the spectrum sufficiently for 'agreed.'",
+      "framing_variants": [
+        {
+          "characterization": "State broadcaster CCTV reported a community worker spotted falling rocks at around 8 a.m. and issued an emergency warning",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Local officials reported sporadic rockfalls about an hour before the main landslide",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Local community officials in Hanjia subdistrict witnessed sporadic rockfalls and issued an emergency warning at about 8 a.m.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Authorities ordered an evacuation of more than 60 residents immediately following the early warning.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "early_warning_and_evacuation",
+      "rationale": "Two outlets — center-right Straits Times and center-left SCMP — both report that more than 60 residents were evacuated after the warning, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Authorities ordered an evacuation of more than 60 residents before the main landslide struck",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Officials 'rushed to evacuate more than 60 residents'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "More than 1,100 residents from areas surrounding the landslide site were safely evacuated.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "early_warning_and_evacuation",
+      "rationale": "Both the Times of India and SCMP report this broader evacuation figure; both are center-tier outlets, so this is corroborated but not cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "States 'more than 1,100 residents from surrounding areas were safely evacuated'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'more than 1,100 people living near the landslide site had been safely evacuated'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The Times of India reported that the landslide was triggered by rain; other outlets did not specify a confirmed cause at the time of reporting.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "landslide_event",
+      "rationale": "Only the Times of India explicitly attributed the landslide to rain; The Straits Times' earlier article stated the cause was not immediately clear, and other outlets did not specify a cause.",
+      "framing_variants": [
+        {
+          "characterization": "Described as a 'rain-triggered landslide' without further elaboration",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Stated 'it was not immediately clear what caused the landslide'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "The landslide destroyed or engulfed more than 10 residential buildings, with aerial footage and dashcam video showing rock and debris collapsing onto riverside homes and businesses.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "landslide_event",
+      "rationale": "Two center-right outlets report building damage with visual evidence; SCMP and Al Jazeera also note destroyed buildings but without the specific count, so this figure is corroborated within the same bias tier.",
+      "framing_variants": [
+        {
+          "characterization": "CCTV aerial footage showed rock and debris falling on 'a cluster of riverside residential buildings'; Reuters-verified dashcam video showed hillside collapsing onto homes and businesses",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'more than 10 residential buildings were engulfed by the landslide,' located near the Wujiang River",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "More than 800 rescuers were deployed to the disaster site.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "This figure is reported by center-left SCMP and center-right Straits Times and Times of India, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes figure to state broadcaster CCTV",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'more than 800 rescuers' supported by fire crews, emergency responders and specialist search teams",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'more than 800 rescuers were at the scene'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "China's Ministry of Emergency Management activated a Level II national emergency response for geological disasters.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Two center-right outlets report the Level II emergency response activation; SCMP and Al Jazeera do not mention this specific designation, keeping it corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "States the Ministry activated a 'level-two emergency response'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'activated a Level II national emergency response for geological disasters' and dispatched a working group led by emergency management minister Zhang Chengzhong",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "The Ministry of Emergency Management dispatched a 100-member rescue team and more than 200 fire and rescue personnel with 49 vehicles to the site.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "Only The Straits Times' earlier article provides these specific deployment figures from the Ministry; later articles report the broader 800-rescuer total without this breakdown.",
+      "framing_variants": [
+        {
+          "characterization": "Reports a 100-member rescue team plus 200+ fire and rescue personnel and 49 vehicles dispatched by the Ministry of Emergency Management",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Rescuers used excavators, life-detection equipment and slope-monitoring radar in search operations; rescue efforts were slowed by unstable ground and the threat of additional landslides.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "Both the Times of India and SCMP report the use of life-search gear and slope radar and the challenges posed by unstable terrain; both sit in the center tier.",
+      "framing_variants": [
+        {
+          "characterization": "Lists 'excavators, life-detection equipment and slope-monitoring radar'; notes operations slowed by unstable ground and landslide threat",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'life search gear and slope radar' sent to disaster zone; describes rescuers 'racing against incoming thunderstorms'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Thunderstorms were forecast for the region and were expected to complicate rescue operations.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "The Times of India and SCMP both note incoming thunderstorms as a complicating factor for rescue; both are center-tier outlets.",
+      "framing_variants": [
+        {
+          "characterization": "States 'thunderstorms forecast for the region' were 'expected to complicate rescue efforts'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes rescuers 'racing against incoming thunderstorms'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Water, electricity and gas supplies were cut off within a one-kilometre radius of the disaster site.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "The Times of India and SCMP both report this utility shutdown; both are center-tier outlets, making this corroborated but not cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Notes utilities cut 'to reduce the risk of further accidents'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'water, electricity and gas were cut off within a 1km radius of the disaster site'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "The stated reason for cutting utilities within a one-kilometre radius was to reduce the risk of further accidents.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Only the Times of India explicitly provides the official rationale for the utility shutdown.",
+      "framing_variants": [
+        {
+          "characterization": "States the cutoff was 'to reduce the risk of further accidents'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The governments of China's Ministry of Finance and Ministry of Emergency Management allocated 50 million yuan (approximately US$7.4 million) in disaster relief funds.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Three outlets report this funding figure; SCMP (center-left) and the Straits Times/Times of India (center-right) all confirm it, which technically meets cross-spectrum breadth — however since one outlet uses a USD conversion and another a SGD conversion, classifying as corroborated is more precise.",
+      "framing_variants": [
+        {
+          "characterization": "States '50 million yuan (S$9.5 million)' allocated by Ministry of Finance and Ministry of Emergency Management",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States '50 million yuan (about Rs 71 crores)' to support rescue operations and provide emergency supplies including tents, folding beds and family relief kits",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Headlines the allocation as 'Beijing allocates US$7.4 million for rescue and relief'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "President Xi Jinping called for search and rescue operations to be carried out scientifically, urged every effort to locate those still trapped, and directed authorities to identify and eliminate geological disaster risks.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Both Straits Times articles report Xi Jinping's directives, with the later article providing more detail; both are center-right, so this is corroborated within the same bias tier.",
+      "framing_variants": [
+        {
+          "characterization": "States Xi 'urged the authorities to swiftly determine the cause of the disaster' and to 'identify and eliminate geological disaster risks and other potential hazards'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States Xi 'called for search and rescue operations to be carried out in a scientific manner' and 'urged every effort to locate those still trapped'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Premier Li Qiang directed authorities to treat the injured, relocate affected residents, and take steps to prevent secondary disasters.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Only the Times of India reports Premier Li Qiang's specific directives on medical response, resident relocation, and secondary disaster prevention.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Li Qiang 'directed authorities to treat the injured, relocate affected residents, and take steps to prevent secondary disasters'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "The area where the landslide happened is known for steep, unpredictable terrain, and dangerous rocks remain along the sides of the cliff.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "landslide_event",
+      "rationale": "Only the later Straits Times article quotes a local official describing the terrain as 'unpredictable' and noting remaining dangerous rocks, flagging an ongoing secondary hazard.",
+      "framing_variants": [
+        {
+          "characterization": "A local official at a press conference described the terrain as 'unpredictable' and warned that 'dangerous rocks still remain along the sides of the cliff'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "A landslide in Gansu province less than two weeks earlier had buried 33 people, killing 21 of them.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "broader_context",
+      "rationale": "Only the later Straits Times article contextualises the Chongqing landslide by reference to a recent Gansu landslide with its casualties.",
+      "framing_variants": [
+        {
+          "characterization": "Notes the Chongqing landslide 'comes less than two weeks after another landslide in north-western Gansu province' that buried 33 people, 21 of whom were killed",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Heavy rain continues to threaten parts of southwest China.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "broader_context",
+      "rationale": "Only the Times of India explicitly frames the ongoing regional rainfall threat as a broader concern beyond the immediate rescue operation.",
+      "framing_variants": [
+        {
+          "characterization": "States 'heavy rain continues to threaten parts of southwest China' as wider regional context",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Pengshui Miao and Tujia Autonomous County sits in mountainous southwestern Chongqing municipality, along the Wujiang River, in terrain described by local officials as steep and unpredictable — conditions that increase landslide risk.",
+      "sources": [
+        "src_003",
+        "src_004",
+        "src_002"
+      ]
+    },
+    {
+      "point": "China classifies emergency responses on a four-level scale, with Level II (activated here) being the second-highest, indicating a significant national-level mobilisation of resources.",
+      "sources": [
+        "src_001",
+        "src_003"
+      ]
+    },
+    {
+      "point": "Southwestern China regularly experiences landslides during the summer rainy season; a separate landslide in Gansu province less than two weeks before this event killed 21 people and buried 33.",
+      "sources": [
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "Community-level geological hazard monitoring systems — including trained local officials who watch for warning signs such as rockfalls — are part of China's disaster early-warning infrastructure, and played a role here in triggering evacuation before the main slide.",
+      "sources": [
+        "src_001",
+        "src_004",
+        "src_003"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-18T04:17:57.589535+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "A landslide struck Pengshui Miao and Tujia Autonomous County in Chongqing municipality, southwestern China, on the morning of July 17, 2026. The disaster killed at least eight people and left 34 missing, according to reports confirmed across outlets spanning the political spectrum from left-leaning to center-right.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Community officials spotted sporadic rockfalls around 8 a.m. local time, approximately one hour before the main landslide. Authorities issued an emergency warning and ordered an evacuation of more than 60 residents immediately following the alert. The early warning system allowed officials to begin moving people to safety before the main slide occurred.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "More than 800 rescuers were deployed to the disaster site following the landslide, according to reports confirmed by outlets across the ideological spectrum. The rescue operation involved personnel from multiple agencies working to locate survivors and recover victims from the debris.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The landslide occurred at approximately 9:08 to 9:10 a.m. local time, according to center-right outlets including The Straits Times and The Times of India. Eighteen people were rescued from the disaster, with eight of those pronounced dead, center-tier outlets reported. More than 1,100 residents from areas surrounding the landslide site were safely evacuated in the broader operation.",
+        "supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_005",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The landslide destroyed or engulfed more than 10 residential buildings, with aerial footage and dashcam video showing rock and debris collapsing onto riverside homes and businesses, according to center-right sources. The visual documentation captured the scale of destruction as the slope gave way.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Rescuers used excavators, life-detection equipment, and slope-monitoring radar in search operations, but their efforts were slowed by unstable ground and the threat of additional landslides, center-tier outlets reported. Thunderstorms were forecast for the region and were expected to further complicate rescue operations.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "A local official quoted by The Straits Times described the area where the landslide happened as having steep, unpredictable terrain, noting that dangerous rocks remain along the sides of the cliff, flagging an ongoing secondary hazard. The terrain characteristics contributed to both the initial disaster and the challenges facing rescue teams.",
+        "supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "China's Ministry of Emergency Management activated a Level II national emergency response for geological disasters, center-right outlets reported. Water, electricity, and gas supplies were cut off within a one-kilometre radius of the disaster site. The Times of India reported that the stated reason for cutting utilities was to reduce the risk of further accidents.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The governments of China's Ministry of Finance and Ministry of Emergency Management allocated 50 million yuan (approximately US$7.4 million) in disaster relief funds, according to multiple center-tier outlets. The Ministry of Emergency Management dispatched a 100-member rescue team and more than 200 fire and rescue personnel with 49 vehicles to the site, The Straits Times reported in its earlier coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "President Xi Jinping called for search and rescue operations to be carried out scientifically, urged every effort to locate those still trapped, and directed authorities to identify and eliminate geological disaster risks, center-right sources reported. Premier Li Qiang directed authorities to treat the injured, relocate affected residents, and take steps to prevent secondary disasters, according to The Times of India.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The Chongqing landslide occurred less than two weeks after a landslide in Gansu province buried 33 people, killing 21 of them, The Straits Times reported in its later coverage. The Times of India noted that heavy rain continues to threaten parts of southwest China, framing the ongoing regional rainfall threat as a broader concern beyond the immediate rescue operation.",
+        "supports": {
+          "claim_ids": [
+            "clm_023",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Times of India reported that the landslide was triggered by rain, while The Straits Times' earlier article stated the cause was not immediately clear at the time of reporting. Other outlets covering the event did not specify a confirmed cause in their accounts.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "framing"
+      }
+    ]
+  }
+}

@@ -3,7 +3,9 @@
   "entity_id": "ent_organization_ministry_of_emergency_management",
   "type": "organization",
   "canonical_name": "Ministry of Emergency Management",
-  "aliases": [],
+  "aliases": [
+    "China's Ministry of Emergency Management"
+  ],
   "wikidata_qid": "Q65042431",
   "summary": "The Ministry of Emergency Management (MEM) is the 24th-ranked constituent department of the State Council of China, responsible for the country's emergency management, work safety, and emergency rescue. It is the result of a merger from emergency management departments in various ministries due to a State Council reform in 2018.",
   "summary_sources": [
@@ -25,10 +27,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_07_asia_001",
   "appears_in_events": [
-    "evt_2026_07_07_asia_001"
+    "evt_2026_07_07_asia_001",
+    "evt_2026_07_18_asia_001"
   ],
   "created_at": "2026-07-08T18:23:22.009880+00:00",
-  "last_updated": "2026-07-08T18:23:39.025702+00:00",
+  "last_updated": "2026-07-18T04:18:22.931481+00:00",
   "change_log": [
     {
       "date": "2026-07-08",
