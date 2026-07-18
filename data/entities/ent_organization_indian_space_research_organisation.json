@@ -1,0 +1,86 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_indian_space_research_organisation",
+  "type": "organization",
+  "canonical_name": "Indian Space Research Organisation",
+  "aliases": [
+    "ISRO"
+  ],
+  "wikidata_qid": "Q229058",
+  "summary": "The Indian Space Research Organisation is the national space agency of India, headquartered in Bengaluru, Karnataka. It serves as the principal research and development arm of the Department of Space (DoS), overseen by the Prime Minister of India, with the Chairman of ISRO also working as the chief executive of the DoS.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/ISRO"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is primarily responsible for space-based operations, space exploration, international space cooperation and the development of related technologies.",
+      "source_url": "https://en.wikipedia.org/wiki/ISRO",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-18",
+      "last_updated": "2026-07-18",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The agency maintains a constellation of imaging, communications and remote sensing satellites.",
+      "source_url": "https://en.wikipedia.org/wiki/ISRO",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-18",
+      "last_updated": "2026-07-18",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It operates the GAGAN and IRNSS satellite navigation systems.",
+      "source_url": "https://en.wikipedia.org/wiki/ISRO",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-18",
+      "last_updated": "2026-07-18",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_18_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_18_asia_002"
+  ],
+  "created_at": "2026-07-18T14:32:21.386904+00:00",
+  "last_updated": "2026-07-18T14:32:31.220277+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Entity created from evt_2026_07_18_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/ISRO"
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/ISRO"
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/ISRO"
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikidata Q229058 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q229058"
+    }
+  ]
+}

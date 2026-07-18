@@ -1,0 +1,54 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_satish_dhawan_space_centre",
+  "type": "location",
+  "canonical_name": "Satish Dhawan Space Centre",
+  "aliases": [
+    "Satish Dhawan Space Centre in Sriharikota"
+  ],
+  "wikidata_qid": "Q640273",
+  "summary": "Satish Dhawan Space Centre – SDSC is the primary spaceport of ISRO, located in Sriharikota, an island in Tirupati district of Andhra Pradesh, India. The spaceport is located on an island off the east coast of India, surrounded by Pulicat Lake and the Bay of Bengal.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The distance of Sriharikota from Chennai is 105 km (65 mi) and from Nellore is 119 km (74mi).",
+      "source_url": "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-18",
+      "last_updated": "2026-07-18",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_18_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_18_asia_002"
+  ],
+  "created_at": "2026-07-18T14:32:17.496307+00:00",
+  "last_updated": "2026-07-18T14:32:31.219744+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Entity created from evt_2026_07_18_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre"
+    },
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Grounded from Wikidata Q640273 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q640273"
+    }
+  ]
+}

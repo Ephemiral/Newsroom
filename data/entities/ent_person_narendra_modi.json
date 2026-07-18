@@ -4,7 +4,9 @@
   "type": "person",
   "canonical_name": "Narendra Modi",
   "aliases": [
-    "Indian Prime Minister"
+    "Indian Prime Minister",
+    "Prime Minister Narendra Modi",
+    "Modi"
   ],
   "wikidata_qid": "Q1058",
   "summary": "Narendra Damodardas Modi is an Indian politician who has served as the prime minister of India since 26 May 2014. Modi was the chief minister of Gujarat from 2001 to 2014 and is the Member of Parliament (MP) for Varanasi.",
@@ -90,10 +92,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_11_asia_002",
   "appears_in_events": [
-    "evt_2026_07_11_asia_002"
+    "evt_2026_07_11_asia_002",
+    "evt_2026_07_18_asia_002"
   ],
   "created_at": "2026-07-11T14:37:05.762478+00:00",
-  "last_updated": "2026-07-11T14:37:16.842250+00:00",
+  "last_updated": "2026-07-18T14:32:31.220632+00:00",
   "change_log": [
     {
       "date": "2026-07-11",

@@ -1,0 +1,1036 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_18_asia_002",
+    "beat": "asia",
+    "title": "Skyroot Aerospace Launches India's First Private Orbital Rocket",
+    "summary": "On July 18, 2026, Indian space startup Skyroot Aerospace successfully launched Vikram-1, India's first privately developed orbital rocket, from the Satish Dhawan Space Centre in Sriharikota, placing six payloads into a 450km low-Earth orbit approximately 15-16 minutes after liftoff. The launch made India the third country, after the United States and China, to achieve orbital launch capability through private enterprise.",
+    "date": "2026-07-18",
+    "generated_at": "2026-07-18T14:31:35.929750+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_organization_skyroot_aerospace",
+        "surfaces": [
+          "Skyroot Aerospace",
+          "Skyroot"
+        ],
+        "relevance_to_event": "The private space startup that developed and launched Vikram-1, making India the third country to achieve private orbital launch capability.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_008",
+            "clm_014",
+            "clm_015",
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_vikram_1",
+        "surfaces": [
+          "Vikram-1"
+        ],
+        "relevance_to_event": "India's first privately developed orbital rocket that successfully launched on July 18, 2026, and placed six payloads into 450km low-Earth orbit.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_004",
+            "clm_007",
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_satish_dhawan_space_centre",
+        "surfaces": [
+          "Satish Dhawan Space Centre",
+          "Satish Dhawan Space Centre in Sriharikota"
+        ],
+        "relevance_to_event": "The ISRO facility in Sriharikota from which Vikram-1 was launched at 06:35 GMT on July 18, 2026.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_pawan_kumar_chandana",
+        "surfaces": [
+          "Pawan Kumar Chandana",
+          "Chandana"
+        ],
+        "relevance_to_event": "Co-founder of Skyroot Aerospace and former ISRO colleague who stated the company targets 70–80% of its market globally, demonstrating commercial ambitions beyond India.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_naga_bharath_daka",
+        "surfaces": [
+          "Naga Bharath Daka"
+        ],
+        "relevance_to_event": "Co-founder of Skyroot Aerospace alongside Pawan Kumar Chandana; both were former ISRO colleagues when they established the company in 2018.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_indian_space_research_organisation",
+        "surfaces": [
+          "ISRO"
+        ],
+        "relevance_to_event": "The government space agency whose launch facilities were opened to private companies in 2020, enabling Skyroot to use the Satish Dhawan Space Centre for the Vikram-1 launch.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_indian_national_space_promotion_and_authorisation_centre",
+        "surfaces": [
+          "Indian National Space Promotion and Authorisation Centre",
+          "IN-SPACe"
+        ],
+        "relevance_to_event": "India's space regulatory authority whose Chairman Pawan Goenka stated the Vikram-1 achievement exceeded expectations for a first orbital launch by an Indian private company.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_narendra_modi",
+        "surfaces": [
+          "Prime Minister Narendra Modi",
+          "Modi"
+        ],
+        "relevance_to_event": "India's Prime Minister who characterized Vikram-1's launch as a defining moment in India's space journey, according to reporting by the South China Morning Post.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-18T14:32:39.381927+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Skyroot_Aerospace_Headquarters.jpg/1280px-Skyroot_Aerospace_Headquarters.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Skyroot_Aerospace_Headquarters.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Skyroot_Aerospace_Headquarters.jpg",
+      "width": 1200,
+      "height": 800,
+      "caption": "Skyroot Aerospace headquarters (file photo)",
+      "credit": "Anmollshrma",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Skyroot Aerospace Headquarters.jpg",
+      "query": "Skyroot Aerospace",
+      "fetched_at": "2026-07-18T14:32:39.381893+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/south-asia/indias-skyroot-launches-vikram-1-in-first-private-orbital-rocket-mission",
+      "author": null,
+      "published_at": "2026-07-18T07:21:33+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3361049/india-launches-first-private-orbital-rocket-space-start-ups-expand?utm_source=rss_feed",
+      "author": "Agence France-Presse",
+      "published_at": "2026-07-18T10:44:41+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/07/18/asia-pacific/science-health/india-private-rocket-launch-success/",
+      "author": null,
+      "published_at": "2026-07-18T09:08:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/clyekv7rld3o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-18T07:05:19+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Skyroot Aerospace launched Vikram-1, India's first privately developed orbital rocket, on July 18, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "launch_event",
+      "rationale": "All four outlets — spanning center-left and center-right — confirm this as the core fact of the event, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Frames the launch as a notable achievement for the country's private sector.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes it as India's first privately built orbital rocket's maiden flight.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Calls it a significant achievement for India's private space sector.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC frames it as the fulfilment of a vision for Indian private space, achieved on Saturday.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Vikram-1 lifted off from the Satish Dhawan Space Centre in Sriharikota at 06:35 GMT (12:05 India Standard Time).",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "launch_event",
+      "rationale": "All four outlets confirm the launch site and multiple sources confirm the 06:35 GMT time, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "States lift-off at 6:35am GMT from Satish Dhawan Space Centre.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Identifies the launch location as Satish Dhawan Space Centre in Sriharikota.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Confirms launch from Satish Dhawan Space Centre in Sriharikota.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC specifies lift-off at 12:05 India time [06:35 GMT] from ISRO's facility.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The launch was initially planned for 06:00 GMT but was temporarily delayed before being rescheduled.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "launch_event",
+      "rationale": "Only The Straits Times notes the pre-launch delay; no other outlet reports this procedural detail.",
+      "framing_variants": [
+        {
+          "characterization": "Notes a temporary hold before the rocket was rescheduled from the originally planned 6:00am GMT slot.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Vikram-1 successfully placed its payloads into a 450km low-Earth orbit approximately 15–16 minutes after launch.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "launch_event",
+      "rationale": "The Straits Times (center-right) and BBC (center-left) both report payload injection into a 450km orbit within roughly 15–16 minutes, providing cross-spectrum agreement on mission success.",
+      "framing_variants": [
+        {
+          "characterization": "States payload successfully injected into 450km orbit about 15 minutes after launch.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC reports the rocket travelled 280 miles (450km) to reach Low Earth Orbit in a 16-minute flight.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The Aagaman/Aagman mission placed six payloads into orbit; Aagaman is a Sanskrit word meaning 'arrival'.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "launch_event",
+      "rationale": "Both The Straits Times and BBC confirm the mission name and the number of payloads, though both are center or center-adjacent outlets; the SCMP and Japan Times do not enumerate payloads.",
+      "framing_variants": [
+        {
+          "characterization": "Refers to the mission as 'Mission Aagaman' carrying several customer payloads and in-orbit experiments.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC specifies six payloads placed into orbit and translates Aagman as Sanskrit for 'arrival'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "India became the third country — after the United States and China — to achieve orbital launch capability through private enterprise.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "launch_event",
+      "rationale": "All four outlets from center-left and center-right tiers confirm this ranking, providing strong cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as making India 'the third country to achieve orbital launch capability through private enterprise'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Frames India as achieving 'a first for Indian private sector' in orbital launches.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Implicitly contextualizes achievement within global space sector standing.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC explicitly states India is 'only the third country, after the US and China, with a private company capable of orbital launches'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Vikram-1 is approximately 22 metres tall (roughly the height of a seven-storey building) and can carry payloads of up to 350kg into low-Earth orbit.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "rocket_specifications",
+      "rationale": "All four outlets confirm the 350kg payload capacity; the height in metres and the seven-storey comparison appear across outlets from both sides of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "States the rocket is 'about 22m tall' and designed to carry up to 350kg into low-Earth orbit.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes Vikram-1 as 'about as tall as a seven-storey building' with 350kg capacity.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Repeats the seven-storey comparison and 350kg payload figure.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC calls it a 'seven-storey rocket' with capacity for up to 350kg payloads.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Vikram-1 uses three solid-fuel stages and a liquid-fuel orbital adjustment module powered by a 3D-printed engine — technologies Skyroot says are being flown for the first time in India.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "rocket_specifications",
+      "rationale": "Only The Straits Times details the propulsion architecture and the company's claim of technological novelty; other outlets do not elaborate on these specifications.",
+      "framing_variants": [
+        {
+          "characterization": "Describes three solid-fuel stages plus a liquid-fuel module with a 3D-printed engine, citing Skyroot's claim these are Indian firsts.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The Vikram-1 rocket is named after Vikram Sarabhai, who is called the father of India's space programme.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "rocket_specifications",
+      "rationale": "Only BBC explicitly names the rocket's honoree and describes Sarabhai's historical significance.",
+      "framing_variants": [
+        {
+          "characterization": "BBC notes the rocket is named after Vikram Sarabhai, 'who is called the father of India's space programme'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The mission's payloads include a robotic arm designed to remove space debris, an Earth observation camera, satellites, a lotus made of lab-grown diamonds (called Cosmic Bloom, developed by Cosmos Diamonds), and a miniature 18-karat gold rocket bearing micro-sculptures of Indian scientists CV Raman, APJ Abdul Kalam, and Vikram Sarabhai.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "launch_event",
+      "rationale": "The Japan Times and BBC both describe the symbolic and scientific payloads in consistent detail; these two outlets share the same bias tier so this is corroborated rather than agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Lists a lab-grown diamond, robotic arms for debris removal, and a miniature 18-karat gold rocket with mini sculptures of Sarabhai, CV Raman and APJ Abdul Kalam.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC describes a lotus of lab-grown diamonds called Cosmic Bloom, a tiny gold rocket with micro-sculptures each smaller than a grain of rice, a robotic arm and an Earth observation camera.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "The mission aimed to validate Vikram-1's propulsion, avionics, telemetry, guidance, navigation, and control systems in flight.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "launch_event",
+      "rationale": "Only The Straits Times explicitly lists the systems the mission was designed to validate.",
+      "framing_variants": [
+        {
+          "characterization": "States the mission is intended to validate propulsion, avionics, telemetry, guidance, navigation and control systems in flight.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Pawan Goenka, Chairman of the Indian National Space Promotion and Authorisation Centre, stated the achievement went beyond expectations for a first orbital launch by an Indian private company.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "official_reaction",
+      "rationale": "Both SCMP and The Japan Times report Goenka's statement and his role; both outlets share the same bias tier.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Goenka saying the achievement 'went way beyond expectation for the very first orbital launch ever taken by an Indian private company'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Identifies Goenka as chairman of IN-SPACe and quotes his assessment of the launch exceeding expectations.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Prime Minister Narendra Modi characterized Vikram-1's launch as a defining moment in India's space journey.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "official_reaction",
+      "rationale": "Only SCMP reports Prime Minister Modi's characterization of the launch.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Modi calling the launch 'a defining moment in India's space journey'.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Skyroot plans to conduct a second test flight later in the year before moving to routine commercial launches, currently targeted for the following year.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "future_plans",
+      "rationale": "The Straits Times (center-right) and BBC (center-left) both report Skyroot's plan for additional test flights before commercial operations, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Skyroot saying 'We will be doing a few of these before we move into routine commercial flights'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC specifies Saturday's launch is the first of two test flights planned this year, before commercial launch next year.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Skyroot has a manufacturing capacity of one rocket per month at its factory in Hyderabad.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "future_plans",
+      "rationale": "Only BBC reports Skyroot's stated production capacity figure.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Skyroot stating capacity to build one rocket every month at its Hyderabad factory.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Chandana stated that 70–80% of Skyroot's target market would be the global economy.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "future_plans",
+      "rationale": "Only BBC reports this specific commercial market targeting statement from Skyroot's founder.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes Chandana saying '70–80% of our market would be the global economy'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Skyroot Aerospace was founded in 2018 by former ISRO colleagues Pawan Kumar Chandana and Naga Bharath Daka.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "company_background",
+      "rationale": "The Straits Times (center-right) and BBC (center-left) both confirm the 2018 founding date; BBC additionally identifies the founders and their ISRO background.",
+      "framing_variants": [
+        {
+          "characterization": "States simply 'Founded in 2018, Skyroot'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC identifies the founders as former ISRO colleagues who quit their jobs to co-found the startup.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Skyroot became India's first space-sector unicorn in 2026, reaching a valuation of approximately $1–1.1 billion.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "company_background",
+      "rationale": "The Straits Times (center-right) and BBC (center-left) both confirm Skyroot's unicorn status; the minor difference in reported valuation (US$1 billion vs $1.1 billion) reflects rounding rather than contradiction.",
+      "framing_variants": [
+        {
+          "characterization": "States Skyroot became 'the first space-sector company in the country to hit a US$1 billion valuation earlier in 2026'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC says Skyroot 'recently became India's first space tech unicorn after reaching $1.1bn valuation'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Skyroot launched India's first privately developed suborbital rocket in November 2022 (the Vikram-S mission).",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "company_background",
+      "rationale": "The Straits Times (center-right) and BBC (center-left) both reference the 2022 suborbital milestone, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Refers to the 'Vikram-S mission in 2022, which became the first privately developed rocket to reach space from Indian soil on a suborbital flight'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC reports Skyroot 'first made headlines in November 2022 when it launched India's first privately developed suborbital rocket'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "India opened its space sector to private firms in 2020, allowing them to build rockets and satellites and use ISRO's launch facilities.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "india_space_policy",
+      "rationale": "Three outlets across center-left and center-right tiers confirm the 2020 liberalisation and its scope, meeting the cross-spectrum threshold for agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States India opened its space sector to private investment in 2020, allowing start-ups to build rockets, satellites and launch services previously provided only by ISRO.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Notes the sector 'opened up to private players in 2020' and has since rapidly expanded.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC states India opened the sector in 2020 'allowing them to build rockets and satellites and use Isro's launch facilities'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "The stated aim of the 2020 space sector liberalisation was to increase India's share in the global space business market from approximately 2% to 10% by 2030, with a longer-term government target of reaching US$44 billion by 2033.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "india_space_policy",
+      "rationale": "The Straits Times and BBC both report government targets for India's space economy growth, though they frame slightly different metrics (dollar value vs. percentage share); both are reporting stated government goals.",
+      "framing_variants": [
+        {
+          "characterization": "Reports the government aims to grow India's share of the global space economy to US$44 billion by 2033, from about US$8 billion currently.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC reports the aim to increase India's global market share from 2% to 10% by 2030.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "More than 400 space start-ups have been established in India since the sector opened to private firms in 2020.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "india_space_policy",
+      "rationale": "The Japan Times (center-left) and BBC (center-left) both cite the 400+ figure, but both are the same bias tier. However, The Straits Times (center-right) implicitly supports the broader context of sector growth, and both explicitly citing outlets confirm the figure from an Indian government statement. Since both citing outlets are center-left, this is corroborated rather than agreed.",
+      "framing_variants": [
+        {
+          "characterization": "States India is 'now home to more than 400 space startups'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC attributes this to the Indian government: 'the Indian government says more than 400 space start-ups have been set up in India'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "India in August 2023 became the fourth country to successfully land an unmanned spacecraft on the Moon, after Russia, the United States, and China.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "india_space_policy",
+      "rationale": "Only The Japan Times references India's 2023 lunar landing achievement as background context.",
+      "framing_variants": [
+        {
+          "characterization": "Notes India became 'only the fourth country to successfully land an unmanned spacecraft on the Moon, after Russia, the United States and China'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "India plans to send astronauts into space in 2027, launch an orbiter to Venus by 2028, and build its own space station by 2035.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "india_space_policy",
+      "rationale": "Only BBC reports this set of India's broader space programme ambitions as context for the Vikram-1 launch.",
+      "framing_variants": [
+        {
+          "characterization": "BBC lists India's plans to send astronauts into space next year, launch a Venus orbiter by 2028, and build a space station by 2035.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "The global space launch market is dominated by players in the United States, Europe, and China.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "india_space_policy",
+      "rationale": "Only The Straits Times describes the global competitive landscape in these terms.",
+      "framing_variants": [
+        {
+          "characterization": "Describes the global space market as 'dominated by players in the United States, Europe and China'.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "India opened its space sector to private investment in 2020, ending ISRO's decades-long monopoly on rocket and satellite development and allowing private firms to use ISRO's launch facilities.",
+      "sources": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Skyroot Aerospace previously launched the Vikram-S rocket in November 2022, which was India's first privately developed rocket to reach space on a suborbital flight.",
+      "sources": [
+        "src_001",
+        "src_004"
+      ]
+    },
+    {
+      "point": "India's space ambitions extend beyond private launch capability: the country landed an unmanned spacecraft on the Moon in August 2023 and has plans for a crewed mission, a Venus orbiter, and its own space station by 2035.",
+      "sources": [
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Skyroot's co-founders, Pawan Kumar Chandana and Naga Bharath Daka, previously worked together at ISRO before leaving to start the company in 2018.",
+      "sources": [
+        "src_004"
+      ]
+    },
+    {
+      "point": "The Indian National Space Promotion and Authorisation Centre (IN-SPACe) is the government body responsible for overseeing and authorising private space activities in India.",
+      "sources": [
+        "src_002",
+        "src_003"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-18T14:32:11.477517+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "On July 18, 2026, Indian space startup Skyroot Aerospace successfully launched Vikram-1, India's first privately developed orbital rocket, from the Satish Dhawan Space Centre in Sriharikota at 06:35 GMT (12:05 India Standard Time). The launch made India the third country, after the United States and China, to achieve orbital launch capability through private enterprise.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Vikram-1 successfully placed its payloads into a 450km low-Earth orbit approximately 15–16 minutes after launch. The rocket is approximately 22 metres tall — roughly the height of a seven-storey building — and can carry payloads of up to 350kg into low-Earth orbit.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Skyroot Aerospace was founded in 2018 by former ISRO colleagues Pawan Kumar Chandana and Naga Bharath Daka. The company became India's first space-sector unicorn in 2026, reaching a valuation of approximately $1–1.1 billion. Skyroot had previously launched India's first privately developed suborbital rocket in November 2022 with the Vikram-S mission.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "India opened its space sector to private firms in 2020, allowing them to build rockets and satellites and use ISRO's launch facilities. The stated aim of the liberalisation was to increase India's share in the global space business market from approximately 2% to 10% by 2030, with a longer-term government target of reaching $44 billion by 2033.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The Aagaman mission — a Sanskrit word meaning 'arrival' — placed six payloads into orbit. The payloads include a robotic arm designed to remove space debris, an Earth observation camera, satellites, a lotus made of lab-grown diamonds called Cosmic Bloom (developed by Cosmos Diamonds), and a miniature 18-karat gold rocket bearing micro-sculptures of Indian scientists CV Raman, APJ Abdul Kalam, and Vikram Sarabhai.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Skyroot plans to conduct a second test flight later in the year before moving to routine commercial launches, currently targeted for the following year. The company has a manufacturing capacity of one rocket per month at its factory in Hyderabad, according to BBC reporting.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Pawan Goenka, Chairman of the Indian National Space Promotion and Authorisation Centre, stated the achievement went beyond expectations for a first orbital launch by an Indian private company. The South China Morning Post and The Japan Times both reported this official assessment from India's space regulatory authority.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Center-left outlets The Japan Times and BBC both reported that more than 400 space start-ups have been established in India since the sector opened to private firms in 2020, citing Indian government statements about the growth of the domestic space industry following liberalisation.",
+        "supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Straits Times, a Singapore center-right outlet, noted that the launch was initially planned for 06:00 GMT but was temporarily delayed before being rescheduled. Other outlets did not report this procedural detail.",
+        "supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The Straits Times reported that Vikram-1 uses three solid-fuel stages and a liquid-fuel orbital adjustment module powered by a 3D-printed engine — technologies Skyroot says are being flown for the first time in India. The mission aimed to validate the rocket's propulsion, avionics, telemetry, guidance, navigation, and control systems in flight. These technical specifications were reported only by the Singapore outlet.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "BBC News, the UK public broadcaster, reported that the Vikram-1 rocket is named after Vikram Sarabhai, who is called the father of India's space programme. This historical context was provided only by BBC among the sources covering the launch.",
+        "supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The South China Morning Post, owned by Chinese e-commerce conglomerate Alibaba Group, reported that Prime Minister Narendra Modi characterized Vikram-1's launch as a defining moment in India's space journey. This official reaction from India's head of government was reported only by the Hong Kong-based outlet.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "BBC reported that Skyroot founder Chandana stated 70–80% of the company's target market would be the global economy, signaling the company's commercial ambitions beyond India. The Straits Times characterized the global space launch market as dominated by players in the United States, Europe, and China. These market-positioning statements were each reported by single outlets.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "The Japan Times, a center-left Japanese outlet, provided historical context by noting that India in August 2023 became the fourth country to successfully land an unmanned spacecraft on the Moon, after Russia, the United States, and China. BBC separately reported India's broader space programme ambitions, including plans to send astronauts into space in 2027, launch an orbiter to Venus by 2028, and build its own space station by 2035. These contextual details were each reported by single outlets.",
+        "supports": {
+          "claim_ids": [
+            "clm_023",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

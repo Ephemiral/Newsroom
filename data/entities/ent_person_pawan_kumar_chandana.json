@@ -1,0 +1,30 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_pawan_kumar_chandana",
+  "type": "person",
+  "canonical_name": "Pawan Kumar Chandana",
+  "aliases": [
+    "Chandana"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_18_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_18_asia_002"
+  ],
+  "created_at": "2026-07-18T14:32:19.521470+00:00",
+  "last_updated": "2026-07-18T14:32:31.219977+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-18",
+      "summary_of_change": "Entity created from evt_2026_07_18_asia_002",
+      "source": null
+    }
+  ]
+}
