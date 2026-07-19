@@ -1,0 +1,30 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_us_marshals_service",
+  "type": "organization",
+  "canonical_name": "US Marshals Service",
+  "aliases": [
+    "US Marshals"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_19_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_19_europe_001"
+  ],
+  "created_at": "2026-07-19T14:25:40.258826+00:00",
+  "last_updated": "2026-07-19T14:25:55.417741+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Entity created from evt_2026_07_19_europe_001",
+      "source": null
+    }
+  ]
+}

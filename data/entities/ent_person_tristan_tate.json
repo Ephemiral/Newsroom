@@ -1,0 +1,93 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_tristan_tate",
+  "type": "person",
+  "canonical_name": "Tristan Tate",
+  "aliases": [],
+  "wikidata_qid": "Q113989293",
+  "summary": "The British-American social media influencer Andrew Tate and his brother, Tristan Tate, have both been involved in a number of criminal and civil legal affairs in relation to their joint business and personal activities. As of October 2025 they are facing six legal investigations—four criminal and two civil—in Romania, the United Kingdom and the United States.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Legal_affairs_of_the_Tate_brothers"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Tristan_Tate_2025.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Tristan_Tate_2025.png",
+    "credit": "Anything Goes With James English",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Tristan Tate 2025.png",
+    "fetched_at": "2026-07-19T14:25:36.338748+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "In response, they filed two lawsuits against their accusers in the US.",
+      "source_url": "https://en.wikipedia.org/wiki/Legal_affairs_of_the_Tate_brothers",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-19",
+      "last_updated": "2026-07-19",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Andrew also faces an additional civil case in the UK.",
+      "source_url": "https://en.wikipedia.org/wiki/Legal_affairs_of_the_Tate_brothers",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-19",
+      "last_updated": "2026-07-19",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The brothers have denied all charges and allegations.",
+      "source_url": "https://en.wikipedia.org/wiki/Legal_affairs_of_the_Tate_brothers",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-19",
+      "last_updated": "2026-07-19",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_19_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_19_europe_001"
+  ],
+  "created_at": "2026-07-19T14:25:32.643376+00:00",
+  "last_updated": "2026-07-19T14:25:55.417454+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Entity created from evt_2026_07_19_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Legal_affairs_of_the_Tate_brothers"
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Legal_affairs_of_the_Tate_brothers"
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Legal_affairs_of_the_Tate_brothers"
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikidata Q113989293 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q113989293"
+    }
+  ]
+}

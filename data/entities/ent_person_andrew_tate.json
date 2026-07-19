@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_andrew_tate",
+  "type": "person",
+  "canonical_name": "Andrew Tate",
+  "aliases": [],
+  "wikidata_qid": "Q18637166",
+  "summary": "Emory Andrew Tate III is an American and British social media personality, businessman, and former professional kickboxer who gained notoriety for promoting various highly controversial positions in the manosphere. His commentary has resulted in his expulsion from various social media platforms and concern that he promotes misogynistic views to his audience.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Andrew_Tate"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Andrew_Tate_2021_on_James_English_Uploaded_By_James_Tamim_%28cropped%29.png/960px-Andrew_Tate_2021_on_James_English_Uploaded_By_James_Tamim_%28cropped%29.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Andrew_Tate_2021_on_James_English_Uploaded_By_James_Tamim_(cropped).png",
+    "credit": "James English",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Andrew Tate 2021 on James English Uploaded By James Tamim (cropped).png",
+    "fetched_at": "2026-07-19T14:25:32.642412+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "A divisive influencer, Tate has amassed 9.9 million followers on Twitter as of August 2024 and was the third-most googled person in 2023.",
+      "source_url": "https://en.wikipedia.org/wiki/Andrew_Tate",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-19",
+      "last_updated": "2026-07-19",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "He has been dubbed the \"king of toxic masculinity\", has called himself a misogynist, and is politically described as right-wing or far-right.",
+      "source_url": "https://en.wikipedia.org/wiki/Andrew_Tate",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-19",
+      "last_updated": "2026-07-19",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_19_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_19_europe_001"
+  ],
+  "created_at": "2026-07-19T14:25:28.156390+00:00",
+  "last_updated": "2026-07-19T14:25:55.417092+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Entity created from evt_2026_07_19_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Andrew_Tate"
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Andrew_Tate"
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikidata Q18637166 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q18637166"
+    }
+  ]
+}

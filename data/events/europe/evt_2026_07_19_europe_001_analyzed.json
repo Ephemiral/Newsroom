@@ -1,0 +1,1030 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_19_europe_001",
+    "beat": "europe",
+    "title": "Andrew and Tristan Tate Arrested in Miami Amid UK Extradition Request",
+    "summary": "US Marshals arrested social media influencers Andrew and Tristan Tate in Miami on Saturday, July 19, 2026, under a sealed warrant in connection with a UK extradition request. British prosecutors simultaneously announced 38 new charges against the brothers, bringing the total to 59 charges involving seven alleged victims, including rape, human trafficking, and sexual exploitation.",
+    "date": "2026-07-19",
+    "generated_at": "2026-07-19T14:24:53.263779+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_andrew_tate",
+        "surfaces": [
+          "Andrew Tate"
+        ],
+        "relevance_to_event": "Primary subject of the arrest and extradition proceedings; faces 42 UK charges including rape, human trafficking, and child exploitation offenses occurring between 2010-2017.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_017",
+            "clm_020",
+            "clm_021",
+            "clm_023"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_tristan_tate",
+        "surfaces": [
+          "Tristan Tate"
+        ],
+        "relevance_to_event": "Co-subject of the Miami arrest and extradition proceedings; faces 17 UK charges including rape and trafficking facilitation offenses.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_005"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_crown_prosecution_service",
+        "surfaces": [
+          "Crown Prosecution Service",
+          "CPS"
+        ],
+        "relevance_to_event": "UK prosecuting authority that announced the 38 additional charges (59 total) against both brothers in connection with seven alleged victims.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_us_marshals_service",
+        "surfaces": [
+          "US Marshals"
+        ],
+        "relevance_to_event": "Law enforcement agency that executed the arrest of both brothers in Miami on Saturday, July 19, 2026, under sealed warrant.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_romania",
+        "surfaces": [
+          "Romania",
+          "Romanian"
+        ],
+        "relevance_to_event": "Country where brothers were previously arrested in December 2022 and held in custody; lifted their travel restrictions in February 2025, enabling travel to Florida where arrest occurred.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013",
+            "clm_014",
+            "clm_015",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_miami",
+        "surfaces": [
+          "Miami"
+        ],
+        "relevance_to_event": "Location where US Marshals arrested the brothers on July 19, 2026, and where they are expected to appear in federal court.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_united_kingdom",
+        "surfaces": [
+          "UK",
+          "United Kingdom",
+          "British"
+        ],
+        "relevance_to_event": "Jurisdiction that initiated extradition proceedings and whose Crown Prosecution Service filed the 59 charges against both brothers.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_003",
+            "clm_006",
+            "clm_007",
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_bedfordshire_police",
+        "surfaces": [
+          "Bedfordshire Police"
+        ],
+        "relevance_to_event": "UK police force that investigated allegations against the brothers in an area north of London related to the current charges.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-19T14:26:02.996835+00:00",
+    "image": {
+      "url": "https://live.staticflickr.com/8634/16689038626_b3d79b50d7_b.jpg",
+      "full_url": "https://live.staticflickr.com/8634/16689038626_b3d79b50d7_b.jpg",
+      "source_page": "https://www.flickr.com/photos/25955895@N03/16689038626",
+      "width": 1024,
+      "height": 768,
+      "caption": "Federal Courthouse in Miami, Florida (file photo)",
+      "credit": "Phillip Pessar",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "provider": "openverse",
+      "file_title": "openverse:2c7cfa83-c0d7-4a74-ad1f-3dacaf06fc29|Federal Courthouse Downtown Miami",
+      "query": "Miami federal courthouse",
+      "fetched_at": "2026-07-19T14:26:02.996797+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQWVYcTctUjVFX2RoU0RLa0VUTUZBdWRUVjBUMnBMZWFBb3lJX05fQWRvbUsyTElUNVo3MlNaTTN1Z3FOTW9EODZYdEttTERSUDJwR2s0ZXYzUHozakYteHVtRno1MTR6S1JmcmE0QmVEYy13S1hKTHZaUTA3U1k0d3JrOXpzcUEzVkE?oc=5",
+      "author": null,
+      "published_at": "2026-07-19T11:30:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Telegraph Media Group; control passed to RedBird Capital Partners (US investment firm) in 2025 after the RedBird IMI ownership dispute.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Deutsche Welle (DW)",
+      "url": "https://www.dw.com/en/andrew-tate-brother-arrested-in-miami-uk-seeks-extradition/a-78022447?maca=en-rss-en-all-1573-xml-mrss",
+      "author": null,
+      "published_at": "2026-07-19T00:14:00+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "RT News",
+      "url": "https://www.rt.com/news/643222-tate-brothers-arrested-in-us/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "author": "RT",
+      "published_at": "2026-07-19T08:56:57+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": "Russian state-controlled",
+      "ownership": "Owned and funded by the Russian government (ANO TV-Novosti). Russian state-controlled.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/2026/07/19/andrew-and-tristan-tate-arrested-in-miami-as-uk-seeks-extradition",
+      "author": null,
+      "published_at": "2026-07-19T09:30:21+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "Politico Europe",
+      "url": "https://www.politico.eu/article/us-arrests-tate-brothers-as-uk-piles-on-new-rape-and-trafficking-charges/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "author": "Bartosz Brzeziński",
+      "published_at": "2026-07-19T09:13:37+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Axel Springer SE (German media conglomerate, majority-owned by KKR since 2019).",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Andrew and Tristan Tate were arrested in Miami by US Marshals under a sealed warrant.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "arrest_and_custody",
+      "rationale": "All five outlets, spanning center-left to center-right, independently confirm the Miami arrest under a sealed warrant, meeting the cross-spectrum threshold for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "The Telegraph reports both brothers were arrested in Miami without additional procedural detail.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "DW reports 'US federal authorities arrested social media influencer brothers Andrew and Tristan Tate,' noting the warrant was sealed per a Marshals Service spokesperson.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Russian state-controlled RT News specifies they were 'detained in Miami on Saturday under a sealed warrant,' with US Marshals acting 'pursuant to extradition proceedings.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews reports they were 'taken into custody by the U.S. Marshals Service under a sealed arrest warrant,' citing agency spokesperson Brady McCarron.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Politico Europe reports 'U.S. Marshals arrested the brothers in Miami,' framing it as the day before prosecutors formally requested extradition.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The arrests were carried out pursuant to extradition proceedings initiated by the United Kingdom.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "arrest_and_custody",
+      "rationale": "Multiple outlets across center and center-left/center-right tiers confirm the arrests were linked to UK extradition proceedings, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "DW frames the arrest as connected to UK prosecutors seeking extradition on charges of rape and sex trafficking.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Russian state-controlled RT News quotes a Justice Department spokesperson that arrests were made 'pursuant to extradition proceedings.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews frames the arrest as occurring 'ahead of an extradition request from the United Kingdom.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Politico Europe notes British prosecutors 'formally requested their extradition a day after' the arrest.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The UK's Crown Prosecution Service announced 38 additional charges related to four further alleged victims on the same day as the arrest, bringing the combined total to 59 charges involving seven alleged victims.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "uk_charges",
+      "rationale": "Center and center-left outlets alongside Russian state-controlled RT News all confirm the 38 new charges and the cumulative total; the center and center-left outlets alone span enough of the spectrum for 'agreed.'",
+      "framing_variants": [
+        {
+          "characterization": "Russian state-controlled RT News states the CPS announced '38 additional charges related to four further alleged victims,' bringing the total to 59 charges across seven victims.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews reports the UK brought '38 new charges relating to four further victims,' noting prior charges related to three women.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Politico Europe reports 'dozens of new charges' announced by British prosecutors including rape and human trafficking.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Andrew Tate (age 39) now faces a total of 42 charges, including seven counts of rape, three counts of arranging or facilitating trafficking for sexual exploitation, three counts of assault occasioning actual bodily harm, and 19 counts relating to indecent images of a child and extreme pornography.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "uk_charges",
+      "rationale": "DW and Russian state-controlled RT News both provide the same granular charge breakdown for Andrew Tate; as both are from the same or overlapping parts of the spectrum, this is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "DW lists the new charges from the CPS announcement: seven counts of rape, three of trafficking, three of ABH, and 19 relating to indecent images/extreme pornography.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Russian state-controlled RT News specifies Andrew Tate 'now faces 42 charges' and lists the same breakdown of new allegations.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Tristan Tate (age 38) faces a total of 17 charges, including two counts of rape, one count of sexual assault, and three counts of arranging or facilitating trafficking for sexual exploitation.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "uk_charges",
+      "rationale": "DW and Russian state-controlled RT News both provide the same granular charge breakdown for Tristan Tate; both sources fall within the same part of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "DW lists Tristan Tate's new charges: one sexual assault, two rapes, three trafficking counts.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Russian state-controlled RT News states Tristan Tate 'faces 17 charges overall' with the same new charge breakdown.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The alleged offenses underlying the UK charges occurred between July 2010 and August 2017.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "uk_charges",
+      "rationale": "Three outlets — DW, Russian state-controlled RT News, and Euronews — all cite the same timeframe from the CPS; they span center and the same general range without reaching across the full spectrum independently.",
+      "framing_variants": [
+        {
+          "characterization": "DW states the alleged offenses occurred 'between July 2010 and August 2017.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Russian state-controlled RT News uses identical language: 'The offenses allegedly took place between July 2010 and August 2017.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews characterizes it as 'allegations that they raped and trafficked women between 2010 and 2017.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The UK charges allege the brothers abused women in an area north of London, investigated by Bedfordshire Police.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "uk_charges",
+      "rationale": "Only Euronews specifies the geographic location of the alleged abuse and identifies Bedfordshire Police as the investigating force.",
+      "framing_variants": [
+        {
+          "characterization": "Euronews notes UK charges 'accuse the brothers of abusing women in an area north of London' and that Bedfordshire Police investigated the case, citing deputy chief constable Karena Thomas.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The brothers are expected to appear in federal court in Miami early the week following their arrest.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "arrest_and_custody",
+      "rationale": "Both Russian state-controlled RT News and Euronews report the expected court appearance, attributed to unnamed sources or general reporting; two outlets from similar parts of the spectrum corroborate the fact.",
+      "framing_variants": [
+        {
+          "characterization": "Russian state-controlled RT News attributes the court appearance expectation to 'an unnamed source familiar with the matter.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews states the brothers are 'expected to appear at the federal court in Miami early next week.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The Tate brothers hold dual US and British citizenship.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "background_profile",
+      "rationale": "DW (center), Russian state-controlled RT News, and Euronews (center) all confirm dual citizenship; center and center-right outlets span sufficient breadth for 'agreed.'",
+      "framing_variants": [
+        {
+          "characterization": "DW describes them as 'dual US and British citizens.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Russian state-controlled RT News states they 'hold both US and British citizenship.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews confirms they 'hold dual U.S. and British citizenship.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Both brothers deny all UK allegations.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "defense_response",
+      "rationale": "Russian state-controlled RT News, Euronews, and Politico Europe all report the brothers' denial; center and center-left outlets confirm across different parts of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Russian state-controlled RT News states flatly: 'Both men deny all allegations.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews reports the brothers 'deny the allegations, according to their lawyers,' and notes they 'have consistently denied allegations of abuse and human trafficking.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Politico Europe implies denial through reporting their lawyer's characterization of the charges.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "US lawyer Joseph McBride described the new UK charges as 'filth and slander' and argued they were intended to derail the brothers' defamation lawsuits in the US.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "defense_response",
+      "rationale": "Three outlets report McBride's characterization of the charges and his stated motivation claim; they span center-left to center without reaching the full left-right spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Russian state-controlled RT News directly quotes McBride calling the charges 'filth and slander' and states he claimed they were 'intended to derail the brothers' defamation lawsuits in the US,' quoting him: 'They're pulling out all the stops to make sure these guys never get their day in court.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews quotes McBride calling the charges 'filth and slander' and mentions the brothers' defamation lawsuits in the US as context for his claim.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Politico Europe notes McBride's statement that 'the Tates have filed [a defamation action] in the U.S.' as part of the defense response.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Trump administration officials reportedly raised the Tate brothers' case with Romanian authorities; Romanian officials denied facing US pressure.",
+      "classification": "single_source",
+      "dispute_type": "actor",
+      "claim_group": "political_context",
+      "rationale": "Only Russian state-controlled RT News reports both the claim of Trump administration involvement with Bucharest and the Romanian officials' denial; no other outlet covers this dispute.",
+      "framing_variants": [
+        {
+          "characterization": "Russian state-controlled RT News reports 'reports that Trump administration officials had raised their case with Bucharest,' while noting 'Romanian officials denied facing US pressure.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Romania lifted the brothers' travel restrictions in February 2025, enabling them to travel to Florida.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "romanian_case",
+      "rationale": "Russian state-controlled RT News and Euronews both report Romania's lifting of travel restrictions and the brothers' subsequent travel to Florida, with RT specifying February 2025.",
+      "framing_variants": [
+        {
+          "characterization": "Russian state-controlled RT News states 'Romania lifted the brothers' travel restrictions in February 2025, allowing them to fly to Florida.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews reports the brothers were 'allowed to leave Romania' and 'flew to Florida on a private jet.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "The brothers were previously arrested in Romania in December 2022 on allegations of human trafficking, forming an organized criminal group, and (for Andrew) rape, and spent three months in custody before moving to house arrest and later judicial supervision.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "romanian_case",
+      "rationale": "DW, Russian state-controlled RT News, and Euronews all report the Romanian arrest and its progression; they represent overlapping parts of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "DW notes the brothers 'were arrested there in 2022' and accused of 'human trafficking and forming a criminal gang to sexually exploit women.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Russian state-controlled RT News provides the most detail: arrested December 2022, three months in custody, moved to house arrest, then judicial supervision; Andrew also accused of rape.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews reports the 2022 arrest and that the brothers were 'accused of involvement in schemes to lure women for sexual exploitation.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "A Romanian court returned the original case to prosecutors over legal and procedural irregularities, but did not dismiss the charges.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "romanian_case",
+      "rationale": "Outlets agree the Romanian case stalled due to legal and procedural irregularities, but frame the outcome differently: DW states the case 'didn't go forward,' while RT News emphasizes 'charges were not dismissed,' reflecting a genuine framing tension about the case's status.",
+      "framing_variants": [
+        {
+          "characterization": "DW states 'the case didn't go forward after a Romanian court found legal and procedural irregularities on the part of the prosecutors.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Russian state-controlled RT News states 'A Romanian court subsequently returned the original case to prosecutors over legal and procedural irregularities,' emphasizing 'the charges were not dismissed.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews characterizes it as the case having 'stalled because of legal and procedural issues,' without specifying whether charges remain active.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "The Tate brothers are vocal supporters of US President Donald Trump and have a large following on the American right.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "political_context",
+      "rationale": "Euronews and Politico Europe both characterize the brothers as Trump supporters with a following on the American right; both are center/center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Euronews calls them 'staunch supporters of U.S. President Donald Trump.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Politico Europe describes them as 'vocal supporters of U.S. President Donald Trump' with 'a large following on the American right.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Andrew Tate appeared on the UK reality show Big Brother in 2016 and was removed after a video emerged appearing to show him assaulting a woman.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "background_profile",
+      "rationale": "DW, Russian state-controlled RT News, and Euronews all report the Big Brother appearance and removal under the same circumstances.",
+      "framing_variants": [
+        {
+          "characterization": "DW states Tate 'first reached a mainstream audience after appearing on the UK reality show Big Brother in 2016' and 'was removed when a video surfaced that appeared to show him assaulting a woman.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Russian state-controlled RT News notes Tate 'first gained mainstream attention' from Big Brother 2016.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews reports he 'was removed from the show after a video emerged that appeared to show Tate assaulting a woman.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "The brothers moved to Romania in 2016.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "background_profile",
+      "rationale": "Russian state-controlled RT News and Euronews both specify the brothers relocated to Romania in 2016; DW notes they moved to Romania without specifying the year.",
+      "framing_variants": [
+        {
+          "characterization": "Russian state-controlled RT News states: 'The brothers moved to Romania in 2016.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Euronews reports the brothers 'moved to Romania in 2016.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The Tate brothers are prominent figures in the online 'manosphere,' a male-centered social media movement associated with anti-feminist discourse.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "background_profile",
+      "rationale": "DW and Politico Europe both describe the brothers in relation to the manosphere, using similar framing; both are center or center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "DW notes they are 'often associated with the manosphere, a male-centered social media movement rooted in anti-feminist discourse.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Politico Europe describes them as 'two of the online manosphere's most prominent figures.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Andrew Tate built a large online following promoting a hypermasculine lifestyle and has been banned from YouTube, TikTok, and Instagram for violating hate-speech guidelines.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "background_profile",
+      "rationale": "Only Euronews specifically reports the platform bans and their stated reason (hate-speech guideline violations), along with the hypermasculine lifestyle framing.",
+      "framing_variants": [
+        {
+          "characterization": "Euronews reports Tate was 'banned from platforms including YouTube, TikTok and Instagram' for 'violating hate-speech guidelines,' and had 'amassed more than 10 million followers on X.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Andrew Tate made public comments suggesting women who suffer sexual assault bear some responsibility for attacks, graphic descriptions of assaulting women, and attacks on people seeking mental health treatment.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "background_profile",
+      "rationale": "Only Euronews details these specific categories of controversial statements attributed to Andrew Tate.",
+      "framing_variants": [
+        {
+          "characterization": "Euronews lists Andrew Tate's controversial remarks including statements on sexual assault responsibility, graphic assault descriptions, and attacks on mental health treatment seekers, noting the brothers argue such statements were 'taken out of context or meant as jokes.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "The UK Crown Prosecution Service had previously announced charges against the brothers in 2025 relating to alleged crimes against three women before the new charges were filed.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "uk_charges",
+      "rationale": "Only Euronews explicitly references the prior 2025 CPS charge announcement relating to three women as distinct from the new batch of charges.",
+      "framing_variants": [
+        {
+          "characterization": "Euronews contextualizes the new charges against prior ones 'announced publicly in 2025, relating to alleged crimes against three women,' with the new batch adding four further victims.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Andrew Tate faces an additional charge of exploiting prostitution beyond the rape and trafficking counts.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "uk_charges",
+      "rationale": "Only Euronews mentions a specific charge of exploiting prostitution for Andrew Tate, which is not listed in the other outlets' charge breakdowns.",
+      "framing_variants": [
+        {
+          "characterization": "Euronews states 'Andrew Tate faces an additional charge of exploiting prostitution' in addition to rape, trafficking, and indecent images charges.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "The Tate brothers are dual US-British citizens who became internationally prominent social media influencers promoting a hypermasculine lifestyle and are associated with the online 'manosphere.' They are vocal supporters of US President Donald Trump.",
+      "sources": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ]
+    },
+    {
+      "point": "The brothers were previously arrested in Romania in December 2022 on allegations of human trafficking, rape (for Andrew), and forming an organized criminal group. They spent three months in custody before being moved to house arrest and later judicial supervision. A Romanian court returned the case to prosecutors over procedural irregularities. Romania lifted their travel restrictions in February 2025, allowing them to travel to Florida.",
+      "sources": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Andrew Tate first gained mainstream attention after appearing on the UK reality show Big Brother in 2016, from which he was removed after a video emerged appearing to show him assaulting a woman.",
+      "sources": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Russian state-controlled RT News reported that Trump administration officials had reportedly raised the Tate brothers' case with Romanian authorities, though Romanian officials denied facing US pressure.",
+      "sources": [
+        "src_003"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-19T14:25:22.258854+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "US Marshals arrested social media influencers Andrew and Tristan Tate in Miami on Saturday under a sealed warrant. The arrests were carried out pursuant to extradition proceedings initiated by the United Kingdom.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The UK's Crown Prosecution Service announced 38 additional charges related to four further alleged victims on the same day as the arrest, bringing the combined total to 59 charges involving seven alleged victims. Both brothers deny all UK allegations.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The Tate brothers hold dual US and British citizenship. The brothers moved to Romania in 2016.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Andrew Tate appeared on the UK reality show Big Brother in 2016 and was removed after a video emerged appearing to show him assaulting a woman. The brothers were previously arrested in Romania in December 2022 on allegations of human trafficking, forming an organized criminal group, and rape, and spent three months in custody before moving to house arrest and later judicial supervision.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Romania lifted the brothers' travel restrictions in February 2025, enabling them to travel to Florida. The brothers are expected to appear in federal court in Miami early the week following their arrest.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Andrew Tate now faces a total of 42 charges in the UK, including seven counts of rape, three counts of arranging or facilitating trafficking for sexual exploitation, three counts of assault occasioning actual bodily harm, and 19 counts relating to indecent images of a child and extreme pornography. Tristan Tate faces a total of 17 charges, including two counts of rape, one count of sexual assault, and three counts of arranging or facilitating trafficking for sexual exploitation. The alleged offenses underlying the UK charges occurred between July 2010 and August 2017.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "US lawyer Joseph McBride described the new UK charges as 'filth and slander' and argued they were intended to derail the brothers' defamation lawsuits in the US.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Outlets differ in how they characterize the status of the Romanian case against the brothers. A Romanian court returned the original case to prosecutors over legal and procedural irregularities. Center-leaning Deutsche Welle reported that the case 'didn't go forward,' while Russian state-controlled RT News emphasized that 'charges were not dismissed,' reflecting different framings of whether the case remains active.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Center and center-left outlets Euronews and Politico Europe characterize the Tate brothers as vocal supporters of US President Donald Trump with a large following on the American right. These outlets also describe the brothers as prominent figures in the online 'manosphere,' a male-centered social media movement associated with anti-feminist discourse.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Euronews alone reported that the UK charges allege the brothers abused women in an area north of London, investigated by Bedfordshire Police. The outlet also specified that the Crown Prosecution Service had previously announced charges against the brothers in 2025 relating to alleged crimes against three women before the new charges were filed.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Euronews reported that Andrew Tate faces an additional charge of exploiting prostitution beyond the rape and trafficking counts. The outlet also reported that Andrew Tate built a large online following promoting a hypermasculine lifestyle and has been banned from YouTube, TikTok, and Instagram for violating hate-speech guidelines.",
+        "supports": {
+          "claim_ids": [
+            "clm_023",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Euronews reported that Andrew Tate made public comments suggesting women who suffer sexual assault bear some responsibility for attacks, graphic descriptions of assaulting women, and attacks on people seeking mental health treatment.",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Russian state-controlled RT News alone reported a dispute between actors regarding political pressure: Trump administration officials reportedly raised the Tate brothers' case with Romanian authorities, while Romanian officials denied facing US pressure.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

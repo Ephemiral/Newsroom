@@ -1,0 +1,115 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_united_kingdom",
+  "type": "location",
+  "canonical_name": "United Kingdom",
+  "aliases": [
+    "UK",
+    "British"
+  ],
+  "wikidata_qid": "Q145",
+  "summary": "The United Kingdom of Great Britain and Northern Ireland, commonly known as the United Kingdom (UK) or Britain, is a country in northwestern Europe, off the coast of the continental mainland. It comprises England, Scotland, Wales and Northern Ireland, with a population of over 69 million in 2024.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/United_Kingdom"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall.jpg/960px-Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall.jpg",
+    "credit": "Colin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Palace of Westminster from the dome on Methodist Central Hall.jpg",
+    "fetched_at": "2026-07-19T14:25:47.920652+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q145"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q145"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_nato",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q145"
+    }
+  ],
+  "facts": [
+    {
+      "text": "The UK includes the island of Great Britain, the north-eastern part of the island of Ireland, and most of the smaller islands within the British Isles, covering 94,354 square miles (244,376 km2).",
+      "source_url": "https://en.wikipedia.org/wiki/United_Kingdom",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-19",
+      "last_updated": "2026-07-19",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It shares a land border with the Republic of Ireland and is surrounded by the Atlantic Ocean, the North Sea, the English Channel, the Celtic Sea and the Irish Sea, while maintaining sovereignty over the Crown Dependencies and the British Overseas Territories.",
+      "source_url": "https://en.wikipedia.org/wiki/United_Kingdom",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-19",
+      "last_updated": "2026-07-19",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The capital and largest city of England and the UK is London; Edinburgh, Cardiff and Belfast are the national capitals of Scotland, Wales and Northern Ireland, respectively.",
+      "source_url": "https://en.wikipedia.org/wiki/United_Kingdom",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-19",
+      "last_updated": "2026-07-19",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_19_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_19_europe_001"
+  ],
+  "created_at": "2026-07-19T14:25:45.431029+00:00",
+  "last_updated": "2026-07-19T14:25:55.418173+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Entity created from evt_2026_07_19_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/United_Kingdom"
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/United_Kingdom"
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/United_Kingdom"
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikidata Q145 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q145"
+    }
+  ]
+}

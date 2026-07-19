@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_bedfordshire_police",
+  "type": "organization",
+  "canonical_name": "Bedfordshire Police",
+  "aliases": [],
+  "wikidata_qid": "Q4879244",
+  "summary": "Bedfordshire Police is the territorial police force responsible for policing the ceremonial county of Bedfordshire in the East of England. Its headquarters are in the town of Kempston in Bedford Borough.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Bedfordshire_Police"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Bedfordshire_Police_ANPR_Interceptor.JPG/960px-Bedfordshire_Police_ANPR_Interceptor.JPG",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Bedfordshire_Police_ANPR_Interceptor.JPG",
+    "credit": "Acather96",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Bedfordshire Police ANPR Interceptor.JPG",
+    "fetched_at": "2026-07-19T14:25:51.779135+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_19_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_19_europe_001"
+  ],
+  "created_at": "2026-07-19T14:25:49.238526+00:00",
+  "last_updated": "2026-07-19T14:25:55.418341+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Entity created from evt_2026_07_19_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikidata Q4879244 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q4879244"
+    }
+  ]
+}

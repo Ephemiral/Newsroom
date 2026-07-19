@@ -1,0 +1,93 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_miami",
+  "type": "location",
+  "canonical_name": "Miami",
+  "aliases": [],
+  "wikidata_qid": "Q8652",
+  "summary": "Miami is a coastal city in the southeast portion of the U.S. state of Florida.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Miami"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Downtown_Miami_aerial_2008.jpg/960px-Downtown_Miami_aerial_2008.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Downtown_Miami_aerial_2008.jpg",
+    "credit": "Marc Averette",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Downtown Miami aerial 2008.jpg",
+    "fetched_at": "2026-07-19T14:25:45.429988+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is the second-most populous city proper in Florida, with a population of 442,241 at the 2020 census.",
+      "source_url": "https://en.wikipedia.org/wiki/Miami",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-19",
+      "last_updated": "2026-07-19",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The Miami metropolitan area in South Florida has an estimated 6.39 million residents, ranking as the fifth-largest metropolitan area in the Southeast and eighth-largest metropolitan area in the United States.",
+      "source_url": "https://en.wikipedia.org/wiki/Miami",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-19",
+      "last_updated": "2026-07-19",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Miami has the third-largest skyline in the U.S.",
+      "source_url": "https://en.wikipedia.org/wiki/Miami",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-19",
+      "last_updated": "2026-07-19",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_19_europe_001",
+  "appears_in_events": [
+    "evt_2026_07_19_europe_001"
+  ],
+  "created_at": "2026-07-19T14:25:43.214099+00:00",
+  "last_updated": "2026-07-19T14:25:55.418026+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Entity created from evt_2026_07_19_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Miami"
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Miami"
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Miami"
+    },
+    {
+      "date": "2026-07-19",
+      "summary_of_change": "Grounded from Wikidata Q8652 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q8652"
+    }
+  ]
+}
