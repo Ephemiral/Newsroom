@@ -1,0 +1,63 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_sonam_wangchuk",
+  "type": "person",
+  "canonical_name": "Sonam Wangchuk",
+  "aliases": [
+    "Wangchuk"
+  ],
+  "wikidata_qid": "Q27924832",
+  "summary": "Sonam Wangchuk is an Indian engineer activist, innovator, education reformer, and environmentalist. He is the founding-director of the Students' Educational and Cultural Movement of Ladakh (SECMOL), which was founded in 1988 by a group of students who had been, in his own words, the 'victims' of an alien education system foisted on Ladakh.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Sonam_Wangchuk"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Sonam_Wangchuk%2C_2017_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Sonam_Wangchuk,_2017_(cropped).jpg",
+    "credit": "Sonam Wangchuk",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Sonam Wangchuk, 2017 (cropped).jpg",
+    "fetched_at": "2026-07-20T04:53:01.835142+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He was also known for designing the SECMOL campus that runs on solar energy and uses no fossil fuels for cooking, lighting or heating.",
+      "source_url": "https://en.wikipedia.org/wiki/Sonam_Wangchuk",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_20_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_20_asia_001"
+  ],
+  "created_at": "2026-07-20T04:52:58.881573+00:00",
+  "last_updated": "2026-07-20T04:53:17.650276+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Entity created from evt_2026_07_20_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Sonam_Wangchuk"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikidata Q27924832 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q27924832"
+    }
+  ]
+}

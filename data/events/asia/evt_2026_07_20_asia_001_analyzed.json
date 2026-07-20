@@ -1,0 +1,1129 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_20_asia_001",
+    "beat": "asia",
+    "title": "India's 'Cockroach Janta Party' Protesters March on Parliament Amid Police Crackdown",
+    "summary": "On July 20, 2026, thousands of supporters of India's youth-led Cockroach Janta Party (CJP) marched on the Indian parliament in New Delhi despite a police ban, demanding the resignation of Education Minister Dharmendra Pradhan over exam paper leaks. The protest was galvanized after police forcibly moved hunger-striking activist Sonam Wangchuk to hospital on July 18.",
+    "date": "2026-07-20",
+    "generated_at": "2026-07-20T04:52:20.132542+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_sonam_wangchuk",
+        "surfaces": [
+          "Sonam Wangchuk",
+          "Wangchuk"
+        ],
+        "relevance_to_event": "Activist whose forcible hospitalization on July 18 after a 21-day hunger strike galvanized the CJP march on parliament; his conditions for ending the fast directly shaped the protest's demands.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_dharmendra_pradhan",
+        "surfaces": [
+          "Dharmendra Pradhan",
+          "Education Minister Dharmendra Pradhan"
+        ],
+        "relevance_to_event": "Education Minister whose resignation is the primary demand of the CJP, attributed to exam paper leaks and education system failures.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_narendra_modi",
+        "surfaces": [
+          "Narendra Modi",
+          "Prime Minister Narendra Modi"
+        ],
+        "relevance_to_event": "Prime Minister whose resignation became an expanded CJP demand following Wangchuk's hospitalization; center-left outlets characterized the CJP as the biggest public challenge to his third term.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_abhijeet_dipke",
+        "surfaces": [
+          "Abhijeet Dipke"
+        ],
+        "relevance_to_event": "Founder of the CJP who announced a hunger strike of his own following Wangchuk's hospitalization and called for nationwide protests.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_political_party_cockroach_janta_party",
+        "surfaces": [
+          "Cockroach Janta Party",
+          "CJP"
+        ],
+        "relevance_to_event": "Youth-led political movement that organized and led the July 20 march on parliament, directly defying police ban and making demands for ministerial and prime ministerial resignation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_010",
+            "clm_011",
+            "clm_013",
+            "clm_014",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_new_delhi",
+        "surfaces": [
+          "New Delhi",
+          "Delhi"
+        ],
+        "relevance_to_event": "Geographic location where the banned march took place on July 20, 2026, with heavy police deployment and security measures implemented.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_011",
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_sri_lanka_police",
+        "surfaces": [
+          "Delhi Police",
+          "police"
+        ],
+        "relevance_to_event": "Authority that denied permission for the march, deployed hundreds of personnel, sealed roads, and forcibly moved Wangchuk to hospital under court directive.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_005",
+            "clm_011",
+            "clm_012",
+            "clm_013",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_safdarjung_hospital",
+        "surfaces": [
+          "Safdarjung Hospital"
+        ],
+        "relevance_to_event": "Government facility where Wangchuk was forcibly moved on July 18, becoming the central flashpoint that escalated the CJP protests and expanded their demands.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_005",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-20T04:53:33.207446+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/asia-pacific/20260718-indian-police-shift-cockroach-party-activist-on-hunger-strike-to-hospital-against-his-wish",
+      "author": "FRANCE 24",
+      "published_at": "2026-07-18T13:00:36+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWGowZmJ2a1BMTTc1SklkNnotYWFqYjdSLW1BcktvcW80Sjc0Vl9XMXhadVVCemxFMkdiUzBxTXlBdnRmX0NoUjhEbVpRX1Nmc2p0alo1eGRBVng3ZHFncGpMbk5XcVhGR1NEYml3RDctbzZ2QUJTcjN3ZU1EUHJMYjhXNmlyLVZzSzE5blpRNWZOSHlTSE0zTmlxbVJndW1ZNW9UZGl6Vk9sYTVlTFh0Zm1vQlEwU2J5anZGZW8zUDHSAcYBQVVfeXFMUGdfTVZfelg5SDAyWC1NdW42czBWNTFQWG1BM3dvRTNhOGY0cVpUckNvUU5XeVh1NFdsX3ZuUlJ0STI0bTBfRTlXTHFjb240QVhJRVJjbTh0U3FzRjc2aVFaTXB1dm0ybUFSd25RYVdpZ1pXQTBfX1ZwNXVuOHJMYjdtMmE3aVRMTF9ESGpxZXh2eGNrX0pWRHRJdGVOTm1Bc0JNUG1tblpMUGRpbzNSYXlNMnVjYzV0MzlHVlhxX3lrR3BwV0NB?oc=5",
+      "author": null,
+      "published_at": "2026-07-18T21:07:02+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c0l58lw089no?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-20T03:43:59+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/south-asia/india-bans-march-on-parliament-by-cockroach-activists-standoff-looms",
+      "author": null,
+      "published_at": "2026-07-19T16:37:06+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/asia-pacific/20260719-india-bans-march-on-parliament-by-cockroach-activists-risking-a-standoff",
+      "author": "FRANCE 24",
+      "published_at": "2026-07-19T20:40:10+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/south-asia/indias-cockroach-movement-supporters-gather-to-march-despite-police-ban",
+      "author": null,
+      "published_at": "2026-07-20T03:40:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/20/cockroach-janta-party-protest-march-sonam-wangchuk-india-parliament",
+      "author": "Guardian staff and agencies",
+      "published_at": "2026-07-20T00:42:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Indian police forcibly moved hunger-striking activist Sonam Wangchuk from the Jantar Mantar protest site to Safdarjung Hospital on July 18, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "police_actions",
+      "rationale": "All seven sources across left, center-left, center, and center-right outlets report that police forcibly moved Wangchuk to hospital on July 18, satisfying the cross-spectrum agreement requirement.",
+      "framing_variants": [
+        {
+          "characterization": "France 24 describes it as police 'forcibly' moving Wangchuk, noting a 'brief commotion' when protesters tried to block the move.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Al Jazeera reports Wangchuk was 'forcibly hospitalised.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC reports 'chaos erupted just before 07:30 local time when dozens of policemen covered him with curtains of bedsheets before removing him from the stage.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times uses 'forcibly moved' as a factual descriptor.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "France 24 says the movement was 'galvanised since police forcibly moved' Wangchuk.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Straits Times reports the action as the triggering event that brought thousands to the protest site.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "The Guardian says the Cockroach movement was 'galvanised since police forcibly moved' Wangchuk.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The government characterized Wangchuk's hospitalization as a necessary medical intervention following a court directive, while the Cockroach Janta Party characterized it as a forcible abduction carried out without Wangchuk's or his family's consent.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "police_actions",
+      "rationale": "The government/police and the CJP make directly contradictory claims about the nature and authorization of Wangchuk's removal; all reporting outlets carried both accounts.",
+      "framing_variants": [
+        {
+          "characterization": "France 24 carries both: police said it followed 'medical advice and a court directive'; the CJP said the government 'forcefully abducted' Wangchuk 'without his or his family's consent.' The CJP spokesperson also disputed that a court had ordered the forcible removal and said no doctor had examined Wangchuk shortly before he was taken.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC describes police covering Wangchuk with bedsheets before removing him; CJP founder Dipke called it a 'despicable act.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times reports a Delhi court later ruled authorities were within their rights, and that police said the action followed medical advice; it also notes family's objections.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "France 24 reports the court ruling upholding the move while also noting the CJP's characterization of events.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Guardian notes Wangchuk characterized his hospital stay as 'illegal detention.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "A Delhi court ruled that authorities were within their rights to move Wangchuk to a government hospital, citing his failure to admit himself despite deteriorating health.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "police_actions",
+      "rationale": "Three outlets spanning center, center-right, and center-left report the Delhi court's ruling and its stated rationale consistently.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times reports the court ruling alongside Judge Mini Pushkarna's statement that no force was being used against Wangchuk.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "France 24 presents the court ruling as a factual legal development.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Guardian notes the court authorized the action and that the judge said Wangchuk's bodily autonomy was not being violated.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Judge Mini Pushkarna stated that doctors had administered only oral fluids and supplements with Wangchuk's consent, and that it could not be said that force was being used against him or that his bodily autonomy was being violated.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "police_actions",
+      "rationale": "Three outlets—two center-right and one center-left—report the judge's statements consistently, but all lean center-right or center, without a genuinely cross-spectrum spread that would qualify as 'agreed.'",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times quotes the judge directly on both the treatment consent and the absence of force.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "France 24 reports the judge's statement on treatment with consent.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Guardian reports both elements of the judge's ruling, including the bodily autonomy finding.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Wangchuk's wife Gitanjali Angmo characterized the heavy police presence at Safdarjung Hospital as 'illegal detention' rather than medical care, while the government stated that it had to be cautious about Wangchuk's health and that his wife and close family had been given round-the-clock access to him.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "police_actions",
+      "rationale": "Wangchuk's wife and the government make directly contradictory characterizations of his hospital stay; multiple outlets carried both accounts.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times quotes Angmo's X post calling it 'illegal detention' and also reports the government's stated rationale for opposing transfer.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "France 24 presents the government's opposition to transfer alongside Angmo's request for Wangchuk to be moved to Medanta Hospital.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Guardian quotes Angmo directly: 'it is not medical care. It is illegal detention.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Wangchuk's wife Gitanjali Angmo sought permission to transfer him from Safdarjung Hospital to the privately run Medanta Hospital; the government opposed the request.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "police_actions",
+      "rationale": "Multiple outlets consistently report both the family's hospital transfer request and the government's opposition, with no contradictions about the fact itself.",
+      "framing_variants": [
+        {
+          "characterization": "France 24 reports Angmo wrote a letter to Safdarjung Hospital seeking the transfer and stipulating nothing be given to Wangchuk without her consent.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times notes Angmo's lawyers argued she was entitled to have Wangchuk treated at a hospital of their choice.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "France 24 reports the government's opposition citing caution about Wangchuk's health and round-the-clock family access.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Guardian notes the government stated it had to be cautious about his health.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Safdarjung Hospital reported that Wangchuk's vital parameters were stable but his blood parameters remained 'marginally altered,' and that he required round-the-clock monitoring.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "police_actions",
+      "rationale": "Three outlets report the same hospital bulletin on Wangchuk's medical condition using near-identical language.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times quotes the hospital on stable vitals, marginally altered blood parameters, and monitoring needs.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "France 24 reports the same hospital update.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Guardian repeats the hospital's findings on vitals and monitoring.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Wangchuk was on day 21 of his hunger strike when he was removed from the protest site; he had been consuming only salt and water and lost more than 9 kg during the strike.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "protest_details",
+      "rationale": "Two outlets—France 24 (center) and BBC (center-left)—report the duration and physical toll of the fast consistently; specific figures on weight loss appear only in BBC.",
+      "framing_variants": [
+        {
+          "characterization": "France 24 describes a '20-day hunger strike' at the time of hospitalization.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC specifies Wangchuk was on 'day 21' of his hunger strike, had been consuming only salt and water, and had lost more than 9 kg.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Wangchuk continued fasting while in hospital.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "protest_details",
+      "rationale": "Only BBC explicitly states that Wangchuk continued fasting after being moved to hospital.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports simply: 'He continues fasting there.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Wangchuk stated he would end his fast if: (a) the government took accountability for recent failures in the education system and paper leaks; (b) CJP protesters were allowed to reach Parliament and lawmakers assured them the issues would be taken up; or (c) lawmakers and party leaders visited him in hospital and gave him the same assurances.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "protest_details",
+      "rationale": "BBC and The Straits Times both enumerate Wangchuk's three stated conditions for ending his fast in consistent detail.",
+      "framing_variants": [
+        {
+          "characterization": "BBC presents the three conditions as Wangchuk's own statements.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times reports the same three conditions, adding that Wangchuk cited his health as a reason he could not march himself.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Delhi Police denied permission for the Cockroach Janta Party's planned march on parliament on July 20, citing police orders in force in the New Delhi district prohibiting assemblies of five or more persons except at the designated Jantar Mantar site.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "police_actions",
+      "rationale": "Five outlets spanning left-center to center-right consistently report the police ban on the march and cite the same assembly restriction orders, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports police said 'protesters don't have permission for the march.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times quotes the specific prohibition: 'assemblies of five or more persons, except at a designated site.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "France 24 frames it as police having 'banned' the march.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Straits Times notes this occurred 'despite police denying permission.'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "The Guardian describes protesters as 'set to defy police orders.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Police stated that strict security arrangements were in place to ensure public safety, security of protectees, and protection of vital government installations, coinciding with the start of parliament's monsoon session on July 20.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "police_actions",
+      "rationale": "Three outlets report the same police justification for heightened security using near-identical language.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times quotes police directly on the three stated reasons for security arrangements.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "France 24 repeats the same police statement.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Guardian links the security arrangements to the parliament session commencing July 20.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "The Cockroach Janta Party said the march on parliament would go ahead as planned despite the police ban.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "protest_details",
+      "rationale": "Four outlets across center-left, center, and center-right report the CJP's stated intention to proceed despite the ban.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes a CJP spokesperson telling the BBC directly that 'they will go ahead anyway.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times states the CJP said the march 'would go ahead as planned.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "France 24 reports the same CJP statement of intent.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Guardian describes protesters as 'set to defy police orders.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Thousands of CJP supporters gathered at or near Jantar Mantar in New Delhi on July 20 to participate in the march on parliament.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "protest_details",
+      "rationale": "Multiple outlets across center-left, center, and center-right report large crowds gathering for the planned march.",
+      "framing_variants": [
+        {
+          "characterization": "BBC describes the atmosphere as 'lively and spirited despite pouring rain,' with hundreds at the site and thousands expected for the march.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times reports 'hundreds of supporters gathering at a protest site.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "The Straits Times reports 'hundreds of supporters' gathered, with 'thousands of supporters arriving through the night' after Wangchuk's removal.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "The Guardian reports 'thousands of protesters in Delhi are set to defy police orders and march.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Several hundred police and paramilitary personnel were deployed at the Jantar Mantar protest site, with all roads leading to the venue sealed to traffic and security stepped up across Delhi with barricades on main streets.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "police_actions",
+      "rationale": "Three outlets across center and center-left consistently describe the security deployment and road closures around the protest site.",
+      "framing_variants": [
+        {
+          "characterization": "France 24 reports authorities 'deployed additional police and paramilitary soldiers' and 'erected barricades,' saying it was 'precautionary.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC reports 'several hundred police and paramilitary personnel' deployed, all roads sealed, and citywide barricades.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times reports 'scores of police and paramilitary security personnel' at the 'heavily barricaded site.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "CJP founder Abhijeet Dipke announced he would begin a hunger strike after Wangchuk was forcibly taken to hospital, called for nationwide protests, and alleged police used force and covered Wangchuk in sheets during his removal.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "protest_details",
+      "rationale": "France 24 and BBC both report Dipke's hunger strike announcement and his characterization of Wangchuk's removal as forcible.",
+      "framing_variants": [
+        {
+          "characterization": "France 24 quotes Dipke alleging Wangchuk was 'kidnapped by the police like criminals and goons' after being 'covered in sheets,' and reports his call for nationwide protests.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC describes Dipke on stage at Jantar Mantar holding the Indian flag and constitution, calling the crowd 'CJP's first win' and demanding Wangchuk's release.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Following Wangchuk's forcible hospitalization, the CJP expanded its demands to include the resignation of Prime Minister Narendra Modi, in addition to its earlier demand for Education Minister Dharmendra Pradhan's resignation.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "protest_details",
+      "rationale": "BBC and France 24 both report the CJP's expansion of demands to include Modi's resignation following Saturday's events.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes Dipke: 'Until now, we were demanding Dharmendra Pradhan's resignation, but after this despicable act, we will now demand the resignation of Narendra Modi.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "France 24 reports the CJP planned to march to parliament two days after Wangchuk's hospitalization, with expanded demands implied by the escalation.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "The CJP has been demanding that Education Minister Dharmendra Pradhan take responsibility and resign over exam paper leaks.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "protest_demands",
+      "rationale": "Multiple outlets across left, center-left, center, and center-right consistently report the CJP's primary demand for Pradhan's resignation.",
+      "framing_variants": [
+        {
+          "characterization": "France 24 reports protesters 'demand the resignation of India's Education Minister Dharmendra Pradhan' following exam paper leak allegations.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC states the CJP has been 'demanding that Education Minister Dharmendra Pradhan take responsibility and resign.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times reports supporters gathered 'seeking the resignation of the education minister.'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "The Guardian frames it as 'growing calls for prime minister Narendra Modi's education minister to be sacked over exam paper leaks.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Education Minister Dharmendra Pradhan dismissed the CJP and its supporters as 'the B-team of disruptive elements.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Only BBC reports Pradhan's characterization of the CJP as 'the B-team of disruptive elements.'",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes Pradhan dismissing the CJP with this phrase as part of its reporting on the government's non-engagement with protesters.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "The government of Prime Minister Narendra Modi had not engaged with the CJP protesters.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "government_response",
+      "rationale": "Only BBC explicitly states that the Modi government had not engaged with the protesters.",
+      "framing_variants": [
+        {
+          "characterization": "BBC states directly: 'The government of Prime Minister Narendra Modi has not engaged with the protesters yet.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "The CJP movement is seen as the biggest public challenge to Prime Minister Narendra Modi in his third term in office.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "political_significance",
+      "rationale": "Both Straits Times articles characterize the movement as Modi's biggest challenge in his third term, though both are center-right outlets from the same publication.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times attributes this framing to observers: movement and protest 'are seen as the biggest public challenge to Prime Minister Narendra Modi in his third term.'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "The Guardian states the movement is 'presenting a major challenge for Modi.'",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "The Cockroach Janta Party was founded by Abhijeet Dipke, a Boston University student, and emerged in May 2026 as an online satirical movement protesting exam paper leaks and irregularities.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "cjp_origins",
+      "rationale": "Six outlets across the political spectrum consistently report the CJP's founding by Dipke, its May 2026 origin, and its focus on exam paper leaks.",
+      "framing_variants": [
+        {
+          "characterization": "France 24 identifies Dipke as a 'Boston University student' and the CJP as beginning in May, linked to a Supreme Court Chief Justice's 'cockroach' remark.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC describes the CJP as 'an online satirical movement to protest against paper leaks and irregularities in exams.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "The Straits Times notes its formation 'in May after exam paper leaks.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "France 24 frames the CJP's origins as tied to exam paper leaks affecting millions.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "The Straits Times provides a timeline: CJP began after the medical entrance exam paper leak in May, with Dipke starting a sit-in in June.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "The Guardian notes it 'initially drew support largely online' before broadening its appeal.",
+          "source_id": "src_007"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_007"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "The CJP's name originates from Supreme Court Chief Justice Surya Kant comparing some unemployed young people to 'cockroaches' during a court hearing.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "cjp_origins",
+      "rationale": "Only France 24 provides the specific origin of the 'cockroach' name from a Supreme Court Chief Justice's remark.",
+      "framing_variants": [
+        {
+          "characterization": "France 24 states Chief Justice Surya Kant 'compared some unemployed young people to cockroaches during a hearing,' which sparked the movement's name.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-20T04:52:54.326795+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "On July 20, 2026, thousands of supporters of India's Cockroach Janta Party gathered in New Delhi to march on parliament, defying a police ban. Delhi Police had denied permission for the march, citing orders in the New Delhi district prohibiting assemblies of five or more persons except at the designated Jantar Mantar protest site. Despite the ban, the CJP announced the march would proceed as planned.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_011",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Several hundred police and paramilitary personnel were deployed at the Jantar Mantar protest site, with all roads leading to the venue sealed to traffic and security stepped up across Delhi with barricades on main streets. Police stated that strict security arrangements were in place to ensure public safety, security of protectees, and protection of vital government installations, coinciding with the start of parliament's monsoon session on July 20.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The CJP has been demanding that Education Minister Dharmendra Pradhan take responsibility and resign over exam paper leaks. The party was founded by Abhijeet Dipke, a Boston University student, and emerged in May 2026 as an online satirical movement protesting exam paper leaks and irregularities.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The march was galvanized by events two days earlier when Indian police forcibly moved hunger-striking activist Sonam Wangchuk from the Jantar Mantar protest site to Safdarjung Hospital on July 18, 2026. Wangchuk was on day 21 of his hunger strike when removed, having consumed only salt and water and lost more than 9 kg during the strike.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "A Delhi court ruled that authorities were within their rights to move Wangchuk to a government hospital, citing his failure to admit himself despite deteriorating health. Judge Mini Pushkarna stated that doctors had administered only oral fluids and supplements with Wangchuk's consent, and that it could not be said that force was being used against him or that his bodily autonomy was being violated.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_005",
+            "src_007"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Safdarjung Hospital reported that Wangchuk's vital parameters were stable but his blood parameters remained 'marginally altered,' and that he required round-the-clock monitoring. Wangchuk's wife Gitanjali Angmo sought permission to transfer him from Safdarjung Hospital to the privately run Medanta Hospital; the government opposed the request.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_005",
+            "src_007"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Wangchuk stated he would end his fast if: (a) the government took accountability for recent failures in the education system and paper leaks; (b) CJP protesters were allowed to reach Parliament and lawmakers assured them the issues would be taken up; or (c) lawmakers and party leaders visited him in hospital and gave him the same assurances.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_006"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Following Wangchuk's forcible hospitalization, CJP founder Abhijeet Dipke announced he would begin a hunger strike and called for nationwide protests. The CJP expanded its demands to include the resignation of Prime Minister Narendra Modi, in addition to its earlier demand for Education Minister Dharmendra Pradhan's resignation.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Center-left outlets characterized the CJP movement as the biggest public challenge to Prime Minister Narendra Modi in his third term in office.",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_006",
+            "src_007"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The CJP's name originates from Supreme Court Chief Justice Surya Kant comparing some unemployed young people to 'cockroaches' during a court hearing, according to center outlets.",
+        "supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Center-left outlets reported that Wangchuk continued fasting while in hospital, that Education Minister Dharmendra Pradhan dismissed the CJP and its supporters as 'the B-team of disruptive elements,' and that the Modi government had not engaged with the CJP protesters.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_019",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Wangchuk's removal from the protest site was the subject of sharply conflicting characterizations. The government characterized Wangchuk's hospitalization as a necessary medical intervention following a court directive, while the Cockroach Janta Party characterized it as a forcible abduction carried out without Wangchuk's or his family's consent. CJP founder Abhijeet Dipke alleged police used force and covered Wangchuk in sheets during his removal.",
+        "supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_007"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Wangchuk's wife Gitanjali Angmo characterized the heavy police presence at Safdarjung Hospital as 'illegal detention' rather than medical care, while the government stated that it had to be cautious about Wangchuk's health and that his wife and close family had been given round-the-clock access to him.",
+        "supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_005",
+            "src_007"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}

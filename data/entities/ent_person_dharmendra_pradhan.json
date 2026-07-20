@@ -1,0 +1,119 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_dharmendra_pradhan",
+  "type": "person",
+  "canonical_name": "Dharmendra Pradhan",
+  "aliases": [
+    "Education Minister Dharmendra Pradhan"
+  ],
+  "wikidata_qid": "Q5269370",
+  "summary": "Dharmendra Pradhan is an Indian politician who is serving as the 9th Minister of Education since 2021. He previously held cabinet positions as Minister of Petroleum and Natural Gas (2014–2021), Minister of Steel (2019–2021), and Minister of Skill Development and Entrepreneurship (2017–2024).",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Dharmendra_Pradhan"
+  ],
+  "image": null,
+  "roles_affiliations": [
+    {
+      "role": "Member of the Lok Sabha",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q5269370",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of Rajya Sabha",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q5269370",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Member of the Twelfth Odisha Legislative Assembly",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q5269370",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Skill Development and Entrepreneurship",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q5269370",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Education",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q5269370",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Steel",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q5269370",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Pradhan represents the Sambalpur in the Lok Sabha as a member of the Bharatiya Janata Party.",
+      "source_url": "https://en.wikipedia.org/wiki/Dharmendra_Pradhan",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "He has also served as a Rajya Sabha member from Bihar and Madhya Pradesh.",
+      "source_url": "https://en.wikipedia.org/wiki/Dharmendra_Pradhan",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_20_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_20_asia_001"
+  ],
+  "created_at": "2026-07-20T04:53:01.835821+00:00",
+  "last_updated": "2026-07-20T04:53:17.650690+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Entity created from evt_2026_07_20_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Dharmendra_Pradhan"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Dharmendra_Pradhan"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikidata Q5269370 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q5269370"
+    }
+  ]
+}

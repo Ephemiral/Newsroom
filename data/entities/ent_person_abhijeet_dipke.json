@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_abhijeet_dipke",
+  "type": "person",
+  "canonical_name": "Abhijeet Dipke",
+  "aliases": [],
+  "wikidata_qid": "Q139881668",
+  "summary": "The Cockroach Janta Party is an Indian youth-based satirical political movement founded on 16 May 2026 by Abhijeet Dipke, a political communications strategist who formerly worked with the Aam Aadmi Party.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Cockroach_Janta_Party"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/DipkeProfile.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:DipkeProfile.jpg",
+    "credit": "Abhijeet Dipke",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:DipkeProfile.jpg",
+    "fetched_at": "2026-07-20T04:53:07.263204+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_20_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_20_asia_001"
+  ],
+  "created_at": "2026-07-20T04:53:05.181124+00:00",
+  "last_updated": "2026-07-20T04:53:17.651260+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Entity created from evt_2026_07_20_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikidata Q139881668 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q139881668"
+    }
+  ]
+}

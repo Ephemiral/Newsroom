@@ -1,0 +1,70 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_safdarjung_hospital",
+  "type": "organization",
+  "canonical_name": "Safdarjung Hospital",
+  "aliases": [
+    "Safdarjang Hospital"
+  ],
+  "wikidata_qid": "Q7398430",
+  "summary": "Safdarjung Hospital is a multi-specialty hospital in New Delhi, India. It is the largest central government hospital in India measured by bed capacity.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Safdarjung_Hospital"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It is affiliated with Vardhman Mahavir Medical College.",
+      "source_url": "https://en.wikipedia.org/wiki/Safdarjung_Hospital",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It is located on the Ring Road, opposite to the AIIMS New Delhi.",
+      "source_url": "https://en.wikipedia.org/wiki/Safdarjung_Hospital",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_20_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_20_asia_001"
+  ],
+  "created_at": "2026-07-20T04:53:11.343982+00:00",
+  "last_updated": "2026-07-20T04:53:17.651999+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Entity created from evt_2026_07_20_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Safdarjung_Hospital"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Safdarjung_Hospital"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikidata Q7398430 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q7398430"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_new_delhi",
+  "type": "location",
+  "canonical_name": "New Delhi",
+  "aliases": [
+    "Delhi"
+  ],
+  "wikidata_qid": "Q987",
+  "summary": "New Delhi is the capital city of India and a part of the National Capital Territory of Delhi (NCT). New Delhi is the seat of all three branches of the Government of India, hosting the Rashtrapati Bhavan, Sansad Bhavan, and the Supreme Court.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/New_Delhi"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/India_Gate_Legendary_Saga_Of_Supreme_Sacrifice.jpg/960px-India_Gate_Legendary_Saga_Of_Supreme_Sacrifice.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:India_Gate_Legendary_Saga_Of_Supreme_Sacrifice.jpg",
+    "credit": "Navonildutta4",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:India Gate Legendary Saga Of Supreme Sacrifice.jpg",
+    "fetched_at": "2026-07-20T04:53:11.343055+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "New Delhi is a municipality within the NCT, administered by the New Delhi Municipal Council (NDMC), which covers mostly Lutyens' Delhi and a few adjacent areas.",
+      "source_url": "https://en.wikipedia.org/wiki/New_Delhi",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The municipal area is part of a larger administrative district, the New Delhi district.",
+      "source_url": "https://en.wikipedia.org/wiki/New_Delhi",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_20_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_20_asia_001"
+  ],
+  "created_at": "2026-07-20T04:53:09.307019+00:00",
+  "last_updated": "2026-07-20T04:53:17.651581+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Entity created from evt_2026_07_20_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/New_Delhi"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/New_Delhi"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikidata Q987 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q987"
+    }
+  ]
+}
