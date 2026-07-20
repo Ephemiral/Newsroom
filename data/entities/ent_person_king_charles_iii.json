@@ -4,7 +4,8 @@
   "type": "person",
   "canonical_name": "King Charles III",
   "aliases": [
-    "Charles III"
+    "Charles III",
+    "King Charles"
   ],
   "wikidata_qid": "Q43274",
   "summary": "Charles III is King of the United Kingdom and the 14 other Commonwealth realms.",
@@ -76,10 +77,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_17_europe_001",
   "appears_in_events": [
-    "evt_2026_07_17_europe_001"
+    "evt_2026_07_17_europe_001",
+    "evt_2026_07_20_europe_001"
   ],
   "created_at": "2026-07-17T14:36:24.581444+00:00",
-  "last_updated": "2026-07-17T14:36:39.319033+00:00",
+  "last_updated": "2026-07-20T15:03:28.437267+00:00",
   "change_log": [
     {
       "date": "2026-07-17",

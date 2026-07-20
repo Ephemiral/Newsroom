@@ -5,7 +5,8 @@
   "canonical_name": "United Kingdom",
   "aliases": [
     "UK",
-    "British"
+    "British",
+    "Britain"
   ],
   "wikidata_qid": "Q145",
   "summary": "The United Kingdom of Great Britain and Northern Ireland, commonly known as the United Kingdom (UK) or Britain, is a country in northwestern Europe, off the coast of the continental mainland. It comprises England, Scotland, Wales and Northern Ireland, with a population of over 69 million in 2024.",
@@ -81,10 +82,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_19_europe_001",
   "appears_in_events": [
-    "evt_2026_07_19_europe_001"
+    "evt_2026_07_19_europe_001",
+    "evt_2026_07_20_europe_001"
   ],
   "created_at": "2026-07-19T14:25:45.431029+00:00",
-  "last_updated": "2026-07-19T14:25:55.418173+00:00",
+  "last_updated": "2026-07-20T15:03:28.438445+00:00",
   "change_log": [
     {
       "date": "2026-07-19",

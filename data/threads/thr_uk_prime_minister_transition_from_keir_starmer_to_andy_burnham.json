@@ -1,0 +1,50 @@
+{
+  "thread_schema_version": "0.2",
+  "thread_id": "thr_uk_prime_minister_transition_from_keir_starmer_to_andy_burnham",
+  "title": "UK Prime Minister transition from Keir Starmer to Andy Burnham",
+  "title_source": "auto",
+  "summary": "Andy Burnham was elected Labour Party leader unopposed and subsequently appointed as UK Prime Minister in July 2026, succeeding Keir Starmer.",
+  "status": "developing",
+  "beats": [
+    "europe"
+  ],
+  "key_entities": [
+    "ent_person_andy_burnham",
+    "ent_person_keir_starmer",
+    "ent_person_king_charles_iii",
+    "ent_person_nigel_farage",
+    "ent_political_party_labour_party",
+    "ent_political_party_reform_uk"
+  ],
+  "events": [
+    {
+      "cluster_id": "evt_2026_07_17_europe_001",
+      "date": "2026-07-17",
+      "chapter_summary": "Andy Burnham, the former mayor of Greater Manchester, was confirmed as Labour Party leader on July 17, 2026, running unopposed, and is set to replace Keir Starmer as UK Prime Minister on Monday following Starmer's resignation to King Charles III.",
+      "link_score": 1.0
+    },
+    {
+      "cluster_id": "evt_2026_07_20_europe_001",
+      "date": "2026-07-20",
+      "chapter_summary": "The new report adds that Burnham's appointment was formally completed on July 20, 2026, following a meeting with King Charles III at Buckingham Palace, where the King requested he form a new government, and that Starmer formally resigned to King Charles before Burnham took office.",
+      "link_score": 0.841
+    }
+  ],
+  "accountability": [],
+  "created_at": "2026-07-20T15:03:31.824873+00:00",
+  "last_updated": "2026-07-20T15:03:34.220291+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Thread created"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Added evt_2026_07_17_europe_001"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Added evt_2026_07_20_europe_001"
+    }
+  ]
+}
