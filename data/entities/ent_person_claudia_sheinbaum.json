@@ -1,0 +1,112 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_claudia_sheinbaum",
+  "type": "person",
+  "canonical_name": "Claudia Sheinbaum",
+  "aliases": [
+    "Mexican President Claudia Sheinbaum"
+  ],
+  "wikidata_qid": "Q5771800",
+  "summary": "Claudia Sheinbaum Pardo is a Mexican politician, energy and climate change scientist, and academic who has been serving as the 66th president of Mexico since 2024. She is the first woman and the first person with Jewish heritage to hold the office.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Claudia_Sheinbaum"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Claudia_Sheinbaum_en_su_conferencia_matutina_%28cropped%29.jpg/960px-Claudia_Sheinbaum_en_su_conferencia_matutina_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Claudia_Sheinbaum_en_su_conferencia_matutina_(cropped).jpg",
+    "credit": "Eneas De Troya",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Claudia Sheinbaum en su conferencia matutina (cropped).jpg",
+    "fetched_at": "2026-07-20T15:10:16.095284+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Secretary of the Environment of Mexico City",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q5771800",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Head of Mexico City government",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q5771800",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "president-elect",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q5771800",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President of Mexico",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q5771800",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "A member of the National Regeneration Movement (Morena), she previously served as Head of Government of Mexico City from 2018 to 2023.",
+      "source_url": "https://en.wikipedia.org/wiki/Claudia_Sheinbaum",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "In 2025, Forbes ranked Sheinbaum as the fifth most powerful woman in the world.",
+      "source_url": "https://en.wikipedia.org/wiki/Claudia_Sheinbaum",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_20_americas_001",
+  "appears_in_events": [
+    "evt_2026_07_20_americas_001"
+  ],
+  "created_at": "2026-07-20T15:10:13.868314+00:00",
+  "last_updated": "2026-07-20T15:10:36.180249+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Entity created from evt_2026_07_20_americas_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Claudia_Sheinbaum"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Claudia_Sheinbaum"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikidata Q5771800 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q5771800"
+    }
+  ]
+}

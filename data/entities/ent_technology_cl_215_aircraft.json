@@ -1,0 +1,28 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_cl_215_aircraft",
+  "type": "technology",
+  "canonical_name": "CL-215 aircraft",
+  "aliases": [],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_20_americas_001",
+  "appears_in_events": [
+    "evt_2026_07_20_americas_001"
+  ],
+  "created_at": "2026-07-20T15:10:30.563731+00:00",
+  "last_updated": "2026-07-20T15:10:36.181384+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Entity created from evt_2026_07_20_americas_001",
+      "source": null
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_mark_carney",
+  "type": "person",
+  "canonical_name": "Mark Carney",
+  "aliases": [
+    "Prime Minister Carney"
+  ],
+  "wikidata_qid": "Q192533",
+  "summary": "Mark Joseph Carney is a Canadian politician and economist who has served as the 24th prime minister of Canada since 2025. Carney was also elected as leader of the Liberal Party and the member of Parliament (MP) for Nepean in 2025.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Mark_Carney"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/2025-11-14_InaugurationREM_Deux-Montagnes_Mark_Carney.jpg/960px-2025-11-14_InaugurationREM_Deux-Montagnes_Mark_Carney.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2025-11-14_InaugurationREM_Deux-Montagnes_Mark_Carney.jpg",
+    "credit": "Lea-Kim",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:2025-11-14 InaugurationREM Deux-Montagnes Mark Carney.jpg",
+    "fetched_at": "2026-07-20T15:10:13.717187+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Governor of the Bank of England",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q192533",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Governor of the Bank of Canada",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q192533",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Leader of the Liberal Party of Canada",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q192533",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Prime Minister of Canada",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q192533",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the House of Commons of Canada",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q192533",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "prime minister",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q192533",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He was previously Governor of the Bank of Canada from 2008 to 2013 and Governor of the Bank of England from 2013 to 2020.",
+      "source_url": "https://en.wikipedia.org/wiki/Mark_Carney",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_20_americas_001",
+  "appears_in_events": [
+    "evt_2026_07_20_americas_001"
+  ],
+  "created_at": "2026-07-20T15:10:11.821103+00:00",
+  "last_updated": "2026-07-20T15:10:36.179967+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Entity created from evt_2026_07_20_americas_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Mark_Carney"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikidata Q192533 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q192533"
+    }
+  ]
+}

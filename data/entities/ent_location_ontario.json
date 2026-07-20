@@ -1,0 +1,95 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_ontario",
+  "type": "location",
+  "canonical_name": "Ontario",
+  "aliases": [
+    "northern Ontario"
+  ],
+  "wikidata_qid": "Q1904",
+  "summary": "Ontario is the southernmost province of Canada. Located in Central Canada, Ontario is the country's most populous province.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ontario"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Algonquin_Cache_Lake_Lookout.JPG/960px-Algonquin_Cache_Lake_Lookout.JPG",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Algonquin_Cache_Lake_Lookout.JPG",
+    "credit": "Original uploader was Ptrbnsn at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Algonquin Cache Lake Lookout.JPG",
+    "fetched_at": "2026-07-20T15:10:21.029098+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "As of the 2021 Canadian census, it is home to over 14 million people, which is 38.5% of the country's population.",
+      "source_url": "https://en.wikipedia.org/wiki/Ontario",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Ontario is the second-largest province by total area and the fourth-largest jurisdiction of all the Canadian provinces and territories.",
+      "source_url": "https://en.wikipedia.org/wiki/Ontario",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It is home to the nation's capital, Ottawa, and its most populous city, Toronto, which is Ontario's provincial capital.",
+      "source_url": "https://en.wikipedia.org/wiki/Ontario",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_20_americas_001",
+  "appears_in_events": [
+    "evt_2026_07_20_americas_001"
+  ],
+  "created_at": "2026-07-20T15:10:18.812894+00:00",
+  "last_updated": "2026-07-20T15:10:36.180738+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Entity created from evt_2026_07_20_americas_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ontario"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ontario"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ontario"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikidata Q1904 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1904"
+    }
+  ]
+}

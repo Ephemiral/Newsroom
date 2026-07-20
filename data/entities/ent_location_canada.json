@@ -1,0 +1,114 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_canada",
+  "type": "location",
+  "canonical_name": "Canada",
+  "aliases": [
+    "Canadian"
+  ],
+  "wikidata_qid": "Q16",
+  "summary": "Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic Ocean to the Pacific Ocean and northward into the Arctic Ocean, making it the second-largest country by total area, with the longest coastline of any country.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Canada"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NASA_astronaut_Scott_Kelly_took_this_aurora_image_over_Canada_on_Jan._21%2C_2016_01.jpg/960px-NASA_astronaut_Scott_Kelly_took_this_aurora_image_over_Canada_on_Jan._21%2C_2016_01.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:NASA_astronaut_Scott_Kelly_took_this_aurora_image_over_Canada_on_Jan._21,_2016_01.jpg",
+    "credit": "NASA",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:NASA astronaut Scott Kelly took this aurora image over Canada on Jan. 21, 2016 01.jpg",
+    "fetched_at": "2026-07-20T15:10:18.809756+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q16"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_nato",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q16"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q16"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Its border with the United States is the longest international land border.",
+      "source_url": "https://en.wikipedia.org/wiki/Canada",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The country is characterized by a wide range of both meteorologic and geological regions.",
+      "source_url": "https://en.wikipedia.org/wiki/Canada",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "With a population of over 41 million, it has widely varying population densities, with the majority residing in its urban areas and large areas being sparsely populated.",
+      "source_url": "https://en.wikipedia.org/wiki/Canada",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_20_americas_001",
+  "appears_in_events": [
+    "evt_2026_07_20_americas_001"
+  ],
+  "created_at": "2026-07-20T15:10:16.255326+00:00",
+  "last_updated": "2026-07-20T15:10:36.180468+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Entity created from evt_2026_07_20_americas_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Canada"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Canada"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Canada"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikidata Q16 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q16"
+    }
+  ]
+}
