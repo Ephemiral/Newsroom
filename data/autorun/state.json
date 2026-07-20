@@ -369,6 +369,11 @@
       "at": "2026-07-19T14:22:10.354872+00:00",
       "event_id": "evt_2026_07_19_europe_001",
       "outcome": "published"
+    },
+    "9129207b3eb9b1bd": {
+      "at": "2026-07-20T04:28:06.707550+00:00",
+      "event_id": "evt_2026_07_20_israel_middle_east_001",
+      "outcome": "published"
     }
   }
 }

@@ -1,0 +1,54 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_darkhovin_nuclear_power_plant",
+  "type": "location",
+  "canonical_name": "Darkhovin nuclear power plant",
+  "aliases": [
+    "Darkhovin Nuclear Power Plant"
+  ],
+  "wikidata_qid": "Q1353243",
+  "summary": "The Darkhovin Nuclear Power Plant is a planned nuclear power plant located in Khuzestan province, Iran about 70 kilometers south of Ahvaz at the Karun river. Construction of one reactor has started.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Darkhovin_Nuclear_Power_Plant"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Some other projects on this site were cancelled.",
+      "source_url": "https://en.wikipedia.org/wiki/Darkhovin_Nuclear_Power_Plant",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_20_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_20_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-20T04:32:00.572858+00:00",
+  "last_updated": "2026-07-20T04:32:06.094328+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Entity created from evt_2026_07_20_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Darkhovin_Nuclear_Power_Plant"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikidata Q1353243 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1353243"
+    }
+  ]
+}

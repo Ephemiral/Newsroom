@@ -1,0 +1,1052 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_20_israel_middle_east_001",
+    "beat": "israel_middle_east",
+    "title": "US–Iran Conflict Escalates: US Soldier Killed in Iraq, Strikes on Nuclear Site, Regional Spillover",
+    "summary": "On July 18–19, 2026, a US service member was killed during the disposal of an Iranian drone in northern Iraq, raising the US death toll in the ongoing US–Iran conflict to 17. Simultaneously, the US launched airstrikes against Iranian targets, Iran struck US-allied countries including Jordan and Kuwait, and a US attack on an under-construction Iranian nuclear power plant drew international concern.",
+    "date": "2026-07-19",
+    "generated_at": "2026-07-20T04:31:17.868735+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "President Trump",
+          "Donald Trump"
+        ],
+        "relevance_to_event": "Trump declared the US-Iran ceasefire 'over' on July 8 and signaled plans to increase attacks on Iran, including strikes on infrastructure like bridges and power plants.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_023"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_mojtaba_khamenei",
+        "surfaces": [
+          "Mojtaba Khamenei",
+          "Iran's Supreme Leader"
+        ],
+        "relevance_to_event": "Iran's Supreme Leader stated that America's repeated ceasefire breaches proved 'the signature of the US president is utterly worthless and devoid of credibility.'",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_marco_rubio",
+        "surfaces": [
+          "Marco Rubio",
+          "US Secretary of State"
+        ],
+        "relevance_to_event": "US Secretary of State met with Lebanese President on Sunday to discuss a US-backed trilateral framework and efforts to disarm Hezbollah amid the escalating conflict.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_025"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_united_states",
+        "surfaces": [
+          "US",
+          "United States"
+        ],
+        "relevance_to_event": "Launched airstrikes on Iranian military targets on Sunday to degrade Iran's regional capabilities and punish IRGC forces; 17 US service members have been killed since the conflict began.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_iran",
+        "surfaces": [
+          "Iran",
+          "Iranian"
+        ],
+        "relevance_to_event": "Attacked US-allied countries including Jordan, Kuwait, and Bahrain on Sunday; reported US strikes killed at least 50 people and wounded over 500 according to Iranian authorities.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_004",
+            "clm_007",
+            "clm_008",
+            "clm_010",
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_strait_of_hormuz",
+        "surfaces": [
+          "Strait of Hormuz"
+        ],
+        "relevance_to_event": "Iran declared the strategic waterway closed and the US launched airstrikes specifically intended to degrade Iran's ability to threaten commercial shipping there.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_018",
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_darkhovin_nuclear_power_plant",
+        "surfaces": [
+          "Darkhovin nuclear power plant"
+        ],
+        "relevance_to_event": "US forces attacked this under-construction Iranian nuclear facility in Khuzestan province on Sunday; the IAEA confirmed it contained no nuclear material and posed no radiological risk.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-20T04:32:14.788787+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Bushehr_Nuclear_Plant.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Bushehr_Nuclear_Plant.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bushehr_Nuclear_Plant.jpg",
+      "width": 620,
+      "height": 361,
+      "caption": "Bushehr Nuclear Power Plant in Iran (file photo)",
+      "credit": "Hossein Heidarpour",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Bushehr Nuclear Plant.jpg",
+      "query": "Iranian nuclear power plant",
+      "fetched_at": "2026-07-20T04:32:14.788752+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4S1NncVEwdEZaUVp2eC1WZUVEeTRWM19DZlhoXzI5bVdQUVJ3V1Z2TWY2UmFVNTlBWWlfdHU0dG1US2h1bWhRUEU0YUFvWURKa0tvNGtR?oc=5",
+      "author": null,
+      "published_at": "2026-07-19T19:41:30+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/19/middle-east-crisis-live-us-launches-new-round-of-airstrikes-to-swiftly-punish-iran-after-american-troops-killed",
+      "author": "Lucy Campbell, Yohannes Lowe, Fran Singh and Adam Fulton",
+      "published_at": "2026-07-19T20:25:52+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "I don't have reliable information about these specific journalists at The Guardian to provide accurate background notes for all four individuals. I should return:\n\nnull",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/jul/19/military-service-member-death-iran-airstrikes",
+      "author": "Associated Press",
+      "published_at": "2026-07-19T20:16:44+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-19T19:45:12+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A US service member was killed on July 18 in northern Iraq during a controlled detonation of unexploded ordnance from a downed Iranian one-way attack drone.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_casualties",
+      "rationale": "All four outlets, spanning center-right and center-left bias ratings, report this as fact based on US Central Command's announcement, meeting the cross-spectrum threshold for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "Headline-framed as 'US soldier killed in Iraq disposing of Iranian drone,' attributed directly to CENTCOM.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Quotes CENTCOM's full statement verbatim; later adds NYT-sourced detail that the soldier was not a bomb technician but was hit by debris or fragments.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Described as US military announcement of death 'during controlled detonation of a downed Iranian drone.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Attributed to US Central Command; describes the drone as an 'Iranian attack drone.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "A second US service member was wounded in the same July 18 incident in northern Iraq and continues to receive medical treatment for a minor injury.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_casualties",
+      "rationale": "Three outlets across center-left and center-right report this detail from CENTCOM, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes CENTCOM: 'A second service member was wounded and continues to receive medical treatment for a minor injury.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Mentioned briefly as part of the broader casualty report.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Described as also wounding 'a second service member.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The US service member killed during the drone disposal was not a bomb technician but another soldier who was hit by debris or fragments when the drone was detonated.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_casualties",
+      "rationale": "Only The Guardian (art_59df4375a8) reports this additional detail, citing a US official speaking to the New York Times; no other outlet in the cluster carries it.",
+      "framing_variants": [
+        {
+          "characterization": "Attributed to 'a US official' who told the New York Times; the incident remains under investigation.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "An Iranian attack on a US military facility in Jordan on Friday killed two US service members and left one missing.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_casualties",
+      "rationale": "All four outlets report the Friday Jordan attack and its casualty figures, drawn from US military and verified footage, spanning center-left and center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "States 'two US soldiers were killed and one missing by an Iranian attack on a military facility in Jordan.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Refers to 'Friday's killing of troops in Jordan' with one missing.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes 'an attack on a base in Jordan killed two US soldiers and left another missing'; notes verified footage showed impacts and an explosion.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Referenced as context for the Iraq killing.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Unidentified remains were found on Sunday at the site of Friday's attack in Jordan, and an examination process to verify them is ongoing.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_casualties",
+      "rationale": "Three outlets spanning center-left and center-right report this CENTCOM statement, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes CENTCOM directly: 'located unidentified remains in Jordan after a service member was listed as missing in action'; examination ongoing.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States military said 'unidentified remains were found on Sunday and were being examined.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Says Centcom 'found unidentified remains after a search of the location of Friday's attack in Jordan.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "An American Navy pilot who went missing earlier in July was declared dead, contributing to the US death toll.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_casualties",
+      "rationale": "Only BBC News (art_fa81e6948e) mentions the Navy pilot declared dead; no other outlet in the cluster references this specific incident.",
+      "framing_variants": [
+        {
+          "characterization": "Noted as context for the US death toll reaching 17, after the pilot 'went missing earlier this month was declared dead.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The total number of US service members killed since the start of the US–Iran conflict has reached 17, with more than 430 wounded.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_casualties",
+      "rationale": "Three outlets across center-left and center-right confirm the death toll of 17; the wounded figure of 430+ is reported by The Guardian (art_59df4375a8).",
+      "framing_variants": [
+        {
+          "characterization": "States 17 killed and 'more than 430 US troops have been wounded' since the US and Israel launched war against Iran five months ago.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States '17 US service members have been killed' since the war began.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'The US death toll in the conflict has now reached 17.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The US launched airstrikes on Sunday targeting Iranian military coastal surveillance and air defense facilities, maritime capabilities, and missile and drone storage sites, with the stated purpose of degrading Iran's ability to threaten commercial shipping in the Strait of Hormuz and punishing IRGC forces.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Multiple outlets spanning center-left and center-right report CENTCOM's statement on strike targets and stated rationale, qualifying as cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes CENTCOM on targets; notes attack 'was designed to degrade Iran's ability to control the strait and swiftly punish IRGC forces.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Attributes rationale to US military: 'degrade Iran's ability to threaten commercial shipping' and 'swiftly punish' IRGC forces.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Frames as US strikes 'in response to the killing of American troops,' referencing CENTCOM's stated targets.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "US military footage showed strikes carried out by fighter jets and Tomahawk cruise missiles launched from the sea; one target site appeared to be in a mountainous valley.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian (art_691efca9e4) describes the released footage in this detail; no other outlet in the cluster covers this specific visual evidence.",
+      "framing_variants": [
+        {
+          "characterization": "Notes footage 'appeared to show strikes carried out by fighter jets and Tomahawk cruise missiles launched from the sea,' with one site in a mountainous valley consistent with known IRGC missile base locations.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Iran's atomic energy organization stated that US forces attacked the under-construction Darkhovin nuclear power plant in Khuzestan province; the IAEA confirmed the site is in the very early stages of construction and contained no nuclear material when last visited, and said the incident is not believed to pose any radiological risk.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "nuclear_site_strike",
+      "rationale": "Three outlets across center-left and center-right report both Iran's claim and the IAEA's assessment of the Darkhovin site, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Iran's Atomic Energy Organization calling it 'an aggressive and brutal act contrary to international law'; notes IAEA said site 'is in very early stages of construction and contained no nuclear material when last visited'; IAEA director Grossi called for military restraint near nuclear sites.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes Iran's atomic energy agency 'said US strikes targeted the construction site of a planned nuclear power plant in the southwest'; satellite images from Planet Labs showed 'earth clearing but little construction as of 9 July'; IAEA confirmed 'very early stages of construction' with no nuclear material.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports Iranian media said the Darkhoveyn plant 'had been struck overnight'; UN watchdog noted site 'was in the very early stages and contained no nuclear material during its last visit.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "IAEA Director Rafael Grossi called for military restraint in the vicinity of all nuclear-related sites in response to the reported strike on the Darkhovin plant.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "nuclear_site_strike",
+      "rationale": "Two center-left Guardian articles both report Grossi's call for restraint; the claim is corroborated within the same outlet/bias tier but not confirmed cross-spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes Grossi reiterating his 'call for military restraint in the vicinity of all nuclear-related sites.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes IAEA 'was looking into the reports' and Grossi urged restraint.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Iranian authorities stated at least 50 people were killed and more than 500 wounded in the latest US strikes; the US disputed the civilian nature of its targets, asserting it struck exclusively military targets including military logistics infrastructure.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "military_operations",
+      "rationale": "Iran's authorities claim high civilian casualties from US strikes on civilian infrastructure, while Washington asserts it struck exclusively military targets; this is a direct actor dispute reported across multiple outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Iranian authorities' claim of 50 killed and 517 wounded; notes Iran accused US of striking bridges, airport, and train station; reports US responded it 'carried out strikes exclusively on military targets, including military logistics infrastructure.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Attributes 50 killed and 500+ injured to Iran's health ministry; also cites US denial of non-military targeting.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Notes Iran's casualty figures without detailed breakdown of the targeting dispute.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Jordan's air defenses intercepted three Iranian missiles on Sunday, while a fourth landed in a remote area.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "regional_spillover",
+      "rationale": "Both The Guardian and BBC News, from different bias tiers (center-left in both cases but drawing on different primary sources—Jordan's foreign ministry and Jordan's state news agency), report the same interception figures; combined with Ynet's reference, this spans multiple outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes to 'the country's military'; notes this preceded Jordan's diplomatic protest to Iran.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Attributes to Jordan's state news agency; notes it followed a US warning that Aqaba could be targeted.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Jordan's foreign ministry summoned Iran's chargé d'affaires in Amman to demand an immediate halt to Iranian attacks and to protest what it called 'unjustified and blatant Iranian attacks' and 'provocative and inflammatory statements' by Iranian entities.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Both The Guardian and BBC News report Jordan's diplomatic protest and summoning of Iran's representative, providing cross-outlet confirmation of the same event.",
+      "framing_variants": [
+        {
+          "characterization": "Details Jordan's foreign ministry delivered 'a strongly worded protest message' and instructed the diplomat to relay 'a clear message' to immediately halt attacks; also objected to 'provocative and inflammatory statements.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes Jordan demanding 'an immediate end to what the foreign ministry called unjustified and blatant Iranian attacks.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Kuwait's electricity and water distillation plant was struck for a second consecutive day, resulting in a fire.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "regional_spillover",
+      "rationale": "Both The Guardian and BBC News report Kuwaiti officials' account of the repeated strike on the plant, confirming the claim across outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Notes Kuwaiti officials said 'a power and water distillation plant was attacked for a second consecutive day.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Says 'an electricity and water plant struck on Saturday had been hit again, resulting in a fire'; notes the Gulf Cooperation Council had accused Tehran of targeting civilian infrastructure after the first strike.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Air defenses in Jordan, Kuwait, and Bahrain were activated to intercept incoming Iranian drones and missiles.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "regional_spillover",
+      "rationale": "Multiple outlets spanning center-left and center-right report the activation of air defenses across the three US-allied countries.",
+      "framing_variants": [
+        {
+          "characterization": "States 'air defences also intercepted strikes in Jordan and Bahrain.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'Kuwait, Jordan and Bahrain again activated air defenses for incoming Iranian drones and missiles.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports Jordanian interceptions specifically and notes the broader regional air defense picture.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Israel warned that Iranian missiles launched toward Jordan could cause fire to spill over into Israeli territory; Israel's military said it launched interceptors toward missile debris to prevent impact within Israeli territory, with fragments identified near Eilat but no damage or injuries reported.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "regional_spillover",
+      "rationale": "Two center-left outlets both report Israel's warning and subsequent interception action, but no center-right source confirms this specific detail, keeping the classification as corroborated rather than agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Notes Israel warned missiles toward Jordan 'could cause fire to spill over into Israeli territory for the first time in weeks.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Israel's military statement quoted: 'several interceptors were launched toward missile debris'; interceptor fragments identified near Eilat with no damage or injuries.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "The IRGC stated two vessels had ignored Iranian warnings not to transit the Strait of Hormuz and were consequently involved in 'an accident.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC News (art_fa81e6948e) reports this IRGC claim about vessels in the Strait; no other outlet in the cluster carries this detail.",
+      "framing_variants": [
+        {
+          "characterization": "Reports the IRGC claim that two vessels ignored warnings and 'were consequently involved in an accident,' presented alongside the broader Strait of Hormuz closure context.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The US has reimposed a blockade of Iranian ports, and Iran has declared the Strait of Hormuz closed, with shipping traffic largely stalled.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Two center-left outlets report the blockade and Strait closure as established facts; the claim is corroborated within the same bias tier but lacks cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "States as fact: 'Washington has reimposed its blockade of Iranian ports' and 'Tehran has declared the Strait of Hormuz closed.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Notes 'shipping traffic in the strait of Hormuz has largely stalled' as a consequence of the conflict.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "A preliminary ceasefire between the US and Iran, struck in June, collapsed less than a month after it began; President Trump declared the agreement 'over' on 8 July.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "ceasefire_collapse",
+      "rationale": "Two center-left outlets report the ceasefire collapse and Trump's declaration, corroborating the fact within the same bias tier; no center-right confirmation is present in the cluster.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Washington and Tehran struck a preliminary deal to end the war which began on 28 February in June'; 'a preliminary ceasefire collapsed less than a month after it began'; 'President Donald Trump declaring the agreement over on 8 July.' Also quotes Iran's Supreme Leader Mojtaba Khamenei calling the US president's signature 'utterly worthless and devoid of credibility.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Refers to 'last month's interim deal meant to permanently end the fighting has crumbled.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Iran's Supreme Leader Mojtaba Khamenei stated in writing that America's 'repeated breaches' of the agreement had 'laid bare a fundamental truth: the signature of the US president is utterly worthless and devoid of credibility.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_collapse",
+      "rationale": "Only BBC News (art_fa81e6948e) reports Khamenei's written statement with this specific characterization; no other outlet in the cluster carries this quote.",
+      "framing_variants": [
+        {
+          "characterization": "Presents as a direct quote from Khamenei's written statement, characterizing the ceasefire collapse as exposing US unreliability.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "The US and Iran have both targeted civilian infrastructure relied upon by millions of people, including bridges, water desalination plants, electrical facilities, an airport, and a train station.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "military_operations",
+      "rationale": "Iran characterizes US strikes as hitting civilian infrastructure including bridges, an airport, and a train station; the US asserts it struck exclusively military targets including military logistics infrastructure. This is a direct actor dispute over target characterization, reported by multiple outlets.",
+      "framing_variants": [
+        {
+          "characterization": "States as an established pattern: 'Both sides have targeted civilian infrastructure relied on by millions of people'; specifies US targets as 'bridges, water desalination plants and electrical facilities in Iran.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Presents as an accusation/denial: 'Iran accused the US of striking bridges, an airport and a train station'; Washington responded it 'carried out strikes exclusively on military targets, including military logistics infrastructure.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Donald Trump signaled plans to increase attacks on Iran in the coming week and intended to hit more Iranian infrastructure, including bridges and power plants.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian (art_59df4375a8) reports Trump's stated intention to escalate strikes on Iranian infrastructure; no other outlet in the cluster carries this specific claim.",
+      "framing_variants": [
+        {
+          "characterization": "States Trump 'signalled that he planned to increase attacks on Iran in the coming week, and intended to hit more Iranian infrastructure, including bridges and power plants.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "The United States was sending additional warplanes to the Middle East, including F-16s from Germany and F-35s from the UK, along with aerial refueling aircraft, according to anonymous US officials; the redeployment had been ordered before the Jordan attack.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian (art_59df4375a8) reports the aircraft deployment details and their origin locations, citing anonymous US officials via the New York Times; CENTCOM declined to comment. No other outlet in the cluster covers these specifics.",
+      "framing_variants": [
+        {
+          "characterization": "Frames as 'another sign the Trump administration may soon further escalate its strikes against Iran'; notes CENTCOM declined to comment; includes detail that some aerial refueling aircraft would be stationed at Israeli Air Force bases, per an anonymous Israeli military official.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "US Secretary of State Marco Rubio met with Lebanese President Joseph Aoun in Washington on Sunday to discuss the implementation of the US-backed trilateral framework, praising Lebanon's 'move towards peace' and efforts to disarm Hezbollah.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian (art_59df4375a8) reports the Rubio–Aoun meeting and its substance in this cluster; no other outlet covers this diplomatic development.",
+      "framing_variants": [
+        {
+          "characterization": "Reports meeting discussed trilateral framework implementation; Rubio 'commended the courage of the Government of Lebanon' for efforts to reclaim sovereignty, disarm Hezbollah, and 'dismantle its terrorist infrastructure'; Aoun is due to meet Trump on Tuesday—the first Lebanese head of state visit to Washington since 2009.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "Iraqi Prime Minister Ali al-Zaidi is scheduled to visit Iran at the end of the week to sign memorandums of understanding strengthening bilateral ties, his first visit to Iran since taking office this year.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian (art_59df4375a8) reports al-Zaidi's planned Iran visit and its agenda; no other outlet in the cluster covers this diplomatic development.",
+      "framing_variants": [
+        {
+          "characterization": "Notes al-Zaidi returned from a one-week US trip where he met Trump and signed 48 agreements with American companies; his Iran trip follows, and he 'came to power this year with Washington's blessing after Trump vetoed another candidate'; he has vowed to disarm pro-Iran groups that have targeted US facilities.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-20T04:31:56.444451+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "A US service member was killed on July 18 in northern Iraq during a controlled detonation of unexploded ordnance from a downed Iranian one-way attack drone. A second service member was wounded in the incident and continues to receive medical treatment for a minor injury.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Separately, an Iranian attack on a US military facility in Jordan on Friday killed two US service members and left one missing. Unidentified remains were found on Sunday at the site of Friday's attack, and an examination process to verify them is ongoing.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The total number of US service members killed since the start of the US–Iran conflict has reached 17, with more than 430 wounded.",
+        "supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The US launched airstrikes on Sunday targeting Iranian military coastal surveillance and air defense facilities, maritime capabilities, and missile and drone storage sites. US Central Command stated the strikes were intended to degrade Iran's ability to threaten commercial shipping in the Strait of Hormuz and to punish IRGC forces.",
+        "supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The escalation follows the collapse of a preliminary ceasefire between the US and Iran struck in June. The agreement collapsed less than a month after it began, with President Trump declaring it 'over' on July 8.",
+        "supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The US has reimposed a blockade of Iranian ports, and Iran has declared the Strait of Hormuz closed, with shipping traffic largely stalled.",
+        "supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Iran struck US-allied countries in the region on Sunday. Jordan's air defenses intercepted three Iranian missiles, while a fourth landed in a remote area. Air defenses in Jordan, Kuwait, and Bahrain were activated to intercept incoming Iranian drones and missiles.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Kuwait's electricity and water distillation plant was struck for a second consecutive day, resulting in a fire.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Jordan's foreign ministry summoned Iran's chargé d'affaires in Amman to demand an immediate halt to Iranian attacks and to protest what it called 'unjustified and blatant Iranian attacks' and 'provocative and inflammatory statements' by Iranian entities.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Iran's atomic energy organization stated that US forces attacked the under-construction Darkhovin nuclear power plant in Khuzestan province. The International Atomic Energy Agency confirmed the site is in the very early stages of construction and contained no nuclear material when last visited, and said the incident is not believed to pose any radiological risk. IAEA Director Rafael Grossi called for military restraint in the vicinity of all nuclear-related sites in response to the reported strike.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Center-left outlets reported that Israel's military warned Iranian missiles launched toward Jordan could cause fire to spill over into Israeli territory. Israel said it launched interceptors toward missile debris to prevent impact within Israeli territory, with fragments identified near Eilat but no damage or injuries reported.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "BBC News reported that Iran's Supreme Leader Mojtaba Khamenei stated in writing that America's 'repeated breaches' of the ceasefire agreement had 'laid bare a fundamental truth: the signature of the US president is utterly worthless and devoid of credibility.'",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Guardian reported that Donald Trump signaled plans to increase attacks on Iran in the coming week and intended to hit more Iranian infrastructure, including bridges and power plants. The same outlet reported that the United States was sending additional warplanes to the Middle East, including F-16s from Germany and F-35s from the UK, along with aerial refueling aircraft, according to anonymous US officials; the redeployment had been ordered before the Jordan attack.",
+        "supports": {
+          "claim_ids": [
+            "clm_023",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "The Guardian also reported two diplomatic developments: US Secretary of State Marco Rubio met with Lebanese President Joseph Aoun in Washington on Sunday to discuss implementation of a US-backed trilateral framework, praising Lebanon's 'move towards peace' and efforts to disarm Hezbollah. Separately, Iraqi Prime Minister Ali al-Zaidi is scheduled to visit Iran at the end of the week to sign memorandums of understanding strengthening bilateral ties, his first visit to Iran since taking office this year.",
+        "supports": {
+          "claim_ids": [
+            "clm_025",
+            "clm_026"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "Iranian authorities and US officials presented conflicting accounts of the targets struck in Sunday's US airstrikes. Iranian authorities stated at least 50 people were killed and more than 500 wounded in the latest US strikes. The US disputed the civilian nature of its targets, asserting it struck exclusively military targets including military logistics infrastructure.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "More broadly, center-left outlets reported that both the US and Iran have targeted civilian infrastructure relied upon by millions of people, including bridges, water desalination plants, electrical facilities, an airport, and a train station. Iran characterized US strikes as hitting such civilian infrastructure, while the US asserted it struck exclusively military targets including military logistics infrastructure.",
+        "supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}

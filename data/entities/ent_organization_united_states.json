@@ -69,10 +69,11 @@
     "evt_2026_07_12_israel_middle_east_004",
     "evt_2026_07_14_israel_middle_east_002",
     "evt_2026_07_17_asia_002",
-    "evt_2026_07_18_israel_middle_east_001"
+    "evt_2026_07_18_israel_middle_east_001",
+    "evt_2026_07_20_israel_middle_east_001"
   ],
   "created_at": "2026-07-08T15:05:54.492859+00:00",
-  "last_updated": "2026-07-18T03:59:06.229092+00:00",
+  "last_updated": "2026-07-20T04:32:06.093524+00:00",
   "change_log": [
     {
       "date": "2026-07-08",
