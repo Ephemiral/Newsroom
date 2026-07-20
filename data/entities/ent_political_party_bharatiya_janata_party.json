@@ -1,0 +1,79 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_political_party_bharatiya_janata_party",
+  "type": "political_party",
+  "canonical_name": "Bharatiya Janata Party",
+  "aliases": [
+    "BJP"
+  ],
+  "wikidata_qid": "Q10230",
+  "summary": "The Bharatiya Janata Party is a Hindutva political party in India, sitting on the right-wing to far-right of the political spectrum; it is one of the two major Indian political parties alongside the Indian National Congress. Since 2014, it has been the ruling political party in India under the incumbent prime minister Narendra Modi.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Bharatiya_Janata_Party"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Supporter_of_Bharatiya_Janata_Party_at_an_election_rally_in_Amethi.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Supporter_of_Bharatiya_Janata_Party_at_an_election_rally_in_Amethi.jpg",
+    "credit": "Bharatiya Janata Party",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Supporter of Bharatiya Janata Party at an election rally in Amethi.jpg",
+    "fetched_at": "2026-07-20T15:21:02.859773+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The BJP has close ideological and organisational links to the Rashtriya Swayamsevak Sangh (RSS), a Hindutva paramilitary volunteer organisation.",
+      "source_url": "https://en.wikipedia.org/wiki/Bharatiya_Janata_Party",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "As of March 2026, it is the country's biggest political party in terms of representation in the parliament as well as state legislatures.",
+      "source_url": "https://en.wikipedia.org/wiki/Bharatiya_Janata_Party",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-20",
+      "last_updated": "2026-07-20",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_20_asia_002",
+  "appears_in_events": [
+    "evt_2026_07_20_asia_002"
+  ],
+  "created_at": "2026-07-20T15:21:00.931841+00:00",
+  "last_updated": "2026-07-20T15:21:08.574688+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Entity created from evt_2026_07_20_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Bharatiya_Janata_Party"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Bharatiya_Janata_Party"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Grounded from Wikidata Q10230 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q10230"
+    }
+  ]
+}

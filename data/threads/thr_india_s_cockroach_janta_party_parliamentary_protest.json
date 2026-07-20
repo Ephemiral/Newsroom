@@ -1,0 +1,53 @@
+{
+  "thread_schema_version": "0.2",
+  "thread_id": "thr_india_s_cockroach_janta_party_parliamentary_protest",
+  "title": "India's Cockroach Janta Party parliamentary protest",
+  "title_source": "auto",
+  "summary": "Youth-led Cockroach Janta Party supporters staged a major march on India's parliament in July 2026 to demand the resignation of the Education Minister over exam paper leaks, which police dispersed using force despite the protest defying a government ban.",
+  "status": "developing",
+  "beats": [
+    "asia"
+  ],
+  "key_entities": [
+    "ent_organization_safdarjung_hospital",
+    "ent_organization_sri_lanka_police",
+    "ent_person_abhijeet_dipke",
+    "ent_person_dharmendra_pradhan",
+    "ent_person_gitanjali_angmo",
+    "ent_person_narendra_modi",
+    "ent_person_sonam_wangchuk",
+    "ent_political_party_bharatiya_janata_party",
+    "ent_political_party_cockroach_janta_party"
+  ],
+  "events": [
+    {
+      "cluster_id": "evt_2026_07_20_asia_001",
+      "date": "2026-07-20",
+      "chapter_summary": "On July 20, 2026, thousands of Cockroach Janta Party supporters marched on India's parliament in New Delhi defying a police ban, demanding Education Minister Dharmendra Pradhan's resignation over exam paper leaks, following the forced hospitalization of activist Sonam Wangchuk two days earlier.",
+      "link_score": 1.0
+    },
+    {
+      "cluster_id": "evt_2026_07_20_asia_002",
+      "date": "2026-07-20",
+      "chapter_summary": "The new report specifies that the march occurred on July 20, 2026, coinciding with parliament's monsoon session opening, and characterizes it as one of the largest anti-government demonstrations in India in recent years.",
+      "link_score": 0.502
+    }
+  ],
+  "accountability": [],
+  "created_at": "2026-07-20T15:21:12.233902+00:00",
+  "last_updated": "2026-07-20T15:21:15.025287+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Thread created"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Added evt_2026_07_20_asia_001"
+    },
+    {
+      "date": "2026-07-20",
+      "summary_of_change": "Added evt_2026_07_20_asia_002"
+    }
+  ]
+}

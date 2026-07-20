@@ -90,10 +90,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_20_asia_001",
   "appears_in_events": [
-    "evt_2026_07_20_asia_001"
+    "evt_2026_07_20_asia_001",
+    "evt_2026_07_20_asia_002"
   ],
   "created_at": "2026-07-20T04:53:01.835821+00:00",
-  "last_updated": "2026-07-20T04:53:17.650690+00:00",
+  "last_updated": "2026-07-20T15:21:08.573908+00:00",
   "change_log": [
     {
       "date": "2026-07-20",

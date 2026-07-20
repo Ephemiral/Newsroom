@@ -181,3 +181,5 @@
 {"kind": "person_grounded", "entity_id": "ent_person_doug_ford", "name": "Doug Ford", "qid": "Q5300478", "context": "Ontario Premier defending provincial wildfire efforts and criticizing US rhetoric", "event_id": "evt_2026_07_20_americas_001", "at": "2026-07-20T15:10:25.621839+00:00"}
 {"kind": "type_conflict", "name": "United States", "existing": "ent_organization_united_states", "candidate_type": "location", "at": "2026-07-20T15:10:25.622109+00:00"}
 {"kind": "low_confidence_match", "name": "United States", "candidates": ["ent_organization_us_central_command"], "event_id": "evt_2026_07_20_americas_001", "at": "2026-07-20T15:10:27.592223+00:00"}
+{"kind": "low_confidence_match", "name": "India's Parliament", "candidates": ["ent_organization_india"], "event_id": "evt_2026_07_20_asia_002", "at": "2026-07-20T15:20:59.215321+00:00"}
+{"kind": "identity_not_confirmed", "entity_id": "ent_location_india_s_parliament", "name": "India's Parliament", "type": "location", "candidates": [{"qid": "Q49257082", "description": "scientific article published on May 17, 2012"}], "at": "2026-07-20T15:21:00.843319+00:00"}
