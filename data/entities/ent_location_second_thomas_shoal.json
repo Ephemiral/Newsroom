@@ -1,0 +1,47 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_second_thomas_shoal",
+  "type": "location",
+  "canonical_name": "Second Thomas Shoal",
+  "aliases": [
+    "Renai Reef"
+  ],
+  "wikidata_qid": "Q6855008",
+  "summary": "Second Thomas Shoal, also known as Ayungin Shoal, Bãi Cỏ Mây (Vietnamese) and Rén'ài Jiāo, is a submerged reef in the Spratly Islands of the South China Sea, 105 nautical miles west of Palawan, Philippines. It is a disputed territory and claimed by multiple nations.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Second_Thomas_Shoal"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Second_Thomas_Shoal%2C_Spratly_Islands.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Second_Thomas_Shoal,_Spratly_Islands.png",
+    "credit": "NASA",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Second Thomas Shoal, Spratly Islands.png",
+    "fetched_at": "2026-07-21T04:28:38.484388+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_21_asia_001",
+  "appears_in_events": [
+    "evt_2026_07_21_asia_001",
+    "evt_2026_07_21_asia_002"
+  ],
+  "created_at": "2026-07-21T04:28:35.544969+00:00",
+  "last_updated": "2026-07-21T04:31:35.617830+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-21",
+      "summary_of_change": "Entity created from evt_2026_07_21_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-21",
+      "summary_of_change": "Grounded from Wikidata Q6855008 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q6855008"
+    }
+  ]
+}

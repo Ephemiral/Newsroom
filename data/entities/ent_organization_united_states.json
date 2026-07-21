@@ -10,7 +10,8 @@
     "CENTCOM",
     "USA",
     "U.S.",
-    "U.S. military"
+    "U.S. military",
+    "State Department"
   ],
   "wikidata_qid": "Q30",
   "summary": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal republic consisting of 50 states and a federal capital district, Washington, D.C.",
@@ -71,10 +72,11 @@
     "evt_2026_07_17_asia_002",
     "evt_2026_07_18_israel_middle_east_001",
     "evt_2026_07_20_israel_middle_east_001",
-    "evt_2026_07_20_americas_001"
+    "evt_2026_07_20_americas_001",
+    "evt_2026_07_21_asia_002"
   ],
   "created_at": "2026-07-08T15:05:54.492859+00:00",
-  "last_updated": "2026-07-20T15:10:36.181132+00:00",
+  "last_updated": "2026-07-21T04:31:35.619288+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

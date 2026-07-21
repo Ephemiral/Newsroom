@@ -394,6 +394,16 @@
       "at": "2026-07-20T15:16:48.988834+00:00",
       "event_id": "evt_2026_07_20_asia_002",
       "outcome": "published"
+    },
+    "f7fe2ceb415d5cfe": {
+      "at": "2026-07-21T04:25:46.455193+00:00",
+      "event_id": "evt_2026_07_21_asia_001",
+      "outcome": "published"
+    },
+    "2a00b67b908b30e7": {
+      "at": "2026-07-21T04:28:59.012998+00:00",
+      "event_id": "evt_2026_07_21_asia_002",
+      "outcome": "published"
     }
   }
 }

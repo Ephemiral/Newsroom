@@ -1,0 +1,1022 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_21_asia_001",
+    "beat": "asia",
+    "title": "Chinese Destroyer Fires Live Rounds in Japan's EEZ Near Okinotori, Amid South China Sea Clashes",
+    "summary": "On July 19, 2026, a Chinese missile destroyer conducted live-fire drills approximately 180km southwest of Okinotori Island, inside Japan's claimed exclusive economic zone, with Russian warships present nearby. Japan lodged a diplomatic protest with China over the incident, which Tokyo described as the first publicly disclosed foreign live-fire drill within its EEZ.",
+    "date": "2026-07-19",
+    "generated_at": "2026-07-21T04:28:05.229079+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_sanae_takaichi",
+        "surfaces": [
+          "Prime Minister Sanae Takaichi",
+          "Sanae Takaichi"
+        ],
+        "relevance_to_event": "Japan's Prime Minister whose late-2025 comments about Taiwan triggered Chinese criticism and economic countermeasures, directly contributing to the strained Japan-China relations that form the backdrop for this incident.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_marco_rubio",
+        "surfaces": [
+          "US Secretary of State Marco Rubio",
+          "Rubio"
+        ],
+        "relevance_to_event": "US Secretary of State who arrived in the Philippines during the ASEAN summit to condemn China's actions and affirm US commitment to freedom of navigation in Southeast Asia, positioning the US response to the reported incidents.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_021",
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_wang_yi",
+        "surfaces": [
+          "Chinese Foreign Minister Wang Yi"
+        ],
+        "relevance_to_event": "Chinese Foreign Minister scheduled to hold talks with the Philippines at the ASEAN meeting, representing China's diplomatic engagement amid the escalating regional tensions described in the report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_china",
+        "surfaces": [
+          "China",
+          "Chinese"
+        ],
+        "relevance_to_event": "The nation whose missile destroyer conducted the live-fire drill in Japan's claimed EEZ and whose forces allegedly clashed with Philippine sailors, making it the central actor in both incidents covered by the report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_004",
+            "clm_006",
+            "clm_007",
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_russia",
+        "surfaces": [
+          "Russia",
+          "Russian"
+        ],
+        "relevance_to_event": "A Russian warship was present during the Chinese live-fire drill, exemplifying the increased China-Russia joint naval operations around Japan that the report identifies as a key pattern of concern for Tokyo.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_006",
+            "clm_007",
+            "clm_010",
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_okinotori_island",
+        "surfaces": [
+          "Okinotori Island",
+          "Okinotorishima",
+          "Okinotori"
+        ],
+        "relevance_to_event": "The coral atoll whose status is disputed between Japan and China; its location determines whether the waters where the live-fire drill occurred fall within Japan's EEZ, making it the geographic and legal center of the incident.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_005",
+            "clm_012",
+            "clm_014"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_second_thomas_shoal",
+        "surfaces": [
+          "Second Thomas Shoal"
+        ],
+        "relevance_to_event": "The location in the South China Sea where the report documents a separate confrontation between Chinese and Philippine sailors on the same day, illustrating broader regional tensions involving China.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_renhai_class_guided_missile_destroyer",
+        "surfaces": [
+          "Renhai-class guided-missile destroyer"
+        ],
+        "relevance_to_event": "One of the Chinese warships identified by center-leaning outlets as conducting the live-fire drill in Japan's claimed EEZ, providing specific military capability details for the reported incident.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-21T04:28:59.009936+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Chinese_missile_destroyer_Zhengzhou_and_Russian_missile_cruiser_Varyag.jpg/1280px-Chinese_missile_destroyer_Zhengzhou_and_Russian_missile_cruiser_Varyag.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Chinese_missile_destroyer_Zhengzhou_and_Russian_missile_cruiser_Varyag.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Chinese_missile_destroyer_Zhengzhou_and_Russian_missile_cruiser_Varyag.jpg",
+      "width": 1200,
+      "height": 801,
+      "caption": "Chinese missile destroyer Zhengzhou with Russian missile cruiser Varyag during a 2014 joint military exercise (file photo).",
+      "credit": "emperornie",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Chinese missile destroyer Zhengzhou and Russian missile cruiser Varyag.jpg",
+      "query": "Chinese missile destroyer",
+      "fetched_at": "2026-07-21T04:28:59.009893+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/21/chinese-ship-opens-fire-japan-economic-zone-south-china-sea",
+      "author": "Gavin Blair in Tokyo",
+      "published_at": "2026-07-21T04:04:05+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Gavin Blair is a Tokyo-based correspondent for The Guardian who covers East Asia with a focus on Japan, South Korea, and regional political and social issues.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/military/article/3361291/japan-says-chinese-and-russian-warships-held-live-fire-drills-within-its-eez?utm_source=rss_feed",
+      "author": "Seong Hyeon Choi",
+      "published_at": "2026-07-21T04:00:20+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/07/21/japan/china-live-fire-exercise-japan-eez/",
+      "author": null,
+      "published_at": "2026-07-21T02:38:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/chinese-destroyer-held-live-fire-drill-in-japans-eez-japan-says",
+      "author": null,
+      "published_at": "2026-07-21T00:47:17+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A Chinese missile destroyer conducted live-fire drills approximately 180km southwest of Okinotori Island, inside Japan's claimed exclusive economic zone, on July 19, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "All four outlets — spanning center-left and center-right — confirm the location and nature of the live-fire drill, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian calls it a 'first-time' event of live-fire drills by a Chinese warship in Japan's EEZ.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "South China Morning Post describes it as occurring 'within Japan's claimed EEZ,' subtly noting the contested nature of the claim.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Japan Times frames it as announced by Defense Minister Koizumi, emphasizing Japanese official confirmation.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Straits Times notes Japan's military confirmed the drill's location and date in a formal statement.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "This was the first time Japan's defence ministry had publicly disclosed a live-fire drill by a foreign navy within Japan's EEZ.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Three outlets spanning center-left and center-right independently confirm this was the first public disclosure of such an event by Tokyo.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian frames this as 'the first time Japan's defence ministry has acknowledged that a foreign navy vessel has fired live rounds in the EEZ.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Japan Times calls it 'the first time Tokyo had spotted and made public a live-fire drill by the Chinese military within Japan's EEZ.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Straits Times quotes Japan's military spokesperson confirming it was the first public disclosure, while also noting the activity was 'not against international rules.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The drill did not violate international rules, according to Japan's military spokesperson.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only the Straits Times explicitly reports Japan's military spokesperson's statement that the activity was not against international rules; no other outlet includes this detail.",
+      "framing_variants": [
+        {
+          "characterization": "Straits Times notes the Japan military spokesperson said the activity was 'not against international rules,' even while Japan lodged a protest on navigation safety grounds.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Four vessels were involved in the naval activity: a Chinese Renhai-class guided-missile destroyer, a Chinese Luyang III-class guided-missile destroyer, a Chinese Fuchi-class replenishment ship, and a Russian Steregushchiy-class frigate.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both the Straits Times and South China Morning Post report four vessels, with the Straits Times providing the specific class names; both are center-leaning outlets, so this is corroborated but not cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Straits Times identifies all four vessels by class name as spotted by Japanese forces sailing toward their EEZ.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "South China Morning Post confirms two Chinese missile destroyers, a Chinese supply ship, and a Russian frigate, without specifying vessel classes.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The vessels were detected approximately 330km southwest of Okinotori Island and were sailing northeastward before the drill.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both The Guardian and South China Morning Post report the 330km detection point and northeastward movement; both are center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports the vessels were 'picked up again around 330km south-west of Okinotori in the early hours of Sunday morning.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "South China Morning Post specifies the detection was of 'two Chinese missile destroyers and a Chinese supply ship with a Russian frigate about 330km southwest of the remote Okinotori Island,' sailing northeastward.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Three Chinese warships and a Russian frigate were observed sailing between Okinawa's main island and Miyako Island into the Pacific on Thursday before the drill.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian reports the initial detection of the vessels passing between Okinawa's main island and Miyako Island on Thursday.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports this as the first detection of the naval group before it was picked up again near Okinotori.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "A Russian warship was present during the Chinese live-fire exercise.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "All four outlets across center-left and center-right confirm Russian naval presence during or alongside the Chinese drill.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian notes 'Three Chinese warships and a Russian frigate' as a group.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "South China Morning Post specifies 'the Russian frigate was nearby' during the Chinese destroyer's exercise.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Japan Times states 'Russian warships observed' the Chinese live-fire exercise.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Straits Times confirms 'the drills, which also involved Russian vessels.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The drill reportedly included machine guns using live ammunition, and the Chinese warship issued radio warnings to nearby vessels before firing.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Multiple center-left outlets confirm the live-ammunition nature of the drill, and multiple sources confirm the prior radio warning to shipping; both are center-left-dominated coverage.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports the drill 'reportedly included machine guns using live ammunition' and that the destroyer 'issued a warning to shipping.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "South China Morning Post confirms 'the Chinese warship's crew had notified ships in surrounding waters of the location and duration of the drill.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Straits Times reports 'nearby vessels were informed by radio immediately before the exercise that live-firing would be conducted.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Japan lodged a diplomatic protest with China over the live-fire drill, citing potential danger to the navigation of nearby vessels.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Outlets spanning center-left and center-right confirm Japan's diplomatic protest and its stated navigation safety rationale.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports Japan told Beijing 'the drill could have endangered the navigation of nearby ships.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Japan Times frames the diplomatic communication as part of an official government response.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Straits Times reports Japan 'lodged a protest with China through diplomatic channels, on the grounds that such activities could pose a danger to the navigation of nearby vessels.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Japan's top government spokesman characterized the China-Russia naval activity as 'part of a move by the two militaries toward strengthening their cooperation.'",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Two center-left outlets report Japan's official characterization of the exercise as reflecting growing China-Russia military cooperation.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian attributes the statement to Japan's 'top government spokesman Minoru Kihara.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Japan Times attributes it to Defense Minister Koizumi's speech at the Farnborough Airshow.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Defense Minister Shinjiro Koizumi announced the live-fire exercise publicly in a speech at the Farnborough International Airshow in England on Monday.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only the Japan Times specifies that Defense Minister Koizumi made his announcement at the Farnborough International Airshow in England.",
+      "framing_variants": [
+        {
+          "characterization": "Japan Times reports Koizumi spoke at the Farnborough Airshow, calling it a notable venue for such a military announcement.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Japan and China dispute the legal status of Okinotori: Japan designates it as an island whose surrounding waters form part of Japan's EEZ, while China argues it is a reef or rock that cannot generate EEZ entitlements under international law.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "territorial_control",
+      "rationale": "All sources that address the issue report a direct dispute between the two governments over Okinotori's legal designation, with each side holding an incompatible position on EEZ entitlements.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian states 'Beijing disputes Okinotori's designation as an island, maintaining that it is a reef,' meaning China does not recognize Japan's EEZ around it.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "South China Morning Post calls Okinotori 'a coral atoll' with 'just two tiny rocks above water' at high tide, noting these are 'insufficient to claim its surrounding waters as part of an EEZ under international law.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Straits Times attributes the EEZ dispute to China arguing 'the remote Okinotori is a rock rather than an island and therefore Japan is not entitled to claim the waters surrounding it as its EEZ,' while consistently referring to 'what Tokyo calls Okinotori Island.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "China and Russia have increased joint naval and air operations around Japan in recent years, prompting Japan to increase surveillance and strengthen defences in its southwestern island chain.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both The Guardian (center-left) and The Straits Times (center-right) report the escalating China-Russia joint military activity around Japan and Tokyo's response.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian links the increase in exercises to 'Tokyo's relations with Moscow having soured over the war in Ukraine.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Straits Times reports China and Russia 'have stepped up joint naval and air operations around Japan,' prompting Tokyo to strengthen its southwestern island chain defences.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "A Chinese aircraft carrier and a Chinese research ship both entered waters around Okinotori in 2025.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only The Guardian mentions these prior 2025 incursions near Okinotori as background context.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian cites these 2025 incidents as precedents establishing a pattern of Chinese activity near Okinotori.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Japanese Prime Minister Sanae Takaichi made comments about Taiwan in late 2025 that triggered fierce criticism and economic countermeasures from China, straining Japan-China relations.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Both The Guardian (center-left) and The Straits Times (center-right) report that Takaichi's Taiwan comments in late 2025 triggered Chinese criticism and economic countermeasures.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian describes it as 'a row that erupted with Beijing' and notes Takaichi said 'a Chinese attack on self-ruled Taiwan could spark a Japanese military response.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Straits Times reports the comments 'triggered fierce criticism and economic countermeasures from China,' framing the incident as the origin of the current period of bilateral tension.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "In December 2025, Japan said Chinese fighter jets aimed their radar at Japanese military aircraft near Okinawa; China disputed that account.",
+      "classification": "single_source",
+      "dispute_type": "actor",
+      "claim_group": "military_operations",
+      "rationale": "The Straits Times is the only outlet to report this prior incident and notes that China disputed Japan's account, making it a single-source actor dispute.",
+      "framing_variants": [
+        {
+          "characterization": "Straits Times calls it a 'high-profile incident in December' in which Japan alleged Chinese radar-locking on its aircraft, while China disputed the account.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "On Monday, Chinese and Philippine sailors clashed near the Second Thomas Shoal in the South China Sea, with the Philippines claiming a sailor suffered a serious head injury from a Chinese crew member striking him with a wooden baton, while China said its personnel issued warnings and Philippine crew members attacked first.",
+      "classification": "single_source",
+      "dispute_type": "actor",
+      "claim_group": "south_china_sea_incident",
+      "rationale": "Only The Guardian reports this clash, and it records directly contradictory accounts from the Philippine and Chinese sides regarding who attacked first and how.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports the Philippine account that a sailor suffered a serious head injury from a Chinese wooden baton, and China's counter-account that Philippine crew members attacked first with long poles and other implements.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "The Philippine navy sent rubber dinghies to deter a Chinese vessel that approached the Second Thomas Shoal, which the Philippines controls but China claims.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "south_china_sea_incident",
+      "rationale": "Only The Guardian describes the rubber dinghy response by Philippine naval personnel stationed at Second Thomas Shoal.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian frames this as a defensive deterrence measure by the Philippine navy.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The Philippines won a 2016 Permanent Court of Arbitration ruling that found China's sweeping sovereignty claims in the South China Sea had no basis under international law; China continuously rejects that ruling.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "south_china_sea_incident",
+      "rationale": "Only The Guardian provides this legal background on the 2016 arbitration ruling and China's rejection of it.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian frames the 2016 ruling as a landmark legal precedent that China ignores, providing context for the ongoing territorial disputes.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "The US condemned China's actions against the Philippines, with the State Department characterizing them as a 'troubling pattern of provocations' that undermine regional peace and contradict China's commitments to peaceful dispute resolution.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports the US State Department's condemnation and its specific characterization of China's pattern of behavior.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian quotes the State Department framing China's actions as 'troubling provocations' that 'undermine regional peace and stability' and 'directly contradict China's repeated commitments to resolve disputes peacefully.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "US Secretary of State Marco Rubio arrived in the Philippines for the ASEAN summit and published an article in Philippine media affirming US commitment to freedom of navigation in Southeast Asia, warning that waters under the control of a coercive power would threaten sovereignty and economic futures.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports Rubio's arrival, his published article in Philippine media, and the specific content of his warnings regarding freedom of navigation.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports Rubio's article as an affirmation of US commitment to regional freedom of navigation, framed as a veiled warning about China's coercive use of trade.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Philippine and Chinese foreign ministers were due to hold talks at the ASEAN meeting in Manila starting Tuesday; it was not yet confirmed whether Rubio would meet with Chinese Foreign Minister Wang Yi, though Rubio said he was open to doing so.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports the scheduled ASEAN foreign ministers' talks in Manila and the uncertainty around a potential Rubio-Wang Yi bilateral meeting.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian presents the ASEAN meeting as a diplomatic backdrop to the South China Sea tensions, noting Rubio's openness to a bilateral meeting with Wang Yi.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "China has territorial disputes with six countries in the South China Sea as well as with Japan, India, and Bhutan.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "territorial_control",
+      "rationale": "Only The Guardian provides this broader contextual summary of China's multiple territorial disputes.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian presents China's wide array of territorial disputes as context for understanding the current military tensions.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Okinotori (also called Okinotorishima) is a coral atoll approximately 1,740km south of Tokyo in the Philippine Sea. At high tide, only two tiny rocks remain above water. Japan treats it as an island whose surrounding waters form an exclusive economic zone; China and others argue it is a rock or reef that cannot generate EEZ entitlements under the UN Convention on the Law of the Sea.",
+      "sources": [
+        "src_002",
+        "src_004",
+        "src_001"
+      ]
+    },
+    {
+      "point": "China-Russia military cooperation around Japan has intensified in recent years. Japan links this increase in joint operations to the deterioration of Japan-Russia relations following Russia's invasion of Ukraine.",
+      "sources": [
+        "src_001",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Japan-China relations deteriorated sharply in late 2025 after Prime Minister Sanae Takaichi made comments suggesting Japan could respond militarily to a Chinese attack on Taiwan, prompting China to impose economic countermeasures.",
+      "sources": [
+        "src_001",
+        "src_004"
+      ]
+    },
+    {
+      "point": "The Second Thomas Shoal in the South China Sea is physically controlled by the Philippines, which maintains a military detachment there, but is claimed by China. The Philippines won a 2016 Permanent Court of Arbitration ruling invalidating China's broad South China Sea claims, which Beijing rejects.",
+      "sources": [
+        "src_001"
+      ]
+    },
+    {
+      "point": "An exclusive economic zone (EEZ) extends up to 200 nautical miles from a country's coastline or qualifying islands, granting sovereign rights over resources and regulated access to foreign military activities. Whether Okinotori qualifies as an island capable of generating an EEZ is the core legal dispute between Japan and China in this case.",
+      "sources": [
+        "src_002",
+        "src_004",
+        "src_001"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-21T04:28:29.558372+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "On July 19, 2026, a Chinese missile destroyer conducted live-fire drills approximately 180 kilometers southwest of Okinotori Island, inside Japan's claimed exclusive economic zone. A Russian warship was present during the exercise. Japan's defense ministry publicly disclosed the incident, marking the first time Tokyo had announced a foreign navy conducting live-fire drills within its EEZ.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_007",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Japan lodged a diplomatic protest with China over the live-fire drill, citing potential danger to the navigation of nearby vessels. The drill reportedly included machine guns using live ammunition, and the Chinese warship issued radio warnings to nearby vessels before firing.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "China and Russia have increased joint naval and air operations around Japan in recent years, prompting Japan to increase surveillance and strengthen defenses in its southwestern island chain. Japan's top government spokesman characterized the China-Russia naval activity as part of a move by the two militaries toward strengthening their cooperation.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The incident occurred against a backdrop of strained Japan-China relations. In late 2025, Japanese Prime Minister Sanae Takaichi made comments about Taiwan that triggered fierce criticism and economic countermeasures from China.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Japan and China dispute the legal status of Okinotori itself. Japan designates it as an island whose surrounding waters form part of Japan's exclusive economic zone. China argues it is a reef or rock that cannot generate EEZ entitlements under international law.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Center-leaning outlets reported that four vessels were involved in the naval activity: a Chinese Renhai-class guided-missile destroyer, a Chinese Luyang III-class guided-missile destroyer, a Chinese Fuchi-class replenishment ship, and a Russian Steregushchiy-class frigate. The vessels were detected approximately 330 kilometers southwest of Okinotori Island and were sailing northeastward before the drill.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Only The Guardian reported that three Chinese warships and a Russian frigate were observed sailing between Okinawa's main island and Miyako Island into the Pacific on Thursday before the drill.",
+        "supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "The Japan Times alone reported that Defense Minister Shinjiro Koizumi announced the live-fire exercise publicly in a speech at the Farnborough International Airshow in England on Monday.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Only The Straits Times explicitly reported Japan's military spokesperson's statement that the drill did not violate international rules.",
+        "supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The Guardian alone provided recent background context, reporting that a Chinese aircraft carrier and a Chinese research ship both entered waters around Okinotori in 2025.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Only The Straits Times reported a prior incident in December 2025, when Japan said Chinese fighter jets aimed their radar at Japanese military aircraft near Okinawa. China disputed that account.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Guardian was the sole outlet to report a separate confrontation in the South China Sea on Monday, when Chinese and Philippine sailors clashed near the Second Thomas Shoal. The Philippines claimed a sailor suffered a serious head injury from a Chinese crew member striking him with a wooden baton. China said its personnel issued warnings and Philippine crew members attacked first.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Guardian reported that the Philippine navy sent rubber dinghies to deter a Chinese vessel that approached the Second Thomas Shoal, which the Philippines controls but China claims.",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "The Guardian provided legal background on the South China Sea dispute, noting that the Philippines won a 2016 Permanent Court of Arbitration ruling that found China's sweeping sovereignty claims in the South China Sea had no basis under international law. China continuously rejects that ruling.",
+        "supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "The Guardian reported that the US condemned China's actions against the Philippines, with the State Department characterizing them as a \"troubling pattern of provocations\" that undermine regional peace and contradict China's commitments to peaceful dispute resolution.",
+        "supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "The Guardian reported that US Secretary of State Marco Rubio arrived in the Philippines for the ASEAN summit and published an article in Philippine media affirming US commitment to freedom of navigation in Southeast Asia, warning that waters under the control of a coercive power would threaten sovereignty and economic futures.",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p17",
+        "text": "The Guardian reported that Philippine and Chinese foreign ministers were due to hold talks at the ASEAN meeting in Manila starting Tuesday. It was not yet confirmed whether Rubio would meet with Chinese Foreign Minister Wang Yi, though Rubio said he was open to doing so.",
+        "supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p18",
+        "text": "The Guardian provided broader regional context, noting that China has territorial disputes with six countries in the South China Sea as well as with Japan, India, and Bhutan.",
+        "supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

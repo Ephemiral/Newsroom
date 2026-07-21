@@ -1,0 +1,824 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_21_asia_002",
+    "beat": "asia",
+    "title": "China-Philippines Maritime Clash at Second Thomas Shoal, July 2026",
+    "summary": "On July 20, 2026, Chinese and Philippine maritime forces clashed near the BRP Sierra Madre at Second Thomas Shoal in the South China Sea, with the Philippines accusing China Coast Guard personnel of striking a Filipino sailor with a wooden baton and damaging a rubber boat, while China accused Philippine vessels of ramming its patrol boat and attacking Chinese officers first. The incident occurred days before a regional ASEAN foreign ministers' meeting in Manila.",
+    "date": "2026-07-20",
+    "generated_at": "2026-07-21T04:30:51.607226+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_location_second_thomas_shoal",
+        "surfaces": [
+          "Second Thomas Shoal",
+          "Renai Reef"
+        ],
+        "relevance_to_event": "The specific disputed reef location where the July 20, 2026 maritime clash occurred between Chinese and Philippine forces, making it the geographic center of this incident.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_009",
+            "clm_011",
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_brp_sierra_madre",
+        "surfaces": [
+          "BRP Sierra Madre"
+        ],
+        "relevance_to_event": "The deliberately grounded Philippine military outpost at Second Thomas Shoal near which the July 20 clash took place, serving as the focal point of the confrontation and ongoing resupply mission disputes.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_011",
+            "clm_014",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_china_coast_guard",
+        "surfaces": [
+          "China Coast Guard",
+          "Chinese coast guard"
+        ],
+        "relevance_to_event": "The Chinese maritime force personnel directly involved in the July 20 confrontation, accused by the Philippines of striking a Filipino sailor with a wooden baton during the encounter.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_philippines",
+        "surfaces": [
+          "Philippines",
+          "Philippine",
+          "Manila",
+          "Filipino"
+        ],
+        "relevance_to_event": "One of the two primary parties to the July 20 clash; accused China of violence and filed diplomatic protests, with its military stationed at the BRP Sierra Madre.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_china",
+        "surfaces": [
+          "China",
+          "Chinese",
+          "Beijing"
+        ],
+        "relevance_to_event": "One of the two primary parties to the July 20 clash; disputed Philippine accounts and asserted that its personnel were attacked first, while claiming territorial jurisdiction over the disputed waters.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_004",
+            "clm_005",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_wang_yi",
+        "surfaces": [
+          "Wang Yi"
+        ],
+        "relevance_to_event": "Chinese Foreign Minister whose scheduled attendance at the ASEAN foreign ministers' meeting in Manila during the week of the July 20 incident elevated the diplomatic significance of the clash.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_united_states",
+        "surfaces": [
+          "United States",
+          "State Department"
+        ],
+        "relevance_to_event": "The external power that condemned the July 20 incident, characterizing China's actions as dangerous and aggressive and urging cessation of the conduct.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_south_china_sea",
+        "surfaces": [
+          "South China Sea"
+        ],
+        "relevance_to_event": "The broader maritime region where Second Thomas Shoal is located and where China claims almost the entirety of the territory despite a 2016 international arbitral ruling invalidating those claims.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-07-21T04:31:44.810317+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/China_Coast_Guard_vessel_5205_August_2022.jpg/1280px-China_Coast_Guard_vessel_5205_August_2022.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/China_Coast_Guard_vessel_5205_August_2022.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:China_Coast_Guard_vessel_5205_August_2022.jpg",
+      "width": 1200,
+      "height": 914,
+      "caption": "China Coast Guard vessel 5205 near Second Thomas Shoal, August 2022 (file photo)",
+      "credit": "Philippine Coast Guard",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:China Coast Guard vessel 5205 August 2022.jpg",
+      "query": "China Coast Guard vessel",
+      "fetched_at": "2026-07-21T04:31:44.810276+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3361250/chinese-and-philippine-maritime-forces-clash-second-thomas-shoal?utm_source=rss_feed",
+      "author": "Yuanyue Dang",
+      "published_at": "2026-07-20T13:52:25+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/philippine-military-says-china-injured-sailor-in-sea-clash",
+      "author": null,
+      "published_at": "2026-07-20T10:20:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/chinese-coast-guard-struck-navy-sailor-in-south-china-sea-encounter-says-philippine-military",
+      "author": null,
+      "published_at": "2026-07-20T10:07:03+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/07/21/asia-pacific/philippines-sailor-china-coast-guard/",
+      "author": null,
+      "published_at": "2026-07-21T03:38:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A physical confrontation occurred between Chinese and Philippine maritime forces at Second Thomas Shoal on July 20, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "All four outlets across center-left and center-right bias tiers confirm that a physical encounter between Chinese and Philippine maritime forces took place at Second Thomas Shoal on July 20, 2026.",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as Chinese and Philippine maritime forces clashing, with personnel 'coming to blows'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Frames it as an encounter involving a baton strike on a Filipino sailor.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Neutrally states both sides traded accusations after a vessel encounter.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes it as escalating tensions, reporting a navy staffer suffered a serious head injury.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The Philippines alleges that China Coast Guard personnel struck a Filipino navy sailor on the head with a wooden baton, causing injury; China denies this characterization and alleges Philippine personnel were the first to attack Chinese officers using oars, paddles, and long poles.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "military_operations",
+      "rationale": "The Philippines and China offer directly contradictory accounts of who initiated physical violence and what weapons were used; all outlets report both sides' competing claims.",
+      "framing_variants": [
+        {
+          "characterization": "Reports China Coast Guard's account that Philippine personnel 'first used tools such as oars and long sticks to maliciously attack Chinese law enforcement officers'; also notes China's denial of Philippine allegations.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Leads with Philippine military accusation that Chinese personnel 'clubbed a Filipino sailor with a baton'; also carries China's counter-statement that Philippine boats 'rapidly approached the Chinese patrol boat in a dangerous manner'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports Philippines' account of baton strike and releases 25-second video; also reports China's account that Philippine personnel 'first used paddles, wooden poles and other implements to aggressively attack Chinese law enforcement officers'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Focuses on Philippine accusation of striking and wounding a navy serviceman; notes U.S. condemnation of China's actions.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "A Philippine navy rubber boat was damaged during the July 20 encounter.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Two Straits Times articles (both center-right) report the damage to the Philippine rubber boat, drawn from the Philippine military's statement; no cross-spectrum confirmation is available.",
+      "framing_variants": [
+        {
+          "characterization": "States the baton strike caused 'injury and damaging the navy rubber boat'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes 'a navy rubber boat was damaged' as part of reporting the encounter.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The Philippine military released a 25-second video clip purportedly showing one of eight Chinese personnel hitting a Philippine navy crew member in a rubber boat.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only one article (The Straits Times) specifically describes this 25-second video released by the Philippine armed forces.",
+      "framing_variants": [
+        {
+          "characterization": "Describes the video as showing one of eight Chinese personnel hitting a navy crew member in a rubber boat, presenting it as evidence supporting the Philippine account.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "China's state-backed Global Times released a 49-second video clip on July 20 showing Chinese officers shouting orders while personnel from both sides wielded paddles and batons.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only one article (The Straits Times) specifically describes the 49-second video released by Chinese state-backed tabloid Global Times.",
+      "framing_variants": [
+        {
+          "characterization": "Reports that Chinese state-backed Global Times released the video showing Chinese officers ordering the Philippine side to leave immediately while both sides wielded paddles and batons.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "A Chinese rigid-hull inflatable boat carrying eight personnel circled the BRP Sierra Madre and photographed and filmed it before the clash.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Two Straits Times articles both report, based on Philippine military statements, that a Chinese rigid-hull inflatable boat with eight personnel approached the BRP Sierra Madre and recorded it.",
+      "framing_variants": [
+        {
+          "characterization": "States the Chinese boat 'circled the BRP Sierra Madre and taken photos and video of it'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports the Chinese vessel 'approached to within close range of its grounded warship' and 'took photos and videos'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The Philippines sent two rubber boats to drive away the Chinese vessel, after which the physical confrontation occurred.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Two Straits Times articles (both center-right) report that the Philippines dispatched two rubber boats, which preceded the confrontation, based on Philippine statements.",
+      "framing_variants": [
+        {
+          "characterization": "States the Philippines 'sent two rubber boats to drive away the Chinese group' before the clash.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports the Philippine military account of sending boats to respond to the Chinese approach.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The Philippines characterizes the encounter as evidence of a clear pattern of provocative and hostile behavior by the Chinese coast guard; China characterizes the Philippines as distorting facts, leveling false accusations, and conducting provocations in Chinese waters.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "international_response",
+      "rationale": "Both actors offer diametrically opposed characterizations of the overall pattern of behavior at Second Thomas Shoal; multiple outlets report both sides' competing framings.",
+      "framing_variants": [
+        {
+          "characterization": "Reports China Coast Guard demanding Philippines 'cease its infringements, provocations and false propaganda' and accusing the Philippine side of 'distorting the facts and falsely incriminating China'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports Philippine Defence Department statement that the encounter added 'to a clear pattern of provocative and hostile behaviour' by China; also carries China's denial.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports China's accusation of Philippine trespassing alongside Manila's foreign ministry characterizing the incident as an 'act of violence' that was 'unacceptable'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The U.S. State Department condemned China's actions at Second Thomas Shoal as dangerous and aggressive, and urged China to immediately cease its destabilizing conduct.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Both The Straits Times (center-right) and The Japan Times (center-left) report the U.S. State Department's condemnation and call for China to cease destabilizing conduct, providing cross-spectrum confirmation.",
+      "framing_variants": [
+        {
+          "characterization": "Reports the U.S. State Department condemned China's 'dangerous and aggressive' actions and stated that China's conduct 'undermines regional peace and stability' and 'directly contradicts China's repeated commitments to resolve disputes peacefully'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States the U.S. State Department condemned China's actions and urged it to 'immediately cease its destabilizing conduct'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The incident occurred ahead of an ASEAN foreign ministers' meeting in Manila, with Chinese Foreign Minister Wang Yi in attendance.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "All four outlets across center-left and center-right bias tiers note the timing of the clash relative to the ASEAN foreign ministers' meeting in Manila, confirming cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Frames the timing explicitly as occurring 'in countdown to Asean foreign ministers' meeting in Manila'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Notes that the Philippines' and China's top diplomats were scheduled to meet at 'a regional summit in Manila this week'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States South-east Asian foreign ministers gathered in Manila for high-level meetings with Chinese Foreign Minister Wang Yi in attendance.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Frames the incident as 'escalating tensions just before a meeting in Manila between the nations' top diplomats this week'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "The BRP Sierra Madre is a deliberately grounded vessel on Second Thomas Shoal serving as a Philippine military garrison, located within the Philippines' 200-nautical-mile exclusive economic zone and approximately 1,300 km from mainland China.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "territorial_control",
+      "rationale": "Both Straits Times articles provide consistent factual description of the BRP Sierra Madre's nature, purpose, and location; while both are center-right, the geographic and factual details are uncontested across the cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as 'a grounded vessel that has long served as a Philippine garrison in the disputed South China Sea' grounded 'to assert Manila's claims to the reef'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes the shoal 'is within the Philippines' 200-nautical-mile exclusive economic zone and is 1,300km from mainland China, which refers to it as the Renai Reef'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "China claims almost the entirety of the South China Sea, despite a 2016 international arbitral ruling that China's claims have no legal basis under international law; the Philippines has cited this ruling to assert its maritime rights.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "territorial_control",
+      "rationale": "Both Straits Times articles reference China's sweeping claim and the 2016 arbitral ruling against it; the Philippine military's reliance on the ruling is also noted, providing consistent cross-article corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "States China 'claims almost the entirety of the crucial waterway despite an international ruling that its assertion has no legal basis'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports the Philippine military stated it adheres to the '2016 Arbitral Award that affirms the Philippines' lawful maritime rights under international law'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "A June 2024 violent encounter at Second Thomas Shoal, in which Chinese personnel armed with knives, sticks, and an axe attacked Filipino troops on a resupply mission, resulted in a Filipino sailor losing a thumb.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Two Straits Times articles report the June 2024 violent incident and the injury to a Filipino sailor as background context; both are center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Chinese law enforcement personnel armed with knives, sticks and an axe attacked Filipino troops attempting to resupply a Philippine garrison on Second Thomas Shoal'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Mentions 'A June 2024 incident also turned violent, with one Filipino sailor losing a thumb'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Following the June 2024 confrontation, the Philippines and China reached a provisional understanding to allow resupply missions to the BRP Sierra Madre.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Two Straits Times articles both report the provisional resupply deal reached in July 2024 following the violent 2024 confrontation, drawing on statements from both sides.",
+      "framing_variants": [
+        {
+          "characterization": "States 'The two sides said in July 2024 that they had reached a provisional deal on resupply missions to the Sierra Madre'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes 'The 2024 confrontation later led to a provisional understanding with China to allow resupply missions to the grounded ship'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "The Philippines filed a diplomatic protest on July 17, 2026, over a video posted by Chinese state media in which the Philippines was portrayed as a cartoon monkey.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Straits Times (art_8c17305116) reports the July 17 diplomatic protest over the Chinese state media video portraying the Philippines as a cartoon monkey.",
+      "framing_variants": [
+        {
+          "characterization": "Describes the video as 'racist' and notes Manila filed a diplomatic protest over it on July 17.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Manila's foreign ministry characterized the July 20 baton strike as an 'act of violence' that was 'unacceptable' and warranted diplomatic action.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Straits Times (art_a5c2850897) specifically quotes Manila's foreign ministry characterizing the incident as an 'act of violence' warranting diplomatic action.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Manila's foreign ministry said the 'act of violence' against its navy personnel was 'unacceptable' and warranted diplomatic action.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "The Philippines has accused China of repeatedly disrupting resupply missions to troops stationed on the BRP Sierra Madre.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "territorial_control",
+      "rationale": "Two Straits Times articles both reference the Philippines' ongoing accusation that China has disrupted resupply missions, providing consistent background context.",
+      "framing_variants": [
+        {
+          "characterization": "Implies disruption through discussion of the provisional resupply deal reached after the 2024 confrontation.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Directly states 'The Philippines has accused China of disrupting resupply missions to troops on the grounded vessel'.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Second Thomas Shoal (known to China as Renai Reef) is a disputed feature in the Spratly archipelago of the South China Sea, located within the Philippines' 200-nautical-mile exclusive economic zone but claimed by China as part of its sweeping territorial claims to almost the entirety of the South China Sea.",
+      "sources": [
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "The BRP Sierra Madre is an aging Philippine warship deliberately grounded on Second Thomas Shoal to assert Manila's territorial claims; the Philippines maintains a small military garrison on it.",
+      "sources": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "In June 2024, a previous violent confrontation at the same location resulted in a Filipino sailor losing a thumb; it was followed by a provisional Philippines-China understanding to allow resupply missions to the grounded vessel.",
+      "sources": [
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "A 2016 international arbitral tribunal ruled that China's claims to the South China Sea have no legal basis under international law; China has rejected the ruling, while the Philippines and the United States cite it as legally binding.",
+      "sources": [
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "The July 20, 2026 incident occurred during the week of an ASEAN foreign ministers' meeting in Manila, where Chinese Foreign Minister Wang Yi was also present, raising the diplomatic stakes of the confrontation.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-21T04:31:10.044190+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "On July 20, 2026, Chinese and Philippine maritime forces clashed at Second Thomas Shoal in the South China Sea, marking the latest in a series of confrontations at the disputed reef. The physical encounter occurred near the BRP Sierra Madre, a Philippine military outpost, and took place just days before an ASEAN foreign ministers' meeting in Manila that Chinese Foreign Minister Wang Yi was scheduled to attend.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The United States condemned China's actions at Second Thomas Shoal as dangerous and aggressive, urging China to immediately cease what the State Department characterized as destabilizing conduct.",
+        "supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The BRP Sierra Madre is a deliberately grounded vessel serving as a Philippine military garrison on Second Thomas Shoal. The shoal lies within the Philippines' 200-nautical-mile exclusive economic zone, approximately 1,300 kilometers from mainland China. China claims almost the entirety of the South China Sea, despite a 2016 international arbitral ruling that found China's claims have no legal basis under international law. The Philippines has invoked this ruling to assert its maritime rights in the area.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The Philippines has accused China of repeatedly disrupting resupply missions to troops stationed on the BRP Sierra Madre. In June 2024, a violent confrontation occurred at the same location when Chinese personnel armed with knives, sticks, and an axe attacked Filipino troops during a resupply mission, resulting in a Filipino sailor losing a thumb. Following that incident, the Philippines and China reached a provisional understanding in July 2024 to allow resupply missions to proceed.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_013",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "According to Philippine military accounts reported by center-right Singapore outlets, a Chinese rigid-hull inflatable boat carrying eight personnel approached the BRP Sierra Madre before the July 20 clash, circling the vessel and photographing and filming it. The Philippines then dispatched two rubber boats to drive away the Chinese vessel, after which the physical confrontation occurred. A Philippine navy rubber boat was damaged during the encounter.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "One center-right outlet reported that the Philippine military released a 25-second video clip purportedly showing one of eight Chinese personnel hitting a Philippine navy crew member in a rubber boat during the encounter.",
+        "supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The same outlet reported that China's state-backed Global Times released a 49-second video clip on July 20 showing Chinese officers shouting orders while personnel from both sides wielded paddles and batons during the confrontation.",
+        "supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "One center-right Singapore outlet reported that Manila's foreign ministry characterized the July 20 baton strike as an 'act of violence' that was 'unacceptable' and warranted diplomatic action. The same outlet separately reported that the Philippines had filed a diplomatic protest on July 17, 2026, over a video posted by Chinese state media in which the Philippines was portrayed as a cartoon monkey.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Philippines and China offered directly contradictory accounts of who initiated physical violence during the July 20 encounter. The Philippines alleged that China Coast Guard personnel struck a Filipino navy sailor on the head with a wooden baton, causing injury. China denied this characterization and alleged that Philippine personnel were the first to attack Chinese officers, using oars, paddles, and long poles as weapons. Outlets across the political spectrum reported both governments' competing claims without resolving the factual dispute.",
+        "supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The two governments also offered opposing characterizations of the broader pattern of behavior at Second Thomas Shoal. The Philippines described the encounter as evidence of a clear pattern of provocative and hostile behavior by the Chinese coast guard. China, in contrast, accused the Philippines of distorting facts, leveling false accusations, and conducting provocations in what Beijing describes as Chinese waters. Multiple outlets reported both sides' competing framings of the dispute.",
+        "supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}
