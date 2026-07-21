@@ -1,0 +1,1004 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_07_21_israel_middle_east_001",
+    "beat": "israel_middle_east",
+    "title": "Lebanese Army Deploys to Southern Lebanon Pilot Zone; IDF Fires Near Troops",
+    "summary": "The Lebanese army began deploying to pilot zones in southern Lebanon under a US-brokered Trilateral Framework agreement, entering Zawtar al-Gharbiyeh on Tuesday. The Lebanese military accused Israeli forces of firing near its units during the deployment, with Israel and Lebanon offering conflicting accounts of why shots were fired.",
+    "date": "2026-07-22",
+    "generated_at": "2026-07-21T14:48:34.923053+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_organization_lebanese_army",
+        "surfaces": [
+          "Lebanese army",
+          "Lebanese Armed Forces",
+          "Lebanese military"
+        ],
+        "relevance_to_event": "The Lebanese Army is the primary actor deploying to pilot zones in southern Lebanon under the Trilateral Framework, and directly accused Israeli forces of firing near its units during this deployment.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_008",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israeli_defense_force",
+        "surfaces": [
+          "IDF",
+          "Israeli forces"
+        ],
+        "relevance_to_event": "The IDF conducted the firing incident near Lebanese troops and stated it would adjust force posture in pilot areas while maintaining self-defense rights and presence in the security zone.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_003",
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_hezbollah",
+        "surfaces": [
+          "Hezbollah"
+        ],
+        "relevance_to_event": "The Trilateral Framework agreement includes provisions for Hezbollah's disarmament, and the broader conflict was triggered by Hezbollah's rocket launch into Israel on 2 March in retaliation for a strike killing Iran's supreme leader.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_trilateral_framework_agreement",
+        "surfaces": [
+          "Trilateral Framework",
+          "Trilateral Framework agreement"
+        ],
+        "relevance_to_event": "This US-brokered agreement signed 26 June established the pilot zone program that the Lebanese Army is implementing in this report, with provisions for Israeli withdrawal and Hezbollah disarmament.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_southern_lebanon",
+        "surfaces": [
+          "southern Lebanon",
+          "occupied Lebanese territory"
+        ],
+        "relevance_to_event": "Southern Lebanon is the geographic location where the pilot zone deployments are occurring and where Israeli forces maintain a 10-kilometer-deep security zone along the border.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_007",
+            "clm_009",
+            "clm_011",
+            "clm_012"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_joseph_aoun",
+        "surfaces": [
+          "Joseph Aoun",
+          "Lebanese President Joseph Aoun"
+        ],
+        "relevance_to_event": "Lebanese President Aoun is scheduled to meet US President Trump to urge pressure on Israel to withdraw from southern Lebanon and support the Lebanese army in areas where Hezbollah holds influence.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_mojtaba_khamenei",
+        "surfaces": [
+          "Mojtaba Khamenei",
+          "Supreme Leader Mojtaba Khamenei"
+        ],
+        "relevance_to_event": "As Iran's current Supreme Leader following the death that triggered Hezbollah's retaliation, Mojtaba Khamenei is relevant to understanding the broader regional conflict context that drew Lebanon into hostilities.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_red_sea",
+        "surfaces": [
+          "Red Sea"
+        ],
+        "relevance_to_event": "The Red Sea is mentioned as the location where Saudi oil tankers made U-turns in response to Houthi militia's declared naval blockade, representing escalating regional tensions parallel to the Lebanon deployment story.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-troops-opens-fire-near-lebanese-army-pilot-zones",
+      "author": "Hossam Desouky",
+      "published_at": "2026-07-21T13:28:48+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Privately held; founded by David Hearst in 2014. Funding sources have not been publicly disclosed. Qatari financial links have been alleged by critics; MEE denies state funding.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-21T10:43:48+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-903199",
+      "author": "BY MAYA ZANGER-NADIS",
+      "published_at": "2026-07-21T16:00:20+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Riesling Investment & Technology Ltd, controlled by Israeli investor Eli Azur. Previously owned by Miriam Adelson.",
+      "author_background": "Maya Zanger-Nadis is a reporter for the Jerusalem Post who covers Israeli society, culture, and social issues.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/21/us-iran-war-live-updates-strait-of-hormuz-attacks-houthis-blockade-red-sea-middle-east-crisis-latest-news",
+      "author": "Tom Ambrose (now); Taz Ali and Adam Fulton (earlier)",
+      "published_at": "2026-07-21T14:18:36+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "The Lebanese army began deploying troops to pilot zones in southern Lebanon, entering the village of Zawtar al-Gharbiyeh in Nabatieh district on Tuesday morning.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "All four outlets across the political spectrum — left (Middle East Eye), center-left (BBC, The Guardian), and center-right (Jerusalem Post) — report the Lebanese army's deployment to Zawtar al-Gharbiyeh, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Framed around the Lebanese military's statement about the deployment incident",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reported as a positive step, noting army units entered the village Tuesday morning based on communications with the Military Co-ordination Group",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reported as part of the 'Safe Zone' pilot program implementation",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Described as the Lebanese army resuming control of the village after Israeli forces withdrew",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The Lebanese army accused Israeli forces of firing near its units during the deployment into Zawtar al-Gharbiyeh, characterizing it as an offense that would impede deployment into the pilot zones.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "The Lebanese army's accusation of Israeli fire is reported across all four outlets spanning the political spectrum, establishing cross-spectrum corroboration of the allegation itself (distinct from who was at fault).",
+      "framing_variants": [
+        {
+          "characterization": "Direct quote from Lebanese army statement: 'Israeli occupation forces opened fire near these units'; called it an 'offence' that would impede deployment",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reported as Lebanese army accusation without the 'occupation forces' framing",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Described as a 'reported allegation' from the Lebanese Armed Forces (LAF), attributed to an LAF statement",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Stated as the Lebanese army accusing Israel of firing near its troops; noted the Israeli military did not immediately comment",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The Lebanese Armed Forces characterized the Israeli fire as an attempt to obstruct implementation of the pilot zones; an IDF source stated troops fired because Lebanese soldiers crossed the established borders of the pilot zone.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "military_operations",
+      "rationale": "The two parties offer directly contradictory explanations for why Israeli forces fired: the Lebanese army says it was obstruction, while an IDF source says Lebanese soldiers crossed established borders of the zone.",
+      "framing_variants": [
+        {
+          "characterization": "Carried only the Lebanese army's account, describing the firing as impeding deployment",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reported the Lebanese accusation without carrying the IDF's specific justification; noted the Israeli army had not commented on the incident",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reported both accounts side by side: IDF source told KAN News soldiers fired after Lebanese troops crossed established borders; LAF claimed it was an obstruction attempt",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reported the Lebanese army's accusation and noted the Israeli military did not immediately comment",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The Lebanese army also deployed troops to carry out missions in Froun and Srifa following a US State Department announcement on Monday.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Both BBC and Jerusalem Post report Lebanese army missions in Froun and Srifa, but both are center-left and center-right respectively — this spans the spectrum and qualifies as agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Lebanese army said troops were 'already carrying out missions' in Froun and Srifa following Monday's US announcement",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "US State Department announced pilot zone operations had begun in Zawtar al-Gharbiyeh, Froun and Srifa",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "An Israeli source told Haaretz newspaper there were no Israeli troops in Froun and Srifa villages.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "military_operations",
+      "rationale": "Only BBC reports this detail, attributed to an Israeli source via Haaretz, and it is not corroborated by any other outlet in this cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Noted as context for why Lebanese army deployment in those villages was less contested",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The pilot zone program was launched under the Trilateral Framework agreement between Israel, Lebanon and the US, signed on 26 June, with the US State Department announcing on Monday that operations had begun in three villages.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "BBC (center-left), Jerusalem Post (center-right), and The Guardian (center-left) all confirm the US announcement and the Trilateral Framework agreement, with The Guardian specifying the 26 June signing date — spanning the political spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "US State Department called it a 'milestone' that was the direct result of discussions in Rome the previous week",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "IDF confirmed the 'Safe Zone' pilot program had begun with cooperation from US and Lebanese militaries",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Described as deployment stages beginning 'under a framework agreement signed by Israel and Lebanon on 26 June'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The pilot zone program involves Israeli troops withdrawing from a small part of occupied Lebanese territory and includes disarmament of Hezbollah.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "BBC (center-left) and Jerusalem Post (center-right) both describe the dual objectives of Israeli withdrawal and Hezbollah disarmament, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "Described as Israeli troops pulling out of a small part of occupied territory 'as well as the disarmament of the Iran-backed group'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "LAF troops enter designated areas to verify they have been cleared of Hezbollah operatives and weapons; IDF official stated the objective is 'disarmament of the Hezbollah terrorist organisation'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The IDF stated it would adjust its force posture in pilot areas to allow the Lebanese army to carry out its mission, while safeguarding IDF soldiers' security and preserving its right to self-defence.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Both BBC and Jerusalem Post report the IDF's stated posture adjustment and the stated rationale, but both outlets are center-left and center-right — they span the spectrum, qualifying this as agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Israeli military official confirmed IDF would 'adjust its force posture' while safeguarding soldiers and preserving self-defence rights",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "IDF confirmed teams from IDF, US military and Lebanese Armed Forces are 'coordinating and planning the continued implementation of the agreement'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The IDF stated it would remain in the security zone — a 10km-deep strip of occupied Lebanese territory along the border — for as long as necessary to defend northern Israeli communities.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Only BBC reports the IDF's specific statement about remaining in the 10km security zone for an indefinite period to defend northern Israeli communities.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as an IDF position balancing partial withdrawal in pilot zones with continued occupation of the broader security zone",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The US State Department described the pilot zone operations as the direct result of discussions between Israeli and Lebanese representatives in Rome the previous week.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "ceasefire_details",
+      "rationale": "Only BBC attributes the Rome discussions as the direct basis for the pilot zone operations per the US State Department; no other outlet in this cluster mentions the Rome meeting.",
+      "framing_variants": [
+        {
+          "characterization": "US State Department said the 'milestone' was 'the direct result of discussions last week between Israeli and Lebanese representatives in Rome'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Lebanese President Joseph Aoun is scheduled to meet US President Donald Trump in Washington, where he is expected to urge Trump to pressure Israel to withdraw from the rest of southern Lebanon and to support the Lebanese army in taking control of areas where Hezbollah holds sway.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "BBC (center-left) and The Guardian (center-left) both report the upcoming Trump-Aoun meeting and Aoun's expected agenda — however both are center-left, making this corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Described as context for the timing of the pilot zone deployment, noting Aoun's two expected requests",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Mentioned as backdrop to the pilot zone deployment story",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Lebanon was drawn into the broader regional conflict on 2 March when Hezbollah launched rockets into Israel in retaliation for a strike that killed Iran's supreme leader, prompting Israeli bombing and a ground invasion of southern Lebanon.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "background_conflict",
+      "rationale": "Only BBC provides this specific account of how Lebanon was drawn into the conflict, including the 2 March date, Hezbollah's stated motivation, and Israel's military response.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as essential background context, linking the Lebanon deployment story to the wider Israel-Iran-US conflict",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "More than 4,300 people have been killed in Lebanon — including almost 800 children, women and medics — according to the Lebanese health ministry; Israeli authorities report 37 Israeli soldiers and four civilians killed during the conflict.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "humanitarian_situation",
+      "rationale": "Only BBC provides these casualty figures from both the Lebanese health ministry and Israeli authorities; no other outlet in this cluster cites comparable statistics.",
+      "framing_variants": [
+        {
+          "characterization": "Presented side by side to illustrate the asymmetric toll of the conflict on both sides",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Mojtaba Khamenei assumed the role of Iran's supreme leader shortly after his father was killed in US-Israeli strikes in Tehran on 28 February; he has not been seen in public since and has only communicated through written statements in state media.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "iran_leadership",
+      "rationale": "Only The Guardian reports on Mojtaba Khamenei's succession, his absence from public view, and his communication method; this claim is not corroborated by any other outlet in this cluster.",
+      "framing_variants": [
+        {
+          "characterization": "Provided as context for Iran's president's statement about increased communication with the supreme leader",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Iran's President Masoud Pezeshkian said the level of communication with Supreme Leader Mojtaba Khamenei has increased.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "iran_leadership",
+      "rationale": "Only The Guardian reports Pezeshkian's statement about increased communication with the supreme leader.",
+      "framing_variants": [
+        {
+          "characterization": "Cited as a rare public signal about the supreme leader's activity given his prolonged absence from public view",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Kuwait and Bahrain activated air defences against Iranian drone attacks, with Bahrain's army stating its systems intercepted and destroyed several Iranian aerial attacks and the Iranian army claiming to have launched drones against US military targets at Sheikh Isa airbase in Bahrain.",
+      "classification": "single_source",
+      "dispute_type": "actor",
+      "claim_group": "iran_gulf_hostilities",
+      "rationale": "Only The Guardian reports on the Gulf states' air defence activations and the Iranian military's claim of attacking US targets in Bahrain; the actor dispute between Iranian claims and Gulf/US accounts is noted but all from a single outlet.",
+      "framing_variants": [
+        {
+          "characterization": "Reported both Kuwait and Bahrain's defensive statements and Iran's claim of attacking US military targets at Sheikh Isa airbase, presenting both accounts without adjudicating them",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Kuwait's energy ministry reported Iran targeted power and desalination plants for a fourth consecutive day, causing fires and damage; approximately 90% of Kuwait's drinking water comes from desalination.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "iran_gulf_hostilities",
+      "rationale": "Only The Guardian reports Kuwait's energy ministry statement about the fourth consecutive day of attacks on infrastructure and the desalination dependency figure.",
+      "framing_variants": [
+        {
+          "characterization": "Highlighted the humanitarian dimension of infrastructure attacks by noting Kuwait's near-total reliance on desalination for drinking water",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "US Army Sergeant Michael Emmanuel Swinton was killed at Erbil airbase in northern Iraq during a controlled detonation of an Iranian attack drone; the Pentagon said the incident is under investigation.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "iran_gulf_hostilities",
+      "rationale": "Only The Guardian reports on Sgt Swinton's death and the Pentagon's investigation; the New York Times' additional detail (that Swinton was killed by flying debris and was not involved in the detonation) is also carried only through this outlet.",
+      "framing_variants": [
+        {
+          "characterization": "Reported the Pentagon's official account and noted the New York Times' version, citing a US official, that Swinton was killed by debris rather than being involved in the detonation",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Yemen's Houthi militia declared a naval blockade against Saudi Arabia on Monday, and two oil tankers loaded with Saudi crude for China and India made U-turns in the Red Sea heading toward the Suez Canal.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "iran_gulf_hostilities",
+      "rationale": "Only The Guardian reports the Houthi naval blockade declaration and the associated tanker movements; no other outlet in this cluster covers this development.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as part of broader regional escalation affecting energy supply chains",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "US Treasury Secretary Scott Bessent claimed Chinese purchases of Iranian oil have substantially decreased following US sanctions on Chinese private 'teapot' refineries, and that Chinese crude oil purchases overall have dropped approximately 40% in recent months.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports Bessent's claims about Chinese oil purchases and the sanctions on teapot refineries; no other outlet in this cluster covers this development.",
+      "framing_variants": [
+        {
+          "characterization": "Reported as Bessent's claim, without independent verification of the figures, framed in the context of US economic pressure on Iran",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Oil prices rose nearly 2% to over $90 a barrel (Brent crude at $90.84) amid regional tensions.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports these specific oil price movements; no other outlet in this cluster provides energy market data.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as a market response to regional tensions, alongside IEA commentary on supply flows through alternative routes",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Iran's Interior Minister Eskandar Momeni began meetings with mediators in Pakistan, including Pakistan's army chief Asim Munir, with a meeting with Prime Minister Shehbaz Sharif expected; Pakistan brokered an interim US-Iran agreement last month and has continued efforts to bring both sides back to negotiations.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports on Momeni's Pakistan visit and Pakistan's mediation role; no other outlet in this cluster covers this diplomatic development.",
+      "framing_variants": [
+        {
+          "characterization": "Presented as evidence of continued diplomatic activity despite the collapse of the earlier US-Iran agreement",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Israeli Finance Minister Bezalel Smotrich stated Israel has no interest in joining US military operations against Iran and that the current limited US-Iran conflict is 'the right and best situation' for Israel.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports Smotrich's statements about Israeli strategic preferences regarding the US-Iran conflict.",
+      "framing_variants": [
+        {
+          "characterization": "Presented alongside reporting that Washington had reportedly requested Israel stay out of the conflict during negotiations following the April ceasefire",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "The Dutch government announced it would ban imports from Palestinian territories occupied by Israeli settlers, effective 22 September, joining Ireland, Belgium and Spain among EU countries with such restrictions.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Guardian reports the Dutch import ban announcement; no other outlet in this cluster covers this development.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as the Netherlands joining an existing group of EU countries restricting trade from Israeli-occupied territories, with the occupation characterized as illegal under international law",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Lebanon was drawn into a broader regional conflict on 2 March 2026 when Hezbollah launched rockets into Israel in retaliation for a strike that killed Iran's supreme leader Ali Khamenei. Israel responded with a bombing campaign and invaded a significant part of southern Lebanon.",
+      "sources": [
+        "src_002"
+      ]
+    },
+    {
+      "point": "A Trilateral Framework agreement was signed by Israel, Lebanon and the US on 26 June 2026, establishing a process for Israeli withdrawal from occupied southern Lebanon in exchange for Lebanese army deployment and Hezbollah disarmament.",
+      "sources": [
+        "src_002",
+        "src_004",
+        "src_003"
+      ]
+    },
+    {
+      "point": "The pilot zone program, overseen by a Military Co-ordination Group involving the US, Israel and Lebanon, was designed to test the withdrawal and deployment process in specific villages before broader implementation.",
+      "sources": [
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "Mojtaba Khamenei became Iran's supreme leader shortly after his father Ali Khamenei was killed in US-Israeli strikes in Tehran on 28 February 2026, and has not been seen in public since taking the role.",
+      "sources": [
+        "src_004"
+      ]
+    },
+    {
+      "point": "The US and Iran signed an agreement last month, but it was short-lived; the two countries have since engaged in back-and-forth strikes while battling for control of the Strait of Hormuz.",
+      "sources": [
+        "src_004"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-07-21T14:49:10.352173+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "The Lebanese army began deploying troops to pilot zones in southern Lebanon on Tuesday morning, entering the village of Zawtar al-Gharbiyeh in Nabatieh district. The deployment represents the first phase of operations in three villages announced by the US State Department on Monday, with Lebanese forces also carrying out missions in Froun and Srifa.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "During the deployment, the Lebanese army accused Israeli forces of firing near its units, characterizing the incident as an offense that would impede deployment into the pilot zones. The accusation was reported across the political spectrum, though the reason for the gunfire became a point of dispute.",
+        "supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The pilot zone program was launched under the Trilateral Framework agreement between Israel, Lebanon, and the United States, signed on 26 June. The program involves Israeli troops withdrawing from a small part of occupied Lebanese territory and includes provisions for the disarmament of Hezbollah.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The IDF stated it would adjust its force posture in pilot areas to allow the Lebanese army to carry out its mission, while safeguarding IDF soldiers' security and preserving its right to self-defense.",
+        "supports": {
+          "claim_ids": [
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The two parties offered directly contradictory explanations for why Israeli forces fired near Lebanese troops. The Lebanese Armed Forces characterized the Israeli fire as an attempt to obstruct implementation of the pilot zones. An IDF source, by contrast, stated that troops fired because Lebanese soldiers crossed the established borders of the pilot zone.",
+        "supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The BBC, citing an Israeli source speaking to Haaretz newspaper, reported there were no Israeli troops in Froun and Srifa villages — a detail not corroborated by other outlets. The same outlet reported the IDF's stated intention to remain in the security zone, a 10-kilometer-deep strip of occupied Lebanese territory along the border, for as long as necessary to defend northern Israeli communities.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The BBC alone attributed the pilot zone operations to discussions between Israeli and Lebanese representatives in Rome the previous week, citing the US State Department. No other outlet in the source set mentioned the Rome meeting as the direct basis for the deployment.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Lebanese President Joseph Aoun is scheduled to meet US President Donald Trump in Washington. According to center-left outlets BBC and The Guardian, Aoun is expected to urge Trump to pressure Israel to withdraw from the rest of southern Lebanon and to support the Lebanese army in taking control of areas where Hezbollah holds sway.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The BBC provided casualty figures from both sides: more than 4,300 people have been killed in Lebanon — including almost 800 children, women, and medics — according to the Lebanese health ministry, while Israeli authorities report 37 Israeli soldiers and four civilians killed during the conflict. The BBC also reported that Lebanon was drawn into the broader regional conflict on 2 March, when Hezbollah launched rockets into Israel in retaliation for a strike that killed Iran's supreme leader, prompting Israeli bombing and a ground invasion of southern Lebanon.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The Guardian reported developments in Iran's leadership transition following the death of the previous supreme leader. Mojtaba Khamenei assumed the role shortly after his father was killed in US-Israeli strikes in Tehran on 28 February; according to The Guardian, he has not been seen in public since and has only communicated through written statements in state media. Iran's President Masoud Pezeshkian said the level of communication with Supreme Leader Mojtaba Khamenei has increased.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The Guardian alone reported escalating hostilities between Iran and Gulf states. Kuwait and Bahrain activated air defenses against Iranian drone attacks, with Bahrain's army stating its systems intercepted and destroyed several Iranian aerial attacks. The Iranian army, by contrast, claimed to have launched drones against US military targets at Sheikh Isa airbase in Bahrain — a direct contradiction between the actors involved.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Guardian reported that Kuwait's energy ministry said Iran targeted power and desalination plants for a fourth consecutive day, causing fires and damage. Approximately 90% of Kuwait's drinking water comes from desalination, according to the same outlet.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Guardian reported that US Army Sergeant Michael Emmanuel Swinton was killed at Erbil airbase in northern Iraq during a controlled detonation of an Iranian attack drone. The Pentagon said the incident is under investigation; the outlet cited the New York Times for additional detail that Swinton was killed by flying debris and was not involved in the detonation.",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "Yemen's Houthi militia declared a naval blockade against Saudi Arabia on Monday, The Guardian reported. Two oil tankers loaded with Saudi crude for China and India made U-turns in the Red Sea heading toward the Suez Canal, according to the same outlet.",
+        "supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "The Guardian reported diplomatic and economic developments across the region. US Treasury Secretary Scott Bessent claimed Chinese purchases of Iranian oil have substantially decreased following US sanctions on Chinese private 'teapot' refineries, and that Chinese crude oil purchases overall have dropped approximately 40% in recent months. Oil prices rose nearly 2% to over $90 a barrel, with Brent crude at $90.84, amid regional tensions.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "Iran's Interior Minister Eskandar Momeni began meetings with mediators in Pakistan, including Pakistan's army chief Asim Munir, with a meeting with Prime Minister Shehbaz Sharif expected, The Guardian reported. According to the outlet, Pakistan brokered an interim US-Iran agreement last month and has continued efforts to bring both sides back to negotiations.",
+        "supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p17",
+        "text": "The Guardian reported that Israeli Finance Minister Bezalel Smotrich stated Israel has no interest in joining US military operations against Iran and that the current limited US-Iran conflict is 'the right and best situation' for Israel.",
+        "supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p18",
+        "text": "The Dutch government announced it would ban imports from Palestinian territories occupied by Israeli settlers, effective 22 September, joining Ireland, Belgium, and Spain among EU countries with such restrictions, The Guardian reported.",
+        "supports": {
+          "claim_ids": [
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

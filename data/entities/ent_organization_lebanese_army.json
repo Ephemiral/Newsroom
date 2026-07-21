@@ -1,0 +1,72 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_lebanese_army",
+  "type": "organization",
+  "canonical_name": "Lebanese Army",
+  "aliases": [
+    "Lebanese Armed Forces",
+    "Lebanese army",
+    "Lebanese military"
+  ],
+  "wikidata_qid": "Q1074908",
+  "summary": "The Lebanese Armed Forces, also known as the Lebanese Army, is the national military of Lebanon. It consists of three branches, the ground forces, the air force, and the navy.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Lebanese_Armed_Forces"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The motto of the Lebanese Armed Forces is \"Honor, Sacrifice, Loyalty\".",
+      "source_url": "https://en.wikipedia.org/wiki/Lebanese_Armed_Forces",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-07-21",
+      "last_updated": "2026-07-21",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "In politically unstable Lebanon, the Lebanese army has been described as one of the few state institutions in the country trusted by both the Lebanese population and the international community; and a guarantor of stability in multi-sectarian Lebanon.",
+      "source_url": "https://en.wikipedia.org/wiki/Lebanese_Armed_Forces",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-07-21",
+      "last_updated": "2026-07-21",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_07_21_israel_middle_east_001",
+  "appears_in_events": [
+    "evt_2026_07_21_israel_middle_east_001"
+  ],
+  "created_at": "2026-07-21T14:49:15.184643+00:00",
+  "last_updated": "2026-07-21T14:49:35.699593+00:00",
+  "change_log": [
+    {
+      "date": "2026-07-21",
+      "summary_of_change": "Entity created from evt_2026_07_21_israel_middle_east_001",
+      "source": null
+    },
+    {
+      "date": "2026-07-21",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Lebanese_Armed_Forces"
+    },
+    {
+      "date": "2026-07-21",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Lebanese_Armed_Forces"
+    },
+    {
+      "date": "2026-07-21",
+      "summary_of_change": "Grounded from Wikidata Q1074908 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1074908"
+    }
+  ]
+}
