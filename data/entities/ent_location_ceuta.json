@@ -1,0 +1,63 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_ceuta",
+  "type": "location",
+  "canonical_name": "Ceuta",
+  "aliases": [
+    "Spanish enclave of Ceuta"
+  ],
+  "wikidata_qid": "Q5823",
+  "summary": "Ceuta is an autonomous city of Spain on the North African coast. Bordered by Morocco, it lies along the boundary between the Mediterranean Sea and the Atlantic Ocean.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ceuta"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ceuta_desde_el_mirador_de_Isabel_II_banner_%28cropped%29.jpg/960px-Ceuta_desde_el_mirador_de_Isabel_II_banner_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ceuta_desde_el_mirador_de_Isabel_II_banner_(cropped).jpg",
+    "credit": "Mario Sánchez Bueno",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Ceuta desde el mirador de Isabel II banner (cropped).jpg",
+    "fetched_at": "2026-08-01T04:30:13.531923+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Ceuta is one of the special territories of members of the European Economic Area.",
+      "source_url": "https://en.wikipedia.org/wiki/Ceuta",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_europe_001",
+  "appears_in_events": [
+    "evt_2026_08_01_europe_001"
+  ],
+  "created_at": "2026-08-01T04:30:11.635909+00:00",
+  "last_updated": "2026-08-01T04:30:20.834235+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ceuta"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q5823 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q5823"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_ursula_von_der_leyen",
+  "type": "person",
+  "canonical_name": "Ursula von der Leyen",
+  "aliases": [
+    "EU Commission President Ursula von der Leyen"
+  ],
+  "wikidata_qid": "Q60772",
+  "summary": "Ursula Gertrud von der Leyen is a German politician and physician who has served as President of the European Commission since 2019. She served in the German federal government between 2005 and 2019, holding positions in Angela Merkel's cabinet, most recently as Federal Minister for Defence.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Ursula_von_der_Leyen"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ursula_von_der_Leyen_2024.jpg/960px-Ursula_von_der_Leyen_2024.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ursula_von_der_Leyen_2024.jpg",
+    "credit": "European People's Party",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Ursula von der Leyen 2024.jpg",
+    "fetched_at": "2026-08-01T04:30:09.570392+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Federal Minister of Defence",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q60772",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Federal Minister for Education, Family Affairs, Senior Citizens, Women and Youth",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q60772",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Federal Minister of Labour and Social Affairs",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q60772",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the German Bundestag",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q60772",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the Landtag of Lower Saxony",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q60772",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President of the European Commission",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q60772",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "She is a member of the centre-right Christian Democratic Union (CDU) and its affiliated European political party, the European People's Party (EPP).",
+      "source_url": "https://en.wikipedia.org/wiki/Ursula_von_der_Leyen",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "On 7 March 2024, the EPP elected her as its Spitzenkandidat to lead the campaign for the 2024 European Parliament elections.",
+      "source_url": "https://en.wikipedia.org/wiki/Ursula_von_der_Leyen",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "She was re-elected to head the Commission in July 2024.",
+      "source_url": "https://en.wikipedia.org/wiki/Ursula_von_der_Leyen",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_europe_001",
+  "appears_in_events": [
+    "evt_2026_08_01_europe_001"
+  ],
+  "created_at": "2026-08-01T04:30:07.952912+00:00",
+  "last_updated": "2026-08-01T04:30:20.833782+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ursula_von_der_Leyen"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ursula_von_der_Leyen"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Ursula_von_der_Leyen"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q60772 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q60772"
+    }
+  ]
+}

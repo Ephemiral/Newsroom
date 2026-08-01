@@ -414,6 +414,11 @@
       "at": "2026-08-01T04:13:43.222591+00:00",
       "event_id": "evt_2026_08_01_israel_middle_east_001",
       "outcome": "published"
+    },
+    "0d008115da38ad85": {
+      "at": "2026-08-01T04:25:25.999930+00:00",
+      "event_id": "evt_2026_08_01_europe_001",
+      "outcome": "published"
     }
   }
 }

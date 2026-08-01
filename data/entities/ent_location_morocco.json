@@ -1,0 +1,106 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_morocco",
+  "type": "location",
+  "canonical_name": "Morocco",
+  "aliases": [],
+  "wikidata_qid": "Q1028",
+  "summary": "Morocco, officially the Kingdom of Morocco, is a country in the Maghreb region of North Africa. It has coastlines on the Mediterranean Sea to the north and the Atlantic Ocean to the west, and has land borders with Algeria to the east; the Spanish exclaves of Ceuta, Melilla and Peñón de Vélez de la Gomera along the north, which it claims together with several small Spanish-controlled islands; and the disputed territory of Western Sahara to the south, partly occupied by Morocco since 1975.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Morocco"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Volubilis_Longshot_II.jpg/960px-Volubilis_Longshot_II.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Volubilis_Longshot_II.jpg",
+    "credit": "Subhros",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Volubilis Longshot II.jpg",
+    "fetched_at": "2026-08-01T04:30:15.605560+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1028"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q1028"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Morocco also claims to share a border with Mauritania through the disputed territory of Western Sahara.",
+      "source_url": "https://en.wikipedia.org/wiki/Morocco",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It has a population of approximately 37 million.",
+      "source_url": "https://en.wikipedia.org/wiki/Morocco",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Its capital is Rabat, while its largest city is Casablanca.",
+      "source_url": "https://en.wikipedia.org/wiki/Morocco",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_europe_001",
+  "appears_in_events": [
+    "evt_2026_08_01_europe_001"
+  ],
+  "created_at": "2026-08-01T04:30:13.532859+00:00",
+  "last_updated": "2026-08-01T04:30:20.834420+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Morocco"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Morocco"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Morocco"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q1028 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1028"
+    }
+  ]
+}

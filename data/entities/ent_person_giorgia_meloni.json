@@ -1,0 +1,104 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_giorgia_meloni",
+  "type": "person",
+  "canonical_name": "Giorgia Meloni",
+  "aliases": [
+    "Italian Prime Minister Giorgia Meloni"
+  ],
+  "wikidata_qid": "Q451791",
+  "summary": "Giorgia Meloni is an Italian politician who has served as Prime Minister of Italy since October 2022. She is the first woman to hold the office and the head of the second-longest government in the history of the Italian Republic.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Giorgia_Meloni"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Giorgia_Meloni_Official_2024_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Giorgia_Meloni_Official_2024_(cropped).jpg",
+    "credit": "Governo Italiano",
+    "license": "CC BY 3.0 it",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/it/deed.en",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Giorgia Meloni Official 2024 (cropped).jpg",
+    "fetched_at": "2026-08-01T04:30:07.869098+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Prime Minister of Italy",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q451791",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the Chamber of Deputies of the Italian Republic",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q451791",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Italian Minister for Youth Policies",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q451791",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the Provincial Council of Rome",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q451791",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Italian minister of Tourism",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q451791",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "A member of the Chamber of Deputies since 2006, she has been president of the right-wing to far-right party Brothers of Italy (FdI) since 2014, and was president of the European Conservatives and Reformists Party from 2020 to 2025.",
+      "source_url": "https://en.wikipedia.org/wiki/Giorgia_Meloni",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_europe_001",
+  "appears_in_events": [
+    "evt_2026_08_01_europe_001"
+  ],
+  "created_at": "2026-08-01T04:30:05.952017+00:00",
+  "last_updated": "2026-08-01T04:30:20.833235+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Giorgia_Meloni"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q451791 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q451791"
+    }
+  ]
+}

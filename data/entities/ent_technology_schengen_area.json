@@ -1,0 +1,65 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_technology_schengen_area",
+  "type": "technology",
+  "canonical_name": "Schengen Area",
+  "aliases": [
+    "Schengen",
+    "Schengen zone",
+    "Schengen arrangements"
+  ],
+  "wikidata_qid": "Q1969730",
+  "summary": "The Schengen Area is a system of open borders that encompass 29 European countries that have officially abolished border controls at their common borders. As an element within the wider area of freedom, security and justice (AFSJ) policy of the European Union (EU), it mostly functions as a single jurisdiction under a common visa policy for international travel purposes.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Schengen_Area"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Grenzschild_Danmark_2011.jpg/960px-Grenzschild_Danmark_2011.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Grenzschild_Danmark_2011.jpg",
+    "credit": "ChrGermany",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Grenzschild Danmark 2011.jpg",
+    "fetched_at": "2026-08-01T04:30:17.627445+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The area is named after the 1985 Schengen Agreement and the 1990 Schengen Convention, both signed in Schengen, Luxembourg.",
+      "source_url": "https://en.wikipedia.org/wiki/Schengen_Area",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_europe_001",
+  "appears_in_events": [
+    "evt_2026_08_01_europe_001"
+  ],
+  "created_at": "2026-08-01T04:30:15.607265+00:00",
+  "last_updated": "2026-08-01T04:30:20.834623+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Schengen_Area"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q1969730 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1969730"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_friedrich_merz",
+  "type": "person",
+  "canonical_name": "Friedrich Merz",
+  "aliases": [
+    "German Chancellor Friedrich Merz"
+  ],
+  "wikidata_qid": "Q566257",
+  "summary": "Joachim-Friedrich Martin Josef Merz is a German politician who has served as Chancellor of Germany since 6 May 2025. He has also served as Leader of the Christian Democratic Union (CDU) since January 2022, leading the CDU/CSU (Union) parliamentary group as Leader of the Opposition in the Bundestag from February 2022 to May 2025.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Friedrich_Merz"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%283x4_cropped%29.jpg/960px-2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%283x4_cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_(3x4_cropped).jpg",
+    "credit": "Steffen Prößdorf",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:2024-08-21 Friedrich Merz in Erfurt 2024 STP 3041 by Stepro (3x4 cropped).jpg",
+    "fetched_at": "2026-08-01T04:30:11.507015+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "member of the German Bundestag",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q566257",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Member of the European Parliament",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q566257",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Chairman of the CDU/CSU Bundestag fraction",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q566257",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "leader of the Christian Democratic Union",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q566257",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Federal Chancellor of Germany",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q566257",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_europe_001",
+  "appears_in_events": [
+    "evt_2026_08_01_europe_001"
+  ],
+  "created_at": "2026-08-01T04:30:09.675149+00:00",
+  "last_updated": "2026-08-01T04:30:20.834039+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q566257 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q566257"
+    }
+  ]
+}
