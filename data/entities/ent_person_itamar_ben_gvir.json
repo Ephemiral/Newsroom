@@ -53,10 +53,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_06_01_065",
   "appears_in_events": [
-    "evt_2026_06_01_065"
+    "evt_2026_06_01_065",
+    "evt_2026_08_01_israel_middle_east_001"
   ],
   "created_at": "2026-07-08T18:26:15.226036+00:00",
-  "last_updated": "2026-07-08T18:26:37.185861+00:00",
+  "last_updated": "2026-08-01T04:17:55.059028+00:00",
   "change_log": [
     {
       "date": "2026-07-08",

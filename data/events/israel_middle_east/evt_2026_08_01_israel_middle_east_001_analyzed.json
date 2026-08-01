@@ -1,0 +1,1283 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_08_01_israel_middle_east_001",
+    "beat": "israel_middle_east",
+    "title": "Hamas Accepts Disarmament Framework; Israel Signals Skepticism",
+    "summary": "US President Donald Trump announced that the US-led Board of Peace reached a deal for the phased disarmament of Hamas in Gaza and gradual Israeli withdrawal, which Hamas confirmed it had accepted. Israel's government had not officially responded and key officials voiced deep skepticism, while both sides outlined conflicting conditions on sequencing.",
+    "date": "2026-07-31",
+    "generated_at": "2026-08-01T04:17:18.047281+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_donald_trump",
+        "surfaces": [
+          "Donald Trump",
+          "Trump"
+        ],
+        "relevance_to_event": "Trump announced the US-led Board of Peace disarmament deal, characterized it as a path to peace, and stated Israel is 'very happy' about the agreement, though he offered no clarity on the sequencing of disarmament and withdrawal.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_006",
+            "clm_013",
+            "clm_017",
+            "clm_024"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_benjamin_netanyahu",
+        "surfaces": [
+          "Benjamin Netanyahu",
+          "Netanyahu"
+        ],
+        "relevance_to_event": "As Israel's Prime Minister, Netanyahu had not publicly commented on the disarmament plan at the time of reporting, despite being central to Israel's official response to the deal.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_itamar_ben_gvir",
+        "surfaces": [
+          "Itamar Ben-Gvir"
+        ],
+        "relevance_to_event": "Israel's National Security Minister publicly dismissed the disarmament plan as 'unacceptable' to Israel, representing official Israeli government skepticism about Hamas's willingness to genuinely disarm.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_hamas",
+        "surfaces": [
+          "Hamas"
+        ],
+        "relevance_to_event": "Hamas confirmed acceptance of the US-led disarmament framework and agreed to lay down its arms, dissolve its Gaza government, and hand over power to the Palestinian National Committee as part of the peace deal.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_board_of_peace",
+        "surfaces": [
+          "Board of Peace",
+          "US-led Board of Peace"
+        ],
+        "relevance_to_event": "The US-led Board of Peace negotiated and announced the phased disarmament deal, published the 15-point roadmap, and according to some reports would be the designated recipient of Hamas's heavy weapons.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_005",
+            "clm_006",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_israel",
+        "surfaces": [
+          "Israel"
+        ],
+        "relevance_to_event": "Israel had not officially responded to the plan, with government officials expressing deep skepticism about Hamas's disarmament sincerity and demanding complete demilitarization as a precondition before any withdrawal from Gaza.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_009",
+            "clm_014",
+            "clm_015",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_national_committee_for_the_administration_of_gaza",
+        "surfaces": [
+          "Palestinian National Committee",
+          "National Committee for the Administration of Gaza"
+        ],
+        "relevance_to_event": "This group of independent technocrats was designated to receive power from Hamas and serve as Gaza's new governing authority, though it had not yet entered Gaza and was operating from Cairo.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_012",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_gaza_strip",
+        "surfaces": [
+          "Gaza"
+        ],
+        "relevance_to_event": "Gaza is the territory subject to the disarmament agreement, where Israeli forces currently control over 53-60% of land, and where heavy weapons, tunnels, and weapons depots are to be inventoried and destroyed over 200-350 days.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_006",
+            "clm_010",
+            "clm_011",
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-08-01T04:18:02.604607+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/2025_President_Donald_Trump_press_conference_%28cropped%29.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/2025_President_Donald_Trump_press_conference_%28cropped%29.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2025_President_Donald_Trump_press_conference_(cropped).jpg",
+      "width": 693,
+      "height": 517,
+      "caption": "Donald Trump holds a press conference in the James S. Brady Press Briefing Room (file photo)",
+      "credit": "The White House",
+      "license": "Public domain",
+      "license_url": null,
+      "provider": "wikimedia_commons",
+      "file_title": "File:2025 President Donald Trump press conference (cropped).jpg",
+      "query": "Donald Trump press conference",
+      "fetched_at": "2026-08-01T04:18:02.604568+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Haaretz (English)",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQWHhLVk5BZFVhNFFrUWtHVmJibjFnM1JwR3NqbThlWWRQS2tqSndWUUJ3Ri1obzJrUEp6MUFRaDNRS1RUckVPZklxTVQtRk9tWVBYYVdoMEU5VUdoYXd6UGFqRjRZOEhxZ2FOVFlRYmNwQTcyajZFcWtaT2JhOEh5d3BuSDFjMWpTbThocmJZUldOay16enZFMW1FSG5VVkNHcUFDbHpSQ2NwcnREZTFZZVJ3OUxGeWlqajZTY3JRZE81Q3lvUGVUV1drN2FaZ3VMeXlZbWZ1RVlhem44bm9XOUw4M0JXVnFMRXVkXzhybGNJZXhpZkpjQlg2THJXZ3Rs?oc=5",
+      "author": null,
+      "published_at": "2026-07-31T09:46:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Haaretz (English)",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQWmR2QUVPdkZiOGxvTG02S1NrZzFZSEcyejk2ZUF6UHNwLTB1aFd5dkpLNjZfZUxuMEQzbzlYbTROd3dxdXZMcGdVSnJqelJiWm1FR0dGalppS1MtSElEbkdkOXFtSmpKUEFKQ1p2TWJSajhIX2JrMUpFSGhmNnNJVUtQSmZ6dWlsWEc1SUd3bW1vdFhlVkFfSGxzbGtGWWl4WE5MdHB4b29YU2U0RW91OEU5UEtPa0dPTTVtc1ZSYW5ObkhSeEczU3A1WURWTktoWnppeDBnLVBicFZEVHBiVTJ4M29kNFBodWdQMDJVTm5lS3VnTWJOVDFwSXgtZUFDM2ZpUUdMb19nVDBqS2U5N3ZiaUpUZw?oc=5",
+      "author": null,
+      "published_at": "2026-07-30T22:55:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Majority owned by the Schocken family. M. DuMont Schauberg, a German publisher, holds a minority stake.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "Arutz Sheva (Israel National News)",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80aENmV25Rb3ltN2ZPdTNCZktLZWNWMzYxNlpfcDUxUFRkOW5IOWF3NUtJWGJmcVZZWHNVUC12czlOeF9XSFY2czRwakF3eVZyYzNBM3NOZjhzZw?oc=5",
+      "author": null,
+      "published_at": "2026-07-30T22:41:00+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Operated by a non-profit association registered in the United States. Closely associated with the national-religious settler movement in the West Bank.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNHh3eHRRcUdPRGdqS1ViTm1TTDE0NGQwQXZ6Ml82R3g2cVA2c1NLanFFVHpJZU81VENlQ3NaS0xvWmV4VW5HU0hyX2YzUWhZbFJGN3p0dHh5aG5PQ08zakhtZGZycVpFYVdOLVA1ZlVPNGJqZFNvZGhBZDI5QmxiNUlnTXpSWTV2ZFVMZ1BQeGR4Mmo2TWhTTXZrY1dnUmlDWGlCYzVRNXFMNjROdmIxYkY0OG1mWXZiMXFtM1NPcEVoVUllLUJQdVNKMjk?oc=5",
+      "author": null,
+      "published_at": "2026-07-30T07:24:00+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c20e94k2ex5o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-31T16:00:56+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/news/video/2026/jul/31/can-trumps-hamas-disarmament-plan-work-and-will-israel-agree-to-withdraw-from-gaza-the-latest",
+      "author": "Presented by Lucy Hough with Julian Borger ; produced by Annie La Vespa and Angus Neale ; senior producer Ryan Ramgobin",
+      "published_at": "2026-07-31T16:05:38+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_007",
+      "outlet": "Arutz Sheva (Israel National News)",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9yZmJDaDZiRnBDY24zanR4aXVCSUdBVTdJY1lUOEdNSzBJYnVzM0NlM0RFQ2IydVdqaU1hMHFPbVBiUmZCOVdqcTlVNFZIUG5IZ3hjZXRyUzQ3b0txcVE?oc=5",
+      "author": null,
+      "published_at": "2026-07-31T08:35:00+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Operated by a non-profit association registered in the United States. Closely associated with the national-religious settler movement in the West Bank.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_008",
+      "outlet": "Israel Hayom",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRVVaSVE4ejdLZ09GZjUxeGFIRDZzR0xuR2VjRmREMGJiYXZFV1N5X3JCU2JqMGhWMGphYWRiZUE1VGhxRFNqQTNGS0dnbWRqcm5HazBxX3ZLbkU4ekFZLWhSczgzMUpKV2RRckNtSGRjUEV1OHJHU2plMnEyR01ubE1Ka3ZzSjNQNEN3?oc=5",
+      "author": null,
+      "published_at": "2026-07-30T12:44:10+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Founded by Sheldon Adelson in 2007; now owned by the Miriam and Sheldon G. Adelson Family Foundation following his death in 2021. Distributed free of charge.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_009",
+      "outlet": "Euronews",
+      "url": "http://www.euronews.com/2026/07/31/trump-announces-historic-deal-for-the-complete-disarmament-of-hamas-and-israeli-withdrawal",
+      "author": null,
+      "published_at": "2026-07-31T04:25:02+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Majority owned by Alpac Capital, a pan-European investment group, since 2022. Previously partly owned by NBCUniversal.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_010",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c9d8gd87d83o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-31T04:25:49+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_011",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/jul/31/us-iran-war-live-updates-trump-claims-gaza-hamas-deal-middle-east-crisis-latest-news",
+      "author": "Lucy Campbell (now); Yassin El-Moudden, Tom Ambrose, Taz Ali and Adam Fulton (earlier)",
+      "published_at": "2026-07-31T20:57:36+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_012",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc1pSMmZLbHZsNjFobXRnOF8tSGRMa1V5Vmh1eW9ydUZvWFJDNXQ4Vm5SUXBzQUNOdGdDQms3NTFlZTV6WEM2Q041UE1ySE9PYXpXRHdNNTcwOU9YRE1GdVdWTWlvend3TUxWclBxaFpRWG50dnNsc1FqNXdnZnUzeDR0TnQxVlNSWDBubWh2S3hpOFYwdGMxMVlsNzAwTzFCVnlnSzJCVDBuZw?oc=5",
+      "author": null,
+      "published_at": "2026-07-30T22:51:54+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_013",
+      "outlet": "i24 News (Israel)",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbS1fU2wyQkFfSEt6VkQtX05WUEF4S2xFMjNFcmt5ODZTSjMtb0N5MExJWDkyakZuaUV4VldtTUFTMXdxanRJdWl5RFBORWQyRjdTbnVYQUxTZFR4MjJZOXV6TUR1ZXZ1cjVrS1NfeE5Ja3ExUF9ieFpYamZDal9SZHZ5WnlfQ0ZlaWV3dkt0Ujg2NUZBbmVsaXJFNkRYaDdpRWp4aE1PR2RMdHdmeGJMVDZCTEZBdlNOSkZDVERvOEcxTkM0V285emxoWTFmQQ?oc=5",
+      "author": null,
+      "published_at": "2026-07-31T04:05:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Altice Group, controlled by French-Israeli billionaire Patrick Drahi.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_014",
+      "outlet": "Ynet News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pUlJQQVFwZXlNczB0WnhXMi1hWVZvR2tsWUlhUVVSUVI5Zkx2ZEFST3UzMkEzcURVS0c4dk1qakU3VlBkWlZSZ1NmcTdJY1Fhdnl1VmxB?oc=5",
+      "author": null,
+      "published_at": "2026-07-30T23:07:27+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by Yedioth Communication Ltd, part of the Yedioth Ahronoth group — Israel's largest media conglomerate, controlled by the Mozes family.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_015",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUDZwZjRBbnJsaHVwM1FqM1FlLUxDZWVrT3hhcEkxR3hXYWI4eHVMaDIwREFTZVFwNUYxTklqdE1vTVFHT0tMTTRSaTV0cXY5UEd2QzR4VUdIZGVtZHF3MVZJX1R3ZG93NEdnU0dNV2xrTUh3Q3BsOHBkajl1MV90enVqYlhTUm9ZeUtLWGhQeWwtaEw4VnNBWS1pRFhlMWlnRFJoY25jQXRRa2ZuS3BMcWNxYkY?oc=5",
+      "author": null,
+      "published_at": "2026-07-31T17:22:59+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Thomson Reuters Corporation, a publicly traded Canadian-American media conglomerate.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "US President Donald Trump announced that the US-led Board of Peace reached a deal for the disarmament of Hamas in Gaza and the withdrawal of Israeli forces.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "deal_announcement",
+      "rationale": "Reported consistently across outlets spanning center, center-left, and right bias tiers, confirming cross-spectrum agreement on Trump's announcement.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as Trump announcing a 'historic' agreement to 'fully disarm' Hamas.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Uses 'declared a breakthrough,' implying announcement rather than verified outcome.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Describes it as Trump declaring 'a breakthrough in negotiations' on Thursday night.",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Reports Trump described the deal as 'historic and monumental' and to be 'rolled out in carefully structured phases.'",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Reuters neutrally reports Trump's statement about a Board of Peace disarmament deal.",
+          "source_id": "src_012"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_007",
+        "src_009",
+        "src_010",
+        "src_011",
+        "src_012",
+        "src_013",
+        "src_014",
+        "src_015"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Trump described the Hamas disarmament decision as 'a monumental step toward lasting peace and security.'",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "deal_announcement",
+      "rationale": "Trump's characterization is reported verbatim by both a center-left (BBC) and a center (Euronews) outlet, confirming cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "BBC directly quotes Trump calling it 'a monumental step toward lasting peace and security.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Euronews reports Trump described the deal as 'historic and monumental.'",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_009"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Hamas announced it accepted a disarmament framework, agreeing to lay down its arms as part of a deal to end the war with Israel.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "deal_announcement",
+      "rationale": "Hamas's acceptance of the disarmament framework is reported across center-left and center outlets, constituting cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "BBC states 'Hamas says it has accepted a disarmament plan for Gaza which will see it lay down its arms.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "BBC notes this is 'for the first time' Hamas has accepted such a framework after 'months of marathon talks.'",
+          "source_id": "src_010"
+        },
+        {
+          "characterization": "Euronews reports Hamas agreed to a deal including 'de-weaponisation and the gradual withdrawal of Israeli forces.'",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Haaretz frames it as Hamas stating disarmament would occur after IDF withdrawal.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_009",
+        "src_010",
+        "src_011",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Hamas stated it negotiated 'responsibly and positively' and reached 'national consensus' among Palestinian factions.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "deal_announcement",
+      "rationale": "Only BBC directly quotes this Hamas self-characterization of the negotiation process.",
+      "framing_variants": [
+        {
+          "characterization": "BBC attributes the phrasing 'negotiated responsibly and positively' and 'national consensus' directly to Hamas's statement.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The disarmament deal is based on a 15-point roadmap published by the US-led Board of Peace; the BBC reported access to a four-page phased disarmament plan.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "deal_details",
+      "rationale": "Only BBC describes a 15-point roadmap and reports having seen a four-page document; other outlets reference the plan but do not specify these details.",
+      "framing_variants": [
+        {
+          "characterization": "BBC references 'a 15-point roadmap published by the US-led Board of Peace' and says 'the BBC has seen a four-page plan for the phased disarmament of Hamas and gradual Israeli withdrawal.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Trump's Gaza peace plan was unveiled in September of the previous year and included creation of the Board of Peace to oversee implementation and handle funding for Gaza's redevelopment.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "deal_details",
+      "rationale": "The September unveiling date and Board of Peace mandate details come exclusively from BBC's reporting.",
+      "framing_variants": [
+        {
+          "characterization": "BBC provides the September unveiling date and describes the Board of Peace's dual mandate of oversight and funding.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The roadmap calls for a process to inventory and store heavy weapons, military production sites, weapons depots, and tunnels; underground tunnel networks, weapons stores, and manufacturing sites would be mapped and destroyed.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "deal_details",
+      "rationale": "Multiple center-left and center outlets confirm the roadmap's provisions on inventorying, storing, and destroying Hamas military infrastructure.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes the roadmap: 'A process shall begin to inventory and store heavy weapons, military production sites, weapons depots, and tunnels'; tunnels 'mapped and destroyed.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "BBC earlier report notes 'inventorying and storage of its remaining heavy weapons under Palestinian supervision.'",
+          "source_id": "src_010"
+        },
+        {
+          "characterization": "Euronews reports Trump's plan calls on Hamas 'to surrender its weapons and destroy its vast network of tunnels.'",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_009",
+        "src_010"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The disarmament process is described as gradual and phased, with an implementation schedule to be prepared within 14 days; the surrender of heavy weapons and decommissioning of tunnels could take between 200 and 350 days.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "deal_details",
+      "rationale": "BBC and Euronews both confirm the phased, time-bound nature of disarmament, with Euronews adding the 200–350 day estimate from a Board of Peace official.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes the plan: disarmament 'in a gradual, sequential, and time-bound manner, based on an implementation schedule to be prepared within 14 days.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Euronews reports that the heavy weapons surrender 'could take between 200 and 350 days' per a Board of Peace official.",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_009"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The roadmap specifies that no weapons shall be transferred or handed over to Israel or to any non-Palestinian party.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "deal_details",
+      "rationale": "Only BBC directly quotes this provision from the roadmap document.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes the roadmap: 'no weapons shall be transferred or handed over to Israel or to any non-Palestinian party.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The Gaza police force's police weapons would be handed over within approximately two weeks; the handover in this initial phase does not include Hamas's heavy weaponry or the vast majority of Hamas militants.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "deal_details",
+      "rationale": "This distinction between police weapons and heavy weapons in the initial phase, with a two-week timeline, is reported only by Euronews citing US and Board of Peace officials.",
+      "framing_variants": [
+        {
+          "characterization": "Euronews reports the police force would hand over weapons to the Gaza administration 'in the next two weeks,' while heavy weaponry 'is not included' and 'does not include the vast majority of Hamas militants.'",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_009"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Hamas has agreed to hand over power to the Palestinian National Committee, described as a group of independent technocrats; Hamas earlier dissolved its government in Gaza and announced it was preparing to transfer power to the committee as part of the ceasefire deal.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "deal_details",
+      "rationale": "Multiple center-left and center outlets confirm Hamas's dissolution of its government and transfer of power to the Palestinian National Committee.",
+      "framing_variants": [
+        {
+          "characterization": "BBC describes the Palestinian National Committee as 'a group of independent technocrats' and notes Hamas 'dissolved its government in Gaza earlier this month' and was 'preparing to transfer power.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Euronews reports Hamas announced it was 'preparing to transfer power to a technical committee backed by the United Nations.'",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_009",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "The Palestinian National Committee has not yet entered Gaza and has been working from Cairo.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "deal_details",
+      "rationale": "Only BBC reports that the Palestinian National Committee is operating from Cairo and has not yet entered Gaza.",
+      "framing_variants": [
+        {
+          "characterization": "BBC notes the committee 'has not yet entered Gaza' and 'has been working from Cairo.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Trump's plan envisions a new technocratic Palestinian government and the arrival of an International Stabilisation Force to safeguard Gaza alongside Palestinian police; hundreds of new Palestinian police recruits have already been trained in Egypt and Jordan.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "deal_details",
+      "rationale": "Both BBC and Euronews confirm the International Stabilisation Force and Palestinian police components of the plan; BBC adds details on training.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports 'hundreds of new Palestinian police recruits have already been trained in Egypt and Jordan' and that the International Stabilisation Force would supervise the new Palestinian police force.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Euronews states the plan envisions 'a new technocratic Palestinian government led by former UK Prime Minister Tony Blair' and an International Stabilisation Force working 'alongside Palestinian police.'",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_009"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Israel's cabinet approved approximately 200 international troops from 'friendly countries' entering Gaza as part of the International Stabilisation Force, but the force has not yet been deployed.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "deal_details",
+      "rationale": "Only BBC reports the specific cabinet approval of ~200 international troops and the non-deployment status of the International Stabilisation Force.",
+      "framing_variants": [
+        {
+          "characterization": "BBC states Israel's cabinet 'recently approved some 200 international troops from friendly countries entering Gaza' but notes the force 'has not yet been deployed.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "The disarmament process is conditional on Israel meeting its commitments under the October ceasefire agreement.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "disarmament_sequencing_dispute",
+      "rationale": "Both Guardian and BBC report the conditionality of Hamas disarmament on Israeli compliance, though both are center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes the plan directly: disarmament 'conditional on Israel meeting its commitments under the initial ceasefire agreement reached in October last year.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Guardian notes Hamas said it agreed to the roadmap on condition that 'disarmament was carried out simultaneously with Israeli withdrawal.'",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Hamas characterizes its heavy weapons handover as contingent on Israel ending all hostilities and withdrawing forces from Gaza; Israel characterizes complete Hamas disarmament as a precondition that must occur before any Israeli withdrawal.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "disarmament_sequencing_dispute",
+      "rationale": "Hamas and Israel hold directly contradictory positions on which action must come first — disarmament or withdrawal — constituting an actor dispute reported across multiple outlets.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports Hamas says giving up heavy weapons is 'contingent on Israel ending all forms of aggression and withdrawing its forces from Gaza'; Israel 'says it will not withdraw from Gaza until it does so.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Guardian highlights the confusion: 'what should happen first, Hamas to disarm or the IDF to withdraw'; Hamas official Ghazi Hamad told Al Jazeera 'We will not take any action regarding disarmament prior to Israel's withdrawal.'",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Haaretz reports a Hamas negotiator stated 'there is no agreement on disarming.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Euronews reports Israeli officials insist there will be 'no Israeli withdrawal from the Yellow Line before Hamas is disarmed.'",
+          "source_id": "src_009"
+        },
+        {
+          "characterization": "Haaretz frames Hamas's position as 'disarmament after IDF withdrawal.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_005",
+        "src_011",
+        "src_009",
+        "src_010",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "There was confusion over which entity Hamas would hand its heavy weapons to: Trump said the Board of Peace, while officials announcing the deal said it would be Palestinian authorities; Hamas official Ghazi Hamad told Reuters it would be the National Committee for the Administration of Gaza.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "disarmament_sequencing_dispute",
+      "rationale": "Only the Guardian explicitly identifies the three-way discrepancy in stated weapons recipients.",
+      "framing_variants": [
+        {
+          "characterization": "Guardian reports 'Trump said the Board of Peace, but officials announcing the deal said it would be Palestinian authorities,' while Hamad specified the NCAG to Reuters.",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Israel had not yet officially responded to the plan at the time of reporting, and Prime Minister Benjamin Netanyahu had not publicly commented.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "israel_position",
+      "rationale": "Israel's lack of official response is reported by both center and center-left outlets, with Haaretz and Reuters also noting it, constituting cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Haaretz frames it as 'Israel yet to respond to Gaza deal.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Guardian notes 'Israel has yet to respond officially' and 'Benjamin Netanyahu has yet to comment publicly.'",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Euronews states 'There has been no official reaction from the Israeli government.'",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_011",
+        "src_004",
+        "src_009"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Israeli government officials expressed deep skepticism about Hamas's willingness to actually disarm.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "israel_position",
+      "rationale": "Israeli skepticism is reported by center-left (BBC, Guardian) and center (Reuters) outlets, confirming cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "BBC states 'Israel remains highly sceptical about Hamas's willingness to disarm.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Guardian reports 'Israeli government officials have voiced scepticism over the deal.'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Guardian notes Israeli skepticism alongside Ben-Gvir's dismissal and an unnamed Israeli official's rejection.",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006",
+        "src_011",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Israeli National Security Minister Itamar Ben-Gvir dismissed the plan as 'unacceptable' to Israel.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "israel_position",
+      "rationale": "Ben-Gvir's rejection is reported consistently across center-left (BBC, Guardian) and center (Euronews) outlets.",
+      "framing_variants": [
+        {
+          "characterization": "BBC attributes the 'not acceptable' statement to Ben-Gvir via Telegram.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Guardian calls Ben-Gvir 'far-right' and says he 'dismissed the plan as unacceptable on Friday.'",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Euronews describes Ben-Gvir as Israel's 'far-right National Security Minister' and reports he 'opposed the deal.'",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_011",
+        "src_009"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "An Israeli official told Reuters that Israel demands complete disarmament of Hamas including removal of weapons from Gaza and complete demilitarization of the strip as a precondition, and that the plan under discussion does not satisfy these demands; an Israeli source told AFP that Israel will not withdraw from the Yellow Line until Hamas undergoes 'genuine disarmament.'",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "israel_position",
+      "rationale": "Only the Guardian article consolidates and reports these specific Israeli official statements to Reuters and AFP.",
+      "framing_variants": [
+        {
+          "characterization": "Guardian reports an Israeli official told Reuters the plan 'did not provide a satisfactory response to these demands'; another Israeli source told AFP Israel will not withdraw 'until Hamas undergoes genuine disarmament.'",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Israel's UN Ambassador Danny Danon said 'cosmetic solutions' would not work and Hamas must 'actually' disarm, while also saying Israel is 'looking forward to implementing' the plan.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "israel_position",
+      "rationale": "Only the Guardian reports both of Danon's apparently contradictory public statements.",
+      "framing_variants": [
+        {
+          "characterization": "Guardian records both Danon's hardline insistence that Hamas must 'actually' disarm and his stated readiness that Israel is 'looking forward to implementing' the plan.",
+          "source_id": "src_011"
+        }
+      ],
+      "supported_by": [
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Israeli officials have insisted there will be no Israeli withdrawal from the Yellow Line — which demarcates the area Israel controls — before Hamas is disarmed.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "israel_position",
+      "rationale": "Multiple outlets confirm this as Israel's stated position, though all are center or center-left.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes Israeli officials: 'no Israeli withdrawal from the Yellow Line before Hamas is disarmed.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Euronews states Israeli officials 'insisted there will be no Israeli withdrawal from the Yellow Line before Hamas is disarmed.'",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_009",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Trump said at a Friday cabinet meeting at Camp David that Israel is 'very happy' about the agreement and 'helped us' with it, but offered no clarity on the sequence of Hamas disarmament and Israeli withdrawal.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "israel_position",
+      "rationale": "Both the Guardian and Reuters report Trump's Camp David statement about Israel being 'very happy,' though both are from the same side of the spectrum (center-left and center).",
+      "framing_variants": [
+        {
+          "characterization": "Guardian notes Trump's positive claim about Israel contrasted with his failure to clarify the sequencing dispute.",
+          "source_id": "src_011"
+        },
+        {
+          "characterization": "Reuters headlines Trump saying Israel is 'very happy' with the Gaza disarmament agreement.",
+          "source_id": "src_015"
+        }
+      ],
+      "supported_by": [
+        "src_011",
+        "src_015"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "A US official said Israel had been consulted at every step of the negotiation and was not being asked to do more than what it initially committed to under Trump's 20-point plan.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "israel_position",
+      "rationale": "Only Euronews cites this unnamed US official's statement about Israel's consultation and commitments.",
+      "framing_variants": [
+        {
+          "characterization": "Euronews reports a US official said Israel was consulted 'at every step' and that Trump 'would be very, very disappointed if Israel didn't adhere to the agreement.'",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_009"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "The plan's annex requires Israeli forces to withdraw to the agreed Yellow Line within 24 hours of Israeli government approval and specifies they should not return as long as Hamas complies with the agreement.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "deal_details",
+      "rationale": "Only BBC quotes this specific annex provision about the 24-hour withdrawal timeline.",
+      "framing_variants": [
+        {
+          "characterization": "BBC quotes the annex requiring withdrawal to the Yellow Line 'within 24 hours of the Israeli government's approval' and non-return 'as long as Hamas complies.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "Israel currently controls more than 53% of Gaza based on the October ceasefire terms, with reports that the Yellow Line has been moved westward so Israel controls more than 60% of the strip.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "territorial_control",
+      "rationale": "Multiple center-left and center outlets report the extent of Israeli territorial control in Gaza, with BBC providing the more detailed figure of over 60%.",
+      "framing_variants": [
+        {
+          "characterization": "BBC reports Israel controls 'more than the 53% of Gaza in which its troops were set to remain' and that the Yellow Line has been 'moved westwards so that Israel controls more than 60% of the strip.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Euronews states 'The Israeli Defence Forces currently control more than half of Gaza.'",
+          "source_id": "src_009"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_009",
+        "src_011"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_028",
+      "text": "Israel is displacing families and expanding its 'Yellow Line' temporary control area deeper into Gaza territory, and continues to build land barriers.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "territorial_control",
+      "rationale": "Only BBC uses this specific framing about Israel displacing families and building land barriers.",
+      "framing_variants": [
+        {
+          "characterization": "BBC describes Israel 'further displacing families and expanding its Yellow Line temporary control area deeper into the territory' and 'continues to build land barriers.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-08-01T04:17:46.842153+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "US President Donald Trump announced that the US-led Board of Peace reached a deal for the disarmament of Hamas in Gaza and the withdrawal of Israeli forces. Trump described the Hamas disarmament decision as \"a monumental step toward lasting peace and security.\" Hamas announced it accepted the disarmament framework, agreeing to lay down its arms as part of a deal to end the war with Israel.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_007",
+            "src_009",
+            "src_010",
+            "src_011",
+            "src_012",
+            "src_013",
+            "src_014",
+            "src_015"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Israel had not yet officially responded to the plan at the time of reporting, and Prime Minister Benjamin Netanyahu had not publicly commented. Israeli government officials expressed deep skepticism about Hamas's willingness to actually disarm. Israeli National Security Minister Itamar Ben-Gvir dismissed the plan as \"unacceptable\" to Israel.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_019",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_005",
+            "src_006",
+            "src_009",
+            "src_011"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The roadmap calls for a process to inventory and store heavy weapons, military production sites, weapons depots, and tunnels. Underground tunnel networks, weapons stores, and manufacturing sites would be mapped and destroyed. The disarmament process is described as gradual and phased, with an implementation schedule to be prepared within 14 days. The surrender of heavy weapons and decommissioning of tunnels could take between 200 and 350 days.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_009",
+            "src_010"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Hamas dissolved its government in Gaza and agreed to hand over power to the Palestinian National Committee, described as a group of independent technocrats. Trump's plan envisions a new technocratic Palestinian government and the arrival of an International Stabilisation Force to safeguard Gaza alongside Palestinian police. Hundreds of new Palestinian police recruits have already been trained in Egypt and Jordan.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_006",
+            "src_009"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Israel currently controls more than 53% of Gaza based on the October ceasefire terms, with reports that the Yellow Line — which demarcates the area Israel controls — has been moved westward so Israel controls more than 60% of the strip.",
+        "supports": {
+          "claim_ids": [
+            "clm_027"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_009",
+            "src_011"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Center-left outlets characterized the disarmament process as conditional on Israeli compliance. The BBC and Guardian reported that the disarmament process is contingent on Israel meeting its commitments under the October ceasefire agreement. This framing emphasizes Hamas's position that its obligations depend on Israeli actions.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_011"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Multiple outlets across the political spectrum reported Israeli officials' insistence that there will be no Israeli withdrawal from the Yellow Line before Hamas is disarmed. Trump said at a Friday cabinet meeting at Camp David that Israel is \"very happy\" about the agreement and \"helped us\" with it, but offered no clarity on the sequence of Hamas disarmament and Israeli withdrawal.",
+        "supports": {
+          "claim_ids": [
+            "clm_023",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_005",
+            "src_009",
+            "src_011",
+            "src_015"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Only the BBC reported Hamas's self-characterization that it negotiated \"responsibly and positively\" and reached \"national consensus\" among Palestinian factions. This language appears in center-left coverage but was not reported by other outlets across the spectrum.",
+        "supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The BBC, which reported access to a four-page phased disarmament plan, described the deal as based on a 15-point roadmap published by the US-led Board of Peace. The roadmap specifies that no weapons shall be transferred or handed over to Israel or to any non-Palestinian party. The Palestinian National Committee has not yet entered Gaza and has been working from Cairo.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_009",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Euronews, citing US and Board of Peace officials, reported that the Gaza police force's police weapons would be handed over within approximately two weeks, but that this initial phase does not include Hamas's heavy weaponry or the vast majority of Hamas militants. This distinction between police weapons and heavy weapons in the initial handover appears only in center reporting.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_009"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The BBC reported that Israel's cabinet approved approximately 200 international troops from \"friendly countries\" entering Gaza as part of the International Stabilisation Force, though the force has not yet been deployed. This specific detail about cabinet approval and deployment status appears only in center-left coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Guardian identified confusion over which entity Hamas would hand its heavy weapons to: Trump said the Board of Peace, while officials announcing the deal said it would be Palestinian authorities, and Hamas official Ghazi Hamad told Reuters it would be the National Committee for the Administration of Gaza. This three-way discrepancy in stated weapons recipients was reported only by center-left outlets.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_011"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Guardian reported that an Israeli official told Reuters that Israel demands complete disarmament of Hamas including removal of weapons from Gaza and complete demilitarization of the strip as a precondition, and that the plan under discussion does not satisfy these demands. An Israeli source told AFP that Israel will not withdraw from the Yellow Line until Hamas undergoes \"genuine disarmament.\" Israel's UN Ambassador Danny Danon said \"cosmetic solutions\" would not work and Hamas must \"actually\" disarm, while also saying Israel is \"looking forward to implementing\" the plan.",
+        "supports": {
+          "claim_ids": [
+            "clm_021",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_011"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "Euronews cited an unnamed US official stating that Israel had been consulted at every step of the negotiation and was not being asked to do more than what it initially committed to under Trump's 20-point plan. This characterization of Israeli consultation and commitments appears only in center reporting.",
+        "supports": {
+          "claim_ids": [
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_009"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "The BBC reported that the plan's annex requires Israeli forces to withdraw to the agreed Yellow Line within 24 hours of Israeli government approval and specifies they should not return as long as Hamas complies with the agreement. The BBC also reported that Israel is displacing families and expanding its Yellow Line temporary control area deeper into Gaza territory, and continues to build land barriers. This framing of Israeli actions appears only in center-left coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_026",
+            "clm_028"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "Hamas and Israel hold directly contradictory positions on the sequencing of disarmament and withdrawal. Hamas characterizes its heavy weapons handover as contingent on Israel ending all hostilities and withdrawing forces from Gaza. Israel characterizes complete Hamas disarmament as a precondition that must occur before any Israeli withdrawal. This dispute over which action must come first is reported across outlets spanning center-left, center, and center-right sources.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005",
+            "src_009",
+            "src_010",
+            "src_011"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}
