@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_nirmal_purja",
+  "type": "person",
+  "canonical_name": "Nirmal Purja",
+  "aliases": [],
+  "wikidata_qid": "Q64027141",
+  "summary": "Nirmal Purja is a Nepalese mountaineer. Prior to taking on a career in mountaineering, he served in the British Army with the Brigade of Gurkhas followed by the Special Boat Service (SBS), the special forces unit of the Royal Navy.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Nirmal_Purja"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Nirmal_Purja.jpg/960px-Nirmal_Purja.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Nirmal_Purja.jpg",
+    "credit": "Gwrthanesh",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Nirmal Purja.jpg",
+    "fetched_at": "2026-08-01T04:43:18.960481+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_asia_001",
+  "appears_in_events": [
+    "evt_2026_08_01_asia_001"
+  ],
+  "created_at": "2026-08-01T04:43:16.150041+00:00",
+  "last_updated": "2026-08-01T04:43:35.610108+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q64027141 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q64027141"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_kristin_harila",
+  "type": "person",
+  "canonical_name": "Kristin Harila",
+  "aliases": [],
+  "wikidata_qid": "Q114344847",
+  "summary": "Kristin Harila is a Norwegian-Northern Saami mountaineer and former cross-country skier. During 2022–2023, she set multiple speed records for the ascent of all 14 eight-thousanders with climbing partner Tenjen Sherpa.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Kristin_Harila"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Kristin_in_2023.jpg/960px-Kristin_in_2023.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Kristin_in_2023.jpg",
+    "credit": "Iamthanes",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Kristin in 2023.jpg",
+    "fetched_at": "2026-08-01T04:43:23.280931+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "On 27 July 2023, she and Tenjen set the new world record for the fastest ascent of all 14 8000m peaks in 92 days.",
+      "source_url": "https://en.wikipedia.org/wiki/Kristin_Harila",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The previous record was held by Nirmal Purja, who summited the mountains in 6 months and 6 days.",
+      "source_url": "https://en.wikipedia.org/wiki/Kristin_Harila",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_asia_001",
+  "appears_in_events": [
+    "evt_2026_08_01_asia_001"
+  ],
+  "created_at": "2026-08-01T04:43:21.386943+00:00",
+  "last_updated": "2026-08-01T04:43:35.610873+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Kristin_Harila"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Kristin_Harila"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q114344847 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q114344847"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_pakistan_army_aviation",
+  "type": "organization",
+  "canonical_name": "Pakistan Army Aviation",
+  "aliases": [
+    "Army Aviation Corps"
+  ],
+  "wikidata_qid": "Q7125516",
+  "summary": "The Pakistan Army Corps of Aviation is a military administrative and combined arms service branch of the Pakistan Army. The Aviation Corps is tasked with configuration of all army aviation aircraft and provides principle close aerial combat support and aerial logistics for the Pakistan Army.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Pakistan_Army_Aviation_Corps"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_asia_001",
+  "appears_in_events": [
+    "evt_2026_08_01_asia_001"
+  ],
+  "created_at": "2026-08-01T04:43:30.596260+00:00",
+  "last_updated": "2026-08-01T04:43:35.611572+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q7125516 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q7125516"
+    }
+  ]
+}

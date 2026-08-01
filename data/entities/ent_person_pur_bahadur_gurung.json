@@ -1,0 +1,52 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_pur_bahadur_gurung",
+  "type": "person",
+  "canonical_name": "Pur Bahadur Gurung",
+  "aliases": [],
+  "wikidata_qid": "Q140788051",
+  "summary": "Pur Bahadur Gurung was a Nepalese mountaineer and expedition guide, who had successfully climbed Mt. Everest 10 times and also climbed 12 of the world’s 14 highest mountains.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Pur_Bahadur_Gurung"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He completed 28 ascents of mountains above 8,000 metres.",
+      "source_url": "https://en.wikipedia.org/wiki/Pur_Bahadur_Gurung",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_asia_001",
+  "appears_in_events": [
+    "evt_2026_08_01_asia_001"
+  ],
+  "created_at": "2026-08-01T04:43:23.281862+00:00",
+  "last_updated": "2026-08-01T04:43:35.611068+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Pur_Bahadur_Gurung"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q140788051 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q140788051"
+    }
+  ]
+}

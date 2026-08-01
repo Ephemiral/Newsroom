@@ -1,0 +1,28 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_elite_exped",
+  "type": "organization",
+  "canonical_name": "Elite Exped",
+  "aliases": [],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_asia_001",
+  "appears_in_events": [
+    "evt_2026_08_01_asia_001"
+  ],
+  "created_at": "2026-08-01T04:43:21.271296+00:00",
+  "last_updated": "2026-08-01T04:43:35.610711+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_asia_001",
+      "source": null
+    }
+  ]
+}

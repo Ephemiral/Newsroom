@@ -1,0 +1,61 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_broad_peak",
+  "type": "location",
+  "canonical_name": "Broad Peak",
+  "aliases": [],
+  "wikidata_qid": "Q180996",
+  "summary": "Broad Peak is one of the eight-thousanders, and is located in the Karakoram range spanning Gilgit-Baltistan, Pakistan and Xinjiang, China. It is the 12th highest mountain in the world at 8,051 metres (26,414 ft) elevation above sea level.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Broad_Peak"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/7_15_BroadPeak.jpg/960px-7_15_BroadPeak.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:7_15_BroadPeak.jpg",
+    "credit": "Kogo",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:7 15 BroadPeak.jpg",
+    "fetched_at": "2026-08-01T04:43:21.270561+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The first ascent of this mountain was in June 1957, accomplished by Fritz Wintersteller, Marcus Schmuck, Kurt Diemberger, and Hermann Buhl as part of an Austrian expedition.",
+      "source_url": "https://en.wikipedia.org/wiki/Broad_Peak",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_asia_001",
+  "appears_in_events": [
+    "evt_2026_08_01_asia_001"
+  ],
+  "created_at": "2026-08-01T04:43:18.961354+00:00",
+  "last_updated": "2026-08-01T04:43:35.610475+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Broad_Peak"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q180996 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q180996"
+    }
+  ]
+}

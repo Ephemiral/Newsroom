@@ -1,0 +1,1078 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_08_01_asia_001",
+    "beat": "asia",
+    "title": "Broad Peak Avalanche: Nirmal Purja Among Missing Climbers",
+    "summary": "An avalanche struck a climbing expedition on Broad Peak, Pakistan on July 30, 2026, leaving at least 10 climbers missing. Three or four bodies were recovered during rescue operations on July 31, with renowned British-Nepali mountaineer Nirmal Purja among those unaccounted for.",
+    "date": "2026-07-30",
+    "generated_at": "2026-08-01T04:42:45.081772+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_nirmal_purja",
+        "surfaces": [
+          "Nirmal Purja"
+        ],
+        "relevance_to_event": "The renowned British-Nepali mountaineer leading the Elite Exped expedition who is among the 10+ climbers missing after the July 30, 2026 avalanche on Broad Peak.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016",
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_broad_peak",
+        "surfaces": [
+          "Broad Peak"
+        ],
+        "relevance_to_event": "The 12th-highest mountain in the world located in Pakistan's Karakoram range where the avalanche struck on July 30, 2026, killing and missing multiple climbers.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_015",
+            "clm_024"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_elite_exped",
+        "surfaces": [
+          "Elite Exped"
+        ],
+        "relevance_to_event": "The mountaineering company led by Nirmal Purja that organized the expedition on Broad Peak during which the July 30, 2026 avalanche occurred.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_kristin_harila",
+        "surfaces": [
+          "Kristin Harila"
+        ],
+        "relevance_to_event": "Norwegian mountaineer who broke Purja's 2019 world record by climbing all 14 eight-thousanders in three months and one day in 2023, providing context for Purja's ongoing mountaineering achievements.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_pur_bahadur_gurung",
+        "surfaces": [
+          "Pur Bahadur Gurung"
+        ],
+        "relevance_to_event": "Nepali citizen identified as one of three to four deceased recovered during rescue operations following the Broad Peak avalanche.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_nadhira_ahmed_abdullah_al_harthy",
+        "surfaces": [
+          "Nadhira Ahmed Abdullah Al Harthy",
+          "Nadhira Alharthy"
+        ],
+        "relevance_to_event": "Omani national identified among the deceased from the Broad Peak avalanche; notable as the first Omani person to climb Everest.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_sarah_mallory",
+        "surfaces": [
+          "Sarah Mallory",
+          "Mallory Geis"
+        ],
+        "relevance_to_event": "US citizen identified as one of the three to four deceased recovered from the Broad Peak avalanche (also identified in some reports as Mallory Geis).",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_pakistan_army_aviation",
+        "surfaces": [
+          "Pakistan Army Aviation"
+        ],
+        "relevance_to_event": "Military unit that dispatched two helicopters to conduct search and rescue operations following the July 30, 2026 avalanche on Broad Peak.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-08-01T04:43:41.664789+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/7_15_BroadPeak.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/7_15_BroadPeak.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:7_15_BroadPeak.jpg",
+      "width": 1194,
+      "height": 768,
+      "caption": "Broad Peak as seen from Concordia (file photo)",
+      "credit": "Kogo",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "provider": "wikimedia_commons",
+      "file_title": "File:7 15 BroadPeak.jpg",
+      "query": "Broad Peak mountain Pakistan",
+      "fetched_at": "2026-08-01T04:43:41.664666+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/south-asia/famed-nirmal-purja-among-10-climbers-reported-missing-on-pakistani-mountain",
+      "author": null,
+      "published_at": "2026-07-31T06:21:32+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/31/nirmal-purja-10-climbers-missing-pakistan-broad-peak-mountain",
+      "author": "Peter Beaumont and Shah Meer Baloch in Islamabad",
+      "published_at": "2026-07-31T15:35:53+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Peter Beaumont is an award-winning foreign correspondent for The Guardian who has covered major conflicts and political crises across the Middle East, Central Asia, and South Asia, including extensive reporting on Afghanistan, Pakistan, and terrorism.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/south-asia/renowned-nepali-climber-nirmal-purja-among-10-missing-after-pakistan-avalanche",
+      "author": null,
+      "published_at": "2026-07-31T05:38:56+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx2kp4ndny0o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-31T07:43:02+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/asia-pacific/20260731-famed-nepali-climber-among-10-missing-after-pakistan-avalanche",
+      "author": "FRANCE 24",
+      "published_at": "2026-07-31T03:45:14+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "An avalanche struck a group of climbers on Broad Peak, Pakistan, around midday on July 30, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "avalanche_incident",
+      "rationale": "All five outlets across center-left, center, and center-right tiers confirm the avalanche on Broad Peak on July 30, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States avalanche occurred 'around midday on July 30'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States the ACP confirmed 'an avalanche had struck a group of climbers around midday on Thursday'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'the avalanche struck on July 30'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Refers to 'an avalanche on Thursday on Broad Peak'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States 'the club said late on Thursday' it received reports of the avalanche",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The avalanche struck between camp two and camp three on Broad Peak's west ridge at approximately 6,579–6,600 metres elevation.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "avalanche_incident",
+      "rationale": "Two outlets report the avalanche location on the west ridge at approximately this elevation; both are from the same side of the spectrum (center-left and center-right), so this is corroborated rather than agreed.",
+      "framing_variants": [
+        {
+          "characterization": "States avalanche occurred 'at 6,579 metres (21,585ft), between camp two and camp three on the mountain's west ridge, the most popular ascent route'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'team members' last tracked location at the time of the suspected avalanche was at 6,600m'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Tracker data showed a rapid loss of altitude for the climbers at the time of the avalanche, suggesting they were caught in it.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "avalanche_incident",
+      "rationale": "Two outlets report GPS/tracker data indicating rapid altitude loss consistent with an avalanche; both are from similar spectrum positions.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Trackers carried by the climbers showed a rapid loss of altitude, suggesting the team had been caught in an avalanche'; notes Geis's tracker showed 543m descent and Alharthy's showed 1,651m descent",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'GPS was used to trace the locations of four climbers' by rescuers",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The number of climbers missing after the avalanche is reported as either 10 or 11.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "avalanche_incident",
+      "rationale": "Most sources report 10 missing climbers, but The Guardian reports '11 climbers caught in a deadly avalanche,' creating a discrepancy in the total number.",
+      "framing_variants": [
+        {
+          "characterization": "States 'at least 10 mountaineers who were caught in an avalanche'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States '11 climbers caught in a deadly avalanche on Pakistan's Broad Peak'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States '10 people missing from a climbing expedition'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States '10 climbers who went missing after an avalanche'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States '10 climbers missing after an avalanche'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The entire expedition team lost communication with the outside world after the avalanche.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "avalanche_incident",
+      "rationale": "Multiple outlets from different spectrum positions confirm the team was out of communication since the avalanche.",
+      "framing_variants": [
+        {
+          "characterization": "States 'The entire team has been out of communication since the avalanche'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'The entire team has reportedly been out of communication since the avalanche'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'The entire team has reportedly been out of communication since the avalanche'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The number of bodies recovered is reported as either three or four.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "search_and_rescue",
+      "rationale": "The Straits Times (July 31 morning article) reports three bodies recovered, while The Guardian and a second Straits Times article report four bodies found; the discrepancy likely reflects different reporting times or definitions of 'recovered.'",
+      "framing_variants": [
+        {
+          "characterization": "States 'recovered the bodies of three' climbers; ACP president confirmed deaths of three, 'as we received two dead bodies and a body part of another climber'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'four bodies had been found' per earlier rescuer reports; police said 'preliminary reports indicate that four bodies have so far been recovered'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'Search teams found four bodies near the site of an avalanche'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Three of the dead were identified as a Nepali citizen Pur Bahadur Gurung, an Omani national Nadhira Ahmed Abdullah Al Harthy (also spelled Nadhira Alharthy), and a US citizen Sarah Mallory (also identified in some sources as Mallory Geis).",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "search_and_rescue",
+      "rationale": "Both outlets confirm the identities of three deceased, though they use slightly different name renderings for the US victim.",
+      "framing_variants": [
+        {
+          "characterization": "Names the three as 'US citizen Sarah Mallory, Nadhira Ahmed Abdullah Al Harthy from Oman, and Nepalese citizen Pur Bahadur Gurung'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Names them as 'Pur Bahadur Gurung, a Nepali citizen, Nadhira Alharthy, who was the first Omani to climb Everest, and US climber Mallory Geis'; notes 'Their bodies have been transported to a hospital'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Nadhira Alharthy was the first Omani person to climb Everest.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "search_and_rescue",
+      "rationale": "Only The Guardian notes this biographical detail about the identified Omani victim.",
+      "framing_variants": [
+        {
+          "characterization": "Describes Nadhira Alharthy as 'the first Omani to climb Everest'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Drone footage showed signs of several more bodies in the search area, and seven climbers were spotted via aerial drone footage.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "search_and_rescue",
+      "rationale": "Two outlets report drone findings, though they describe them differently — one mentions 'signs of several more bodies' and the other reports seven climbers spotted, with identities unverifiable.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Drone footage showed signs of several more bodies in the search area'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports ACP said 'seven climbers have been spotted via aerial drone footage' but 'their identities and condition cannot yet be verified'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Search and rescue operations were suspended on the night of July 31 due to weather conditions.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "search_and_rescue",
+      "rationale": "Both a center-right and a center-left outlet confirm the suspension of search operations due to weather, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Regional police said the rescue operation was suspended on the night of July 31 because of weather conditions'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'visual searches for any survivors, including with the use of drones, were halted' as night fell and search efforts 'have been hampered by the weather'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Two Pakistan Army Aviation helicopters were dispatched to support the search and rescue operation.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "search_and_rescue",
+      "rationale": "Two outlets from different spectrum positions (both Straits Times, center-right) confirm army helicopter deployment — however, both are the same outlet; corroborated within same outlet tier.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Two Pakistan Army Aviation rescue helicopters have been dispatched'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'two Pakistan Army helicopters, carrying rescue personnel and additional specialised equipment, have been sent to support the search operation'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Rescue efforts were constrained by weather and operational conditions, with Pakistan's military-run helicopter system less available than Nepal's private rescue network.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "search_and_rescue",
+      "rationale": "Only The Guardian draws the comparative point about Pakistan's rescue infrastructure versus Nepal's private helicopter network.",
+      "framing_variants": [
+        {
+          "characterization": "Notes 'unlike in Nepal, where there is a well-established network of private helicopter search and rescue operations, helicopters are less available in Pakistan and run by the military'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Purja's tracking device showed movement after the initial rapid descent, with his location appearing to have shifted — possibly toward the foot of the mountain — though his condition remained unknown.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "search_and_rescue",
+      "rationale": "Two outlets report the anomalous tracker data suggesting Purja may have survived initial impact, though both caution that condition is unverified.",
+      "framing_variants": [
+        {
+          "characterization": "Reports business partner Mingma Gyabu Sherpa said 'data appeared to show continuing movement from Purja's tracking device after the initial incident' and 'one person's location appears to be near the foot of the mountain'; cautioned they had 'no indication of Purja's condition'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'Purja's tracker, however, shifted location after the initial rapid descent' and a search team was sent to verify a location near the foot of the mountain",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "The expedition's nationalities are reported with minor discrepancies: most sources describe a group including five Nepalese, one Pakistani, one Omani, one American, and one Chinese national, while one source adds two British nationals and another adds 'one other foreigner.'",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "avalanche_incident",
+      "rationale": "Sources differ on the national composition of the expedition — notably, one Straits Times article reports police listed two British nationals while not mentioning an American, whereas other sources describe an American but no British nationals.",
+      "framing_variants": [
+        {
+          "characterization": "States missing climbers are from 'Nepal, Pakistan, Oman, the US and China'; six of 10 are Nepalese",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States expedition includes 'five Nepali climbers, as well as US, Pakistani, Omani and Chinese nationals'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States expedition comprised 'five Nepalese, a Pakistani, an Omani, an American, and a climber from China'; police said 'two British nationals — a man and a woman — were in the missing team' and 'did not mention an American citizen'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States expedition includes 'five Nepalese, a Pakistani, an Omani, an American, a climber from China, and one other foreigner'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Nirmal Purja is among the missing climbers and was leading the expedition for his company Elite Exped on Broad Peak at the time of the avalanche.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "nirmal_purja_profile",
+      "rationale": "All five outlets across spectrum tiers confirm Purja is missing and was leading the expedition.",
+      "framing_variants": [
+        {
+          "characterization": "Identifies Purja as 'Nepali mountaineer, 43' who is 'among those missing'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'Purja was leading an expedition for his company, Elite Exped, on Broad Peak'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes '10 people missing from a climbing expedition led by renowned British-Nepali mountaineer Nirmal Purja'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Identifies Purja as 'British-Nepali climber' among the 10 missing",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States 'the team was led by Purja'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Nirmal Purja climbed all 14 eight-thousanders in six months and six days between April and October 2019, setting a world record at the time.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "nirmal_purja_profile",
+      "rationale": "All five outlets across the political spectrum confirm this achievement and record-setting status.",
+      "framing_variants": [
+        {
+          "characterization": "States Purja 'set a record for the fastest ascent of the world's 14 highest mountains'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States he 'made history in 2019 after climbing all of the world's 14 peaks over 8,000 metres in just over six months, cutting years off the previous record'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'He climbed all 14 eight-thousanders in six months and six days between April and October 2019, then a record'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States this 'setting a record at the time for the fastest anyone had scaled all 14 mountains'; previous records stood at nearly eight years",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States he 'climbed all 14 eight-thousanders in six months and six days between April and October 2019, then a record'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Purja's record for climbing all 14 eight-thousanders was broken in 2023 by Norwegian mountaineer Kristin Harila, who completed the feat in three months and one day.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "nirmal_purja_profile",
+      "rationale": "Two outlets from similar spectrum positions confirm that Purja's record was surpassed by Harila in 2023.",
+      "framing_variants": [
+        {
+          "characterization": "States 'his record was surpassed in 2023'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States Harila 'climbed the 14 peaks in three months and one day in 2023,' breaking Purja's record",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Nirmal Purja led the first winter ascent of K2 in 2021 alongside a team of nine other Nepalese climbers.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "nirmal_purja_profile",
+      "rationale": "Three outlets spanning center-left, center-right, and center tiers confirm the first winter ascent of K2.",
+      "framing_variants": [
+        {
+          "characterization": "States 'He later led the first team to summit K2, the world's second-highest mountain in winter'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'In 2021, Purja completed the first winter ascent of K2 along with a team of nine other Nepalese climbers'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'In 2021, along with a team of nine other Nepalese climbers, Purja completed the first winter ascent of K2'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Purja's 14-peak journey, named Project Possible, was documented in the 2021 Netflix documentary '14 Peaks: Nothing Is Impossible.'",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "nirmal_purja_profile",
+      "rationale": "Three outlets across center-left and center-right confirm the documentary, meeting cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States 'a 2021 Netflix documentary titled 14 Peaks: Nothing Is Impossible chronicles Nirmal Purja's mountaineering journey'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'He starred in a 2021 Netflix documentary on the feat'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'Project Possible was captured in the documentary 14 Peaks: Nothing is Impossible'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Purja served with Britain's Brigade of Gurkhas before joining the Special Boat Squadron of the Royal Marines.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "nirmal_purja_profile",
+      "rationale": "Three outlets across center, center-left, and center-right confirm Purja's military background including Gurkhas and Special Boat Squadron.",
+      "framing_variants": [
+        {
+          "characterization": "States Purja 'served with Britain's Brigade of Gurkhas' and then 'joining the Special Boat Squadron of the Royal Marines'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States Purja 'served with Britain's Brigade of Gurkhas' and 'joining the Special Boat Squadron of the Royal Marines'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Describes Purja as 'a former British special forces member'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_005",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Purja was attempting to become the first person to climb all 14 eight-thousanders twice without supplemental oxygen; his Gasherbrum II summit on July 21 was his 57th eight-thousander summit.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "nirmal_purja_profile",
+      "rationale": "Only BBC News reports the specific goal of climbing all 14 peaks twice without oxygen and the count of 57 summits.",
+      "framing_variants": [
+        {
+          "characterization": "States Purja's Broad Peak attempt would leave 'one more mountain to conquer before becoming the first person in history to climb all 14 eight-thousanders twice. Without oxygen'; notes GII summit on July 21 was 'his 57th summit of an eight-thousander'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Purja has faced sexual misconduct allegations: a 2024 New York Times article detailed allegations from two women, one claiming sexual assault in a hotel room in 2023 and another claiming he grabbed and propositioned her on a K2 expedition in 2022. Purja denied the allegations through his lawyer.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "nirmal_purja_profile",
+      "rationale": "Two outlets report the sexual misconduct allegations and Purja's denial; both are from center-left or center spectrum positions.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Purja has also attracted controversy, however, including a high-profile claim, which he denied, of sexually inappropriate behaviour'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Details the allegations from a 2024 NYT article — one woman alleged sexual assault in 2023, another alleged harassment during a 2022 K2 expedition — and notes 'He denied these claims through his lawyer'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Purja used his fame to advocate for Nepali mountain guides and to showcase their overlooked contributions to high-altitude expeditions.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "nirmal_purja_profile",
+      "rationale": "Two outlets describe Purja's advocacy for Nepali climbers, though both come from the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "States Purja was 'using the exploit to showcase what he felt were the overlooked abilities of Nepali climbers'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'He also used his newfound fame to advocate for Nepali mountain guides, calling for more recognition of their work supporting high-profile ascents of foreign climbers'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Broad Peak is the world's 12th-highest mountain, located in Pakistan's Gilgit-Baltistan region in the Karakoram range.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "mountain_geography",
+      "rationale": "All five outlets confirm Broad Peak's ranking and location across the political spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "States 'the 8,051m peak, the world's 12th-highest mountain' in 'Pakistan's Gilgit-Baltistan'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'the world's 12th-highest mountain, at 8,047 metres'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'Broad Peak is the world's 12th highest mountain, located in the Karakoram range in northern Pakistan'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'Broad Peak, a 8,047m (26,400ft) mountain' in 'Pakistan-administered Gilgit-Baltistan'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States 'Broad Peak (8,047m)' in 'northern Pakistan's Karakoram range'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-08-01T04:43:12.779278+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "An avalanche struck a climbing expedition on Broad Peak, Pakistan, around midday on July 30, 2026, leaving at least 10 climbers missing. The entire team lost communication with the outside world after the avalanche hit. Broad Peak, the world's 12th-highest mountain, is located in Pakistan's Gilgit-Baltistan region in the Karakoram range.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_005",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Among the missing is renowned British-Nepali mountaineer Nirmal Purja, who was leading the expedition for his company Elite Exped. Purja is best known for climbing all 14 of the world's eight-thousanders — peaks above 8,000 metres — in six months and six days between April and October 2019, setting a world record at the time. His journey, named Project Possible, was documented in the 2021 Netflix documentary '14 Peaks: Nothing Is Impossible.'",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Before his mountaineering career, Purja served with Britain's Brigade of Gurkhas and later joined the Special Boat Squadron of the Royal Marines. In 2021, he led the first winter ascent of K2 alongside a team of nine other Nepalese climbers, further cementing his status among elite high-altitude mountaineers.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Search and rescue operations were launched following the avalanche, with two Pakistan Army Aviation helicopters dispatched to the area. During operations on July 31, rescuers recovered between three and four bodies, though the exact count varies across reports reflecting different reporting times or definitions of recovery. Drone footage showed signs of several more bodies in the search area, with seven climbers spotted via aerial surveillance, though their identities could not be verified from the air.",
+        "supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_006",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Three of the deceased were identified as Nepali citizen Pur Bahadur Gurung, Omani national Nadhira Ahmed Abdullah Al Harthy, and US citizen Sarah Mallory, also identified in some reports as Mallory Geis. Search and rescue operations were suspended on the night of July 31 due to deteriorating weather conditions.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Center-left and center-right outlets report that the avalanche struck between camp two and camp three on Broad Peak's west ridge at approximately 6,579 to 6,600 metres elevation. Tracker data from climbers' devices showed a rapid loss of altitude at the time of the avalanche, suggesting they were caught in the slide as it occurred.",
+        "supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The exact composition of the expedition has been reported with minor discrepancies across outlets. Most sources describe a group including five Nepalese, one Pakistani, one Omani, one American, and one Chinese national. However, one report from The Straits Times cited police as listing two British nationals while not mentioning an American, whereas other sources describe an American but no British nationals. One source also references 'one other foreigner' without specifying nationality.",
+        "supports": {
+          "claim_ids": [
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Reports differ on whether 10 or 11 climbers were caught in the avalanche. Most sources state 10 climbers are missing, but The Guardian reports 11 climbers were caught in the deadly avalanche, creating a discrepancy in the total count.",
+        "supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Center-left outlets report that Purja's tracking device showed movement after the initial rapid descent, with his location appearing to have shifted — possibly toward the foot of the mountain — though his condition remained unknown. The anomalous tracker data raised the possibility that Purja may have survived the initial impact, though both outlets cautioned that this could not be verified.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Center-left outlets note that rescue efforts in Pakistan were constrained by operational conditions, drawing a comparison to Nepal's more developed private helicopter rescue network. The Guardian specifically highlighted that Pakistan's military-run helicopter system is less available than Nepal's commercial rescue infrastructure.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Purja's 2019 record for climbing all 14 eight-thousanders was broken in 2023 by Norwegian mountaineer Kristin Harila, who completed the feat in three months and one day, according to center-left outlets. At the time of the Broad Peak expedition, BBC News reports that Purja was attempting to become the first person to climb all 14 eight-thousanders twice without supplemental oxygen, with his Gasherbrum II summit on July 21 marking his 57th eight-thousander summit.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Center-left outlets report that Purja used his fame to advocate for Nepali mountain guides and to showcase their overlooked contributions to high-altitude expeditions. The Guardian notes that Nadhira Alharthy, the Omani national identified among the deceased, was the first Omani person to climb Everest.",
+        "supports": {
+          "claim_ids": [
+            "clm_023",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Center-left outlets also report that Purja has faced sexual misconduct allegations. A 2024 New York Times article detailed allegations from two women: one claimed sexual assault in a hotel room in 2023, and another claimed he grabbed and propositioned her on a K2 expedition in 2022. Purja denied the allegations through his lawyer.",
+        "supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}
