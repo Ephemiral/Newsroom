@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_kyushu",
+  "type": "location",
+  "canonical_name": "Kyushu",
+  "aliases": [],
+  "wikidata_qid": "Q13987",
+  "summary": "Kyushu  is the third-largest and most southerly of Japan's four main islands. In the past, it has been known as Kyūkoku , Chinzei  and Tsukushi-no-shima .",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Kyushu"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Terra_Kyushu_20091028.jpg/960px-Terra_Kyushu_20091028.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Terra_Kyushu_20091028.jpg",
+    "credit": "NASA",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Terra Kyushu 20091028.jpg",
+    "fetched_at": "2026-08-01T14:43:55.746121+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The historical regional name Saikaidō  referred to Kyushu and its surrounding islands.",
+      "source_url": "https://en.wikipedia.org/wiki/Kyushu",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Kyushu has a land area of 36,782 square kilometres (14,202 sq mi) and a population of 12,382,121 as of 2025.",
+      "source_url": "https://en.wikipedia.org/wiki/Kyushu",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_asia_003",
+  "appears_in_events": [
+    "evt_2026_08_01_asia_003"
+  ],
+  "created_at": "2026-08-01T14:43:54.137138+00:00",
+  "last_updated": "2026-08-01T14:44:15.859645+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Kyushu"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Kyushu"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q13987 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q13987"
+    }
+  ]
+}

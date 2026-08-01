@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_brigade_of_gurkhas",
+  "type": "organization",
+  "canonical_name": "Brigade of Gurkhas",
+  "aliases": [],
+  "wikidata_qid": "Q2635167",
+  "summary": "Brigade of Gurkhas is the collective name which refers to all the units in the British Army that are composed of Nepalese Gurkha soldiers. The brigade draws its heritage from Gurkha units that originally served in the British Indian Army prior to Indian independence, and prior to that served for the East India Company.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Brigade_of_Gurkhas"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Gurkhas_exercise_DM-SD-98-00170.jpg/960px-Gurkhas_exercise_DM-SD-98-00170.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Gurkhas_exercise_DM-SD-98-00170.jpg",
+    "credit": "LANCE CPL. C.D. CLARK",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Gurkhas exercise DM-SD-98-00170.jpg",
+    "fetched_at": "2026-08-01T14:40:14.126941+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The brigade includes infantry, artillery, engineering, signal, logistic and training and support units.",
+      "source_url": "https://en.wikipedia.org/wiki/Brigade_of_Gurkhas",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "They are known for their khukuri, a distinctive heavy knife with a curved blade, and have a reputation for being fierce and brave soldiers.",
+      "source_url": "https://en.wikipedia.org/wiki/Brigade_of_Gurkhas",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_01_asia_002"
+  ],
+  "created_at": "2026-08-01T14:40:12.351560+00:00",
+  "last_updated": "2026-08-01T14:40:18.214536+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Brigade_of_Gurkhas"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Brigade_of_Gurkhas"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q2635167 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q2635167"
+    }
+  ]
+}

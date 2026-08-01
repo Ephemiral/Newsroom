@@ -1,0 +1,61 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_yatsushiro",
+  "type": "location",
+  "canonical_name": "Yatsushiro",
+  "aliases": [],
+  "wikidata_qid": "Q734479",
+  "summary": "Yatsushiro  is a city located in Kumamoto Prefecture, Japan. As of 1 August 2024, the city had an estimated population of 120,389 in 57,953 households, and a population density of 300 persons per km2.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Yatsushiro"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Yatsushiro_City_Hall_2023.JPG/960px-Yatsushiro_City_Hall_2023.JPG",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Yatsushiro_City_Hall_2023.JPG",
+    "credit": "hyolee2",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Yatsushiro City Hall 2023.JPG",
+    "fetched_at": "2026-08-01T14:44:12.817561+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The total area of the city is 681.29 km2 (263.05 sq mi).",
+      "source_url": "https://en.wikipedia.org/wiki/Yatsushiro",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_asia_003",
+  "appears_in_events": [
+    "evt_2026_08_01_asia_003"
+  ],
+  "created_at": "2026-08-01T14:44:09.780586+00:00",
+  "last_updated": "2026-08-01T14:44:15.860700+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Yatsushiro"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q734479 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q734479"
+    }
+  ]
+}

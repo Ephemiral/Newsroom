@@ -1,0 +1,95 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_pakistani_army",
+  "type": "organization",
+  "canonical_name": "Pakistani army",
+  "aliases": [
+    "Pakistan Army"
+  ],
+  "wikidata_qid": "Q2078095",
+  "summary": "The Pakistan Army or Pak Army is the land service branch and the largest component of the Pakistan Armed Forces. The president of Pakistan is the supreme commander of the army.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Pakistan_Army"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/M45_Quadmount-1965_Indo-Pakistani_War.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:M45_Quadmount-1965_Indo-Pakistani_War.jpg",
+    "credit": "Pakistan Army",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:M45 Quadmount-1965 Indo-Pakistani War.jpg",
+    "fetched_at": "2026-08-01T14:40:08.099024+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "As of the 2025 reforms, the Pakistan Army is commanded by the Chief of Defence Forces (CDF), a position held concurrently by the Chief of Army Staff (COAS), who is typically a four-star general.",
+      "source_url": "https://en.wikipedia.org/wiki/Pakistan_Army",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The Army was officially established in August 1947 after the Partition of India.",
+      "source_url": "https://en.wikipedia.org/wiki/Pakistan_Army",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "According to statistics provided by the International Institute for Strategic Studies (IISS) in 2025, the Pakistan Army has approximately 560,000 active duty personnel, supported by the National Guard and the Civil Armed Forces.\nIn accordance with the Constitution of Pakistan, Pakistani citizens can voluntarily enlist in military service as early as age 17, but cannot be deployed for combat until age 18.",
+      "source_url": "https://en.wikipedia.org/wiki/Pakistan_Army",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_01_asia_002"
+  ],
+  "created_at": "2026-08-01T14:40:06.193845+00:00",
+  "last_updated": "2026-08-01T14:40:18.214029+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Pakistan_Army"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Pakistan_Army"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Pakistan_Army"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q2078095 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q2078095"
+    }
+  ]
+}

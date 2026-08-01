@@ -1,0 +1,77 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_special_boat_service",
+  "type": "organization",
+  "canonical_name": "Special Boat Service",
+  "aliases": [],
+  "wikidata_qid": "Q843421",
+  "summary": "The Special Boat Service (SBS) is the special forces unit of the United Kingdom's Royal Navy. The SBS can trace its origins back to the Second World War when the Army Special Boat Section was formed in 1940.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Special_Boat_Service"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Sbs0005.jpg/960px-Sbs0005.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Sbs0005.jpg",
+    "credit": "Zatoichi1564",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Sbs0005.jpg",
+    "fetched_at": "2026-08-01T14:40:12.350824+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "After the Second World War, the Royal Navy formed special forces with several name changes—Special Boat Company was adopted in 1951 and re-designated as the Special Boat Squadron in 1974—until on 28 July 1987 when the unit was renamed as the Special Boat Service after assuming responsibility for maritime counter-terrorism.",
+      "source_url": "https://en.wikipedia.org/wiki/Special_Boat_Service",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Most of the operations conducted by the SBS are highly classified, and are rarely commented on by the British government or the Ministry of Defence, owing to their sensitive nature.",
+      "source_url": "https://en.wikipedia.org/wiki/Special_Boat_Service",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_01_asia_002"
+  ],
+  "created_at": "2026-08-01T14:40:10.331182+00:00",
+  "last_updated": "2026-08-01T14:40:18.214357+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Special_Boat_Service"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Special_Boat_Service"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q843421 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q843421"
+    }
+  ]
+}

@@ -1,0 +1,1117 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_08_01_asia_003",
+    "beat": "asia",
+    "title": "Kumamoto Earthquake July 2026: Death Toll, Rescue Operations, and Heat Crisis",
+    "summary": "A powerful earthquake struck Kumamoto Prefecture on Kyushu island, Japan on Tuesday, July 29, 2026, killing at least 36 people and displacing over 9,000 residents. Rescue operations were complicated by extreme summer heat, aftershocks, a gas explosion at a shopping centre, and a chimney collapse at a paper factory.",
+    "date": "2026-07-29",
+    "generated_at": "2026-08-01T14:43:09.727607+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_location_kumamoto_prefecture",
+        "surfaces": [
+          "Kumamoto Prefecture",
+          "Kumamoto"
+        ],
+        "relevance_to_event": "The primary geographic location where the July 29, 2026 earthquake occurred, experiencing at least 36 deaths, over 9,000 displaced residents, and widespread damage to infrastructure and facilities.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_026",
+            "clm_028",
+            "clm_029"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_kyushu",
+        "surfaces": [
+          "Kyushu"
+        ],
+        "relevance_to_event": "The island in Japan where Kumamoto Prefecture is located, providing geographic context for the earthquake's occurrence.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_aeon_shopping_centre",
+        "surfaces": [
+          "Aeon shopping centre",
+          "Aeon mall",
+          "Aeon"
+        ],
+        "relevance_to_event": "A shopping complex in Kashima that suffered structural collapse on its second floor during the earthquake and subsequently experienced a gas explosion approximately one hour later, killing between six and seven people.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011",
+            "clm_013",
+            "clm_014",
+            "clm_015",
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_nippon_paper_industries",
+        "surfaces": [
+          "Nippon Paper Industries"
+        ],
+        "relevance_to_event": "A factory in Yatsushiro where a chimney collapse occurred during the earthquake, killing multiple workers and contributing to the overall death toll.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_japan_self_defence_forces",
+        "surfaces": [
+          "Self-Defence Forces"
+        ],
+        "relevance_to_event": "Nearly 5,000 personnel were deployed to Kumamoto for rescue and relief operations following the earthquake.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_028"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_shinjiro_koizumi",
+        "surfaces": [
+          "Shinjiro Koizumi"
+        ],
+        "relevance_to_event": "Defence Minister who announced the delivery of 300 air conditioners to Kumamoto as relief assistance, with 150 units destined for evacuation centres facing extreme heat conditions.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_029"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_kashima",
+        "surfaces": [
+          "Kashima"
+        ],
+        "relevance_to_event": "The city where the Aeon shopping centre was located; the site of the shopping centre collapse and gas explosion that killed six to seven people.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_yatsushiro",
+        "surfaces": [
+          "Yatsushiro"
+        ],
+        "relevance_to_event": "A town in Kumamoto Prefecture where the Nippon Paper Industries factory experienced a chimney collapse, and where the town hall's earthquake-resistant base-isolation system sustained damage despite recent reconstruction.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_027"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-08-01T14:44:25.898665+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/30/japan-earthquake-death-toll-rises",
+      "author": "Gavin Blair in Tokyo",
+      "published_at": "2026-07-30T06:49:55+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": "Gavin Blair is a Tokyo-based correspondent for The Guardian who covers East Asia with a focus on Japan, Korea, and broader regional issues.",
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/east-asia/japans-rescuers-battle-cruel-heat-after-massive-earthquake",
+      "author": null,
+      "published_at": "2026-08-01T06:39:11+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cdrv36kv7pzo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-30T08:30:18+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/08/01/japan/kumamoto-quake-survivors-heat/",
+      "author": null,
+      "published_at": "2026-08-01T04:54:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "A major earthquake struck Kumamoto Prefecture on Kyushu island, Japan on Tuesday, July 29, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "earthquake_basics",
+      "rationale": "All four outlets across center-left and center-right bias tiers confirm the earthquake struck Kumamoto Prefecture on Kyushu island on Tuesday, meeting the cross-spectrum threshold for 'agreed.'",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as a 'powerful earthquake' hitting Kumamoto prefecture on Kyushu island.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes it matter-of-factly as 'a 7.1-magnitude earthquake in Kumamoto, Japan.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'a powerful earthquake hit southwestern Japan' and specifies Kumamoto prefecture on Kyushu island.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Refers to 'a large earthquake that struck Kumamoto Prefecture earlier this week' on Tuesday.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "Sources disagree on the earthquake's magnitude: The Guardian and BBC report 6.8, while The Straits Times and The Japan Times report 7.1.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "earthquake_basics",
+      "rationale": "The Guardian and BBC consistently cite a magnitude of 6.8, while The Straits Times and The Japan Times cite 7.1, representing a genuine factual discrepancy across outlets, likely reflecting different reporting agencies or scale measurements (moment magnitude vs. JMA scale).",
+      "framing_variants": [
+        {
+          "characterization": "States '6.8-magnitude quake' as fact.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'magnitude 6.8 earthquake' as fact.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States '7.1-magnitude earthquake' as fact.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'magnitude 7.1 temblor' as fact.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The earthquake registered the maximum level 7 on Japan's seven-level shindo intensity scale.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "earthquake_basics",
+      "rationale": "Only The Guardian specifically mentions the shindo scale rating; no other outlet reports this detail.",
+      "framing_variants": [
+        {
+          "characterization": "Frames this as the 'maximum level 7 on Japan's seven-level shindo scale,' contextualizing the quake's exceptional intensity.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The earthquake had a shallow depth of 10 kilometres.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "earthquake_basics",
+      "rationale": "Only BBC reports the 10km depth of the earthquake; other outlets do not mention this detail.",
+      "framing_variants": [
+        {
+          "characterization": "Notes the 'shallow depth of 10km (six miles)' as a factor in the quake's impact.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The Geospatial Information Authority reported that parts of the ground shifted by 87 centimetres during the earthquake.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "earthquake_basics",
+      "rationale": "Only The Guardian reports the ground displacement measurement from the Geospatial Information Authority.",
+      "framing_variants": [
+        {
+          "characterization": "Cites the national Geospatial Information Authority as the source for the 87cm ground shift measurement.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "This earthquake is reported to be the first of this seismic intensity to strike Japan during the height of the summer months.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "earthquake_basics",
+      "rationale": "Only The Straits Times reports this historical distinction about the earthquake's unusual summer timing.",
+      "framing_variants": [
+        {
+          "characterization": "Frames it as a historically notable event: 'the first of this seismic intensity to strike the earthquake-prone country during the height of its blistering summer months.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The reported death toll from the earthquake rose over time, with sources at different publication dates citing 30, 34, and 36 deaths.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualties_and_injuries",
+      "rationale": "All four outlets across center-left and center-right tiers confirm a rising death toll; differences in numbers (30, 34, 36) reflect different publication timestamps rather than factual contradiction, demonstrating cross-spectrum agreement on the rising toll.",
+      "framing_variants": [
+        {
+          "characterization": "Reports death toll has 'risen to 30' (published July 30).",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports death toll 'risen to 34' as of Thursday (published July 30).",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports death toll 'risen to 36' four days after the earthquake (published August 1).",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'estimated death toll rose to at least 36' (published August 1).",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "At least 62 people were injured in the earthquake.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "casualties_and_injuries",
+      "rationale": "Only The Guardian reports a specific injury count of at least 62, attributed to the prefectural government.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes the '62 injured' figure to 'the prefectural government.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "More than 100 aftershocks have been recorded since the initial earthquake, including a 5.8-magnitude aftershock overnight.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "earthquake_basics",
+      "rationale": "Both The Guardian and BBC (both center-left) report significant aftershock activity; BBC specifies over 100 aftershocks and The Guardian notes a 5.8-magnitude aftershock. As both outlets share a bias tier, this is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Highlights 'a 5.8-magnitude aftershock overnight' as the most notable follow-on seismic event.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'more than 100 aftershocks have been recorded since the initial quake,' emphasizing the ongoing seismic risk.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "A portion of the second floor of the Aeon shopping centre in Kashima collapsed during the earthquake.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "aeon_shopping_centre",
+      "rationale": "The Guardian, The Straits Times (center-right), and BBC (center-left) all report the structural collapse at the Aeon shopping centre, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Focuses on rescue operations: 'About 170 rescue workers were searching the Aeon shopping centre in Kashima.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'the building's second floor collapsed, killing seven people.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes 'a portion of the second floor collapsed' during the earthquake.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "A gas explosion occurred at the Aeon shopping centre approximately one hour after the initial earthquake.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "aeon_shopping_centre",
+      "rationale": "Both The Guardian (center-left) and BBC (center-left) confirm the gas explosion about an hour after the earthquake; while both are center-left, the cross-outlet confirmation with consistent details supports corroboration. However, as both are the same bias tier, this is classified as corroborated.",
+      "framing_variants": [
+        {
+          "characterization": "Notes 'a gas explosion occurred in another part of the shopping centre' after initial evacuation.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'an explosion ripped through the mall about an hour later,' with the Aeon president calling it 'very likely' a gas explosion, though the cause 'remains under investigation.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "All those caught in the shopping centre explosion were shop workers who had returned to the building after the initial evacuation.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "aeon_shopping_centre",
+      "rationale": "Only The Guardian reports the specific detail that explosion victims were workers who had returned after evacuation.",
+      "framing_variants": [
+        {
+          "characterization": "Frames this as a key detail about why workers were inside: they 'had returned to the building after the evacuation.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Aeon's president stated the company had failed to anticipate the explosion.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "aeon_shopping_centre",
+      "rationale": "Only The Guardian reports this specific admission from Aeon's president about failure to anticipate the explosion.",
+      "framing_variants": [
+        {
+          "characterization": "Frames it as a corporate accountability statement: 'Aeon had failed to anticipate the explosion.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Sources report varying casualty figures at the Aeon shopping centre: The Guardian reports 6 deaths among 12 people pulled from rubble; The Straits Times reports 7 deaths with 5 survivors pulled from rubble.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "aeon_shopping_centre",
+      "rationale": "The Guardian and The Straits Times report different death figures for the Aeon shopping centre (6 vs. 7), likely reflecting different reporting timestamps or counting methods, constituting a factual discrepancy.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'six of the 12 people pulled from the rubble have died' at the Aeon centre (published July 30).",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'seven people were killed when the building's second floor collapsed' and 'five were pulled from the rubble alive' (published August 1).",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "The Aeon mall in Kashima had recently reopened as a revamped shopping complex, having previously been damaged in the April 2016 earthquakes.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "aeon_shopping_centre",
+      "rationale": "Only BBC reports that the Aeon mall had just reopened last month after being previously damaged in the 2016 earthquakes.",
+      "framing_variants": [
+        {
+          "characterization": "Contextualizes the tragedy: the mall 'had just reopened last month as a revamped shopping complex' after previous 2016 earthquake damage.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "A cat cafe inside the Aeon mall had 25 cats left behind during the earthquake, all of which were subsequently safely rescued.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "aeon_shopping_centre",
+      "rationale": "Only BBC reports the detail about the cat cafe and the rescue of its animals.",
+      "framing_variants": [
+        {
+          "characterization": "Presents this as a rare positive news element amid the disaster coverage.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "A chimney collapsed at the Nippon Paper Industries factory in Yatsushiro, killing multiple workers.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "industrial_casualties",
+      "rationale": "The Guardian, The Straits Times (center-right), and BBC (center-left) all report deaths from the chimney collapse at the Nippon Paper factory, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'a chimney collapsed at the Nippon Paper mill in Yatsushiro,' initially noting 8 of 10 trapped workers died, with search continuing for one more.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'nine people died when a chimney collapsed' and that 'the last missing worker at the facility was found dead on July 30.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'at least five people have died after the factory partially collapsed' with 11 trapped and 7 rescued (earlier timeline).",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "A Vietnamese technical intern was killed after a crane fell on him at a factory where he worked.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "industrial_casualties",
+      "rationale": "Only The Guardian reports the death of a Vietnamese technical intern at a separate factory due to a falling crane.",
+      "framing_variants": [
+        {
+          "characterization": "Identifies the victim's nationality and visa status, highlighting the vulnerability of foreign workers.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Thousands of residents were evacuated to emergency shelters after the earthquake, with over 9,000 in evacuation centres by the end of the week.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "displacement_and_shelters",
+      "rationale": "All four outlets across center-left and center-right tiers confirm large-scale evacuations; earlier reports cite ~15,000 evacuees across 400 shelters while later reports cite ~9,000 across fewer centres, reflecting changing figures over time.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'about 15,000 people had been evacuated to 400 shelters' in earlier reporting.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'more than 9,000 people are sheltering in evacuation centres' and '374 evacuation centres' as of August 1.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'around 9,000 displaced residents have been put up in evacuation centres.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'some 229 evacuation shelters were set up Saturday morning, housing around 9,228 people.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Many evacuation centres lack air conditioning, creating serious heat risks for displaced residents.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "displacement_and_shelters",
+      "rationale": "Both The Straits Times (center-right) and BBC (center-left) report the lack of air conditioning in many evacuation centres, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'many of these facilities lack air-conditioning' and describes efforts to transfer evacuees from facilities without power for cooling.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes a specific centre that 'had been without air conditioning until Wednesday afternoon' when a generator arrived.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Several evacuees have been hospitalised with heatstroke or heatstroke-like symptoms since the earthquake.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "heat_crisis",
+      "rationale": "Both The Straits Times (center-right) and BBC (center-left) confirm hospitalizations due to heat-related illness among displaced residents, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'dozens of people in Kumamoto have been transported to hospitals with suspected cases of heatstroke, according to local officials' tallies,' and notes evacuees hospitalised after returning to damaged homes during the day.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports evacuation centre workers saying 'quite a few people are suffering from conditions similar to heatstroke, and several have been taken to hospital.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Temperatures in the earthquake-affected area reached extreme highs, forecast to approach 38–39 degrees Celsius, complicating rescue and relief efforts.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "heat_crisis",
+      "rationale": "The Guardian, The Straits Times (center-right), and BBC (center-left) all report extreme heat in the affected region, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Reports SDF personnel 'faced temperatures of up to 35C on Thursday' during rescue operations.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'temperatures nearing 38 deg C' and forecasts of 40°C in some parts; notes this is historically the first earthquake of this intensity to strike Japan during peak summer heat.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'temperatures could reach 39C in the prefecture in the coming days, according to forecasts.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Many displaced residents chose to sleep in their cars out of fear of further earthquake tremors.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "displacement_and_shelters",
+      "rationale": "BBC (center-left) and The Japan Times (center-left) both report residents sleeping in cars due to fear of aftershocks. However, both outlets share the same bias tier, making this corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Frames car-sleeping as driven by 'fear of further tremors.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Notes people were 'taking refuge in their cars to escape the heat and stay cool,' adding the heat dimension as a secondary motivation.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Power outages affected tens of thousands of homes, with figures ranging from nearly 23,000 to over 30,000 households without electricity at different points, though power was largely restored by the weekend.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "infrastructure_damage",
+      "rationale": "The Guardian (center-left), BBC (center-left), and The Japan Times (center-left) all report major power outages, with later reporting confirming substantial restoration; The Straits Times (center-right) is also included via contextual reporting. The Japan Times introduces the restoration angle, adding cross-spectrum context.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'nearly 23,000 homes had no electricity' in earlier reporting.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'more than 30,000 households were out of power as of Wednesday.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'power has largely been restored throughout the prefecture' by the weekend.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "Approximately 75,000 homes were without running water, with water shortages continuing into the weekend.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "infrastructure_damage",
+      "rationale": "Both The Guardian and The Japan Times (both center-left) report significant water supply disruptions; as both share a bias tier, this is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Reports '75,000 had no running water' citing Kumamoto officials.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'water shortages continued' through the weekend without specifying a household count.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "Roads in south Kumamoto were cracked and buckled, and several homes were flattened, with some collapsing into a river.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "infrastructure_damage",
+      "rationale": "Both The Guardian (center-left) and The Straits Times (center-right) report extensive structural and road damage; this meets the cross-spectrum threshold for 'agreed.'",
+      "framing_variants": [
+        {
+          "characterization": "Reports aerial police footage showing 'several homes had been flattened, including some that had crumbled into a river.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes 'rows of old wooden homes with tile roofs lay flattened' and roads 'cracked and buckled' in south Kumamoto.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "Yatsushiro town hall's base-isolation earthquake-resistant system sustained damage during the earthquake, despite having been rebuilt after the 2016 earthquake.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "infrastructure_damage",
+      "rationale": "Only The Guardian reports the damage to Yatsushiro town hall's base-isolation system and its prior rebuild after the 2016 earthquake.",
+      "framing_variants": [
+        {
+          "characterization": "Frames the damaged base-isolation system as an ironic failure of earthquake-proofing technology that had been specifically rebuilt after 2016.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_028",
+      "text": "Nearly 5,000 Self-Defence Forces personnel were deployed to Kumamoto for rescue and relief operations.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "rescue_and_relief",
+      "rationale": "Both The Guardian and BBC (both center-left) report large-scale SDF deployments for rescue operations; as both share a bias tier, this is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Specifies 'almost 5,000 Self-Defence Forces (SDF) personnel deployed to the region.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'thousands of personnel have been deployed for search-and-rescue operations' without a specific figure.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_029",
+      "text": "Defence Minister Shinjiro Koizumi announced the delivery of 300 air conditioners to Kumamoto, with 150 destined for evacuation centres, and stated that delivering life-saving supplies including water was a priority.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "rescue_and_relief",
+      "rationale": "Both The Guardian and BBC (both center-left) report Defence Minister Koizumi's announcements about air conditioners and supply priorities; as both share a bias tier, this is corroborated.",
+      "framing_variants": [
+        {
+          "characterization": "Reports Koizumi saying the SDF was 'airlifting coolers to shelters' and quotes him: 'We're doing everything possible to make saving lives a priority, making efforts to deliver life-saving supplies, beginning with water.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-08-01T14:43:48.076806+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "A major earthquake struck Kumamoto Prefecture on Kyushu island, Japan on Tuesday, July 29, 2026, killing at least 36 people and displacing over 9,000 residents. The death toll rose steadily in the days following the disaster, with different outlets reporting 30, 34, and 36 deaths as rescue operations continued and casualties were confirmed.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Thousands of residents were evacuated to emergency shelters after the earthquake, with over 9,000 people housed in evacuation centres by the end of the week. Many evacuation centres lacked air conditioning, creating serious heat risks for displaced residents as temperatures in the affected area reached extreme highs, forecast to approach 38–39 degrees Celsius.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_020",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Several evacuees were hospitalised with heatstroke or heatstroke-like symptoms in the days following the earthquake. The extreme summer heat complicated both rescue operations and relief efforts for displaced residents living in shelters without adequate cooling.",
+        "supports": {
+          "claim_ids": [
+            "clm_021",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "A portion of the second floor of the Aeon shopping centre in Kashima collapsed during the earthquake. Approximately one hour after the initial tremor, a gas explosion occurred at the same shopping centre, killing between six and seven people who were pulled from the rubble.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_011",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "A chimney collapsed at the Nippon Paper Industries factory in Yatsushiro, killing multiple workers. The industrial disaster added to the earthquake's death toll as rescue teams worked through damaged facilities across the prefecture.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Kumamoto Prefecture was previously struck by major earthquakes in April 2016, which caused extensive damage across the region. The 2016 disasters had damaged infrastructure that was rebuilt in subsequent years, including facilities affected by the 2026 earthquake.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_027"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Outlets reported different magnitudes for the earthquake, reflecting a difference in measurement or reporting standards. The Guardian and BBC reported a magnitude of 6.8, while The Straits Times and The Japan Times reported 7.1. This discrepancy likely represents the use of different seismic scales — moment magnitude versus the Japan Meteorological Agency scale — rather than a factual dispute about the earthquake's strength.",
+        "supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Center-left outlets The Guardian and BBC reported that more than 100 aftershocks were recorded following the initial earthquake, including a 5.8-magnitude aftershock overnight. The continuing seismic activity complicated rescue operations and contributed to residents' fear of returning indoors.",
+        "supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Guardian reported that all those caught in the shopping centre explosion were shop workers who had returned to the building after the initial evacuation to assess damage or retrieve belongings. Aeon's president stated the company had failed to anticipate the explosion risk when allowing workers back inside.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "BBC reported that the Aeon mall in Kashima had just reopened last month as a revamped shopping complex, having been previously damaged in the April 2016 earthquakes. The same outlet noted that a cat cafe inside the mall had 25 cats left behind during the earthquake, all of which were subsequently safely rescued.",
+        "supports": {
+          "claim_ids": [
+            "clm_015",
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The Straits Times, a center-right outlet, reported that this earthquake was the first of this seismic intensity to strike Japan during the height of the summer months, highlighting the unusual timing that contributed to the heat crisis facing displaced residents.",
+        "supports": {
+          "claim_ids": [
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Center-left outlets BBC and The Japan Times reported that many displaced residents chose to sleep in their cars rather than in evacuation shelters, citing fear of further earthquake tremors. The preference for sleeping outdoors or in vehicles, despite the extreme heat, reflected the ongoing anxiety caused by aftershock activity.",
+        "supports": {
+          "claim_ids": [
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Center-left outlets reported that power outages affected between 23,000 and 30,000 households at different points following the earthquake, though electricity was largely restored by the weekend. Approximately 75,000 homes remained without running water, with water shortages continuing into the weekend.",
+        "supports": {
+          "claim_ids": [
+            "clm_024",
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "Nearly 5,000 Self-Defence Forces personnel were deployed to Kumamoto for rescue and relief operations, according to The Guardian and BBC. Defence Minister Shinjiro Koizumi announced the delivery of 300 air conditioners to Kumamoto, with 150 destined for evacuation centres. ",
+        "priority,": "oizumi stated, addressing the dual crisis of earthquake damage and extreme heat.",
+        "supports": {
+          "claim_ids": [
+            "clm_028",
+            "clm_029"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "The Guardian reported additional details about the earthquake's measurements and impacts: the tremor registered the maximum level 7 on Japan's seven-level shindo intensity scale, and the Geospatial Information Authority reported that parts of the ground shifted by 87 centimetres during the event. The same outlet reported at least 62 people were injured, according to the prefectural government.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_005",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "The Guardian also reported that a Vietnamese technical intern was killed when a crane fell on him at a factory where he worked, and that Yatsushiro town hall's base-isolation earthquake-resistant system sustained damage during the earthquake, despite having been rebuilt after the 2016 earthquake. BBC reported that the earthquake had a shallow depth of 10 kilometres.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_027",
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

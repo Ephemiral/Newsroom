@@ -3,7 +3,11 @@
   "entity_id": "ent_person_nirmal_purja",
   "type": "person",
   "canonical_name": "Nirmal Purja",
-  "aliases": [],
+  "aliases": [
+    "Nirmal 'Nims' Purja",
+    "Purja",
+    "world record holder Nirmal Purja"
+  ],
   "wikidata_qid": "Q64027141",
   "summary": "Nirmal Purja is a Nepalese mountaineer. Prior to taking on a career in mountaineering, he served in the British Army with the Brigade of Gurkhas followed by the Special Boat Service (SBS), the special forces unit of the Royal Navy.",
   "summary_sources": [
@@ -25,10 +29,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_08_01_asia_001",
   "appears_in_events": [
-    "evt_2026_08_01_asia_001"
+    "evt_2026_08_01_asia_001",
+    "evt_2026_08_01_asia_002"
   ],
   "created_at": "2026-08-01T04:43:16.150041+00:00",
-  "last_updated": "2026-08-01T04:43:35.610108+00:00",
+  "last_updated": "2026-08-01T14:40:18.212885+00:00",
   "change_log": [
     {
       "date": "2026-08-01",

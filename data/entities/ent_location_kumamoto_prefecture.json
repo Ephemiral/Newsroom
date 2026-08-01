@@ -1,0 +1,63 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_kumamoto_prefecture",
+  "type": "location",
+  "canonical_name": "Kumamoto Prefecture",
+  "aliases": [
+    "Kumamoto"
+  ],
+  "wikidata_qid": "Q130308",
+  "summary": "Kumamoto Prefecture  is a prefecture of Japan located on the island of Kyūshū. Kumamoto Prefecture has a population of 1,683,115 and has a geographic area of 7,409 square kilometres (2,861 sq mi).",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Kumamoto_Prefecture"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/20140516%E9%98%BF%E8%98%87%E5%B1%B1%E5%BA%83%E5%9F%9F.jpg/960px-20140516%E9%98%BF%E8%98%87%E5%B1%B1%E5%BA%83%E5%9F%9F.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:20140516%E9%98%BF%E8%98%87%E5%B1%B1%E5%BA%83%E5%9F%9F.jpg",
+    "credit": "Sonata / Sonata at ja.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:20140516阿蘇山広域.jpg",
+    "fetched_at": "2026-08-01T14:43:54.136207+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Kumamoto Prefecture borders Fukuoka Prefecture to the north, Ōita Prefecture to the northeast, Miyazaki Prefecture to the southeast, and Kagoshima Prefecture to the south.",
+      "source_url": "https://en.wikipedia.org/wiki/Kumamoto_Prefecture",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_asia_003",
+  "appears_in_events": [
+    "evt_2026_08_01_asia_003"
+  ],
+  "created_at": "2026-08-01T14:43:51.467149+00:00",
+  "last_updated": "2026-08-01T14:44:15.859151+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Kumamoto_Prefecture"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q130308 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q130308"
+    }
+  ]
+}

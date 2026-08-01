@@ -1,0 +1,52 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_nippon_paper_industries",
+  "type": "organization",
+  "canonical_name": "Nippon Paper Industries",
+  "aliases": [],
+  "wikidata_qid": "Q10834647",
+  "summary": "Nippon Paper Industries Co., Ltd. is a Japanese paper manufacturing company.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Nippon_Paper_Industries"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The company's stock is listed on the Tokyo Stock Exchange.",
+      "source_url": "https://en.wikipedia.org/wiki/Nippon_Paper_Industries",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_asia_003",
+  "appears_in_events": [
+    "evt_2026_08_01_asia_003"
+  ],
+  "created_at": "2026-08-01T14:43:55.867153+00:00",
+  "last_updated": "2026-08-01T14:44:15.860035+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Nippon_Paper_Industries"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q10834647 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q10834647"
+    }
+  ]
+}

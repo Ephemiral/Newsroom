@@ -1,0 +1,119 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_shinjiro_koizumi",
+  "type": "person",
+  "canonical_name": "Shinjiro Koizumi",
+  "aliases": [
+    "Shinjirō Koizumi"
+  ],
+  "wikidata_qid": "Q661410",
+  "summary": "Shinjirō Koizumi  is a Japanese politician serving as the Minister of Defense since October 2025. He previously served as the Minister of the Environment from September 2019 to October 2021 and Minister of Agriculture, Forestry and Fisheries from May to October 2025.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Shinjir%C5%8D_Koizumi"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Shinjir%C5%8D_Koizumi_Ministry_of_Defence_portrait_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Shinjir%C5%8D_Koizumi_Ministry_of_Defence_portrait_(cropped).jpg",
+    "credit": "Ministry of Defense",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Shinjirō Koizumi Ministry of Defence portrait (cropped).jpg",
+    "fetched_at": "2026-08-01T14:44:04.412179+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "member of the House of Representatives of Japan",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q661410",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of the Environment",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q661410",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of State for Nuclear Emergency Preparedness",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q661410",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Defense of Japan",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q661410",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_political_party_liberal_democratic_party",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q661410"
+    }
+  ],
+  "facts": [
+    {
+      "text": "He has also served as a Member of the House of Representatives for the Liberal Democratic Party (LDP), representing Kanagawa since 2009.",
+      "source_url": "https://en.wikipedia.org/wiki/Shinjir%C5%8D_Koizumi",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "He is the second son of former Prime Minister Junichiro Koizumi and the younger brother of actor Kotaro Koizumi.",
+      "source_url": "https://en.wikipedia.org/wiki/Shinjir%C5%8D_Koizumi",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-08-01",
+      "last_updated": "2026-08-01",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_01_asia_003",
+  "appears_in_events": [
+    "evt_2026_08_01_asia_003"
+  ],
+  "created_at": "2026-08-01T14:44:00.423087+00:00",
+  "last_updated": "2026-08-01T14:44:15.860325+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Entity created from evt_2026_08_01_asia_003",
+      "source": null
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Shinjir%C5%8D_Koizumi"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Shinjir%C5%8D_Koizumi"
+    },
+    {
+      "date": "2026-08-01",
+      "summary_of_change": "Grounded from Wikidata Q661410 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q661410"
+    }
+  ]
+}
