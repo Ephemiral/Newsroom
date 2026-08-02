@@ -1,0 +1,42 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_kudrinskaya_square",
+  "type": "location",
+  "canonical_name": "Kudrinskaya Square",
+  "aliases": [],
+  "wikidata_qid": "Q4244539",
+  "summary": null,
+  "summary_sources": [],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Stalinian_architecture_in_Moscow_%28Kudrinskaya_Square_Building%29.JPG/960px-Stalinian_architecture_in_Moscow_%28Kudrinskaya_Square_Building%29.JPG",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Stalinian_architecture_in_Moscow_(Kudrinskaya_Square_Building).JPG",
+    "credit": "Dmitry Rozhkov",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Stalinian architecture in Moscow (Kudrinskaya Square Building).JPG",
+    "fetched_at": "2026-08-02T04:29:14.654064+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_02_europe_001",
+  "appears_in_events": [
+    "evt_2026_08_02_europe_001"
+  ],
+  "created_at": "2026-08-02T04:29:12.726309+00:00",
+  "last_updated": "2026-08-02T04:29:20.691173+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Entity created from evt_2026_08_02_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikidata Q4244539",
+      "source": "https://www.wikidata.org/wiki/Q4244539"
+    }
+  ]
+}

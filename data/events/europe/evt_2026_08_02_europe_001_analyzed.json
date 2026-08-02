@@ -1,0 +1,841 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_08_02_europe_001",
+    "beat": "europe",
+    "title": "Explosion at Moscow Italian Restaurant Kills Three",
+    "summary": "An explosion at the Balzi Rossi Italian restaurant on Kudrinskaya Square in central Moscow on Saturday evening killed three people and injured at least 21. Russian authorities attributed the blast to a homemade explosive device carried by a woman who was stopped by a security guard before entering.",
+    "date": "2026-08-02",
+    "generated_at": "2026-08-02T04:28:47.014602+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_location_balzi_rossi",
+        "surfaces": [
+          "Balzi Rossi Italian restaurant",
+          "Balzi Rossi"
+        ],
+        "relevance_to_event": "The Italian restaurant in central Moscow where the explosion occurred on Saturday evening, killing three people and injuring at least 21.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_005",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_kudrinskaya_square",
+        "surfaces": [
+          "Kudrinskaya Square"
+        ],
+        "relevance_to_event": "The location in central Moscow where the Balzi Rossi restaurant is situated in a Stalin-era skyscraper, site of the explosion.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_russia_s_national_anti_terrorism_committee",
+        "surfaces": [
+          "Russia's National Anti-Terrorism Committee",
+          "National Anti-Terrorism Committee",
+          "NAK/NAC"
+        ],
+        "relevance_to_event": "The official Russian authority that attributed the explosion to a homemade explosive device carried by a woman and provided the primary account of the incident.",
+        "relevance_supports": {
+          "claim_ids": [],
+          "source_ids": []
+        },
+        "relevance_grounding": "sources_fallback"
+      },
+      {
+        "entity_id": "ent_organization_fsb",
+        "surfaces": [
+          "FSB security service"
+        ],
+        "relevance_to_event": "Russia's security service that reportedly announced earlier in 2026 plans to increase security for high-level officials due to a series of assassinations connected to the war in Ukraine.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_moscow_investigative_committee",
+        "surfaces": [
+          "Moscow's Investigative Committee"
+        ],
+        "relevance_to_event": "The authority that stated the explosion scene was still under active investigation according to reporting.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_kyiv",
+        "surfaces": [
+          "Kyiv"
+        ],
+        "relevance_to_event": "The entity Russian authorities have blamed for recent assassinations and attacks on senior Russian military figures and others in Moscow in connection with the war in Ukraine.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-08-02T04:29:28.816423+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Moscow_-_Kudrinskaya_Square_Building.jpg/1280px-Moscow_-_Kudrinskaya_Square_Building.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Moscow_-_Kudrinskaya_Square_Building.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Moscow_-_Kudrinskaya_Square_Building.jpg",
+      "width": 1200,
+      "height": 795,
+      "caption": "Kudrinskaya Square Building in Moscow (file photo)",
+      "credit": "Юрий Д.К.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Moscow - Kudrinskaya Square Building.jpg",
+      "query": "Kudrinskaya Square Moscow",
+      "fetched_at": "2026-08-02T04:29:28.816381+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Fox News",
+      "url": "https://www.foxnews.com/world/explosion-restaurant-central-moscow-leaves-three-dead-dozen-injured",
+      "author": null,
+      "published_at": "2026-08-01T21:45:42+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Fox Corporation, controlled by the Murdoch family trust.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/02/moscow-restaurant-bombing-kills-three-people-as-device-carried-by-woman-explodes",
+      "author": "Reuters in Moscow",
+      "published_at": "2026-08-02T00:22:48+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-08-02T00:02:18+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Deutsche Welle (DW)",
+      "url": "https://www.dw.com/en/homemade-bomb-goes-off-outside-upscale-moscow-restaurant-state-officials-say/a-78205022?maca=en-rss-en-all-1573-xml-mrss",
+      "author": null,
+      "published_at": "2026-08-01T22:21:00+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "At least three people were killed in the explosion at the Balzi Rossi Italian restaurant in central Moscow.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualty_figures",
+      "rationale": "All four outlets — spanning right, center-left, and center — report three deaths, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Fox News states three people were killed as a factual outcome of the explosion.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian reports three deaths, attributing the information to authorities.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC reports 'at least three' killed, attributing the figure to Russian state media quoting security officials.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "DW reports 'at least three people' killed, including the suspected bomber, per authorities.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "At least 21 additional people were injured in the explosion.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualty_figures",
+      "rationale": "All four outlets across the political spectrum confirm at least 21 injuries.",
+      "framing_variants": [
+        {
+          "characterization": "Fox News states 'at least 21 more people were injured.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian reports 'at least 21' injured, attributing it to authorities.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC reports 21 injured, citing Russian state media and security officials.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "DW cites state news agency RIA Novosti for the figure of at least 21 injured.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The three people killed were: the woman carrying the explosive device, a security guard, and a restaurant patron or customer.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualty_figures",
+      "rationale": "All four outlets identify the same three categories of victim, sourced to Russian anti-terrorism authorities, spanning right to center-left to center.",
+      "framing_variants": [
+        {
+          "characterization": "Fox News lists 'a woman who attempted to bring the explosive device,' 'a security guard,' and 'a patron.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian cites the anti-terrorism committee via RIA: 'the woman, the security guard and a customer.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC, citing the NAK, says the device killed 'the woman, the guard and a visitor to the restaurant.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "DW reports 'killing the woman, the guard and a restaurant patron,' citing the Anti-Terrorism Committee.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The explosion was caused by a homemade explosive device, according to Russian authorities.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_details",
+      "rationale": "All four outlets, spanning right to center, report the homemade explosive device characterization attributed to Russia's National Anti-Terrorism Committee or security officials.",
+      "framing_variants": [
+        {
+          "characterization": "Fox News attributes the claim to 'Russia's National Anti-Terrorism Committee.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian describes it as 'a homemade bomb,' attributing it to authorities.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC says 'a homemade explosive device was detonated,' citing Russian state media and security officials.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "DW quotes the Anti-Terrorism Committee calling it 'a homemade explosive device.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "A woman carrying the explosive device attempted to enter the Balzi Rossi restaurant but was stopped by a security guard, after which the device detonated.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_details",
+      "rationale": "All four outlets report this sequence of events as stated by Russia's National Anti-Terrorism Committee, spanning across the political spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Fox News, citing RIA Novosti, says the security guard 'wouldn't let her in' and she was 'killed in the blast.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian, attributing to the anti-terrorism committee via RIA, says the woman 'tried to get into the restaurant but was stopped by a security guard.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC, citing the NAK, says 'a woman carrying the explosives tried to enter the restaurant but was stopped by a security guard' before the device detonated.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "DW, citing the Anti-Terrorism Committee, says the device 'exploded at the entrance' after the guard stopped the woman.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The explosion occurred at approximately 8 p.m. local time on Saturday evening.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_details",
+      "rationale": "All four outlets confirm the approximate time of around 8 p.m. local time, spanning the political spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Fox News says 'around 8 p.m.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian says 'just before 8pm,' attributing it to police.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC specifies 'around 20:00 local time (17:00 GMT).'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "DW, citing RIA Novosti, says 'shortly before 8 p.m. local time (5 p.m. UTC).'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The explosion occurred on or near Kudrinskaya Square in central Moscow, where the restaurant is located in a Stalin-era skyscraper.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_details",
+      "rationale": "All four outlets confirm the location as Kudrinskaya Square and note the Stalin-era skyscraper setting, across the political spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Fox News describes 'a ground-floor terrace restaurant at Kudrinksaya Square' surrounded by 'seven skyscrapers built during the Stalin regime.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian says the restaurant is 'located in one of Moscow's seven Stalin-era skyscrapers at Kudrinskaya Square,' per police.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC says the restaurant is 'located in one of Moscow's famous Stalin-era skyscrapers' on Kudrinskaya square.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "DW places the event 'on Kudrinskaya Square,' per the Anti-Terrorism Committee.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The Balzi Rossi restaurant's website stated the venue was closed on Saturday for a private event.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_details",
+      "rationale": "Three outlets spanning right, center-left, and center all report the same detail from the restaurant's own website.",
+      "framing_variants": [
+        {
+          "characterization": "Fox News: 'Balzi Rossi's website said it was closed Saturday for a private event.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian: 'The restaurant's website said the venue had been closed on Saturday for a private event.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "DW: 'The restaurant's website said the venue had been closed on Saturday for a private event.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "BBC reports the restaurant was holding a private function at the time of the explosion.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "incident_details",
+      "rationale": "Only BBC explicitly states the restaurant was actively holding a private function at the time; other outlets note the website said it was closed for a private event.",
+      "framing_variants": [
+        {
+          "characterization": "BBC states: 'The restaurant, located in one of Moscow's famous Stalin-era skyscrapers, had been holding a private function.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Heavily armed law enforcement officers were present at the scene, which was closed off to the public.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "law_enforcement_response",
+      "rationale": "All four outlets confirm the heavy armed law enforcement presence and public exclusion from the scene, spanning the political spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Fox News: 'Heavily armed law enforcement was seen at the scene.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Guardian notes RIA released 'video of heavily armed law enforcement officers at the scene, which had been closed off to the public.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC references RIA video showing 'heavily armed law enforcement officers at the scene, which had been closed off to members of the public.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "DW: 'Heavily armed law enforcement officers sealed off the area and launched an investigation.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Authorities did not identify the victims by name or disclose who they believed was responsible for the attack.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "law_enforcement_response",
+      "rationale": "Three outlets across center-left and center report that authorities declined to name victims or identify suspects, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian: 'The authorities did not name those killed or injured nor did they say who they thought might have been responsible.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC: 'Authorities have not disclosed the guest list or said anything about who they believe was the target of the attack.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "DW: 'Authorities did not immediately identify those they believed to be behind the attack.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Initial reports said the blast occurred in the restaurant's kitchen; the restaurant later issued a statement saying the problem occurred outside.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "incident_details",
+      "rationale": "Only BBC reports this discrepancy between initial kitchen reports and the restaurant's subsequent statement that the incident happened outside.",
+      "framing_variants": [
+        {
+          "characterization": "BBC notes: 'Initial reports said the blast happened in the establishment's kitchen but the restaurant later issued a statement saying there was a problem outside.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Kommersant newspaper, citing its own sources, reported the bomb was intended to kill guests on the restaurant's summer terrace and may have been detonated remotely by a third party, with the woman possibly unaware she was carrying a bomb.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "incident_details",
+      "rationale": "Only The Guardian reports the Kommersant account of remote detonation and the woman's possible ignorance of the bomb; this detail is unconfirmed by other outlets.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian attributes to Kommersant sources: the bomb was aimed at terrace guests, may have been remotely detonated, and the woman carrying it may not have known it was a bomb.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Witnesses reported seeing people brought out of the restaurant covered in blood after the explosion.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "casualty_figures",
+      "rationale": "Only BBC reports witness accounts of blood-covered victims being removed from the scene.",
+      "framing_variants": [
+        {
+          "characterization": "BBC: 'Witnesses said they saw people being brought out covered in blood after the explosion.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Roads around Kudrinskaya Square were briefly closed following the explosion, and a nearby cyclists' evening ride event was cancelled.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "law_enforcement_response",
+      "rationale": "Only BBC reports the brief road closures and the cancellation of a planned cycling event near the scene.",
+      "framing_variants": [
+        {
+          "characterization": "BBC: 'Roads around the square were briefly closed. Dozens of cyclists had been gathering nearby for an evening ride through the city but the event was cancelled.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Russia's FSB security service announced earlier in 2026 that it planned to increase security for high-level officials, citing a series of assassinations connected to the war in Ukraine.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "background_context",
+      "rationale": "Only Fox News reports the FSB's 2026 security announcement and its stated justification.",
+      "framing_variants": [
+        {
+          "characterization": "Fox News: 'Russia's FSB security service said earlier this year that it planned to increase security within the country for high-level officials after a series of assassinations as the war in Ukraine drags on.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Moscow's Investigative Committee stated the scene was still under active investigation.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "law_enforcement_response",
+      "rationale": "Only Fox News reports the specific statement from the Moscow Investigative Committee about the ongoing investigation.",
+      "framing_variants": [
+        {
+          "characterization": "Fox News: 'Moscow Investigative Committee told the news agency the scene is still under active investigation.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "In recent years, several senior Russian military figures have been assassinated in and around Moscow, and Russian authorities have blamed those attacks on Kyiv.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "background_context",
+      "rationale": "BBC (center-left) and DW (center) both report the pattern of assassinations and Moscow's attribution to Kyiv as background context, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "BBC: 'In recent years, several senior Russian military figures have been assassinated in and around the Russian capital. Moscow has blamed Kyiv for those attacks.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "DW: 'Russia has faced several attacks since the start of the war in Ukraine in 2022. They blamed a series of assassinations and attempted killings on Kyiv.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "The Balzi Rossi is described as an upscale Italian restaurant located in one of Moscow's seven Stalin-era skyscrapers on Kudrinskaya Square in central Moscow.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Russia has experienced a series of assassinations and attacks on military and other figures since the start of the war in Ukraine in February 2022, which Russian authorities have attributed to Kyiv.",
+      "sources": [
+        "src_003",
+        "src_004",
+        "src_001"
+      ]
+    },
+    {
+      "point": "Russian state media and security services, including the National Anti-Terrorism Committee (NAK/NAC) and RIA Novosti, were the primary official sources for information about the explosion.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-08-02T04:29:05.236210+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "An explosion at the Balzi Rossi Italian restaurant in central Moscow on Saturday evening killed at least three people and injured at least 21 others, according to Russian authorities. The blast occurred at approximately 8 p.m. local time at the restaurant located in a Stalin-era skyscraper on Kudrinskaya Square in central Moscow.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_006",
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The three people killed were the woman carrying the explosive device, a security guard, and a restaurant patron or customer, according to Russian anti-terrorism authorities.",
+        "supports": {
+          "claim_ids": [
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Russian authorities attributed the explosion to a homemade explosive device. According to Russia's National Anti-Terrorism Committee, a woman carrying the device attempted to enter the restaurant but was stopped by a security guard, after which the device detonated.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The restaurant's website stated the venue was closed on Saturday for a private event. Heavily armed law enforcement officers were present at the scene, which was closed off to the public.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Authorities did not identify the victims by name or disclose who they believed was responsible for the attack.",
+        "supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "In recent years, several senior Russian military figures have been assassinated in and around Moscow, and Russian authorities have blamed those attacks on Kyiv.",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The Guardian, citing the Russian newspaper Kommersant and its sources, reported that the bomb may have been intended to kill guests on the restaurant's summer terrace and may have been detonated remotely by a third party, with the woman possibly unaware she was carrying a bomb. This account has not been corroborated by other outlets or confirmed by authorities.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Fox News reported that Russia's FSB security service had announced earlier in 2026 that it planned to increase security for high-level officials, citing a series of assassinations connected to the war in Ukraine. This detail was not mentioned by other outlets.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "BBC News reported that the restaurant was holding a private function at the time of the explosion. The BBC also noted a discrepancy in early reporting: initial reports said the blast occurred in the restaurant's kitchen, but the restaurant later issued a statement saying the problem occurred outside.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "BBC News reported that witnesses saw people brought out of the restaurant covered in blood after the explosion. Roads around Kudrinskaya Square were briefly closed following the blast, and a nearby cyclists' evening ride event was cancelled, according to the BBC.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Fox News reported that Moscow's Investigative Committee stated the scene was still under active investigation.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

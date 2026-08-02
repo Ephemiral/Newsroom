@@ -1,0 +1,30 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_balzi_rossi",
+  "type": "location",
+  "canonical_name": "Balzi Rossi",
+  "aliases": [
+    "Balzi Rossi Italian restaurant"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_02_europe_001",
+  "appears_in_events": [
+    "evt_2026_08_02_europe_001"
+  ],
+  "created_at": "2026-08-02T04:29:08.343474+00:00",
+  "last_updated": "2026-08-02T04:29:20.690815+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Entity created from evt_2026_08_02_europe_001",
+      "source": null
+    }
+  ]
+}
