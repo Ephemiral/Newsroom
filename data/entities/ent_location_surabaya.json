@@ -1,0 +1,95 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_surabaya",
+  "type": "location",
+  "canonical_name": "Surabaya",
+  "aliases": [
+    "Surabaya Search and Rescue Agency"
+  ],
+  "wikidata_qid": "Q11462",
+  "summary": "Surabaya is the capital and largest city of East Java province and the second-largest city in Indonesia, after Jakarta. Located on the northeastern corner of Java island, on the Madura Strait, it is one of the earliest port cities in Southeast Asia.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Surabaya"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Surabaya_skyline.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Surabaya_skyline.jpg",
+    "credit": "Davidelit",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Surabaya skyline.jpg",
+    "fetched_at": "2026-08-02T14:44:47.603962+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "According to the National Development Planning Agency, Surabaya is one of the four main central cities of Indonesia, alongside Jakarta, Medan, and Makassar.",
+      "source_url": "https://en.wikipedia.org/wiki/Surabaya",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-02",
+      "last_updated": "2026-08-02",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The city covers a land area of 335.93 km2, and had a population of 2,874,314 within its city limits at the 2020 census.",
+      "source_url": "https://en.wikipedia.org/wiki/Surabaya",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-08-02",
+      "last_updated": "2026-08-02",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "With 3,018,022 people living in the city as of mid 2024 \nand over 10 million in the extended Surabaya metropolitan area, according to the latest official estimate, Surabaya is the second-largest metropolitan area in Indonesia.",
+      "source_url": "https://en.wikipedia.org/wiki/Surabaya",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-08-02",
+      "last_updated": "2026-08-02",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_02_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_02_asia_002"
+  ],
+  "created_at": "2026-08-02T14:44:45.662194+00:00",
+  "last_updated": "2026-08-02T14:45:00.442094+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Entity created from evt_2026_08_02_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Surabaya"
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Surabaya"
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Surabaya"
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikidata Q11462 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q11462"
+    }
+  ]
+}

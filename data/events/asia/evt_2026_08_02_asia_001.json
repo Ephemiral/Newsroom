@@ -1,0 +1,24 @@
+{
+  "cluster_id": "evt_2026_08_02_asia_001",
+  "beat": "asia",
+  "article_ids": [
+    "art_0aa45df079",
+    "art_69c13ac6ab",
+    "art_6ebeae6285",
+    "art_724ca65e4f",
+    "art_8b072750a6",
+    "art_aa65b8f735",
+    "art_bedaf3a156",
+    "art_ca2bebea10",
+    "art_cac88478b4",
+    "art_d3b8a5677e",
+    "art_e793a9de31",
+    "art_ef74530af9",
+    "art_ffd8b282e0",
+    "art_fff0c7f7a7"
+  ],
+  "created_at": "2026-08-02T14:36:48.177751+00:00",
+  "method": "auto",
+  "threshold": 0.7,
+  "size": 14
+}

@@ -1,0 +1,61 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_makassar",
+  "type": "location",
+  "canonical_name": "Makassar",
+  "aliases": [],
+  "wikidata_qid": "Q14634",
+  "summary": "Makassar,, is the capital of the Indonesian province of South Sulawesi. It is the largest city in the region of Eastern Indonesia and the country's fifth-largest urban center after Jakarta, Surabaya, Medan, and Bandung.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Makassar"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Makassar%2C_March_2019.jpg/960px-Makassar%2C_March_2019.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Makassar,_March_2019.jpg",
+    "credit": "Bluesatellite",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Makassar, March 2019.jpg",
+    "fetched_at": "2026-08-02T14:44:49.490893+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The city is located on the southwest coast of the island of Sulawesi, facing the Makassar Strait.",
+      "source_url": "https://en.wikipedia.org/wiki/Makassar",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-02",
+      "last_updated": "2026-08-02",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_02_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_02_asia_002"
+  ],
+  "created_at": "2026-08-02T14:44:47.605044+00:00",
+  "last_updated": "2026-08-02T14:45:00.442315+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Entity created from evt_2026_08_02_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Makassar"
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikidata Q14634 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q14634"
+    }
+  ]
+}

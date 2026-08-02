@@ -1,0 +1,30 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_ministry_of_transportation_of_indonesia",
+  "type": "organization",
+  "canonical_name": "Ministry of Transportation of Indonesia",
+  "aliases": [
+    "Ministry of Transportation"
+  ],
+  "wikidata_qid": null,
+  "summary": null,
+  "summary_sources": [],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_02_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_02_asia_002"
+  ],
+  "created_at": "2026-08-02T14:44:57.762138+00:00",
+  "last_updated": "2026-08-02T14:45:00.442939+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Entity created from evt_2026_08_02_asia_002",
+      "source": null
+    }
+  ]
+}

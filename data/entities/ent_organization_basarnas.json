@@ -1,0 +1,38 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_basarnas",
+  "type": "organization",
+  "canonical_name": "Basarnas",
+  "aliases": [
+    "National Search and Rescue Agency",
+    "Surabaya Search and Rescue Agency"
+  ],
+  "wikidata_qid": "Q6978311",
+  "summary": "The National Search and Rescue Agency is a government agency of Indonesia that specialize in search and rescue activity in Indonesia. Its head office is in Kemayoran, Central Jakarta, Jakarta.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/National_Search_and_Rescue_Agency"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_02_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_02_asia_002"
+  ],
+  "created_at": "2026-08-02T14:44:54.505774+00:00",
+  "last_updated": "2026-08-02T14:45:00.442788+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Entity created from evt_2026_08_02_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikidata Q6978311 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q6978311"
+    }
+  ]
+}

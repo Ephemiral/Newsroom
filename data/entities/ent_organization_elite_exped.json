@@ -3,7 +3,9 @@
   "entity_id": "ent_organization_elite_exped",
   "type": "organization",
   "canonical_name": "Elite Exped",
-  "aliases": [],
+  "aliases": [
+    "Elite Expeditions"
+  ],
   "wikidata_qid": null,
   "summary": null,
   "summary_sources": [],
@@ -14,10 +16,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_08_01_asia_001",
   "appears_in_events": [
-    "evt_2026_08_01_asia_001"
+    "evt_2026_08_01_asia_001",
+    "evt_2026_08_02_asia_001"
   ],
   "created_at": "2026-08-01T04:43:21.271296+00:00",
-  "last_updated": "2026-08-01T04:43:35.610711+00:00",
+  "last_updated": "2026-08-02T14:42:18.843399+00:00",
   "change_log": [
     {
       "date": "2026-08-01",

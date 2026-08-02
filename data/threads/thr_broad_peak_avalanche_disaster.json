@@ -1,0 +1,52 @@
+{
+  "thread_schema_version": "0.2",
+  "thread_id": "thr_broad_peak_avalanche_disaster",
+  "title": "Broad Peak avalanche disaster",
+  "title_source": "auto",
+  "summary": "An avalanche on Broad Peak in Pakistan killed all 10 members of an international climbing expedition on July 30, 2026.",
+  "status": "developing",
+  "beats": [
+    "asia"
+  ],
+  "key_entities": [
+    "ent_organization_british_army",
+    "ent_organization_elite_exped",
+    "ent_organization_pakistan_army_aviation",
+    "ent_person_kristin_harila",
+    "ent_person_nadhira_ahmed_abdullah_al_harthy",
+    "ent_person_nirmal_purja",
+    "ent_person_pur_bahadur_gurung",
+    "ent_person_sarah_mallory"
+  ],
+  "events": [
+    {
+      "cluster_id": "evt_2026_08_01_asia_001",
+      "date": "2026-07-30",
+      "chapter_summary": "An avalanche on Broad Peak in Pakistan on July 30, 2026, left at least 10 climbers missing, including renowned British-Nepali mountaineer Nirmal Purja, with three or four bodies recovered during rescue operations.",
+      "link_score": 1.0
+    },
+    {
+      "cluster_id": "evt_2026_08_02_asia_001",
+      "date": "2026-07-30",
+      "chapter_summary": "The expedition was led by renowned British-Nepali mountaineer Nirmal Purja, age 43, and comprised five Nepali climbers, one Pakistani, one American, one Chinese national, and one Omani climber, with contact lost on the morning of July 30.",
+      "link_score": 0.459
+    }
+  ],
+  "accountability": [],
+  "created_at": "2026-08-02T14:42:21.330135+00:00",
+  "last_updated": "2026-08-02T14:42:23.144612+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Thread created"
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Added evt_2026_08_01_asia_001"
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Added evt_2026_08_02_asia_001"
+    }
+  ]
+}

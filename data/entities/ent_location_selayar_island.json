@@ -1,0 +1,95 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_selayar_island",
+  "type": "location",
+  "canonical_name": "Selayar Island",
+  "aliases": [
+    "Selayar island"
+  ],
+  "wikidata_qid": "Q2121185",
+  "summary": "Selayar is the main island of the Selayar Islands. It lies off the coast of Cape Bira of South Sulawesi Province.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Selayar_Island"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Pulau_Selayar%2C_fishing_boat_%286822982688%29.jpg/960px-Pulau_Selayar%2C_fishing_boat_%286822982688%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Pulau_Selayar,_fishing_boat_(6822982688).jpg",
+    "credit": "Arian Zwegers",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Pulau Selayar, fishing boat (6822982688).jpg",
+    "fetched_at": "2026-08-02T14:44:54.312548+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The Selayar Straits separate it from the mainland of Sulawesi.",
+      "source_url": "https://en.wikipedia.org/wiki/Selayar_Island",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-02",
+      "last_updated": "2026-08-02",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Its principal town is Benteng, while much smaller towns to the south are Tanabau, Padang, Tile-tile, Pariangan, Galung, Layolo, Pa'garangang, Barangbarang, to Appattanah.",
+      "source_url": "https://en.wikipedia.org/wiki/Selayar_Island",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-08-02",
+      "last_updated": "2026-08-02",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "To the north are Parak, Barugayya, Batangmata, Onto, and finally Bonelohe.",
+      "source_url": "https://en.wikipedia.org/wiki/Selayar_Island",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-08-02",
+      "last_updated": "2026-08-02",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_02_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_02_asia_002"
+  ],
+  "created_at": "2026-08-02T14:44:49.491751+00:00",
+  "last_updated": "2026-08-02T14:45:00.442483+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Entity created from evt_2026_08_02_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Selayar_Island"
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Selayar_Island"
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Selayar_Island"
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikidata Q2121185 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q2121185"
+    }
+  ]
+}

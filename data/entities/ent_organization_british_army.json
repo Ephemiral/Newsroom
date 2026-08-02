@@ -1,0 +1,38 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_british_army",
+  "type": "organization",
+  "canonical_name": "British Army",
+  "aliases": [
+    "British army",
+    "British military"
+  ],
+  "wikidata_qid": "Q222595",
+  "summary": "The British Army is the land warfare force of the United Kingdom responsible for defending the UK, the British Overseas Territories and Crown Dependencies. The British Army, founded in 1707, has seen involvement in most of the world's major wars throughout history, including both world wars.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/British_Army"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_02_asia_001",
+  "appears_in_events": [
+    "evt_2026_08_02_asia_001"
+  ],
+  "created_at": "2026-08-02T14:42:10.235080+00:00",
+  "last_updated": "2026-08-02T14:42:18.843603+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Entity created from evt_2026_08_02_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikidata Q222595 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q222595"
+    }
+  ]
+}

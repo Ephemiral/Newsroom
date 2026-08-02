@@ -1,0 +1,44 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_k2",
+  "type": "location",
+  "canonical_name": "K2",
+  "aliases": [],
+  "wikidata_qid": "Q43512",
+  "summary": "K2, also known as Mount Godwin-Austen, at 8,611 metres (28,251 ft) above sea level, is the second-highest mountain on Earth, after Mount Everest at 8,849 metres (29,032 ft). It lies in the Karakoram range, partially in the Gilgit-Baltistan region of Pakistan-administered Kashmir and partially in the China-administered Trans-Karakoram Tract in the Taxkorgan Tajik Autonomous County of Xinjiang.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/K2"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/K2_2006b.jpg/960px-K2_2006b.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:K2_2006b.jpg",
+    "credit": "Svy123",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:K2 2006b.jpg",
+    "fetched_at": "2026-08-02T14:42:16.164809+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_02_asia_001",
+  "appears_in_events": [
+    "evt_2026_08_02_asia_001"
+  ],
+  "created_at": "2026-08-02T14:42:13.683299+00:00",
+  "last_updated": "2026-08-02T14:42:18.844026+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Entity created from evt_2026_08_02_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikidata Q43512 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q43512"
+    }
+  ]
+}

@@ -439,6 +439,16 @@
       "at": "2026-08-02T04:27:00.667863+00:00",
       "event_id": "evt_2026_08_02_europe_001",
       "outcome": "published"
+    },
+    "5d57161ee29ac31d": {
+      "at": "2026-08-02T14:36:49.629089+00:00",
+      "event_id": "evt_2026_08_02_asia_001",
+      "outcome": "published"
+    },
+    "78f13cd8c6d45603": {
+      "at": "2026-08-02T14:42:35.772450+00:00",
+      "event_id": "evt_2026_08_02_asia_002",
+      "outcome": "published"
     }
   }
 }

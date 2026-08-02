@@ -1,0 +1,93 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_madura_island",
+  "type": "location",
+  "canonical_name": "Madura Island",
+  "aliases": [],
+  "wikidata_qid": "Q208134",
+  "summary": "Madura is an Indonesian island off the northeastern coast of Java. The island has an area of about 4,471.05 square kilometres (1,726.28 mi2), but administratively Madura comprises an area of around 5,408.45 square kilometres (2,088.21 mi2) due to the inclusion of various smaller islands to the east, southeast and north that are part of Madura's easternmost Sumenep Regency.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Madura"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Indahnya_Gudang_Kapur_milik_Indonesia.jpg/960px-Indahnya_Gudang_Kapur_milik_Indonesia.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Indahnya_Gudang_Kapur_milik_Indonesia.jpg",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Indahnya Gudang Kapur milik Indonesia.jpg",
+    "fetched_at": "2026-08-02T14:44:45.661386+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Madura is part of the province of East Java.",
+      "source_url": "https://en.wikipedia.org/wiki/Madura",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-02",
+      "last_updated": "2026-08-02",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It is separated from Java by the narrow Madura Strait.",
+      "source_url": "https://en.wikipedia.org/wiki/Madura",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-08-02",
+      "last_updated": "2026-08-02",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "The administered area had a density of 773 people per km2 in mid-2024, while the main island had a somewhat higher figure of 862.3 per km2.",
+      "source_url": "https://en.wikipedia.org/wiki/Madura",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-08-02",
+      "last_updated": "2026-08-02",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_02_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_02_asia_002"
+  ],
+  "created_at": "2026-08-02T14:44:43.034429+00:00",
+  "last_updated": "2026-08-02T14:45:00.441833+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Entity created from evt_2026_08_02_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Madura"
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Madura"
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Madura"
+    },
+    {
+      "date": "2026-08-02",
+      "summary_of_change": "Grounded from Wikidata Q208134 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q208134"
+    }
+  ]
+}
