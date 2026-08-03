@@ -1,0 +1,35 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_darya_trepova",
+  "type": "person",
+  "canonical_name": "Darya Trepova",
+  "aliases": [],
+  "wikidata_qid": "Q117400211",
+  "summary": "Darya Yevgenyevna Trepova is a Russian political activist and convicted terrorist from St. Petersburg.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Darya_Trepova"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_03_europe_002",
+  "appears_in_events": [
+    "evt_2026_08_03_europe_002"
+  ],
+  "created_at": "2026-08-03T04:34:47.479371+00:00",
+  "last_updated": "2026-08-03T04:35:02.178707+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Entity created from evt_2026_08_03_europe_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikidata Q117400211 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q117400211"
+    }
+  ]
+}

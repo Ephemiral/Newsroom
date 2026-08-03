@@ -1,0 +1,51 @@
+{
+  "thread_schema_version": "0.2",
+  "thread_id": "thr_2026_migrant_crossing_into_spanish_enclave_of_ceuta",
+  "title": "2026 migrant crossing into Spanish enclave of Ceuta",
+  "title_source": "auto",
+  "summary": "Tens of thousands of migrants crossed from Morocco into the Spanish enclave of Ceuta in July 2026, resulting in dozens of deaths and triggering diplomatic tensions among European countries.",
+  "status": "developing",
+  "beats": [
+    "europe"
+  ],
+  "key_entities": [
+    "ent_person_donald_trump",
+    "ent_person_emmanuel_macron",
+    "ent_person_friedrich_merz",
+    "ent_person_giorgia_meloni",
+    "ent_person_pedro_sanchez",
+    "ent_person_ursula_von_der_leyen",
+    "ent_technology_schengen_area"
+  ],
+  "events": [
+    {
+      "cluster_id": "evt_2026_08_01_europe_001",
+      "date": "2026-07-31",
+      "chapter_summary": "An estimated 50,000–60,000 migrants crossed from Morocco into the Spanish enclave of Ceuta in approximately 24 hours in late July 2026, resulting in at least 57 deaths at the Tarajal beach breakwater fence and prompting Italy to temporarily suspend Schengen arrangements with Spain, with Spanish authorities reporting that over 48,300 migrants had voluntarily returned to Morocco by Friday evening.",
+      "link_score": 1.0
+    },
+    {
+      "cluster_id": "evt_2026_08_03_europe_001",
+      "date": "2026-07-31",
+      "chapter_summary": "The new report specifies that approximately 60,000 migrants crossed in roughly two days, at least 57-72 people died (with details on causes including drowning and stampede), and reveals that Italy suspended its Schengen agreement with Spain while several EU countries called for Spain's suspension from the open-borders zone.",
+      "link_score": 0.717
+    }
+  ],
+  "accountability": [],
+  "created_at": "2026-08-03T04:31:04.794200+00:00",
+  "last_updated": "2026-08-03T04:31:08.837337+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Thread created"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Added evt_2026_08_01_europe_001"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Added evt_2026_08_03_europe_001"
+    }
+  ]
+}

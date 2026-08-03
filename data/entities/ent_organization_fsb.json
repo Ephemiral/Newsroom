@@ -5,7 +5,8 @@
   "canonical_name": "FSB",
   "aliases": [
     "Federal Security Service",
-    "FSB security service"
+    "FSB security service",
+    "Russia's FSB security service"
   ],
   "wikidata_qid": "Q58792",
   "summary": "The Federal Security Service of the Russian Federation (FSB) is the principal security agency of Russia and the main successor agency to the Soviet Union's KGB; its immediate predecessor was the Federal Counterintelligence Service (FSK), which was reorganized into the FSB in 1995. The three major structural successor components of the former KGB that remain administratively independent of the FSB are the Foreign Intelligence Service (SVR), the Federal Protective Service (FSO), and the Main Directorate of Special Programs of the President of the Russian Federation (GUSP).",
@@ -28,10 +29,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_08_02_europe_001",
   "appears_in_events": [
-    "evt_2026_08_02_europe_001"
+    "evt_2026_08_02_europe_001",
+    "evt_2026_08_03_europe_002"
   ],
   "created_at": "2026-08-02T04:29:16.337069+00:00",
-  "last_updated": "2026-08-02T04:29:20.691484+00:00",
+  "last_updated": "2026-08-03T04:35:02.179042+00:00",
   "change_log": [
     {
       "date": "2026-08-02",

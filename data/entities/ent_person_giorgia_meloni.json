@@ -4,7 +4,8 @@
   "type": "person",
   "canonical_name": "Giorgia Meloni",
   "aliases": [
-    "Italian Prime Minister Giorgia Meloni"
+    "Italian Prime Minister Giorgia Meloni",
+    "Italian Prime Minister Meloni"
   ],
   "wikidata_qid": "Q451791",
   "summary": "Giorgia Meloni is an Italian politician who has served as Prime Minister of Italy since October 2022. She is the first woman to hold the office and the head of the second-longest government in the history of the Italian Republic.",
@@ -80,10 +81,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_08_01_europe_001",
   "appears_in_events": [
-    "evt_2026_08_01_europe_001"
+    "evt_2026_08_01_europe_001",
+    "evt_2026_08_03_europe_001"
   ],
   "created_at": "2026-08-01T04:30:05.952017+00:00",
-  "last_updated": "2026-08-01T04:30:20.833235+00:00",
+  "last_updated": "2026-08-03T04:31:01.069095+00:00",
   "change_log": [
     {
       "date": "2026-08-01",

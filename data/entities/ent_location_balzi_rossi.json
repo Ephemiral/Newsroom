@@ -16,10 +16,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_08_02_europe_001",
   "appears_in_events": [
-    "evt_2026_08_02_europe_001"
+    "evt_2026_08_02_europe_001",
+    "evt_2026_08_03_europe_002"
   ],
   "created_at": "2026-08-02T04:29:08.343474+00:00",
-  "last_updated": "2026-08-02T04:29:20.690815+00:00",
+  "last_updated": "2026-08-03T04:35:02.179288+00:00",
   "change_log": [
     {
       "date": "2026-08-02",

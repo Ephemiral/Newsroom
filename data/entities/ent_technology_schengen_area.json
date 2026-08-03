@@ -6,7 +6,8 @@
   "aliases": [
     "Schengen",
     "Schengen zone",
-    "Schengen arrangements"
+    "Schengen arrangements",
+    "Schengen agreement"
   ],
   "wikidata_qid": "Q1969730",
   "summary": "The Schengen Area is a system of open borders that encompass 29 European countries that have officially abolished border controls at their common borders. As an element within the wider area of freedom, security and justice (AFSJ) policy of the European Union (EU), it mostly functions as a single jurisdiction under a common visa policy for international travel purposes.",
@@ -41,10 +42,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_08_01_europe_001",
   "appears_in_events": [
-    "evt_2026_08_01_europe_001"
+    "evt_2026_08_01_europe_001",
+    "evt_2026_08_03_europe_001"
   ],
   "created_at": "2026-08-01T04:30:15.607265+00:00",
-  "last_updated": "2026-08-01T04:30:20.834623+00:00",
+  "last_updated": "2026-08-03T04:31:01.069339+00:00",
   "change_log": [
     {
       "date": "2026-08-01",

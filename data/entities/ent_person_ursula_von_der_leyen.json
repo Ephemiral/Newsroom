@@ -4,7 +4,8 @@
   "type": "person",
   "canonical_name": "Ursula von der Leyen",
   "aliases": [
-    "EU Commission President Ursula von der Leyen"
+    "EU Commission President Ursula von der Leyen",
+    "EU Commission President"
   ],
   "wikidata_qid": "Q60772",
   "summary": "Ursula Gertrud von der Leyen is a German politician and physician who has served as President of the European Commission since 2019. She served in the German federal government between 2005 and 2019, holding positions in Angela Merkel's cabinet, most recently as Federal Minister for Defence.",
@@ -110,10 +111,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_08_01_europe_001",
   "appears_in_events": [
-    "evt_2026_08_01_europe_001"
+    "evt_2026_08_01_europe_001",
+    "evt_2026_08_03_europe_001"
   ],
   "created_at": "2026-08-01T04:30:07.952912+00:00",
-  "last_updated": "2026-08-01T04:30:20.833782+00:00",
+  "last_updated": "2026-08-03T04:31:01.070050+00:00",
   "change_log": [
     {
       "date": "2026-08-01",

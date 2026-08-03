@@ -1,0 +1,113 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_sergei_sobyanin",
+  "type": "person",
+  "canonical_name": "Sergei Sobyanin",
+  "aliases": [
+    "Sergey Sobyanin",
+    "Moscow Mayor Sergei Sobyanin"
+  ],
+  "wikidata_qid": "Q319497",
+  "summary": "Sergey Semyonovich Sobyanin is a Russian politician, serving as the 3rd mayor of Moscow since 21 October 2010. Sobyanin previously served as the governor of Tyumen Oblast (2001–2005), Head of the presidential administration (2005–2008) and Deputy Prime Minister of Russia.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Sergey_Sobyanin"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Sergey_Sobyanin_2018_official_portrait.jpg/960px-Sergey_Sobyanin_2018_official_portrait.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Sergey_Sobyanin_2018_official_portrait.jpg",
+    "credit": "mos.ru",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Sergey Sobyanin 2018 official portrait.jpg",
+    "fetched_at": "2026-08-03T04:34:47.367980+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "mayor of Moscow",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q319497",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Deputy Chairman of the Government of the Russian Federation",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q319497",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Kremlin Chief of Staff",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q319497",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Governor of Tyumen Oblast",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q319497",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Representative of the Parliamentary Assembly of the Council of Europe",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q319497",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the Federation Council of Russia",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q319497",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He has the federal state civilian service rank of 1st class Active State Councillor of the Russian Federation.",
+      "source_url": "https://en.wikipedia.org/wiki/Sergey_Sobyanin",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-03",
+      "last_updated": "2026-08-03",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_03_europe_002",
+  "appears_in_events": [
+    "evt_2026_08_03_europe_002"
+  ],
+  "created_at": "2026-08-03T04:34:45.530165+00:00",
+  "last_updated": "2026-08-03T04:35:02.178266+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Entity created from evt_2026_08_03_europe_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Sergey_Sobyanin"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikidata Q319497 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q319497"
+    }
+  ]
+}

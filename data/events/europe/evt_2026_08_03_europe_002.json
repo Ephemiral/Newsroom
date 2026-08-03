@@ -1,0 +1,16 @@
+{
+  "cluster_id": "evt_2026_08_03_europe_002",
+  "beat": "europe",
+  "article_ids": [
+    "art_5662358d7c",
+    "art_6b3797f652",
+    "art_9da2e2b712",
+    "art_b5005f4f62",
+    "art_b8095aa2db",
+    "art_bd9bc3a943"
+  ],
+  "created_at": "2026-08-03T04:26:32.352298+00:00",
+  "method": "auto",
+  "threshold": 0.7,
+  "size": 6
+}
