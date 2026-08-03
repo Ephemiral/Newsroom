@@ -1,0 +1,111 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_spain",
+  "type": "organization",
+  "canonical_name": "Spain",
+  "aliases": [
+    "Spanish"
+  ],
+  "wikidata_qid": "Q29",
+  "summary": "Spain, officially the Kingdom of Spain, is a country in Southern and Western Europe with territories in North Africa. Featuring the southernmost point of continental Europe, it is the largest country in Southern Europe and the fourth-most populous European Union (EU) member state.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Spain"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_nato",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q29"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q29"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q29"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_technology_schengen_area",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q29"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Spanning the majority of the Iberian Peninsula, its territory also includes the Canary Islands, in the Eastern Atlantic Ocean; the Balearic Islands, in the Western Mediterranean Sea; and the autonomous cities of Ceuta and Melilla, in mainland Africa.",
+      "source_url": "https://en.wikipedia.org/wiki/Spain",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-03",
+      "last_updated": "2026-08-03",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Peninsular Spain is bordered to the north by France, Andorra, and the Bay of Biscay; to the east and south by the Mediterranean Sea, Gibraltar and Morocco ; and to the west by Portugal and the Atlantic Ocean.",
+      "source_url": "https://en.wikipedia.org/wiki/Spain",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-08-03",
+      "last_updated": "2026-08-03",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "Spain's capital and largest city is Madrid; other major urban areas include Barcelona, Valencia, Zaragoza, Seville, Bilbao, Málaga, Murcia, Palma de Mallorca and Las Palmas.",
+      "source_url": "https://en.wikipedia.org/wiki/Spain",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-08-03",
+      "last_updated": "2026-08-03",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_03_europe_003",
+  "appears_in_events": [
+    "evt_2026_08_03_europe_003"
+  ],
+  "created_at": "2026-08-03T15:52:17.983785+00:00",
+  "last_updated": "2026-08-03T15:52:37.269162+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Entity created from evt_2026_08_03_europe_003",
+      "source": null
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Spain"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Spain"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Spain"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikidata Q29 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q29"
+    }
+  ]
+}

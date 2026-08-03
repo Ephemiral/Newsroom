@@ -1,0 +1,1117 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_08_03_europe_003",
+    "beat": "europe",
+    "title": "Mass Migrant Surge into Ceuta, Spain (July–August 2026)",
+    "summary": "Between 50,000 and 60,000 migrants crossed from Morocco into the Spanish exclave of Ceuta over roughly 24–48 hours in late July 2026, overwhelming local services and triggering a European diplomatic crisis. Most migrants returned to Morocco within days, but the incident sparked intense debate over Spanish immigration policy, Morocco's border conduct, and EU border security.",
+    "date": "2026-07-31",
+    "generated_at": "2026-08-03T15:51:28.452920+00:00",
+    "related_events": [
+      {
+        "cluster_id": "evt_2026_08_03_europe_001",
+        "title": "Mass Migrant Surge Into Ceuta Triggers European Political Crisis"
+      },
+      {
+        "cluster_id": "evt_2026_08_01_europe_001",
+        "title": "Mass Migrant Crossing from Morocco into Spanish Enclave of Ceuta"
+      }
+    ],
+    "entities": [
+      {
+        "entity_id": "ent_person_pedro_sanchez",
+        "surfaces": [
+          "Pedro Sánchez",
+          "Prime Minister Sánchez",
+          "Prime Minister"
+        ],
+        "relevance_to_event": "Prime Minister of Spain who visited Ceuta during the crisis, characterized it as an attack by trafficking networks, and led the Spanish government's response and policy positions on the incident.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_fernando_grande_marlaska",
+        "surfaces": [
+          "Fernando Grande-Marlaska",
+          "Interior Minister"
+        ],
+        "relevance_to_event": "Not mentioned in the report; cannot assess relevance based on provided text.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_019"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_spain",
+        "surfaces": [
+          "Spain",
+          "Spanish"
+        ],
+        "relevance_to_event": "Central actor whose exclave Ceuta was overwhelmed by 50,000-60,000 migrants, whose Supreme Court ruling preceded the crisis, whose regularization program is disputed as a contributing factor, and whose border responses triggered broader EU tensions.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_005",
+            "clm_006",
+            "clm_007",
+            "clm_008",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_morocco",
+        "surfaces": [
+          "Morocco",
+          "Moroccan"
+        ],
+        "relevance_to_event": "Neighboring country from which migrants crossed, disputed for whether it deliberately eased border controls, and whose subsequent enforcement measures (water cannons, tear gas) marked a policy shift; key to the unresolved casualty discrepancies.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_005",
+            "clm_009",
+            "clm_010",
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_european_union",
+        "surfaces": [
+          "EU",
+          "European Union"
+        ],
+        "relevance_to_event": "Regional framework within which the crisis triggered a diplomatic incident, prompted suspension of free movement rules by Italy and increased checks by France, and involved debate among 22+ member states over Spain's immigration policies.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_006",
+            "clm_007",
+            "clm_009",
+            "clm_011",
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_ceuta",
+        "surfaces": [
+          "Ceuta"
+        ],
+        "relevance_to_event": "Spanish exclave that was the direct destination of the mass crossing and experienced overwhelming humanitarian and logistical crisis, with local services overwhelmed and emergency responses deployed.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_006",
+            "clm_007",
+            "clm_011",
+            "clm_013",
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_technology_schengen_area",
+        "surfaces": [
+          "Schengen",
+          "Schengen area",
+          "Schengen free-movement zone"
+        ],
+        "relevance_to_event": "Free movement zone whose rules Italy threatened to suspend and which France increased border checks within, making the Ceuta crisis a test of the system's stability and member state responses.",
+        "relevance_supports": {
+          "claim_ids": [],
+          "source_ids": []
+        },
+        "relevance_grounding": "sources_fallback"
+      },
+      {
+        "entity_id": "ent_organization_algeria",
+        "surfaces": [
+          "Algeria",
+          "Algiers"
+        ],
+        "relevance_to_event": "Country whose warming diplomatic relations with Spain (visit by Sánchez ten days before the crisis) potentially motivated Morocco to trigger the Ceuta surge as retaliation, according to multiple outlets' temporal speculation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-08-03T15:52:53.489176+00:00",
+    "image": null
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Deutsche Welle (DW)",
+      "url": "https://www.dw.com/en/ceuta-most-who-breached-border-have-left-spain-says/live-78191601?maca=en-rss-en-all-1573-xml-mrss",
+      "author": null,
+      "published_at": "2026-08-02T16:47:00+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Politico Europe",
+      "url": "https://www.politico.eu/article/spain-morocco-ceuta-migrant-surge-border-crisis/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "author": "Aitor Hernández-Morales",
+      "published_at": "2026-08-03T11:51:46+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Axel Springer SE (German media conglomerate, majority-owned by KKR since 2019).",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cr7k49p7enjo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-07-31T19:17:09+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Fox News",
+      "url": "https://www.foxnews.com/world/migrant-crisis-pushes-italy-restore-border-checks-spain-testing-europes-open-border-system",
+      "author": null,
+      "published_at": "2026-07-31T20:08:18+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Fox Corporation, controlled by the Murdoch family trust.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "France 24",
+      "url": "https://www.france24.com/en/europe/20260802-spain-ceuta-navigates-aftermath-border-surge-after-most-migrants-return-morocco",
+      "author": "FRANCE 24",
+      "published_at": "2026-08-02T13:04:05+00:00",
+      "bias_rating": "center",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": null,
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "RT News",
+      "url": "https://www.rt.com/news/643727-spain-ceuta-crisis-explainer/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "author": "RT",
+      "published_at": "2026-07-31T15:53:40+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": "Russian state-controlled",
+      "ownership": "Owned and funded by the Russian government (ANO TV-Novosti). Russian state-controlled.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Between 50,000 and 60,000 migrants crossed from Morocco into Ceuta over approximately 24–48 hours in late July 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "scale_of_crossing",
+      "rationale": "Every source across the spectrum—center, center-left, and right—reports a figure in the 50,000–60,000 range, establishing broad cross-spectrum agreement on the scale of the crossing.",
+      "framing_variants": [
+        {
+          "characterization": "States '50,000 to 60,000 migrants entered Ceuta' as fact from Spanish authorities.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes 'a sudden influx of 50,000 migrants' and characterizes the event as an 'attack' per PM Sánchez.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'as many as 60,000 migrants who swam or scrambled their way into Ceuta.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'approximately 60,000 migrants from Morocco entered Ceuta, Spain.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes 'an unprecedented migrant surge that saw up to 60,000 people enter the tiny Spanish exclave from Morocco in just two days.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Russian state-controlled RT reports 'up to 60,000 migrants crossed from Morocco into Spain's North African enclave of Ceuta in roughly 24 hours,' also citing conservative estimates of 30,000–49,000 from Spanish media.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The crossing took place on Thursday and Friday (approximately July 31–August 1, 2026), with the main flow largely stopping by Friday afternoon.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "scale_of_crossing",
+      "rationale": "Multiple outlets across center and center-left tiers confirm the Thursday–Friday timeframe, with RT also noting the flow largely stopped by Friday afternoon.",
+      "framing_variants": [
+        {
+          "characterization": "States migrants 'entered Ceuta on Thursday and Friday.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'the unauthorised arrivals on Thursday and Friday of 50,000 to 60,000.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Russian state-controlled RT notes 'by Friday afternoon, the massive flow appeared to have largely stopped,' though some continued trying to swim in.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Reports the incursion 'in less than 24 hours.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005",
+        "src_006",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Spanish authorities reported at least 72 people died during the crossing; earlier reports cited figures of 57 or 41 deaths; Morocco's count was 11 deaths.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "casualties",
+      "rationale": "Spanish authorities reported at least 72 deaths; BBC and Fox News reported 57; RT reported at least 41; Morocco's Interior Ministry reported 11. These are contradictory official figures from different actors, constituting an actor dispute.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'at least 72 people died' per the Spanish government representative in Ceuta, Miguel Angel Perez; separately notes Morocco counted 11 deaths.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States '88 people died during the cross-border surge'—the highest figure reported across all sources.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'at least 57 people died in the attempt,' noting many appeared to have drowned.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'the death toll among migrants attempting to reach the enclave rose to 57 people.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States 'at least 72 migrants died, including some who drowned and others who were killed in a stampede,' citing Spanish authorities.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Russian state-controlled RT reports 'at least 41 migrants reportedly died,' using the qualifier 'reportedly' and 'allegedly' for stampede deaths.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Deaths occurred by drowning while migrants swam around border barriers, and in a stampede at the Tarajal breakwater barrier.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "Center (DW, France 24) and Russian state-controlled RT all confirm the two main causes of death: drowning and stampede at the breakwater, constituting corroboration across multiple outlets.",
+      "framing_variants": [
+        {
+          "characterization": "States 'some drowned, while others were killed in a stampede at a breakwater barrier and a border fence.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports deaths 'including some who drowned and others who were killed in a stampede to cross a breakwater barrier.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Russian state-controlled RT reports 'many drowned while attempting to swim around the border barriers; others were allegedly killed in a stampede near the Tarajal breakwater,' using 'allegedly' for the stampede deaths.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "The vast majority of migrants returned to Morocco within roughly 48 hours; Spain's Interior Ministry reported 48,300 voluntary returns.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "returns_and_aftermath",
+      "rationale": "Sources across center, center-left, and right tiers all confirm the rapid return of the vast majority of migrants, with Spain's Interior Ministry citing 48,300 voluntary returns.",
+      "framing_variants": [
+        {
+          "characterization": "States 'more than 48,000 were returned to Morocco within 48 hours' and that 'nearly all had walked back to the Moroccan side by Sunday.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports Spain's Foreign Minister stating 'the vast majority of those who entered are already back in Morocco.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports Spain's Interior Ministry said '48,300 people had since voluntarily returned to Morocco, leaving fewer than 2,000 in the territory.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States 'most of the 60,000 migrants had walked back to Morocco by Sunday, while others tried to blend in and stay on.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Spanish Prime Minister Sánchez visited Ceuta on Friday and characterized the crisis as an attack by trafficking networks.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "spanish_government_response",
+      "rationale": "Both Politico Europe (center-left) and BBC (center-left) confirm Sánchez's Friday visit and his characterization of the events.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'while visiting Ceuta on Friday, Sánchez characterized the crisis' as an attack; rushed there to make a public statement.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'Sánchez had rushed to Ceuta on Friday morning' to accuse migrant traffickers of exploiting a recent supreme court decision.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "Spain's Supreme Court ruled in July 2026 that migrants intercepted at sea approaching Ceuta or Melilla could not be immediately returned but must be processed through standard immigration, asylum, and removal procedures.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "legal_and_policy_context",
+      "rationale": "Multiple sources across center, center-left, and right tiers confirm the substance of the Supreme Court ruling and its procedural implications.",
+      "framing_variants": [
+        {
+          "characterization": "States the ruling 'had constrained the government's right to immediately deport people who had arrived by sea.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'a Spanish Supreme Court ruling limiting authorities' ability to summarily return migrants intercepted at sea' and specifies they must go through Spain's 'ordinary immigration, asylum and removal system.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Russian state-controlled RT specifies that the ruling 'asserted that immediate deportation can only apply to migrants crossing land barriers' and those at sea must receive 'legal assistance and the chance to claim asylum.'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Morocco cited the ruling as one factor fueling the surge.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004",
+        "src_006",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The Spanish government attributed the surge to human trafficking networks misrepresenting the Supreme Court ruling as permitting migrants arriving by sea to stay in Spain.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "causes_and_motivations",
+      "rationale": "Sources across center, center-left, and right tiers all report the Spanish government's explanation that traffickers spread a misrepresentation of the court ruling.",
+      "framing_variants": [
+        {
+          "characterization": "States Morocco also cited 'misinformation on social media, human trafficking networks and the Spain court ruling' as causes.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports Sánchez 'accused migrant traffickers of exploiting a recent supreme court decision.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'Sánchez blamed trafficking networks for spreading a false impression that migrants who reached Ceuta by sea would be allowed to stay.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Russian state-controlled RT reports 'the Spanish government claimed the ruling was misrepresented by traffickers' and spread 'like wildfire' through smuggling networks.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Whether Morocco deliberately eased or withdrew border controls to pressure Spain is disputed: Morocco's ambassador and Interior Ministry denied any deliberate involvement, while Spanish Civil Guard sources, Politico Europe reporting, and multiple observers alleged Moroccan border forces stood aside or inexplicably left their posts.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "causes_and_motivations",
+      "rationale": "Morocco's official representatives denied deliberate involvement, while Spanish Civil Guard sources, Politico Europe, BBC, and RT (citing observers and footage) suggested Moroccan forces stood aside or actively facilitated the crossing—a direct actor dispute over a core factual question.",
+      "framing_variants": [
+        {
+          "characterization": "States Moroccan gendarmes 'inexplicably left their posts' during the influx, characterizing the withdrawal as suspicious.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports migrants were 'encouraged by Moroccan border guards' readiness to stand aside' and notes Morocco has previously 'deployed migration pressure as a retaliatory tactic against Spain.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports Morocco's ambassador Karima Benyaich told AP 'the events in Ceuta had unfolded against Rabat's wishes.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Reports migrants said 'authorities did little as they watched thousands of people cross' and described 'a border that was effectively open.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Russian state-controlled RT reports Civil Guard sources 'described Rabat's initial assistance as limited and insufficient'; footage 'showed migrants entering as Moroccan security forces largely remained out of view'; notes Morocco 'vehemently denied its involvement' and blamed criminal trafficking networks.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Morocco's Interior Ministry attributed the surge to social media misinformation, trafficking networks, and the court ruling, without addressing allegations of deliberate inaction.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Morocco eventually reinforced its border, deploying water cannons, tear gas, and warning shots to prevent additional crossings.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "moroccan_response",
+      "rationale": "Fox News (right) and Russian state-controlled RT both confirm Morocco's eventual deployment of water cannons and warning shots, though both are on the same side of the spectrum; no center or center-left source independently corroborates this specific detail.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'Moroccan security forces later used water cannons and warning shots to prevent additional crossings, according to the Associated Press.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Russian state-controlled RT reports Morocco 'deployed water cannons and tear gas, fired warning shots, and moved detained migrants away from the frontier.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Morocco's Interior Ministry counted approximately 40,000 people involved in the Ceuta crossing and reported 11 deaths, far lower than Spain's figures.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "DW and Politico Europe both report Morocco's official figures, which differ substantially from Spain's counts, but these are both center or center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "States Morocco's Interior Ministry reported 'around 40,000 people involved' and '11 people had died'—10 by drowning and one from falling.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Cites Morocco's Interior Ministry Spokesperson Rachid El Khalfi; notes Moroccan authorities 'avoided addressing the Ceuta crisis until late Sunday evening.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Spain's Sánchez government announced a program to regularize undocumented migrants already living in Spain, initially estimated to cover approximately 500,000 people; applications ultimately reached approximately 1 million.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "legal_and_policy_context",
+      "rationale": "Sources across center, center-left, and right tiers confirm this regularization program, though they differ on the scale (500,000 vs. 1.2 million vs. 1 million applications), with cross-spectrum agreement on the program's existence.",
+      "framing_variants": [
+        {
+          "characterization": "Describes 'a plan to provide legal status to up to 500,000 undocumented migrants' as a recent Spanish government announcement.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes Spain 'moving to grant legal status to 1.2 million unauthorized migrants,' citing this as a criticism from EU leaders.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports the government initially estimated 500,000 would qualify; 'applications ultimately reached approximately 1 million'; notes eligibility required living in Spain for at least five months before end of 2025.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Russian state-controlled RT reports 'Spain's recent regularization of around 500,000 undocumented migrants' and frames critics as arguing 'the measure encouraged further illegal entry.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Whether Spain's regularization program and immigration policies contributed to or caused the Ceuta surge is disputed: critics including EU leaders and right-wing parties argue the policies encouraged the surge; the Spanish government and its allies deny this causal link.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "causes_and_motivations",
+      "rationale": "EU leaders, right-wing parties, and critics characterize Spain's immigration policies as a contributing cause; Spain's government and allies reject this framing, constituting an actor dispute present across the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'a plethora of EU leaders and far-right parties slammed Spain for effectively bringing the Ceuta crisis upon itself' through its regularization move.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports Sánchez 'has pursued an immigration-positive agenda, starkly contrasting with the more restrictive attitudes of most EU states.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Presents the regularization program and court ruling as context for the surge without directly attributing causation.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Russian state-controlled RT reports critics 'linked the influx to Spain's recent regularization' and argued it 'encouraged further illegal entry.'",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Presents Spain's rebuttal that it has 'one of the EU's least porous external borders' and irregular entries are half those of Italy.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Italy suspended free movement with Spain for one month and imposed targeted checks on non-EU nationals arriving from Spain by air or sea.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "DW (center), BBC (center-left), and Fox News (right) all confirm Italy's suspension of free movement and its targeted border checks, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Italy has suspended free movement with Spain, even though both are part of the Schengen Area.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes 'Italy talking of suspending Spanish membership of the Schengen open borders regime.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports Italian PM Giorgia Meloni 'said Italy would impose targeted checks on non-EU nationals arriving from Spain by air or sea for one month' and would coordinate with France on the Franco-Italian border.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "France increased checks along its border with Spain in response to the Ceuta crisis.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Fox News and DW both report France increasing border checks with Spain, though France also stated it was not calling for Spain's suspension from Schengen.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'France was increasing checks along its border with Spain, Reuters reported Friday.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Quotes France stating 'we are not asking for Spain's suspension from Schengen,' suggesting France's response was measured despite border reinforcements.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_004",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "22 of the EU's 27 member states sent an open letter calling for an emergency meeting of EU interior ministers and EU-level oversight on national immigration policies.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "DW (center) and Politico Europe (center-left) both confirm the letter from 22 EU member states and the resulting emergency ministerial meeting.",
+      "framing_variants": [
+        {
+          "characterization": "States '22 out of the EU's 27 members demanded a video meeting of the bloc's interior ministers' via an open letter; the meeting was scheduled for Tuesday.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports '22 of the bloc's leaders on Saturday called for EU-level oversight on national policies' and sent letters to the European Commission President, European Council President, and Irish Prime Minister.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Spain installed a 500-meter floating barrier in the waters off Ceuta on Saturday as an emergency response measure.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "spanish_government_response",
+      "rationale": "Only DW reports the installation of the floating barrier in detail; this is a single-source claim for the specific Saturday installation, though it is a center outlet.",
+      "framing_variants": [
+        {
+          "characterization": "States 'on Saturday, authorities installed a 500-meter floating barrier in the waters off Ceuta,' designed to stand 30–70 cm above the waterline and up to 1 meter below it.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Spain deployed soldiers, special police, and additional Civil Guard units to Ceuta in response to the crisis; Madrid initially rejected Ceuta's request to declare a national emergency.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "spanish_government_response",
+      "rationale": "Only Russian state-controlled RT reports both the initial rejection of the national emergency declaration and the subsequent military deployment; this detail is not corroborated by independent outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Russian state-controlled RT reports 'Madrid initially rejected Ceuta's request to declare a national emergency' before 'later deployed soldiers, special police, and additional Civil Guard units.'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Whether Spain's intelligence services adequately warned the government of the impending border crisis is disputed: Interior Minister Grande-Marlaska claimed the National Intelligence Center failed to warn Madrid; intelligence sources told Cadena Ser radio the interior ministry had been warned in advance.",
+      "classification": "single_source",
+      "dispute_type": "actor",
+      "claim_group": "spanish_government_response",
+      "rationale": "Politico Europe reports a direct contradiction between the Interior Minister's public claim of no warning and intelligence sources who told Cadena Ser the ministry had been warned that a mass entry 'could take place at any moment.'",
+      "framing_variants": [
+        {
+          "characterization": "Reports Interior Minister Grande-Marlaska claimed the National Intelligence Center 'had failed to warn Madrid'; separately, intelligence sources quoted by Cadena Ser said the ministry 'had been warned that a mass entry into Ceuta could take place at any moment,' and in July the ministry's own Office for Refugees and Asylum had also warned of the risk.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "The timing of the Ceuta crisis coincided with Prime Minister Sánchez's visit to Algiers ten days earlier, prompting speculation that Morocco deliberately triggered the crisis in response to Spain's diplomatic rapprochement with Algeria.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "causes_and_motivations",
+      "rationale": "Multiple outlets note the temporal proximity between Sánchez's Algiers visit and the crisis and the possible Moroccan motivation, though all frame it as speculation or background context rather than established fact.",
+      "framing_variants": [
+        {
+          "characterization": "Links the crisis to 'Spain's recent rapprochement with Algeria' as a possible Moroccan motivation, within context of Morocco claiming Ceuta and Melilla as occupied territories.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Describes Sánchez's Algiers visit as 'an exercise in diplomatic fence-mending' and frames Morocco's use of migration pressure as a 'retaliatory tactic' with historical precedent.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Russian state-controlled RT states 'the Ceuta crisis erupted ten days' after Sánchez's Algiers visit and presents Spanish-Algeria rapprochement and Spain's worsening relations with Washington as possible triggers speculated by unnamed observers.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "The 2026 Ceuta crossing was approximately six times larger than the May 2021 incident, when Morocco was widely believed to have deliberately eased border controls following a Spanish diplomatic dispute.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "background_and_context",
+      "rationale": "BBC (center-left), Fox News (right), and Russian state-controlled RT all confirm the 2021 precedent involved approximately 10,000 migrants and that the 2026 event was dramatically larger.",
+      "framing_variants": [
+        {
+          "characterization": "States '2021 saw 10,000 break into the territory' and the 2026 influx was 'just a sixth of the number' by comparison; links the 2021 incident to Spain's decision to hospitalize Polisario president Brahim Ghali.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Provides context of the court ruling and Spanish policies as background to the 2026 surge.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006",
+        "src_004"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-08-03T15:52:10.518314+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Between 50,000 and 60,000 migrants crossed from Morocco into the Spanish exclave of Ceuta over approximately 24 to 48 hours in late July 2026. The crossing took place on Thursday and Friday, July 31 and August 1, with the main flow largely stopping by Friday afternoon. The incident represented a massive humanitarian and logistical crisis for the small exclave, overwhelming local services and triggering immediate emergency responses from Spanish authorities.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Spanish authorities reported at least 72 people died during the crossing, though earlier reports cited figures of 57 or 41 deaths. Morocco's Interior Ministry reported a substantially lower count of 11 deaths, and stated that approximately 40,000 people were involved in the crossing. Deaths occurred by drowning as migrants swam around border barriers and in a stampede at the Tarajal breakwater barrier. The significant discrepancy between Spanish and Moroccan casualty figures remained unresolved.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_004",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "The vast majority of migrants returned to Morocco within roughly 48 hours of the crossing. Spain's Interior Ministry reported 48,300 voluntary returns, indicating that most of those who entered Ceuta did not remain in Spanish territory beyond the initial crisis period.",
+        "supports": {
+          "claim_ids": [
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The 2026 Ceuta crossing was approximately six times larger than a May 2021 incident when roughly 10,000 migrants entered Ceuta. In 2021, Morocco was widely believed to have deliberately eased border controls following a diplomatic dispute with Spain over the Spanish hospitalization of a Western Sahara independence leader. The 2021 precedent established a pattern of border tensions between the two countries tied to broader diplomatic frictions.",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Spain's Supreme Court ruled in July 2026 that migrants intercepted at sea approaching Ceuta or Melilla could not be immediately returned to Morocco but must be processed through standard immigration, asylum, and removal procedures. The ruling eliminated the practice of summary maritime returns that Spain had previously used to quickly return migrants intercepted in coastal waters without formal processing. This legal change preceded the mass crossing by only weeks.",
+        "supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "The Spanish government attributed the surge to human trafficking networks that misrepresented the Supreme Court ruling as permitting migrants arriving by sea to stay in Spain. Spanish Prime Minister Pedro Sánchez visited Ceuta on Friday and characterized the crisis as an attack by trafficking networks. According to this account, smugglers spread false information suggesting that the court ruling created a new pathway to legal residence, prompting tens of thousands to attempt the crossing under false pretenses.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "Spain's government under Prime Minister Sánchez had announced a program to regularize undocumented migrants already living in Spain, initially estimated to cover approximately 500,000 people. Applications ultimately reached approximately 1 million, far exceeding initial projections. The regularization program created a broader policy context in which the Ceuta crisis unfolded.",
+        "supports": {
+          "claim_ids": [
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Whether Morocco deliberately eased or withdrew border controls to pressure Spain is disputed. Morocco's ambassador to Spain and the Moroccan Interior Ministry denied any deliberate involvement in facilitating the crossing. However, Spanish Civil Guard sources, reporting from multiple outlets, and observers alleged that Moroccan border forces stood aside or inexplicably left their posts during the surge. Some accounts cited footage and eyewitness reports suggesting Moroccan personnel withdrew from normal positions immediately before the mass crossing began.",
+        "supports": {
+          "claim_ids": [
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The timing of the Ceuta crisis coincided with Prime Minister Sánchez's visit to Algiers ten days earlier, prompting speculation that Morocco deliberately triggered the crisis in response to Spain's diplomatic rapprochement with Algeria. Morocco and Algeria are regional rivals, and Spain's warming relations with Algiers created tension in Madrid's relationship with Rabat. Multiple outlets noted the temporal proximity and possible Moroccan motivation, though this remained speculation rather than confirmed fact.",
+        "supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_006"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Morocco eventually reinforced its border with Ceuta, deploying water cannons, tear gas, and firing warning shots to prevent additional crossings. Right-leaning outlets and Russian state-controlled RT reported these enforcement measures, though center and center-left sources did not independently corroborate the specific details of water cannons and warning shots. The reported escalation in Moroccan border enforcement marked a shift from the initial period when border controls appeared absent or reduced.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "Spain deployed soldiers, special police, and additional Civil Guard units to Ceuta in response to the crisis. Russian state-controlled RT reported that Madrid initially rejected Ceuta's request to declare a national emergency before deploying military reinforcements. This account of the initial rejection was not corroborated by independent outlets across the spectrum.",
+        "supports": {
+          "claim_ids": [
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "Spain installed a 500-meter floating barrier in the waters off Ceuta on Saturday as an emergency response measure. The barrier was designed to prevent migrants from swimming around existing land-based fencing. This installation was reported by center outlet Deutsche Welle, though other outlets did not provide detailed coverage of this specific emergency infrastructure measure.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "Whether Spain's regularization program and immigration policies contributed to or caused the Ceuta surge is disputed. Critics including EU leaders, Italian officials, and right-wing parties across Europe argued that Spain's regularization policies and relatively permissive immigration stance encouraged the surge by creating pull factors for migrants across North Africa and beyond. The Spanish government and its allies rejected this causal link, maintaining that the crisis resulted from criminal trafficking networks spreading misinformation about the Supreme Court ruling, not from Spanish immigration policy choices.",
+        "supports": {
+          "claim_ids": [
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_006"
+          ]
+        },
+        "kind": "contested"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "Italy suspended free movement with Spain for one month and imposed targeted checks on non-EU nationals arriving from Spain by air or sea. France increased checks along its border with Spain, though French officials stated they were not calling for Spain's suspension from the Schengen free-movement zone. These measures represented the most significant internal border controls within the EU in years, reflecting concern that migrants who entered Ceuta might attempt onward movement to other European countries.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "22 of the EU's 27 member states sent an open letter calling for an emergency meeting of EU interior ministers and EU-level oversight on national immigration policies. The letter reflected widespread concern among member states that Spain's unilateral policy decisions were creating spillover effects for the broader Schengen area, undermining the common border framework. The emergency ministerial meeting was convened in response to the letter.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p16",
+        "text": "Whether Spain's intelligence services adequately warned the government of the impending border crisis is disputed. Interior Minister Fernando Grande-Marlaska publicly claimed that the National Intelligence Center failed to warn Madrid of the imminent mass crossing. However, intelligence sources told Spanish radio network Cadena Ser that the interior ministry had been warned in advance that a mass entry 'could take place at any moment.' This dispute over intelligence warnings was reported by center-left outlet Politico Europe, citing Spanish domestic sources, but was not independently corroborated by other outlets in the source set.",
+        "supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

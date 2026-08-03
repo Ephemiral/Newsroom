@@ -1,0 +1,83 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_algeria",
+  "type": "organization",
+  "canonical_name": "Algeria",
+  "aliases": [
+    "Algiers"
+  ],
+  "wikidata_qid": "Q262",
+  "summary": "Algeria, officially the People's Democratic Republic of Algeria, is a country in the Maghreb region of North Africa. Spanning over 2,381,741 square kilometres (919,595 sq mi), it is the largest country in Africa and the tenth largest in the world.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Algeria"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q262"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q262"
+    }
+  ],
+  "facts": [
+    {
+      "text": "It is bordered to the northeast by Tunisia; to the east by Libya; to the southeast by Niger; to the southwest by Mali, Mauritania, and Western Sahara; to the west by Morocco; and to the north by the Mediterranean Sea.",
+      "source_url": "https://en.wikipedia.org/wiki/Algeria",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-03",
+      "last_updated": "2026-08-03",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "With a population of over 47 million, Algeria is the tenth-most populous country in Africa.",
+      "source_url": "https://en.wikipedia.org/wiki/Algeria",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-08-03",
+      "last_updated": "2026-08-03",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_03_europe_003",
+  "appears_in_events": [
+    "evt_2026_08_03_europe_003"
+  ],
+  "created_at": "2026-08-03T15:52:29.058276+00:00",
+  "last_updated": "2026-08-03T15:52:37.270389+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Entity created from evt_2026_08_03_europe_003",
+      "source": null
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Algeria"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Algeria"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikidata Q262 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q262"
+    }
+  ]
+}

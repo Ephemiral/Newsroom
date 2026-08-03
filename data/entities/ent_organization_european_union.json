@@ -1,0 +1,54 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_european_union",
+  "type": "organization",
+  "canonical_name": "European Union",
+  "aliases": [
+    "EU"
+  ],
+  "wikidata_qid": "Q458",
+  "summary": "The European Union (EU) is a political and economic union of 27 member states that are located primarily in Europe. A supranational union with a total area of 4,233,255 km2 (1,634,469 sq mi) and an estimated population of just under 452 million as of 2026, its member states generated a nominal gross domestic product (GDP) of around €18.802 trillion in 2025, accounting for approximately one sixth of global economic output.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/European_Union"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The EU is often described as a sui generis political entity combining characteristics of both a federation and a confederation.",
+      "source_url": "https://en.wikipedia.org/wiki/European_Union",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-03",
+      "last_updated": "2026-08-03",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_03_europe_003",
+  "appears_in_events": [
+    "evt_2026_08_03_europe_003"
+  ],
+  "created_at": "2026-08-03T15:52:22.847801+00:00",
+  "last_updated": "2026-08-03T15:52:37.269652+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Entity created from evt_2026_08_03_europe_003",
+      "source": null
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/European_Union"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikidata Q458 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q458"
+    }
+  ]
+}

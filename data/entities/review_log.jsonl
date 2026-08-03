@@ -212,3 +212,6 @@
 {"kind": "person_grounded", "entity_id": "ent_person_vladlen_tatarsky", "name": "Vladlen Tatarsky", "qid": "Q111433188", "context": "Russian pro-war blogger killed in 2023 bombing; referenced as precedent for explosive attacks on Russian soil", "event_id": "evt_2026_08_03_europe_002", "at": "2026-08-03T04:34:52.361817+00:00"}
 {"kind": "type_conflict", "name": "Balzi Rossi", "existing": "ent_location_balzi_rossi", "candidate_type": "organization", "at": "2026-08-03T04:34:52.362127+00:00"}
 {"kind": "low_confidence_match", "name": "Moscow", "candidates": ["ent_organization_moscow_investigative_committee"], "event_id": "evt_2026_08_03_europe_002", "at": "2026-08-03T04:34:56.024273+00:00"}
+{"kind": "person_grounded", "entity_id": "ent_person_fernando_grande_marlaska", "name": "Fernando Grande-Marlaska", "qid": "Q6746375", "context": "Spanish Interior Minister who disputed whether intelligence services warned of the impending mass crossing", "event_id": "evt_2026_08_03_europe_003", "at": "2026-08-03T15:52:17.983138+00:00"}
+{"kind": "type_conflict", "name": "Morocco", "existing": "ent_location_morocco", "candidate_type": "organization", "at": "2026-08-03T15:52:20.588111+00:00"}
+{"kind": "type_conflict", "name": "Schengen Area", "existing": "ent_technology_schengen_area", "candidate_type": "location", "at": "2026-08-03T15:52:26.512528+00:00"}
