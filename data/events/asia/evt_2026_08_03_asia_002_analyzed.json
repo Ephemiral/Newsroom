@@ -1,0 +1,1097 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_08_03_asia_002",
+    "beat": "asia",
+    "title": "ICRC Representative Meets Detained Aung San Suu Kyi in Myanmar",
+    "summary": "On August 3, 2026, ICRC resident representative Arnaud de Baecque met with detained former Myanmar leader Aung San Suu Kyi in Naypyidaw, marking her first confirmed outside contact in nearly four years. The visit was announced by Myanmar's government spokesperson and confirmed by the ICRC, prompting cautious welcome from Suu Kyi's son and regional diplomats.",
+    "date": "2026-08-03",
+    "generated_at": "2026-08-03T16:08:22.451705+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_person_aung_san_suu_kyi",
+        "surfaces": [
+          "Aung San Suu Kyi",
+          "Suu Kyi"
+        ],
+        "relevance_to_event": "She is the detained former Myanmar leader whose August 3, 2026 ICRC visit is the central subject of this report, marking her first confirmed outside contact in nearly four years.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_006",
+            "clm_007",
+            "clm_009"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_arnaud_de_baecque",
+        "surfaces": [
+          "Arnaud de Baecque"
+        ],
+        "relevance_to_event": "He is the ICRC resident representative who conducted the August 3, 2026 visit with detained Aung San Suu Kyi, the key event reported in this story.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_kim_aris",
+        "surfaces": [
+          "Kim Aris"
+        ],
+        "relevance_to_event": "He is Aung San Suu Kyi's son who responded to the ICRC visit, characterizing it as the first positive development in over five years and calling for further access to verify his mother's condition.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_010",
+            "clm_011",
+            "clm_013"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_min_aung_hlaing",
+        "surfaces": [
+          "Min Aung Hlaing"
+        ],
+        "relevance_to_event": "He is the former junta leader who became Myanmar's president following the military-engineered 2026 election that led to the government's diplomatic re-engagement and the ICRC visit.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_international_committee_of_the_red_cross",
+        "surfaces": [
+          "ICRC",
+          "International Committee of the Red Cross"
+        ],
+        "relevance_to_event": "The ICRC conducted the reported August 3, 2026 visit with Aung San Suu Kyi and stated the visit followed its standard procedures for visiting detained persons, making it the implementing organization of this event.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_political_party_national_league_for_democracy",
+        "surfaces": [
+          "National League for Democracy"
+        ],
+        "relevance_to_event": "Aung San Suu Kyi's party is mentioned as having been sidelined by the military, with her detention and conviction characterized as politically motivated against this organization.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_myanmar",
+        "surfaces": [
+          "Myanmar",
+          "Naypyidaw"
+        ],
+        "relevance_to_event": "Myanmar is the country where the detention, coup, and ICRC visit occurred, and its military government controls access to Aung San Suu Kyi and announced the visit.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_005",
+            "clm_012",
+            "clm_018",
+            "clm_020",
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_association_of_southeast_asian_nations",
+        "surfaces": [
+          "ASEAN",
+          "Association of Southeast Asian Nations"
+        ],
+        "relevance_to_event": "ASEAN is the regional organization that requested access to Aung San Suu Kyi and re-engaged with Myanmar following the 2026 election, providing diplomatic context for the ICRC visit.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_021",
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-08-03T16:09:26.911375+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/20160808_Naypyidaw_9054.jpg/1280px-20160808_Naypyidaw_9054.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/20160808_Naypyidaw_9054.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:20160808_Naypyidaw_9054.jpg",
+      "width": 1200,
+      "height": 795,
+      "caption": "A street in Naypyidaw, Myanmar's capital city (file photo)",
+      "credit": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:20160808 Naypyidaw 9054.jpg",
+      "query": "Naypyidaw Myanmar",
+      "fetched_at": "2026-08-03T16:09:26.911336+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/03/myanmar-detained-former-leader-aung-san-suu-kyi-red-cross",
+      "author": "Natasha May in Bangkok",
+      "published_at": "2026-08-03T11:00:52+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/myanmars-aung-san-suu-kyi-meets-red-cross-official-government-says",
+      "author": null,
+      "published_at": "2026-08-03T04:37:07+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3362767/she-alive-myanmars-suu-kyi-meets-red-cross-official-first-post-coup-visit?utm_source=rss_feed",
+      "author": "Agence France-Presse",
+      "published_at": "2026-08-03T06:59:04+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-08-03T14:20:56+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/08/03/asia-pacific/politics/myanmar-aung-san-suu-kyi-red-cross/",
+      "author": null,
+      "published_at": "2026-08-03T09:24:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Aung San Suu Kyi met with ICRC resident representative Arnaud de Baecque in Naypyidaw on August 3, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "icrc_visit",
+      "rationale": "All five outlets — spanning center-left and center-right — confirm the meeting took place, satisfying the cross-spectrum requirement.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports the ICRC 'confirmed' the visit had occurred, with de Baecque visiting Suu Kyi in Naypyidaw on Monday.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times (center-right) states she 'met Arnaud de Baecque, resident representative of the ICRC to Myanmar, in the capital Naypyitaw' on Aug 3.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "South China Morning Post reports de Baecque 'met Suu Kyi on Monday morning' per the president's office statement.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC describes Suu Kyi as having been 'allowed to meet a delegation from the ICRC.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Japan Times reports a meeting occurred 'on Monday' in Naypyitaw.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The ICRC visit was the first confirmed outside contact with Aung San Suu Kyi in approximately four years, with no foreign leader or envoy having publicly met her since her detention began in 2021.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "icrc_visit",
+      "rationale": "Both center-left BBC and Japan Times and center-right Straits Times corroborate this characterization, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times (center-right) notes this came 'with no foreign leader or envoy having publicly met her.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC frames it as 'her first confirmed meeting with anyone outside the government for nearly four years,' and 'the first confirmed outside contact with her since a letter to her son two and a half years ago.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Japan Times states 'no foreign leader or envoy having publicly met her' prior to Monday.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The ICRC stated the visit was carried out in accordance with its standards and procedures for visiting people deprived of liberty, and included the opportunity for Suu Kyi to speak privately with the delegate.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "icrc_visit",
+      "rationale": "The ICRC's own statement on visit procedures and private access is reported consistently across center-left and center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian quotes the ICRC confirming the visit met its standards 'including the opportunity to speak with Aung San Suu Kyi in private.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times (center-right) quotes the ICRC: 'This included the opportunity to speak with Daw Aung San Suu Kyi in private.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC quotes the ICRC's statement on standards and private access verbatim.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The ICRC stated that its observations and recommendations from detention visits are shared exclusively and confidentially with detaining authorities.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "icrc_visit",
+      "rationale": "Only The Guardian explicitly reported the ICRC's confidentiality policy regarding its findings.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian quotes the ICRC noting that 'observations and recommendations related to the visit are shared exclusively and confidentially with the detaining authorities.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Myanmar government spokesperson Khine Khine Soe announced the ICRC visit via a post on Telegram, releasing four photographs.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "icrc_visit",
+      "rationale": "Two center-left outlets (The Guardian and Japan Times) report the spokesperson's Telegram announcement; both are from the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian notes the announcement came via Telegram from spokesperson Khine Khine Soe, accompanied by four photographs.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Japan Times identifies the announcer as 'government spokeswoman Khine Khine Soe' who posted via Telegram.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Photographs released by the government show Aung San Suu Kyi dressed in traditional Burmese attire in a sparsely furnished, wood-panelled room with two chairs and a desk, meeting with the ICRC representative.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "icrc_visit",
+      "rationale": "Center-left (The Guardian, SCMP) and center-right (Straits Times) outlets all describe the same photographic details, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian describes Suu Kyi 'dressed in traditional Burmese attire' in a 'sparsely furnished, wood-panelled room containing only two chairs and a desk.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times (center-right) describes the same setting with 'a clothes rack and storage boxes visible in the background.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "SCMP reports photos show 'Suu Kyi shaking hands with a man who appears to be de Baecque.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "One photograph released by the government shows Aung San Suu Kyi cutting a birthday cake inscribed with 'Happy Birthday Aunty Suu'; the date on the cake is reported as '19.6.2026' by The Guardian and '29.6.2026' by The Straits Times.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "icrc_visit",
+      "rationale": "Multiple outlets confirm a birthday cake photograph exists, but The Guardian and The Straits Times report different dates inscribed on the cake (19.6.2026 vs. 29.6.2026), creating a factual inconsistency in the reporting.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports the inscription reads 'Happy Birthday Aunty Suu 19.6.2026.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times (center-right) reports the inscription reads 'Happy Birthday Aunty Suu 29.6.2026.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "SCMP reports the cake text as 'Happy Birthday Aunty Suu' without specifying the date.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Reuters was not able to independently verify the location and date when the released photographs were taken, and no earlier version of the pictures was found posted online before August 3.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "icrc_visit",
+      "rationale": "Only The Straits Times included Reuters' verification caveat about the photographs.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times (center-right) notes Reuters' caveat that it 'was not able to independently verify the location and the date when the pictures were taken,' while also noting no earlier version was found online.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Kim Aris, Aung San Suu Kyi's son, described the ICRC visit as 'the first positive development concerning her in more than five years' and called it a potential 'first step' that 'must not be the last.'",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "family_and_diplomatic_reaction",
+      "rationale": "Center-left (The Guardian, BBC) and center-right (Straits Times) outlets all report Kim Aris's welcome statement, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian quotes Kim Aris calling it 'the first positive development concerning her in more than five years.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times (center-right) adds his quote: 'This may be a first step, but it must not be the last.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC reports Kim Aris 'welcomed the news, saying the pictures appear real and his mother seemed to be in good health.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "Kim Aris stated he has not yet received independent confirmation of his mother's condition or well-being, and previously told Reuters in December 2025 that he had received only sporadic, second-hand details about her heart, bone, and gum problems and had not heard from her in years.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "family_and_diplomatic_reaction",
+      "rationale": "The Straits Times and BBC both report Kim Aris's statements about limited information and lack of contact, but both are center-left/center-right within a narrow band and the detailed December 2025 account appears only in Straits Times.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times (center-right) details Kim Aris's December 2025 Reuters statement about 'sporadic, second-hand details about his mother's heart, bone and gum problems' and not having heard from her in years.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC notes Kim Aris 'has in recent months mounted an international campaign demanding proof of life.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Kim Aris had recently demanded the ruling junta provide proof of life for his mother before the ICRC visit occurred.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "family_and_diplomatic_reaction",
+      "rationale": "Both The Guardian and BBC (both center-left) report Kim Aris's proof-of-life campaign, but no cross-spectrum source is added.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian states Kim Aris 'had recently demanded the ruling junta provide proof of life.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "BBC describes him as having 'mounted an international campaign demanding proof of life.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Myanmar's military-backed administrations have repeatedly claimed Aung San Suu Kyi is in good health; the BBC asserts the military has never provided convincing evidence of this before the ICRC visit.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "detention_conditions_and_health",
+      "rationale": "Multiple outlets report the military's health claims; BBC alone adds the editorial judgment that convincing evidence was never provided. All outlets are center-left or center-right but the framing differences are notable.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian states the military has 'repeatedly claimed she is in good health.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times (center-right) reports the same claim without additional commentary.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC frames these as 'repeated assurances' while asserting 'they have never provided convincing evidence of this.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "A photograph of Aung San Suu Kyi was shown on military-controlled TV in April; Kim Aris told the BBC that image was taken years ago.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "detention_conditions_and_health",
+      "rationale": "Only The Guardian reports the military-controlled TV photograph and Kim Aris's claim that it was taken years ago.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian notes that when a photograph of Suu Kyi was shown on military-controlled TV, 'Aris told the BBC the image was taken years ago.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Little has been publicly seen or heard of Aung San Suu Kyi since late 2022, and her exact whereabouts and health conditions have been difficult to determine since the 2021 coup.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "detention_conditions_and_health",
+      "rationale": "The Guardian and Japan Times both characterize the difficulty of obtaining information about Suu Kyi since her detention, though both are center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian states 'little has been seen or heard of Aung San Suu Kyi since late 2022.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Japan Times notes 'Suu Kyi's exact whereabouts and health conditions have been difficult to determine' since February 2021.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "In late April 2026, following a military-engineered election, authorities said Aung San Suu Kyi had been moved to house arrest.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "detention_conditions_and_health",
+      "rationale": "Multiple outlets spanning center-left and center-right confirm this change in detention status, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian frames the house arrest announcement as following 'a military-engineered election.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times (center-right) reports the same, noting Min Aung Hlaing became president via that election.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC states her 'sentence has been reduced and she has been moved to house arrest.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "SCMP states she 'was moved to house arrest after Min Aung Hlaing said he had commuted the rest of her sentence.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Aung San Suu Kyi was initially sentenced to 33 years following the 2021 coup; the sentence was later reduced to 27 years, then further cut by one-sixth in April 2026, leaving approximately 18 years to serve.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "legal_proceedings",
+      "rationale": "Both the center-right Straits Times and center-left BBC report the sentencing history and reductions, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times (center-right) provides the full sequence: 'sentenced to 33 years… reduced to 27 years… further cut by one-sixth in April… leaving her with 18 years still to serve.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC states she was 'sentenced to 33 years in jail, though her sentence has been reduced.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Aung San Suu Kyi was convicted of charges including corruption, inciting election fraud, and violating state secrecy rules; her allies characterize the charges as politically motivated to sideline her, while rights groups say they were concocted to sideline her and the National League for Democracy.",
+      "classification": "agreed",
+      "dispute_type": "actor",
+      "claim_group": "legal_proceedings",
+      "rationale": "Multiple outlets report both the official charges and the counter-characterization by allies and rights groups, surfacing the underlying dispute between the military government and Suu Kyi's supporters over the legitimacy of her prosecution.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times (center-right) lists the charges and notes 'her allies maintain the charges were politically motivated and aimed at sidelining Suu Kyi.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "SCMP attributes the critique to 'rights groups' who 'say were concocted to sideline her and her popular National League for Democracy party.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC states she was 'sentenced to 33 years in jail' as background without detailing the charges.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Myanmar's military ousted Aung San Suu Kyi's elected civilian government in a coup in February 2021, after which she was detained.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "background_coup_and_conflict",
+      "rationale": "All five outlets confirm the February 2021 military coup and Suu Kyi's subsequent detention as established historical fact, across center-left and center-right sources.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian describes 'the elected civilian government she led was ousted by a military coup in February 2021.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times (center-right) calls it 'a dawn coup.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "SCMP notes the coup triggered 'an ongoing civil war that has killed more than 100,000 people on all sides.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "BBC states she 'was detained shortly after the armed forces deposed her government.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Japan Times describes the coup as 'plunging the impoverished Southeast Asian nation into turmoil.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The civil war triggered by the 2021 coup has killed more than 100,000 people on all sides.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "background_coup_and_conflict",
+      "rationale": "Only SCMP provides a specific death toll figure for the ongoing civil war.",
+      "framing_variants": [
+        {
+          "characterization": "SCMP states the coup triggered 'an ongoing civil war that has killed more than 100,000 people on all sides.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "A military-engineered election in early 2026 allowed former junta leader Min Aung Hlaing to become Myanmar's president; the election was widely criticized as a sham but led to diplomatic re-engagement with ASEAN.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "background_coup_and_conflict",
+      "rationale": "Center-left (The Guardian, BBC) and center-right (Straits Times) outlets all report the election result and its diplomatic consequences, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian describes it as 'a military-engineered election' that 'was largely criticised as a sham' but 'led to diplomatic re-engagement with ASEAN.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times (center-right) reports the same electoral outcome without the 'sham' framing.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "BBC calls it an 'election held earlier this year' while noting the government is 'still headed by coup leader Min Aung Hlaing' and 'dominated by the military.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Myanmar's Myanmar foreign minister met ASEAN counterparts in Bangkok in July 2026 following the re-engagement; Thailand's foreign minister Sihasak Phuangketkeow called for access to Suu Kyi to verify health claims.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Both center-left (The Guardian) and center-right (Straits Times) report the Bangkok ASEAN meeting and Thailand's call for access, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian reports Thailand's FM called for access 'so that we can be able to verify the claims' of her good health.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times (center-right) adds that Sihasak told ST on August 3 that the Myanmar regime 'seems to be listening to our repeated urging that we need more positive developments on The Lady.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "The Philippines made a request in May 2026 for an ASEAN special envoy to be allowed to visit Aung San Suu Kyi.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Both center-left (The Guardian) and center-right (Straits Times) report the Philippines' May request, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian refers to 'a May request by the Philippines to allow an Asean special envoy to visit her.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times (center-right) likewise reports the Philippine request for an ASEAN envoy visit.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "The Myanmar military-backed administration has been reluctant to provide access to Aung San Suu Kyi prior to the ICRC visit.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Both The Guardian (center-left) and The Straits Times (center-right) characterize the administration as having been reluctant to provide access, spanning the political spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "The Guardian states 'the new military-backed administration had so far been reluctant to provide access.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "The Straits Times (center-right) uses nearly identical language about reluctance to provide access.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "The Myanmar government is trying to end its diplomatic isolation through official visits to neighbouring countries, but the military has so far rejected international demands to end aerial bombardment of opposition-held areas, start negotiations to end the civil war, and release Aung San Suu Kyi.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only BBC explicitly lists these three international demands and the military's rejection of them as a combined characterization of the diplomatic situation.",
+      "framing_variants": [
+        {
+          "characterization": "BBC frames the ICRC visit within the context of Myanmar's diplomacy drive, noting the military 'has so far rejected' calls to end bombardment, start peace talks, and release Suu Kyi.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "Aung San Suu Kyi was previously held under house arrest for a total of 15 years under a previous military junta at her family residence on Yangon's Inya Lake, where she gave speeches to supporters over the metal gates.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "background_coup_and_conflict",
+      "rationale": "Only The Straits Times provides this historical background about Suu Kyi's previous detention under an earlier junta.",
+      "framing_variants": [
+        {
+          "characterization": "The Straits Times (center-right) recounts Suu Kyi's prior 15-year house arrest and her famous speeches to supporters over the gates of her Yangon residence.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-08-03T16:08:51.091342+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "On August 3, 2026, Aung San Suu Kyi met with Arnaud de Baecque, the resident representative of the International Committee of the Red Cross (ICRC), in Naypyidaw. The visit marked the first confirmed outside contact with Myanmar's detained former leader in approximately four years, with no foreign leader or envoy having publicly met her since her detention began in 2021.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "The ICRC stated the visit was carried out in accordance with its standards and procedures for visiting people deprived of liberty, and included the opportunity for Suu Kyi to speak privately with the delegate. Photographs released by the government show Suu Kyi dressed in traditional Burmese attire in a sparsely furnished, wood-panelled room with two chairs and a desk, meeting with the ICRC representative.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Myanmar's military ousted Aung San Suu Kyi's elected civilian government in a coup in February 2021, after which she was detained. She was initially sentenced to 33 years following the coup; the sentence was later reduced to 27 years, then further cut by one-sixth in April 2026, leaving approximately 18 years to serve. In late April 2026, following a military-engineered election, authorities said Suu Kyi had been moved from prison to house arrest.",
+        "supports": {
+          "claim_ids": [
+            "clm_018",
+            "clm_016",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Suu Kyi was convicted of charges including corruption, inciting election fraud, and violating state secrecy rules. Her allies and international rights groups characterize the charges as politically motivated and concocted to sideline her and the National League for Democracy, a characterization that Myanmar's military government disputes.",
+        "supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "The military-engineered election in early 2026 allowed former junta leader Min Aung Hlaing to become Myanmar's president. The election was widely criticized as a sham but led to diplomatic re-engagement with the Association of Southeast Asian Nations (ASEAN).",
+        "supports": {
+          "claim_ids": [
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Kim Aris, Suu Kyi's son, described the ICRC visit as \"the first positive development concerning her in more than five years\" and called it a potential \"first step\" that \"must not be the last.\" He stated he has not yet received independent confirmation of his mother's condition or well-being.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The Philippines made a request in May 2026 for an ASEAN special envoy to be allowed to visit Suu Kyi. Myanmar's foreign minister subsequently met ASEAN counterparts in Bangkok in July 2026 following the re-engagement; Thailand's foreign minister Sihasak Phuangketkeow called for access to Suu Kyi to verify health claims. The Myanmar military-backed administration had been reluctant to provide access to Suu Kyi prior to the ICRC visit.",
+        "supports": {
+          "claim_ids": [
+            "clm_022",
+            "clm_021",
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Center-left outlets reported that Myanmar government spokesperson Khine Khine Soe announced the ICRC visit via a post on Telegram, releasing four photographs. Center-left and center-right sources characterized Myanmar's military-backed administrations as having repeatedly claimed Suu Kyi is in good health, though the BBC noted the military had never provided convincing evidence of this before the ICRC visit.",
+        "supports": {
+          "claim_ids": [
+            "clm_005",
+            "clm_012"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "Among the photographs released was one showing Suu Kyi cutting a birthday cake inscribed with \"Happy Birthday Aunty Suu.\" The Guardian reported the date on the cake as \"19.6.2026,\" while The Straits Times reported it as \"29.6.2026,\" creating uncertainty about the precise date depicted in the image.",
+        "supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "Center-left outlets reported that little has been publicly seen or heard of Suu Kyi since late 2022, and that her exact whereabouts and health conditions have been difficult to determine since the 2021 coup. These same outlets reported that Kim Aris had recently demanded the ruling junta provide proof of life for his mother before the ICRC visit occurred.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "The Guardian reported that a photograph of Suu Kyi was shown on military-controlled television in April, but that Kim Aris told the BBC that image was taken years ago. The Straits Times noted that Reuters was not able to independently verify the location and date when the August 3 photographs were taken, and no earlier version of the pictures was found posted online before that date.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "The Guardian alone reported that the ICRC stated its observations and recommendations from detention visits are shared exclusively and confidentially with detaining authorities, meaning the organization's assessment of Suu Kyi's condition will not be made public.",
+        "supports": {
+          "claim_ids": [
+            "clm_004"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p13",
+        "text": "The Straits Times provided historical context, noting that Suu Kyi was previously held under house arrest for a total of 15 years under an earlier military junta at her family residence on Yangon's Inya Lake, where she gave speeches to supporters over the metal gates.",
+        "supports": {
+          "claim_ids": [
+            "clm_025"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p14",
+        "text": "The South China Morning Post reported that the civil war triggered by the 2021 coup has killed more than 100,000 people on all sides, a death toll figure not corroborated by other outlets in this analysis.",
+        "supports": {
+          "claim_ids": [
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_003"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p15",
+        "text": "The BBC alone characterized the Myanmar government as trying to end its diplomatic isolation through official visits to neighbouring countries, while noting that the military has so far rejected international demands to end aerial bombardment of opposition-held areas, start negotiations to end the civil war, and release Aung San Suu Kyi.",
+        "supports": {
+          "claim_ids": [
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

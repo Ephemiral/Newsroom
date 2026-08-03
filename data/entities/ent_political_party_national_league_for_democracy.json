@@ -1,0 +1,35 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_political_party_national_league_for_democracy",
+  "type": "political_party",
+  "canonical_name": "National League for Democracy",
+  "aliases": [],
+  "wikidata_qid": "Q849603",
+  "summary": "The National League for Democracy is a deregistered liberal democratic political party in Myanmar. It became the country's ruling party after a landslide victory in the 2015 general election but was overthrown in a coup d'état in February 2021 following another landslide election victory in 2020.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/National_League_for_Democracy"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_03_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_03_asia_002"
+  ],
+  "created_at": "2026-08-03T16:09:04.999665+00:00",
+  "last_updated": "2026-08-03T16:09:13.751691+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Entity created from evt_2026_08_03_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikidata Q849603 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q849603"
+    }
+  ]
+}

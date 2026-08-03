@@ -1,0 +1,63 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_international_committee_of_the_red_cross",
+  "type": "organization",
+  "canonical_name": "International Committee of the Red Cross",
+  "aliases": [
+    "ICRC"
+  ],
+  "wikidata_qid": "Q5987345",
+  "summary": "The International Committee of the Red Cross (ICRC) is a humanitarian aid organization based in Geneva, Switzerland, and is a three-time Nobel Prize laureate. The organization has played an instrumental role in the development of rules of war and promoting humanitarian norms.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/International_Committee_of_the_Red_Cross"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/International_Committee_of_the_Red_Cross%2C_Geneva_%2846907115094%29.jpg/960px-International_Committee_of_the_Red_Cross%2C_Geneva_%2846907115094%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:International_Committee_of_the_Red_Cross,_Geneva_(46907115094).jpg",
+    "credit": "Torbjorn Toby Jorgensen",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:International Committee of the Red Cross, Geneva (46907115094).jpg",
+    "fetched_at": "2026-08-03T16:09:04.998550+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "An international non-governmental organization, it has responsibility for promoting and ensuring respect for the four 1949 Geneva Conventions for the Protection of War Victims: the Convention for the Amelioration of the Wounded and Sick in Armed Forces in the Field; the Convention for the Amelioration of the Condition of the Wounded, Sick, and Shipwrecked Members of Armed Forces at Sea; The Convention relative to the Treatment of Prisoners of War; and the Convention relative to the Protection of Civilian Persons in Time of War.",
+      "source_url": "https://en.wikipedia.org/wiki/International_Committee_of_the_Red_Cross",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-03",
+      "last_updated": "2026-08-03",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_03_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_03_asia_002"
+  ],
+  "created_at": "2026-08-03T16:09:02.631204+00:00",
+  "last_updated": "2026-08-03T16:09:13.751509+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Entity created from evt_2026_08_03_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/International_Committee_of_the_Red_Cross"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikidata Q5987345 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q5987345"
+    }
+  ]
+}

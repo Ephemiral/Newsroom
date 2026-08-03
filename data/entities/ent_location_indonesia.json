@@ -1,0 +1,92 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_indonesia",
+  "type": "location",
+  "canonical_name": "Indonesia",
+  "aliases": [
+    "Indonesian"
+  ],
+  "wikidata_qid": "Q252",
+  "summary": "Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania, between the Indian and Pacific oceans. Comprising about 17,000 islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea, Indonesia is the world's largest archipelagic state and the 14th-largest country by area, at 1,904,569 square kilometres.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Indonesia"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Indonesian_Culture.jpg/960px-Indonesian_Culture.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Indonesian_Culture.jpg",
+    "credit": "Tari_Pendet.jpg: Christopher Michel from San Francisco, USA\nGaruda Pancasila.jpg : Gunkarta\nBorobudur-Nothwest-view.jpg: Gunkarta\nTMII Rumah Gadang West Sumatra.JPG : Gunkarta\nSate Hati Kambing.JPG: Gunkarta\nPapuan Dance from Yapen.jpg: Gunkarta\nCOLLECTIE TROPENMUSEUM Papieren wajangpop voorstellende Arjuna (kinderspeelgoed) TMnr 809-46c.jpg :Tropenmuseum\nCOLLECTIE TROPENMUSEUM Metallofoon met zes toetsen onderdeel van gamelan Semar Pagulingan TMnr 1340-34.jpg :Tropenmuseum\nCOLLECTIE TROPENMUSEUM Kris zonder schede TMnr A-3443.jpg:Tropenmuseum\nCOLLECTIE TROPENMUSEUM Langwerpige houten plank versierd met uitgesneden en beschilderde motieven TMnr 4117-38.jpg:Tropenmuseum\nCOLLECTIE TROPENMUSEUM Katoenen wikkelrok met geometrisch patroon TMnr 5713-2.jpg:Tropenmuseum\nMeuseujid Raya Bayturrahman.JPG:Si Gam Acèh\nAngklung.jpg:Original uploader was M0ffia at nl.wikipedia\nNasi Kuning.jpg:miss_yasmina\nBamboofabric.gif:Peggy Reeves Sanday\nderivative work: Gunkarta",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Indonesian Culture.jpg",
+    "fetched_at": "2026-08-03T16:05:13.925566+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q252"
+    },
+    {
+      "type": "member_of",
+      "entity_id": "ent_organization_interpol",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q252"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Indonesia has significant areas of wilderness that support one of the world's highest levels of biodiversity.",
+      "source_url": "https://en.wikipedia.org/wiki/Indonesia",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-03",
+      "last_updated": "2026-08-03",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "It shares land borders with Papua New Guinea, Timor-Leste, and Malaysia, as well as maritime borders with seven other countries, including Australia, Singapore, and the Philippines.",
+      "source_url": "https://en.wikipedia.org/wiki/Indonesia",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-08-03",
+      "last_updated": "2026-08-03",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_03_asia_001",
+  "appears_in_events": [
+    "evt_2026_08_03_asia_001"
+  ],
+  "created_at": "2026-08-03T16:05:11.330179+00:00",
+  "last_updated": "2026-08-03T16:05:17.701055+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Entity created from evt_2026_08_03_asia_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Indonesia"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Indonesia"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikidata Q252 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q252"
+    }
+  ]
+}

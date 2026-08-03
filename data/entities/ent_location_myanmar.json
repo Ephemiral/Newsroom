@@ -4,7 +4,8 @@
   "type": "location",
   "canonical_name": "Myanmar",
   "aliases": [
-    "Myanmar's coast"
+    "Myanmar's coast",
+    "Naypyidaw"
   ],
   "wikidata_qid": "Q836",
   "summary": "Myanmar, officially the Republic of the Union of Myanmar and also referred to as Burma, is a country in northwest Southeast Asia. It is the largest country by area in Mainland Southeast Asia and has a population of about 55 million.",
@@ -63,10 +64,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_07_16_asia_003",
   "appears_in_events": [
-    "evt_2026_07_16_asia_003"
+    "evt_2026_07_16_asia_003",
+    "evt_2026_08_03_asia_002"
   ],
   "created_at": "2026-07-16T15:08:14.066115+00:00",
-  "last_updated": "2026-07-16T15:08:40.769258+00:00",
+  "last_updated": "2026-08-03T16:09:13.751887+00:00",
   "change_log": [
     {
       "date": "2026-07-16",

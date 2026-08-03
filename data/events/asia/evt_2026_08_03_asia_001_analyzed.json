@@ -1,0 +1,1081 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_08_03_asia_001",
+    "beat": "asia",
+    "title": "Indonesian Ferry KMP Mutiara Sentosa 2 Fire off Madura Island",
+    "summary": "The Indonesian ferry KMP Mutiara Sentosa 2 caught fire on August 2, 2026, while sailing from Surabaya in East Java to Makassar in South Sulawesi. At least five people were killed, dozens were rescued, and an uncertain number of passengers remained missing as search operations continued into August 3.",
+    "date": "2026-08-02",
+    "generated_at": "2026-08-03T16:04:41.400612+00:00",
+    "related_events": [
+      {
+        "cluster_id": "evt_2026_08_02_asia_002",
+        "title": "Indonesian Ferry KMP Mutiara Sentosa 2 Fire off Madura Island"
+      }
+    ],
+    "entities": [
+      {
+        "entity_id": "ent_technology_kmp_mutiara_sentosa_2",
+        "surfaces": [
+          "KMP Mutiara Sentosa 2"
+        ],
+        "relevance_to_event": "The ferry that caught fire on August 2, 2026, which is the central subject of this incident report.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_surabaya",
+        "surfaces": [
+          "Surabaya",
+          "Port of Gapura Surya Nusantara in Surabaya"
+        ],
+        "relevance_to_event": "The departure port from which the ferry sailed and the location where rescued passengers were brought back on August 3.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002",
+            "clm_003",
+            "clm_009",
+            "clm_018",
+            "clm_024"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_makassar",
+        "surfaces": [
+          "Makassar"
+        ],
+        "relevance_to_event": "The intended destination port of the ferry when the fire occurred during its voyage.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_002"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_madura_island",
+        "surfaces": [
+          "Madura island",
+          "Madura"
+        ],
+        "relevance_to_event": "The geographic reference point near where the fire broke out, located approximately 35 km north of Sapudi island.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_011"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_basarnas",
+        "surfaces": [
+          "Basarnas"
+        ],
+        "relevance_to_event": "The organization to which the captain reported the fire before losing contact with the vessel.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_indonesian_navy",
+        "surfaces": [
+          "Indonesian navy"
+        ],
+        "relevance_to_event": "Military ships that assisted in rescuing passengers and conducting search operations at the incident scene.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_indonesia",
+        "surfaces": [
+          "Indonesia",
+          "Indonesian"
+        ],
+        "relevance_to_event": "The country where the incident occurred, with systemic issues including lax maritime safety standards and manifest discrepancies that affected this specific rescue operation.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_010",
+            "clm_017",
+            "clm_021",
+            "clm_025"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "thread_id": "thr_kmp_mutiara_sentosa_2_ferry_fire",
+    "image_attempted_at": "2026-08-03T16:05:32.099094+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ASDP_Indonesia_Ferry_-_panoramio.jpg/1280px-ASDP_Indonesia_Ferry_-_panoramio.jpg",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ASDP_Indonesia_Ferry_-_panoramio.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:ASDP_Indonesia_Ferry_-_panoramio.jpg",
+      "width": 1200,
+      "height": 900,
+      "caption": "An ASDP Indonesia Ferry (file photo)",
+      "credit": "Akhmad Fauzi",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:ASDP Indonesia Ferry - panoramio.jpg",
+      "query": "Indonesian passenger ferry",
+      "fetched_at": "2026-08-03T16:05:32.099052+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdGoyTmlaMkQ2MHlhSzRmQk9VS0RsZEZ5Y2NETmZPNDdyMjBfWWk2aHRSVnI0RlJpNkpCYWpMWUd2WDlPX0RqRE5lWGpOa0ttcFRidlZWdkdFdm5TTG82MGRlZGtEdzJQT2QwaXVRR1gyaTM5SWJHaTZLVk1leEtacEFmbkdWU3pmT0dtZVU1RWtYLWtTODZqdXVvTUt1cWN6YkNVZVBUaHdpMWU10gGyAUFVX3lxTE9GRTlPb0dYamVTcW95RTVMSkg2cUpFME8zaVR2UXItaXZXbmFzTElEbThnX1VGWkpHTm9vUTVzWHNaWjBGSFJUNzUybFlCcUdpYzBPanI4NEJJVzJxZm5kUVRHZVFUSzk3RkJXYW9LQ0VoZnZ6TTFfSlZsY3ptcS1SRm0wWGRXVEdLT211c2VyMjNxaTliTmhURjhDeFp2VTh4R0xVVXNrWTRRMHI0RXFCNkE?oc=5",
+      "author": null,
+      "published_at": "2026-08-02T15:55:13+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3362832/unknown-number-people-missing-after-indonesian-ferry-fire-kills-5?utm_source=rss_feed",
+      "author": "Associated Press",
+      "published_at": "2026-08-03T13:38:04+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/five-dead-41-missing-after-indonesian-ferry-catches-fire",
+      "author": null,
+      "published_at": "2026-08-02T09:51:52+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-08-02T11:49:40+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/survivors-recall-blasts-before-deadly-indonesian-ferry-fire",
+      "author": null,
+      "published_at": "2026-08-03T08:50:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/se-asia/rescuers-search-for-28-missing-after-ferry-catches-fire-in-indonesias-madura-island",
+      "author": null,
+      "published_at": "2026-08-03T06:57:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "An Indonesian passenger ferry named KMP Mutiara Sentosa 2 caught fire at sea on August 2, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "All six sources, spanning left, center-left, and center-right outlets, confirm the basic fact of the ferry fire on August 2, 2026.",
+      "framing_variants": [
+        {
+          "characterization": "Framed as a headline breaking-news event: 'ferry catches fire off Indonesia'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports the fire as a confirmed fact, dating the event precisely to Aug 2.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Identifies the vessel as 'KMP Mutiara Sentosa 2' and notes the captain reported the fire to Basarnas.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Notes that survivors heard multiple blasts moments before the vessel caught fire.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Locates the fire off Madura island, describing it as occurring before an ongoing search operation on Aug 3.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Names the vessel 'Mutiara Sentosa 2' and notes the fire occurred the day before Monday (Aug 3).",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The ferry was sailing from Surabaya in East Java to Makassar in South Sulawesi when it caught fire.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Sources from left-leaning (SCMP), center-left (BBC), and center-right (Straits Times) outlets all confirm the same ferry route.",
+      "framing_variants": [
+        {
+          "characterization": "Describes Surabaya as 'Indonesia's second-largest city in East Java' and Makassar as being 'in South Sulawesi'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Straightforwardly states the route as Surabaya in East Java to Makassar in South Sulawesi.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes Surabaya as 'the country's second-largest city'.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States the ferry left Surabaya for Makassar on Sulawesi island on the morning of Aug 2.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Confirms route from Surabaya in East Java province to Makassar city in South Sulawesi.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "The fire broke out between approximately 06:00 and 07:00 local time, with the Surabaya Search and Rescue office receiving notification of the fire at 08:24 local time (02:24 GMT).",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Two center-left outlets (SCMP and BBC) report the same timeline, drawing on information from the shipping company and Basarnas respectively, but no center-right source provides the same level of timing detail.",
+      "framing_variants": [
+        {
+          "characterization": "States the fire broke out 'between 6am and 7am' based on the shipping company's account.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports that Basarnas received information at 08:24 local time, and attributes the 06:00–07:00 fire start time to the shipping company.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "The fire broke out while passengers were eating breakfast, with smoke entering the information room and sleeping quarters before explosions occurred; the blaze originated in the stern.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Only The Straits Times (Aug 3) reported these specific survivor details about the sequence of events and the fire's point of origin.",
+      "framing_variants": [
+        {
+          "characterization": "Attributes the account to survivor Muhammad Abdul Karim, citing smoke, then explosions, and noting the blaze originated in the stern.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Survivors reported hearing multiple blasts moments before the vessel caught fire.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Only one Straits Times article reports the survivor accounts of pre-fire blasts; no other source corroborates this detail.",
+      "framing_variants": [
+        {
+          "characterization": "Leads with the detail that survivors 'heard multiple blasts moments before the vessel caught fire'.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "Five people were confirmed killed in the ferry fire.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "All six sources across left, center-left, and center-right outlets consistently report five confirmed deaths.",
+      "framing_variants": [
+        {
+          "characterization": "States 'at least five dead' in headline summary.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'killing five people'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'five people have been found dead'.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Notes 'five bodies were also recovered' alongside the rescued count.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States 'five confirmed dead' in summary figures.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Describes 'at least five people dead'.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "The number of missing passengers fluctuated across official reports: the initial official figure given on August 2 was 41 missing; by August 3, one East Java police official reported approximately 28 missing, while a Straits Times article on August 3 used 28 as its working figure.",
+      "classification": "contested",
+      "dispute_type": "actor",
+      "claim_group": "casualties",
+      "rationale": "Different officials at different points in time gave conflicting counts of the missing; The Straits Times explicitly noted that 'numbers provided by officials have fluctuated wildly', making this an actor-level dispute between official sources.",
+      "framing_variants": [
+        {
+          "characterization": "Reports '41 missing' as the headline figure.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 41 missing as of early August 2 reporting.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 41 missing, citing officials.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Notes the Aug 2 figure was 41 missing, but by Aug 3 an East Java police official told Kompas TV 'some 28 people were still missing'; explicitly states official numbers 'fluctuated wildly'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Uses the figure of 28 still missing as of Aug 3, consistent with the updated police figure.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The number of people rescued also varied across sources and updates: figures reported ranged from 225 to 238.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "Multiple center-right Straits Times articles and SCMP report varying rescue figures (225, 229, 231, 238) reflecting evolving official counts at different points in the operation rather than a factual dispute.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 225 rescued as of early August 2, citing the Surabaya Search and Rescue Agency.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 231 rescued as of Monday (Aug 3).",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 229 rescued as per the search and rescue agency head, as of Aug 3 reporting.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Reports 238 rescued as of Aug 3, the highest figure in the cluster.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "The total number of people aboard when the ferry left Surabaya was uncertain; initial manifests stated 271 including 39 crew, while updated official figures ranged from 236 to 250-plus, with officials acknowledging more people were aboard than listed on the manifest.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "casualties",
+      "rationale": "Multiple sources report both the initial manifest figure and the subsequent acknowledgement of a discrepancy, consistently describing the passenger count as uncertain.",
+      "framing_variants": [
+        {
+          "characterization": "Reports initial count of 271 including 39 crew, but notes officials later said 'many more people were aboard than listed'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States the ferry was 'carrying at least 250 people'.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Cites the search and rescue agency head as saying 236 people were aboard when it left Surabaya.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States the ferry was 'carrying 271 passengers', using the manifest figure.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "In Indonesia, it is common for the actual number of passengers on a ferry to differ from the manifest, which can complicate search and rescue efforts.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "maritime_safety_context",
+      "rationale": "Two Straits Times-family and SCMP sources note this structural problem with Indonesian ferry manifests, corroborating the point from the same side of the spectrum.",
+      "framing_variants": [
+        {
+          "characterization": "States it is 'common in Indonesia' for passenger numbers to differ from the manifest, and that such discrepancies 'can complicate search and rescue efforts'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes that 'safety standards are not always strictly enforced', contextualizing the manifest discrepancy within broader safety concerns.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "The fire occurred near Madura island, approximately 35 km north of Sapudi island in the Sumenep regency.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Multiple center-left and center-right sources place the incident near Madura island, with SCMP providing the more precise location of 35 km north of Sapudi island.",
+      "framing_variants": [
+        {
+          "characterization": "States the fire occurred 'off Madura island'.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes the fire as occurring 'off Indonesia's Madura island' and notes Madura island is 'off the north-eastern coast of Java'.",
+          "source_id": "src_006"
+        },
+        {
+          "characterization": "Gives the precise location as 'about 35km north of Sapudi island in the Sumenep regency'.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Passengers jumped overboard during the fire; some were picked up by nearby ships, while others drifted for hours before rescue.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "Sources spanning center-left (SCMP, BBC) and center-right (Straits Times) all confirm passengers jumped overboard and were rescued by passing vessels, with survivor accounts adding detail.",
+      "framing_variants": [
+        {
+          "characterization": "Notes passengers 'leaping overboard and staying afloat for hours before rescue'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'some passengers jumped into the sea and were picked up by a nearby ship'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports passengers 'held on in the ship's bridge and bow while awaiting rescue'.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Provides specific survivor accounts: one survivor was rescued after seven hours adrift; another swam approximately 5 km to a rescue ship.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Passengers fleeing to the bow were given life jackets; one survivor reported seeing no lifeboats aboard the ferry.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "Only The Straits Times (Aug 3) reported the specific detail about the absence of lifeboats, attributed to one survivor.",
+      "framing_variants": [
+        {
+          "characterization": "Survivor Muhammad Abdul Karim said passengers fleeing to the bow 'were all given life jackets' but he 'had not seen any lifeboats aboard the ferry'.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Other vessels near the ferry at the time could not approach due to the risk posed by flammable material on board.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "Two Straits Times articles independently report that nearby vessels were unable to approach the burning ferry due to flammable material.",
+      "framing_variants": [
+        {
+          "characterization": "States four vessels 'could not approach because of the risk posed by flammable material on the ferry'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Contextualizes the difficulty of the rescue operation given the fire's intensity.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "The ferry was almost entirely engulfed in flames at the height of the incident.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Only BBC News reported this specific characterization of the fire's extent, quoting an official statement.",
+      "framing_variants": [
+        {
+          "characterization": "Quotes an official statement saying the ferry 'was almost entirely engulfed in flames'.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "The captain reported the fire to the ferry company and/or Basarnas before losing contact.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Two sources report the captain's notification of the fire, with Straits Times noting the captain called the ferry company and has not been in contact since, and BBC noting the captain reported to Basarnas.",
+      "framing_variants": [
+        {
+          "characterization": "States the captain 'had called the ferry company to report the fire' and 'had not been in contact since then'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'the captain of the ship reported the fire' to Basarnas.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Indonesian navy ships and passing vessels assisted in the rescue at the scene.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "SCMP and Straits Times both report navy involvement, with Straits Times providing detail on the specific assets deployed.",
+      "framing_variants": [
+        {
+          "characterization": "Notes 'Indonesian navy ships assisted' along with 'a number of passing vessels'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States police, rescue agency, and navy deployed seven boats (including a naval corvette) and one helicopter for the search.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "A larger rescue operation was dispatched from Surabaya, approximately a six-hour boat journey from the incident site; most evacuees were brought back to the Port of Gapura Surya Nusantara in Surabaya on the morning of August 3.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "Multiple Straits Times articles confirm the six-hour distance and the evacuation of survivors to Surabaya, providing consistent detail about the logistics.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'a larger rescue operation was heading to the site from Surabaya', noting it was 'a six-hour journey from the site of the disaster'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'most evacuees were taken back to Surabaya, a six-hour boat ride from where the ferry ran into trouble'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States all rescued victims were evacuated to the Port of Gapura Surya Nusantara in Surabaya on the morning of Aug 3, and that families had been waiting there since the evening of Aug 2.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "The search operation as of August 3 was planned to last seven days, with the possibility of a 14-day extension; rescuers were focusing on an area extending 16 km east and 16 km west of the incident location.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "Only one Straits Times article (Aug 3) provided specific details about the search area parameters and the planned duration of the operation.",
+      "framing_variants": [
+        {
+          "characterization": "Reports a 16 km east–west search corridor, a seven-day initial operation, and a potential 14-day extension.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "The cause of the ferry fire remained unclear and was under investigation.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "incident_overview",
+      "rationale": "Center-left (SCMP, BBC) and center-right (Straits Times) sources all confirm the cause was undetermined at the time of reporting.",
+      "framing_variants": [
+        {
+          "characterization": "States 'the cause of the fire remained under investigation'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'it was unclear how the ferry caught fire, the statement said'.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States 'the cause of the incident remains unclear'.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "Marine accidents are a regular occurrence in Indonesia, attributed partly to lax safety standards and unpredictable weather; Indonesia relies heavily on ferries as sea routes are more affordable and accessible than air travel across its archipelago of over 17,000 islands.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "maritime_safety_context",
+      "rationale": "Two Straits Times articles provide the same contextual framing about Indonesia's maritime safety record and reliance on ferry transport, drawn from the same outlet's reporting.",
+      "framing_variants": [
+        {
+          "characterization": "States 'marine accidents are a regular occurrence in Indonesia, partly because of lax safety standards and unpredictable weather'.",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Emphasizes that Indonesia 'relies heavily on ferries' with sea routes 'more affordable and readily available than air travel', and that 'safety standards are not always strictly enforced'.",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "In July 2026, a separate ferry transporting more than 70 people sank near Selayar island, south of Sulawesi; at least four people were found dead and 14 remained missing by the end of the search operation.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "maritime_safety_context",
+      "rationale": "Two Straits Times articles cite the same prior incident near Selayar island with consistent figures, providing context for recurring maritime accidents in Indonesia.",
+      "framing_variants": [
+        {
+          "characterization": "Reports the prior sinking as context, citing four dead and 14 missing by the end of the search.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Refers to the same incident as 'a ferry transporting more than 70 people' near 'a small tropical island south of Sulawesi'.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "Officials acknowledged that the actual number of passengers aboard exceeded the manifest, complicating the search and rescue effort; officials were relying partly on reports from victims' families to determine how many people were missing.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "SCMP and Straits Times both report the manifest discrepancy and the reliance on family reports, consistent across center-left and center-right outlets.",
+      "framing_variants": [
+        {
+          "characterization": "States officials 'were relying on reports from families of victims and survivors in an attempt to determine the number of the missing' due to the manifest discrepancy.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Notes that 'numbers provided by officials have fluctuated wildly' partly because of the discrepancy between actual passengers and the manifest.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Nanang Sigit, head of the Surabaya Search and Rescue Office, served as the search mission coordinator.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "Only SCMP names Nanang Sigit and his dual roles as search mission coordinator and Surabaya Search and Rescue Office head.",
+      "framing_variants": [
+        {
+          "characterization": "Identifies Nanang Sigit as 'the search mission coordinator' who 'also heads the Surabaya Search and Rescue Office'.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "Muhammad Masyhud, a senior official at Indonesia's Ministry of Transportation, provided information about the rescue response.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "rescue_operations",
+      "rationale": "Only one Straits Times article (Aug 2) names Muhammad Masyhud and his role.",
+      "framing_variants": [
+        {
+          "characterization": "Identifies Muhammad Masyhud as 'a senior official at the Ministry of Transportation' who spoke about the rescue.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Indonesia is an archipelago of more than 17,000 islands and relies heavily on ferries for inter-island transportation, with sea routes being more affordable and accessible than air travel.",
+      "sources": [
+        "src_005",
+        "src_006"
+      ]
+    },
+    {
+      "point": "Marine accidents occur regularly in Indonesia, attributed partly to lax safety standards and unpredictable weather conditions.",
+      "sources": [
+        "src_005",
+        "src_006"
+      ]
+    },
+    {
+      "point": "Passenger manifests on Indonesian ferries often do not reflect the actual number of people on board, a widely acknowledged systemic issue that complicates search and rescue operations.",
+      "sources": [
+        "src_002",
+        "src_005"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-08-03T16:05:01.609506+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "An Indonesian passenger ferry named KMP Mutiara Sentosa 2 caught fire at sea on August 2, 2026, while sailing from Surabaya in East Java to Makassar in South Sulawesi. The incident occurred near Madura island, approximately 35 km north of Sapudi island in the Sumenep regency. The fire broke out between approximately 06:00 and 07:00 local time, with the Surabaya Search and Rescue office receiving notification at 08:24 local time (02:24 GMT).",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_011",
+            "clm_003"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Five people were confirmed killed in the ferry fire. The cause of the fire remained unclear and was under investigation.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Passengers jumped overboard during the fire as the vessel burned. Some were picked up by nearby ships, while others drifted for hours before rescue. Indonesian navy ships and passing vessels assisted in the rescue at the scene. However, other vessels near the ferry at the time could not approach due to the risk posed by flammable material on board.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_017",
+            "clm_014"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The number of people rescued varied across sources and updates as the operation unfolded, with figures reported ranging from 225 to 238 at different points. A larger rescue operation was dispatched from Surabaya, approximately a six-hour boat journey from the incident site. Most evacuees were brought back to the Port of Gapura Surya Nusantara in Surabaya on the morning of August 3.",
+        "supports": {
+          "claim_ids": [
+            "clm_008",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Marine accidents are a regular occurrence in Indonesia, attributed partly to lax safety standards and unpredictable weather. Indonesia relies heavily on ferries as sea routes are more affordable and accessible than air travel across its archipelago of over 17,000 islands. In July 2026, a separate ferry transporting more than 70 people sank near Selayar island, south of Sulawesi; at least four people were found dead and 14 remained missing by the end of the search operation.",
+        "supports": {
+          "claim_ids": [
+            "clm_021",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "In Indonesia, it is common for the actual number of passengers on a ferry to differ from the manifest, which can complicate search and rescue efforts. This structural issue affected the response to the KMP Mutiara Sentosa 2 incident.",
+        "supports": {
+          "claim_ids": [
+            "clm_010"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_006"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The total number of people aboard when the ferry left Surabaya was uncertain. Initial manifests stated 271 including 39 crew, while updated official figures ranged from 236 to 250-plus. Officials acknowledged that more people were aboard than listed on the manifest, and they were relying partly on reports from victims' families to determine how many people were missing.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_023"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "framing"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Center-left outlets reported specific survivor accounts of the fire's progression. According to these reports, the fire broke out while passengers were eating breakfast, with smoke entering the information room and sleeping quarters before explosions occurred. Survivors reported hearing multiple blasts moments before the vessel caught fire. The blaze originated in the stern, and passengers fleeing to the bow were given life jackets. One survivor reported seeing no lifeboats aboard the ferry.",
+        "supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_005",
+            "clm_013"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The captain reported the fire to the ferry company and Basarnas before losing contact. BBC News, a center-left outlet, reported that the ferry was almost entirely engulfed in flames at the height of the incident.",
+        "supports": {
+          "claim_ids": [
+            "clm_016",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The number of missing passengers fluctuated across official reports. The initial official figure given on August 2 was 41 missing. By August 3, one East Java police official reported approximately 28 missing, while other reports on August 3 used 28 as the working figure. The Straits Times explicitly noted that numbers provided by officials had fluctuated wildly throughout the operation.",
+        "supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "contested"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_association_of_southeast_asian_nations",
+  "type": "organization",
+  "canonical_name": "Association of Southeast Asian Nations",
+  "aliases": [
+    "ASEAN"
+  ],
+  "wikidata_qid": "Q7768",
+  "summary": "The Association of Southeast Asian Nations (ASEAN) is an intergovernmental forum of all 11 states in Southeast Asia. ASEAN primarily focuses on Southeast Asian economic development, peaceful coexistence and adherence to international norms.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/ASEAN"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/ASEAN_HQ_1.jpg/960px-ASEAN_HQ_1.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:ASEAN_HQ_1.jpg",
+    "credit": "Gunawan Kartapranata",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:ASEAN HQ 1.jpg",
+    "fetched_at": "2026-08-03T16:09:09.026901+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "ASEAN operates on the principle of consensus and respecting national sovereignty, meaning that ASEAN as a whole cannot force another member state to change its domestic laws.",
+      "source_url": "https://en.wikipedia.org/wiki/ASEAN",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-03",
+      "last_updated": "2026-08-03",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_03_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_03_asia_002"
+  ],
+  "created_at": "2026-08-03T16:09:07.079507+00:00",
+  "last_updated": "2026-08-03T16:09:13.752174+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Entity created from evt_2026_08_03_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/ASEAN"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikidata Q7768 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q7768"
+    }
+  ]
+}

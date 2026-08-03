@@ -1,0 +1,94 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_min_aung_hlaing",
+  "type": "person",
+  "canonical_name": "Min Aung Hlaing",
+  "aliases": [],
+  "wikidata_qid": "Q3462649",
+  "summary": "Min Aung Hlaing is a Burmese politician and retired military officer who has been the 11th president of Myanmar since April 2026, having ruled the country continuously since seizing power in February 2021 through a military coup d'état against the elected government. Prior to the start of his nominally civilian presidency, he was a military ruler under various titles.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Min_Aung_Hlaing"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/President_Min_Aung_Hlaing_2026_%28cropped%29.jpg/960px-President_Min_Aung_Hlaing_2026_%28cropped%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:President_Min_Aung_Hlaing_2026_(cropped).jpg",
+    "credit": "Zawzawaungthwin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:President Min Aung Hlaing 2026 (cropped).jpg",
+    "fetched_at": "2026-08-03T16:09:02.496839+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "Commander-in-Chief of Defence Services",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q3462649",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Chairman of the State Administration Council",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q3462649",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Prime Minister of Myanmar",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q3462649",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President of Myanmar",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q3462649",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "He was appointed the commander-in-chief of Defence Services—the leader of the Tatmadaw—in 2011 and remained in that post through the period of military rule, until stepping down in 2026 to become the president.",
+      "source_url": "https://en.wikipedia.org/wiki/Min_Aung_Hlaing",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-03",
+      "last_updated": "2026-08-03",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_03_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_03_asia_002"
+  ],
+  "created_at": "2026-08-03T16:09:00.114849+00:00",
+  "last_updated": "2026-08-03T16:09:13.751306+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Entity created from evt_2026_08_03_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Min_Aung_Hlaing"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikidata Q3462649 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q3462649"
+    }
+  ]
+}

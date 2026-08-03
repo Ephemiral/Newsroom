@@ -4,7 +4,8 @@
   "type": "location",
   "canonical_name": "Surabaya",
   "aliases": [
-    "Surabaya Search and Rescue Agency"
+    "Surabaya Search and Rescue Agency",
+    "Port of Gapura Surya Nusantara in Surabaya"
   ],
   "wikidata_qid": "Q11462",
   "summary": "Surabaya is the capital and largest city of East Java province and the second-largest city in Indonesia, after Jakarta. Located on the northeastern corner of Java island, on the Madura Strait, it is one of the earliest port cities in Southeast Asia.",
@@ -61,10 +62,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_08_02_asia_002",
   "appears_in_events": [
-    "evt_2026_08_02_asia_002"
+    "evt_2026_08_02_asia_002",
+    "evt_2026_08_03_asia_001"
   ],
   "created_at": "2026-08-02T14:44:45.662194+00:00",
-  "last_updated": "2026-08-02T14:45:00.442094+00:00",
+  "last_updated": "2026-08-03T16:05:17.699956+00:00",
   "change_log": [
     {
       "date": "2026-08-02",

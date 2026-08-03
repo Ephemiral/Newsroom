@@ -1,0 +1,151 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_aung_san_suu_kyi",
+  "type": "person",
+  "canonical_name": "Aung San Suu Kyi",
+  "aliases": [
+    "Suu Kyi"
+  ],
+  "wikidata_qid": "Q36740",
+  "summary": "Aung San Suu Kyi is a Burmese politician, diplomat and author who served as State Counsellor of Myanmar and Union Minister of Foreign Affairs from 2016 to 2021. She has served as the general secretary of the National League for Democracy (NLD) since the party's founding in 1988 and was registered as its chairperson while it was a legal party from 2011 to 2023.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Aung_San_Suu_Kyi"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Aung_San_Suu_Kyi_at_the_Enthronement_of_Naruhito_%281%29.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Aung_San_Suu_Kyi_at_the_Enthronement_of_Naruhito_(1).jpg",
+    "credit": "Cabinet Public Relations Office of the Cabinet Secretariat",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Aung San Suu Kyi at the Enthronement of Naruhito (1).jpg",
+    "fetched_at": "2026-08-03T16:08:57.906654+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "chairperson",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q36740",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of the President's Office",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q36740",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Foreign Affairs (Myanmar)",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q36740",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Education (Myanmar)",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q36740",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "Minister of Electric Power (Myanmar)",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q36740",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "State Counsellor of Myanmar",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q36740",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [
+    {
+      "type": "employed_by",
+      "entity_id": "ent_organization_united_nations",
+      "note": null,
+      "source_url": "https://www.wikidata.org/wiki/Q36740"
+    }
+  ],
+  "facts": [
+    {
+      "text": "She played a vital role in Myanmar's transition from military junta to partial democracy in the 2010s.",
+      "source_url": "https://en.wikipedia.org/wiki/Aung_San_Suu_Kyi",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-03",
+      "last_updated": "2026-08-03",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "She has been widely described as the de facto leader of Myanmar from 2016 to 2021.",
+      "source_url": "https://en.wikipedia.org/wiki/Aung_San_Suu_Kyi",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_002",
+      "first_reported": "2026-08-03",
+      "last_updated": "2026-08-03",
+      "supersedes": null,
+      "contradicted_by": null
+    },
+    {
+      "text": "She was awarded the 1991 Nobel Peace Prize.",
+      "source_url": "https://en.wikipedia.org/wiki/Aung_San_Suu_Kyi",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_003",
+      "first_reported": "2026-08-03",
+      "last_updated": "2026-08-03",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_03_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_03_asia_002"
+  ],
+  "created_at": "2026-08-03T16:08:55.580611+00:00",
+  "last_updated": "2026-08-03T16:09:13.750440+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Entity created from evt_2026_08_03_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Aung_San_Suu_Kyi"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Aung_San_Suu_Kyi"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Aung_San_Suu_Kyi"
+    },
+    {
+      "date": "2026-08-03",
+      "summary_of_change": "Grounded from Wikidata Q36740 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q36740"
+    }
+  ]
+}

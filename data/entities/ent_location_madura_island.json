@@ -3,7 +3,10 @@
   "entity_id": "ent_location_madura_island",
   "type": "location",
   "canonical_name": "Madura Island",
-  "aliases": [],
+  "aliases": [
+    "Madura island",
+    "Madura"
+  ],
   "wikidata_qid": "Q208134",
   "summary": "Madura is an Indonesian island off the northeastern coast of Java. The island has an area of about 4,471.05 square kilometres (1,726.28 mi2), but administratively Madura comprises an area of around 5,408.45 square kilometres (2,088.21 mi2) due to the inclusion of various smaller islands to the east, southeast and north that are part of Madura's easternmost Sumenep Regency.",
   "summary_sources": [
@@ -59,10 +62,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_08_02_asia_002",
   "appears_in_events": [
-    "evt_2026_08_02_asia_002"
+    "evt_2026_08_02_asia_002",
+    "evt_2026_08_03_asia_001"
   ],
   "created_at": "2026-08-02T14:44:43.034429+00:00",
-  "last_updated": "2026-08-02T14:45:00.441833+00:00",
+  "last_updated": "2026-08-03T16:05:17.700459+00:00",
   "change_log": [
     {
       "date": "2026-08-02",
