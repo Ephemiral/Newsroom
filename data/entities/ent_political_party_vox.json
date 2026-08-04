@@ -1,0 +1,52 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_political_party_vox",
+  "type": "political_party",
+  "canonical_name": "Vox",
+  "aliases": [],
+  "wikidata_qid": "Q15630787",
+  "summary": "Vox is a national conservative political party in Spain. Founded in 2013, it is led by party president Santiago Abascal, and vice president and secretary-general Ignacio Garriga.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Vox_(political_party)"
+  ],
+  "image": null,
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Vox has been described as far-right or radical right.",
+      "source_url": "https://en.wikipedia.org/wiki/Vox_(political_party)",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-04",
+      "last_updated": "2026-08-04",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_04_europe_001",
+  "appears_in_events": [
+    "evt_2026_08_04_europe_001"
+  ],
+  "created_at": "2026-08-04T15:14:33.948452+00:00",
+  "last_updated": "2026-08-04T15:14:39.420178+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-04",
+      "summary_of_change": "Entity created from evt_2026_08_04_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-04",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Vox_(political_party)"
+    },
+    {
+      "date": "2026-08-04",
+      "summary_of_change": "Grounded from Wikidata Q15630787 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q15630787"
+    }
+  ]
+}

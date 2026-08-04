@@ -1,0 +1,110 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_alberto_nunez_feijoo",
+  "type": "person",
+  "canonical_name": "Alberto Núñez Feijóo",
+  "aliases": [],
+  "wikidata_qid": "Q2457783",
+  "summary": "Alberto Núñez Feijóo is a Spanish politician who has been leader of the Spanish opposition and president of the People's Party since 2022. He served as the President of the Autonomous Government of Galicia from 2009 to 2022.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Alberto_N%C3%BA%C3%B1ez_Feij%C3%B3o"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Alberto_N%C3%BA%C3%B1ez_Feij%C3%B3o_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Alberto_N%C3%BA%C3%B1ez_Feij%C3%B3o_2025.jpg",
+    "credit": "European People's Party",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Alberto Núñez Feijóo 2025.jpg",
+    "fetched_at": "2026-08-04T15:14:31.559947+00:00"
+  },
+  "roles_affiliations": [
+    {
+      "role": "President of the Xunta of Galicia",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q2457783",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "member of the Parliament of Galicia",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q2457783",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "President of the People's Party of Galicia",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q2457783",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "president of the Partido Popular",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q2457783",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "president",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q2457783",
+      "source_type": "reference_work"
+    },
+    {
+      "role": "consejero autonómico",
+      "org_entity_id": null,
+      "start": null,
+      "end": null,
+      "source_url": "https://www.wikidata.org/wiki/Q2457783",
+      "source_type": "reference_work"
+    }
+  ],
+  "connections": [],
+  "facts": [
+    {
+      "text": "Feijóo was appointed government formateur following the 2023 election, however his investiture ultimately failed.",
+      "source_url": "https://en.wikipedia.org/wiki/Alberto_N%C3%BA%C3%B1ez_Feij%C3%B3o",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-04",
+      "last_updated": "2026-08-04",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_04_europe_001",
+  "appears_in_events": [
+    "evt_2026_08_04_europe_001"
+  ],
+  "created_at": "2026-08-04T15:14:29.235576+00:00",
+  "last_updated": "2026-08-04T15:14:39.419656+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-04",
+      "summary_of_change": "Entity created from evt_2026_08_04_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-04",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Alberto_N%C3%BA%C3%B1ez_Feij%C3%B3o"
+    },
+    {
+      "date": "2026-08-04",
+      "summary_of_change": "Grounded from Wikidata Q2457783 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q2457783"
+    }
+  ]
+}
