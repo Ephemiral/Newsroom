@@ -3,7 +3,9 @@
   "entity_id": "ent_person_pur_bahadur_gurung",
   "type": "person",
   "canonical_name": "Pur Bahadur Gurung",
-  "aliases": [],
+  "aliases": [
+    "Yukta"
+  ],
   "wikidata_qid": "Q140788051",
   "summary": "Pur Bahadur Gurung was a Nepalese mountaineer and expedition guide, who had successfully climbed Mt. Everest 10 times and also climbed 12 of the world’s 14 highest mountains.",
   "summary_sources": [
@@ -28,10 +30,11 @@
   "review_status": "auto",
   "first_seen_event": "evt_2026_08_01_asia_001",
   "appears_in_events": [
-    "evt_2026_08_01_asia_001"
+    "evt_2026_08_01_asia_001",
+    "evt_2026_08_04_asia_001"
   ],
   "created_at": "2026-08-01T04:43:23.281862+00:00",
-  "last_updated": "2026-08-01T04:43:35.611068+00:00",
+  "last_updated": "2026-08-04T15:27:55.720406+00:00",
   "change_log": [
     {
       "date": "2026-08-01",

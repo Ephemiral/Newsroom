@@ -1,0 +1,63 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_organization_tama_zoological_park",
+  "type": "organization",
+  "canonical_name": "Tama Zoological Park",
+  "aliases": [
+    "Tama Zoo"
+  ],
+  "wikidata_qid": "Q1413736",
+  "summary": "The Tama Zoological Park  is a zoo, owned by the government of Tokyo Metropolis, and located in Hino, Tokyo, Japan. The Tama Zoo was opened on May 5, 1958, originally as a branch  of the Ueno Zoo.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Tama_Zoological_Park"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Tama-zoo.jpg/960px-Tama-zoo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Tama-zoo.jpg",
+    "credit": "Dddeco at Japanese Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Tama-zoo.jpg",
+    "fetched_at": "2026-08-04T15:31:08.829922+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The zoo aims to use its large site – 52 ha, compared to the 14.3 ha of the Ueno Zoo – to show its animals moving in a more free and natural environment.",
+      "source_url": "https://en.wikipedia.org/wiki/Tama_Zoological_Park",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-04",
+      "last_updated": "2026-08-04",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_04_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_04_asia_002"
+  ],
+  "created_at": "2026-08-04T15:31:03.744844+00:00",
+  "last_updated": "2026-08-04T15:31:21.866764+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-04",
+      "summary_of_change": "Entity created from evt_2026_08_04_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-04",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Tama_Zoological_Park"
+    },
+    {
+      "date": "2026-08-04",
+      "summary_of_change": "Grounded from Wikidata Q1413736 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q1413736"
+    }
+  ]
+}

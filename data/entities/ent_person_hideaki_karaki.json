@@ -1,0 +1,46 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_person_hideaki_karaki",
+  "type": "person",
+  "canonical_name": "Hideaki Karaki",
+  "aliases": [
+    "Professor Hideaki Karaki"
+  ],
+  "wikidata_qid": "Q11418555",
+  "summary": "Japanese agronomist and veterinarian",
+  "summary_sources": [
+    "https://www.wikidata.org/wiki/Q11418555"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Hideaki_Karaki_cropped_2_Tom_Vilsack_Caroline_Kennedy_and_Member_of_the_US_Japan_Agricultural_Trade_Hall_of_Fame_20151120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Hideaki_Karaki_cropped_2_Tom_Vilsack_Caroline_Kennedy_and_Member_of_the_US_Japan_Agricultural_Trade_Hall_of_Fame_20151120.jpg",
+    "credit": "U.S. Department of Agriculture",
+    "license": "Public domain",
+    "license_url": null,
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Hideaki Karaki cropped 2 Tom Vilsack Caroline Kennedy and Member of the US Japan Agricultural Trade Hall of Fame 20151120.jpg",
+    "fetched_at": "2026-08-04T15:31:16.462150+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_04_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_04_asia_002"
+  ],
+  "created_at": "2026-08-04T15:31:14.287077+00:00",
+  "last_updated": "2026-08-04T15:31:21.867941+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-04",
+      "summary_of_change": "Entity created from evt_2026_08_04_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-04",
+      "summary_of_change": "Grounded from Wikidata Q11418555",
+      "source": "https://www.wikidata.org/wiki/Q11418555"
+    }
+  ]
+}

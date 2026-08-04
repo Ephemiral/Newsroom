@@ -1,0 +1,61 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_isesaki",
+  "type": "location",
+  "canonical_name": "Isesaki",
+  "aliases": [],
+  "wikidata_qid": "Q328596",
+  "summary": "Isesaki  is a city located in Gunma Prefecture, Japan. As of 1 September 2020, the city had an estimated population of 213,303 in 91,789 households, and a population density of 1500 persons per km2.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Isesaki"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Isesaki_City_Hall_001.JPG/960px-Isesaki_City_Hall_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Isesaki_City_Hall_001.JPG",
+    "credit": "上州写真時報",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:Isesaki City Hall 001.JPG",
+    "fetched_at": "2026-08-04T15:31:14.286268+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "The total area of the city is 139.44 square kilometres (53.84 sq mi).",
+      "source_url": "https://en.wikipedia.org/wiki/Isesaki",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-04",
+      "last_updated": "2026-08-04",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_04_asia_002",
+  "appears_in_events": [
+    "evt_2026_08_04_asia_002"
+  ],
+  "created_at": "2026-08-04T15:31:11.680318+00:00",
+  "last_updated": "2026-08-04T15:31:21.867727+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-04",
+      "summary_of_change": "Entity created from evt_2026_08_04_asia_002",
+      "source": null
+    },
+    {
+      "date": "2026-08-04",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Isesaki"
+    },
+    {
+      "date": "2026-08-04",
+      "summary_of_change": "Grounded from Wikidata Q328596 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q328596"
+    }
+  ]
+}

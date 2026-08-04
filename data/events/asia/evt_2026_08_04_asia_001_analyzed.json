@@ -1,0 +1,1101 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_08_04_asia_001",
+    "beat": "asia",
+    "title": "Avalanche on Broad Peak Kills 10 Climbers Including Nirmal Purja",
+    "summary": "On July 31 (Thursday), 2026, an avalanche struck an expedition on Pakistan's Broad Peak, killing all 10 members including renowned British-Nepali mountaineer Nirmal Purja, age 43. Recovery operations followed over subsequent days, with hundreds gathering in Nepal for a candlelight vigil on August 4.",
+    "date": "2026-07-31",
+    "generated_at": "2026-08-04T15:27:14.550591+00:00",
+    "related_events": [
+      {
+        "cluster_id": "evt_2026_08_02_asia_001",
+        "title": "Nirmal Purja and nine team members killed in Broad Peak avalanche"
+      },
+      {
+        "cluster_id": "evt_2026_08_01_asia_001",
+        "title": "Broad Peak Avalanche: Nirmal Purja Among Missing Climbers"
+      },
+      {
+        "cluster_id": "evt_2026_08_01_asia_002",
+        "title": "Nirmal Purja and Nine Others Killed in Broad Peak Avalanche"
+      }
+    ],
+    "entities": [
+      {
+        "entity_id": "ent_person_nirmal_purja",
+        "surfaces": [
+          "Nirmal Purja"
+        ],
+        "relevance_to_event": "The 43-year-old British-Nepali mountaineer who was killed in the avalanche along with all 9 other expedition members; he was leading the expedition group up Broad Peak at the time of the avalanche.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_004",
+            "clm_008"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_broad_peak",
+        "surfaces": [
+          "Broad Peak"
+        ],
+        "relevance_to_event": "The 8,047-metre mountain in Pakistan's Gilgit-Baltistan region where the avalanche occurred on July 31, 2026, killing all 10 expedition members.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_003",
+            "clm_008",
+            "clm_020",
+            "clm_028"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_organization_elite_exped",
+        "surfaces": [
+          "Elite Expeditions"
+        ],
+        "relevance_to_event": "The expedition company that operated the climbing expedition on Broad Peak during which the avalanche occurred.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_027"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_pur_bahadur_gurung",
+        "surfaces": [
+          "Pur Bahadur Gurung",
+          "Yukta"
+        ],
+        "relevance_to_event": "One of the two other identified victims of the avalanche; a Nepali climber who had summited Everest 10 times and was part of the 2024 team that discovered a shoe believed to belong to British climber Andrew Irvine.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_025"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_kili_pemba_sherpa",
+        "surfaces": [
+          "Kili Pemba Sherpa"
+        ],
+        "relevance_to_event": "One of the identified victims of the avalanche; worked as a guide for Imagine Nepal expedition company.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_026"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_sarah_mallory",
+        "surfaces": [
+          "Sarah Mallory Geis"
+        ],
+        "relevance_to_event": "American climber identified by Fox News as one of the 10 expedition members killed in the avalanche on Broad Peak.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_007"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_kristin_harila",
+        "surfaces": [
+          "Kristin Harila"
+        ],
+        "relevance_to_event": "Norwegian mountaineer whose 2023 record-breaking climb of all 14 eight-thousanders in three months and one day subsequently broke Purja's 2019 record.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_prince_william",
+        "surfaces": [
+          "Prince William"
+        ],
+        "relevance_to_event": "British royal figure who paid tribute to the victims following the avalanche deaths, demonstrating international recognition of the tragedy.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "thread_id": "thr_broad_peak_avalanche_disaster",
+    "image_attempted_at": "2026-08-04T15:28:11.388262+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Broad_Peak_-_Gasherbrum_IV.jpg/1280px-Broad_Peak_-_Gasherbrum_IV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Broad_Peak_-_Gasherbrum_IV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Broad_Peak_-_Gasherbrum_IV.jpg",
+      "width": 1200,
+      "height": 800,
+      "caption": "Broad Peak in the Karakoram range, Pakistan (file photo)",
+      "credit": "Sallahuddin shah",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Broad Peak - Gasherbrum IV.jpg",
+      "query": "Broad Peak mountain",
+      "fetched_at": "2026-08-04T15:28:11.388221+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWXpleGVocGlCTzBtX0ZrYk8xX0NENWJJVFp0a3RueWNlQjlpSDVBVG9RUlZjTlhmbFBHTDRsRHBMTmlkVUpyT28xUkhVT3ZTTUJkek1pejZwQzNOdDJtbFA2Sm1TTFdQclJDQjNZb2ZFWmlvd1dwclVmMkp1dkQxUjNhQi1ra05LN3o5VTdrYkdZRkdnb3ZKaEhWQ2I4dFRZTzVUQWpHQ21YSUdIUURGQUdwaTjSAboBQVVfeXFMTUxycDVlWVlqNkk0QlE0dHA4QjdiTzVGZ2RQeTNkWDVxLTRVZV9jaFNobE9UQVRPTld6aGxfaHRwakVnSzBFT0JsZ2xSZ3FYRnc1cUUtamROekJPc1Z6aVZfR1dyN0txTmh6OEZuY1JvWnA1eDNhRHRSYzMzUU84ck95QlJUbV9GRjIzMm1JWnNiR1VzT0ctRFExeVJQNTZGNTlfWXg1RWV4T2s4eEJFcjFsbk1GWk5ucnJR?oc=5",
+      "author": null,
+      "published_at": "2026-08-02T19:41:16+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "Fox News",
+      "url": "https://www.foxnews.com/world/famed-mountaineer-nirmal-purja-43-among-10-climbers-killed-avalanche-pakistan",
+      "author": null,
+      "published_at": "2026-08-02T01:59:24+00:00",
+      "bias_rating": "right",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Fox Corporation, controlled by the Murdoch family trust.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c07rvy4e7mno?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-08-03T05:31:55+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "Al Jazeera English",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ3h5MXhfNTR1U2hoMXUwQ1NFZWN4T2NVbzR3WE4tVm81U0w1TmFjQ0ZlbHJhY0t0Z0tWVE1lZzdyTFVXSTVVdGREVUtkbmY5UzNqRkRrTTh0SERjbXZ4U01GcTBVczNoZmJpa0JDUWhvalJOYlZPYVZLTWFNWFVzZ2FzbExUeGd2VTNfcnh6TjZSSkNRaEVDb1ZscFlRTGJsdGlMUjV30gGrAUFVX3lxTE1jRlJZd0JyNmVMLVpObWY5Rm5STEtRS1FTWHZIeUJCc2U2MkFkVGdpbG5XTXRySU1tclVxN0FPWDFiNHB4MmVGOHl1WlR5OE81Tnd5NWVGZWZVWkFLU1QxeEU4dEtiUFRQaHduM19Namt3bXluQzQzbF9pN1hYeHZuOXJTTUNZSDJ6U3BWeGlUYUdDeks3OE1mRTJPeWxrNzRod0RzNGNjRlBSZw?oc=5",
+      "author": null,
+      "published_at": "2026-08-02T01:49:27+00:00",
+      "bias_rating": "left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Al Jazeera Media Network, funded by the Qatari government.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx2kp4ndny0o?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-08-02T12:38:07+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_006",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/south-asia/nepal-mountaineers-mourn-lost-generation-in-pakistan-avalanche",
+      "author": null,
+      "published_at": "2026-08-04T14:58:56+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "An avalanche struck an expedition on Broad Peak in Pakistan, killing all 10 members of the group.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "avalanche_incident",
+      "rationale": "All six sources across left, center-left, and right outlets confirm the avalanche killed all 10 expedition members on Broad Peak, meeting the cross-spectrum threshold for 'agreed'.",
+      "framing_variants": [
+        {
+          "characterization": "Reports bodies recovered after 'Pakistan avalanche'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports '10 climbers confirmed dead on Saturday' after being 'hit by an avalanche on Thursday'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'an avalanche killed all 10 members of an expedition on Pakistan's Broad Peak'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Reports 'nine other people were killed in the avalanche in addition to Purja'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Notes Elite Expeditions confirmed Purja 'was one of 10 people killed in the avalanche'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States '10 climbers killed in an avalanche on Pakistan's Broad Peak on July 30'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The avalanche occurred on a Thursday (variously reported as July 30 or 31).",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "avalanche_incident",
+      "rationale": "Fox News, BBC, and BBC's second article describe the avalanche occurring 'on Thursday,' while The Straits Times specifically dates it to July 30; minor date discrepancy exists across sources but all agree it was a Thursday.",
+      "framing_variants": [
+        {
+          "characterization": "Describes climbers as 'hit by an avalanche on Thursday'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Says they 'went missing after being caught in an avalanche last Thursday'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States '10 climbers who went missing after an avalanche on Thursday on Broad Peak'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Specifically dates the avalanche to July 30",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Broad Peak is located in Pakistan's Gilgit-Baltistan region in the Karakoram mountain range and stands at approximately 8,047 metres (26,400–26,414 feet), making it the world's 12th-tallest mountain.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "avalanche_incident",
+      "rationale": "Fox News (right), BBC (center-left, two articles) all confirm the mountain's location, height, and ranking, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Describes it as 'the world's 12th-tallest mountain' at '26,414-foot-tall' in 'the Karakoram mountain range'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States height as '8,047m (26,400ft)'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes it as 'an 8,047m (26,400ft) mountain in Pakistan-administered Gilgit-Baltistan'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Nirmal Purja, a 43-year-old British-Nepali mountaineer, was among the 10 climbers killed in the avalanche.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "victims_and_identities",
+      "rationale": "All six sources across left, center-left, and right outlets confirm Purja's identity, age, and nationality among the victims, providing strong cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Leads with 'Body of climber Nirmal Purja...recovered after Pakistan avalanche'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes 'the 43-year-old' British-Nepali as having been 'leading the group up Broad Peak'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Identifies him as 'Nirmal Purja, also known as Nims, a British-Nepali climber'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Refers to him as 'a famed climber named Purja'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States his body 'was found about 5,700m up the mountain'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Calls him 'World-renowned British-Nepali climber Nirmal Purja, 43'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "Six of the 10 expedition members killed were Nepali climbers or guides.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "victims_and_identities",
+      "rationale": "BBC (center-left) and The Straits Times (center-right) both confirm six Nepali victims, providing cross-spectrum corroboration.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Among his 10-member expedition on Broad Peak, there were six Nepali climbers'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Describes 'six elite Nepali guides, killed in the avalanche'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "The other expedition members came from the US, China, Oman, and Pakistan (with Fox News citing Pakistan, Nepal, and China, and BBC citing the US, China, Oman, and Pakistan for the non-Nepali members).",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "victims_and_identities",
+      "rationale": "Fox News states the other climbers were from Pakistan, Nepal, and China, while BBC specifies four non-Nepali climbers from the US, China, Oman, and Pakistan — the two accounts differ on nationalities present.",
+      "framing_variants": [
+        {
+          "characterization": "States 'the other climbers were from Pakistan, Nepal and China'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'The other four climbers were from the US, China, Oman, Pakistan'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "American climber Sarah Mallory Geis was one of the expedition members killed.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "victims_and_identities",
+      "rationale": "Only Fox News names Sarah Mallory Geis as an identified victim; no other source confirms this identification.",
+      "framing_variants": [
+        {
+          "characterization": "Identifies 'American Sarah Mallory Geis' as one of three bodies recovered by a Pakistani rescue team on Friday",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "Nirmal Purja had been leading the expedition group up Broad Peak at the time of the avalanche.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "avalanche_incident",
+      "rationale": "Only Fox News explicitly states that Purja had been leading the group up the mountain.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Purja had been leading the group up Broad Peak'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "A Pakistani rescue team recovered three bodies on Friday; rescue operations were temporarily halted due to weather before resuming on Saturday.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "recovery_operations",
+      "rationale": "Only Fox News provides this specific detail about the Friday recovery and weather-related pause.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'A Pakistani rescue team recovered three bodies on Friday,' operations 'temporarily halt[ed]...due to weather conditions,' then 'The search resumed on Saturday'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The Alpine Club of Pakistan reported on August 2 that a ground rescue team was transporting four bodies, including those of Purja, two Nepali nationals, and a Chinese citizen.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "recovery_operations",
+      "rationale": "Only The Straits Times cites the Alpine Club of Pakistan's August 2 report about the specific composition of the four bodies being transported.",
+      "framing_variants": [
+        {
+          "characterization": "Reports the Alpine Club of Pakistan said 'a ground rescue team was transporting four bodies, including those of Purja, two other Nepali nationals and a Chinese citizen'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Local Pakistani experts and Nepali guides were conducting body recovery operations on the mountain.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "recovery_operations",
+      "rationale": "Both Fox News and The Straits Times reference ongoing recovery operations, but both are center-right or right outlets, so this does not reach cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Describes 'rescuers attempting to recover the remaining seven bodies' after initial recoveries",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'local experts along with Nepali guides continue the operation to recover the bodies'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Purja's body was found approximately 5,700 metres up the mountain.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "recovery_operations",
+      "rationale": "Only BBC's biographical article provides the specific altitude at which Purja's body was found.",
+      "framing_variants": [
+        {
+          "characterization": "States 'His body was found about 5,700m up the mountain'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "Purja climbed all 14 of the world's eight-thousander peaks in six months and six days in 2019, setting a record at the time.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "purja_biography",
+      "rationale": "Fox News (right), BBC (center-left, two articles), and The Straits Times (center-right) all confirm this achievement, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Notes he attempted 'to summit the world's 14 tallest mountains in seven months' in the Netflix documentary context",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Says he was 'most known for climbing the world's 14 tallest peaks in just over six months'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'Purja took six months and six days to do that in 2019,' noting it 'set a record at the time'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States 'In 2019, Purja stunned the climbing fraternity by scaling the world's 14 highest peaks in just over six months, shattering the previous record of seven years'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "The previous record for climbing all 14 eight-thousanders was approximately seven to eight years.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "purja_biography",
+      "rationale": "BBC states the previous record 'stood at nearly eight years,' while The Straits Times says it was 'seven years'; the two accounts differ on the exact prior record.",
+      "framing_variants": [
+        {
+          "characterization": "States 'previous records stood at nearly eight years'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States the previous record was 'seven years'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Norwegian mountaineer Kristin Harila subsequently broke Purja's record by climbing all 14 peaks in three months and one day in 2023.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "purja_biography",
+      "rationale": "Only BBC's biographical article mentions Kristin Harila's subsequent record.",
+      "framing_variants": [
+        {
+          "characterization": "States 'His record has since been broken by Norwegian mountaineer Kristin Harila, who climbed the 14 peaks in three months and one day in 2023'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Purja's 2019 climb was documented in a 2021 Netflix documentary titled '14 Peaks: Nothing Is Impossible.'",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "purja_biography",
+      "rationale": "Fox News (right), BBC (center-left, two articles), and The Straits Times (center-right) all confirm the Netflix documentary, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Names the documentary '14 Peaks: Nothing Is Impossible' and says Purja 'attempted to summit the world's 14 tallest mountains in seven months'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States Purja 'was catapulted into international stardom after his journey was documented in a 2021 Netflix documentary'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States the journey 'named Project Possible, was captured in the documentary 14 Peaks: Nothing is Impossible'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "States 'His feat was later chronicled in a Netflix documentary'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Purja served 16 years in the British military, including time with the Gurkhas from 2003 and with British special forces from 2009.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "purja_biography",
+      "rationale": "Fox News (right) and BBC (center-left, two articles) all confirm his 16-year military service and special forces background, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "States he 'served in the British army with the Gurkhas' and 'later served in the British special forces'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'Purja served in the British military for 16 years, 10 of which were spent in the special forces'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States he 'joined the Gurkhas in 2003 at age 18,' 'joined the UK Special Forces in 2009,' and spent '16 years in the British military'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "Purja was awarded an MBE by Queen Elizabeth II in 2018 for his achievements in extreme high-altitude mountaineering.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "purja_biography",
+      "rationale": "Both BBC articles confirm the MBE, but both are from the same center-left outlet, so this is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "States 'he was awarded an MBE by the late Queen in 2018 for his achievements in extreme high-altitude mountaineering'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'Purja received an MBE from Queen Elizabeth II in 2018,' described as 'a civilian honour'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Purja was part of the historic all-Nepali team that completed the first winter ascent of K2.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "purja_biography",
+      "rationale": "BBC (center-left) and The Straits Times (center-right) both confirm Purja's participation in the historic all-Nepali K2 winter ascent, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Names Kili Pemba Sherpa as part of 'a historic 2021 expedition that summitted K2, the world's second-highest peak, in winter. That expedition was made up of all Nepali climbers, including Purja'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States 'he was part of the historic all-Nepali team that completed the first winter ascent of K2, the world's second-highest mountain'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "In his last post on social media platform X (published on a Monday), Purja stated he had not originally planned to climb Broad Peak, but added it to his itinerary to be within one mountain of becoming the first person in history to climb all 14 eight-thousanders twice without supplemental oxygen.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "purja_biography",
+      "rationale": "Only BBC's biographical article reports the content of Purja's final social media post and his stated motivation for adding Broad Peak to his plans.",
+      "framing_variants": [
+        {
+          "characterization": "States Purja's 'last post on X, published on Monday' revealed he had not intended to climb Broad Peak, but realised it would leave him 'only one more mountain to conquer before becoming the first person in history to climb all 14 eight-thousanders twice. Without oxygen.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "In 2024, a New York Times article detailed sexual assault allegations made by two women against Purja, which he denied through his lawyer.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "purja_biography",
+      "rationale": "Both BBC articles report the 2024 NYT allegations and Purja's denial, but both are from the same center-left outlet, making this corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Reports that 'In 2024, a New York Times article detailed sexual allegations two women made against Purja,' including assault and propositioning claims; 'He denied these claims through his lawyer'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Also reports the NYT allegations including assault in a hotel room in 2023 and propositioning during a K2 expedition in 2022; 'He denied these claims through his lawyer'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Nepal's Prime Minister Balendra Shah and Britain's Prince William were among international figures who paid tribute following the deaths.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "BBC (center-left) mentions Nepal's PM, and The Straits Times (center-right) mentions Prince William's condolences, together providing cross-spectrum coverage of official tributes.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'Nepal's Prime Minister Balendra Shah was among those who paid tribute'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Notes 'figures such as Britain's Prince William offering condolences'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_003",
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_023",
+      "text": "British Defence Minister Wes Streeting also commented on Purja's death.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only Fox News mentions British Defence Minister Wes Streeting's response.",
+      "framing_variants": [
+        {
+          "characterization": "Notes 'British Defense Minister Wes Streeting' commented on Purja's death",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_024",
+      "text": "Hundreds of Nepalis, including approximately 500 mourners and Buddhist monks, held a candlelight vigil in the Nepali capital on August 4.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "international_response",
+      "rationale": "Only The Straits Times reports the August 4 candlelight vigil with specific details about the number of attendees and the presence of Buddhist monks.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'around 500 mourners lit candles and incense in a square in the Nepali capital' with 'Buddhist monks in maroon robes chant[ing] prayers'",
+          "source_id": "src_006"
+        }
+      ],
+      "supported_by": [
+        "src_006"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_025",
+      "text": "Pur Bahadur Gurung (also known as Yukta), who summited Everest 10 times and was part of the 2024 team that discovered a shoe believed to belong to British climber Andrew Irvine, was among the expedition victims.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "victims_and_identities",
+      "rationale": "Only BBC's in-depth article identifies Pur Bahadur Gurung and provides details about his climbing record and 2024 discovery.",
+      "framing_variants": [
+        {
+          "characterization": "Describes 'Pur Bahadur Gurung - also known as Yukta - who summitted Everest 10 times' and 'was part of the team that discovered a century-old shoe on the world's tallest peak, believed to be that of British climber Andrew Irvine'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_026",
+      "text": "Kili Pemba Sherpa, who worked as a guide for Imagine Nepal expedition company, was also among the victims.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "victims_and_identities",
+      "rationale": "Only BBC's in-depth article identifies Kili Pemba Sherpa and his employment at Imagine Nepal.",
+      "framing_variants": [
+        {
+          "characterization": "Identifies 'Kili Pemba Sherpa' as working for 'Imagine Nepal, an expedition company,' and as part of the 2021 all-Nepali K2 winter ascent",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_027",
+      "text": "The expedition was operated by Elite Expeditions (also referred to as Elite Exped).",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "avalanche_incident",
+      "rationale": "Both Fox News and BBC reference Elite Expeditions as the company involved, but both are separate outlets — however Fox News is right and BBC is center-left, providing cross-spectrum support; classified as agreed upon review.",
+      "framing_variants": [
+        {
+          "characterization": "Identifies 'Elite Exped, the company involved in the expedition'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States 'his company Elite Expeditions said he was one of 10 people killed in the avalanche'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_028",
+      "text": "Purja had successfully summited Gasherbrum II on 21 July (his 57th summit of an eight-thousander) before deciding to also attempt Broad Peak.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "purja_biography",
+      "rationale": "Only BBC's biographical article provides the specific detail of the July 21 Gasherbrum II summit and the running count of 57 eight-thousander summits.",
+      "framing_variants": [
+        {
+          "characterization": "States 'He had successfully summited Gasherbrum II on 21 July,' describing it as 'his 57th summit of an eight-thousander'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_005"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-08-04T15:27:41.845456+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "An avalanche struck an expedition on Broad Peak in Pakistan on Thursday, July 31, 2026, killing all 10 members of the group. Among the dead was Nirmal Purja, a 43-year-old British-Nepali mountaineer renowned for his record-breaking climbs. Six of the expedition members were Nepali climbers or guides, with the remaining four from the United States, China, Oman, and Pakistan.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_004",
+            "clm_005",
+            "clm_006"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "Broad Peak is located in Pakistan's Gilgit-Baltistan region in the Karakoram mountain range and stands at approximately 8,047 metres (26,400 feet), making it the world's 12th-tallest mountain. The expedition was operated by Elite Expeditions.",
+        "supports": {
+          "claim_ids": [
+            "clm_003",
+            "clm_027"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Purja had climbed all 14 of the world's eight-thousander peaks in six months and six days in 2019, shattering the previous record of approximately seven to eight years. The achievement was documented in a 2021 Netflix documentary titled '14 Peaks: Nothing Is Impossible.' He was also part of the historic all-Nepali team that completed the first winter ascent of K2.",
+        "supports": {
+          "claim_ids": [
+            "clm_013",
+            "clm_014",
+            "clm_016",
+            "clm_019"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005",
+            "src_006"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "Before turning to mountaineering, Purja served 16 years in the British military, including time with the Gurkhas from 2003 and with British special forces from 2009. He was awarded an MBE by Queen Elizabeth II in 2018 for his achievements in extreme high-altitude mountaineering.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Recovery operations followed over subsequent days, with local Pakistani experts and Nepali guides conducting body recovery operations on the mountain. A Pakistani rescue team recovered three bodies on Friday, with rescue operations temporarily halted due to weather before resuming on Saturday.",
+        "supports": {
+          "claim_ids": [
+            "clm_009",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Nepal's Prime Minister Balendra Shah and Britain's Prince William were among international figures who paid tribute following the deaths.",
+        "supports": {
+          "claim_ids": [
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_006"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "BBC News reported that Purja's body was found approximately 5,700 metres up the mountain, and identified two other victims: Pur Bahadur Gurung (also known as Yukta), who summited Everest 10 times and was part of the 2024 team that discovered a shoe believed to belong to British climber Andrew Irvine, and Kili Pemba Sherpa, who worked as a guide for Imagine Nepal expedition company.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_025",
+            "clm_026"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "Fox News identified American climber Sarah Mallory Geis as one of the expedition members killed, and reported that Purja had been leading the expedition group up Broad Peak at the time of the avalanche.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Straits Times reported that the Alpine Club of Pakistan stated on August 2 that a ground rescue team was transporting four bodies, including those of Purja, two Nepali nationals, and a Chinese citizen. The outlet also reported that hundreds of Nepalis, including approximately 500 mourners and Buddhist monks, held a candlelight vigil in the Nepali capital on August 4.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_024"
+          ],
+          "source_ids": [
+            "src_006"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "BBC News reported that in his last post on social media platform X, published on a Monday, Purja stated he had not originally planned to climb Broad Peak, but added it to his itinerary to be within one mountain of becoming the first person in history to climb all 14 eight-thousanders twice without supplemental oxygen. He had successfully summited Gasherbrum II on July 21—his 57th summit of an eight-thousander—before deciding to also attempt Broad Peak.",
+        "supports": {
+          "claim_ids": [
+            "clm_020",
+            "clm_028"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p11",
+        "text": "BBC News also noted that Norwegian mountaineer Kristin Harila subsequently broke Purja's 2019 record by climbing all 14 peaks in three months and one day in 2023.",
+        "supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p12",
+        "text": "In 2024, a New York Times article detailed sexual assault allegations made by two women against Purja, which he denied through his lawyer. This reporting appeared only in BBC News coverage.",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_003",
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}

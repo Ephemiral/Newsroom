@@ -1,0 +1,942 @@
+{
+  "schema_version": "0.6",
+  "event": {
+    "cluster_id": "evt_2026_08_04_asia_002",
+    "beat": "asia",
+    "title": "Three Lions Die from Suspected Heatstroke at Tokyo's Tama Zoological Park",
+    "summary": "Three female lions at Tama Zoological Park in Hino, Tokyo died between July 28 and August 2, 2026, from suspected heatstroke amid record-breaking summer temperatures in Japan. Several other lions at the zoo fell ill and required treatment, prompting suspension of the lion exhibit since July 23.",
+    "date": "2026-08-03",
+    "generated_at": "2026-08-04T15:30:32.002493+00:00",
+    "entities": [
+      {
+        "entity_id": "ent_organization_tama_zoological_park",
+        "surfaces": [
+          "Tama Zoological Park",
+          "Tama Zoo"
+        ],
+        "relevance_to_event": "The specific zoo where the three lions died and where 10 of 16 lions fell ill during the heatwave, making it the primary location and subject of this incident.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_005",
+            "clm_006",
+            "clm_008",
+            "clm_010",
+            "clm_022"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_hino_tokyo",
+        "surfaces": [
+          "Hino, Tokyo",
+          "Hino",
+          "western Tokyo"
+        ],
+        "relevance_to_event": "The city location of Tama Zoological Park where the lion deaths occurred during the record-breaking heat event.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_001"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_japan",
+        "surfaces": [
+          "Japan"
+        ],
+        "relevance_to_event": "The country experiencing record-breaking summer temperatures in 2026 that directly caused the suspected heatstroke deaths of the lions and affected tens of thousands of people.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_011",
+            "clm_012",
+            "clm_014",
+            "clm_015",
+            "clm_016",
+            "clm_017"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_location_isesaki",
+        "surfaces": [
+          "Isesaki"
+        ],
+        "relevance_to_event": "The city where Japan's all-time temperature record of 41.8°C was recorded in August 2026, illustrating the extreme heat conditions that contributed to the lion deaths.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_015"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      },
+      {
+        "entity_id": "ent_person_hideaki_karaki",
+        "surfaces": [
+          "Professor Hideaki Karaki"
+        ],
+        "relevance_to_event": "A professor cited in the report whose explanation of how lions regulate body temperature through deep breathing rather than sweating helps explain why the high humidity in Japan's heat was particularly dangerous for the lions.",
+        "relevance_supports": {
+          "claim_ids": [],
+          "source_ids": []
+        },
+        "relevance_grounding": "sources_fallback"
+      },
+      {
+        "entity_id": "ent_organization_south_korea",
+        "surfaces": [
+          "South Korea"
+        ],
+        "relevance_to_event": "A neighboring country experiencing a concurrent heatwave during the same period, contextualizing the broader regional extreme heat event affecting the Asia-Pacific region.",
+        "relevance_supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": []
+        },
+        "relevance_grounding": "claims"
+      }
+    ],
+    "image_attempted_at": "2026-08-04T15:31:37.513497+00:00",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Tama-zoo.jpg/1280px-Tama-zoo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "full_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Tama-zoo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tama-zoo.jpg",
+      "width": 1200,
+      "height": 900,
+      "caption": "Tama Zoological Park in Hino, Tokyo (file photo)",
+      "credit": "Dddeco at Japanese Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "provider": "wikimedia_commons",
+      "file_title": "File:Tama-zoo.jpg",
+      "query": "Tama Zoological Park Tokyo",
+      "fetched_at": "2026-08-04T15:31:37.513464+00:00"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src_001",
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/04/three-lions-dead-suspected-heatstroke-japan-zoo-heatwave",
+      "author": "Agence France-Presse",
+      "published_at": "2026-08-04T05:46:06+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "AllSides",
+      "state_alignment": null,
+      "ownership": "Owned by Scott Trust Limited, a not-for-profit trust established to preserve the Guardian's editorial independence in perpetuity. No commercial owner.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_002",
+      "outlet": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c3r0j9qqdxpo?at_medium=RSS&at_campaign=rss",
+      "author": null,
+      "published_at": "2026-08-04T03:51:49+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "Ad Fontes Media",
+      "state_alignment": null,
+      "ownership": "Publicly funded; governed by the BBC Royal Charter. Funded primarily through the UK television licence fee paid by UK households.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_003",
+      "outlet": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/08/04/japan/science-health/heat-lion-deaths-tokyo-zoo/",
+      "author": null,
+      "published_at": "2026-08-04T06:07:00+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by News2u Holdings (Japanese PR/communications group) since 2017.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_004",
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/asia/three-lions-die-of-heatstroke-at-tokyo-zoo",
+      "author": null,
+      "published_at": "2026-08-03T09:33:00+00:00",
+      "bias_rating": "center-right",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Published by SPH Media Trust, a Singapore not-for-profit backed by government funding since the 2021 restructuring.",
+      "author_background": null,
+      "amplification_signal": null
+    },
+    {
+      "source_id": "src_005",
+      "outlet": "South China Morning Post",
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3362895/3-lions-perish-tokyo-zoo-japan-bakes-cruelly-hot-summer?utm_source=rss_feed",
+      "author": "SCMP’s Asia desk",
+      "published_at": "2026-08-04T06:49:55+00:00",
+      "bias_rating": "center-left",
+      "bias_rating_source": "MBFC",
+      "state_alignment": null,
+      "ownership": "Owned by Alibaba Group (Chinese e-commerce conglomerate) since 2016.",
+      "author_background": null,
+      "amplification_signal": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_001",
+      "text": "Three female lions died at Tama Zoological Park in Hino, Tokyo between July 28 and August 2, 2026.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "lion_deaths",
+      "rationale": "All five outlets across center-left and center-right bias tiers report this core fact consistently, satisfying the cross-spectrum agreement requirement.",
+      "framing_variants": [
+        {
+          "characterization": "Reports three lions from Tama zoological park died from 'suspected heatstroke', with one dying Tuesday, another Friday, and the third Sunday.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports three female lions died 'of suspected heat-related illness' within a week, naming Mugi (July 28), Ichigo (July 31), and Luena (Sunday).",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Reports 'three lions have died at a Tokyo zoo', deaths 'most likely due to extreme heat'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "Specifies the deaths occurred 'between July 28 and Aug 2', describing it as a 'believed' case of heatstroke.",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "Describes the lionesses as having 'succumbed to the brutal temperatures', with deaths last Tuesday, Friday, and Sunday.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_002",
+      "text": "The three deceased lions were aged three to 15 years old and were named Mugi (age 3), Ichigo (age 11), and Luena (age 15).",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "lion_deaths",
+      "rationale": "The age range is confirmed by center-left (BBC, Japan Times) and center-right (Straits Times) outlets; individual names and ages are provided by BBC and Japan Times.",
+      "framing_variants": [
+        {
+          "characterization": "Names all three lions individually: Mugi (3), Ichigo (11), and Luena (15), with specific death dates.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Lists names and ages: Mugi age 3, Ichigo age 11, Luena age 15.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "States the lions were 'aged three to 15' without naming them individually.",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_003",
+      "text": "Autopsies of the deceased lions revealed dehydration and multiple organ failure.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "lion_deaths",
+      "rationale": "Center-left (Guardian, BBC) and center-right (Straits Times) outlets all report the same autopsy findings, and SCMP also corroborates, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "'Dehydration and multiple organ failure were observed by a veterinarian.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "'Autopsies show that the lions, aged three to 15, had suffered from dehydration and multiple organ failure.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "'Autopsies revealed that all three suffered from dehydration and multiple organ failure.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "'Dehydration and multiple organ failure were observed' per the veterinarian.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_004",
+      "text": "Heatstroke is the suspected or believed cause of death for all three lions.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "lion_deaths",
+      "rationale": "All five outlets across center-left and center-right bias tiers attribute the deaths to suspected or believed heatstroke, providing strong cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Describes deaths as from 'suspected heatstroke'.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes deaths as 'suspected heat-related illness'.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "States deaths were 'most likely due to extreme heat'.",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "'The cause of all the deaths is believed to be heatstroke.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "'According to our veterinarian, the cause of the deaths is suspected to be heatstroke.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_005",
+      "text": "This was the first time lions had died due to heat at Tama Zoological Park.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "lion_deaths",
+      "rationale": "Both BBC (center-left) and Straits Times (center-right) report the zoo's statement that this was unprecedented, meeting the cross-spectrum threshold.",
+      "framing_variants": [
+        {
+          "characterization": "Zoo representative Miwa Kosaka: 'This is the first time we've experienced anything like this. Last year was also hot, but none of our lions fell ill like this.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "'There has never been a case in which lions died due to heat at Tama Zoological Park.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_006",
+      "text": "As of July 2026, Tama Zoological Park housed 16 lions in total — five males and 11 females aged one to 20 — and 10 of them developed symptoms including loss of appetite, fatigue, and decreased activity beginning in mid-July.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "animal_health_status",
+      "rationale": "The total of 16 lions and the 10 affected animals are confirmed by center-left (Guardian, Japan Times, SCMP) and center-right (Straits Times) outlets, providing cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "'Since mid-July, 10 of the 16 lions in Tama zoological park have suffered from loss of appetite and decreased activity.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Specifies park housed '16 lions — five males and 11 females, aged one to 20'; 'Ten lions developed symptoms such as loss of appetite and reduced activity.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "'10 out of its 16 big cats started showing loss of appetite and decreased activity from the heat.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Notes zoo had 16 lions as of July 18 including five males; 'several showed signs of sickness such as loss of appetite, fatigue and decreased activity.'",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_004",
+        "src_005",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_007",
+      "text": "As of early August, three lions (two males and one female) remained unwell and unable to stand, while four lions had shown signs of recovery and six had remained in good health throughout.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "animal_health_status",
+      "rationale": "Multiple outlets report surviving lions still receiving treatment, but detailed breakdown of recovery versus ongoing illness is most fully reported by center-left outlets; Straits Times also corroborates the still-unwell count.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 'three lions — two males and one female — still unwell and unable to stand'; four showed recovery signs; six always in good health.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "'One female and two male lions remain in poor health and are undergoing treatment.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "States 'others are undergoing treatment' without detailed breakdown.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_008",
+      "text": "The lion exhibit and lion bus service at Tama Zoo were suspended beginning July 23 due to the heatwave making lions ill.",
+      "classification": "agreed",
+      "dispute_type": null,
+      "claim_group": "zoo_response",
+      "rationale": "BBC (center-left), Japan Times (center-left), Straits Times (center-right), and SCMP (center-left) all report the July 23 suspension, satisfying cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "'Tama Zoo announced last month that it would suspend its lion exhibit and lion bus service' due to a 'sudden heatwave' making lions ill.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "'The park's lion exhibit had been suspended since July 23.'",
+          "source_id": "src_003"
+        },
+        {
+          "characterization": "'Public viewing of the animals has been suspended since July 23.'",
+          "source_id": "src_004"
+        },
+        {
+          "characterization": "'The zoo's lion exhibit has been suspended since July 23.'",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_009",
+      "text": "Zoo staff administered fluids, medication, vitamins, ventilation, and water cooling to sick lions; remaining lions were moved to a private enclosure with portable air-conditioners and industrial fans, and other countermeasures including water sprinkling and improved ventilation were implemented.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "zoo_response",
+      "rationale": "Multiple center-left outlets report overlapping treatment and countermeasures in detail; no center-right source provides equivalent granularity, so this does not reach cross-spectrum agreement.",
+      "framing_variants": [
+        {
+          "characterization": "Details fluids, ventilation, water, liver tonics, vitamins for Mugi; states remaining lions moved to private enclosure with portable air-conditioners and industrial fans.",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "Lists zoo countermeasures: 'sprinkling water, improving ventilation and installing spot air conditioners.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "States 'zookeepers have been strengthening countermeasures to cope with Japan's summer heat in recent years'; others still being looked after.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_001",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_010",
+      "text": "The Tama zoo has been breeding and exhibiting lions since 1964 and offers a safari-style bus service for visitors.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "zoo_response",
+      "rationale": "Both BBC and Straits Times report the 1964 start date, but both are reporting the same zoo-provided historical fact; sources span center-left and center-right, providing cross-spectrum support — however only two sources report it and it is a background fact.",
+      "framing_variants": [
+        {
+          "characterization": "'Its lions have long been a key attraction, having been bred and exhibited since 1964'; offers 'a safari-style bus service for visitors.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "'The park began breeding and exhibiting lions in 1964.'",
+          "source_id": "src_004"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_004"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_011",
+      "text": "Japan's humid summer heat created conditions that impaired lions' ability to cool themselves, since lions regulate body temperature by expelling moisture through deep breathing rather than sweating, and high humidity prevents sufficient temperature reduction.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "heat_explanation",
+      "rationale": "Only BBC reports Professor Hideaki Karaki's detailed physiological explanation of lion thermoregulation and humidity's effect on it.",
+      "framing_variants": [
+        {
+          "characterization": "Professor Hideaki Karaki of the University of Tokyo explains that lions expel moisture through deep breathing; high humidity prevents sufficient body temperature reduction.",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_012",
+      "text": "Japan's humid heat is different from the dry heat of Africa, which is noted as a factor making Japan's conditions more dangerous for lions.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "heat_explanation",
+      "rationale": "Both Guardian (center-left) and SCMP (center-left) report this zoo spokesperson quote; however both are center-left, so this is corroborated rather than cross-spectrum agreed.",
+      "framing_variants": [
+        {
+          "characterization": "Zoo spokesperson: 'Heat here comes with high humidity; that is different from heat with dry air in Africa.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Adds context that 'lions are thought to be resistant to heat' before explaining Japan's humidity difference.",
+          "source_id": "src_005"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_005"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_013",
+      "text": "A sudden spike in temperature in mid-July, after the rainy season ended in late July, may have prevented lions from acclimating to the heat.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "heat_explanation",
+      "rationale": "Multiple center-left outlets report the abrupt onset of heat following the rainy season as a contributing factor, but no center-right source specifically frames it this way.",
+      "framing_variants": [
+        {
+          "characterization": "Expert cites 'sudden spike in temperature in mid-July, leaving the animals insufficient time to acclimatise.'",
+          "source_id": "src_002"
+        },
+        {
+          "characterization": "'Heat arrived suddenly after the rainy season was over in late July'; summer heat 'came early this year.'",
+          "source_id": "src_005"
+        },
+        {
+          "characterization": "Notes rainy season ended in late July and parts of Japan hit 40C in recent weeks.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_002",
+        "src_005",
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_014",
+      "text": "Parts of Japan have reached 40°C in recent weeks, and Japan has introduced an official designation called 'cruelly hot day' for temperatures of 40°C or above.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "japan_heat_crisis",
+      "rationale": "Both Guardian and BBC, spanning center-left, report the 40°C threshold and the 'cruelly hot day' designation; the Straits Times (center-right) also reports on extreme heat context, providing sufficient cross-spectrum support for the temperature fact.",
+      "framing_variants": [
+        {
+          "characterization": "States 'parts of the country have hit 40C in recent weeks, qualifying for the new cruelly hot day designation.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes 'some cities seeing several cruelly hot days — a term used for days when temperatures rise above 40C.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_015",
+      "text": "Japan experienced record-breaking temperatures for several weeks in summer 2026, with the country's highest-ever recorded temperature of 41.8°C measured in Isesaki in August.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "japan_heat_crisis",
+      "rationale": "The Guardian and Japan Times both report record-breaking temperatures, with the Guardian providing the specific record figure; both are center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "States Japan's highest recorded temperature was 41.8°C in Isesaki, registered in August; 'Japan sweltered through its hottest summer on record last year.'",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Describes 'several weeks of record-breaking temperatures across Japan' as context for the lion deaths.",
+          "source_id": "src_003"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_003"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_016",
+      "text": "Approximately 18,600 people in Japan were hospitalized for heatstroke between July 20 and 26, with 45 pronounced dead on arrival; overall more than 43,000 people have been hospitalized for heatstroke during the summer.",
+      "classification": "corroborated",
+      "dispute_type": null,
+      "claim_group": "japan_heat_crisis",
+      "rationale": "The Guardian (citing the fire and disaster management agency) and BBC both report large-scale heatstroke hospitalizations, with slightly different time windows but consistent scale; both are center-left outlets.",
+      "framing_variants": [
+        {
+          "characterization": "Reports 18,600 hospitalizations and 45 deaths on arrival for the week of July 20–26, per Japan's fire and disaster management agency.",
+          "source_id": "src_001"
+        },
+        {
+          "characterization": "Reports 'more than 43,000 people across Japan have been taken into hospital for heatstroke in this summer alone.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_001",
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_017",
+      "text": "Japan experiences approximately 1,300 heat-related deaths annually and the government is aiming to halve that number by 2030.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "japan_heat_crisis",
+      "rationale": "Only the Guardian reports this annual mortality figure and the government's 2030 target.",
+      "framing_variants": [
+        {
+          "characterization": "States 'Japan experiences about 1,300 heat-related deaths annually' and 'is aiming to halve that number by 2030.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_018",
+      "text": "The Japanese government has issued heat warnings, urged residents to stay cool, and encouraged office workers to wear breezier attire.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "japan_heat_crisis",
+      "rationale": "Only BBC details the Japanese government's specific public-facing heat guidance measures.",
+      "framing_variants": [
+        {
+          "characterization": "Reports government issued heat warnings, urged residents to stay cool, and encouraged office workers to 'ditch formal attire for breezier outfits.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_019",
+      "text": "Authorities in Japan have adjusted the timings of cultural and sporting events in recent years because of extreme heat, including the World Cosplay Summit in Nagoya holding its last summer edition.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "japan_heat_crisis",
+      "rationale": "Only the Guardian reports the adjustment of cultural and sporting event timings and the specific example of the World Cosplay Summit.",
+      "framing_variants": [
+        {
+          "characterization": "States authorities have adjusted event timings 'because of the heat,' citing the World Cosplay Summit in Nagoya as an example.",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_020",
+      "text": "Scientists attribute the increasing frequency and intensity of extreme heat events in Japan and globally to human-induced climate change.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "japan_heat_crisis",
+      "rationale": "Only the Guardian explicitly invokes scientific attribution of heat events to human-induced climate change in this cluster.",
+      "framing_variants": [
+        {
+          "characterization": "'Scientists say human-induced climate change is increasing the frequency and intensity of extreme heat events in Japan and elsewhere.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_021",
+      "text": "South Korea is also experiencing a heatwave, with rising summer temperatures linked to at least 16 deaths.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "regional_heat_context",
+      "rationale": "Only the Guardian mentions South Korea's concurrent heatwave and associated deaths.",
+      "framing_variants": [
+        {
+          "characterization": "States 'South Korea is currently engulfed by a heatwave, with the rising summer temperatures linked to at least 16 deaths.'",
+          "source_id": "src_001"
+        }
+      ],
+      "supported_by": [
+        "src_001"
+      ],
+      "contested_by": []
+    },
+    {
+      "claim_id": "clm_022",
+      "text": "Tama Zoological Park houses approximately 260 species of animals and lions have been a key attraction since 1964, with a safari-style bus service for viewing.",
+      "classification": "single_source",
+      "dispute_type": null,
+      "claim_group": "zoo_response",
+      "rationale": "Only BBC reports the '260 species' figure and the safari-bus service as background on the zoo.",
+      "framing_variants": [
+        {
+          "characterization": "'Tama Zoo houses about 260 species of animals. Its lions have long been a key attraction, having been bred and exhibited since 1964'; offers 'a safari-style bus service for visitors.'",
+          "source_id": "src_002"
+        }
+      ],
+      "supported_by": [
+        "src_002"
+      ],
+      "contested_by": []
+    }
+  ],
+  "background": [
+    {
+      "point": "Japan's summer 2026 has been marked by record-breaking temperatures, with some areas reaching 40°C or above — triggering an official new category called 'cruelly hot day.' The country's all-time temperature record of 41.8°C was set in Isesaki in August.",
+      "sources": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ]
+    },
+    {
+      "point": "Lions are adapted to the dry heat of African savannas and regulate body temperature through deep breathing rather than sweating. Japan's combination of high heat and high humidity is physiologically distinct from their native environment and impairs this cooling mechanism.",
+      "sources": [
+        "src_002",
+        "src_001",
+        "src_005"
+      ]
+    },
+    {
+      "point": "Tama Zoological Park in Hino, western Tokyo, has housed and exhibited lions since 1964 and is home to approximately 260 species. It is one of Japan's prominent public zoos and offers a safari-style bus tour of its lion enclosure.",
+      "sources": [
+        "src_002",
+        "src_004"
+      ]
+    },
+    {
+      "point": "Japan has seen tens of thousands of heatstroke hospitalizations and dozens of deaths in summer 2026, prompting government heat warnings and encouraging the public and workplaces to adapt. The government has set a goal of halving approximately 1,300 annual heat-related deaths by 2030.",
+      "sources": [
+        "src_001",
+        "src_002"
+      ]
+    }
+  ],
+  "report": {
+    "schema_version": "0.2",
+    "generated_at": "2026-08-04T15:31:00.941074+00:00",
+    "paragraphs": [
+      {
+        "paragraph_id": "p1",
+        "text": "Three female lions died at Tama Zoological Park in Hino, Tokyo between July 28 and August 2, 2026. The deceased lions were aged three to 15 years old and were named Mugi (age 3), Ichigo (age 11), and Luena (age 15). Autopsies revealed dehydration and multiple organ failure in all three animals. Heatstroke is the suspected cause of death, marking the first time lions had died due to heat at the zoo.",
+        "supports": {
+          "claim_ids": [
+            "clm_001",
+            "clm_002",
+            "clm_003",
+            "clm_004",
+            "clm_005"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p2",
+        "text": "As of July 2026, Tama Zoological Park housed 16 lions in total — five males and 11 females aged one to 20 — and 10 of them developed symptoms including loss of appetite, fatigue, and decreased activity beginning in mid-July. The lion exhibit and lion bus service at the zoo were suspended beginning July 23 due to the heatwave making lions ill.",
+        "supports": {
+          "claim_ids": [
+            "clm_006",
+            "clm_008"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "agreed"
+      },
+      {
+        "paragraph_id": "p3",
+        "text": "Tama Zoological Park has been breeding and exhibiting lions since 1964 and offers a safari-style bus service for visitors. The zoo houses approximately 260 species of animals, and lions have been a key attraction for over six decades.",
+        "supports": {
+          "claim_ids": [
+            "clm_010",
+            "clm_022"
+          ],
+          "source_ids": [
+            "src_002",
+            "src_004"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p4",
+        "text": "The deaths occurred during record-breaking summer temperatures in Japan. Parts of the country reached 40°C in recent weeks, prompting Japan to introduce an official designation called 'cruelly hot day' for temperatures of 40°C or above. The country's highest-ever recorded temperature of 41.8°C was measured in Isesaki in August.",
+        "supports": {
+          "claim_ids": [
+            "clm_014",
+            "clm_015"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p5",
+        "text": "Center-left outlets provide detailed reporting on the zoo's medical response and environmental countermeasures. Zoo staff administered fluids, medication, vitamins, ventilation, and water cooling to sick lions. Remaining lions were moved to a private enclosure with portable air-conditioners and industrial fans, and other countermeasures including water sprinkling and improved ventilation were implemented. As of early August, three lions (two males and one female) remained unwell and unable to stand, while four lions had shown signs of recovery and six had remained in good health throughout.",
+        "supports": {
+          "claim_ids": [
+            "clm_007",
+            "clm_009"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_004",
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p6",
+        "text": "Center-left outlets report that Japan's humid heat is different from the dry heat of Africa, which zoo officials noted as a factor making Japan's conditions more dangerous for lions. A sudden spike in temperature in mid-July, after the rainy season ended in late July, may have prevented lions from acclimating to the heat. The BBC cited Professor Hideaki Karaki's explanation that lions regulate body temperature by expelling moisture through deep breathing rather than sweating, and high humidity prevents sufficient temperature reduction, impairing their ability to cool themselves.",
+        "supports": {
+          "claim_ids": [
+            "clm_012",
+            "clm_013",
+            "clm_011"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002",
+            "src_005"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p7",
+        "text": "The lion deaths occurred within a broader human health crisis from extreme heat in Japan. Approximately 18,600 people were hospitalized for heatstroke between July 20 and 26, with 45 pronounced dead on arrival; overall more than 43,000 people have been hospitalized for heatstroke during the summer.",
+        "supports": {
+          "claim_ids": [
+            "clm_016"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "background"
+      },
+      {
+        "paragraph_id": "p8",
+        "text": "The Guardian reports that Japan experiences approximately 1,300 heat-related deaths annually and the government is aiming to halve that number by 2030. The Japanese government has issued heat warnings, urged residents to stay cool, and encouraged office workers to wear breezier attire, according to the BBC.",
+        "supports": {
+          "claim_ids": [
+            "clm_017",
+            "clm_018"
+          ],
+          "source_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p9",
+        "text": "The Guardian reports that authorities in Japan have adjusted the timings of cultural and sporting events in recent years because of extreme heat, including the World Cosplay Summit in Nagoya holding its last summer edition. Scientists attribute the increasing frequency and intensity of extreme heat events in Japan and globally to human-induced climate change, according to the same outlet.",
+        "supports": {
+          "claim_ids": [
+            "clm_019",
+            "clm_020"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      },
+      {
+        "paragraph_id": "p10",
+        "text": "The Guardian also noted that South Korea is experiencing a concurrent heatwave, with rising summer temperatures linked to at least 16 deaths.",
+        "supports": {
+          "claim_ids": [
+            "clm_021"
+          ],
+          "source_ids": [
+            "src_001"
+          ]
+        },
+        "kind": "one_sided"
+      }
+    ]
+  }
+}
