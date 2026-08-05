@@ -226,3 +226,7 @@
 {"kind": "person_grounded", "entity_id": "ent_person_prince_william", "name": "Prince William", "qid": "Q36812", "context": "British royal who paid tribute following the deaths", "event_id": "evt_2026_08_04_asia_001", "at": "2026-08-04T15:27:52.351112+00:00"}
 {"kind": "person_grounded", "entity_id": "ent_person_hideaki_karaki", "name": "Hideaki Karaki", "qid": "Q11418555", "context": "Professor cited explaining how lions regulate body temperature and why high humidity prevents their cooling mechanism", "event_id": "evt_2026_08_04_asia_002", "at": "2026-08-04T15:31:16.462210+00:00"}
 {"kind": "type_conflict", "name": "South Korea", "existing": "ent_organization_south_korea", "candidate_type": "location", "at": "2026-08-04T15:31:16.462424+00:00"}
+{"kind": "type_conflict", "name": "Spain", "existing": "ent_organization_spain", "candidate_type": "location", "at": "2026-08-05T04:07:44.835655+00:00"}
+{"kind": "low_confidence_match", "name": "Spain's Supreme Court", "candidates": ["ent_organization_spain"], "event_id": "evt_2026_08_05_europe_001", "at": "2026-08-05T04:07:48.749916+00:00"}
+{"kind": "type_conflict", "name": "Russia", "existing": "ent_organization_russia", "candidate_type": "location", "at": "2026-08-05T04:07:49.113984+00:00"}
+{"kind": "low_confidence_match", "name": "Russia", "candidates": ["ent_organization_russia_s_national_anti_terrorism_committee", "ent_organization_fsb"], "event_id": "evt_2026_08_05_europe_001", "at": "2026-08-05T04:07:51.874303+00:00"}

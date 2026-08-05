@@ -9,7 +9,8 @@
     "Spanish Prime Minister",
     "Prime Minister Sánchez",
     "Prime Minister",
-    "Sánchez"
+    "Sánchez",
+    "Prime Minister Pedro Sánchez"
   ],
   "wikidata_qid": "Q6070218",
   "summary": "Pedro Sánchez Pérez-Castejón is a Spanish politician and economist. A member of the Spanish Socialist Workers' Party (PSOE), he is the Prime Minister of Spain since 2018.",
@@ -80,10 +81,11 @@
     "evt_2026_08_01_europe_001",
     "evt_2026_08_03_europe_001",
     "evt_2026_08_03_europe_003",
-    "evt_2026_08_04_europe_001"
+    "evt_2026_08_04_europe_001",
+    "evt_2026_08_05_europe_001"
   ],
   "created_at": "2026-08-01T04:30:03.302188+00:00",
-  "last_updated": "2026-08-04T15:14:39.419096+00:00",
+  "last_updated": "2026-08-05T04:08:00.961051+00:00",
   "change_log": [
     {
       "date": "2026-08-01",

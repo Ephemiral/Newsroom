@@ -1,0 +1,61 @@
+{
+  "entity_schema_version": "0.1",
+  "entity_id": "ent_location_melilla",
+  "type": "location",
+  "canonical_name": "Melilla",
+  "aliases": [],
+  "wikidata_qid": "Q5831",
+  "summary": "Melilla is an autonomous city of Spain on the North African coast. It lies on the eastern side of the Cape Three Forks, bordering Morocco and facing the Mediterranean Sea.",
+  "summary_sources": [
+    "https://en.wikipedia.org/wiki/Melilla"
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/%28Melilla%29_Aterrizando_en_Melilla_%2816668390111%29.jpg/960px-%28Melilla%29_Aterrizando_en_Melilla_%2816668390111%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:(Melilla)_Aterrizando_en_Melilla_(16668390111).jpg",
+    "credit": "JJ Merelo",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "provider": "Wikimedia Commons",
+    "file_title": "File:(Melilla) Aterrizando en Melilla (16668390111).jpg",
+    "fetched_at": "2026-08-05T04:07:56.435095+00:00"
+  },
+  "roles_affiliations": [],
+  "connections": [],
+  "facts": [
+    {
+      "text": "It was part of the province of Málaga until 14 March 1995, when the Statute of Autonomy of Melilla was passed.",
+      "source_url": "https://en.wikipedia.org/wiki/Melilla",
+      "source_type": "reference_work",
+      "confidence_tier": "reported",
+      "fact_id": "fct_001",
+      "first_reported": "2026-08-05",
+      "last_updated": "2026-08-05",
+      "supersedes": null,
+      "contradicted_by": null
+    }
+  ],
+  "review_status": "auto",
+  "first_seen_event": "evt_2026_08_05_europe_001",
+  "appears_in_events": [
+    "evt_2026_08_05_europe_001"
+  ],
+  "created_at": "2026-08-05T04:07:54.184602+00:00",
+  "last_updated": "2026-08-05T04:08:00.961260+00:00",
+  "change_log": [
+    {
+      "date": "2026-08-05",
+      "summary_of_change": "Entity created from evt_2026_08_05_europe_001",
+      "source": null
+    },
+    {
+      "date": "2026-08-05",
+      "summary_of_change": "Grounded from Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Melilla"
+    },
+    {
+      "date": "2026-08-05",
+      "summary_of_change": "Grounded from Wikidata Q5831 + Wikipedia",
+      "source": "https://www.wikidata.org/wiki/Q5831"
+    }
+  ]
+}
